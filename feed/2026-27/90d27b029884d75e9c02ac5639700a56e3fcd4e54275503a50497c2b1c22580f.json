@@ -1,0 +1,1729 @@
+{
+ "label": "Lecce-Monza (g4)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-05T17:52:04.034Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-09-13T13:00:00Z",
+  "hoursAfterKickoff": 532.8677872222222,
+  "observation": {
+   "retrievedAt": "2026-10-05T17:52:04.034Z",
+   "sha256": "6489ed89e621e31c5a7299724b1460399eb746634446ef84828b89a2b9eb9c75"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-05T17:52:47.705Z",
+  "sha256": "2142bf1cca5b62b793370f0e5f93362f0bc99ce83126a3aaf782b8590667c029"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::b7ecdcd497b3445490aa0f0ba58468b5",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-09-13T13:00:00Z",
+   "matchday": 4,
+   "home": "Lecce",
+   "away": "Monza",
+   "homeTeamId": "serie-a::Football_Team::ced7bf0df3a140dfa48138311122133b",
+   "awayTeamId": "serie-a::Football_Team::9ba470f39580450fac7654956ba574fa",
+   "homeScore": 3,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::b7ecdcd497b3445490aa0f0ba58468b5",
+   "homeTeam": "Lecce",
+   "awayTeam": "Monza",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::1892b78973b5448fa477250b8a5732db",
+     "providerId": "opta:Player:3nfxhugbxid6o0r92txslivh1",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Wladimiro",
+     "lastName": "Falcone",
+     "shirtName": "Wladimiro Falcone",
+     "displayName": "Falcone",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f85cb815ee9642e5a264ae703cb87da8",
+     "providerId": "kama:Player:99180",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Jamil",
+     "lastName": "Siebert",
+     "shirtName": "Jamil Siebert",
+     "displayName": "Siebert",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aacc54c788404b6d9945a11fef21aa1e",
+     "providerId": "opta:Player:1lisq580zw4yfk6id6f1dwr56",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Danilo Filipe",
+     "lastName": "De Melo Veiga",
+     "shirtName": "Danilo Veiga",
+     "displayName": "Danilo Veiga",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::386bc75089ad468196b1372d6a4e85af",
+     "providerId": "opta:Player:1oszv53od5pulbhx566ht984q",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Antonino",
+     "lastName": "Gallo",
+     "shirtName": "Antonino Gallo",
+     "displayName": "Gallo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::17a1eabd8e2145e89f8cec8be9a90ce9",
+     "providerId": "opta:Player:dfsb8uzowi737si30le6gjaxg",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Tiago Gabriel",
+     "lastName": "Coelho Oliveira",
+     "shirtName": "Tiago Gabriel",
+     "displayName": "Tiago Gabriel",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 10,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1b963dfa250b41d5b596ef5ad7cb1379"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::585e8188ab1f452eb0225212825c051a",
+     "providerId": "opta:Player:7pg1pu4ptby6hi0rp29hv4jxl",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Lassana",
+     "lastName": "Coulibaly",
+     "shirtName": "Lassana Coulibaly",
+     "displayName": "L. Coulibaly",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 3,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1b963dfa250b41d5b596ef5ad7cb1379"
+      },
+      {
+       "type": "goal",
+       "time": 21,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aacc54c788404b6d9945a11fef21aa1e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1b963dfa250b41d5b596ef5ad7cb1379",
+     "providerId": "opta:Player:7hwj9pf9roe74jifvuhiu6n6x",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Ivan",
+     "lastName": "Ilić",
+     "shirtName": "Ivan Ilić",
+     "displayName": "Ilić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7187f62fdf5e476dabd0cf06ec21d580"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c608c4d673404cd7adf05b86d036e0f3",
+     "providerId": "opta:Player:d9sakxlp96siw0z1jltszdlgp",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Youssef",
+     "lastName": "Maleh",
+     "shirtName": "Youssef Maleh",
+     "displayName": "Maleh",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0feeab7cfc9341e5b374fce91829cbff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6b65d68dbfb64a4abe4ccc3915c8509d",
+     "providerId": "kama:Player:99266",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Nikola",
+     "lastName": "Štulić",
+     "shirtName": "Nikola Štulić",
+     "displayName": "Štulić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::43bed06648544f45be8081ce1b7c5d47"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e21ec3d7987a432399ab1c750f183047",
+     "providerId": "kama:Player:110408",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Joël",
+     "lastName": "Almada Monteiro",
+     "shirtName": "Joël Monteiro",
+     "displayName": "Monteiro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0d4b11d4fe6746f5ac99e69c5abd6550"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ab36af56054945ef8f56a3b54cd323c5",
+     "providerId": "opta:Player:8xjlysmwl5vnhcnvsynftjd62",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Konan Ignace Jocelyn",
+     "lastName": "N'Dri",
+     "shirtName": "Konan N’Dri",
+     "displayName": "N'Dri",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 38,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9154d20dd59c4f3586de460f5f303d71"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5b21770364df42bd88a0a48834d7c9ee",
+     "providerId": "opta:Player:3iveuhunq47tg8lg0lm3d31sl",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Marco",
+     "lastName": "Bleve",
+     "shirtName": "Marco Bleve",
+     "displayName": "Bleve",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9a9569e4ad8448788554ec9d12f39f1a",
+     "providerId": "opta:Player:ep4t3sab4jiawuwa1el2e3r6y",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Gabriel Alexandru",
+     "lastName": "Borbei",
+     "shirtName": "Alexandru Borbei",
+     "displayName": "Borbei",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9de4e3f19b5e489b9f8eec96d7532148",
+     "providerId": "opta:Player:eug1as582cl6ji78ylyq4zfo4",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Ali Bina",
+     "lastName": "Dembelé",
+     "shirtName": "Ali Dembélé",
+     "displayName": "Dembélé",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::93890966ccb24dbf94485489f23f81ea",
+     "providerId": "kama:Player:98843",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Corrie Richard",
+     "lastName": "Ndaba",
+     "shirtName": "Corrie Ndaba",
+     "displayName": "Ndaba",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2241d16b749246698712e2d0f18ce48c",
+     "providerId": "opta:Player:6udrxynn6611j9tjm258iu80k",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Kialonda",
+     "lastName": "Gaspar",
+     "shirtName": "Kialonda Gaspar",
+     "displayName": "Gaspar",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0d4b11d4fe6746f5ac99e69c5abd6550",
+     "providerId": "kama:Player:110255",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Amar Abdirahman",
+     "lastName": "Ahmed Fatah",
+     "shirtName": "Amar Fatah",
+     "displayName": "Fatah",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e21ec3d7987a432399ab1c750f183047"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c05c5195bc064a1fbfd39b72715018b2",
+     "providerId": "kama:Player:100585",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Sadik",
+     "lastName": "Fofana",
+     "shirtName": "Sadik Fofana",
+     "displayName": "S. Fofana",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::635e82f4100e46138e16480d1fdc5b70",
+     "providerId": "opta:Player:pl5ns1qxie3gqhzoe33s7ip6",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Gaby",
+     "lastName": "Jean",
+     "shirtName": "Gaby Jean",
+     "displayName": "Jean",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::43bed06648544f45be8081ce1b7c5d47",
+     "providerId": "kama:Player:99341",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Francisco",
+     "lastName": "Esteban Sánchez",
+     "shirtName": "Paco Esteban",
+     "displayName": "Paco Esteban",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6b65d68dbfb64a4abe4ccc3915c8509d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::68347a9ebb3c4e27b5208dc818bc2bdf",
+     "providerId": "opta:Player:ake9g5cu6vhwm4tip27gbvuac",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Olaf Gooitzen Paul",
+     "lastName": "Gorter",
+     "shirtName": "Olaf Gorter",
+     "displayName": "Gorter",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e4099a865fc345f1ab18a8eea0af8694",
+     "providerId": "opta:Player:7abvso6syr9dv9krn9arhtdec",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Elijah Monte",
+     "lastName": "Scott",
+     "shirtName": "Elijah Scott",
+     "displayName": "Scott",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9154d20dd59c4f3586de460f5f303d71",
+     "providerId": "opta:Player:dy4p5raczhbmglfsu8n4xcdwq",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Santiago Daniel",
+     "lastName": "Pierotti",
+     "shirtName": "Santiago Pierotti",
+     "displayName": "Pierotti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ab36af56054945ef8f56a3b54cd323c5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0feeab7cfc9341e5b374fce91829cbff",
+     "providerId": "kama:Player:5562",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Mohamed",
+     "lastName": "Dramé",
+     "shirtName": "Mohamed Dramé",
+     "displayName": "Kaba",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c608c4d673404cd7adf05b86d036e0f3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7187f62fdf5e476dabd0cf06ec21d580",
+     "providerId": "kama:Player:100562",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Oumar Jacky",
+     "lastName": "Ngom",
+     "shirtName": "Oumar Ngom",
+     "displayName": "Ngom",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1b963dfa250b41d5b596ef5ad7cb1379"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8aa6621a1fa44300acfe469c398ab375",
+     "providerId": "opta:Player:6710kg06aejtq0tq9a7303z6x",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Ngagne Demba",
+     "lastName": "Thiam",
+     "shirtName": "D. Thiam",
+     "displayName": "Thiam",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8baf539ce4ee47b480e09125880b68e5",
+     "providerId": "kama:Player:101643",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Ricardo Luis",
+     "lastName": "Chaby Mangas",
+     "shirtName": "Ricardo Mangas",
+     "displayName": "Mangas",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 20,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0a2dc8ae97814840b2d66181479af681"
+      },
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6bf62d4c13314ffb9827655c508c7c5c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f977a99f92904bcb99dc760df55027d0",
+     "providerId": "opta:Player:eqb9vu09rjjofy9iksko10qac",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Lorenzo",
+     "lastName": "Lucchesi",
+     "shirtName": "Lorenzo Lucchesi",
+     "displayName": "Lucchesi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdbd7dfe606548d5919e564f018239bf",
+     "providerId": "opta:Player:chjjcy789cuwlsik2ibmubtyi",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Carboni",
+     "shirtName": "Andrea Carboni",
+     "displayName": "A. Carboni",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf",
+     "providerId": "kama:Player:1479",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Nda Konan Bienvenu Ange Eddy",
+     "lastName": "Kouadio",
+     "shirtName": "Eddy Kouadio",
+     "displayName": "Kouadio",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0a2dc8ae97814840b2d66181479af681",
+     "providerId": "opta:Player:721e4tx2wrwb4kd9w80fcq19l",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Samuele",
+     "lastName": "Birindelli",
+     "shirtName": "Samuele Birindelli",
+     "displayName": "Birindelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::74c636656c5343ee921582563943e359",
+     "providerId": "opta:Player:3o7gvykqi9ldgjrzxl14dqas4",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Ebenezer Ajodun",
+     "lastName": "Akinsanmiro",
+     "shirtName": "Ebenezer Akinsanmiro",
+     "displayName": "Akinsanmiro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::91dd4a71bf174a58b4e5f417a7e4a207"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8515fd6ab0fa4664986c06114f16c11c",
+     "providerId": "kama:Player:101845",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Jay Steven",
+     "lastName": "Robinson",
+     "shirtName": "Jay Robinson",
+     "displayName": "Robinson",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4919025f871840d199d459a2c636266e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ea7e072211441fe9dccc9cfa52fb58e",
+     "providerId": "opta:Player:8ofihttdgz6nyxxon2zim7x0p",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Michael",
+     "lastName": "Folorunsho Ijiemuan",
+     "shirtName": "Michael Folorunsho",
+     "displayName": "Folorunsho",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e2859a14dfaa486aa3f62d1fcf297347",
+     "providerId": "opta:Player:duqiler25n63ksi0fxreo50mi",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Colpani",
+     "shirtName": "A. Colpani",
+     "displayName": "Colpani",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ec2d9929b8df4529a4a069636f9afd52"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4c35cd67ad9c4354a7d01c62abacd4f2",
+     "providerId": "kama:Player:101672",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Gustavo Miguel",
+     "lastName": "Pereira De Sousa Varela",
+     "shirtName": "Gustavo Varela",
+     "displayName": "Varela",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::96055ebe6dee4170beba44ac206302b1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::66b07ea257a845bfa69075df0b4e9238",
+     "providerId": "kama:Player:99288",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Noel Max Joachim",
+     "lastName": "Törnqvist",
+     "shirtName": "Noel Törnqvist",
+     "displayName": "Törnqvist",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4872031374424f7ebd1b0064c7e12df5",
+     "providerId": "kama:Player:99164",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Aljaz",
+     "lastName": "Strajnar",
+     "shirtName": "Aljaz Strajnar",
+     "displayName": "Strajnar",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50a60abf290e4880afe7411c15616fb2",
+     "providerId": "opta:Player:6pzskxh8wy2b4gaf4kj6zuivo",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Saba",
+     "lastName": "Goglichidze",
+     "shirtName": "Saba Goglichidze",
+     "displayName": "Goglichidze",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ffe28ec84b54bf5affaa1ae6b491bd5",
+     "providerId": "kama:Player:4557",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Kouadio Yvan Ezekiel",
+     "lastName": "Maye",
+     "shirtName": "Yvan Maye",
+     "displayName": "Maye",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::96d29e1cc6614f8e842657e0176cba69",
+     "providerId": "opta:Player:1b8uwkohkevu6ltjex0liklpl",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Valentin",
+     "lastName": "Antov",
+     "shirtName": "Valentin Antov",
+     "displayName": "Antov",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3c26ed095339412792451f33565fba12",
+     "providerId": "kama:Player:101373",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Manga Michel Quentin",
+     "lastName": "Foe Ondoa",
+     "shirtName": "Manga Foe Ondoa",
+     "displayName": "Foe-Ondoa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4919025f871840d199d459a2c636266e",
+     "providerId": "opta:Player:7dnu1vdavskc4ct33k88lpdcl",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Patrick",
+     "lastName": "Cutrone",
+     "shirtName": "Patrick Cutrone",
+     "displayName": "Cutrone",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8515fd6ab0fa4664986c06114f16c11c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::96055ebe6dee4170beba44ac206302b1",
+     "providerId": "opta:Player:ez84mmwnccba4l4mprch00962",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Omari Nathan",
+     "lastName": "Forson",
+     "shirtName": "Omari Forson",
+     "displayName": "Forson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4c35cd67ad9c4354a7d01c62abacd4f2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::955ccd1275654c91b55ff397dcdcfa59",
+     "providerId": "opta:Player:6r2xfmixeizxzt19lna2jjwgk",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Leonardo",
+     "lastName": "Colombo",
+     "shirtName": "Leonardo Colombo",
+     "displayName": "Le. Colombo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ec2d9929b8df4529a4a069636f9afd52",
+     "providerId": "kama:Player:110421",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Oscar Exequiel",
+     "lastName": "Zeballos",
+     "shirtName": "Exequiel Zeballos",
+     "displayName": "Zeballos",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e2859a14dfaa486aa3f62d1fcf297347"
+      },
+      {
+       "type": "goal",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6bf62d4c13314ffb9827655c508c7c5c",
+     "providerId": "opta:Player:e1stdqg5nnekau6lis7nqsg0k",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Adam",
+     "lastName": "Bakoune",
+     "shirtName": "Adam Bakoune",
+     "displayName": "Bakoune",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8baf539ce4ee47b480e09125880b68e5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::23a565adf58c4105b28af9c5e3ab150a",
+     "providerId": "opta:Player:dq037w5t3ht5zgd75mue4p1pl",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Dany",
+     "lastName": "Mota",
+     "shirtName": "Dany Mota",
+     "displayName": "Dany Mota",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::91dd4a71bf174a58b4e5f417a7e4a207",
+     "providerId": "kama:Player:3738",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Mathis",
+     "lastName": "Mout",
+     "shirtName": "Mathis Mout",
+     "displayName": "Mout",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::74c636656c5343ee921582563943e359"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-05T17:52:33.135Z",
+   "sha256": "8722c5cbbc20db9a11385b8bed218b54bc0c827ed6cf2f2bf5545be33cdbe1c2"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-05T17:52:47.705Z",
+   "sha256": "2142bf1cca5b62b793370f0e5f93362f0bc99ce83126a3aaf782b8590667c029",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Falcone",
+     "giocatoreIdFantacalcio": 2134,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gallo",
+     "giocatoreIdFantacalcio": 4502,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tiago Gabriel",
+     "giocatoreIdFantacalcio": 6989,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Veiga D.",
+     "giocatoreIdFantacalcio": 6990,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Siebert",
+     "giocatoreIdFantacalcio": 7240,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ilic",
+     "giocatoreIdFantacalcio": 5007,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9,
+     "votoItalia": 7,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 2,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Maleh",
+     "giocatoreIdFantacalcio": 5457,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Coulibaly L.",
+     "giocatoreIdFantacalcio": 5504,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 13.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kaba",
+     "giocatoreIdFantacalcio": 6410,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pierotti",
+     "giocatoreIdFantacalcio": 6549,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ngom",
+     "giocatoreIdFantacalcio": 7322,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Monteiro J.",
+     "giocatoreIdFantacalcio": 7619,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "N'Dri",
+     "giocatoreIdFantacalcio": 7001,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Stulic",
+     "giocatoreIdFantacalcio": 7252,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Fatah",
+     "giocatoreIdFantacalcio": 7602,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Esteban",
+     "giocatoreIdFantacalcio": 7647,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Thiam",
+     "giocatoreIdFantacalcio": 4485,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 2,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 2.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 2,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Carboni A.",
+     "giocatoreIdFantacalcio": 4925,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Birindelli",
+     "giocatoreIdFantacalcio": 5838,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lucchesi",
+     "giocatoreIdFantacalcio": 6659,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kouadio",
+     "giocatoreIdFantacalcio": 7238,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bakoune",
+     "giocatoreIdFantacalcio": 7476,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mangas",
+     "giocatoreIdFantacalcio": 7485,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Colpani",
+     "giocatoreIdFantacalcio": 5878,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Folorunsho",
+     "giocatoreIdFantacalcio": 6252,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Forson O.",
+     "giocatoreIdFantacalcio": 6592,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Akinsanmiro",
+     "giocatoreIdFantacalcio": 6593,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mout",
+     "giocatoreIdFantacalcio": 7575,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cutrone",
+     "giocatoreIdFantacalcio": 2155,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Varela G.",
+     "giocatoreIdFantacalcio": 7523,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Robinson J.",
+     "giocatoreIdFantacalcio": 7546,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Zeballos",
+     "giocatoreIdFantacalcio": 7620,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 3 - 2 Monza 13/09/2026 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

@@ -1,0 +1,1671 @@
+{
+ "label": "Inter-Monza (g1)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-05T17:52:04.034Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-08-22T16:30:00Z",
+  "hoursAfterKickoff": 1057.3677872222222,
+  "observation": {
+   "retrievedAt": "2026-10-05T17:52:04.034Z",
+   "sha256": "6489ed89e621e31c5a7299724b1460399eb746634446ef84828b89a2b9eb9c75"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-05T17:52:44.207Z",
+  "sha256": "97b490b8a67929fd8e9e92f35a8c708bd011e52c2dabd9ae528a72cff4c3f9d1"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::1cc7b922e8d44f93a52fb4bf8858e454",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-08-22T16:30:00Z",
+   "matchday": 1,
+   "home": "Inter",
+   "away": "Monza",
+   "homeTeamId": "serie-a::Football_Team::b7421caff23448c49134fa4f9095ee09",
+   "awayTeamId": "serie-a::Football_Team::9ba470f39580450fac7654956ba574fa",
+   "homeScore": 4,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 4
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::1cc7b922e8d44f93a52fb4bf8858e454",
+   "homeTeam": "Inter",
+   "awayTeam": "Monza",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::5bc6e2f303c14386be2919d9d3c6c0a1",
+     "providerId": "opta:Player:3yqxkw0tqpoucur51ieh9xdrd",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Josep",
+     "lastName": "Martinez Riera",
+     "shirtName": "Josep Martínez",
+     "displayName": "J. Martínez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::77b61833f0db49729ebf0ad5342a5ba8",
+     "providerId": "opta:Player:q6ns1fyw7w10xkkubh8etfc9",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Alessandro",
+     "lastName": "Bastoni",
+     "shirtName": "Alessandro Bastoni",
+     "displayName": "Bastoni",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cd9e41c44ff14e98b2b9be8ad250dcd9",
+     "providerId": "kama:Player:99389",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Manuel",
+     "lastName": "Akanji",
+     "shirtName": "Manuel Akanji",
+     "displayName": "Akanji",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c99741e10b5a4bd7848a83bf118bf454"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4b050d8d189243d8acf6f32df3e5e74a",
+     "providerId": "opta:Player:280fh7f5q9lud8lk8reyu7fxm",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Yann Aurel",
+     "lastName": "Bisseck",
+     "shirtName": "Yann Bisseck",
+     "displayName": "Bisseck",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8499dfc3c937488ebcd3b256ba01263f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f0a9b20016914b8691db2fc83568fe0b",
+     "providerId": "opta:Player:botfgp0oq4wqlwtcs9m90kded",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Hakan",
+     "lastName": "Calhanoglu",
+     "shirtName": "Hakan Çalhanoglu",
+     "displayName": "Çalhanoğlu",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 6,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::131c52b96557488498ca630e1e1ecbb0"
+      },
+      {
+       "type": "yellow-card",
+       "time": 45,
+       "additionalTime": 1,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d8f199c7790c48b79e1706b1535a0704"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3",
+     "providerId": "opta:Player:dpcws493fepch23sk26m1a8yd",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Piotr Sebastian",
+     "lastName": "Zielinski",
+     "shirtName": "Piotr Zieliński",
+     "displayName": "Zieliński",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 48,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f35c56e1c8b144c89117342ff668e400"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::07b9aa070bab4074bcd41776db3c7c8d",
+     "providerId": "opta:Player:19856wqwrmzmvfw9thf0tzrv9",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Federico",
+     "lastName": "Dimarco",
+     "shirtName": "Federico Dimarco",
+     "displayName": "Dimarco",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::131c52b96557488498ca630e1e1ecbb0",
+     "providerId": "kama:Player:99199",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Andy",
+     "lastName": "Diouf",
+     "shirtName": "Andy Diouf",
+     "displayName": "Diouf",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5ae8256e5ca241d8989a52214266c640"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4da6f1068d1444eafe0a0d5e775aa42",
+     "providerId": "opta:Player:ahgd3on22t4h7gg9ipnj1itw5",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Nicolò",
+     "lastName": "Barella",
+     "shirtName": "Nicolò Barella",
+     "displayName": "Barella",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1b183c6c48ae4d08b1cec88dfe4641c6",
+     "providerId": "opta:Player:7r2tgpdrr4v6n9d2gkzwmlazt",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Lautaro Javier",
+     "lastName": "Martinez",
+     "shirtName": "Lautaro Martínez",
+     "displayName": "L. Martínez",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 34,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9037ff0e7e834729838dceb4b44250bf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8499dfc3c937488ebcd3b256ba01263f",
+     "providerId": "opta:Player:1v6nfd46wx11jbfertslccbo4",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Francesco Pio",
+     "lastName": "Esposito",
+     "shirtName": "Francesco Pio Esposito",
+     "displayName": "P. Esposito",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::131c52b96557488498ca630e1e1ecbb0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7a09fe6eeeb141cab3226c7f028f8f10",
+     "providerId": "opta:Player:1e95np0v66lmp2qysqq8f33rp",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Raffaele",
+     "lastName": "Di Gennaro",
+     "shirtName": "Raffaele Di Gennaro",
+     "displayName": "Di Gennaro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e0e39e3ec3b643a1b0d325ae86516cf9",
+     "providerId": "opta:Player:8n4rruxbnzvjgdomxslnmcno5",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Ivan",
+     "lastName": "Provedel",
+     "shirtName": "Ivan Provedel",
+     "displayName": "Provedel",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f35c56e1c8b144c89117342ff668e400",
+     "providerId": "opta:Player:10lpk2wft7zsd1fa38ulbakno",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Aleksandar",
+     "lastName": "Stanković",
+     "shirtName": "Aleksandar Stanković",
+     "displayName": "A. Stanković",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c99741e10b5a4bd7848a83bf118bf454",
+     "providerId": "kama:Player:101744",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "John",
+     "lastName": "Stones",
+     "shirtName": "John Stones",
+     "displayName": "Stones",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cd9e41c44ff14e98b2b9be8ad250dcd9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d8f199c7790c48b79e1706b1535a0704",
+     "providerId": "opta:Player:6u7iuum6kqfwb4pbw5lsoff56",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Petar",
+     "lastName": "Sučić",
+     "shirtName": "Petar Sučić",
+     "displayName": "Sučić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f0a9b20016914b8691db2fc83568fe0b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a98a0f54d53c4a4d9961f08b995147c5",
+     "providerId": "opta:Player:66nvc8a4kd3cyeyj3i474cudx",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Marcus Lilian",
+     "lastName": "Thuram Ulien",
+     "shirtName": "Marcus Thuram",
+     "displayName": "M. Thuram",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5ae8256e5ca241d8989a52214266c640",
+     "providerId": "opta:Player:7rfw6pyjslb3p5q7gmoj1ysmi",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Luis Henrique",
+     "lastName": "Tomaz De Lima",
+     "shirtName": "Luis Henrique",
+     "displayName": "Luis Henrique",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::131c52b96557488498ca630e1e1ecbb0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9037ff0e7e834729838dceb4b44250bf",
+     "providerId": "opta:Player:ejbp3sxls7lgrg6y3a9q4u978",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Ange-Yoan Laure",
+     "lastName": "Bonny",
+     "shirtName": "Ange-Yoan Bonny",
+     "displayName": "Bonny",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1b183c6c48ae4d08b1cec88dfe4641c6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c03c6b04498f4f4793c53793c12cc01d",
+     "providerId": "opta:Player:yq0cm7vwr0tkv7nvt9vo77bp",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Benjamin Jacques",
+     "lastName": "Pavard",
+     "shirtName": "Benjamin Pavard",
+     "displayName": "Pavard",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f7e0ecad1aa04f53959bd22f68cfbf70",
+     "providerId": "opta:Player:4d17grk2qflzake218uz76uei",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Carlos Augusto",
+     "lastName": "Zopolato Neves",
+     "shirtName": "Carlos Augusto",
+     "displayName": "Carlos Augusto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4ecf5e13a9d44866966c914613f3627f",
+     "providerId": "kama:Player:1473",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Leonardo Noah",
+     "lastName": "Bovio",
+     "shirtName": "Leonardo Bovio",
+     "displayName": "Bovio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::394151a382eb485eabacfc688f3d7bd1",
+     "providerId": "kama:Player:1463",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Jamal",
+     "lastName": "Iddrissou",
+     "shirtName": "Jamal Iddrissou",
+     "displayName": "Iddrissou",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::faea7272d5524a2fb5d1f2b64aa12b87",
+     "providerId": "opta:Player:40rsjcp9bgu6pt4bf2qrczyp6",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Semuel",
+     "lastName": "Pizzignacco",
+     "shirtName": "Semuel Pizzignacco",
+     "displayName": "Pizzignacco",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6bf62d4c13314ffb9827655c508c7c5c",
+     "providerId": "opta:Player:e1stdqg5nnekau6lis7nqsg0k",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Adam",
+     "lastName": "Bakoune",
+     "shirtName": "Adam Bakoune",
+     "displayName": "Bakoune",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4919025f871840d199d459a2c636266e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0a2dc8ae97814840b2d66181479af681",
+     "providerId": "opta:Player:721e4tx2wrwb4kd9w80fcq19l",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Samuele",
+     "lastName": "Birindelli",
+     "shirtName": "Samuele Birindelli",
+     "displayName": "Birindelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdbd7dfe606548d5919e564f018239bf",
+     "providerId": "opta:Player:chjjcy789cuwlsik2ibmubtyi",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Carboni",
+     "shirtName": "Andrea Carboni",
+     "displayName": "A. Carboni",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf",
+     "providerId": "kama:Player:1479",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Nda Konan Bienvenu Ange Eddy",
+     "lastName": "Kouadio",
+     "shirtName": "Eddy Kouadio",
+     "displayName": "Kouadio",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8baf539ce4ee47b480e09125880b68e5",
+     "providerId": "kama:Player:101643",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Ricardo Luis",
+     "lastName": "Chaby Mangas",
+     "shirtName": "Ricardo Mangas",
+     "displayName": "Mangas",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f977a99f92904bcb99dc760df55027d0",
+     "providerId": "opta:Player:eqb9vu09rjjofy9iksko10qac",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Lorenzo",
+     "lastName": "Lucchesi",
+     "shirtName": "Lorenzo Lucchesi",
+     "displayName": "Lucchesi",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::69e4076897904f4da9bbbb82d1fc677e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::91dd4a71bf174a58b4e5f417a7e4a207",
+     "providerId": "kama:Player:3738",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Mathis",
+     "lastName": "Mout",
+     "shirtName": "Mathis Mout",
+     "displayName": "Mout",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1ffd813f11fb492d919f7b71fa31befd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3c26ed095339412792451f33565fba12",
+     "providerId": "kama:Player:101373",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Manga Michel Quentin",
+     "lastName": "Foe Ondoa",
+     "shirtName": "Manga Foe Ondoa",
+     "displayName": "Foe-Ondoa",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4c35cd67ad9c4354a7d01c62abacd4f2",
+     "providerId": "kama:Player:101672",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Gustavo Miguel",
+     "lastName": "Pereira De Sousa Varela",
+     "shirtName": "Gustavo Varela",
+     "displayName": "Varela",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 29,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::91dd4a71bf174a58b4e5f417a7e4a207"
+      },
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8515fd6ab0fa4664986c06114f16c11c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e2859a14dfaa486aa3f62d1fcf297347",
+     "providerId": "opta:Player:duqiler25n63ksi0fxreo50mi",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Colpani",
+     "shirtName": "A. Colpani",
+     "displayName": "Colpani",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::96055ebe6dee4170beba44ac206302b1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4872031374424f7ebd1b0064c7e12df5",
+     "providerId": "kama:Player:99164",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Aljaz",
+     "lastName": "Strajnar",
+     "shirtName": "Aljaz Strajnar",
+     "displayName": "Strajnar",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2fc81e2bd4fc4a27a73891ad21c1fc32",
+     "providerId": "kama:Player:3755",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Aleksandr",
+     "lastName": "Ballabio",
+     "shirtName": "Aleksandr Ballabio",
+     "displayName": "A. Ballabio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::96d29e1cc6614f8e842657e0176cba69",
+     "providerId": "opta:Player:1b8uwkohkevu6ltjex0liklpl",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Valentin",
+     "lastName": "Antov",
+     "shirtName": "Valentin Antov",
+     "displayName": "Antov",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4919025f871840d199d459a2c636266e",
+     "providerId": "opta:Player:7dnu1vdavskc4ct33k88lpdcl",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Patrick",
+     "lastName": "Cutrone",
+     "shirtName": "Patrick Cutrone",
+     "displayName": "Cutrone",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6bf62d4c13314ffb9827655c508c7c5c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::96055ebe6dee4170beba44ac206302b1",
+     "providerId": "opta:Player:ez84mmwnccba4l4mprch00962",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Omari Nathan",
+     "lastName": "Forson",
+     "shirtName": "Omari Forson",
+     "displayName": "Forson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e2859a14dfaa486aa3f62d1fcf297347"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::69e4076897904f4da9bbbb82d1fc677e",
+     "providerId": "opta:Player:628n16k677wb1zsidcm3yz4rt",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Filippo",
+     "lastName": "Delli Carri",
+     "shirtName": "Filippo Delli Carri",
+     "displayName": "Delli Carri",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f977a99f92904bcb99dc760df55027d0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::619cb0cc5b6548b2afa9b90f230a10b5",
+     "providerId": "kama:Player:100631",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Solomon Tekeace",
+     "lastName": "Loubao",
+     "shirtName": "Solomon Loubao",
+     "displayName": "Loubao",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1ffd813f11fb492d919f7b71fa31befd",
+     "providerId": "opta:Player:8c5btf6abhx9cxkew943d08wk",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Nicolas",
+     "lastName": "Galazzi",
+     "shirtName": "Nicolas Galazzi",
+     "displayName": "Galazzi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::91dd4a71bf174a58b4e5f417a7e4a207"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8515fd6ab0fa4664986c06114f16c11c",
+     "providerId": "kama:Player:101845",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Jay Steven",
+     "lastName": "Robinson",
+     "shirtName": "Jay Robinson",
+     "displayName": "Robinson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4c35cd67ad9c4354a7d01c62abacd4f2"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-05T17:52:04.847Z",
+   "sha256": "7b89503dfd2e36bd57927eb085d1318ad41eb89749b44217b645d143174c816a"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-05T17:52:44.207Z",
+   "sha256": "97b490b8a67929fd8e9e92f35a8c708bd011e52c2dabd9ae528a72cff4c3f9d1",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Martinez Jo.",
+     "giocatoreIdFantacalcio": 5116,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dimarco",
+     "giocatoreIdFantacalcio": 254,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bastoni",
+     "giocatoreIdFantacalcio": 2120,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Stones",
+     "giocatoreIdFantacalcio": 2514,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Akanji",
+     "giocatoreIdFantacalcio": 4159,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bisseck",
+     "giocatoreIdFantacalcio": 6217,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zielinski",
+     "giocatoreIdFantacalcio": 152,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Barella",
+     "giocatoreIdFantacalcio": 1870,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Calhanoglu",
+     "giocatoreIdFantacalcio": 2194,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Luis Henrique",
+     "giocatoreIdFantacalcio": 5301,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Diouf",
+     "giocatoreIdFantacalcio": 6274,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9,
+     "votoItalia": 7,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 2,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Stankovic A.",
+     "giocatoreIdFantacalcio": 6503,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sucic P.",
+     "giocatoreIdFantacalcio": 7070,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Martinez L.",
+     "giocatoreIdFantacalcio": 2764,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bonny",
+     "giocatoreIdFantacalcio": 6669,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Esposito F.P.",
+     "giocatoreIdFantacalcio": 7071,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 11.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 11.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 11.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Pizzignacco",
+     "giocatoreIdFantacalcio": 6682,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 1,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 1,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 0.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 4,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Delli Carri",
+     "giocatoreIdFantacalcio": 2115,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Carboni A.",
+     "giocatoreIdFantacalcio": 4925,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Birindelli",
+     "giocatoreIdFantacalcio": 5838,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lucchesi",
+     "giocatoreIdFantacalcio": 6659,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kouadio",
+     "giocatoreIdFantacalcio": 7238,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bakoune",
+     "giocatoreIdFantacalcio": 7476,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mangas",
+     "giocatoreIdFantacalcio": 7485,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Galazzi",
+     "giocatoreIdFantacalcio": 5525,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Colpani",
+     "giocatoreIdFantacalcio": 5878,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Forson O.",
+     "giocatoreIdFantacalcio": 6592,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Foe Ondoa",
+     "giocatoreIdFantacalcio": 7574,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mout",
+     "giocatoreIdFantacalcio": 7575,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cutrone",
+     "giocatoreIdFantacalcio": 2155,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Varela G.",
+     "giocatoreIdFantacalcio": 7523,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/1",
+      "estrattoIl": "2026-10-05T17:52:44.207Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Robinson J.",
+     "giocatoreIdFantacalcio": 7546,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 1 Monza 22/08/2026 - 18:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

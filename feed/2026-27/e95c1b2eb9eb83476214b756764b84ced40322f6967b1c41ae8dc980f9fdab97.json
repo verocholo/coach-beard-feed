@@ -1,0 +1,1752 @@
+{
+ "label": "Genoa-Frosinone (g4)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-05T17:52:04.034Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-09-12T13:00:00Z",
+  "hoursAfterKickoff": 556.8677872222222,
+  "observation": {
+   "retrievedAt": "2026-10-05T17:52:04.034Z",
+   "sha256": "6489ed89e621e31c5a7299724b1460399eb746634446ef84828b89a2b9eb9c75"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-05T17:52:47.705Z",
+  "sha256": "2142bf1cca5b62b793370f0e5f93362f0bc99ce83126a3aaf782b8590667c029"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::63df33b09832485fab2f1fe0190cb0a1",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-09-12T13:00:00Z",
+   "matchday": 4,
+   "home": "Genoa",
+   "away": "Frosinone",
+   "homeTeamId": "serie-a::Football_Team::8c7aa94d22f44738951748e2ccdf319a",
+   "awayTeamId": "serie-a::Football_Team::b283fcc0aeda401bb081fcd764e290db",
+   "homeScore": 1,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::63df33b09832485fab2f1fe0190cb0a1",
+   "homeTeam": "Genoa",
+   "awayTeam": "Frosinone",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::4cf1b0e719d44e95aa0f4ca057f0f025",
+     "providerId": "kama:Player:100597",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Justin",
+     "lastName": "Bijlow",
+     "shirtName": "Justin Bijlow",
+     "displayName": "Bijlow",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::52d5b4022e8e431aa4b4c8983843965b",
+     "providerId": "opta:Player:dfckk0xst90yjlep74tvups5x",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Kingsley Osezele",
+     "lastName": "Ehizibue",
+     "shirtName": "Kingsley Ehizibue",
+     "displayName": "Ehizibue",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 48,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::816125e2bba042b38c44a6bb8b005f83",
+     "providerId": "opta:Player:40msbo4o5bwx0oeuz4743w161",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Leo Skiri",
+     "lastName": "Ostigard",
+     "shirtName": "Leo Østigård",
+     "displayName": "Østigård",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ac9814fb4e4245378d64a972b9fd3199",
+     "providerId": "opta:Player:7ojvhhfvbtbn60sc50y4l2ctm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Johan Felipe",
+     "lastName": "Vasquez Ibarra",
+     "shirtName": "Johan Vásquez",
+     "displayName": "J. Vásquez",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 50,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0b20dd69334a491185c3d0c2b8a87d8f"
+      },
+      {
+       "type": "yellow-card",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "second-yellow-card",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::65bb7b8d02084d858daeba0cff0cc4eb",
+     "providerId": "opta:Player:1lxfpn0wmr895me9xbzcfnh90",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Marcandalli",
+     "shirtName": "Alessandro Marcandalli",
+     "displayName": "Marcandalli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dbd53bdc4ffe446da33ce7774384da90",
+     "providerId": "opta:Player:7u9bpiajlgr3zibj89pub7wbu",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Mikael Egill",
+     "lastName": "Ellertsson",
+     "shirtName": "Mikael Ellertsson",
+     "displayName": "Ellertsson",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::15ecc039a7504a6f94afa74e9a0b5d09"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b20dd69334a491185c3d0c2b8a87d8f",
+     "providerId": "kama:Player:101851",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Mohameth Djibril Ibrahima",
+     "lastName": "Sow",
+     "shirtName": "Djibril Sow",
+     "displayName": "Sow",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4fbfb165723441d9a09b3e912770ad90"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a",
+     "providerId": "opta:Player:2um03dny7h3sdvehq3bygd1t6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten Wetche",
+     "lastName": "Frendrup",
+     "shirtName": "Morten Frendrup",
+     "displayName": "Frendrup",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0d3e96b700e94463b4c9e84ea3d17bb8",
+     "providerId": "kama:Player:110233",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Milutin",
+     "lastName": "Osmajić",
+     "shirtName": "Milutin Osmajić",
+     "displayName": "Osmajić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab",
+     "providerId": "opta:Player:bk1gdyxtfp4drwb0yotwerbsa",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Tommaso",
+     "lastName": "Baldanzi",
+     "shirtName": "Tommaso Baldanzi",
+     "displayName": "Baldanzi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::308ee64855794d61811119f70f5f018e",
+     "providerId": "opta:Player:4b6mhmoeo78f8x928q2imp591",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Daniele",
+     "lastName": "Sommariva",
+     "shirtName": "Daniele Sommariva",
+     "displayName": "Sommariva",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6dcdd579fc3040a1975150f689072165",
+     "providerId": "opta:Player:3okob1fs1l9get2ziqsha076y",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Franz",
+     "lastName": "Stolz",
+     "shirtName": "Franz Stolz",
+     "displayName": "Stolz",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a7fbae583eb84c25b5e7d1e4406dccdd",
+     "providerId": "kama:Player:101819",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Mario",
+     "lastName": "Mitaj",
+     "shirtName": "Mario Mitaj",
+     "displayName": "Mitaj",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4fbfb165723441d9a09b3e912770ad90",
+     "providerId": "kama:Player:100678",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alexsandro",
+     "lastName": "Amorim De Freitas",
+     "shirtName": "Alexsandro Amorim",
+     "displayName": "Amorim",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0b20dd69334a491185c3d0c2b8a87d8f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573",
+     "providerId": "opta:Player:cnriqwh17pqgz7p2gt74uar6c",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Vitor Manuel",
+     "lastName": "Carvalho De Oliveira",
+     "shirtName": "Vitinha",
+     "displayName": "Vitinha",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b",
+     "providerId": "opta:Player:17au7v1ocl4zab872g59821yi",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Walter",
+     "lastName": "Messias Junior",
+     "shirtName": "Junior Messias",
+     "displayName": "Messias",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::15ecc039a7504a6f94afa74e9a0b5d09",
+     "providerId": "kama:Player:101403",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Franz-Ethan",
+     "lastName": "Meichtry",
+     "shirtName": "Franz-Ethan Meichtry",
+     "displayName": "Meichtry",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dbd53bdc4ffe446da33ce7774384da90"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b3425b65ea204e8291222a03859b8909",
+     "providerId": "kama:Player:110428",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Cody Callum Pierre",
+     "lastName": "Drameh",
+     "shirtName": "Cody Drameh",
+     "displayName": "Drameh",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d",
+     "providerId": "opta:Player:8psio8fqce76uinoqpilzxsd1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Stefano",
+     "lastName": "Sabelli",
+     "shirtName": "Stefano Sabelli",
+     "displayName": "Sabelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9034907ae3a84fa38b8d51fdb7a89100",
+     "providerId": "opta:Player:ctq9si3nbc6n8cznhlcvtixd6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Hamed",
+     "lastName": "Traore",
+     "shirtName": "Hamed Traoré",
+     "displayName": "Traoré",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b9815681f1ae40dd89d605d39e164479",
+     "providerId": "kama:Player:1787",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "David",
+     "lastName": "Puczka",
+     "shirtName": "David Puczka",
+     "displayName": "Puczka",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50f786bf0927432c9ee1d36704a91106",
+     "providerId": "opta:Player:dq2eqqywinhsh9ijg8amqyp78",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Sebastian Villaume",
+     "lastName": "Otoa",
+     "shirtName": "Sebastian Otoa",
+     "displayName": "Otoa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0048714f41794e94a244e0c360e67d24",
+     "providerId": "kama:Player:8808",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Samuel",
+     "lastName": "Wiafe",
+     "shirtName": "Samuel Wiafe",
+     "displayName": "Wiafe",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0",
+     "providerId": "opta:Player:a1iz91ed6hus61yhhk2r0vkd1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Stephan",
+     "lastName": "El Shaarawy",
+     "shirtName": "Stephan El Shaarawy",
+     "displayName": "El Shaarawy",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::52d5b4022e8e431aa4b4c8983843965b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::43815bb11f2e40c2ba31811279a1aa4d",
+     "providerId": "opta:Player:cf6s9r48j9nm47c2o0tld0gt0",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Lorenzo",
+     "lastName": "Palmisani",
+     "shirtName": "Lorenzo Palmisani",
+     "displayName": "Palmisani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::69f7dae2593c48688c4a81757ce6f679",
+     "providerId": "opta:Player:j3e45tivwj7iod1xde5o642c",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Gabriele",
+     "lastName": "Bracaglia",
+     "shirtName": "Gabriele Bracaglia",
+     "displayName": "Bracaglia",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b731ad839089401cae323f26242b5a3c",
+     "providerId": "opta:Player:1e6s5l3tp48t6ybq73lzzmkx6",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Giorgio",
+     "lastName": "Cittadini",
+     "shirtName": "Giorgio Cittadini",
+     "displayName": "Cittadini",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 16,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a224e4c6a01b4cb6b35fe7de75631270"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1faf1073ff624a9f8376452649104d60",
+     "providerId": "opta:Player:3j2yog3zyussh0aq1xgz3e2cq",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Anthony Henri",
+     "lastName": "Oyono Omva Torque",
+     "shirtName": "Anthony Oyono",
+     "displayName": "A. Oyono",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b629fb0c40f34d83864423c077fc8e9a",
+     "providerId": "opta:Player:eg9jgcpcll4b1rfcx7u1gspw4",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Gabriele",
+     "lastName": "Calvani",
+     "shirtName": "Gabriele Calvani",
+     "displayName": "Calvani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c",
+     "providerId": "opta:Player:7xdhy2xi9mrhzjn6aiatd9ono",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Patrizio",
+     "lastName": "Masini",
+     "shirtName": "Patrizio Masini",
+     "displayName": "Masini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::28f725a351bc4da2ba6c6a690359cd86",
+     "providerId": "kama:Player:101927",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Romano Christian",
+     "lastName": "Schmid",
+     "shirtName": "Romano Schmid",
+     "displayName": "Schmid",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f6df7b58957c4eb5ba387d10eddbfd20"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fb3c5ed594354769aa833b934cce5bd4",
+     "providerId": "opta:Player:51shig8ylkdt63h19537eclbd",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Giacomo",
+     "lastName": "Calò",
+     "shirtName": "Giacomo Calò",
+     "displayName": "Calò",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::48931447190a4915baacb0c737b5ec04",
+     "providerId": "opta:Player:ct2t62s5gte4o5hodlfz9hkb8",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Antonio",
+     "lastName": "Raimondo",
+     "shirtName": "A. Raimondo",
+     "displayName": "Raimondo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8292419cde594479810cc0f4f62a3c99"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b042de974074786b4f062b303d0ce58",
+     "providerId": "opta:Player:2lx4dy8gdeox803t8iwmy2ivo",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Giorgi",
+     "lastName": "Kvernadze",
+     "shirtName": "Giorgi Kvernadze",
+     "displayName": "Kvernadze",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 14,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::28f725a351bc4da2ba6c6a690359cd86"
+      },
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5879c1ef79b349c6a46f75a5d1d7e8d6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::95a7041f24a14a40bf4592bb3c8a6ec5",
+     "providerId": "opta:Player:56oxuwxbszkg8xjic1bizd1xw",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Farès",
+     "lastName": "Ghedjemis",
+     "shirtName": "Farès Ghedjemis",
+     "displayName": "Ghedjemis",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f0f15f171e034b32a0a4559ee10219cf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b78bfd3fcec942ec9bc0c4b3b460e290",
+     "providerId": "opta:Player:9rtzvefylu655vjkfiv1e2tp1",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Matteo",
+     "lastName": "Pisseri",
+     "shirtName": "Matteo Pisseri",
+     "displayName": "Pisseri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1bf93348ac2a4202a62d4418128c3bca",
+     "providerId": "opta:Player:8hzilc6xbie60t8i41h4mcqac",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Sebastiano",
+     "lastName": "Desplanches",
+     "shirtName": "Sebastiano Desplanches",
+     "displayName": "Desplanches",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5760cec9926c4de7bb8d2dd6f7e06456",
+     "providerId": "opta:Player:5tfh0jvfxlw1aqfaiiok4pwr8",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Wisdom",
+     "lastName": "Amey",
+     "shirtName": "Wisdom Amey",
+     "displayName": "Amey",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::47c0d9f9f72442ca84e2206ed97f1839",
+     "providerId": "opta:Player:aianahl18ooxmlr5ok6v321d6",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "George Daniel",
+     "lastName": "Bîrligea",
+     "shirtName": "Daniel Bîrligea",
+     "displayName": "Bîrligea",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b94f1904c0064a038506c0fc106117c3",
+     "providerId": "opta:Player:7g92lfswalp2spd6yzocy6978",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Matteo",
+     "lastName": "Cichella",
+     "shirtName": "Matteo Cichella",
+     "displayName": "Cichella",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5879c1ef79b349c6a46f75a5d1d7e8d6",
+     "providerId": "opta:Player:7knk2xsg4690hgq9us9us8ull",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Alessio",
+     "lastName": "Zerbin",
+     "shirtName": "Alessio Zerbin",
+     "displayName": "Zerbin",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0b042de974074786b4f062b303d0ce58"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fa7eba091d134cc3a9a8dd6da6785b31",
+     "providerId": "kama:Player:101754",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Kevin John Ufuoma",
+     "lastName": "Akpoguma",
+     "shirtName": "Kevin Akpoguma",
+     "displayName": "Akpoguma",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a224e4c6a01b4cb6b35fe7de75631270",
+     "providerId": "opta:Player:cbzfr0b3pjiknahduv488ogoa",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Ilario",
+     "lastName": "Monterisi",
+     "shirtName": "Ilario Monterisi",
+     "displayName": "Monterisi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b731ad839089401cae323f26242b5a3c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1bea21175cd14e5d931504f90109749a",
+     "providerId": "kama:Player:101569",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Anouar",
+     "lastName": "El Azzouzi",
+     "shirtName": "Anouar El Azzouzi",
+     "displayName": "A. El Azzouzi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f0f15f171e034b32a0a4559ee10219cf",
+     "providerId": "opta:Player:dx7fg77tfqytimfiixw9tyfx0",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Seydou",
+     "lastName": "Fini",
+     "shirtName": "Seydou Fini",
+     "displayName": "Fini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::95a7041f24a14a40bf4592bb3c8a6ec5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f6df7b58957c4eb5ba387d10eddbfd20",
+     "providerId": "opta:Player:el1iasw3t612r6gawvodhyf4k",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Luis",
+     "lastName": "Hasa",
+     "shirtName": "Luis Hasa",
+     "displayName": "Hasa",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::28f725a351bc4da2ba6c6a690359cd86"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e915eeb53927483ab3efeb464af5a436",
+     "providerId": "opta:Player:3jtsqwoi9w0dxxneld0mt5rs9",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Aleksa",
+     "lastName": "Terzić",
+     "shirtName": "Aleksa Terzić",
+     "displayName": "Terzić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::101093c29d18427f998c0388bff053fb",
+     "providerId": "kama:Player:110168",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Omar",
+     "lastName": "Fayed Abdelwahab Elrakhawy",
+     "shirtName": "Omar Fayed",
+     "displayName": "Fayed",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8292419cde594479810cc0f4f62a3c99",
+     "providerId": "kama:Player:110373",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Tomas",
+     "lastName": "Bobček",
+     "shirtName": "Tomas Bobcek",
+     "displayName": "Bobcek",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::48931447190a4915baacb0c737b5ec04"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::389c9510a35b40f2ac23de74bdfeb458",
+     "providerId": "kama:Player:110291",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Enzo Gianni",
+     "lastName": "Tchato Mbiayi",
+     "shirtName": "Enzo Tchato",
+     "displayName": "Tchato",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-05T17:52:29.799Z",
+   "sha256": "56663626d570560435825aa93ce35fba1e10ac9e393d782a711b8a87799ffcea"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-05T17:52:47.705Z",
+   "sha256": "2142bf1cca5b62b793370f0e5f93362f0bc99ce83126a3aaf782b8590667c029",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Palmisani",
+     "giocatoreIdFantacalcio": 6415,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Monterisi",
+     "giocatoreIdFantacalcio": 4952,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cittadini",
+     "giocatoreIdFantacalcio": 5757,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Oyono A.",
+     "giocatoreIdFantacalcio": 6238,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Calvani",
+     "giocatoreIdFantacalcio": 7467,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bracaglia",
+     "giocatoreIdFantacalcio": 7469,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zerbin",
+     "giocatoreIdFantacalcio": 5998,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fini",
+     "giocatoreIdFantacalcio": 6506,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Hasa",
+     "giocatoreIdFantacalcio": 6903,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Masini",
+     "giocatoreIdFantacalcio": 6917,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Calò",
+     "giocatoreIdFantacalcio": 7472,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Schmid",
+     "giocatoreIdFantacalcio": 7551,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Raimondo",
+     "giocatoreIdFantacalcio": 5436,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kvernadze",
+     "giocatoreIdFantacalcio": 6204,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ghedjemis",
+     "giocatoreIdFantacalcio": 6530,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bobcek",
+     "giocatoreIdFantacalcio": 7612,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Bijlow",
+     "giocatoreIdFantacalcio": 7332,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vasquez",
+     "giocatoreIdFantacalcio": 5514,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 8,
+     "votoItalia": 6,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ostigard",
+     "giocatoreIdFantacalcio": 5750,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ehizibue",
+     "giocatoreIdFantacalcio": 6047,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marcandalli",
+     "giocatoreIdFantacalcio": 6660,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "El Shaarawy",
+     "giocatoreIdFantacalcio": 795,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Messias",
+     "giocatoreIdFantacalcio": 4970,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frendrup",
+     "giocatoreIdFantacalcio": 5791,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baldanzi",
+     "giocatoreIdFantacalcio": 5823,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sow",
+     "giocatoreIdFantacalcio": 5946,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ellertsson",
+     "giocatoreIdFantacalcio": 6020,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Amorim",
+     "giocatoreIdFantacalcio": 7341,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Meichtry",
+     "giocatoreIdFantacalcio": 7409,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Colombo",
+     "giocatoreIdFantacalcio": 4923,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 2,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 2,
+     "votoItalia": 5,
+     "fantavotoItalia": 2,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 1,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vitinha O.",
+     "giocatoreIdFantacalcio": 6164,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Osmajic",
+     "giocatoreIdFantacalcio": 7600,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Frosinone 12/09/2026 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

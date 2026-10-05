@@ -1,0 +1,1658 @@
+{
+ "label": "Venezia-Lazio (g5)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-05T17:52:04.034Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-09-19T18:45:00Z",
+  "hoursAfterKickoff": 383.1177872222222,
+  "observation": {
+   "retrievedAt": "2026-10-05T17:52:04.034Z",
+   "sha256": "6489ed89e621e31c5a7299724b1460399eb746634446ef84828b89a2b9eb9c75"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-05T17:52:48.356Z",
+  "sha256": "61b34428ad244dc01f8246377b9236669eb803bfb6e1e77184d5532d1dd123c5"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::9d15e895b0c643a0a2037c4348e4f9c0",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-09-19T18:45:00Z",
+   "matchday": 5,
+   "home": "Venezia",
+   "away": "Lazio",
+   "homeTeamId": "serie-a::Football_Team::a28236708d214df3a2e2e04ceb7e5c54",
+   "awayTeamId": "serie-a::Football_Team::fe6490f2b16e45be9956a1cd04aaf3a2",
+   "homeScore": 0,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 4
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::9d15e895b0c643a0a2037c4348e4f9c0",
+   "homeTeam": "Venezia",
+   "awayTeam": "Lazio",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::c3b8ff6261d94b7ead6fd32487db048f",
+     "providerId": "opta:Player:7dg8woqlx67ch0ji3ujhgb52i",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Filip",
+     "lastName": "Stanković",
+     "shirtName": "Filip Stanković",
+     "displayName": "F. Stanković",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ba4cf034f38b44e7bad0ae3920a4dd41",
+     "providerId": "opta:Player:4v3mcgy4w1n4g3vkq0fe7iwwk",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Matias Agustin",
+     "lastName": "Moreno",
+     "shirtName": "Matías Moreno",
+     "displayName": "Moreno",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4",
+     "providerId": "opta:Player:8n0c5t5wzfkoauryyzy8be0gl",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Juan Guilherme",
+     "lastName": "Nunes Jesus",
+     "shirtName": "Juan Jesus",
+     "displayName": "Juan Jesus",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::70e695711da649fda1c502ba4f1e5c49",
+     "providerId": "kama:Player:1853",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Joel Marcel",
+     "lastName": "Schingtienne",
+     "shirtName": "Joel Schingtienne",
+     "displayName": "Schingtienne",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa13ef84519b43358627a26804914d9e",
+     "providerId": "opta:Player:3ail949zww61xhkymcg66bca1",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Thórir Jóhann",
+     "lastName": "Helgason",
+     "shirtName": "Þórir Helgason",
+     "displayName": "Helgason",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d050631b4588437f83ff5936abf28c60"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9e87a59329b74f509f08430b57cf3fa6",
+     "providerId": "kama:Player:101376",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Thierry",
+     "lastName": "Rendall Correia",
+     "shirtName": "Thierry Correia",
+     "displayName": "Correia",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8143399f5d04d0d992ef3e5d2e2de5b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e2a458c59eb4cfaa2212212d59711f5",
+     "providerId": "opta:Player:8ct2oybj8d1b03aklkg8ihbf8",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Antoine",
+     "lastName": "Hainaut",
+     "shirtName": "Antoine Hainaut",
+     "displayName": "Hainaut",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e3a4eec9aabd422bb4ae48807622f92d",
+     "providerId": "opta:Player:66t7zm54jgmcjtiizl9g0rkkp",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Enrique",
+     "lastName": "Perez Munoz",
+     "shirtName": "Kike Pérez",
+     "displayName": "Kike Pérez",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 29,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::adccc4694b4d4410a98deabc59cabd83",
+     "providerId": "opta:Player:2c796ozt5nw1l8n61cwtv9all",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "John",
+     "lastName": "Yeboah",
+     "shirtName": "John Yeboah",
+     "displayName": "Yeboah",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a43187cd03a84c579f6cc6de0717f77b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1d0f5ab9f8b5476fb6e80639a745e148",
+     "providerId": "kama:Player:101601",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Akor Jerome",
+     "lastName": "Adams",
+     "shirtName": "Akor Adams",
+     "displayName": "A. Adams",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f2149d81a7414d769679ebd0b2ff0a4a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b28865a6d4814858be353447697de6d1",
+     "providerId": "opta:Player:c7fky0h6gi7wmibnv2tzf6mz9",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Lorenzo",
+     "lastName": "Montipò",
+     "shirtName": "Lorenzo Montipò",
+     "displayName": "Montipò",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f2149d81a7414d769679ebd0b2ff0a4a",
+     "providerId": "kama:Player:101417",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Albion",
+     "lastName": "Rrahmani",
+     "shirtName": "Albion Rrahmani",
+     "displayName": "Al. Rrahmani",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1d0f5ab9f8b5476fb6e80639a745e148"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d050631b4588437f83ff5936abf28c60",
+     "providerId": "kama:Player:100680",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Mouhamed Lamine",
+     "lastName": "Fanne Dabo",
+     "shirtName": "Lamine Fanne",
+     "displayName": "Fanne",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aa13ef84519b43358627a26804914d9e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1d8d1753aabc4ef09973daf04d79f80d",
+     "providerId": "kama:Player:110430",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Rufai",
+     "lastName": "Mohammed",
+     "shirtName": "Rufai Mohammed",
+     "displayName": "Mohammed",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8143399f5d04d0d992ef3e5d2e2de5b",
+     "providerId": "opta:Player:amc2rculxvgo2wanilkna8s2c",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Richie",
+     "lastName": "Sagrado Sebastiao",
+     "shirtName": "Richie Sagrado",
+     "displayName": "Sagrado",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9e87a59329b74f509f08430b57cf3fa6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b7bca5e1ba134a4eacb2d992988c0002",
+     "providerId": "kama:Player:101820",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Redouane",
+     "lastName": "Halhal",
+     "shirtName": "Redouane Halhal",
+     "displayName": "Halhal",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::25016175ed0a4cc8878c514edf4ab638",
+     "providerId": "kama:Player:100639",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Lion",
+     "lastName": "Lauberbach",
+     "shirtName": "Lion Lauberbach",
+     "displayName": "Lauberbach",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::61b1d336cdb949f6b014e0c27d6881c5",
+     "providerId": "kama:Player:16928",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Lorenzo",
+     "lastName": "Berardi",
+     "shirtName": "Lorenzo Berardi",
+     "displayName": "L. Berardi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e0f2d4c73194c0da80e981bdd7626d4",
+     "providerId": "opta:Player:brj5akfauhsqczb37yjha0zmy",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Simone",
+     "lastName": "Panada",
+     "shirtName": "Simone Panada",
+     "displayName": "Panada",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::69a90d98de0f4774a04ddaecd02ece52",
+     "providerId": "kama:Player:101387",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Kornel Gracjan",
+     "lastName": "Lisman",
+     "shirtName": "Kornel Lisman",
+     "displayName": "Lisman",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a43187cd03a84c579f6cc6de0717f77b",
+     "providerId": "kama:Player:110438",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Antonio",
+     "lastName": "Fernández Casino",
+     "shirtName": "Antonio Fernández",
+     "displayName": "Fernández",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::adccc4694b4d4410a98deabc59cabd83"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1be08231cf93465c832a977cb942b0b0",
+     "providerId": "kama:Player:101442",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Alejandro",
+     "lastName": "Gomes Furtado",
+     "shirtName": "Alejandro Gomes",
+     "displayName": "Gomes",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fec04752003c4e30bdd70e07e39f8b4c",
+     "providerId": "opta:Player:1jv2z06bjokvswjhuo1xsxdgq",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Christos",
+     "lastName": "Mandas",
+     "shirtName": "Christos Mandas",
+     "displayName": "Mandas",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8bb18ae810b34b4aa89fc0cfb0ccbf35",
+     "providerId": "opta:Player:7hukebiijqntuvetwzralzuju",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Oliver Provstgaard",
+     "lastName": "Nielsen",
+     "shirtName": "Oliver Provstgaard",
+     "displayName": "Provstgaard",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8697e2d27e9b448d8c6cdb826dc41b9d",
+     "providerId": "opta:Player:dqsslq1iz1azubowq3anwws4q",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Nuno Albertino",
+     "lastName": "Varela Tavares",
+     "shirtName": "Nuno Tavares",
+     "displayName": "Nuno Tavares",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7dfef3767791491da0b2d9e98b899cd3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2804cbef3aa94452bd4c8f9f5726a7d8",
+     "providerId": "kama:Player:110221",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Josip",
+     "lastName": "Šutalo",
+     "shirtName": "Josip Šutalo",
+     "displayName": "Šutalo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::79c109c187ce4f7cbf763e5b9484319e",
+     "providerId": "opta:Player:d3dzhnj9na7marc0c4j0d1zbo",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Romano",
+     "lastName": "Floriani Mussolini",
+     "shirtName": "Romano Floriani M.",
+     "displayName": "Floriani M.",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fd305b16dbdc46c18c0de85ce5bcdac5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8568cd16882848deab08aaae90e8a2c2",
+     "providerId": "opta:Player:4qejyummzkrfllds8ord642qx",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Davide",
+     "lastName": "Frattesi",
+     "shirtName": "Davide Frattesi",
+     "displayName": "Frattesi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b0ba8865af6b497295c46fc7e8f12d63",
+     "providerId": "kama:Player:100526",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Kenneth Ina Dorothea",
+     "lastName": "Taylor",
+     "shirtName": "Kenneth Taylor",
+     "displayName": "Taylor",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::317f90e84ebc4866b303fe44867825d6",
+     "providerId": "opta:Player:cjgrtf1xc97ir3b64cnl9ecyc",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Reda",
+     "lastName": "Belahyane",
+     "shirtName": "Reda Belahyane",
+     "displayName": "Belahyane",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5d188308b5a14e13bd61d64f792ecb69",
+     "providerId": "opta:Player:cfzvplhlvlfvau521u6b86xud",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Mattia",
+     "lastName": "Zaccagni",
+     "shirtName": "M. Zaccagni",
+     "displayName": "Zaccagni",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 51,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7c06889abf144462a381039c0a5bb5df",
+     "providerId": "opta:Player:71gwdg60saiwwwnnv6is52may",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Tijjani",
+     "lastName": "Noslin",
+     "shirtName": "Tijjani Noslin",
+     "displayName": "Noslin",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8697e2d27e9b448d8c6cdb826dc41b9d"
+      },
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::38861941353d48968b5312cfe5ff32b7",
+     "providerId": "opta:Player:ho87m362sey4msdjp4n180oa",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Matteo",
+     "lastName": "Cancellieri",
+     "shirtName": "M. Cancellieri",
+     "displayName": "Cancellieri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9b8fcf1ef10e4c89902da635ee271f45",
+     "providerId": "opta:Player:2os2xde8tdxbpamab8kngnhuc",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Edoardo",
+     "lastName": "Motta",
+     "shirtName": "Edoardo Motta",
+     "displayName": "Motta",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b1b5b44908c64faba6115ac749d0de78",
+     "providerId": "opta:Player:4rr7pp0v8tbavkmjgd269xkb8",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Davide",
+     "lastName": "Renzetti",
+     "shirtName": "Davide Renzetti",
+     "displayName": "Renzetti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e610dccad5194541997aeea363a846ce",
+     "providerId": "kama:Player:110676",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Diogo Filipe",
+     "lastName": "Monteiro Pinto Leite",
+     "shirtName": "Diogo Leite",
+     "displayName": "Diogo Leite",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1efe186e44a24590a76c59fdf3d75080",
+     "providerId": "kama:Player:101770",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Danilho Raimundo",
+     "lastName": "Doekhi",
+     "shirtName": "Danilho Doekhi",
+     "displayName": "Doekhi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba",
+     "providerId": "opta:Player:153ljvbov0n176vm9fdaizoix",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Andrea",
+     "lastName": "Pinamonti",
+     "shirtName": "A. Pinamonti",
+     "displayName": "Pinamonti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7c06889abf144462a381039c0a5bb5df"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b",
+     "providerId": "opta:Player:5ec6f4mm3rwjm0fgis0k3cmp5",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Gustav Tang",
+     "lastName": "Isaksen",
+     "shirtName": "Gustav Isaksen",
+     "displayName": "Isaksen",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5d188308b5a14e13bd61d64f792ecb69"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7dfef3767791491da0b2d9e98b899cd3",
+     "providerId": "kama:Player:100970",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Alfonso",
+     "lastName": "Pedraza Sag",
+     "shirtName": "Alfonso Pedraza",
+     "displayName": "Pedraza",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8697e2d27e9b448d8c6cdb826dc41b9d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fd305b16dbdc46c18c0de85ce5bcdac5",
+     "providerId": "opta:Player:8w2rfa3vnu6t1a37510374nv9",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Manuel",
+     "lastName": "Lazzari",
+     "shirtName": "M. Lazzari",
+     "displayName": "Lazzari",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::79c109c187ce4f7cbf763e5b9484319e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a0cb1115e2814bbe8181d06c6bd795c2",
+     "providerId": "opta:Player:6hlutndh6zstrpi5i0u0mxyvp",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Danilo",
+     "lastName": "Cataldi",
+     "shirtName": "Danilo Cataldi",
+     "displayName": "Cataldi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9a00ebc8e7f34325a44b8696ab843370",
+     "providerId": "opta:Player:3ez5xnukju38qmvgrneya2x3o",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Federico",
+     "lastName": "Serra",
+     "shirtName": "Federico Serra",
+     "displayName": "Serra",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2d1d6f1891f04d9d9aa1318ba8d5710f",
+     "providerId": "kama:Player:5011",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Valerio",
+     "lastName": "Farcomeni",
+     "shirtName": "Valerio Farcomeni",
+     "displayName": "Farcomeni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4",
+     "providerId": "opta:Player:ejzxqtdo5xxvbg6gvtju3lk9h",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Albert",
+     "lastName": "Guðmundsson",
+     "shirtName": "Albert Gudmundsson",
+     "displayName": "Guðmundsson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b0ba8865af6b497295c46fc7e8f12d63"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-05T17:52:39.831Z",
+   "sha256": "a2d5d7846e6a84e792ad76768cc9e120da4bd254d6c135b0e3bba87fb974be8a"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-05T17:52:48.356Z",
+   "sha256": "61b34428ad244dc01f8246377b9236669eb803bfb6e1e77184d5532d1dd123c5",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Mandas",
+     "giocatoreIdFantacalcio": 6482,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 1,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazzari",
+     "giocatoreIdFantacalcio": 2263,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedraza",
+     "giocatoreIdFantacalcio": 4817,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tavares N.",
+     "giocatoreIdFantacalcio": 5620,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Provstgaard",
+     "giocatoreIdFantacalcio": 7012,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Floriani Mussolini",
+     "giocatoreIdFantacalcio": 7131,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sutalo J.",
+     "giocatoreIdFantacalcio": 7580,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zaccagni",
+     "giocatoreIdFantacalcio": 632,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frattesi",
+     "giocatoreIdFantacalcio": 2848,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cancellieri",
+     "giocatoreIdFantacalcio": 5500,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gudmundsson A.",
+     "giocatoreIdFantacalcio": 5800,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Belahyane",
+     "giocatoreIdFantacalcio": 6191,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Isaksen",
+     "giocatoreIdFantacalcio": 6398,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Taylor K.",
+     "giocatoreIdFantacalcio": 7314,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pinamonti",
+     "giocatoreIdFantacalcio": 2038,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Noslin",
+     "giocatoreIdFantacalcio": 6556,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Stankovic F.",
+     "giocatoreIdFantacalcio": 6248,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Juan Jesus",
+     "giocatoreIdFantacalcio": 256,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Correia T.",
+     "giocatoreIdFantacalcio": 4845,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sagrado",
+     "giocatoreIdFantacalcio": 6681,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hainaut",
+     "giocatoreIdFantacalcio": 6821,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Moreno M.",
+     "giocatoreIdFantacalcio": 6890,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Schingtienne",
+     "giocatoreIdFantacalcio": 6892,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "giocatoreIdFantacalcio": 5319,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Helgason",
+     "giocatoreIdFantacalcio": 5872,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Perez K.",
+     "giocatoreIdFantacalcio": 6994,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fernandez T.",
+     "giocatoreIdFantacalcio": 7232,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fanne",
+     "giocatoreIdFantacalcio": 7635,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Yeboah J.",
+     "giocatoreIdFantacalcio": 6904,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 1.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 2,
+     "votoItalia": 5,
+     "fantavotoItalia": 2,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 1,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Rrahmani Al.",
+     "giocatoreIdFantacalcio": 7449,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/5",
+      "estrattoIl": "2026-10-05T17:52:48.356Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams A.",
+     "giocatoreIdFantacalcio": 7484,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 0 - 2 Lazio 19/09/2026 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

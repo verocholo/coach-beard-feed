@@ -1,0 +1,1729 @@
+{
+ "label": "Fiorentina-Frosinone (g2)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-05T17:52:04.034Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-08-29T16:30:00Z",
+  "hoursAfterKickoff": 889.3677872222222,
+  "observation": {
+   "retrievedAt": "2026-10-05T17:52:04.034Z",
+   "sha256": "6489ed89e621e31c5a7299724b1460399eb746634446ef84828b89a2b9eb9c75"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-05T17:52:45.286Z",
+  "sha256": "19c0f9af2c2039aee3ac2cdda16235368c2c7c71442cd7fccf92e309a654196a"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::fc127bfcf8514a9eb56e850c850e91d6",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-08-29T16:30:00Z",
+   "matchday": 2,
+   "home": "Fiorentina",
+   "away": "Frosinone",
+   "homeTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "awayTeamId": "serie-a::Football_Team::b283fcc0aeda401bb081fcd764e290db",
+   "homeScore": 0,
+   "awayScore": 3,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::fc127bfcf8514a9eb56e850c850e91d6",
+   "homeTeam": "Fiorentina",
+   "awayTeam": "Frosinone",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::7eea4a3905274129bc4fdfec8574cc43",
+     "providerId": "opta:Player:e00004wkpfc8jawioejmpu1n9",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "David",
+     "lastName": "De Gea Quintana",
+     "shirtName": "David de Gea",
+     "displayName": "de Gea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d6df0d3534234b00867b7034be4b34d1",
+     "providerId": "kama:Player:101775",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Víctor",
+     "lastName": "Valdepeñas Talavera",
+     "shirtName": "Víctor Valdepeñas",
+     "displayName": "Valdepeñas",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7bba1cf90e5242579e9cdcb5c20c6974",
+     "providerId": "opta:Player:clbsrtzkf61e6vx28ou5lbx90",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Alejandro",
+     "lastName": "Jimenez Sanchez",
+     "shirtName": "Álex Jiménez",
+     "displayName": "Jiménez",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 24,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2de0dfeaa65140cd855ca8681b0f1e65"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::36f5e2bf5aec4a7881f1ad57674c057a",
+     "providerId": "opta:Player:4gbk8ka3fv401f8zyslo38fai",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Radu Matei",
+     "lastName": "Dragusin",
+     "shirtName": "Radu Dragusin",
+     "displayName": "Drăgușin",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ed69bfd28e1e418a93404a1dbc1e2350"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc",
+     "providerId": "opta:Player:kvbjuvcseqk4sbr04ctkqi38",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Cher",
+     "lastName": "Ndour",
+     "shirtName": "Cher Ndour",
+     "displayName": "Ndour",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7b365b990b9642639eed2be501296fba",
+     "providerId": "kama:Player:101565",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Christ Ravynel Inao",
+     "lastName": "Oulaï",
+     "shirtName": "Christ Inao Oulaï",
+     "displayName": "Oulaï",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cd9708fcf981489e939152ec78f997c2",
+     "providerId": "opta:Player:2wwbf11c9mc2psxaa8p58qnmc",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Arthur Eric",
+     "lastName": "Atta",
+     "shirtName": "Arthur Atta",
+     "displayName": "Atta",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a",
+     "providerId": "opta:Player:7maur0rp96hubnkuu84576wpg",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Mateo",
+     "lastName": "Pellegrino Casalanguida",
+     "shirtName": "Mateo Pellegrino",
+     "displayName": "Pellegrino",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4",
+     "providerId": "opta:Player:ejzxqtdo5xxvbg6gvtju3lk9h",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Albert",
+     "lastName": "Guðmundsson",
+     "shirtName": "Albert Gudmundsson",
+     "displayName": "Guðmundsson",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 49,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::000931a496414061b3387beb069c8593"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::538bf99b0c2e4927aee5bddfa650cce5",
+     "providerId": "kama:Player:101881",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Franco",
+     "lastName": "Mastantuono",
+     "shirtName": "Franco Mastantuono",
+     "displayName": "Mastantuono",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d58bb19e4fac428c91c7d3d22c54aeb8",
+     "providerId": "opta:Player:bgwbowoiz7t2lvpit75zlqz11",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Lezzerini",
+     "shirtName": "Luca Lezzerini",
+     "displayName": "Lezzerini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a32fc40b8644de68e49a77591741565",
+     "providerId": "opta:Player:1sjt0nj0232gu88x50c3d16nd",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Oliver",
+     "lastName": "Christensen",
+     "shirtName": "Oliver Christensen",
+     "displayName": "Christensen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51",
+     "providerId": "opta:Player:9e3t2wyjqzxsn690aysao8cfd",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Domilson",
+     "lastName": "Cordeiro Dos Santo",
+     "shirtName": "Dodô",
+     "displayName": "Dodô",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511",
+     "providerId": "opta:Player:1f37bo8dikes3350u2a0h9hm2",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Marco",
+     "lastName": "Brescianini",
+     "shirtName": "Marco Brescianini",
+     "displayName": "Brescianini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7b365b990b9642639eed2be501296fba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::000931a496414061b3387beb069c8593",
+     "providerId": "opta:Player:dpnp9rguhhs04of6vmlw5spg5",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Rolando",
+     "lastName": "Mandragora",
+     "shirtName": "Rolando Mandragora",
+     "displayName": "Mandragora",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2de0dfeaa65140cd855ca8681b0f1e65",
+     "providerId": "kama:Player:98464",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "João Mário",
+     "lastName": "Neto Lopes",
+     "shirtName": "João Mário",
+     "displayName": "João Mário",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7bba1cf90e5242579e9cdcb5c20c6974"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ed69bfd28e1e418a93404a1dbc1e2350",
+     "providerId": "kama:Player:101521",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Viery",
+     "lastName": "Fernandes Santos Lopes",
+     "shirtName": "Viery",
+     "displayName": "Viery",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a65c3c804f044245b5e552a220c1ad99",
+     "providerId": "kama:Player:94272",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Sulayman",
+     "lastName": "Jallow",
+     "shirtName": "Sulayman Jallow",
+     "displayName": "Jallow",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8c6e1f84d10842058510a1118f40fe21",
+     "providerId": "kama:Player:12439",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Brando",
+     "lastName": "Mazzeo",
+     "shirtName": "Brando Mazzeo",
+     "displayName": "Mazzeo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4ced25e7751e44d7a8667a8b9fb1cd78",
+     "providerId": "kama:Player:5133",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Antonio",
+     "lastName": "Pirro'",
+     "shirtName": "Antonio Pirro",
+     "displayName": "Pirro'",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::43815bb11f2e40c2ba31811279a1aa4d",
+     "providerId": "opta:Player:cf6s9r48j9nm47c2o0tld0gt0",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Lorenzo",
+     "lastName": "Palmisani",
+     "shirtName": "Lorenzo Palmisani",
+     "displayName": "Palmisani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1faf1073ff624a9f8376452649104d60",
+     "providerId": "opta:Player:3j2yog3zyussh0aq1xgz3e2cq",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Anthony Henri",
+     "lastName": "Oyono Omva Torque",
+     "shirtName": "Anthony Oyono",
+     "displayName": "A. Oyono",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a224e4c6a01b4cb6b35fe7de75631270",
+     "providerId": "opta:Player:cbzfr0b3pjiknahduv488ogoa",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Ilario",
+     "lastName": "Monterisi",
+     "shirtName": "Ilario Monterisi",
+     "displayName": "Monterisi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b629fb0c40f34d83864423c077fc8e9a",
+     "providerId": "opta:Player:eg9jgcpcll4b1rfcx7u1gspw4",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Gabriele",
+     "lastName": "Calvani",
+     "shirtName": "Gabriele Calvani",
+     "displayName": "Calvani",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 45,
+       "additionalTime": 2,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b731ad839089401cae323f26242b5a3c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::69f7dae2593c48688c4a81757ce6f679",
+     "providerId": "opta:Player:j3e45tivwj7iod1xde5o642c",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Gabriele",
+     "lastName": "Bracaglia",
+     "shirtName": "Gabriele Bracaglia",
+     "displayName": "Bracaglia",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 24,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "goal",
+       "time": 38,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fb3c5ed594354769aa833b934cce5bd4"
+      },
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e915eeb53927483ab3efeb464af5a436"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fb3c5ed594354769aa833b934cce5bd4",
+     "providerId": "opta:Player:51shig8ylkdt63h19537eclbd",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Giacomo",
+     "lastName": "Calò",
+     "shirtName": "Giacomo Calò",
+     "displayName": "Calò",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::011244fc8d884ec8a38c2fd22d8f0bb3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c",
+     "providerId": "opta:Player:7xdhy2xi9mrhzjn6aiatd9ono",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Patrizio",
+     "lastName": "Masini",
+     "shirtName": "Patrizio Masini",
+     "displayName": "Masini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::28f725a351bc4da2ba6c6a690359cd86",
+     "providerId": "kama:Player:101927",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Romano Christian",
+     "lastName": "Schmid",
+     "shirtName": "Romano Schmid",
+     "displayName": "Schmid",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f0f15f171e034b32a0a4559ee10219cf",
+     "providerId": "opta:Player:dx7fg77tfqytimfiixw9tyfx0",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Seydou",
+     "lastName": "Fini",
+     "shirtName": "Seydou Fini",
+     "displayName": "Fini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5879c1ef79b349c6a46f75a5d1d7e8d6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::48931447190a4915baacb0c737b5ec04",
+     "providerId": "opta:Player:ct2t62s5gte4o5hodlfz9hkb8",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Antonio",
+     "lastName": "Raimondo",
+     "shirtName": "A. Raimondo",
+     "displayName": "Raimondo",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 8,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "goal",
+       "time": 26,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0b042de974074786b4f062b303d0ce58"
+      },
+      {
+       "type": "goal",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::69f7dae2593c48688c4a81757ce6f679"
+      },
+      {
+       "type": "substitution-out",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::47c0d9f9f72442ca84e2206ed97f1839"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b042de974074786b4f062b303d0ce58",
+     "providerId": "opta:Player:2lx4dy8gdeox803t8iwmy2ivo",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Giorgi",
+     "lastName": "Kvernadze",
+     "shirtName": "Giorgi Kvernadze",
+     "displayName": "Kvernadze",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b78bfd3fcec942ec9bc0c4b3b460e290",
+     "providerId": "opta:Player:9rtzvefylu655vjkfiv1e2tp1",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Matteo",
+     "lastName": "Pisseri",
+     "shirtName": "Matteo Pisseri",
+     "displayName": "Pisseri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1bf93348ac2a4202a62d4418128c3bca",
+     "providerId": "opta:Player:8hzilc6xbie60t8i41h4mcqac",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Sebastiano",
+     "lastName": "Desplanches",
+     "shirtName": "Sebastiano Desplanches",
+     "displayName": "Desplanches",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b731ad839089401cae323f26242b5a3c",
+     "providerId": "opta:Player:1e6s5l3tp48t6ybq73lzzmkx6",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Giorgio",
+     "lastName": "Cittadini",
+     "shirtName": "Giorgio Cittadini",
+     "displayName": "Cittadini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b629fb0c40f34d83864423c077fc8e9a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5760cec9926c4de7bb8d2dd6f7e06456",
+     "providerId": "opta:Player:5tfh0jvfxlw1aqfaiiok4pwr8",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Wisdom",
+     "lastName": "Amey",
+     "shirtName": "Wisdom Amey",
+     "displayName": "Amey",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::47c0d9f9f72442ca84e2206ed97f1839",
+     "providerId": "opta:Player:aianahl18ooxmlr5ok6v321d6",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "George Daniel",
+     "lastName": "Bîrligea",
+     "shirtName": "Daniel Bîrligea",
+     "displayName": "Bîrligea",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::48931447190a4915baacb0c737b5ec04"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b94f1904c0064a038506c0fc106117c3",
+     "providerId": "opta:Player:7g92lfswalp2spd6yzocy6978",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Matteo",
+     "lastName": "Cichella",
+     "shirtName": "Matteo Cichella",
+     "displayName": "Cichella",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5879c1ef79b349c6a46f75a5d1d7e8d6",
+     "providerId": "opta:Player:7knk2xsg4690hgq9us9us8ull",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Alessio",
+     "lastName": "Zerbin",
+     "shirtName": "Alessio Zerbin",
+     "displayName": "Zerbin",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f0f15f171e034b32a0a4559ee10219cf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fa7eba091d134cc3a9a8dd6da6785b31",
+     "providerId": "kama:Player:101754",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Kevin John Ufuoma",
+     "lastName": "Akpoguma",
+     "shirtName": "Kevin Akpoguma",
+     "displayName": "Akpoguma",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::011244fc8d884ec8a38c2fd22d8f0bb3",
+     "providerId": "kama:Player:101928",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Florian",
+     "lastName": "Grillitsch",
+     "shirtName": "Florian Grillitsch",
+     "displayName": "Grillitsch",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fb3c5ed594354769aa833b934cce5bd4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1bea21175cd14e5d931504f90109749a",
+     "providerId": "kama:Player:101569",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Anouar",
+     "lastName": "El Azzouzi",
+     "shirtName": "Anouar El Azzouzi",
+     "displayName": "A. El Azzouzi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f6df7b58957c4eb5ba387d10eddbfd20",
+     "providerId": "opta:Player:el1iasw3t612r6gawvodhyf4k",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Luis",
+     "lastName": "Hasa",
+     "shirtName": "Luis Hasa",
+     "displayName": "Hasa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e915eeb53927483ab3efeb464af5a436",
+     "providerId": "opta:Player:3jtsqwoi9w0dxxneld0mt5rs9",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Aleksa",
+     "lastName": "Terzić",
+     "shirtName": "Aleksa Terzić",
+     "displayName": "Terzić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::69f7dae2593c48688c4a81757ce6f679"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::101093c29d18427f998c0388bff053fb",
+     "providerId": "kama:Player:110168",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Omar",
+     "lastName": "Fayed Abdelwahab Elrakhawy",
+     "shirtName": "Omar Fayed",
+     "displayName": "Fayed",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::389c9510a35b40f2ac23de74bdfeb458",
+     "providerId": "kama:Player:110291",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Enzo Gianni",
+     "lastName": "Tchato Mbiayi",
+     "shirtName": "Enzo Tchato",
+     "displayName": "Tchato",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-05T17:52:13.161Z",
+   "sha256": "3d9a275a50eeaaac669e07e92a8cb41e1a3e306e57978a5fd444ae31c92b1df9"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-05T17:52:45.286Z",
+   "sha256": "19c0f9af2c2039aee3ac2cdda16235368c2c7c71442cd7fccf92e309a654196a",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "De Gea",
+     "giocatoreIdFantacalcio": 2521,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 2,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 1.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 2,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dragusin",
+     "giocatoreIdFantacalcio": 5365,
+     "votoRedazione": 4,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 4,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "giocatoreIdFantacalcio": 5603,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Jimenez A.",
+     "giocatoreIdFantacalcio": 6531,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Joao Mario",
+     "giocatoreIdFantacalcio": 7175,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valdepenas",
+     "giocatoreIdFantacalcio": 7294,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Viery",
+     "giocatoreIdFantacalcio": 7410,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mandragora",
+     "giocatoreIdFantacalcio": 1933,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "giocatoreIdFantacalcio": 4465,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Brescianini",
+     "giocatoreIdFantacalcio": 4947,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gudmundsson A.",
+     "giocatoreIdFantacalcio": 5800,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndour",
+     "giocatoreIdFantacalcio": 6294,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Atta",
+     "giocatoreIdFantacalcio": 6908,
+     "votoRedazione": 4,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mastantuono",
+     "giocatoreIdFantacalcio": 7078,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Oulai",
+     "giocatoreIdFantacalcio": 7464,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pellegrino M.",
+     "giocatoreIdFantacalcio": 7023,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Palmisani",
+     "giocatoreIdFantacalcio": 6415,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Terzic",
+     "giocatoreIdFantacalcio": 4375,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Monterisi",
+     "giocatoreIdFantacalcio": 4952,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cittadini",
+     "giocatoreIdFantacalcio": 5757,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Oyono A.",
+     "giocatoreIdFantacalcio": 6238,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Calvani",
+     "giocatoreIdFantacalcio": 7467,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bracaglia",
+     "giocatoreIdFantacalcio": 7469,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 11,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 11.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 11,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zerbin",
+     "giocatoreIdFantacalcio": 5998,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fini",
+     "giocatoreIdFantacalcio": 6506,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Masini",
+     "giocatoreIdFantacalcio": 6917,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Calò",
+     "giocatoreIdFantacalcio": 7472,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Grillitsch",
+     "giocatoreIdFantacalcio": 7550,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Schmid",
+     "giocatoreIdFantacalcio": 7551,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Raimondo",
+     "giocatoreIdFantacalcio": 5436,
+     "votoRedazione": 8,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 13.5,
+     "votoItalia": 8,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kvernadze",
+     "giocatoreIdFantacalcio": 6204,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 8.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 8.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 8.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/2",
+      "estrattoIl": "2026-10-05T17:52:45.286Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Birligea",
+     "giocatoreIdFantacalcio": 7610,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 3 Frosinone 29/08/2026 - 18:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

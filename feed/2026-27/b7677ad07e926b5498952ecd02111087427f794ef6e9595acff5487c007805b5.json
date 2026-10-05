@@ -1,0 +1,1794 @@
+{
+ "label": "Frosinone-Venezia (g3)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-05T17:52:04.034Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-09-06T13:00:00Z",
+  "hoursAfterKickoff": 700.8677872222222,
+  "observation": {
+   "retrievedAt": "2026-10-05T17:52:04.034Z",
+   "sha256": "6489ed89e621e31c5a7299724b1460399eb746634446ef84828b89a2b9eb9c75"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-05T17:52:46.500Z",
+  "sha256": "c6b6b5441890a215f6b5d6701b85946f35077ed9223b140df5fecaf7b1e5c77a"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::18a37aed48f14b739371499da39712da",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-09-06T13:00:00Z",
+   "matchday": 3,
+   "home": "Frosinone",
+   "away": "Venezia",
+   "homeTeamId": "serie-a::Football_Team::b283fcc0aeda401bb081fcd764e290db",
+   "awayTeamId": "serie-a::Football_Team::a28236708d214df3a2e2e04ceb7e5c54",
+   "homeScore": 3,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 8
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::18a37aed48f14b739371499da39712da",
+   "homeTeam": "Frosinone",
+   "awayTeam": "Venezia",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::43815bb11f2e40c2ba31811279a1aa4d",
+     "providerId": "opta:Player:cf6s9r48j9nm47c2o0tld0gt0",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Lorenzo",
+     "lastName": "Palmisani",
+     "shirtName": "Lorenzo Palmisani",
+     "displayName": "Palmisani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b629fb0c40f34d83864423c077fc8e9a",
+     "providerId": "opta:Player:eg9jgcpcll4b1rfcx7u1gspw4",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Gabriele",
+     "lastName": "Calvani",
+     "shirtName": "Gabriele Calvani",
+     "displayName": "Calvani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b731ad839089401cae323f26242b5a3c",
+     "providerId": "opta:Player:1e6s5l3tp48t6ybq73lzzmkx6",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Giorgio",
+     "lastName": "Cittadini",
+     "shirtName": "Giorgio Cittadini",
+     "displayName": "Cittadini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a224e4c6a01b4cb6b35fe7de75631270"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::69f7dae2593c48688c4a81757ce6f679",
+     "providerId": "opta:Player:j3e45tivwj7iod1xde5o642c",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Gabriele",
+     "lastName": "Bracaglia",
+     "shirtName": "Gabriele Bracaglia",
+     "displayName": "Bracaglia",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1faf1073ff624a9f8376452649104d60",
+     "providerId": "opta:Player:3j2yog3zyussh0aq1xgz3e2cq",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Anthony Henri",
+     "lastName": "Oyono Omva Torque",
+     "shirtName": "Anthony Oyono",
+     "displayName": "A. Oyono",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::28f725a351bc4da2ba6c6a690359cd86",
+     "providerId": "kama:Player:101927",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Romano Christian",
+     "lastName": "Schmid",
+     "shirtName": "Romano Schmid",
+     "displayName": "Schmid",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 33,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b94f1904c0064a038506c0fc106117c3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c",
+     "providerId": "opta:Player:7xdhy2xi9mrhzjn6aiatd9ono",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Patrizio",
+     "lastName": "Masini",
+     "shirtName": "Patrizio Masini",
+     "displayName": "Masini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fb3c5ed594354769aa833b934cce5bd4",
+     "providerId": "opta:Player:51shig8ylkdt63h19537eclbd",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Giacomo",
+     "lastName": "Calò",
+     "shirtName": "Giacomo Calò",
+     "displayName": "Calò",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5760cec9926c4de7bb8d2dd6f7e06456"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f0f15f171e034b32a0a4559ee10219cf",
+     "providerId": "opta:Player:dx7fg77tfqytimfiixw9tyfx0",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Seydou",
+     "lastName": "Fini",
+     "shirtName": "Seydou Fini",
+     "displayName": "Fini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::95a7041f24a14a40bf4592bb3c8a6ec5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::48931447190a4915baacb0c737b5ec04",
+     "providerId": "opta:Player:ct2t62s5gte4o5hodlfz9hkb8",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Antonio",
+     "lastName": "Raimondo",
+     "shirtName": "A. Raimondo",
+     "displayName": "Raimondo",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 21,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1faf1073ff624a9f8376452649104d60"
+      },
+      {
+       "type": "goal",
+       "time": 39,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c"
+      },
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::47c0d9f9f72442ca84e2206ed97f1839"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b042de974074786b4f062b303d0ce58",
+     "providerId": "opta:Player:2lx4dy8gdeox803t8iwmy2ivo",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Giorgi",
+     "lastName": "Kvernadze",
+     "shirtName": "Giorgi Kvernadze",
+     "displayName": "Kvernadze",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b78bfd3fcec942ec9bc0c4b3b460e290",
+     "providerId": "opta:Player:9rtzvefylu655vjkfiv1e2tp1",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Matteo",
+     "lastName": "Pisseri",
+     "shirtName": "Matteo Pisseri",
+     "displayName": "Pisseri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1bf93348ac2a4202a62d4418128c3bca",
+     "providerId": "opta:Player:8hzilc6xbie60t8i41h4mcqac",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Sebastiano",
+     "lastName": "Desplanches",
+     "shirtName": "Sebastiano Desplanches",
+     "displayName": "Desplanches",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5760cec9926c4de7bb8d2dd6f7e06456",
+     "providerId": "opta:Player:5tfh0jvfxlw1aqfaiiok4pwr8",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Wisdom",
+     "lastName": "Amey",
+     "shirtName": "Wisdom Amey",
+     "displayName": "Amey",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fb3c5ed594354769aa833b934cce5bd4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::95a7041f24a14a40bf4592bb3c8a6ec5",
+     "providerId": "opta:Player:56oxuwxbszkg8xjic1bizd1xw",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Farès",
+     "lastName": "Ghedjemis",
+     "shirtName": "Farès Ghedjemis",
+     "displayName": "Ghedjemis",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f0f15f171e034b32a0a4559ee10219cf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::47c0d9f9f72442ca84e2206ed97f1839",
+     "providerId": "opta:Player:aianahl18ooxmlr5ok6v321d6",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "George Daniel",
+     "lastName": "Bîrligea",
+     "shirtName": "Daniel Bîrligea",
+     "displayName": "Bîrligea",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::48931447190a4915baacb0c737b5ec04"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b94f1904c0064a038506c0fc106117c3",
+     "providerId": "opta:Player:7g92lfswalp2spd6yzocy6978",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Matteo",
+     "lastName": "Cichella",
+     "shirtName": "Matteo Cichella",
+     "displayName": "Cichella",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::28f725a351bc4da2ba6c6a690359cd86"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5879c1ef79b349c6a46f75a5d1d7e8d6",
+     "providerId": "opta:Player:7knk2xsg4690hgq9us9us8ull",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Alessio",
+     "lastName": "Zerbin",
+     "shirtName": "Alessio Zerbin",
+     "displayName": "Zerbin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::011244fc8d884ec8a38c2fd22d8f0bb3",
+     "providerId": "kama:Player:101928",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Florian",
+     "lastName": "Grillitsch",
+     "shirtName": "Florian Grillitsch",
+     "displayName": "Grillitsch",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a224e4c6a01b4cb6b35fe7de75631270",
+     "providerId": "opta:Player:cbzfr0b3pjiknahduv488ogoa",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Ilario",
+     "lastName": "Monterisi",
+     "shirtName": "Ilario Monterisi",
+     "displayName": "Monterisi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b731ad839089401cae323f26242b5a3c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1bea21175cd14e5d931504f90109749a",
+     "providerId": "kama:Player:101569",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Anouar",
+     "lastName": "El Azzouzi",
+     "shirtName": "Anouar El Azzouzi",
+     "displayName": "A. El Azzouzi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f6df7b58957c4eb5ba387d10eddbfd20",
+     "providerId": "opta:Player:el1iasw3t612r6gawvodhyf4k",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Luis",
+     "lastName": "Hasa",
+     "shirtName": "Luis Hasa",
+     "displayName": "Hasa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e915eeb53927483ab3efeb464af5a436",
+     "providerId": "opta:Player:3jtsqwoi9w0dxxneld0mt5rs9",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Aleksa",
+     "lastName": "Terzić",
+     "shirtName": "Aleksa Terzić",
+     "displayName": "Terzić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::101093c29d18427f998c0388bff053fb",
+     "providerId": "kama:Player:110168",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Omar",
+     "lastName": "Fayed Abdelwahab Elrakhawy",
+     "shirtName": "Omar Fayed",
+     "displayName": "Fayed",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8292419cde594479810cc0f4f62a3c99",
+     "providerId": "kama:Player:110373",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Tomas",
+     "lastName": "Bobček",
+     "shirtName": "Tomas Bobcek",
+     "displayName": "Bobcek",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::389c9510a35b40f2ac23de74bdfeb458",
+     "providerId": "kama:Player:110291",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Enzo Gianni",
+     "lastName": "Tchato Mbiayi",
+     "shirtName": "Enzo Tchato",
+     "displayName": "Tchato",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c3b8ff6261d94b7ead6fd32487db048f",
+     "providerId": "opta:Player:7dg8woqlx67ch0ji3ujhgb52i",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Filip",
+     "lastName": "Stanković",
+     "shirtName": "Filip Stanković",
+     "displayName": "F. Stanković",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0ab569e366034054a50eca43d1f816a2",
+     "providerId": "kama:Player:99295",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Armel",
+     "lastName": "Bella Kotchap",
+     "shirtName": "Armel Bella Kotchap",
+     "displayName": "Bella-Kotchap",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 16,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8143399f5d04d0d992ef3e5d2e2de5b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b7bca5e1ba134a4eacb2d992988c0002",
+     "providerId": "kama:Player:101820",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Redouane",
+     "lastName": "Halhal",
+     "shirtName": "Redouane Halhal",
+     "displayName": "Halhal",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 33,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::70e695711da649fda1c502ba4f1e5c49",
+     "providerId": "kama:Player:1853",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Joel Marcel",
+     "lastName": "Schingtienne",
+     "shirtName": "Joel Schingtienne",
+     "displayName": "Schingtienne",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2696f7e05fea46fdb91b6b94df2c81b2",
+     "providerId": "opta:Player:3haxsyfrccsgw6x5jgbwdjze",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Gianluca Cristiano",
+     "lastName": "Busio",
+     "shirtName": "Gianluca Busio",
+     "displayName": "Busio",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 39,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::322ceda3cb844022af977369f2ade64c",
+     "providerId": "opta:Player:abk9geafxglsmnu9qhra8x1at",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Ridgeciano Delano",
+     "lastName": "Haps",
+     "shirtName": "Ridgeciano Haps",
+     "displayName": "Haps",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ba4cf034f38b44e7bad0ae3920a4dd41"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 44,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a43187cd03a84c579f6cc6de0717f77b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e3a4eec9aabd422bb4ae48807622f92d",
+     "providerId": "opta:Player:66t7zm54jgmcjtiizl9g0rkkp",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Enrique",
+     "lastName": "Perez Munoz",
+     "shirtName": "Kike Pérez",
+     "displayName": "Kike Pérez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e2a458c59eb4cfaa2212212d59711f5",
+     "providerId": "opta:Player:8ct2oybj8d1b03aklkg8ihbf8",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Antoine",
+     "lastName": "Hainaut",
+     "shirtName": "Antoine Hainaut",
+     "displayName": "Hainaut",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1d0f5ab9f8b5476fb6e80639a745e148",
+     "providerId": "kama:Player:101601",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Akor Jerome",
+     "lastName": "Adams",
+     "shirtName": "Akor Adams",
+     "displayName": "A. Adams",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::25016175ed0a4cc8878c514edf4ab638"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f2149d81a7414d769679ebd0b2ff0a4a",
+     "providerId": "kama:Player:101417",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Albion",
+     "lastName": "Rrahmani",
+     "shirtName": "Albion Rrahmani",
+     "displayName": "Al. Rrahmani",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::adccc4694b4d4410a98deabc59cabd83"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b28865a6d4814858be353447697de6d1",
+     "providerId": "opta:Player:c7fky0h6gi7wmibnv2tzf6mz9",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Lorenzo",
+     "lastName": "Montipò",
+     "shirtName": "Lorenzo Montipò",
+     "displayName": "Montipò",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ba4cf034f38b44e7bad0ae3920a4dd41",
+     "providerId": "opta:Player:4v3mcgy4w1n4g3vkq0fe7iwwk",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Matias Agustin",
+     "lastName": "Moreno",
+     "shirtName": "Matías Moreno",
+     "displayName": "Moreno",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::322ceda3cb844022af977369f2ade64c"
+      },
+      {
+       "type": "yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d050631b4588437f83ff5936abf28c60",
+     "providerId": "kama:Player:100680",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Mouhamed Lamine",
+     "lastName": "Fanne Dabo",
+     "shirtName": "Lamine Fanne",
+     "displayName": "Fanne",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::adccc4694b4d4410a98deabc59cabd83",
+     "providerId": "opta:Player:2c796ozt5nw1l8n61cwtv9all",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "John",
+     "lastName": "Yeboah",
+     "shirtName": "John Yeboah",
+     "displayName": "Yeboah",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f2149d81a7414d769679ebd0b2ff0a4a"
+      },
+      {
+       "type": "goal",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2696f7e05fea46fdb91b6b94df2c81b2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9e87a59329b74f509f08430b57cf3fa6",
+     "providerId": "kama:Player:101376",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Thierry",
+     "lastName": "Rendall Correia",
+     "shirtName": "Thierry Correia",
+     "displayName": "Correia",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8143399f5d04d0d992ef3e5d2e2de5b",
+     "providerId": "opta:Player:amc2rculxvgo2wanilkna8s2c",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Richie",
+     "lastName": "Sagrado Sebastiao",
+     "shirtName": "Richie Sagrado",
+     "displayName": "Sagrado",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 16,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0ab569e366034054a50eca43d1f816a2"
+      },
+      {
+       "type": "goal",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e2a458c59eb4cfaa2212212d59711f5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aa13ef84519b43358627a26804914d9e",
+     "providerId": "opta:Player:3ail949zww61xhkymcg66bca1",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Thórir Jóhann",
+     "lastName": "Helgason",
+     "shirtName": "Þórir Helgason",
+     "displayName": "Helgason",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::25016175ed0a4cc8878c514edf4ab638",
+     "providerId": "kama:Player:100639",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Lion",
+     "lastName": "Lauberbach",
+     "shirtName": "Lion Lauberbach",
+     "displayName": "Lauberbach",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1d0f5ab9f8b5476fb6e80639a745e148"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b053a0084bdb4b2aa2816ed53ddc1aee",
+     "providerId": "opta:Player:371jzzxulselcl40ezk5l64no",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Matteo",
+     "lastName": "Dagasso",
+     "shirtName": "Matteo Dagasso",
+     "displayName": "Dagasso",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::61b1d336cdb949f6b014e0c27d6881c5",
+     "providerId": "kama:Player:16928",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Lorenzo",
+     "lastName": "Berardi",
+     "shirtName": "Lorenzo Berardi",
+     "displayName": "L. Berardi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e0f2d4c73194c0da80e981bdd7626d4",
+     "providerId": "opta:Player:brj5akfauhsqczb37yjha0zmy",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Simone",
+     "lastName": "Panada",
+     "shirtName": "Simone Panada",
+     "displayName": "Panada",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::69a90d98de0f4774a04ddaecd02ece52",
+     "providerId": "kama:Player:101387",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Kornel Gracjan",
+     "lastName": "Lisman",
+     "shirtName": "Kornel Lisman",
+     "displayName": "Lisman",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::517b28659d184092827d69958ea33574",
+     "providerId": "opta:Player:etryzuxz65dmn5ewmocse66l1",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Pasquale",
+     "lastName": "Mazzocchi",
+     "shirtName": "Pasquale Mazzocchi",
+     "displayName": "Mazzocchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a43187cd03a84c579f6cc6de0717f77b",
+     "providerId": "kama:Player:110438",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Antonio",
+     "lastName": "Fernández Casino",
+     "shirtName": "Antonio Fernández",
+     "displayName": "Fernández",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1be08231cf93465c832a977cb942b0b0",
+     "providerId": "kama:Player:101442",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Alejandro",
+     "lastName": "Gomes Furtado",
+     "shirtName": "Alejandro Gomes",
+     "displayName": "Gomes",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-05T17:52:23.437Z",
+   "sha256": "8f50f83caee532156937acb6410abc533cbf9da6f167e394b55a1b74e4b2656c"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-05T17:52:46.500Z",
+   "sha256": "c6b6b5441890a215f6b5d6701b85946f35077ed9223b140df5fecaf7b1e5c77a",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Palmisani",
+     "giocatoreIdFantacalcio": 6415,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Monterisi",
+     "giocatoreIdFantacalcio": 4952,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Amey",
+     "giocatoreIdFantacalcio": 5424,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cittadini",
+     "giocatoreIdFantacalcio": 5757,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Oyono A.",
+     "giocatoreIdFantacalcio": 6238,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Calvani",
+     "giocatoreIdFantacalcio": 7467,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bracaglia",
+     "giocatoreIdFantacalcio": 7469,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fini",
+     "giocatoreIdFantacalcio": 6506,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Masini",
+     "giocatoreIdFantacalcio": 6917,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Calò",
+     "giocatoreIdFantacalcio": 7472,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cichella",
+     "giocatoreIdFantacalcio": 7473,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Schmid",
+     "giocatoreIdFantacalcio": 7551,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Raimondo",
+     "giocatoreIdFantacalcio": 5436,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 14,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kvernadze",
+     "giocatoreIdFantacalcio": 6204,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ghedjemis",
+     "giocatoreIdFantacalcio": 6530,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Birligea",
+     "giocatoreIdFantacalcio": 7610,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Stankovic F.",
+     "giocatoreIdFantacalcio": 6248,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 3,
+     "votoItalia": 6,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Haps",
+     "giocatoreIdFantacalcio": 5695,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sagrado",
+     "giocatoreIdFantacalcio": 6681,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hainaut",
+     "giocatoreIdFantacalcio": 6821,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Moreno M.",
+     "giocatoreIdFantacalcio": 6890,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Schingtienne",
+     "giocatoreIdFantacalcio": 6892,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bella-Kotchap",
+     "giocatoreIdFantacalcio": 7253,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Halhal",
+     "giocatoreIdFantacalcio": 7538,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "giocatoreIdFantacalcio": 5319,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Busio",
+     "giocatoreIdFantacalcio": 5507,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Perez K.",
+     "giocatoreIdFantacalcio": 6994,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fernandez T.",
+     "giocatoreIdFantacalcio": 7232,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Yeboah J.",
+     "giocatoreIdFantacalcio": 6904,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Rrahmani Al.",
+     "giocatoreIdFantacalcio": 7449,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lauberbach",
+     "giocatoreIdFantacalcio": 7482,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/3",
+      "estrattoIl": "2026-10-05T17:52:46.500Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams A.",
+     "giocatoreIdFantacalcio": 7484,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 3 - 2 Venezia 06/09/2026 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

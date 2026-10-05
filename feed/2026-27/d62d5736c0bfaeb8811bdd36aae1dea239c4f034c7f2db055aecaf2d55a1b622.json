@@ -1,0 +1,1731 @@
+{
+ "label": "Venezia-Fiorentina (g4)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-05T17:52:04.034Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-09-11T18:45:00Z",
+  "hoursAfterKickoff": 575.1177872222222,
+  "observation": {
+   "retrievedAt": "2026-10-05T17:52:04.034Z",
+   "sha256": "6489ed89e621e31c5a7299724b1460399eb746634446ef84828b89a2b9eb9c75"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-05T17:52:47.705Z",
+  "sha256": "2142bf1cca5b62b793370f0e5f93362f0bc99ce83126a3aaf782b8590667c029"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::e32f1d77a1aa4798845a2d0239cbaf5a",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-09-11T18:45:00Z",
+   "matchday": 4,
+   "home": "Venezia",
+   "away": "Fiorentina",
+   "homeTeamId": "serie-a::Football_Team::a28236708d214df3a2e2e04ceb7e5c54",
+   "awayTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "homeScore": 2,
+   "awayScore": 4,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::e32f1d77a1aa4798845a2d0239cbaf5a",
+   "homeTeam": "Venezia",
+   "awayTeam": "Fiorentina",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::c3b8ff6261d94b7ead6fd32487db048f",
+     "providerId": "opta:Player:7dg8woqlx67ch0ji3ujhgb52i",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Filip",
+     "lastName": "Stanković",
+     "shirtName": "Filip Stanković",
+     "displayName": "F. Stanković",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::70e695711da649fda1c502ba4f1e5c49",
+     "providerId": "kama:Player:1853",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Joel Marcel",
+     "lastName": "Schingtienne",
+     "shirtName": "Joel Schingtienne",
+     "displayName": "Schingtienne",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 38,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ba4cf034f38b44e7bad0ae3920a4dd41",
+     "providerId": "opta:Player:4v3mcgy4w1n4g3vkq0fe7iwwk",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Matias Agustin",
+     "lastName": "Moreno",
+     "shirtName": "Matías Moreno",
+     "displayName": "Moreno",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e8143399f5d04d0d992ef3e5d2e2de5b",
+     "providerId": "opta:Player:amc2rculxvgo2wanilkna8s2c",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Richie",
+     "lastName": "Sagrado Sebastiao",
+     "shirtName": "Richie Sagrado",
+     "displayName": "Sagrado",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9e87a59329b74f509f08430b57cf3fa6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e3a4eec9aabd422bb4ae48807622f92d",
+     "providerId": "opta:Player:66t7zm54jgmcjtiizl9g0rkkp",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Enrique",
+     "lastName": "Perez Munoz",
+     "shirtName": "Kike Pérez",
+     "displayName": "Kike Pérez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::25016175ed0a4cc8878c514edf4ab638"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2696f7e05fea46fdb91b6b94df2c81b2",
+     "providerId": "opta:Player:3haxsyfrccsgw6x5jgbwdjze",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Gianluca Cristiano",
+     "lastName": "Busio",
+     "shirtName": "Gianluca Busio",
+     "displayName": "Busio",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 44,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aa13ef84519b43358627a26804914d9e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::322ceda3cb844022af977369f2ade64c",
+     "providerId": "opta:Player:abk9geafxglsmnu9qhra8x1at",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Ridgeciano Delano",
+     "lastName": "Haps",
+     "shirtName": "Ridgeciano Haps",
+     "displayName": "Haps",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e2a458c59eb4cfaa2212212d59711f5",
+     "providerId": "opta:Player:8ct2oybj8d1b03aklkg8ihbf8",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Antoine",
+     "lastName": "Hainaut",
+     "shirtName": "Antoine Hainaut",
+     "displayName": "Hainaut",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::322ceda3cb844022af977369f2ade64c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1d0f5ab9f8b5476fb6e80639a745e148",
+     "providerId": "kama:Player:101601",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Akor Jerome",
+     "lastName": "Adams",
+     "shirtName": "Akor Adams",
+     "displayName": "A. Adams",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 22,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2696f7e05fea46fdb91b6b94df2c81b2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::adccc4694b4d4410a98deabc59cabd83",
+     "providerId": "opta:Player:2c796ozt5nw1l8n61cwtv9all",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "John",
+     "lastName": "Yeboah",
+     "shirtName": "John Yeboah",
+     "displayName": "Yeboah",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a43187cd03a84c579f6cc6de0717f77b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b28865a6d4814858be353447697de6d1",
+     "providerId": "opta:Player:c7fky0h6gi7wmibnv2tzf6mz9",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Lorenzo",
+     "lastName": "Montipò",
+     "shirtName": "Lorenzo Montipò",
+     "displayName": "Montipò",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f2149d81a7414d769679ebd0b2ff0a4a",
+     "providerId": "kama:Player:101417",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Albion",
+     "lastName": "Rrahmani",
+     "shirtName": "Albion Rrahmani",
+     "displayName": "Al. Rrahmani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d050631b4588437f83ff5936abf28c60",
+     "providerId": "kama:Player:100680",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Mouhamed Lamine",
+     "lastName": "Fanne Dabo",
+     "shirtName": "Lamine Fanne",
+     "displayName": "Fanne",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9e87a59329b74f509f08430b57cf3fa6",
+     "providerId": "kama:Player:101376",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Thierry",
+     "lastName": "Rendall Correia",
+     "shirtName": "Thierry Correia",
+     "displayName": "Correia",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8143399f5d04d0d992ef3e5d2e2de5b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4",
+     "providerId": "opta:Player:8n0c5t5wzfkoauryyzy8be0gl",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Juan Guilherme",
+     "lastName": "Nunes Jesus",
+     "shirtName": "Juan Jesus",
+     "displayName": "Juan Jesus",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ba4cf034f38b44e7bad0ae3920a4dd41"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1d8d1753aabc4ef09973daf04d79f80d",
+     "providerId": "kama:Player:110430",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Rufai",
+     "lastName": "Mohammed",
+     "shirtName": "Rufai Mohammed",
+     "displayName": "Mohammed",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa13ef84519b43358627a26804914d9e",
+     "providerId": "opta:Player:3ail949zww61xhkymcg66bca1",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Thórir Jóhann",
+     "lastName": "Helgason",
+     "shirtName": "Þórir Helgason",
+     "displayName": "Helgason",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 44,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2696f7e05fea46fdb91b6b94df2c81b2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b7bca5e1ba134a4eacb2d992988c0002",
+     "providerId": "kama:Player:101820",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Redouane",
+     "lastName": "Halhal",
+     "shirtName": "Redouane Halhal",
+     "displayName": "Halhal",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::25016175ed0a4cc8878c514edf4ab638",
+     "providerId": "kama:Player:100639",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Lion",
+     "lastName": "Lauberbach",
+     "shirtName": "Lion Lauberbach",
+     "displayName": "Lauberbach",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::61b1d336cdb949f6b014e0c27d6881c5",
+     "providerId": "kama:Player:16928",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Lorenzo",
+     "lastName": "Berardi",
+     "shirtName": "Lorenzo Berardi",
+     "displayName": "L. Berardi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e0f2d4c73194c0da80e981bdd7626d4",
+     "providerId": "opta:Player:brj5akfauhsqczb37yjha0zmy",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Simone",
+     "lastName": "Panada",
+     "shirtName": "Simone Panada",
+     "displayName": "Panada",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::69a90d98de0f4774a04ddaecd02ece52",
+     "providerId": "kama:Player:101387",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Kornel Gracjan",
+     "lastName": "Lisman",
+     "shirtName": "Kornel Lisman",
+     "displayName": "Lisman",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::517b28659d184092827d69958ea33574",
+     "providerId": "opta:Player:etryzuxz65dmn5ewmocse66l1",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Pasquale",
+     "lastName": "Mazzocchi",
+     "shirtName": "Pasquale Mazzocchi",
+     "displayName": "Mazzocchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a43187cd03a84c579f6cc6de0717f77b",
+     "providerId": "kama:Player:110438",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Antonio",
+     "lastName": "Fernández Casino",
+     "shirtName": "Antonio Fernández",
+     "displayName": "Fernández",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::adccc4694b4d4410a98deabc59cabd83"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1be08231cf93465c832a977cb942b0b0",
+     "providerId": "kama:Player:101442",
+     "side": "home",
+     "team": "Venezia",
+     "firstName": "Alejandro",
+     "lastName": "Gomes Furtado",
+     "shirtName": "Alejandro Gomes",
+     "displayName": "Gomes",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7eea4a3905274129bc4fdfec8574cc43",
+     "providerId": "opta:Player:e00004wkpfc8jawioejmpu1n9",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "David",
+     "lastName": "De Gea Quintana",
+     "shirtName": "David de Gea",
+     "displayName": "de Gea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ed69bfd28e1e418a93404a1dbc1e2350",
+     "providerId": "kama:Player:101521",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Viery",
+     "lastName": "Fernandes Santos Lopes",
+     "shirtName": "Viery",
+     "displayName": "Viery",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::36f5e2bf5aec4a7881f1ad57674c057a",
+     "providerId": "opta:Player:4gbk8ka3fv401f8zyslo38fai",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Radu Matei",
+     "lastName": "Dragusin",
+     "shirtName": "Radu Dragusin",
+     "displayName": "Drăgușin",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7bba1cf90e5242579e9cdcb5c20c6974",
+     "providerId": "opta:Player:clbsrtzkf61e6vx28ou5lbx90",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Alejandro",
+     "lastName": "Jimenez Sanchez",
+     "shirtName": "Álex Jiménez",
+     "displayName": "Jiménez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cd9708fcf981489e939152ec78f997c2",
+     "providerId": "opta:Player:2wwbf11c9mc2psxaa8p58qnmc",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Arthur Eric",
+     "lastName": "Atta",
+     "shirtName": "Arthur Atta",
+     "displayName": "Atta",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fe7bff05af3d4b158001a5f4e80516ac"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc",
+     "providerId": "opta:Player:kvbjuvcseqk4sbr04ctkqi38",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Cher",
+     "lastName": "Ndour",
+     "shirtName": "Cher Ndour",
+     "displayName": "Ndour",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3585a57cd1eb4bd0ad63b27bc4acba34",
+     "providerId": "opta:Player:6z3a27dxffwacyxof0imvcfvu",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Norberto Bercique",
+     "lastName": "Gomes Betuncal",
+     "shirtName": "Norberto Bercique Gomes Betuncal",
+     "displayName": "Beto",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3",
+     "providerId": "opta:Player:9hl7yh42qvmdcjw69si5imnf8",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Alieu Badara",
+     "lastName": "Njie",
+     "shirtName": "Alieu Njie",
+     "displayName": "Njie",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8cbb65f48fe4d99bacbf0964d28ad66"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::538bf99b0c2e4927aee5bddfa650cce5",
+     "providerId": "kama:Player:101881",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Franco",
+     "lastName": "Mastantuono",
+     "shirtName": "Franco Mastantuono",
+     "displayName": "Mastantuono",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 29,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7bba1cf90e5242579e9cdcb5c20c6974"
+      },
+      {
+       "type": "goal",
+       "time": 30,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "goal",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d58bb19e4fac428c91c7d3d22c54aeb8",
+     "providerId": "opta:Player:bgwbowoiz7t2lvpit75zlqz11",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Lezzerini",
+     "shirtName": "Luca Lezzerini",
+     "displayName": "Lezzerini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a32fc40b8644de68e49a77591741565",
+     "providerId": "opta:Player:1sjt0nj0232gu88x50c3d16nd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Oliver",
+     "lastName": "Christensen",
+     "shirtName": "Oliver Christensen",
+     "displayName": "Christensen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51",
+     "providerId": "opta:Player:9e3t2wyjqzxsn690aysao8cfd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Domilson",
+     "lastName": "Cordeiro Dos Santo",
+     "shirtName": "Dodô",
+     "displayName": "Dodô",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511",
+     "providerId": "opta:Player:1f37bo8dikes3350u2a0h9hm2",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marco",
+     "lastName": "Brescianini",
+     "shirtName": "Marco Brescianini",
+     "displayName": "Brescianini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::538bf99b0c2e4927aee5bddfa650cce5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2de0dfeaa65140cd855ca8681b0f1e65",
+     "providerId": "kama:Player:98464",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "João Mário",
+     "lastName": "Neto Lopes",
+     "shirtName": "João Mário",
+     "displayName": "João Mário",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d6df0d3534234b00867b7034be4b34d1",
+     "providerId": "kama:Player:101775",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Víctor",
+     "lastName": "Valdepeñas Talavera",
+     "shirtName": "Víctor Valdepeñas",
+     "displayName": "Valdepeñas",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8cbb65f48fe4d99bacbf0964d28ad66",
+     "providerId": "kama:Player:110435",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pedro António",
+     "lastName": "Pereira Gonçalves",
+     "shirtName": "Pedro Gonçalves",
+     "displayName": "Pedro Gonçalves",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fe7bff05af3d4b158001a5f4e80516ac",
+     "providerId": "opta:Player:9z2j13bl5yh4i1vyofautc9yi",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Degnand Wilfried",
+     "lastName": "Gnonto",
+     "shirtName": "Wilfried Gnonto",
+     "displayName": "Gnonto",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cd9708fcf981489e939152ec78f997c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a",
+     "providerId": "opta:Player:7maur0rp96hubnkuu84576wpg",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Mateo",
+     "lastName": "Pellegrino Casalanguida",
+     "shirtName": "Mateo Pellegrino",
+     "displayName": "Pellegrino",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3585a57cd1eb4bd0ad63b27bc4acba34"
+      },
+      {
+       "type": "goal",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7b365b990b9642639eed2be501296fba",
+     "providerId": "kama:Player:101565",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Christ Ravynel Inao",
+     "lastName": "Oulaï",
+     "shirtName": "Christ Inao Oulaï",
+     "displayName": "Oulaï",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-05T17:52:28.743Z",
+   "sha256": "13db1d178cfe6f025f409a3a7d21c3da45a920c0786ef4e74b1535049b6f247f"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-05T17:52:47.705Z",
+   "sha256": "2142bf1cca5b62b793370f0e5f93362f0bc99ce83126a3aaf782b8590667c029",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "De Gea",
+     "giocatoreIdFantacalcio": 2521,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ranieri L.",
+     "giocatoreIdFantacalcio": 4378,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dragusin",
+     "giocatoreIdFantacalcio": 5365,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "giocatoreIdFantacalcio": 5603,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Jimenez A.",
+     "giocatoreIdFantacalcio": 6531,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Viery",
+     "giocatoreIdFantacalcio": 7410,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "giocatoreIdFantacalcio": 4465,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Brescianini",
+     "giocatoreIdFantacalcio": 4947,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndour",
+     "giocatoreIdFantacalcio": 6294,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Njie",
+     "giocatoreIdFantacalcio": 6827,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Atta",
+     "giocatoreIdFantacalcio": 6908,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mastantuono",
+     "giocatoreIdFantacalcio": 7078,
+     "votoRedazione": 8.5,
+     "fantavotoRedazione": 17.5,
+     "votoStatistico": 9,
+     "fantavotoStatistico": 18,
+     "votoItalia": 8.5,
+     "fantavotoItalia": 17.5,
+     "bonusMalus": {
+      "golSegnati": 3,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Goncalves P.",
+     "giocatoreIdFantacalcio": 7625,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Beto",
+     "giocatoreIdFantacalcio": 5694,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pellegrino M.",
+     "giocatoreIdFantacalcio": 7023,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gnonto",
+     "giocatoreIdFantacalcio": 7623,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Stankovic F.",
+     "giocatoreIdFantacalcio": 6248,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 2,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 2.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 2,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 4,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Juan Jesus",
+     "giocatoreIdFantacalcio": 256,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Correia T.",
+     "giocatoreIdFantacalcio": 4845,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Haps",
+     "giocatoreIdFantacalcio": 5695,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sagrado",
+     "giocatoreIdFantacalcio": 6681,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hainaut",
+     "giocatoreIdFantacalcio": 6821,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Moreno M.",
+     "giocatoreIdFantacalcio": 6890,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Schingtienne",
+     "giocatoreIdFantacalcio": 6892,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "giocatoreIdFantacalcio": 5319,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Busio",
+     "giocatoreIdFantacalcio": 5507,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Helgason",
+     "giocatoreIdFantacalcio": 5872,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Perez K.",
+     "giocatoreIdFantacalcio": 6994,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fernandez T.",
+     "giocatoreIdFantacalcio": 7232,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Yeboah J.",
+     "giocatoreIdFantacalcio": 6904,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lauberbach",
+     "giocatoreIdFantacalcio": 7482,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/4",
+      "estrattoIl": "2026-10-05T17:52:47.705Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams A.",
+     "giocatoreIdFantacalcio": 7484,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Venezia 2 - 4 Fiorentina 11/09/2026 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}
