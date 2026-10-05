@@ -1,0 +1,123 @@
+# Raccolta dati partita Serie A (Coach Beard, CB-AI-023), versione "repository
+# pubblico": questo file sta in .github/workflows/ di verocholo/coach-beard-feed
+# (PUBBLICO). Un repository pubblico ha minuti di esecuzione illimitati e
+# gratuiti, quindi si può raccogliere ogni 5 minuti (il minimo di GitHub).
+#
+# Cosa sta dove:
+#  - gli archivi GREZZI (HTML e JSON originali, append-only) restano nel
+#    repository PRIVATO verocholo/coach-beard-raccolta, ramo `dati`: questo
+#    flusso li legge e li aggiorna con il segreto RACCOLTA_TOKEN (chiave
+#    limitata a quel solo repository, permesso Contents: Read and write);
+#  - il raccoglitore (codice) si scarica dal repository privato, non è mai
+#    copiato qui;
+#  - in QUESTO repository finiscono solo i numeri elaborati (cartella feed/),
+#    pubblicati con il token automatico del flusso: nessun segreto per il feed.
+#
+# Un repository pubblico sospende i flussi pianificati dopo 60 giorni senza
+# attività: i commit del feed contano come attività; in pausa estiva basta
+# riattivare il flusso dalla pagina Actions.
+name: Raccolta dati partita
+
+on:
+  schedule:
+    # Giornate di campionato (UTC): ven-sab-dom-lun, ogni 5 minuti dalle 10 alle 22.
+    # Minuti sfalsati (2,7,12...) perché GitHub ritarda di più i cron a minuto :00.
+    - cron: '2-57/5 10-22 * * 5,6,0,1'
+    # Turni infrasettimanali: mar-mer-gio, ogni 10 minuti dalle 15 alle 21.
+    - cron: '4-54/10 15-21 * * 2,3,4'
+    # Ogni mattina: recupera i voti pubblicati di notte.
+    - cron: '17 7 * * *'
+  workflow_dispatch: {}
+
+# Un solo ciclo alla volta: se uno è ancora in corso, il successivo aspetta.
+concurrency:
+  group: raccolta-dati
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  RACCOLTA_REPOSITORY: verocholo/coach-beard-raccolta
+
+jobs:
+  raccolta:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Segreto presente?
+        env:
+          RACCOLTA_TOKEN: ${{ secrets.RACCOLTA_TOKEN }}
+        run: |
+          if [ -z "$RACCOLTA_TOKEN" ]; then
+            echo "::error::Segreto RACCOLTA_TOKEN assente: vedi docs/AI-023-RACCOLTA-CLOUD.md (Settings > Secrets and variables > Actions di questo repository)."
+            exit 1
+          fi
+
+      - name: Raccoglitore (repository privato, ramo principale)
+        env:
+          RACCOLTA_TOKEN: ${{ secrets.RACCOLTA_TOKEN }}
+        run: |
+          set -e
+          git clone --quiet --depth 1 "https://x-access-token:${RACCOLTA_TOKEN}@github.com/${RACCOLTA_REPOSITORY}.git" codice
+
+      - name: Archivi grezzi (repository privato, ramo dati, creato al primo giro)
+        env:
+          RACCOLTA_TOKEN: ${{ secrets.RACCOLTA_TOKEN }}
+        run: |
+          set -e
+          git clone --quiet "https://x-access-token:${RACCOLTA_TOKEN}@github.com/${RACCOLTA_REPOSITORY}.git" dati
+          cd dati
+          if git ls-remote --exit-code --heads origin dati >/dev/null 2>&1; then
+            git fetch --quiet origin dati
+            git checkout --quiet -B dati origin/dati
+          else
+            git checkout --quiet --orphan dati
+            git rm -rf --quiet . || true
+          fi
+
+      - name: Feed pubblico (questo repository)
+        run: |
+          set -e
+          git clone --quiet "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" feed
+          cd feed
+          git checkout --quiet -B main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Un ciclo di raccolta
+        run: |
+          set -e
+          gunzip -c codice/raccolta.mjs.gz > raccolta.mjs
+          node raccolta.mjs --radice=dati --feed=feed
+
+      - name: Salva le nuove osservazioni sul ramo dati (repository privato)
+        run: |
+          cd dati
+          git config user.name "raccolta-dati"
+          git config user.email "raccolta-dati@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "Nessuna novità da salvare."
+          else
+            git commit --quiet -m "Raccolta dati $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push --quiet origin dati
+          fi
+
+      - name: Pubblica il feed (questo repository)
+        run: |
+          cd feed
+          git config user.name "raccolta-dati"
+          git config user.email "raccolta-dati@users.noreply.github.com"
+          if [ ! -f README.md ]; then
+            printf '%s\n' '# Coach Beard — feed delle partite' '' 'Soli numeri elaborati (formazioni, eventi, voti e bonus per partita) prodotti da un raccoglitore automatico.' 'Nessun HTML originale. Cartella feed: stato.json (freschezza), una cartella per stagione con indice.json e un file per partita.' > README.md
+          fi
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Feed invariato."
+          else
+            git commit --quiet -m "Feed $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push --quiet origin main
+          fi
