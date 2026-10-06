@@ -1,0 +1,1680 @@
+{
+ "label": "Genoa-Monza (g28)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-03-09T19:45:00Z",
+  "hoursAfterKickoff": 22584.869502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:49:19.550Z",
+  "sha256": "2bedc3a4338ed3b681bcedc41560dc72a9832161d68ea023bbbbd0607c5d3d47"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::0694669298514ad38a298bda22b9eacf",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-03-09T19:45:00Z",
+   "matchday": 28,
+   "home": "Genoa",
+   "away": "Monza",
+   "homeTeamId": "serie-a::Football_Team::8c7aa94d22f44738951748e2ccdf319a",
+   "awayTeamId": "serie-a::Football_Team::9ba470f39580450fac7654956ba574fa",
+   "homeScore": 2,
+   "awayScore": 3,
+   "clockTime": 90,
+   "clockAdditionalTime": 9
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::0694669298514ad38a298bda22b9eacf",
+   "homeTeam": "Genoa",
+   "awayTeam": "Monza",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::5bc6e2f303c14386be2919d9d3c6c0a1",
+     "providerId": "opta:Player:3yqxkw0tqpoucur51ieh9xdrd",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Josep",
+     "lastName": "Martinez Riera",
+     "shirtName": "Josep Martínez",
+     "displayName": "J. Martínez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1",
+     "providerId": "opta:Player:95r0jtkw03vjohzwc8os8ielm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Koni",
+     "lastName": "De Winter",
+     "shirtName": "Koni De Winter",
+     "displayName": "De Winter",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::addf3cf1ea704379915f2046b15d525b",
+     "providerId": "opta:Player:donnt3rdq2n3x0jwmmhqfo7v9",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Mattia",
+     "lastName": "Bani",
+     "shirtName": "Mattia Bani",
+     "displayName": "Bani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdf7936c03a041c1a0fe067134f46d20",
+     "providerId": "opta:Player:4u772cqkpukg725e11yf9y28l",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Vogliacco",
+     "shirtName": "Alessandro Vogliacco",
+     "displayName": "Vogliacco",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1876d2823c774c2aa0256c5865f60594"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d",
+     "providerId": "opta:Player:8psio8fqce76uinoqpilzxsd1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Stefano",
+     "lastName": "Sabelli",
+     "shirtName": "Stefano Sabelli",
+     "displayName": "Sabelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 17,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a",
+     "providerId": "opta:Player:2um03dny7h3sdvehq3bygd1t6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten Wetche",
+     "lastName": "Frendrup",
+     "shirtName": "Morten Frendrup",
+     "displayName": "Frendrup",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4af8f3465e44cefbe9617f9c576691b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a187be5f53b74c04a5a307c936ed5f49",
+     "providerId": "opta:Player:d4e0d51gajxau9pbdt8ccrys5",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Milan",
+     "lastName": "Badelj",
+     "shirtName": "M. Badelj",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f3670f8a13ba4c38a58d8f59eda2e1b0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::27fd382892ab4294bfa3253019c6f2b3",
+     "providerId": "opta:Player:6320q9h2m8kil5cqa4l2rty39",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Kevin",
+     "lastName": "Strootman",
+     "shirtName": "K. Strootman",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b",
+     "providerId": "opta:Player:17au7v1ocl4zab872g59821yi",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Walter",
+     "lastName": "Messias Junior",
+     "shirtName": "Junior Messias",
+     "displayName": "Messias",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4",
+     "providerId": "opta:Player:ejzxqtdo5xxvbg6gvtju3lk9h",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Albert",
+     "lastName": "Guðmundsson",
+     "shirtName": "Albert Gudmundsson",
+     "displayName": "Guðmundsson",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 52,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3d91c79e41fc47c083b06165b755d33c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0401a5a40df548cc8638abab6709746e",
+     "providerId": "opta:Player:lmih2q1hcr1dp40wx782re5m",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Mateo",
+     "lastName": "Retegui",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::03ea7d3b17b74069830746c24db1de69",
+     "providerId": "opta:Player:9dc7uictce9dq0tbphn74qz85",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Nicola",
+     "lastName": "Leali",
+     "shirtName": "Nicola Leali",
+     "displayName": "Leali",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::308ee64855794d61811119f70f5f018e",
+     "providerId": "opta:Player:4b6mhmoeo78f8x928q2imp591",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Daniele",
+     "lastName": "Sommariva",
+     "shirtName": "Daniele Sommariva",
+     "displayName": "Sommariva",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f3670f8a13ba4c38a58d8f59eda2e1b0",
+     "providerId": "opta:Player:9qzxygb9hyzag1szans0k2jth",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten",
+     "lastName": "Thorsby",
+     "shirtName": "Morten Thorsby",
+     "displayName": "Thorsby",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a187be5f53b74c04a5a307c936ed5f49"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::108d67a926264eb89df91615c9690fac",
+     "providerId": "opta:Player:d6sstsibcsfxporots5k9cicp",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Emil",
+     "lastName": "Bohinen",
+     "shirtName": "Emil Bohinen",
+     "displayName": "Bohinen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573",
+     "providerId": "opta:Player:cnriqwh17pqgz7p2gt74uar6c",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Vitor Manuel",
+     "lastName": "Carvalho De Oliveira",
+     "shirtName": "Vitinha",
+     "displayName": "Vitinha",
+     "starter": false,
+     "events": [
+      {
+       "type": "goal",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3d91c79e41fc47c083b06165b755d33c"
+      },
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::27fd382892ab4294bfa3253019c6f2b3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4af8f3465e44cefbe9617f9c576691b",
+     "providerId": "opta:Player:4euxcqawlks4c56pqj8xvwbf9",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Ruslan",
+     "lastName": "Malinovskyi",
+     "shirtName": "Ruslan Malinovskyi",
+     "displayName": "Malinovskyi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc",
+     "providerId": "opta:Player:8ncvq09i7or8rxwq9233djtg5",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Caleb Ansah",
+     "lastName": "Ekuban",
+     "shirtName": "Caleb Ekuban",
+     "displayName": "Ekuban",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b731ad839089401cae323f26242b5a3c",
+     "providerId": "opta:Player:1e6s5l3tp48t6ybq73lzzmkx6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Giorgio",
+     "lastName": "Cittadini",
+     "shirtName": "Giorgio Cittadini",
+     "displayName": "Cittadini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::634aed3c9bc84bf28d203bf34babba95",
+     "providerId": "opta:Player:2arpfprjpvc8f0o6m4mw3jok4",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Tommaso",
+     "lastName": "Pittino",
+     "shirtName": "Tommaso Pittino",
+     "displayName": "Pittino",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1876d2823c774c2aa0256c5865f60594",
+     "providerId": "opta:Player:9irgn82qm11logbhup51rg5wp",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Diop Tehuti Djed-Hotep",
+     "lastName": "Spence",
+     "shirtName": "",
+     "displayName": "Spence",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cdf7936c03a041c1a0fe067134f46d20"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f567339708a7468fa5b76cbf3d4b345e",
+     "providerId": "opta:Player:b3hr4q25jvqr7565z5ydqylt5",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Michele",
+     "lastName": "Di Gregorio",
+     "shirtName": "Michele Di Gregorio",
+     "displayName": "Di Gregorio",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdbd7dfe606548d5919e564f018239bf",
+     "providerId": "opta:Player:chjjcy789cuwlsik2ibmubtyi",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Carboni",
+     "shirtName": "Andrea Carboni",
+     "displayName": "A. Carboni",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6b877858b0d14ac5bf60e2c21de3dd40",
+     "providerId": "opta:Player:erdqr6vrr5tlfypbks3og0dlh",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Pablo",
+     "lastName": "Mari Villar",
+     "shirtName": "Pablo Marí",
+     "displayName": "Pablo Marí",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f560b55a1ff1466da1ea41275cf41e4f",
+     "providerId": "opta:Player:thnje2i2s96fcbuscj57053p",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Armando",
+     "lastName": "Izzo",
+     "shirtName": "Armando Izzo",
+     "displayName": "Izzo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0a2dc8ae97814840b2d66181479af681",
+     "providerId": "opta:Player:721e4tx2wrwb4kd9w80fcq19l",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Samuele",
+     "lastName": "Birindelli",
+     "shirtName": "Samuele Birindelli",
+     "displayName": "Birindelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::83319bf0373b43518888065782bf262a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::992d139825e741968ca1dd7a5ba4f116",
+     "providerId": "opta:Player:cxjuod6b1ro67656dxwhpqqc5",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Jean Daniel",
+     "lastName": "Akpa Akpro",
+     "shirtName": "J. Akpa Akpro",
+     "displayName": "Akpa Akpro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9a1ea729ff9e4ac092602eb71e9c2a67"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5395422c0fce40fba80082e4dc17ae13",
+     "providerId": "opta:Player:98x5xrku2jffo0in2u2htazca",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Warren Pierre",
+     "lastName": "Bondo",
+     "shirtName": "Warren Bondo",
+     "displayName": "Bondo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ee4aa696a3a14a04979f1ce6f835331a",
+     "providerId": "opta:Player:2qdgfxqyh0bjn3alkz97py8k5",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Matteo",
+     "lastName": "Pessina",
+     "shirtName": "Matteo Pessina",
+     "displayName": "Pessina",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 8,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e2859a14dfaa486aa3f62d1fcf297347"
+      },
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e9d54772088d4a68875d22428f876ca8"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::23a565adf58c4105b28af9c5e3ab150a",
+     "providerId": "opta:Player:dq037w5t3ht5zgd75mue4p1pl",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Dany",
+     "lastName": "Mota",
+     "shirtName": "Dany Mota",
+     "displayName": "Dany Mota",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 18,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e2859a14dfaa486aa3f62d1fcf297347"
+      },
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dd491713fb4649b6a431512f272de5d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e2859a14dfaa486aa3f62d1fcf297347",
+     "providerId": "opta:Player:duqiler25n63ksi0fxreo50mi",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Colpani",
+     "shirtName": "A. Colpani",
+     "displayName": "Colpani",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b1831a9d79fa4a65baaa65f5d3dae7a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94",
+     "providerId": "opta:Player:dp1y9x5r6z1q120hj3sgyhxat",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Milan",
+     "lastName": "Djuric",
+     "shirtName": "Milan Djuric",
+     "displayName": "Djuric",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 44,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a057ba19b8ca4c4d8d529dd4dda610ec",
+     "providerId": "opta:Player:ahrgnlsku8ghrj2qc0s6p1rhm",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Alessandro",
+     "lastName": "Sorrentino",
+     "shirtName": "Alessandro Sorrentino",
+     "displayName": "Sorrentino",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bf3784cc5f634ba3af953afec8ee1834",
+     "providerId": "opta:Player:2ya2ozbgvtrwx5fp5ekdo9fx1",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Stefano",
+     "lastName": "Gori",
+     "shirtName": "S. Gori",
+     "displayName": "Gori",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e97a05527384d8ba8490fd7a44bfdbb",
+     "providerId": "opta:Player:annamxplmbyakvo2akw63xxw5",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Giulio",
+     "lastName": "Donati",
+     "shirtName": "Giulio Donati",
+     "displayName": "Donati",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b4e4c2d21769485ea0a865f6b5d5c30d",
+     "providerId": "opta:Player:av8588qp8e5wz3s7cg1n2qgnp",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Luca",
+     "lastName": "Caldirola",
+     "shirtName": "L. Caldirola",
+     "displayName": "Caldirola",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e9d54772088d4a68875d22428f876ca8",
+     "providerId": "opta:Player:4vonqsqrzoyye4vs6n7dud2p5",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "José",
+     "lastName": "Machín",
+     "shirtName": "J. Machin",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ee4aa696a3a14a04979f1ce6f835331a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::83319bf0373b43518888065782bf262a",
+     "providerId": "opta:Player:a38yzp61vlk5x7ib4yspxrx05",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Pedro Miguel",
+     "lastName": "Almeida Lopes Pereira",
+     "shirtName": "Pedro Pereira",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0a2dc8ae97814840b2d66181479af681"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5879c1ef79b349c6a46f75a5d1d7e8d6",
+     "providerId": "opta:Player:7knk2xsg4690hgq9us9us8ull",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Alessio",
+     "lastName": "Zerbin",
+     "shirtName": "Alessio Zerbin",
+     "displayName": "Zerbin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9a1ea729ff9e4ac092602eb71e9c2a67",
+     "providerId": "opta:Player:6vz9qzgtbh3iqzv73xw2xaiok",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Valentin",
+     "lastName": "Carboni",
+     "shirtName": "V. Carboni",
+     "displayName": "V. Carboni",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::992d139825e741968ca1dd7a5ba4f116"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dd491713fb4649b6a431512f272de5d1",
+     "providerId": "opta:Player:1fsum47fkh62rer9xxe3smctm",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Daniel",
+     "lastName": "Maldini",
+     "shirtName": "Daniel Maldini",
+     "displayName": "Maldini",
+     "starter": false,
+     "events": [
+      {
+       "type": "goal",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7491142ae6224d4c8637f160ae44b962"
+      },
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::23a565adf58c4105b28af9c5e3ab150a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b1831a9d79fa4a65baaa65f5d3dae7a5",
+     "providerId": "opta:Player:83hpavqn7r5bzcgxvjbcso3px",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Georgios",
+     "lastName": "Kyriakopoulos",
+     "shirtName": "G. Kyriakopoulos",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e2859a14dfaa486aa3f62d1fcf297347"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7f52e533591d4dde95f81cb0f7cbdee8",
+     "providerId": "opta:Player:77ryom38ojrwcqn8n5sdz3f2s",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Matija",
+     "lastName": "Popovic",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::182ac9f618344346935fc08f81456bbe",
+     "providerId": "opta:Player:bcqsti42fhzap385lnfe4auhh",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Patrick",
+     "lastName": "Ciurria",
+     "shirtName": "Patrick Ciurria",
+     "displayName": "Ciurria",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:45:08.983Z",
+   "sha256": "c91045339a8a8392e68a845d7bcedc026412ca0eebbf550e08e68170bf3cdb9d"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:49:19.550Z",
+   "sha256": "2bedc3a4338ed3b681bcedc41560dc72a9832161d68ea023bbbbd0607c5d3d47",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Martinez Jo.",
+     "giocatoreIdFantacalcio": 5116,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sabelli",
+     "giocatoreIdFantacalcio": 791,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bani",
+     "giocatoreIdFantacalcio": 2285,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Winter",
+     "giocatoreIdFantacalcio": 5739,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Spence",
+     "giocatoreIdFantacalcio": 5982,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vogliacco",
+     "giocatoreIdFantacalcio": 6245,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Badelj",
+     "giocatoreIdFantacalcio": 170,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Strootman",
+     "giocatoreIdFantacalcio": 470,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thorsby",
+     "giocatoreIdFantacalcio": 4404,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Malinovskyi",
+     "giocatoreIdFantacalcio": 4427,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Messias",
+     "giocatoreIdFantacalcio": 4970,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frendrup",
+     "giocatoreIdFantacalcio": 5791,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gudmundsson A.",
+     "giocatoreIdFantacalcio": 5800,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 1,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekuban",
+     "giocatoreIdFantacalcio": 5506,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vitinha O.",
+     "giocatoreIdFantacalcio": 6164,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Retegui",
+     "giocatoreIdFantacalcio": 6228,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Di Gregorio",
+     "giocatoreIdFantacalcio": 5876,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 1,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Izzo",
+     "giocatoreIdFantacalcio": 226,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pereira P.",
+     "giocatoreIdFantacalcio": 729,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kyriakopoulos",
+     "giocatoreIdFantacalcio": 4530,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mari'",
+     "giocatoreIdFantacalcio": 4904,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Carboni A.",
+     "giocatoreIdFantacalcio": 4925,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Birindelli",
+     "giocatoreIdFantacalcio": 5838,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Machin",
+     "giocatoreIdFantacalcio": 666,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pessina",
+     "giocatoreIdFantacalcio": 2741,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Maldini",
+     "giocatoreIdFantacalcio": 4896,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Akpa Akpro",
+     "giocatoreIdFantacalcio": 5286,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Colpani",
+     "giocatoreIdFantacalcio": 5878,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9,
+     "votoItalia": 7,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 2,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bondo",
+     "giocatoreIdFantacalcio": 5992,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Carboni V.",
+     "giocatoreIdFantacalcio": 6106,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Djuric",
+     "giocatoreIdFantacalcio": 5471,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/28",
+      "estrattoIl": "2026-10-06T20:49:19.550Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mota",
+     "giocatoreIdFantacalcio": 5882,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 3 Monza 09/03/2024 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

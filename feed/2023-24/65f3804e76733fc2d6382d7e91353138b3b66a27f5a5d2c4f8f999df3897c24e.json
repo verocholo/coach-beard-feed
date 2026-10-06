@@ -1,0 +1,1562 @@
+{
+ "label": "Verona-Udinese (g33)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-04-20T18:45:00Z",
+  "hoursAfterKickoff": 21577.869502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:49:30.280Z",
+  "sha256": "84812d8c187e96479c1058baf201531defec44162b58c88328e510664daef7bc"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::ea6e17bb5e53413da4f3df07367b5610",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-04-20T18:45:00Z",
+   "matchday": 33,
+   "home": "Verona",
+   "away": "Udinese",
+   "homeTeamId": "serie-a::Football_Team::be24fc024dd946ebbeb957ee6e796a2a",
+   "awayTeamId": "serie-a::Football_Team::630b1e3631db42498d1b7bc94595c5e0",
+   "homeScore": 1,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::ea6e17bb5e53413da4f3df07367b5610",
+   "homeTeam": "Verona",
+   "awayTeam": "Udinese",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::b28865a6d4814858be353447697de6d1",
+     "providerId": "opta:Player:c7fky0h6gi7wmibnv2tzf6mz9",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Lorenzo",
+     "lastName": "Montipò",
+     "shirtName": "Lorenzo Montipò",
+     "displayName": "Montipò",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::468dfc7f2036468d90394cb8d22ae809",
+     "providerId": "opta:Player:5054kfjkrimomrhilbe5j3xbe",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Juan David",
+     "lastName": "Cabal Murillo",
+     "shirtName": "Juan Cabal",
+     "displayName": "Cabal",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 14,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc6a0de0a0e24a59912d61b75a21c665"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50d991aac7894c54a6e2d43379f06ead",
+     "providerId": "opta:Player:8o8o4rxbdhv002pj0q21l0f84",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Diego",
+     "lastName": "Coppola",
+     "shirtName": "D. Coppola",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 3,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9ec032cd51bc44f98182e1f0ebafe77d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eea5229af55c44daaa0e08f91958a577",
+     "providerId": "opta:Player:m7fe173js8on94ag3htziy8l",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Giangiacomo",
+     "lastName": "Magnani",
+     "shirtName": "Giangiacomo Magnani",
+     "displayName": "Magnani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8a682133739d450ba30100f2b3b4ae7f",
+     "providerId": "opta:Player:bf2yxiyhdyipaxxxobt9i1gq1",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Fabien",
+     "lastName": "Centonze",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::010941b53746419ca120d241d0398bc2",
+     "providerId": "opta:Player:9j1fd0mz39tl1h5che3f357md",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Suat",
+     "lastName": "Serdar",
+     "shirtName": "Suat Serdar",
+     "displayName": "Serdar",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 13,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9ec032cd51bc44f98182e1f0ebafe77d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dc4ee1fb8d45435096ed9d6a64bc8f10",
+     "providerId": "opta:Player:1qcf5gb8wf8f4tu94xh96yqy",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniel Filipe",
+     "lastName": "Bandeira e Silva",
+     "shirtName": "Dani Silva",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::50816a645bb841f384fc015e69e2374c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a48d141a770b4e89b048117135ef9f5f",
+     "providerId": "opta:Player:bo98qzo4gu0npm4pewc25ovyt",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Darko",
+     "lastName": "Lazovic",
+     "shirtName": "D. Lazovic",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f2e4df05a2394f27a2bb59611f340821"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ea7e072211441fe9dccc9cfa52fb58e",
+     "providerId": "opta:Player:8ofihttdgz6nyxxon2zim7x0p",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Michael",
+     "lastName": "Folorunsho Ijiemuan",
+     "shirtName": "Michael Folorunsho",
+     "displayName": "Folorunsho",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::71a17887628c44cd94ffd5a7e9d3028a",
+     "providerId": "opta:Player:1fs2iimaa97nzlw80yypcd6ju",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Stefan",
+     "lastName": "Mitrović",
+     "shirtName": "Stefan Mitrović",
+     "displayName": "Mitrović",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::67f5a89334e249b3bc88e8313f1db37c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7c06889abf144462a381039c0a5bb5df",
+     "providerId": "opta:Player:71gwdg60saiwwwnnv6is52may",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Tijjani",
+     "lastName": "Noslin",
+     "shirtName": "Tijjani Noslin",
+     "displayName": "Noslin",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e55a6db85b1c4a5fa89a9fc9fd444e64",
+     "providerId": "opta:Player:1fd1lcymbfebccx0vhgez4oyy",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Mattia",
+     "lastName": "Chiesa",
+     "shirtName": "Mattia Chiesa",
+     "displayName": "Chiesa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa2557307f604fde9512778cc9616b43",
+     "providerId": "opta:Player:c2ezyc2fftje7rcm5ybbuytp1",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Simone",
+     "lastName": "Perilli",
+     "shirtName": "Simone Perilli",
+     "displayName": "Perilli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::317f90e84ebc4866b303fe44867825d6",
+     "providerId": "opta:Player:cjgrtf1xc97ir3b64cnl9ecyc",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Reda",
+     "lastName": "Belahyane",
+     "shirtName": "Reda Belahyane",
+     "displayName": "Belahyane",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7752a6edf56649c1af2997a9099d4c43",
+     "providerId": "opta:Player:cudl1cjc8kxshfbhatms7aooa",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Elayis",
+     "lastName": "Tavşan",
+     "shirtName": "Elayis Tavşan",
+     "displayName": "Tavşan",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aafb955762954a638e4eae511a30f183",
+     "providerId": "opta:Player:4mab6p97p5t3w0fipzp22nxsl",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Thomas",
+     "lastName": "Henry",
+     "shirtName": "T. Henry",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::67f5a89334e249b3bc88e8313f1db37c",
+     "providerId": "opta:Player:ki6c06zvxjgsdw8w80oxvz6d",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Karol",
+     "lastName": "Swiderski",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::71a17887628c44cd94ffd5a7e9d3028a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f2e4df05a2394f27a2bb59611f340821",
+     "providerId": "opta:Player:4nk3po2hbfahzgq57g8k4cg6h",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Rúben Gonçalo",
+     "lastName": "da Silva Nascimento Vinagre",
+     "shirtName": "Rúben Vinagre",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a48d141a770b4e89b048117135ef9f5f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fc6a0de0a0e24a59912d61b75a21c665",
+     "providerId": "opta:Player:4t85yj2ijymrz5vf457jcihre",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Tomas",
+     "lastName": "Suslov",
+     "shirtName": "Tomás Suslov",
+     "displayName": "Suslov",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::468dfc7f2036468d90394cb8d22ae809"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9ec032cd51bc44f98182e1f0ebafe77d",
+     "providerId": "opta:Player:g64b8x11ndowv2zj29r9i311",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Ondrej",
+     "lastName": "Duda",
+     "shirtName": "O. Duda",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::010941b53746419ca120d241d0398bc2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c8822dc604db49b88512213946c51416",
+     "providerId": "opta:Player:2dqmby3q4qpqd9671gaulnhn8",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Charlys Matheus",
+     "lastName": "Lima Pontes",
+     "shirtName": "Charlys",
+     "displayName": "Charlys",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ae847ee54d004034bbb50f4eb49acdda",
+     "providerId": "opta:Player:39bcswfqnpa07b4afevezejo4",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Jackson",
+     "lastName": "Tchatchoua",
+     "shirtName": "Jackson Tchatchoua",
+     "displayName": "Tchatchoua",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::68603b73a2a54a37af3ff03a93ea556c",
+     "providerId": "opta:Player:498kxii7w64hmki575xdur28k",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Alphadjo",
+     "lastName": "Cisse",
+     "shirtName": "Alphadjo Cissè",
+     "displayName": "Cisse",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0854f2c511b243a0a801c89e8880222e",
+     "providerId": "opta:Player:9voekt8gmx6qkolwj3xazx2j8",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Christian",
+     "lastName": "Corradi",
+     "shirtName": "",
+     "displayName": "Corradi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50816a645bb841f384fc015e69e2374c",
+     "providerId": "opta:Player:19gglji6ai70jiu7iqpkaxbyt",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Federico",
+     "lastName": "Bonazzoli",
+     "shirtName": "Federico Bonazzoli",
+     "displayName": "Bonazzoli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dc4ee1fb8d45435096ed9d6a64bc8f10"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::577277231cb84394a7d96c70a11a528f",
+     "providerId": "opta:Player:70ps22rygrlq3msxgwmesowyx",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Emil Maduka",
+     "lastName": "Okoye",
+     "shirtName": "Maduka Okoye",
+     "displayName": "Okoye",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8c5ec14ba3bf4e1fa505c0bff2fbaa52",
+     "providerId": "opta:Player:6rbsjfwx4pon2d1vu3k7ojxuc",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Thomas Thiesson",
+     "lastName": "Kristensen",
+     "shirtName": "Thomas Kristensen",
+     "displayName": "Kristensen",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9c5999dbc5cc44a292a49414e20ef094",
+     "providerId": "opta:Player:ah0f7tonnst92d8q91j1wll62",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jaka",
+     "lastName": "Bijol",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a043bdd0aa20406794cc306fe5426c48",
+     "providerId": "opta:Player:4h1jj93i0v1pfemnjydnoc0dl",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Nehuén",
+     "lastName": "Pérez",
+     "shirtName": "Nehuén Pérez",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18ccff309d1c46efbab30d302ece28e7",
+     "providerId": "opta:Player:95qrrtlyz4ikkzjbgy6exbnit",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Hassane",
+     "lastName": "Kamara",
+     "shirtName": "Hassane Kamara",
+     "displayName": "Kamara",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::52d5b4022e8e431aa4b4c8983843965b",
+     "providerId": "opta:Player:dfckk0xst90yjlep74tvups5x",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Kingsley Osezele",
+     "lastName": "Ehizibue",
+     "shirtName": "Kingsley Ehizibue",
+     "displayName": "Ehizibue",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b664c040c82243a68456e3c9162a8c37"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bd51deb9de4a486dbaa8f1544cad3e31",
+     "providerId": "opta:Player:1bd23slibfdzz32n8nhwosbqi",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Martin Ismael",
+     "lastName": "Payero",
+     "shirtName": "Martín Payero",
+     "displayName": "Payero",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c77a8e92dacc4567ba4dacd9b9547732",
+     "providerId": "opta:Player:18jovwk0ysx6ajb8y75179j9x",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Walace",
+     "lastName": "Souza Silva",
+     "shirtName": "Walace",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 16,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::df726d9e0b284705be78eb3af4f6e441",
+     "providerId": "opta:Player:bl76cebhta912vfi9z7ky32p6",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Lazar Vujadin",
+     "lastName": "Samardžić",
+     "shirtName": "Lazar Samardžić",
+     "displayName": "Samardžić",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 29,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::92019bc30e194c10931eaf94a67a09e0",
+     "providerId": "opta:Player:b881arnahhahg0iaix4mx266t",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Roberto Maximiliano",
+     "lastName": "Pereyra",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::23f8b38d705e43bfaffccba16e316b37",
+     "providerId": "opta:Player:6w6ewzxircqxk6dsrs1rvc8ru",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Lorenzo",
+     "lastName": "Lucca",
+     "shirtName": "L. Lucca",
+     "displayName": "Lucca",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e554d77c9d634b6d9b0400e0b6db3946"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::adb3802917f84f18b2d899e1cc681700",
+     "providerId": "opta:Player:93237ztqyi3r4hu3rmgzrgudx",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Marco",
+     "lastName": "Silvestri",
+     "shirtName": "Marco Silvestri",
+     "displayName": "Silvestri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f42dc8a471d44f2d8cb4a23c2cb0fefc",
+     "providerId": "opta:Player:al3t9fzj4ab55yux0zkd1jkr9",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Daniele",
+     "lastName": "Padelli",
+     "shirtName": "Daniele Padelli",
+     "displayName": "Padelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d9efc65d26a948d6bda69964b27b411d",
+     "providerId": "opta:Player:96d5il3afakek9qvsbtldu162",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Festy",
+     "lastName": "Ebosele",
+     "shirtName": "F. Ebosele",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5931a8de6cc3493ebdaa0b4c30758add",
+     "providerId": "opta:Player:488vwilxllk6nhf4o1wrh0gve",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Oier",
+     "lastName": "Zarraga Egana",
+     "shirtName": "Oier Zarraga",
+     "displayName": "Zarraga",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e554d77c9d634b6d9b0400e0b6db3946",
+     "providerId": "opta:Player:5152de1kfmrihdzbdotpeo8ut",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Isaac",
+     "lastName": "Success",
+     "shirtName": "I. Success",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::23f8b38d705e43bfaffccba16e316b37"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bceddc37986049e09f271927bd712727",
+     "providerId": "opta:Player:bdg3xeth77c0nw61hvj5fct0p",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Keinan Vincent Joseph",
+     "lastName": "Davis",
+     "shirtName": "Keinan Davis",
+     "displayName": "Davis",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b664c040c82243a68456e3c9162a8c37",
+     "providerId": "opta:Player:cvqqwbdd3dttekkcooh7i80h6",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "João Diogo",
+     "lastName": "Fonseca Ferreira",
+     "shirtName": "João Ferreira",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::52d5b4022e8e431aa4b4c8983843965b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d72f7688584c45669f69f92fee63b8e9",
+     "providerId": "opta:Player:8a6aq6tang8t2vzl6ix7g2c5w",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Antonio",
+     "lastName": "Tikvic",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::02d8a2f3451d4b3fa3f25bf65a82f2b1",
+     "providerId": "opta:Player:evlxqujazgf6wz7gy97g73aw9",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Brenner",
+     "lastName": "Souza Da Silva",
+     "shirtName": "Brenner",
+     "displayName": "Brenner",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::700f9b23586149c6a32011198f8e928a",
+     "providerId": "opta:Player:5ljs2bj3wwiurcyxiwka2i8d1",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Christian",
+     "lastName": "Kabasele",
+     "shirtName": "Christian Kabasele",
+     "displayName": "Kabasele",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2c1de35b4eba480dbcd4e21a4cde2c88",
+     "providerId": "opta:Player:918sxflcvngsy0xvc9dh3jaei",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jordan",
+     "lastName": "Zemura",
+     "shirtName": "Jordan Zemura",
+     "displayName": "Zemura",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:46:34.841Z",
+   "sha256": "8f7786e6753105f8569685b6c2d98fb4bade6f518b6b0eca237b0857602b845f"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:49:30.280Z",
+   "sha256": "84812d8c187e96479c1058baf201531defec44162b58c88328e510664daef7bc",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Okoye",
+     "giocatoreIdFantacalcio": 6462,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kamara H.",
+     "giocatoreIdFantacalcio": 5555,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Perez N.",
+     "giocatoreIdFantacalcio": 5677,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bijol",
+     "giocatoreIdFantacalcio": 5847,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ehizibue",
+     "giocatoreIdFantacalcio": 6047,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ferreira J.",
+     "giocatoreIdFantacalcio": 6256,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kristensen T.",
+     "giocatoreIdFantacalcio": 6485,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pereyra",
+     "giocatoreIdFantacalcio": 302,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Walace",
+     "giocatoreIdFantacalcio": 2392,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Samardzic",
+     "giocatoreIdFantacalcio": 5119,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Payero",
+     "giocatoreIdFantacalcio": 6481,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Success",
+     "giocatoreIdFantacalcio": 5676,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lucca",
+     "giocatoreIdFantacalcio": 6215,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Montipo'",
+     "giocatoreIdFantacalcio": 4957,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Magnani",
+     "giocatoreIdFantacalcio": 2769,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vinagre",
+     "giocatoreIdFantacalcio": 4802,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coppola D.",
+     "giocatoreIdFantacalcio": 5764,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cabal",
+     "giocatoreIdFantacalcio": 6039,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Centonze",
+     "giocatoreIdFantacalcio": 6576,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lazovic",
+     "giocatoreIdFantacalcio": 236,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Duda",
+     "giocatoreIdFantacalcio": 4342,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Folorunsho",
+     "giocatoreIdFantacalcio": 6252,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Serdar",
+     "giocatoreIdFantacalcio": 6458,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Suslov",
+     "giocatoreIdFantacalcio": 6486,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Dani Silva",
+     "giocatoreIdFantacalcio": 6562,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mitrovic S.",
+     "giocatoreIdFantacalcio": 6579,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bonazzoli",
+     "giocatoreIdFantacalcio": 505,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Noslin",
+     "giocatoreIdFantacalcio": 6556,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/33",
+      "estrattoIl": "2026-10-06T20:49:30.280Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Swiderski",
+     "giocatoreIdFantacalcio": 6580,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 0 Udinese 20/04/2024 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

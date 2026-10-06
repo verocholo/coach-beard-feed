@@ -1,0 +1,1678 @@
+{
+ "label": "Bologna-Roma (g16)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2023-12-17T17:00:00Z",
+  "hoursAfterKickoff": 24579.619502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:48:54.001Z",
+  "sha256": "4f9e40d6efdbf88b1c51a50daa6ae94fddb070ce01c12a42a52c6a071cacc13e"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::cbb068d54ea9450d8f6f68323ea334a8",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2023-12-17T17:00:00Z",
+   "matchday": 16,
+   "home": "Bologna",
+   "away": "Roma",
+   "homeTeamId": "serie-a::Football_Team::4af71b35aab34ad5a7d06148abe66ad6",
+   "awayTeamId": "serie-a::Football_Team::8ddc09c1aa73448da2dff953edd95d82",
+   "homeScore": 2,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::cbb068d54ea9450d8f6f68323ea334a8",
+   "homeTeam": "Bologna",
+   "awayTeam": "Roma",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::b194e04ca1ab4bee98915c4936233215",
+     "providerId": "opta:Player:19nlw3sa0khwz0el4wqc7zrp",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Remo",
+     "lastName": "Freuler",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c2a37510db0f4eb5810cb60ef9510c99",
+     "providerId": "opta:Player:9vnr9uog5fmggich2i4vjxwbt",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Alexis",
+     "lastName": "Saelemaekers",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::53a4937f0ee0461bafae8598946349a4",
+     "providerId": "opta:Player:9m6yva52cmdq7uu31qrwdrund",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Ravaglia",
+     "shirtName": "Federico Ravaglia",
+     "displayName": "Ravaglia",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::793eb5e0b92d46549f514f60cb3a04b3",
+     "providerId": "opta:Player:bwai2k262meugz2fj7s2g58iy",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Victor",
+     "lastName": "Kristiansen",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21a70260eb4045f99d307966ab7ba64e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3dc81a67ec9844a3a08a50f75b30ff13",
+     "providerId": "opta:Player:dhs8pujk55ewcis7y5alchu22",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Riccardo",
+     "lastName": "Calafiori",
+     "shirtName": "R. Calafiori",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bcf150cd064745dd84cdf52fff84fd23",
+     "providerId": "opta:Player:42cg746sa90jla5x4islj9pwq",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Sam",
+     "lastName": "Beukema",
+     "shirtName": "Sam Beukema",
+     "displayName": "Beukema",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 33,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ddf4ceac503b43648e42f966b5fe37b3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ee9c033adeaa4527b7c728995c53ac62",
+     "providerId": "opta:Player:1po7tmdv73zfjentt0p20wdlh",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Stefan",
+     "lastName": "Posch",
+     "shirtName": "Stefan Posch",
+     "displayName": "Posch",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187",
+     "providerId": "opta:Player:6eqqtmbg35rg2stk10ic7q8k5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nikola",
+     "lastName": "Moro",
+     "shirtName": "Nikola Moro",
+     "displayName": "N. Moro",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 37,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::71f6c7d55bca4c25bb706cda960a55e9"
+      },
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a74cbc51025f490cb8c10f031cd7fc9c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18",
+     "providerId": "opta:Player:bdb6j168crcrwje9k0titxv55",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lewis",
+     "lastName": "Ferguson",
+     "shirtName": "Lewis Ferguson",
+     "displayName": "L. Ferguson",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 45,
+       "additionalTime": 1,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::71f6c7d55bca4c25bb706cda960a55e9",
+     "providerId": "opta:Player:ex10o77wnk1exp9tj1t1rqj56",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Dan",
+     "lastName": "Ndoye",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4b928838f4f49fbb63b0677919908da",
+     "providerId": "opta:Player:56bidwsegakrtx3z1qbbpnc6i",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Joshua",
+     "lastName": "Zirkzee",
+     "shirtName": "J. Zirkzee",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::14010adf030c4819af95fa650e882444",
+     "providerId": "opta:Player:x8runqzjfkym8r7kdy3a8t0",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nicola",
+     "lastName": "Bagnolini",
+     "shirtName": "N. Bagnolini",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::47c6788b77eb47bf90274613223577a4",
+     "providerId": "opta:Player:4hrmzpx1nt5ze55fpby71mcb9",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Łukasz",
+     "lastName": "Skorupski",
+     "shirtName": "Łukasz Skorupski",
+     "displayName": "Skorupski",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8645b3d575984b51b431d95c2e44a1c4",
+     "providerId": "opta:Player:7e11kdi7wh9tleor9w5o2fdn9",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Kevin",
+     "lastName": "Bonifazi",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e60f9fc9c3249d2b71ec4871bd42d78",
+     "providerId": "opta:Player:3m6mnytvm0s8u4390tr88x9g4",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Tommaso",
+     "lastName": "Corazza",
+     "shirtName": "Tommaso Corazza",
+     "displayName": "Corazza",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::131d2b80a4454da0964792393ecbd5cb",
+     "providerId": "opta:Player:7a6hqi5iy91onh9u7l7t88tbe",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Oussama",
+     "lastName": "El Azzouzi",
+     "shirtName": "",
+     "displayName": "O. El Azzouzi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a74cbc51025f490cb8c10f031cd7fc9c",
+     "providerId": "opta:Player:bpfg11qh1q0zj2x6sqd3srvmx",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Michel",
+     "lastName": "Aebischer",
+     "shirtName": "Michel Aebischer",
+     "displayName": "Aebischer",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21a70260eb4045f99d307966ab7ba64e",
+     "providerId": "opta:Player:a2n9op95qyb3rkye5pxqjb7bp",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Charalampos",
+     "lastName": "Lykogiannīs",
+     "shirtName": "Charalampos Lykogiannīs",
+     "displayName": "Lykogiannīs",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::793eb5e0b92d46549f514f60cb3a04b3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ddf4ceac503b43648e42f966b5fe37b3",
+     "providerId": "opta:Player:3l0mj1zzhytxvm9tryvqv8kix",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Jhon Janer",
+     "lastName": "Lucumi' Bonilla",
+     "shirtName": "Jhon Lucumí",
+     "displayName": "Lucumí",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bcf150cd064745dd84cdf52fff84fd23"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839",
+     "providerId": "opta:Player:3cbwh4pfwae5xw072cy14gb85",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lorenzo",
+     "lastName": "De Silvestri",
+     "shirtName": "Lorenzo De Silvestri",
+     "displayName": "De Silvestri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5787b6022de846d4b7f9cc1bbda8d99b",
+     "providerId": "opta:Player:dc4n5ylytswddlvd82snkb90q",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Sydney",
+     "lastName": "van Hooijdonk",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15",
+     "providerId": "opta:Player:4j3d7ujmhevsi0y3zvs34i13o",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Giovanni",
+     "lastName": "Fabbian",
+     "shirtName": "Giovanni Fabbian",
+     "displayName": "Fabbian",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e4e9ea37c076469ea8fb0d76074fb02e",
+     "providerId": "opta:Player:efow9aip64uaszfwxh1j0l6y2",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Kacper",
+     "lastName": "Urbański",
+     "shirtName": "Kacper Urbański",
+     "displayName": "Urbański",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::71b16adcf4354d58913cac3629eaf86b",
+     "providerId": "opta:Player:97mmzzi3dwdos6jtj2m05w4ph",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Andrea",
+     "lastName": "Belotti",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::77e6d65595a147d2a3e3dfd93c2c7bd9",
+     "providerId": "opta:Player:7gu0t0g8nej405k918fwsf8id",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Rui Pedro",
+     "lastName": "dos Santos Patrício",
+     "shirtName": "Rui Patrício",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1fc7bb7eab2545dd8f5952b20f425090",
+     "providerId": "opta:Player:efzokrggje7s9wc6hg75yc6ax",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Obite Evan",
+     "lastName": "Ndicka",
+     "shirtName": "Evan Ndicka",
+     "displayName": "Ndicka",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::55f13eb41ace486cb4ddb6f4a2abd6c7",
+     "providerId": "opta:Player:9ao7l82r1xd2rjnvv5u6plcr9",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Diego",
+     "lastName": "Llorente",
+     "shirtName": "D. Llorente",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 9,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e3377b9b0364a6b8615c0ff24b1895a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cdfeb421bf10427ba410d9db7f5f3b00",
+     "providerId": "opta:Player:6fttn5mk6n1lstqt0dl5xzn4l",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Gianluca",
+     "lastName": "Mancini",
+     "shirtName": "Gianluca Mancini",
+     "displayName": "Mancini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b",
+     "providerId": "opta:Player:9ka7y81b5kst146mhq7mom5ed",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Leonardo",
+     "lastName": "Spinazzola",
+     "shirtName": "Leonardo Spinazzola",
+     "displayName": "Spinazzola",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::558c3345c5004cc2ac643836ab576238"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::29fd1efab5c0406f9b57d0f3cb6208eb",
+     "providerId": "opta:Player:dn3llv8xjdbbndltfym5ar561",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Rasmus",
+     "lastName": "Kristensen",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "own-goal",
+       "time": 49,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::66ae9583465b405792b084c3145e30ec"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::11d045f4b49645158b2773f6fc7d6941",
+     "providerId": "opta:Player:1ftejgsl4hho40cceqne1hcyd",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Bryan",
+     "lastName": "Cristante",
+     "shirtName": "Bryan Cristante",
+     "displayName": "Cristante",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3f758f3587f54c9db2c10d5f4e92faa5",
+     "providerId": "opta:Player:apdtqouzo9b02ozdxk8mx4zbp",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Leandro",
+     "lastName": "Paredes",
+     "shirtName": "L. Paredes",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27",
+     "providerId": "opta:Player:57bin6he6kbdo2bs4i78z2k0l",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Lorenzo",
+     "lastName": "Pellegrini",
+     "shirtName": "Lorenzo Pellegrini",
+     "displayName": "Lo. Pellegrini",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 36,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a24d76c06d864fe9978e6b195041c291"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0",
+     "providerId": "opta:Player:a1iz91ed6hus61yhhk2r0vkd1",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Stephan",
+     "lastName": "El Shaarawy",
+     "shirtName": "Stephan El Shaarawy",
+     "displayName": "El Shaarawy",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a601d80146eb42dd849d570a4d37f528",
+     "providerId": "opta:Player:b0b0xalrak7k5pnfnum53umtw",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Pietro",
+     "lastName": "Boer",
+     "shirtName": "Pietro Boer",
+     "displayName": "Boer",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::942bc68934354b26a012b1d689290a82",
+     "providerId": "opta:Player:el58uxf7oaqu95yx1vbgmr7it",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mile",
+     "lastName": "Svilar",
+     "shirtName": "Mile Svilar",
+     "displayName": "Svilar",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::597f5185541c494c962462215e3cc363",
+     "providerId": "opta:Player:8lgsqmwavspz4fv7t11rb6j9",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Rick",
+     "lastName": "Karsdorp",
+     "shirtName": "R. Karsdorp",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e3377b9b0364a6b8615c0ff24b1895a",
+     "providerId": "opta:Player:59pu8nnghyxvvt8r3zyndpfpx",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Sardar",
+     "lastName": "Azmoun",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::55f13eb41ace486cb4ddb6f4a2abd6c7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d",
+     "providerId": "opta:Player:1pkymw7biivk760rxhubin1ed",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mehmet Zeki",
+     "lastName": "Çelik",
+     "shirtName": "Zeki Çelik",
+     "displayName": "Çelik",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cdfeb421bf10427ba410d9db7f5f3b00"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::558c3345c5004cc2ac643836ab576238",
+     "providerId": "opta:Player:2ub88jcc3vku6mrnt5fb3oyqd",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Renato Júnior",
+     "lastName": "Luz Sanches",
+     "shirtName": "Renato Sanches",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b"
+      },
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9e7b654785bf47dc9ef9c801429626ce"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9e7b654785bf47dc9ef9c801429626ce",
+     "providerId": "opta:Player:4cu8rbv55v6f6jiq50c4xatqs",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Edoardo",
+     "lastName": "Bove",
+     "shirtName": "E. Bove",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::558c3345c5004cc2ac643836ab576238"
+      },
+      {
+       "type": "yellow-card",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aebde87866a1487ca849fe82dcf05137",
+     "providerId": "opta:Player:8ybjql42v2hzfx10nh3996wb8",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Riccardo",
+     "lastName": "Pagano",
+     "shirtName": "Riccardo Pagano",
+     "displayName": "Pagano",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a24d76c06d864fe9978e6b195041c291",
+     "providerId": "opta:Player:5kktohikuoy0a1oagcgps8mxg",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Niccolò",
+     "lastName": "Pisilli",
+     "shirtName": "Niccolò Pisilli",
+     "displayName": "Pisilli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2583792f0e0240138b65ce581f6d3d33",
+     "providerId": "opta:Player:2q6ecss80nse0z2fneo73vgus",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Luigi",
+     "lastName": "Cherubini",
+     "shirtName": "L. Cherubini",
+     "displayName": "Cherubini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::917538edbf6245f4baa1b6ccba325036",
+     "providerId": "opta:Player:cfmha2icj5q0mp8ecajlbxb84",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "João Gabriel",
+     "lastName": "e Costa Cesco",
+     "shirtName": "João Costa",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:41:51.933Z",
+   "sha256": "650a01efbb2b354b531c93065106be1fb7bfe0af19998a65df86a862d6674088"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:48:54.001Z",
+   "sha256": "4f9e40d6efdbf88b1c51a50daa6ae94fddb070ce01c12a42a52c6a071cacc13e",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Ravaglia F.",
+     "giocatoreIdFantacalcio": 2722,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lykogiannis",
+     "giocatoreIdFantacalcio": 2653,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Calafiori",
+     "giocatoreIdFantacalcio": 4945,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lucumi'",
+     "giocatoreIdFantacalcio": 6042,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Posch",
+     "giocatoreIdFantacalcio": 6066,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kristiansen",
+     "giocatoreIdFantacalcio": 6148,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Beukema",
+     "giocatoreIdFantacalcio": 6202,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Freuler",
+     "giocatoreIdFantacalcio": 788,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 7,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Saelemaekers",
+     "giocatoreIdFantacalcio": 4892,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Urbanski",
+     "giocatoreIdFantacalcio": 5425,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndoye",
+     "giocatoreIdFantacalcio": 5564,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Aebischer",
+     "giocatoreIdFantacalcio": 5784,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ferguson",
+     "giocatoreIdFantacalcio": 5858,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Moro N.",
+     "giocatoreIdFantacalcio": 6054,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fabbian",
+     "giocatoreIdFantacalcio": 6206,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Zirkzee",
+     "giocatoreIdFantacalcio": 5086,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Rui Patricio",
+     "giocatoreIdFantacalcio": 4270,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Spinazzola",
+     "giocatoreIdFantacalcio": 1852,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mancini",
+     "giocatoreIdFantacalcio": 2296,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "N'Dicka",
+     "giocatoreIdFantacalcio": 4317,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Celik",
+     "giocatoreIdFantacalcio": 4657,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Llorente D.",
+     "giocatoreIdFantacalcio": 5239,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kristensen",
+     "giocatoreIdFantacalcio": 6220,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 1,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Paredes",
+     "giocatoreIdFantacalcio": 468,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pellegrini Lo.",
+     "giocatoreIdFantacalcio": 530,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cristante",
+     "giocatoreIdFantacalcio": 779,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "El Shaarawy",
+     "giocatoreIdFantacalcio": 795,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Renato Sanches",
+     "giocatoreIdFantacalcio": 2543,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bove",
+     "giocatoreIdFantacalcio": 5423,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pisilli",
+     "giocatoreIdFantacalcio": 6190,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Belotti",
+     "giocatoreIdFantacalcio": 441,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/16",
+      "estrattoIl": "2026-10-06T20:48:54.001Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Azmoun",
+     "giocatoreIdFantacalcio": 5795,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 0 Roma 17/12/2023 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

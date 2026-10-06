@@ -1,0 +1,1671 @@
+{
+ "label": "Roma-Sassuolo (g29)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-03-17T17:00:00Z",
+  "hoursAfterKickoff": 22395.619502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:49:21.542Z",
+  "sha256": "5c47656a3e4ad12139fdd632165cd8ab8fbe625f8039fb71630a81915207f6a6"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::96752a88687948339618344ca4d21f7c",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-03-17T17:00:00Z",
+   "matchday": 29,
+   "home": "Roma",
+   "away": "Sassuolo",
+   "homeTeamId": "serie-a::Football_Team::8ddc09c1aa73448da2dff953edd95d82",
+   "awayTeamId": "serie-a::Football_Team::b70390ba4e3c4bc2947a37617d53e8a3",
+   "homeScore": 1,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 7
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::96752a88687948339618344ca4d21f7c",
+   "homeTeam": "Roma",
+   "awayTeam": "Sassuolo",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::942bc68934354b26a012b1d689290a82",
+     "providerId": "opta:Player:el58uxf7oaqu95yx1vbgmr7it",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Mile",
+     "lastName": "Svilar",
+     "shirtName": "Mile Svilar",
+     "displayName": "Svilar",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b",
+     "providerId": "opta:Player:9ka7y81b5kst146mhq7mom5ed",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Leonardo",
+     "lastName": "Spinazzola",
+     "shirtName": "Leonardo Spinazzola",
+     "displayName": "Spinazzola",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 37,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eefe9d10fdf748d48162e78f410c498f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::55f13eb41ace486cb4ddb6f4a2abd6c7",
+     "providerId": "opta:Player:9ao7l82r1xd2rjnvv5u6plcr9",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Diego",
+     "lastName": "Llorente",
+     "shirtName": "D. Llorente",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdfeb421bf10427ba410d9db7f5f3b00",
+     "providerId": "opta:Player:6fttn5mk6n1lstqt0dl5xzn4l",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Gianluca",
+     "lastName": "Mancini",
+     "shirtName": "Gianluca Mancini",
+     "displayName": "Mancini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::597f5185541c494c962462215e3cc363",
+     "providerId": "opta:Player:8lgsqmwavspz4fv7t11rb6j9",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Rick",
+     "lastName": "Karsdorp",
+     "shirtName": "R. Karsdorp",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27",
+     "providerId": "opta:Player:57bin6he6kbdo2bs4i78z2k0l",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Lorenzo",
+     "lastName": "Pellegrini",
+     "shirtName": "Lorenzo Pellegrini",
+     "displayName": "Lo. Pellegrini",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 50,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3f758f3587f54c9db2c10d5f4e92faa5"
+      },
+      {
+       "type": "yellow-card",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3f758f3587f54c9db2c10d5f4e92faa5",
+     "providerId": "opta:Player:apdtqouzo9b02ozdxk8mx4zbp",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Leandro",
+     "lastName": "Paredes",
+     "shirtName": "L. Paredes",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::11d045f4b49645158b2773f6fc7d6941",
+     "providerId": "opta:Player:1ftejgsl4hho40cceqne1hcyd",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Bryan",
+     "lastName": "Cristante",
+     "shirtName": "Bryan Cristante",
+     "displayName": "Cristante",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5dc39c9874bb44b69855396d64de452c",
+     "providerId": "opta:Player:412hlm2edd05jd1ad597brcvd",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Houssem",
+     "lastName": "Aouar",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0",
+     "providerId": "opta:Player:a1iz91ed6hus61yhhk2r0vkd1",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Stephan",
+     "lastName": "El Shaarawy",
+     "shirtName": "Stephan El Shaarawy",
+     "displayName": "El Shaarawy",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9d328f5f77f447f8b87c2c7f0e49a3bc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2446e6543344454a955ba29acace1ad6",
+     "providerId": "opta:Player:8qgbxff7xlg0zjtyees7ljljp",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Romelu",
+     "lastName": "Lukaku Bolingoli",
+     "shirtName": "Romelu Lukaku",
+     "displayName": "Lukaku",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e3377b9b0364a6b8615c0ff24b1895a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::77e6d65595a147d2a3e3dfd93c2c7bd9",
+     "providerId": "opta:Player:7gu0t0g8nej405k918fwsf8id",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Rui Pedro",
+     "lastName": "dos Santos Patrício",
+     "shirtName": "Rui Patrício",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a601d80146eb42dd849d570a4d37f528",
+     "providerId": "opta:Player:b0b0xalrak7k5pnfnum53umtw",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Pietro",
+     "lastName": "Boer",
+     "shirtName": "Pietro Boer",
+     "displayName": "Boer",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9d328f5f77f447f8b87c2c7f0e49a3bc",
+     "providerId": "opta:Player:d2hnxi1yi5rgqj1tvxh1813x0",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Dean",
+     "lastName": "Huijsen",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1fc7bb7eab2545dd8f5952b20f425090",
+     "providerId": "opta:Player:efzokrggje7s9wc6hg75yc6ax",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Obite Evan",
+     "lastName": "Ndicka",
+     "shirtName": "Evan Ndicka",
+     "displayName": "Ndicka",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::90f14d0d8f7c4e20b78b33106df2979d",
+     "providerId": "opta:Player:363nsa82dww242zeo09wpcslx",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Tammy",
+     "lastName": "Abraham",
+     "shirtName": "T. Abraham",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e3377b9b0364a6b8615c0ff24b1895a",
+     "providerId": "opta:Player:59pu8nnghyxvvt8r3zyndpfpx",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Sardar",
+     "lastName": "Azmoun",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2446e6543344454a955ba29acace1ad6"
+      },
+      {
+       "type": "yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d",
+     "providerId": "opta:Player:1pkymw7biivk760rxhubin1ed",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Mehmet Zeki",
+     "lastName": "Çelik",
+     "shirtName": "Zeki Çelik",
+     "displayName": "Çelik",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::597f5185541c494c962462215e3cc363"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab",
+     "providerId": "opta:Player:bk1gdyxtfp4drwb0yotwerbsa",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Tommaso",
+     "lastName": "Baldanzi",
+     "shirtName": "Tommaso Baldanzi",
+     "displayName": "Baldanzi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5dc39c9874bb44b69855396d64de452c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9e7b654785bf47dc9ef9c801429626ce",
+     "providerId": "opta:Player:4cu8rbv55v6f6jiq50c4xatqs",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Edoardo",
+     "lastName": "Bove",
+     "shirtName": "E. Bove",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::466bd5fe831940f7af73ca8f03bb6f46",
+     "providerId": "opta:Player:du4ciqofpkn3nei5q3huwlnje",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Nicola",
+     "lastName": "Zalewski",
+     "shirtName": "Nicola Zalewski",
+     "displayName": "Zalewski",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a24d76c06d864fe9978e6b195041c291",
+     "providerId": "opta:Player:5kktohikuoy0a1oagcgps8mxg",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Niccolò",
+     "lastName": "Pisilli",
+     "shirtName": "Niccolò Pisilli",
+     "displayName": "Pisilli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::917538edbf6245f4baa1b6ccba325036",
+     "providerId": "opta:Player:cfmha2icj5q0mp8ecajlbxb84",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "João Gabriel",
+     "lastName": "e Costa Cesco",
+     "shirtName": "João Costa",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eefe9d10fdf748d48162e78f410c498f",
+     "providerId": "opta:Player:9uthj64y9f77y63tq7did539x",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "José Ángel",
+     "lastName": "Esmoris Tasende",
+     "shirtName": "Angeliño",
+     "displayName": "Angeliño",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 37,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::313137174c73487b9dd66653b72e649c",
+     "providerId": "opta:Player:1r5gn4osgwz2b2b4sefncbhed",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Andrea",
+     "lastName": "Consigli",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe",
+     "providerId": "opta:Player:2e0ipswbkv4vf7lav6ee1j3oq",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Mattia",
+     "lastName": "Viti",
+     "shirtName": "Mattia Viti",
+     "displayName": "Viti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f64bcd9092ce49e19a34a0224eff7737"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7106954e655b4e8faff3a2e717c2379f",
+     "providerId": "opta:Player:9rzl0j9m9i30a62o1yofzvaad",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Gianmarco",
+     "lastName": "Ferrari",
+     "shirtName": "G. Ferrari",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7e36cde8760f40efb3e00ca36f5c2675",
+     "providerId": "opta:Player:e5fnoxb8f2hycjx4gnmce2wvd",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Martin",
+     "lastName": "Erlić",
+     "shirtName": "M. Erlic",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1a2e81f27714f089e6f76fe2b2bf1de",
+     "providerId": "opta:Player:bqer8ajqm2vibthgumtuycbu1",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Matheus Henrique",
+     "lastName": "de Souza",
+     "shirtName": "Matheus Henrique",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::401150fa0756441e9743cea423900c7f",
+     "providerId": "opta:Player:9k1ytj3z42ggp14vkn39hiymt",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Pedro Mba",
+     "lastName": "Obiang Avomo",
+     "shirtName": "P. Obiang",
+     "displayName": "Obiang",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bacb2fa09efd437f9a2b7c7d6fbae18e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6039847c8aa24a0e86358528e6d94829",
+     "providerId": "opta:Player:5r7q0eg6pmoq0safxa9tnm5l",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Uros",
+     "lastName": "Racic",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::35d2b527d3b14887b218b6a26181c714"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::797109e26eb346e3a6de69944030f6ea",
+     "providerId": "opta:Player:27xj7me8icr5ptta7kwx0kfs9",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Armand Gaetan",
+     "lastName": "Laurienté",
+     "shirtName": "Armand Laurienté",
+     "displayName": "Laurienté",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba",
+     "providerId": "opta:Player:153ljvbov0n176vm9fdaizoix",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Andrea",
+     "lastName": "Pinamonti",
+     "shirtName": "A. Pinamonti",
+     "displayName": "Pinamonti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0095936008ab454fb08f4a60f91ccc0d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b2decb94931a4676b557e36dfe7eb93b",
+     "providerId": "opta:Player:f2p5457ilcfrtzhe343whhkut",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Gregoire",
+     "lastName": "Defrel",
+     "shirtName": "Grégoire Defrel",
+     "displayName": "Defrel",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ae95a7f0ddce477e8f6c6030b52cbedd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d4b72a78c0dd485db153fe8704e97e50",
+     "providerId": "opta:Player:6k790p49tjwkhlwf9afll9jo5",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Gianluca",
+     "lastName": "Pegolo",
+     "shirtName": "G. Pegolo",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::660fc49326db4c5d8ec04ca21b9f1a24",
+     "providerId": "opta:Player:6jwy293owzzhldv4i9wxntjv9",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Alessio",
+     "lastName": "Cragno",
+     "shirtName": "A. Cragno",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb379d16825e436d896daa3695fb577d",
+     "providerId": "opta:Player:ataq92vho6o4euh045am8cbo4",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Filippo",
+     "lastName": "Missori",
+     "shirtName": "F. Missori",
+     "displayName": "Missori",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0095936008ab454fb08f4a60f91ccc0d",
+     "providerId": "opta:Player:6w3v6ck12wmaff8owswnhphm2",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Samuele",
+     "lastName": "Mulattieri",
+     "shirtName": "Samuele Mulattieri",
+     "displayName": "Mulattieri",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::35d2b527d3b14887b218b6a26181c714",
+     "providerId": "opta:Player:3sehm4zmy7141wm4ecfqqoxd5",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Nedim",
+     "lastName": "Bajrami",
+     "shirtName": "N. Bajrami",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6039847c8aa24a0e86358528e6d94829"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a3ed8f31e0d5488389489be06e87b3b1",
+     "providerId": "opta:Player:4xnll2f9tb69wrezm04ayg76y",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Emil",
+     "lastName": "Ceïde",
+     "shirtName": "E. Ceide",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5b400468baf046f8b26ee7aef1f8bd37",
+     "providerId": "opta:Player:cddggachzf198p1yhq9owtofd",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Marash",
+     "lastName": "Kumbulla",
+     "shirtName": "Marash Kumbulla",
+     "displayName": "Kumbulla",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bacb2fa09efd437f9a2b7c7d6fbae18e",
+     "providerId": "opta:Player:bh9jia8qgkhpm5xn82bx0hhck",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Cristian",
+     "lastName": "Volpato",
+     "shirtName": "C. Volpato",
+     "displayName": "Volpato",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::401150fa0756441e9743cea423900c7f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ae95a7f0ddce477e8f6c6030b52cbedd",
+     "providerId": "opta:Player:7qluty59wsg0ak1p5301o8pux",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Daniel",
+     "lastName": "Boloca",
+     "shirtName": "Daniel Boloca",
+     "displayName": "Boloca",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b2decb94931a4676b557e36dfe7eb93b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d37b584e9071448ca0504a0a217103f0",
+     "providerId": "opta:Player:9cv979t3dmbwoy586m01xdvkk",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Luca",
+     "lastName": "Lipani",
+     "shirtName": "Luca Lipani",
+     "displayName": "Lipani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f64bcd9092ce49e19a34a0224eff7737",
+     "providerId": "opta:Player:cxxxfvmrslyjyi9wz9m8kwne2",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Ruan",
+     "lastName": "Tressoldi Netto",
+     "shirtName": "Ruan Tressoldi",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:45:30.940Z",
+   "sha256": "ade31f774b9e60aa9f75ad6a630eed20734109d2fef3117664a10f74bbe40cb0"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:49:21.542Z",
+   "sha256": "5c47656a3e4ad12139fdd632165cd8ab8fbe625f8039fb71630a81915207f6a6",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Svilar",
+     "giocatoreIdFantacalcio": 5841,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Spinazzola",
+     "giocatoreIdFantacalcio": 1852,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Karsdorp",
+     "giocatoreIdFantacalcio": 2180,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mancini",
+     "giocatoreIdFantacalcio": 2296,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Celik",
+     "giocatoreIdFantacalcio": 4657,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Angelino",
+     "giocatoreIdFantacalcio": 4772,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Llorente D.",
+     "giocatoreIdFantacalcio": 5239,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Huijsen",
+     "giocatoreIdFantacalcio": 6433,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Paredes",
+     "giocatoreIdFantacalcio": 468,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pellegrini Lo.",
+     "giocatoreIdFantacalcio": 530,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cristante",
+     "giocatoreIdFantacalcio": 779,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "El Shaarawy",
+     "giocatoreIdFantacalcio": 795,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Aouar",
+     "giocatoreIdFantacalcio": 4142,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baldanzi",
+     "giocatoreIdFantacalcio": 5823,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lukaku",
+     "giocatoreIdFantacalcio": 2531,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Azmoun",
+     "giocatoreIdFantacalcio": 5795,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Consigli",
+     "giocatoreIdFantacalcio": 509,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ferrari G.",
+     "giocatoreIdFantacalcio": 1895,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Erlic",
+     "giocatoreIdFantacalcio": 4982,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Viti",
+     "giocatoreIdFantacalcio": 5718,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tressoldi",
+     "giocatoreIdFantacalcio": 5747,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "giocatoreIdFantacalcio": 6426,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Obiang",
+     "giocatoreIdFantacalcio": 4501,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Racic",
+     "giocatoreIdFantacalcio": 5267,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bajrami",
+     "giocatoreIdFantacalcio": 5451,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Matheus Henrique",
+     "giocatoreIdFantacalcio": 5511,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Volpato",
+     "giocatoreIdFantacalcio": 5735,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Boloca",
+     "giocatoreIdFantacalcio": 6219,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Defrel",
+     "giocatoreIdFantacalcio": 643,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pinamonti",
+     "giocatoreIdFantacalcio": 2038,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lauriente'",
+     "giocatoreIdFantacalcio": 6060,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mulattieri",
+     "giocatoreIdFantacalcio": 6205,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 1 - 0 Sassuolo 17/03/2024 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

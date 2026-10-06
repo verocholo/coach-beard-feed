@@ -1,0 +1,1722 @@
+{
+ "label": "Udinese-Lecce (g9)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2023-10-23T16:30:00Z",
+  "hoursAfterKickoff": 25900.119502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:48:37.959Z",
+  "sha256": "aeb565717c14fb11789a3d2f728b02a1c565430e753703a6de4bd56393039112"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::fe41e428cb3a474e96d1c090256d16ef",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2023-10-23T16:30:00Z",
+   "matchday": 9,
+   "home": "Udinese",
+   "away": "Lecce",
+   "homeTeamId": "serie-a::Football_Team::630b1e3631db42498d1b7bc94595c5e0",
+   "awayTeamId": "serie-a::Football_Team::ced7bf0df3a140dfa48138311122133b",
+   "homeScore": 1,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 8
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::fe41e428cb3a474e96d1c090256d16ef",
+   "homeTeam": "Udinese",
+   "awayTeam": "Lecce",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::adb3802917f84f18b2d899e1cc681700",
+     "providerId": "opta:Player:93237ztqyi3r4hu3rmgzrgudx",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Marco",
+     "lastName": "Silvestri",
+     "shirtName": "Marco Silvestri",
+     "displayName": "Silvestri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::700f9b23586149c6a32011198f8e928a",
+     "providerId": "opta:Player:5ljs2bj3wwiurcyxiwka2i8d1",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Christian",
+     "lastName": "Kabasele",
+     "shirtName": "Christian Kabasele",
+     "displayName": "Kabasele",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 5,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9c5999dbc5cc44a292a49414e20ef094",
+     "providerId": "opta:Player:ah0f7tonnst92d8q91j1wll62",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Jaka",
+     "lastName": "Bijol",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a043bdd0aa20406794cc306fe5426c48",
+     "providerId": "opta:Player:4h1jj93i0v1pfemnjydnoc0dl",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Nehuén",
+     "lastName": "Pérez",
+     "shirtName": "Nehuén Pérez",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18ccff309d1c46efbab30d302ece28e7",
+     "providerId": "opta:Player:95qrrtlyz4ikkzjbgy6exbnit",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Hassane",
+     "lastName": "Kamara",
+     "shirtName": "Hassane Kamara",
+     "displayName": "Kamara",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2c1de35b4eba480dbcd4e21a4cde2c88"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b664c040c82243a68456e3c9162a8c37",
+     "providerId": "opta:Player:cvqqwbdd3dttekkcooh7i80h6",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "João Diogo",
+     "lastName": "Fonseca Ferreira",
+     "shirtName": "João Ferreira",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9efc65d26a948d6bda69964b27b411d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::92019bc30e194c10931eaf94a67a09e0",
+     "providerId": "opta:Player:b881arnahhahg0iaix4mx266t",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Roberto Maximiliano",
+     "lastName": "Pereyra",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bd51deb9de4a486dbaa8f1544cad3e31"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c77a8e92dacc4567ba4dacd9b9547732",
+     "providerId": "opta:Player:18jovwk0ysx6ajb8y75179j9x",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Walace",
+     "lastName": "Souza Silva",
+     "shirtName": "Walace",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::df726d9e0b284705be78eb3af4f6e441",
+     "providerId": "opta:Player:bl76cebhta912vfi9z7ky32p6",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Lazar Vujadin",
+     "lastName": "Samardžić",
+     "shirtName": "Lazar Samardžić",
+     "displayName": "Samardžić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e554d77c9d634b6d9b0400e0b6db3946",
+     "providerId": "opta:Player:5152de1kfmrihdzbdotpeo8ut",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Isaac",
+     "lastName": "Success",
+     "shirtName": "I. Success",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::23f8b38d705e43bfaffccba16e316b37"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5324dde79ee2429ca8d62d4c2f990997",
+     "providerId": "opta:Player:8shwa0k28rt5duyrhuqza1hhx",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Florian",
+     "lastName": "Thauvin",
+     "shirtName": "F. Thauvin",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 49,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::837fb89221784b959bbcb6d6a4c8e72b"
+      },
+      {
+       "type": "yellow-card",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::577277231cb84394a7d96c70a11a528f",
+     "providerId": "opta:Player:70ps22rygrlq3msxgwmesowyx",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Emil Maduka",
+     "lastName": "Okoye",
+     "shirtName": "Maduka Okoye",
+     "displayName": "Okoye",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f42dc8a471d44f2d8cb4a23c2cb0fefc",
+     "providerId": "opta:Player:al3t9fzj4ab55yux0zkd1jkr9",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Daniele",
+     "lastName": "Padelli",
+     "shirtName": "Daniele Padelli",
+     "displayName": "Padelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d9efc65d26a948d6bda69964b27b411d",
+     "providerId": "opta:Player:96d5il3afakek9qvsbtldu162",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Festy",
+     "lastName": "Ebosele",
+     "shirtName": "F. Ebosele",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b664c040c82243a68456e3c9162a8c37"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9cbc71124271441a86df81db4cb1eb42",
+     "providerId": "opta:Player:dn00381nbniepgi4qj7yjkv84",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Axel",
+     "lastName": "Guessand",
+     "shirtName": "A. Guessand",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5931a8de6cc3493ebdaa0b4c30758add",
+     "providerId": "opta:Player:488vwilxllk6nhf4o1wrh0gve",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Oier",
+     "lastName": "Zarraga Egana",
+     "shirtName": "Oier Zarraga",
+     "displayName": "Zarraga",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d601142b96cd4bbd85c42bf100645c65",
+     "providerId": "opta:Player:8f3eqla9yo5js50fv2tdu5vjd",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Domingos",
+     "lastName": "Quina",
+     "shirtName": "Domingos Quina",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f19bf71b9b8b4159b27bfe6cf39cedcc",
+     "providerId": "opta:Player:xshamrmjf78pzddhffl9ysmi",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Marley",
+     "lastName": "Aké",
+     "shirtName": "M. Aké",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d72f7688584c45669f69f92fee63b8e9",
+     "providerId": "opta:Player:8a6aq6tang8t2vzl6ix7g2c5w",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Antonio",
+     "lastName": "Tikvic",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::23f8b38d705e43bfaffccba16e316b37",
+     "providerId": "opta:Player:6w6ewzxircqxk6dsrs1rvc8ru",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Lorenzo",
+     "lastName": "Lucca",
+     "shirtName": "L. Lucca",
+     "displayName": "Lucca",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e554d77c9d634b6d9b0400e0b6db3946"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0d62a9ea23844b4d9fa97567f01d7cc5",
+     "providerId": "opta:Player:b9ua02n7ndgcf1cxa2e9h1bmc",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Étienne",
+     "lastName": "Camara",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bd51deb9de4a486dbaa8f1544cad3e31",
+     "providerId": "opta:Player:1bd23slibfdzz32n8nhwosbqi",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Martin Ismael",
+     "lastName": "Payero",
+     "shirtName": "Martín Payero",
+     "displayName": "Payero",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::92019bc30e194c10931eaf94a67a09e0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2c1de35b4eba480dbcd4e21a4cde2c88",
+     "providerId": "opta:Player:918sxflcvngsy0xvc9dh3jaei",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Jordan",
+     "lastName": "Zemura",
+     "shirtName": "Jordan Zemura",
+     "displayName": "Zemura",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::18ccff309d1c46efbab30d302ece28e7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5290120066c84fa5b679c315af96ccc9",
+     "providerId": "opta:Player:bf4gvp8pzp50lhtb2fc35zeok",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Simone",
+     "lastName": "Pafundi",
+     "shirtName": "Simone Pafundi",
+     "displayName": "Pafundi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1892b78973b5448fa477250b8a5732db",
+     "providerId": "opta:Player:3nfxhugbxid6o0r92txslivh1",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Wladimiro",
+     "lastName": "Falcone",
+     "shirtName": "Wladimiro Falcone",
+     "displayName": "Falcone",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::386bc75089ad468196b1372d6a4e85af",
+     "providerId": "opta:Player:1oszv53od5pulbhx566ht984q",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Antonino",
+     "lastName": "Gallo",
+     "shirtName": "Antonino Gallo",
+     "displayName": "Gallo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de4f67665ed349ab9a80bc2bea98a04b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2b979996a62e42b7b29bbc5021db165d",
+     "providerId": "opta:Player:bkz9b4cqf8f970myv8r49f561",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Federico",
+     "lastName": "Baschirotto",
+     "shirtName": "Federico Baschirotto",
+     "displayName": "Baschirotto",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::75786b5c7e2f47cba13e4a142143e7fb",
+     "providerId": "opta:Player:a9jc36ub52lh0jgq2ya56wyui",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Valentin",
+     "lastName": "Gendrey",
+     "shirtName": "V. Gendrey",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::529f04319a9647edbf5c4f6d963b7ff2",
+     "providerId": "opta:Player:9ik51limpi4f3blp1r60hb27d",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Remi",
+     "lastName": "Oudin",
+     "shirtName": "R. Oudin",
+     "displayName": "Oudin",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ab4d9178ddb40c5b57adb7608a1f4c9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::29de27ea145841a289fb471c08a042a8",
+     "providerId": "opta:Player:c4kxfrbrfedilykhbyak3e579",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Ylber",
+     "lastName": "Ramadani",
+     "shirtName": "Ylber Ramadani",
+     "displayName": "Ramadani",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 34,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::17a8ac7283904085b33fb34c24371bba",
+     "providerId": "opta:Player:3g14bqou9coim6fit9c2cyr8q",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Mohamed",
+     "lastName": "Kaba",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::afd92eb7afd747a780d0ec8368edd67c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::526c1ebfad434e53936bb1c7e24db3a5",
+     "providerId": "opta:Player:44f0q2ucrld1rwcwx63vgs7hl",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Gabriel",
+     "lastName": "Strefezza",
+     "shirtName": "Gabriel Strefezza",
+     "displayName": "Strefezza",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::27a32cbcdbb04b209d76e20d1506690e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0ffb0532cc8044aebb4a64ea8c02be13",
+     "providerId": "opta:Player:11r7kkbcv2bn8lar3unczuz8p",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Nikola",
+     "lastName": "Krstović",
+     "shirtName": "Nikola Krstović",
+     "displayName": "Krstović",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50da604b3a694f0581a2066168c2988b",
+     "providerId": "opta:Player:21bdtv9f28xkfmo2dy3uk7bah",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Pontus Skule Erik",
+     "lastName": "Almqvist",
+     "shirtName": "Pontus Almqvist",
+     "displayName": "Almqvist",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bd503deb2e9447fd8314978582571644",
+     "providerId": "opta:Player:9t753r5hnyq6qe5o7csuurw15",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Federico",
+     "lastName": "Brancolini",
+     "shirtName": "Federico Brancolini",
+     "displayName": "Brancolini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c3759dc16f2f41bbbb331b03f2e38060",
+     "providerId": "opta:Player:8ikf00dzaqhw0pnpnbncpz2wa",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Jasper Lauri Petteri",
+     "lastName": "Samooja",
+     "shirtName": "Jasper Samooja",
+     "displayName": "Samooja",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::82c9eb767c094b75a23dafeb0a0a9586",
+     "providerId": "opta:Player:4g64l7opsuqvgx8190cbh1otl",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Hamza",
+     "lastName": "Rafia",
+     "shirtName": "H. Rafia",
+     "displayName": "Rafia",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::27a32cbcdbb04b209d76e20d1506690e",
+     "providerId": "opta:Player:5j7hbe94ewys7hkd04ay5bpw5",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Nicola",
+     "lastName": "Sansone",
+     "shirtName": "N. Sansone",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::526c1ebfad434e53936bb1c7e24db3a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a43d7a06082b41fe9fee0ceaa6e8481a",
+     "providerId": "opta:Player:i4yzdkusjs6qn4v06oxj6qxh",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Lorenzo",
+     "lastName": "Venuti",
+     "shirtName": "Lorenzo Venuti",
+     "displayName": "Venuti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de4f67665ed349ab9a80bc2bea98a04b",
+     "providerId": "opta:Player:cr5wtg3ulqjts3lu3xpnmlmac",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Patrick",
+     "lastName": "Dorgu",
+     "shirtName": "P. Dorgu",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::386bc75089ad468196b1372d6a4e85af"
+      },
+      {
+       "type": "yellow-card",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::afd92eb7afd747a780d0ec8368edd67c",
+     "providerId": "opta:Player:dd7i0ps16hldpriliccyvxct0",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Joan",
+     "lastName": "González",
+     "shirtName": "J. Gonzalez",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::17a8ac7283904085b33fb34c24371bba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::34abfa4e6fed40d1882fc8c0c4b313b4",
+     "providerId": "opta:Player:d12unjo4sk39iix9of2yfask4",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Medon",
+     "lastName": "Berisha",
+     "shirtName": "M. Berisha",
+     "displayName": "Berisha",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6d05654713ae425b8a6037f9612977e9",
+     "providerId": "opta:Player:almqs7iwjgmimcpmegdkoh3o5",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Marcin",
+     "lastName": "Listkowski",
+     "shirtName": "M. Listkowski",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ab4d9178ddb40c5b57adb7608a1f4c9",
+     "providerId": "opta:Player:cntcffa67r95rbcf1154r92zu",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Lameck",
+     "lastName": "Banda",
+     "shirtName": "Lameck Banda",
+     "displayName": "Banda",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::529f04319a9647edbf5c4f6d963b7ff2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::002d02f2fedd4aba9b97a95f938d966c",
+     "providerId": "opta:Player:2vc68n3a4bmvrg09042ndt4pg",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Giacomo",
+     "lastName": "Faticanti",
+     "shirtName": "G. Faticanti",
+     "displayName": "Faticanti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::876f708b412f4737bef67b2b0c819110",
+     "providerId": "opta:Player:a21ge26lolbqt8pa6ng0l15as",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Jeppe",
+     "lastName": "Corfitzen",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::52b2882d6765481a82f18f250fa3bc80",
+     "providerId": "opta:Player:7zy4bzry9weswip0jogur6fbo",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Zinedin",
+     "lastName": "Smajlovic",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a482ebd3284048009375fb421e4f0e27",
+     "providerId": "opta:Player:65nkv8grj2jhs2hlja63bp90p",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Ahmed",
+     "lastName": "Touba",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": false,
+     "events": [
+      {
+       "type": "goal",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::27a32cbcdbb04b209d76e20d1506690e"
+      },
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0ffb0532cc8044aebb4a64ea8c02be13"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:39:50.210Z",
+   "sha256": "926016a66c99ae336bcc3b81b3082fec6cf048b2450dd573472e4145ce955168"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:48:37.959Z",
+   "sha256": "aeb565717c14fb11789a3d2f728b02a1c565430e753703a6de4bd56393039112",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Falcone",
+     "giocatoreIdFantacalcio": 2134,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gallo",
+     "giocatoreIdFantacalcio": 4502,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "giocatoreIdFantacalcio": 5603,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Baschirotto",
+     "giocatoreIdFantacalcio": 5835,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gendrey",
+     "giocatoreIdFantacalcio": 5867,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dorgu",
+     "giocatoreIdFantacalcio": 6257,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Strefezza",
+     "giocatoreIdFantacalcio": 4486,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gonzalez J.",
+     "giocatoreIdFantacalcio": 5999,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Oudin",
+     "giocatoreIdFantacalcio": 6061,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ramadani",
+     "giocatoreIdFantacalcio": 6394,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kaba",
+     "giocatoreIdFantacalcio": 6410,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sansone",
+     "giocatoreIdFantacalcio": 537,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "giocatoreIdFantacalcio": 4359,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Banda",
+     "giocatoreIdFantacalcio": 6001,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Almqvist",
+     "giocatoreIdFantacalcio": 6207,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Krstovic",
+     "giocatoreIdFantacalcio": 6435,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Silvestri",
+     "giocatoreIdFantacalcio": 2211,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kabasele",
+     "giocatoreIdFantacalcio": 4263,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kamara H.",
+     "giocatoreIdFantacalcio": 5555,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Perez N.",
+     "giocatoreIdFantacalcio": 5677,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bijol",
+     "giocatoreIdFantacalcio": 5847,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ebosele",
+     "giocatoreIdFantacalcio": 5848,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zemura",
+     "giocatoreIdFantacalcio": 6211,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ferreira J.",
+     "giocatoreIdFantacalcio": 6256,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pereyra",
+     "giocatoreIdFantacalcio": 302,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Walace",
+     "giocatoreIdFantacalcio": 2392,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Samardzic",
+     "giocatoreIdFantacalcio": 5119,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Payero",
+     "giocatoreIdFantacalcio": 6481,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Thauvin",
+     "giocatoreIdFantacalcio": 2369,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Success",
+     "giocatoreIdFantacalcio": 5676,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lucca",
+     "giocatoreIdFantacalcio": 6215,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 1 - 1 Lecce 23/10/2023 - 18:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

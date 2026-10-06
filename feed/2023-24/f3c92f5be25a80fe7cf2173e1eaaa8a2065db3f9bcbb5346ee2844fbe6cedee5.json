@@ -1,0 +1,1743 @@
+{
+ "label": "Sassuolo-Juventus (g5)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2023-09-23T16:00:00Z",
+  "hoursAfterKickoff": 26620.619502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:48:28.985Z",
+  "sha256": "e122c8ab9dfbc4c3c9e2ccd0b0de48530b16d46b703f942bee7fec62a67d338c"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::d1764a2a40d141c39e5d2e9330b94886",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2023-09-23T16:00:00Z",
+   "matchday": 5,
+   "home": "Sassuolo",
+   "away": "Juventus",
+   "homeTeamId": "serie-a::Football_Team::b70390ba4e3c4bc2947a37617d53e8a3",
+   "awayTeamId": "serie-a::Football_Team::0ae9210dce6f4f9b9d50aeeb19b0d371",
+   "homeScore": 4,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 10
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::d1764a2a40d141c39e5d2e9330b94886",
+   "homeTeam": "Sassuolo",
+   "awayTeam": "Juventus",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::660fc49326db4c5d8ec04ca21b9f1a24",
+     "providerId": "opta:Player:6jwy293owzzhldv4i9wxntjv9",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Alessio",
+     "lastName": "Cragno",
+     "shirtName": "A. Cragno",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dd0e93ed670746b2b33facfdb18207c1",
+     "providerId": "opta:Player:8u46wgn2upd99tmmchxuw1gbt",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Matías",
+     "lastName": "Viña",
+     "shirtName": "M. Vina",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "own-goal",
+       "time": 21,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a9530f505bb749a3a161a44dfc21ba38"
+      },
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7106954e655b4e8faff3a2e717c2379f"
+      },
+      {
+       "type": "yellow-card",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f64bcd9092ce49e19a34a0224eff7737",
+     "providerId": "opta:Player:cxxxfvmrslyjyi9wz9m8kwne2",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Ruan",
+     "lastName": "Tressoldi Netto",
+     "shirtName": "Ruan Tressoldi",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7e36cde8760f40efb3e00ca36f5c2675",
+     "providerId": "opta:Player:e5fnoxb8f2hycjx4gnmce2wvd",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Martin",
+     "lastName": "Erlić",
+     "shirtName": "M. Erlic",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a88c2ac8314d4dbfb7c64e67e2143825",
+     "providerId": "opta:Player:5oge5fhmna0oduqvjisoa1djp",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Jeremy",
+     "lastName": "Toljan",
+     "shirtName": "J. Toljan",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1a2e81f27714f089e6f76fe2b2bf1de",
+     "providerId": "opta:Player:bqer8ajqm2vibthgumtuycbu1",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Matheus Henrique",
+     "lastName": "de Souza",
+     "shirtName": "Matheus Henrique",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ae95a7f0ddce477e8f6c6030b52cbedd",
+     "providerId": "opta:Player:7qluty59wsg0ak1p5301o8pux",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Daniel",
+     "lastName": "Boloca",
+     "shirtName": "Daniel Boloca",
+     "displayName": "Boloca",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 51,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::35d2b527d3b14887b218b6a26181c714",
+     "providerId": "opta:Player:3sehm4zmy7141wm4ecfqqoxd5",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Nedim",
+     "lastName": "Bajrami",
+     "shirtName": "N. Bajrami",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b2decb94931a4676b557e36dfe7eb93b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::797109e26eb346e3a6de69944030f6ea",
+     "providerId": "opta:Player:27xj7me8icr5ptta7kwx0kfs9",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Armand Gaetan",
+     "lastName": "Laurienté",
+     "shirtName": "Armand Laurienté",
+     "displayName": "Laurienté",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 12,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a9530f505bb749a3a161a44dfc21ba38"
+      },
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3899fafda37541d8a5c395226d5e9c38",
+     "providerId": "opta:Player:m030tubgf3zpgf0axzm7z26t",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Domenico",
+     "lastName": "Berardi",
+     "shirtName": "D. Berardi",
+     "displayName": "Berardi",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 41,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d1a2e81f27714f089e6f76fe2b2bf1de"
+      },
+      {
+       "type": "yellow-card",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba",
+     "providerId": "opta:Player:153ljvbov0n176vm9fdaizoix",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Andrea",
+     "lastName": "Pinamonti",
+     "shirtName": "A. Pinamonti",
+     "displayName": "Pinamonti",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a9530f505bb749a3a161a44dfc21ba38"
+      },
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de3e5c9c3e1a4f388f8457e1e5f1c745"
+      },
+      {
+       "type": "yellow-card",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d4b72a78c0dd485db153fe8704e97e50",
+     "providerId": "opta:Player:6k790p49tjwkhlwf9afll9jo5",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Gianluca",
+     "lastName": "Pegolo",
+     "shirtName": "G. Pegolo",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6c823d12c01641dd9005d59af5274e82",
+     "providerId": "opta:Player:2502gof0z74u69fnogbt3q5n8",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Daniel",
+     "lastName": "Theiner",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb379d16825e436d896daa3695fb577d",
+     "providerId": "opta:Player:ataq92vho6o4euh045am8cbo4",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Filippo",
+     "lastName": "Missori",
+     "shirtName": "F. Missori",
+     "displayName": "Missori",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::797109e26eb346e3a6de69944030f6ea"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6039847c8aa24a0e86358528e6d94829",
+     "providerId": "opta:Player:5r7q0eg6pmoq0safxa9tnm5l",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Uros",
+     "lastName": "Racic",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0095936008ab454fb08f4a60f91ccc0d",
+     "providerId": "opta:Player:6w3v6ck12wmaff8owswnhphm2",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Samuele",
+     "lastName": "Mulattieri",
+     "shirtName": "Samuele Mulattieri",
+     "displayName": "Mulattieri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7106954e655b4e8faff3a2e717c2379f",
+     "providerId": "opta:Player:9rzl0j9m9i30a62o1yofzvaad",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Gianmarco",
+     "lastName": "Ferrari",
+     "shirtName": "G. Ferrari",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dd0e93ed670746b2b33facfdb18207c1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::401150fa0756441e9743cea423900c7f",
+     "providerId": "opta:Player:9k1ytj3z42ggp14vkn39hiymt",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Pedro Mba",
+     "lastName": "Obiang Avomo",
+     "shirtName": "P. Obiang",
+     "displayName": "Obiang",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a3ed8f31e0d5488389489be06e87b3b1",
+     "providerId": "opta:Player:4xnll2f9tb69wrezm04ayg76y",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Emil",
+     "lastName": "Ceïde",
+     "shirtName": "E. Ceide",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de3e5c9c3e1a4f388f8457e1e5f1c745",
+     "providerId": "opta:Player:9z3aqwq5swt9qklwnzuhqcogl",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Samu",
+     "lastName": "Castillejo",
+     "shirtName": "S. Castillejo",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe",
+     "providerId": "opta:Player:2e0ipswbkv4vf7lav6ee1j3oq",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Mattia",
+     "lastName": "Viti",
+     "shirtName": "Mattia Viti",
+     "displayName": "Viti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f64bcd9092ce49e19a34a0224eff7737"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bacb2fa09efd437f9a2b7c7d6fbae18e",
+     "providerId": "opta:Player:bh9jia8qgkhpm5xn82bx0hhck",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Cristian",
+     "lastName": "Volpato",
+     "shirtName": "C. Volpato",
+     "displayName": "Volpato",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::51a8972006ab47c9a0aa07a018f46b60",
+     "providerId": "opta:Player:cc04mat3snly9oe4bt7xaeooa",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Kristian",
+     "lastName": "Thorstvedt",
+     "shirtName": "Kristian Thorstvedt",
+     "displayName": "Thorstvedt",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b2decb94931a4676b557e36dfe7eb93b",
+     "providerId": "opta:Player:f2p5457ilcfrtzhe343whhkut",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Gregoire",
+     "lastName": "Defrel",
+     "shirtName": "Grégoire Defrel",
+     "displayName": "Defrel",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::35d2b527d3b14887b218b6a26181c714"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c40a072f6c834c9b8e9deb1095845b0b",
+     "providerId": "opta:Player:6ofu6yc2qwp5ii9cerdq1tk9h",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Wojciech",
+     "lastName": "Szczęsny",
+     "shirtName": "W. Szczesny",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5a49185d19114670b262c33272cc397a",
+     "providerId": "opta:Player:8yv9xuzriaecvvssfm8dlmz85",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Danilo Luiz",
+     "lastName": "da Silva",
+     "shirtName": "Danilo",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e6156f9d23e84e7084a3e488b92521ac",
+     "providerId": "opta:Player:d196vatyvq6ycn1q7d477d2i1",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Gleison Bremer",
+     "lastName": "Bremer",
+     "shirtName": "Bremer",
+     "displayName": "Bremer",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::591a828679214db3b8beddc1e6f9af2e",
+     "providerId": "opta:Player:cv46mxj5i98p4hgtbomxlxs7o",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Federico",
+     "lastName": "Gatti",
+     "shirtName": "Federico Gatti",
+     "displayName": "Gatti",
+     "starter": true,
+     "events": [
+      {
+       "type": "own-goal",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3f5e19241fe6476fbdd6fa34a29f8641"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::01e3217dea474ebea0e15b49727cd04c",
+     "providerId": "opta:Player:ahz2npxe4geixkaz25f2pc82d",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Manuel",
+     "lastName": "Locatelli",
+     "shirtName": "Manuel Locatelli",
+     "displayName": "Locatelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::33ba59b5d5a846b3957fcc13b3676196"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f4f09dd907d348f5b945a628e62a2175",
+     "providerId": "opta:Player:555z9bynvux7oruirg67r8i51",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Filip",
+     "lastName": "Kostić",
+     "shirtName": "Filip Kostić",
+     "displayName": "Kostić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::95028eb2bc974712a00355d9e39738af"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0acefc0dc80a4f4284f5733d6f6a5217",
+     "providerId": "opta:Player:288nn7pbq5ewriiyb9o7da86h",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Weston James Earl",
+     "lastName": "McKennie",
+     "shirtName": "Weston McKennie",
+     "displayName": "McKennie",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ea8c6fecf53741abb39999d699652b3c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c",
+     "providerId": "opta:Player:bjob8tftnxojnytcj7juo0ga2",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Fabio",
+     "lastName": "Miretti",
+     "shirtName": "Fabio Miretti",
+     "displayName": "Miretti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::afe60d6be6104d909dfe50221995523a",
+     "providerId": "opta:Player:2nddcty9qris2mmeldon0ogd1",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Adrien",
+     "lastName": "Rabiot",
+     "shirtName": "Adrien Rabiot",
+     "displayName": "Rabiot",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 36,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::40673b7f5d5a4fbabf9cd4ad276993f5",
+     "providerId": "opta:Player:3ua8gs8tzx1dkdi9z88kjk9nt",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Dusan",
+     "lastName": "Vlahović",
+     "shirtName": "Dusan Vlahović",
+     "displayName": "Vlahović",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::326d9aea440a4898aada8f8c1f52224e",
+     "providerId": "opta:Player:c6nl81c1q4unq5js94s6s942x",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Federico",
+     "lastName": "Chiesa",
+     "shirtName": "F. Chiesa",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::417c5ec6753749f98505e4e3f443a8bb",
+     "providerId": "opta:Player:8rlf5vjyddkcid5ysa3yo7hlh",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Carlo",
+     "lastName": "Pinsoglio",
+     "shirtName": "Carlo Pinsoglio",
+     "displayName": "Pinsoglio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::74c42bc75c774096b689dfe348184f56",
+     "providerId": "opta:Player:3o573dblmfc1o3wkkt2nva8k5",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Mattia",
+     "lastName": "Perin",
+     "shirtName": "Mattia Perin",
+     "displayName": "Perin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9d328f5f77f447f8b87c2c7f0e49a3bc",
+     "providerId": "opta:Player:d2hnxi1yi5rgqj1tvxh1813x0",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Dean",
+     "lastName": "Huijsen",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::33ba59b5d5a846b3957fcc13b3676196",
+     "providerId": "opta:Player:35r56n0i4sbdh7n5arbt7db6d",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Arkadiusz",
+     "lastName": "Milik",
+     "shirtName": "Arkadiusz Milik",
+     "displayName": "Milik",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::01e3217dea474ebea0e15b49727cd04c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::95028eb2bc974712a00355d9e39738af",
+     "providerId": "opta:Player:9p621hq50jdkujzy4309sagkq",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Samuel",
+     "lastName": "Iling-junior",
+     "shirtName": "S. Iling",
+     "displayName": "Iling-Junior",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f4f09dd907d348f5b945a628e62a2175"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac",
+     "providerId": "opta:Player:3zqpvn7r1c779l9vwwh7yukfd",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Bioty Moise",
+     "lastName": "Kean",
+     "shirtName": "Moise Kean",
+     "displayName": "Kean",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::40673b7f5d5a4fbabf9cd4ad276993f5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ea8c6fecf53741abb39999d699652b3c",
+     "providerId": "opta:Player:e5xxqwz0sdlwkkmp8bgs1k6w9",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Timothy",
+     "lastName": "Weah",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0acefc0dc80a4f4284f5733d6f6a5217"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1f830d3aee9a4a21b6b95324c1f60452",
+     "providerId": "opta:Player:bh3b7e2qzh41dltd6h2obpln9",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Daniele",
+     "lastName": "Rugani",
+     "shirtName": "Daniele Rugani",
+     "displayName": "Rugani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1701dcc4409d48bcac98374a47f96dad",
+     "providerId": "opta:Player:7ohgxs03szerp6mwiiv58ryay",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Andrea",
+     "lastName": "Cambiaso",
+     "shirtName": "Andrea Cambiaso",
+     "displayName": "Cambiaso",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::580e2f5d129542e2bcc9ea5436adf6a1",
+     "providerId": "opta:Player:a6lo3s66xv87llkhwveoq1vqh",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Hans",
+     "lastName": "Nicolussi Caviglia",
+     "shirtName": "Hans Nicolussi Caviglia",
+     "displayName": "Nicolussi C.",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:38:31.895Z",
+   "sha256": "454ddaa8938510058d6198753d60a9e386256177382ce32b83605780a1fc8c9e"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:48:28.985Z",
+   "sha256": "e122c8ab9dfbc4c3c9e2ccd0b0de48530b16d46b703f942bee7fec62a67d338c",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Szczesny",
+     "giocatoreIdFantacalcio": 453,
+     "votoRedazione": 4,
+     "fantavotoRedazione": 0,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 0,
+     "votoItalia": 4,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 4,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bremer",
+     "giocatoreIdFantacalcio": 2788,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Danilo",
+     "giocatoreIdFantacalcio": 4237,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gatti",
+     "giocatoreIdFantacalcio": 5831,
+     "votoRedazione": 4,
+     "fantavotoRedazione": 2,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 2,
+     "votoItalia": 4,
+     "fantavotoItalia": 2,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 1,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Locatelli",
+     "giocatoreIdFantacalcio": 827,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rabiot",
+     "giocatoreIdFantacalcio": 2379,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "giocatoreIdFantacalcio": 4465,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Weah",
+     "giocatoreIdFantacalcio": 4662,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kostic",
+     "giocatoreIdFantacalcio": 4711,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mckennie",
+     "giocatoreIdFantacalcio": 4973,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Miretti",
+     "giocatoreIdFantacalcio": 5813,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Iling Junior",
+     "giocatoreIdFantacalcio": 6112,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Chiesa",
+     "giocatoreIdFantacalcio": 2002,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Milik",
+     "giocatoreIdFantacalcio": 2012,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kean",
+     "giocatoreIdFantacalcio": 2097,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vlahovic",
+     "giocatoreIdFantacalcio": 2841,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Cragno",
+     "giocatoreIdFantacalcio": 2178,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ferrari G.",
+     "giocatoreIdFantacalcio": 1895,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Toljan",
+     "giocatoreIdFantacalcio": 4426,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Erlic",
+     "giocatoreIdFantacalcio": 4982,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vina",
+     "giocatoreIdFantacalcio": 5509,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 2.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 2.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 2.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 1,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Viti",
+     "giocatoreIdFantacalcio": 5718,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tressoldi",
+     "giocatoreIdFantacalcio": 5747,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "giocatoreIdFantacalcio": 6426,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Castillejo",
+     "giocatoreIdFantacalcio": 2692,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bajrami",
+     "giocatoreIdFantacalcio": 5451,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Matheus Henrique",
+     "giocatoreIdFantacalcio": 5511,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Boloca",
+     "giocatoreIdFantacalcio": 6219,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Berardi",
+     "giocatoreIdFantacalcio": 531,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Defrel",
+     "giocatoreIdFantacalcio": 643,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pinamonti",
+     "giocatoreIdFantacalcio": 2038,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/5",
+      "estrattoIl": "2026-10-06T20:48:28.985Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lauriente'",
+     "giocatoreIdFantacalcio": 6060,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 4 - 2 Juventus 23/09/2023 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

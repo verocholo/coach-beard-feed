@@ -1,0 +1,1657 @@
+{
+ "label": "Torino-Lecce (g25)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-02-16T18:00:00Z",
+  "hoursAfterKickoff": 23114.619502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:49:12.731Z",
+  "sha256": "08d5fbedf0dd690c0614eba8cdfd112801d05880f2d0c58c4dd9ea8d6883a3c7"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::55d7393c4b8f416ea4ad93ca0ef36f26",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-02-16T18:00:00Z",
+   "matchday": 25,
+   "home": "Torino",
+   "away": "Lecce",
+   "homeTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "awayTeamId": "serie-a::Football_Team::ced7bf0df3a140dfa48138311122133b",
+   "homeScore": 2,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 3
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::55d7393c4b8f416ea4ad93ca0ef36f26",
+   "homeTeam": "Torino",
+   "awayTeam": "Lecce",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::5b15b16a974543dc8fab8732ca7835ae",
+     "providerId": "opta:Player:5syage212151fcixahbq3k8ut",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Vanja",
+     "lastName": "Milinković-Savić",
+     "shirtName": "Vanja Milinković-Savić",
+     "displayName": "Milinković-Savić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21",
+     "providerId": "opta:Player:6gzi8qf8szxn99dnwh3h6gkb9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adam",
+     "lastName": "Masina",
+     "shirtName": "Adam Masina",
+     "displayName": "Masina",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bcba31f8d66f4af9a89c2e5e7860c480",
+     "providerId": "opta:Player:4b7yhrh526hzn4vj8bh395v8q",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Matteo",
+     "lastName": "Lovato",
+     "shirtName": "M. Lovato",
+     "displayName": "Lovato",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b8460681b0694404bf2be23969c56312",
+     "providerId": "opta:Player:8z1ukxgc8mxiyw9udbpwr4ct1",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Koffi",
+     "lastName": "Djidji",
+     "shirtName": "K. Djidji",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 44,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1",
+     "providerId": "opta:Player:866f0f7taqhae91o3cjnnx0ph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Valentino",
+     "lastName": "Lazaro",
+     "shirtName": "Valentino Lazaro",
+     "displayName": "Lazaro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e64d199987e7498dba08dd9d0ad95c9c",
+     "providerId": "opta:Player:aripnzu9yo2wlr8ud93ufdhih",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Raoul",
+     "lastName": "Bellanova",
+     "shirtName": "Raoul Bellanova",
+     "displayName": "Bellanova",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 50,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e94c0a4d825d42b8b9017afabb9c2884"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1b963dfa250b41d5b596ef5ad7cb1379",
+     "providerId": "opta:Player:7hwj9pf9roe74jifvuhiu6n6x",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ivan",
+     "lastName": "Ilić",
+     "shirtName": "Ivan Ilić",
+     "displayName": "Ilić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba",
+     "providerId": "opta:Player:e2oeysariwd866ksilu3t4m7e",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Samuele",
+     "lastName": "Ricci",
+     "shirtName": "Samuele Ricci",
+     "displayName": "Ricci",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a",
+     "providerId": "opta:Player:ebgkv548xih19m8uza7bgrvmd",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Nikola",
+     "lastName": "Vlašić",
+     "shirtName": "Nikola Vlašić",
+     "displayName": "Vlašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2d7273706f1648ca940ba7075a78b533"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fa8793423f574374b968c141faabf725",
+     "providerId": "opta:Player:30gsjr0xlmjulnz227zfxga8l",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Duvan Esteban",
+     "lastName": "Zapata Banguero",
+     "shirtName": "Duván Zapata",
+     "displayName": "Zapata",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56"
+      },
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9494992a7ffa4e48b83c1e708b10e378"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7934d2c8d3ba4a34a1e1e46c2afb4a8d",
+     "providerId": "opta:Player:ds0ka65ypjubtgp60kupc7dnt",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Pietro",
+     "lastName": "Pellegri",
+     "shirtName": "Pietro Pellegri",
+     "displayName": "Pellegri",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0b0ee43987924349879779b9a10c47e5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::da7e0847597044d98cc55a96672af8b7",
+     "providerId": "opta:Player:7p19t0mn8cq7xum09nv2u2lt5",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Luca",
+     "lastName": "Gemello",
+     "shirtName": "L. Gemello",
+     "displayName": "Gemello",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1396abd02b8946108f41e65ecdd990cf",
+     "providerId": "opta:Player:b1jyt86vbfyektviyeiqtl562",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Maximilian Mihai",
+     "lastName": "Popa",
+     "shirtName": "Mihai Popa",
+     "displayName": "Popa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0b0ee43987924349879779b9a10c47e5",
+     "providerId": "opta:Player:e7tz6hxliohn3gkj4cgl3j1ed",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Arnaldo Antonio",
+     "lastName": "Sanabria Ayala",
+     "shirtName": "Antonio Sanabria",
+     "displayName": "Sanabria",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7934d2c8d3ba4a34a1e1e46c2afb4a8d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::65e8b1653b084e78885ecb139e1e20e2",
+     "providerId": "opta:Player:7czabe5a0l5icdqb74sa9yru2",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Saba",
+     "lastName": "Sazonov",
+     "shirtName": "Saba Sazonov",
+     "displayName": "Sazonov",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9494992a7ffa4e48b83c1e708b10e378",
+     "providerId": "opta:Player:1gnc1tbpmomiqt1sty2lktt5",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Chidozie David",
+     "lastName": "Okereke",
+     "shirtName": "David Okereke",
+     "displayName": "Okereke",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fa8793423f574374b968c141faabf725"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56",
+     "providerId": "opta:Player:16kv5p8we3pwqpt5ktwrb7mj9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Mergim",
+     "lastName": "Vojvoda",
+     "shirtName": "M. Vojvoda",
+     "displayName": "Vojvoda",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1b963dfa250b41d5b596ef5ad7cb1379"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2d7273706f1648ca940ba7075a78b533",
+     "providerId": "opta:Player:6ol411t0mogw6m83heiqd0m39",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Karol",
+     "lastName": "Linetty",
+     "shirtName": "K. Linetty",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cb5856f794ac4380b57ad0a85a721667",
+     "providerId": "opta:Player:8bxhgway4xs9kn0sah9hpbq50",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Zanos",
+     "lastName": "Savva",
+     "shirtName": "Zanos Savva",
+     "displayName": "Savva",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1892b78973b5448fa477250b8a5732db",
+     "providerId": "opta:Player:3nfxhugbxid6o0r92txslivh1",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Wladimiro",
+     "lastName": "Falcone",
+     "shirtName": "Wladimiro Falcone",
+     "displayName": "Falcone",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de4f67665ed349ab9a80bc2bea98a04b",
+     "providerId": "opta:Player:cr5wtg3ulqjts3lu3xpnmlmac",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Patrick",
+     "lastName": "Dorgu",
+     "shirtName": "P. Dorgu",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::386bc75089ad468196b1372d6a4e85af"
+      },
+      {
+       "type": "yellow-card",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2b979996a62e42b7b29bbc5021db165d",
+     "providerId": "opta:Player:bkz9b4cqf8f970myv8r49f561",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Federico",
+     "lastName": "Baschirotto",
+     "shirtName": "Federico Baschirotto",
+     "displayName": "Baschirotto",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 41,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "second-yellow-card",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::75786b5c7e2f47cba13e4a142143e7fb",
+     "providerId": "opta:Player:a9jc36ub52lh0jgq2ya56wyui",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Valentin",
+     "lastName": "Gendrey",
+     "shirtName": "V. Gendrey",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::82c9eb767c094b75a23dafeb0a0a9586",
+     "providerId": "opta:Player:4g64l7opsuqvgx8190cbh1otl",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Hamza",
+     "lastName": "Rafia",
+     "shirtName": "H. Rafia",
+     "displayName": "Rafia",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::27a32cbcdbb04b209d76e20d1506690e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::914bba2ed6564c16a27d0d786b2b5b6e",
+     "providerId": "opta:Player:6e4y15kfry8fzixh99zpala6t",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Alexis",
+     "lastName": "Blin",
+     "shirtName": "Alexis Blin",
+     "displayName": "Blin",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::17a8ac7283904085b33fb34c24371bba"
+      },
+      {
+       "type": "yellow-card",
+       "time": 51,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::29de27ea145841a289fb471c08a042a8",
+     "providerId": "opta:Player:c4kxfrbrfedilykhbyak3e579",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Ylber",
+     "lastName": "Ramadani",
+     "shirtName": "Ylber Ramadani",
+     "displayName": "Ramadani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::529f04319a9647edbf5c4f6d963b7ff2",
+     "providerId": "opta:Player:9ik51limpi4f3blp1r60hb27d",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Remi",
+     "lastName": "Oudin",
+     "shirtName": "R. Oudin",
+     "displayName": "Oudin",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a482ebd3284048009375fb421e4f0e27"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0ffb0532cc8044aebb4a64ea8c02be13"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50da604b3a694f0581a2066168c2988b",
+     "providerId": "opta:Player:21bdtv9f28xkfmo2dy3uk7bah",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Pontus Skule Erik",
+     "lastName": "Almqvist",
+     "shirtName": "Pontus Almqvist",
+     "displayName": "Almqvist",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c3759dc16f2f41bbbb331b03f2e38060",
+     "providerId": "opta:Player:8ikf00dzaqhw0pnpnbncpz2wa",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Jasper Lauri Petteri",
+     "lastName": "Samooja",
+     "shirtName": "Jasper Samooja",
+     "displayName": "Samooja",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9a9569e4ad8448788554ec9d12f39f1a",
+     "providerId": "opta:Player:ep4t3sab4jiawuwa1el2e3r6y",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Gabriel Alexandru",
+     "lastName": "Borbei",
+     "shirtName": "A. Borbei",
+     "displayName": "Borbei",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0ffb0532cc8044aebb4a64ea8c02be13",
+     "providerId": "opta:Player:11r7kkbcv2bn8lar3unczuz8p",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Nikola",
+     "lastName": "Krstović",
+     "shirtName": "Nikola Krstović",
+     "displayName": "Krstović",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::27a32cbcdbb04b209d76e20d1506690e",
+     "providerId": "opta:Player:5j7hbe94ewys7hkd04ay5bpw5",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Nicola",
+     "lastName": "Sansone",
+     "shirtName": "N. Sansone",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::82c9eb767c094b75a23dafeb0a0a9586"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a43d7a06082b41fe9fee0ceaa6e8481a",
+     "providerId": "opta:Player:i4yzdkusjs6qn4v06oxj6qxh",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Lorenzo",
+     "lastName": "Venuti",
+     "shirtName": "Lorenzo Venuti",
+     "displayName": "Venuti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::afd92eb7afd747a780d0ec8368edd67c",
+     "providerId": "opta:Player:dd7i0ps16hldpriliccyvxct0",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Joan",
+     "lastName": "González",
+     "shirtName": "J. Gonzalez",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::34abfa4e6fed40d1882fc8c0c4b313b4",
+     "providerId": "opta:Player:d12unjo4sk39iix9of2yfask4",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Medon",
+     "lastName": "Berisha",
+     "shirtName": "M. Berisha",
+     "displayName": "Berisha",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::386bc75089ad468196b1372d6a4e85af",
+     "providerId": "opta:Player:1oszv53od5pulbhx566ht984q",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Antonino",
+     "lastName": "Gallo",
+     "shirtName": "Antonino Gallo",
+     "displayName": "Gallo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de4f67665ed349ab9a80bc2bea98a04b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3520000adb414cbfae1da8b60bd27a09",
+     "providerId": "opta:Player:4nyqgkdgcac58sypcdvuxpv1m",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Rares Catalin",
+     "lastName": "Burnete",
+     "shirtName": "Rares Burnete",
+     "displayName": "Burnete",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9154d20dd59c4f3586de460f5f303d71",
+     "providerId": "opta:Player:dy4p5raczhbmglfsu8n4xcdwq",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Santiago Daniel",
+     "lastName": "Pierotti",
+     "shirtName": "Santiago Pierotti",
+     "displayName": "Pierotti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a482ebd3284048009375fb421e4f0e27",
+     "providerId": "opta:Player:65nkv8grj2jhs2hlja63bp90p",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Ahmed",
+     "lastName": "Touba",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::529f04319a9647edbf5c4f6d963b7ff2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::17a8ac7283904085b33fb34c24371bba",
+     "providerId": "opta:Player:3g14bqou9coim6fit9c2cyr8q",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Mohamed",
+     "lastName": "Kaba",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::914bba2ed6564c16a27d0d786b2b5b6e"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:44:07.392Z",
+   "sha256": "20c272a2b2ed3e85cfd2f3e8f84ebb59979702dbffd663e6b6d7120297be2d6d"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:49:12.731Z",
+   "sha256": "08d5fbedf0dd690c0614eba8cdfd112801d05880f2d0c58c4dd9ea8d6883a3c7",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Falcone",
+     "giocatoreIdFantacalcio": 2134,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gallo",
+     "giocatoreIdFantacalcio": 4502,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "giocatoreIdFantacalcio": 5603,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 3,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Baschirotto",
+     "giocatoreIdFantacalcio": 5835,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gendrey",
+     "giocatoreIdFantacalcio": 5867,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dorgu",
+     "giocatoreIdFantacalcio": 6257,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Touba",
+     "giocatoreIdFantacalcio": 6465,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Blin",
+     "giocatoreIdFantacalcio": 5869,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Oudin",
+     "giocatoreIdFantacalcio": 6061,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rafia",
+     "giocatoreIdFantacalcio": 6222,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ramadani",
+     "giocatoreIdFantacalcio": 6394,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kaba",
+     "giocatoreIdFantacalcio": 6410,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sansone",
+     "giocatoreIdFantacalcio": 537,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "giocatoreIdFantacalcio": 4359,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Almqvist",
+     "giocatoreIdFantacalcio": 6207,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Krstovic",
+     "giocatoreIdFantacalcio": 6435,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Milinkovic-Savic V.",
+     "giocatoreIdFantacalcio": 2170,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Masina",
+     "giocatoreIdFantacalcio": 49,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Djidji",
+     "giocatoreIdFantacalcio": 2869,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazaro",
+     "giocatoreIdFantacalcio": 4385,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bellanova",
+     "giocatoreIdFantacalcio": 4887,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lovato",
+     "giocatoreIdFantacalcio": 4934,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vojvoda",
+     "giocatoreIdFantacalcio": 4994,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Linetty",
+     "giocatoreIdFantacalcio": 2008,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ilic",
+     "giocatoreIdFantacalcio": 5007,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ricci S.",
+     "giocatoreIdFantacalcio": 5453,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vlasic",
+     "giocatoreIdFantacalcio": 5687,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gineitis",
+     "giocatoreIdFantacalcio": 6170,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sanabria",
+     "giocatoreIdFantacalcio": 479,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Zapata D.",
+     "giocatoreIdFantacalcio": 608,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pellegri",
+     "giocatoreIdFantacalcio": 2103,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/25",
+      "estrattoIl": "2026-10-06T20:49:12.731Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Okereke",
+     "giocatoreIdFantacalcio": 5515,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Lecce 16/02/2024 - 19:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

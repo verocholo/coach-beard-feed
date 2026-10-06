@@ -1,0 +1,1739 @@
+{
+ "label": "Inter-Atalanta (g21)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-02-28T19:45:00Z",
+  "hoursAfterKickoff": 22824.869502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:49:04.514Z",
+  "sha256": "fa6bf25110d325ae73a055ae1ce3c537ca28a3c11eade795068987868df6e8d5"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::7aa9788aa32b4d29bd789b17bebfe2a0",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-02-28T19:45:00Z",
+   "matchday": 21,
+   "home": "Inter",
+   "away": "Atalanta",
+   "homeTeamId": "serie-a::Football_Team::b7421caff23448c49134fa4f9095ee09",
+   "awayTeamId": "serie-a::Football_Team::b5846a2413804c2e8cab8b773b18370a",
+   "homeScore": 4,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 8
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::7aa9788aa32b4d29bd789b17bebfe2a0",
+   "homeTeam": "Inter",
+   "awayTeam": "Atalanta",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::ba1d8d07dbc54e05b7cecd5ab3c32a42",
+     "providerId": "opta:Player:bagn0ce4xunsiz3mezrtqx1p1",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Yann",
+     "lastName": "Sommer",
+     "shirtName": "Yann Sommer",
+     "displayName": "Sommer",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::77b61833f0db49729ebf0ad5342a5ba8",
+     "providerId": "opta:Player:q6ns1fyw7w10xkkubh8etfc9",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Alessandro",
+     "lastName": "Bastoni",
+     "shirtName": "Alessandro Bastoni",
+     "displayName": "Bastoni",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1aef084aff6c49578d08fcd0a4d1ad85",
+     "providerId": "opta:Player:by2gxuixij1eciu56k8mb3cgl",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Stefan",
+     "lastName": "De Vrij",
+     "shirtName": "Stefan de Vrij",
+     "displayName": "de Vrij",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c03c6b04498f4f4793c53793c12cc01d",
+     "providerId": "opta:Player:yq0cm7vwr0tkv7nvt9vo77bp",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Benjamin Jacques",
+     "lastName": "Pavard",
+     "shirtName": "Benjamin Pavard",
+     "displayName": "Pavard",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cd904e1336274300b8c5502705831d4b",
+     "providerId": "opta:Player:asyzhp3qu95vmzdbau6nmoic5",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Matteo",
+     "lastName": "Darmian",
+     "shirtName": "Matteo Darmian",
+     "displayName": "Darmian",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 26,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ac04e2006b104030909b682c7db38853"
+      },
+      {
+       "type": "yellow-card",
+       "time": 22,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7f9fb5ddcf02430eacad4a1092bc6850"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::07b9aa070bab4074bcd41776db3c7c8d",
+     "providerId": "opta:Player:19856wqwrmzmvfw9thf0tzrv9",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Federico",
+     "lastName": "Dimarco",
+     "shirtName": "Federico Dimarco",
+     "displayName": "Dimarco",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::65c9b5dac33f4b089c71795703727637"
+      },
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f7e0ecad1aa04f53959bd22f68cfbf70"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ac04e2006b104030909b682c7db38853",
+     "providerId": "opta:Player:1xscywgyfqisqexmpfvbf9g45",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Henrikh",
+     "lastName": "Mkhitaryan",
+     "shirtName": "Henrikh Mkhitaryan",
+     "displayName": "Mkhitaryan",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8568cd16882848deab08aaae90e8a2c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::29030faa6a7a411f935e176b7c681ef7",
+     "providerId": "opta:Player:can2l9ha4ufsxdjxdkb739fkk",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Kristjan",
+     "lastName": "Asllani",
+     "shirtName": "Kristjan Asllani",
+     "displayName": "Asllani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4da6f1068d1444eafe0a0d5e775aa42",
+     "providerId": "opta:Player:ahgd3on22t4h7gg9ipnj1itw5",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Nicolò",
+     "lastName": "Barella",
+     "shirtName": "Nicolò Barella",
+     "displayName": "Barella",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1b183c6c48ae4d08b1cec88dfe4641c6",
+     "providerId": "opta:Player:7r2tgpdrr4v6n9d2gkzwmlazt",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Lautaro Javier",
+     "lastName": "Martinez",
+     "shirtName": "Lautaro Martínez",
+     "displayName": "L. Martínez",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 45,
+       "additionalTime": 1,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c03c6b04498f4f4793c53793c12cc01d"
+      },
+      {
+       "type": "substitution-out",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e89efd0630fb4de388cce5a2499362ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a957697c2c2544bf9e51b040df112790",
+     "providerId": "opta:Player:dccxma9p13p00n0gi1cxk1nf9",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Marko",
+     "lastName": "Arnautovic",
+     "shirtName": "M. Arnautovic",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7a09fe6eeeb141cab3226c7f028f8f10",
+     "providerId": "opta:Player:1e95np0v66lmp2qysqq8f33rp",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Raffaele",
+     "lastName": "Di Gennaro",
+     "shirtName": "Raffaele Di Gennaro",
+     "displayName": "Di Gennaro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffc8be5bd4e749d0b24674083abab469",
+     "providerId": "opta:Player:e2dn4s6p2f6xnbaje17wd3jyt",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Emil",
+     "lastName": "Audero Mulyadi",
+     "shirtName": "Emil Audero",
+     "displayName": "Audero",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7f9fb5ddcf02430eacad4a1092bc6850",
+     "providerId": "opta:Player:2r6hs8npijvt4wekd059t6tx",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Denzel Justus Morris",
+     "lastName": "Dumfries",
+     "shirtName": "Denzel Dumfries",
+     "displayName": "Dumfries",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cd904e1336274300b8c5502705831d4b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0d76550a8c4b454db6b6ba4c2d3cf480",
+     "providerId": "opta:Player:baakmd4ndnulbl9npvmq90mvp",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Davy",
+     "lastName": "Klaassen",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8568cd16882848deab08aaae90e8a2c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8568cd16882848deab08aaae90e8a2c2",
+     "providerId": "opta:Player:4qejyummzkrfllds8ord642qx",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Davide",
+     "lastName": "Frattesi",
+     "shirtName": "Davide Frattesi",
+     "displayName": "Frattesi",
+     "starter": false,
+     "events": [
+      {
+       "type": "goal",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e89efd0630fb4de388cce5a2499362ff"
+      },
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ac04e2006b104030909b682c7db38853"
+      },
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0d76550a8c4b454db6b6ba4c2d3cf480"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1da5e07465404ecb994c81e9a1e1a620",
+     "providerId": "opta:Player:acx78ftnm61hm01wpmme77hbe",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Tajon",
+     "lastName": "Buchanan",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f7e0ecad1aa04f53959bd22f68cfbf70",
+     "providerId": "opta:Player:4d17grk2qflzake218uz76uei",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Carlos Augusto",
+     "lastName": "Zopolato Neves",
+     "shirtName": "Carlos Augusto",
+     "displayName": "Carlos Augusto",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::07b9aa070bab4074bcd41776db3c7c8d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4b050d8d189243d8acf6f32df3e5e74a",
+     "providerId": "opta:Player:280fh7f5q9lud8lk8reyu7fxm",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Yann Aurel",
+     "lastName": "Bisseck",
+     "shirtName": "Yann Bisseck",
+     "displayName": "Bisseck",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::74c636656c5343ee921582563943e359",
+     "providerId": "opta:Player:3o7gvykqi9ldgjrzxl14dqas4",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Ebenezer Ajodun",
+     "lastName": "Akinsanmiro",
+     "shirtName": "Ebenezer Akinsanmiro",
+     "displayName": "Akinsanmiro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fd68e8c50ebc492eb751dd4b119c2e1a",
+     "providerId": "opta:Player:bu2bcxfhoqmgsnwoa623x93bo",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Amadou Makhtar",
+     "lastName": "Sarr",
+     "shirtName": "Amadou Sarr",
+     "displayName": "A. M. Sarr",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f35c56e1c8b144c89117342ff668e400",
+     "providerId": "opta:Player:10lpk2wft7zsd1fa38ulbakno",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Aleksandar",
+     "lastName": "Stanković",
+     "shirtName": "A. Stankovic",
+     "displayName": "A. Stanković",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e89efd0630fb4de388cce5a2499362ff",
+     "providerId": "opta:Player:vl1b0gayryiqvl5dlukpmswl",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Alexis Alejandro",
+     "lastName": "Sanchez Sanchez",
+     "shirtName": "Alexis Sánchez",
+     "displayName": "Sánchez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1b183c6c48ae4d08b1cec88dfe4641c6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::adfb707431614df5aeec9b486a888815",
+     "providerId": "opta:Player:eu9b86opw6n66vftu1r5alfqh",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Marco",
+     "lastName": "Carnesecchi",
+     "shirtName": "M. Carnesecchi",
+     "displayName": "Carnesecchi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ef81865fbc0442caa1894f9118f4ca6",
+     "providerId": "opta:Player:9j742o5vdc7d54x1xdz4t9ck5",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Sead",
+     "lastName": "Kolašinac",
+     "shirtName": "Sead Kolašinac",
+     "displayName": "Kolašinac",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::60e29b104c19497b9f879c84faed6728"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6f1f74d51f704ff991834370d8ed339e",
+     "providerId": "opta:Player:2idy9ngk2rojseoxxw9n98c7p",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Berat",
+     "lastName": "Djimsiti",
+     "shirtName": "Berat Djimsiti",
+     "displayName": "Djimsiti",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1b6d0e19d5a44981b9deaf7f66a97818",
+     "providerId": "opta:Player:4cejhrr3ji36591xf54jue3ca",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Giorgio",
+     "lastName": "Scalvini",
+     "shirtName": "Giorgio Scalvini",
+     "displayName": "Scalvini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ec4be88c0ed443fa953404eb6af085db"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f343b63a6bff4f5380e6ae1a4e618324",
+     "providerId": "opta:Player:a69r2pf2w8da4dl0zl4k5vil1",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Davide",
+     "lastName": "Zappacosta",
+     "shirtName": "Davide Zappacosta",
+     "displayName": "Zappacosta",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7cdf9a3c8b6a46e39554faa2a4a102d7",
+     "providerId": "opta:Player:4aqkgskbra4wsoo7a8uw7xl9l",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Éderson José",
+     "lastName": "dos Santos Lourenço da Silva",
+     "shirtName": "Éderson",
+     "displayName": "Éderson",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8d75af40732a49c4a2b7aa44b07be610",
+     "providerId": "opta:Player:2fsgc0b4mvwpenawmit0q0bmd",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Mario",
+     "lastName": "Pašalić",
+     "shirtName": "Mario Pašalić",
+     "displayName": "Pašalić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bf7e6b7c60d642dd850c4d6f3f974d29",
+     "providerId": "opta:Player:1oflzbi4gq8wdjlmpa865jj6d",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Hans",
+     "lastName": "Hateboer",
+     "shirtName": "H. Hateboer",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b07576d30f0548efa6003ec696a8e447",
+     "providerId": "opta:Player:2ugzqrpaooto1r24a6kvqf2ll",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Teun",
+     "lastName": "Koopmeiners",
+     "shirtName": "Teun Koopmeiners",
+     "displayName": "Koopmeiners",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0d0f43d9fa874b839d9be10ca8ed2501"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae",
+     "providerId": "opta:Player:7ox43isyywsnrfcd56nm65be",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Charles",
+     "lastName": "De Ketelaere",
+     "shirtName": "Charles De Ketelaere",
+     "displayName": "De Ketelaere",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ff608a7acabd447b8c84b295628e5622"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4f2ddfcccd5408f9789c24d66601022",
+     "providerId": "opta:Player:5wdqva17qr5j2kqbmfi9o91x",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Aleksey",
+     "lastName": "Miranchuk",
+     "shirtName": "A. Miranchuk",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6d745922e74d49bd8260da4144042beb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::56608945092042e9bc064378802bec44",
+     "providerId": "opta:Player:7drgir9lcwfst8vxz07jboe6t",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Juan",
+     "lastName": "Musso",
+     "shirtName": "J. Musso",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cd8aca5938c04767b777893d043eccc6",
+     "providerId": "opta:Player:8h5f35tia4ew3ngevsfs4znkk",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Paolo",
+     "lastName": "Vismara",
+     "shirtName": "Paolo Vismara",
+     "displayName": "Vismara",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18797ae6eb8c45e887c916ad44c968ac",
+     "providerId": "opta:Player:cm6iy4b06qv9y6ww0hthqlwb9",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Rafael",
+     "lastName": "Tolói",
+     "shirtName": "R. Toloi",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1f41fea8f1b43c2900da19c63c95d52",
+     "providerId": "opta:Player:awf3x41nsz8m73bhte5wlz6ui",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Emil Alfons",
+     "lastName": "Holm",
+     "shirtName": "Emil Holm",
+     "displayName": "Holm",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ec4be88c0ed443fa953404eb6af085db",
+     "providerId": "opta:Player:130pg17ru5fzq4igokx0k73e1",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Isak Malcolm Kwaku",
+     "lastName": "Hien",
+     "shirtName": "Isak Hien",
+     "displayName": "Hien",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1b6d0e19d5a44981b9deaf7f66a97818"
+      },
+      {
+       "type": "yellow-card",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::02bf7eba27374eb7b7888356a41b64fa",
+     "providerId": "opta:Player:45ubqc5i6yn2l5kdtlt8tbw7p",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "José",
+     "lastName": "Palomino",
+     "shirtName": "J. Palomino",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ff608a7acabd447b8c84b295628e5622",
+     "providerId": "opta:Player:e6ok0deqkoe80184iu509gzu2",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "El Bilal",
+     "lastName": "Toure",
+     "shirtName": "El Bilal Touré",
+     "displayName": "E. Touré",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae"
+      },
+      {
+       "type": "yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6d745922e74d49bd8260da4144042beb",
+     "providerId": "opta:Player:8d04q3yp2kouwog0lj0s7ew2x",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Ademola Olajide",
+     "lastName": "Lookman",
+     "shirtName": "Ademola Lookman",
+     "displayName": "Lookman",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4f2ddfcccd5408f9789c24d66601022"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::430712e4c44c415398a71ae60698f5b2",
+     "providerId": "opta:Player:9q01y4w4dwpaqf8lmpv9wnmc5",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Marten Elco",
+     "lastName": "de Roon",
+     "shirtName": "Marten de Roon",
+     "displayName": "de Roon",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::60e29b104c19497b9f879c84faed6728",
+     "providerId": "opta:Player:a41r2ob5fhirgdwxwox6nr4yx",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Mitchel",
+     "lastName": "Bakker",
+     "shirtName": "Mitchel Bakker",
+     "displayName": "Bakker",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ef81865fbc0442caa1894f9118f4ca6"
+      },
+      {
+       "type": "yellow-card",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5b699b132951464d89c7e153fa681d49",
+     "providerId": "opta:Player:7mvqysbmyf6uj3jny3qpqw2ga",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Matteo",
+     "lastName": "Ruggeri",
+     "shirtName": "M. Ruggeri",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0d0f43d9fa874b839d9be10ca8ed2501",
+     "providerId": "opta:Player:43rid94d7jz7u5ba4xzb8bbe2",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Ndary Michel",
+     "lastName": "Adopo",
+     "shirtName": "Michel Adopo",
+     "displayName": "Adopo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b07576d30f0548efa6003ec696a8e447"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3c80144dd7c641b982628157e52a8852",
+     "providerId": "opta:Player:4ml8pyt3rxwxakjxslg0c8kb9",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Gianluca",
+     "lastName": "Scamacca",
+     "shirtName": "Gianluca Scamacca",
+     "displayName": "Scamacca",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:44:44.036Z",
+   "sha256": "2c0e0b1a3f358193c4c73bac6e30631fa5b7c943a0ebedee3072f0c08bf75d43"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:49:04.514Z",
+   "sha256": "fa6bf25110d325ae73a055ae1ce3c537ca28a3c11eade795068987868df6e8d5",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Carnesecchi",
+     "giocatoreIdFantacalcio": 4431,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 4,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 1,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zappacosta",
+     "giocatoreIdFantacalcio": 554,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Djimsiti",
+     "giocatoreIdFantacalcio": 787,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hateboer",
+     "giocatoreIdFantacalcio": 2130,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kolasinac",
+     "giocatoreIdFantacalcio": 2640,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bakker",
+     "giocatoreIdFantacalcio": 5067,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Scalvini",
+     "giocatoreIdFantacalcio": 5526,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hien",
+     "giocatoreIdFantacalcio": 6046,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pasalic",
+     "giocatoreIdFantacalcio": 2077,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Adopo",
+     "giocatoreIdFantacalcio": 4870,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Miranchuk",
+     "giocatoreIdFantacalcio": 5001,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Koopmeiners",
+     "giocatoreIdFantacalcio": 5685,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ederson D.s.",
+     "giocatoreIdFantacalcio": 5792,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "De Ketelaere",
+     "giocatoreIdFantacalcio": 5995,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lookman",
+     "giocatoreIdFantacalcio": 4730,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Toure' E.",
+     "giocatoreIdFantacalcio": 6229,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Sommer",
+     "giocatoreIdFantacalcio": 2428,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dimarco",
+     "giocatoreIdFantacalcio": 254,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Vrij",
+     "giocatoreIdFantacalcio": 322,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bastoni",
+     "giocatoreIdFantacalcio": 2120,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Darmian",
+     "giocatoreIdFantacalcio": 2525,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pavard",
+     "giocatoreIdFantacalcio": 4177,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dumfries",
+     "giocatoreIdFantacalcio": 5513,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Carlos Augusto",
+     "giocatoreIdFantacalcio": 5877,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Barella",
+     "giocatoreIdFantacalcio": 1870,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mkhitaryan",
+     "giocatoreIdFantacalcio": 2529,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frattesi",
+     "giocatoreIdFantacalcio": 2848,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Klaassen",
+     "giocatoreIdFantacalcio": 4182,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Asllani",
+     "giocatoreIdFantacalcio": 5719,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sanchez",
+     "giocatoreIdFantacalcio": 2475,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Martinez L.",
+     "giocatoreIdFantacalcio": 2764,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 1,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/21",
+      "estrattoIl": "2026-10-06T20:49:04.514Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Arnautovic",
+     "giocatoreIdFantacalcio": 4268,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 0 Atalanta 28/02/2024 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

@@ -1,0 +1,1693 @@
+{
+ "label": "Atalanta-Fiorentina (g29)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-06-02T16:00:00Z",
+  "hoursAfterKickoff": 20548.619502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:49:21.542Z",
+  "sha256": "5c47656a3e4ad12139fdd632165cd8ab8fbe625f8039fb71630a81915207f6a6"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::44168c713783470d889c20d556691081",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-06-02T16:00:00Z",
+   "matchday": 29,
+   "home": "Atalanta",
+   "away": "Fiorentina",
+   "homeTeamId": "serie-a::Football_Team::b5846a2413804c2e8cab8b773b18370a",
+   "awayTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "homeScore": 2,
+   "awayScore": 3,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::44168c713783470d889c20d556691081",
+   "homeTeam": "Atalanta",
+   "awayTeam": "Fiorentina",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::adfb707431614df5aeec9b486a888815",
+     "providerId": "opta:Player:eu9b86opw6n66vftu1r5alfqh",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Marco",
+     "lastName": "Carnesecchi",
+     "shirtName": "M. Carnesecchi",
+     "displayName": "Carnesecchi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1b6d0e19d5a44981b9deaf7f66a97818",
+     "providerId": "opta:Player:4cejhrr3ji36591xf54jue3ca",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Giorgio",
+     "lastName": "Scalvini",
+     "shirtName": "Giorgio Scalvini",
+     "displayName": "Scalvini",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 32,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6d745922e74d49bd8260da4144042beb"
+      },
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bf7e6b7c60d642dd850c4d6f3f974d29"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ec4be88c0ed443fa953404eb6af085db",
+     "providerId": "opta:Player:130pg17ru5fzq4igokx0k73e1",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Isak Malcolm Kwaku",
+     "lastName": "Hien",
+     "shirtName": "Isak Hien",
+     "displayName": "Hien",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18797ae6eb8c45e887c916ad44c968ac",
+     "providerId": "opta:Player:cm6iy4b06qv9y6ww0hthqlwb9",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Rafael",
+     "lastName": "Tolói",
+     "shirtName": "R. Toloi",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6f1f74d51f704ff991834370d8ed339e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d1f41fea8f1b43c2900da19c63c95d52",
+     "providerId": "opta:Player:awf3x41nsz8m73bhte5wlz6ui",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Emil Alfons",
+     "lastName": "Holm",
+     "shirtName": "Emil Holm",
+     "displayName": "Holm",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4f2ddfcccd5408f9789c24d66601022"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5b699b132951464d89c7e153fa681d49",
+     "providerId": "opta:Player:7mvqysbmyf6uj3jny3qpqw2ga",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Matteo",
+     "lastName": "Ruggeri",
+     "shirtName": "M. Ruggeri",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7cdf9a3c8b6a46e39554faa2a4a102d7",
+     "providerId": "opta:Player:4aqkgskbra4wsoo7a8uw7xl9l",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Éderson José",
+     "lastName": "dos Santos Lourenço da Silva",
+     "shirtName": "Éderson",
+     "displayName": "Éderson",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8d75af40732a49c4a2b7aa44b07be610",
+     "providerId": "opta:Player:2fsgc0b4mvwpenawmit0q0bmd",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Mario",
+     "lastName": "Pašalić",
+     "shirtName": "Mario Pašalić",
+     "displayName": "Pašalić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b07576d30f0548efa6003ec696a8e447",
+     "providerId": "opta:Player:2ugzqrpaooto1r24a6kvqf2ll",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Teun",
+     "lastName": "Koopmeiners",
+     "shirtName": "Teun Koopmeiners",
+     "displayName": "Koopmeiners",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae",
+     "providerId": "opta:Player:7ox43isyywsnrfcd56nm65be",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Charles",
+     "lastName": "De Ketelaere",
+     "shirtName": "Charles De Ketelaere",
+     "displayName": "De Ketelaere",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ff608a7acabd447b8c84b295628e5622"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6d745922e74d49bd8260da4144042beb",
+     "providerId": "opta:Player:8d04q3yp2kouwog0lj0s7ew2x",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Ademola Olajide",
+     "lastName": "Lookman",
+     "shirtName": "Ademola Lookman",
+     "displayName": "Lookman",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 12,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae"
+      },
+      {
+       "type": "substitution-out",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3c80144dd7c641b982628157e52a8852"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::56608945092042e9bc064378802bec44",
+     "providerId": "opta:Player:7drgir9lcwfst8vxz07jboe6t",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Juan",
+     "lastName": "Musso",
+     "shirtName": "J. Musso",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e68cd3c0e4804bdebfdb42961ace2285",
+     "providerId": "opta:Player:9sdrd6flk2jene11v193nm1n9",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Francesco",
+     "lastName": "Rossi",
+     "shirtName": "Francesco Rossi",
+     "displayName": "Rossi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ff608a7acabd447b8c84b295628e5622",
+     "providerId": "opta:Player:e6ok0deqkoe80184iu509gzu2",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "El Bilal",
+     "lastName": "Toure",
+     "shirtName": "El Bilal Touré",
+     "displayName": "E. Touré",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6f1f74d51f704ff991834370d8ed339e",
+     "providerId": "opta:Player:2idy9ngk2rojseoxxw9n98c7p",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Berat",
+     "lastName": "Djimsiti",
+     "shirtName": "Berat Djimsiti",
+     "displayName": "Djimsiti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::18797ae6eb8c45e887c916ad44c968ac"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::60e29b104c19497b9f879c84faed6728",
+     "providerId": "opta:Player:a41r2ob5fhirgdwxwox6nr4yx",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Mitchel",
+     "lastName": "Bakker",
+     "shirtName": "Mitchel Bakker",
+     "displayName": "Bakker",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0d0f43d9fa874b839d9be10ca8ed2501",
+     "providerId": "opta:Player:43rid94d7jz7u5ba4xzb8bbe2",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Ndary Michel",
+     "lastName": "Adopo",
+     "shirtName": "Michel Adopo",
+     "displayName": "Adopo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bf7e6b7c60d642dd850c4d6f3f974d29",
+     "providerId": "opta:Player:1oflzbi4gq8wdjlmpa865jj6d",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Hans",
+     "lastName": "Hateboer",
+     "shirtName": "H. Hateboer",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1b6d0e19d5a44981b9deaf7f66a97818"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::37f513ee433f4ea0945e8bd643c29578",
+     "providerId": "opta:Player:d628vftgks12ww31sy4hwxq1g",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Leonardo",
+     "lastName": "Mendicino",
+     "shirtName": "Leonardo Mendicino",
+     "displayName": "Mendicino",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4f2ddfcccd5408f9789c24d66601022",
+     "providerId": "opta:Player:5wdqva17qr5j2kqbmfi9o91x",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Aleksey",
+     "lastName": "Miranchuk",
+     "shirtName": "A. Miranchuk",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d1f41fea8f1b43c2900da19c63c95d52"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f343b63a6bff4f5380e6ae1a4e618324",
+     "providerId": "opta:Player:a69r2pf2w8da4dl0zl4k5vil1",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Davide",
+     "lastName": "Zappacosta",
+     "shirtName": "Davide Zappacosta",
+     "displayName": "Zappacosta",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3c80144dd7c641b982628157e52a8852",
+     "providerId": "opta:Player:4ml8pyt3rxwxakjxslg0c8kb9",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Gianluca",
+     "lastName": "Scamacca",
+     "shirtName": "Gianluca Scamacca",
+     "displayName": "Scamacca",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6d745922e74d49bd8260da4144042beb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c7010f5d11294dae84684c62572d4d6b",
+     "providerId": "opta:Player:4jh6mywmhugi4ltyhq5vd5ij8",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Tommaso",
+     "lastName": "Martinelli",
+     "shirtName": "Tommaso Martinelli",
+     "displayName": "Martinelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737",
+     "providerId": "opta:Player:66at96kfhvigkny465lkmrnbp",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Cristiano",
+     "lastName": "Biraghi",
+     "shirtName": "Cristiano Biraghi",
+     "displayName": "Biraghi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::43d38a855a234d0598cc93a865b1dad1",
+     "providerId": "opta:Player:eq7q971ebxu7ipqbyvj5n4c15",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Lucas",
+     "lastName": "Martínez Quarta",
+     "shirtName": "L. Martinez Quarta",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7829e26e24234b13a23aaf7f24519763",
+     "providerId": "opta:Player:471t4engadct4su6thk5r5qtw",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Michael",
+     "lastName": "Kayode",
+     "shirtName": "M. Kayode",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2103f76167cb4b2cb65dfc3409f739c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cfcd0185afd64c00a86e44a71b39310a",
+     "providerId": "opta:Player:6mit9txkiacrr2dq1i27rm76d",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Joseph Alfred",
+     "lastName": "Duncan",
+     "shirtName": "A. Duncan",
+     "displayName": "Duncan",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dc683df903204da9a88ab71c448244c4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e19ba2406247429bb6e01fd6701e9f54",
+     "providerId": "opta:Player:ef4thhub6bsd2gtmltknkz8b9",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Maxime",
+     "lastName": "Lopez",
+     "shirtName": "M. Lopez",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4dacd1bb103b483883362d9884588610",
+     "providerId": "opta:Player:f0d8cjxx5cw5i22m0yy6azb2t",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Gaetano",
+     "lastName": "Castrovilli",
+     "shirtName": "Gaetano Castrovilli",
+     "displayName": "Castrovilli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdc070e8a5964a7188c228293722fced"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::56a3c74941914b528266ac1297e51799",
+     "providerId": "opta:Player:a6ud2u88utl6khwf0c4qbdox6",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Lucas",
+     "lastName": "Beltran",
+     "shirtName": "Lucas Beltrán",
+     "displayName": "Beltrán",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::740ceaca2c8c420a8452db713e094b2c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0ab2e0d99523440f8b69aeda63b48491",
+     "providerId": "opta:Player:eh1ul4duphy1iz4odwx9tkjjd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nicolás Ivan",
+     "lastName": "González",
+     "shirtName": "Nico González",
+     "displayName": "N. González",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 19,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737"
+      },
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::19315677f6984a6ba6c074c48f7980bc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::17c07473515a40a9a9ee3211a33ab18d",
+     "providerId": "opta:Player:97mmzzi3dwdos6jtj2m05w4ph",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Andrea",
+     "lastName": "Belotti",
+     "shirtName": "A. Belotti",
+     "displayName": "Belotti",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 6,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4dacd1bb103b483883362d9884588610"
+      },
+      {
+       "type": "goal",
+       "time": 45,
+       "additionalTime": 1,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::43d38a855a234d0598cc93a865b1dad1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::366978e66f2b41d291912b96fef017a5",
+     "providerId": "opta:Player:2udciji4n7tr07ft7twe2r9w5",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Terracciano",
+     "shirtName": "Pietro Terracciano",
+     "displayName": "P. Terracciano",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a32fc40b8644de68e49a77591741565",
+     "providerId": "opta:Player:1sjt0nj0232gu88x50c3d16nd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Oliver",
+     "lastName": "Christensen",
+     "shirtName": "Oliver Christensen",
+     "displayName": "Christensen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51",
+     "providerId": "opta:Player:9e3t2wyjqzxsn690aysao8cfd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Domilson",
+     "lastName": "Cordeiro Dos Santo",
+     "shirtName": "Dodô",
+     "displayName": "Dodô",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0f7e0f8d1aa845b6bc869aa8953bce82",
+     "providerId": "opta:Player:bhi4ivjgojkot4d7za72gu2nd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nikola",
+     "lastName": "Milenkovic",
+     "shirtName": "N. Milenkovic",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::507d16fd301040498e360ac95ca918ae",
+     "providerId": "opta:Player:euibd75fsyggns1w3xerzzrh1",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Giacomo",
+     "lastName": "Bonaventura",
+     "shirtName": "G. Bonaventura",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37651fc1d517419f9873fe894235e61c",
+     "providerId": "opta:Player:1abvcjwaxlhc22zoxdqu0t7th",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Arthur Henrique",
+     "lastName": "Ramos De Oliveira",
+     "shirtName": "Arthur",
+     "displayName": "Arthur",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dc683df903204da9a88ab71c448244c4",
+     "providerId": "opta:Player:b5cqy1xamdj38bh87gvz4iac5",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Jonathan",
+     "lastName": "Ikoné",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cfcd0185afd64c00a86e44a71b39310a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::740ceaca2c8c420a8452db713e094b2c",
+     "providerId": "opta:Player:dskghv4td9c805wgg2aah0rv8",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Gino",
+     "lastName": "Infantino",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::56a3c74941914b528266ac1297e51799"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2103f76167cb4b2cb65dfc3409f739c2",
+     "providerId": "opta:Player:68etig279gs3btjb7fv6rvfth",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marco Davide",
+     "lastName": "Faraoni",
+     "shirtName": "D. Faraoni",
+     "displayName": "Faraoni",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7829e26e24234b13a23aaf7f24519763"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63",
+     "providerId": "opta:Player:9srjp22oprs2tkcutb2g4o2dw",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Comuzzo",
+     "shirtName": "Pietro Comuzzo",
+     "displayName": "Comuzzo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646",
+     "providerId": "opta:Player:8dgh4fzut8khpt32d6dsrljsa",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Fabiano",
+     "lastName": "Parisi",
+     "shirtName": "F. Parisi",
+     "displayName": "Parisi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::19315677f6984a6ba6c074c48f7980bc",
+     "providerId": "opta:Player:963czsr3yecwk4s3p1wby5x3p",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Antonin",
+     "lastName": "Barák",
+     "shirtName": "Antonín Barák",
+     "displayName": "Barák",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0ab2e0d99523440f8b69aeda63b48491"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdc070e8a5964a7188c228293722fced",
+     "providerId": "opta:Player:6gjn7pt0i34q45g4porckuj8p",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Kouakou Christian",
+     "lastName": "Kouame",
+     "shirtName": "C. Kouamé",
+     "displayName": "Kouamé",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4dacd1bb103b483883362d9884588610"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:48:17.337Z",
+   "sha256": "5eba5c02fece85964f87dab6b9cef4c7bec3944fe8474e10fc76064191cb4803"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:49:21.542Z",
+   "sha256": "5c47656a3e4ad12139fdd632165cd8ab8fbe625f8039fb71630a81915207f6a6",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Carnesecchi",
+     "giocatoreIdFantacalcio": 4431,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 2.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Toloi",
+     "giocatoreIdFantacalcio": 695,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Djimsiti",
+     "giocatoreIdFantacalcio": 787,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hateboer",
+     "giocatoreIdFantacalcio": 2130,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ruggeri",
+     "giocatoreIdFantacalcio": 5354,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Scalvini",
+     "giocatoreIdFantacalcio": 5526,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Holm",
+     "giocatoreIdFantacalcio": 5678,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hien",
+     "giocatoreIdFantacalcio": 6046,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pasalic",
+     "giocatoreIdFantacalcio": 2077,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Miranchuk",
+     "giocatoreIdFantacalcio": 5001,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Koopmeiners",
+     "giocatoreIdFantacalcio": 5685,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ederson D.s.",
+     "giocatoreIdFantacalcio": 5792,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "De Ketelaere",
+     "giocatoreIdFantacalcio": 5995,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Scamacca",
+     "giocatoreIdFantacalcio": 2137,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lookman",
+     "giocatoreIdFantacalcio": 4730,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 11,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 11,
+     "votoItalia": 7,
+     "fantavotoItalia": 11,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Toure' E.",
+     "giocatoreIdFantacalcio": 6229,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Martinelli T.",
+     "giocatoreIdFantacalcio": 6184,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Biraghi",
+     "giocatoreIdFantacalcio": 252,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Faraoni",
+     "giocatoreIdFantacalcio": 581,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ranieri L.",
+     "giocatoreIdFantacalcio": 4378,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Martinez Quarta",
+     "giocatoreIdFantacalcio": 5323,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kayode",
+     "giocatoreIdFantacalcio": 6235,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Duncan",
+     "giocatoreIdFantacalcio": 526,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Barak",
+     "giocatoreIdFantacalcio": 2172,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Castrovilli",
+     "giocatoreIdFantacalcio": 4377,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ikone'",
+     "giocatoreIdFantacalcio": 4658,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lopez M.",
+     "giocatoreIdFantacalcio": 4681,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Infantino",
+     "giocatoreIdFantacalcio": 6393,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Belotti",
+     "giocatoreIdFantacalcio": 441,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 13.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kouame'",
+     "giocatoreIdFantacalcio": 2762,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gonzalez N.",
+     "giocatoreIdFantacalcio": 4179,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/29",
+      "estrattoIl": "2026-10-06T20:49:21.542Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Beltran L.",
+     "giocatoreIdFantacalcio": 6409,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Fiorentina 02/06/2024 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

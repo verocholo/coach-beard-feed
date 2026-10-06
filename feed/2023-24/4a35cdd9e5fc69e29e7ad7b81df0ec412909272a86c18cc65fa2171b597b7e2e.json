@@ -1,0 +1,1719 @@
+{
+ "label": "Bologna-Frosinone (g9)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2023-10-22T13:00:00Z",
+  "hoursAfterKickoff": 25927.619502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:48:37.959Z",
+  "sha256": "aeb565717c14fb11789a3d2f728b02a1c565430e753703a6de4bd56393039112"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::af6577e8b57041b8846aafdff26454b8",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2023-10-22T13:00:00Z",
+   "matchday": 9,
+   "home": "Bologna",
+   "away": "Frosinone",
+   "homeTeamId": "serie-a::Football_Team::4af71b35aab34ad5a7d06148abe66ad6",
+   "awayTeamId": "serie-a::Football_Team::b283fcc0aeda401bb081fcd764e290db",
+   "homeScore": 2,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 7
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::af6577e8b57041b8846aafdff26454b8",
+   "homeTeam": "Bologna",
+   "awayTeam": "Frosinone",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::47c6788b77eb47bf90274613223577a4",
+     "providerId": "opta:Player:4hrmzpx1nt5ze55fpby71mcb9",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Łukasz",
+     "lastName": "Skorupski",
+     "shirtName": "Łukasz Skorupski",
+     "displayName": "Skorupski",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::21a70260eb4045f99d307966ab7ba64e",
+     "providerId": "opta:Player:a2n9op95qyb3rkye5pxqjb7bp",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Charalampos",
+     "lastName": "Lykogiannīs",
+     "shirtName": "Charalampos Lykogiannīs",
+     "displayName": "Lykogiannīs",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::793eb5e0b92d46549f514f60cb3a04b3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3dc81a67ec9844a3a08a50f75b30ff13",
+     "providerId": "opta:Player:dhs8pujk55ewcis7y5alchu22",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Riccardo",
+     "lastName": "Calafiori",
+     "shirtName": "R. Calafiori",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bcf150cd064745dd84cdf52fff84fd23",
+     "providerId": "opta:Player:42cg746sa90jla5x4islj9pwq",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Sam",
+     "lastName": "Beukema",
+     "shirtName": "Sam Beukema",
+     "displayName": "Beukema",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839",
+     "providerId": "opta:Player:3cbwh4pfwae5xw072cy14gb85",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lorenzo",
+     "lastName": "De Silvestri",
+     "shirtName": "Lorenzo De Silvestri",
+     "displayName": "De Silvestri",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 22,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0963edfc50fa492fb5ddadf703bd6ca7"
+      },
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5e60f9fc9c3249d2b71ec4871bd42d78"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a74cbc51025f490cb8c10f031cd7fc9c",
+     "providerId": "opta:Player:bpfg11qh1q0zj2x6sqd3srvmx",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Michel",
+     "lastName": "Aebischer",
+     "shirtName": "Michel Aebischer",
+     "displayName": "Aebischer",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c",
+     "providerId": "opta:Player:19nlw3sa0khwz0el4wqc7zrp",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Remo",
+     "lastName": "Freuler",
+     "shirtName": "Remo Freuler",
+     "displayName": "Freuler",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::131d2b80a4454da0964792393ecbd5cb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18",
+     "providerId": "opta:Player:bdb6j168crcrwje9k0titxv55",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lewis",
+     "lastName": "Ferguson",
+     "shirtName": "Lewis Ferguson",
+     "displayName": "L. Ferguson",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 19,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0963edfc50fa492fb5ddadf703bd6ca7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7",
+     "providerId": "opta:Player:9vnr9uog5fmggich2i4vjxwbt",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Alexis Jesse",
+     "lastName": "Saelemaekers",
+     "shirtName": "Alexis Saelemaekers",
+     "displayName": "Saelemaekers",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029",
+     "providerId": "opta:Player:1cu7fg8sf90isf9gp21e5fqh",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Riccardo",
+     "lastName": "Orsolini",
+     "shirtName": "Riccardo Orsolini",
+     "displayName": "Orsolini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::71f6c7d55bca4c25bb706cda960a55e9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4b928838f4f49fbb63b0677919908da",
+     "providerId": "opta:Player:56bidwsegakrtx3z1qbbpnc6i",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Joshua",
+     "lastName": "Zirkzee",
+     "shirtName": "J. Zirkzee",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::53a4937f0ee0461bafae8598946349a4",
+     "providerId": "opta:Player:9m6yva52cmdq7uu31qrwdrund",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Ravaglia",
+     "shirtName": "Federico Ravaglia",
+     "displayName": "Ravaglia",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::24c29e48aeef410a8f0f67c84f940798",
+     "providerId": "opta:Player:ygeqvtj0rblb0lab5nke22ac",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Tito",
+     "lastName": "Gasperini",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187",
+     "providerId": "opta:Player:6eqqtmbg35rg2stk10ic7q8k5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nikola",
+     "lastName": "Moro",
+     "shirtName": "Nikola Moro",
+     "displayName": "N. Moro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a2f96557c5a14589abcae509e89edafd",
+     "providerId": "opta:Player:33yauarx84sam5u05vgyqxfxl",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Karl Jesper",
+     "lastName": "Karlsson",
+     "shirtName": "Jesper Karlsson",
+     "displayName": "Karlsson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::71f6c7d55bca4c25bb706cda960a55e9",
+     "providerId": "opta:Player:ex10o77wnk1exp9tj1t1rqj56",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Dan",
+     "lastName": "Ndoye",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::876fe3ec5add46c1897c88ced7682323",
+     "providerId": "opta:Player:7e11kdi7wh9tleor9w5o2fdn9",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Kevin",
+     "lastName": "Bonifazi",
+     "shirtName": "Kevin Bonifazi",
+     "displayName": "Bonifazi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::793eb5e0b92d46549f514f60cb3a04b3",
+     "providerId": "opta:Player:bwai2k262meugz2fj7s2g58iy",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Victor",
+     "lastName": "Kristiansen",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21a70260eb4045f99d307966ab7ba64e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5e60f9fc9c3249d2b71ec4871bd42d78",
+     "providerId": "opta:Player:3m6mnytvm0s8u4390tr88x9g4",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Tommaso",
+     "lastName": "Corazza",
+     "shirtName": "Tommaso Corazza",
+     "displayName": "Corazza",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::131d2b80a4454da0964792393ecbd5cb",
+     "providerId": "opta:Player:7a6hqi5iy91onh9u7l7t88tbe",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Oussama",
+     "lastName": "El Azzouzi",
+     "shirtName": "",
+     "displayName": "O. El Azzouzi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9f2040ae8927405c87c8acbe6bb0cec5",
+     "providerId": "opta:Player:dc4n5ylytswddlvd82snkb90q",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Sydney",
+     "lastName": "van Hooijdonk",
+     "shirtName": "S. Van Hooijdonk",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15",
+     "providerId": "opta:Player:4j3d7ujmhevsi0y3zvs34i13o",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Giovanni",
+     "lastName": "Fabbian",
+     "shirtName": "Giovanni Fabbian",
+     "displayName": "Fabbian",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e4e9ea37c076469ea8fb0d76074fb02e",
+     "providerId": "opta:Player:efow9aip64uaszfwxh1j0l6y2",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Kacper",
+     "lastName": "Urbański",
+     "shirtName": "Kacper Urbański",
+     "displayName": "Urbański",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7ee9be263d9542faa19317ebdd17e027",
+     "providerId": "opta:Player:5jfy7133kfbmyl8ur6ze9y2ju",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Stefano",
+     "lastName": "Turati",
+     "shirtName": "S. Turati",
+     "displayName": "Turati",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::61288ed31f3349c6b8bd5c61f1298e34",
+     "providerId": "opta:Player:37kr5th62ugmy4j55i3n45k2d",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Riccardo",
+     "lastName": "Marchizza",
+     "shirtName": "Riccardo Marchizza",
+     "displayName": "Marchizza",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f4f678b744a5416ab959cd7667d0d9b8",
+     "providerId": "opta:Player:e5nv028chtw0955vhnh74ukbu",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Caleb",
+     "lastName": "Okoli",
+     "shirtName": "C. Okoli",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c72904d1afac49048a5a46e4d04092b3",
+     "providerId": "opta:Player:9h01w81t6g5f5owrtipn9ybpx",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Simone",
+     "lastName": "Romagnoli",
+     "shirtName": "Simone Romagnoli",
+     "displayName": "Romagnoli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1faf1073ff624a9f8376452649104d60",
+     "providerId": "opta:Player:3j2yog3zyussh0aq1xgz3e2cq",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Anthony Henri",
+     "lastName": "Oyono Omva Torque",
+     "shirtName": "Anthony Oyono",
+     "displayName": "A. Oyono",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a7e65aaeb2884b8c9628cd2fb458228f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fdd0841bb9d74fa6bec86c4a3cc92991",
+     "providerId": "opta:Player:5f5e6wufz0x041bvqzor10k16",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Enzo",
+     "lastName": "Barrenechea",
+     "shirtName": "E. Barrenechea",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59",
+     "providerId": "opta:Player:c7u5a6ngr4f839ibw3b0opsk5",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Luca",
+     "lastName": "Mazzitelli",
+     "shirtName": "Luca Mazzitelli",
+     "displayName": "Mazzitelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "second-yellow-card",
+       "time": 90,
+       "additionalTime": 3,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6f7f214423df4ece8ba328a74de16eaa",
+     "providerId": "opta:Player:aynx9h96efsfkd0l1h8r8dsd1",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Luca",
+     "lastName": "Garritano",
+     "shirtName": "L. Garritano",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e70353c739994bbfbe289f6a6eb0f93e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a3e738c4f6b94c2b94af63f973bac498",
+     "providerId": "opta:Player:9iwptrplnmwst5nfimyuqekq2",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Reinier Jesus",
+     "lastName": "Carvalho",
+     "shirtName": "Reinier",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dcdc85e2d5324f1e81ed24df4c392174"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::467662b231094f4da83cf422a3817132",
+     "providerId": "opta:Player:erwh25hbq259kqdirfufnbcb8",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Matìas",
+     "lastName": "Soule Malvano",
+     "shirtName": "Matías Soulé",
+     "displayName": "Soulé",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d725204038b34d3c890612e95db78a6e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4421d3312d534346a1d4a852d63728a5",
+     "providerId": "opta:Player:c23q56z612clw2oxpordhrwiy",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Walid",
+     "lastName": "Cheddira",
+     "shirtName": "Walid Cheddira",
+     "displayName": "Cheddira",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::04c7b4a141f248e4bf6f5c734f623b54"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a1faf61fd6dc44a299fd57dd1b6b5ec7",
+     "providerId": "opta:Player:dcub83q7nsputaq2zbk0zmb4l",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Pierluigi",
+     "lastName": "Frattali",
+     "shirtName": "P. Frattali",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa2352632f484ea6bdc9a6249d3e9b57",
+     "providerId": "opta:Player:f8kcf2l4h2qzdww1vof5x9t5",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Michele",
+     "lastName": "Cerofolini",
+     "shirtName": "Michele Cerofolini",
+     "displayName": "Cerofolini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511",
+     "providerId": "opta:Player:1f37bo8dikes3350u2a0h9hm2",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Marco",
+     "lastName": "Brescianini",
+     "shirtName": "Marco Brescianini",
+     "displayName": "Brescianini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fdd0841bb9d74fa6bec86c4a3cc92991"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e70353c739994bbfbe289f6a6eb0f93e",
+     "providerId": "opta:Player:6ldly9c02sbh2ray6u6j6jro5",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Jaime",
+     "lastName": "Báez",
+     "shirtName": "J. Baez",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6f7f214423df4ece8ba328a74de16eaa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6fa6622c76eb42a291457820b893fd0a",
+     "providerId": "opta:Player:cgcwrulsr19sn3b2c5af71exh",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Karlo",
+     "lastName": "Lulic",
+     "shirtName": "K. Lulic",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a7e65aaeb2884b8c9628cd2fb458228f",
+     "providerId": "opta:Player:571t7un9oijzktbmv1gfibsdm",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Kaio Jorge",
+     "lastName": "Pinto Ramos",
+     "shirtName": "Kaio Jorge",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1faf1073ff624a9f8376452649104d60"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::04c7b4a141f248e4bf6f5c734f623b54",
+     "providerId": "opta:Player:74pc3b81ffiakci87rjwg9xm2",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Marvin",
+     "lastName": "Cuni",
+     "shirtName": "Marvin Çuni",
+     "displayName": "Çuni",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4421d3312d534346a1d4a852d63728a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b042de974074786b4f062b303d0ce58",
+     "providerId": "opta:Player:2lx4dy8gdeox803t8iwmy2ivo",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Giorgi",
+     "lastName": "Kvernadze",
+     "shirtName": "Giorgi Kvernadze",
+     "displayName": "Kvernadze",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d639c24dd73a479b9f8cb10db193187e",
+     "providerId": "opta:Player:agmcwbzoertg4l8njpdai7kl",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Pol Mikel",
+     "lastName": "Lirola Kosok",
+     "shirtName": "P. Lirola",
+     "displayName": "Lirola",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::92a31e059b7942d4addc8e5b5b40a7ee",
+     "providerId": "opta:Player:6ehsdxl74v0qtlbjjjbu0r0t1",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Mehdi",
+     "lastName": "Bourabia",
+     "shirtName": "M. Bourabia",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::95989e5e3a254e27a0b0746e0e43a1ef",
+     "providerId": "opta:Player:6b8kq3ygelcg0xk1ewv0c7ljp",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Soufiane",
+     "lastName": "Bidaoui",
+     "shirtName": "S. Bidaoui",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dcdc85e2d5324f1e81ed24df4c392174",
+     "providerId": "opta:Player:5bnq6c53ofgo9msqn3vlobpm2",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Arijon",
+     "lastName": "Ibrahimovic",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a3e738c4f6b94c2b94af63f973bac498"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a224e4c6a01b4cb6b35fe7de75631270",
+     "providerId": "opta:Player:cbzfr0b3pjiknahduv488ogoa",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Ilario",
+     "lastName": "Monterisi",
+     "shirtName": "Ilario Monterisi",
+     "displayName": "Monterisi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0e0e83d4947c476eac041473aabf73ad",
+     "providerId": "opta:Player:bvnzh2sq474xl2wj7jser1uz8",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Mateus Henrique",
+     "lastName": "Vanzelli Lusuardi",
+     "shirtName": "Mateus Lusuardi",
+     "displayName": "Lusuardi",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:39:44.807Z",
+   "sha256": "76cb125c83a10008c16d8a3917439762b9e3bbf799a454d9ec9dcd01d9883660"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:48:37.959Z",
+   "sha256": "aeb565717c14fb11789a3d2f728b02a1c565430e753703a6de4bd56393039112",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Skorupski",
+     "giocatoreIdFantacalcio": 133,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Silvestri",
+     "giocatoreIdFantacalcio": 487,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lykogiannis",
+     "giocatoreIdFantacalcio": 2653,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Calafiori",
+     "giocatoreIdFantacalcio": 4945,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kristiansen",
+     "giocatoreIdFantacalcio": 6148,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Beukema",
+     "giocatoreIdFantacalcio": 6202,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Corazza",
+     "giocatoreIdFantacalcio": 6407,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Freuler",
+     "giocatoreIdFantacalcio": 788,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Orsolini",
+     "giocatoreIdFantacalcio": 2167,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Saelemaekers",
+     "giocatoreIdFantacalcio": 4892,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndoye",
+     "giocatoreIdFantacalcio": 5564,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Aebischer",
+     "giocatoreIdFantacalcio": 5784,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ferguson",
+     "giocatoreIdFantacalcio": 5858,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Moro N.",
+     "giocatoreIdFantacalcio": 6054,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "El Azzouzi",
+     "giocatoreIdFantacalcio": 6225,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Zirkzee",
+     "giocatoreIdFantacalcio": 5086,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Turati",
+     "giocatoreIdFantacalcio": 4867,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Romagnoli S.",
+     "giocatoreIdFantacalcio": 76,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marchizza",
+     "giocatoreIdFantacalcio": 2252,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Okoli",
+     "giocatoreIdFantacalcio": 4432,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Oyono",
+     "giocatoreIdFantacalcio": 6238,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baez",
+     "giocatoreIdFantacalcio": 694,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mazzitelli",
+     "giocatoreIdFantacalcio": 1976,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 5,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Garritano",
+     "giocatoreIdFantacalcio": 2183,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Brescianini",
+     "giocatoreIdFantacalcio": 4947,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Reinier",
+     "giocatoreIdFantacalcio": 5093,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Barrenechea",
+     "giocatoreIdFantacalcio": 6175,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ibrahimovic A.",
+     "giocatoreIdFantacalcio": 6492,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kaio Jorge",
+     "giocatoreIdFantacalcio": 5505,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Soule'",
+     "giocatoreIdFantacalcio": 5734,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cuni",
+     "giocatoreIdFantacalcio": 6214,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/9",
+      "estrattoIl": "2026-10-06T20:48:37.959Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cheddira",
+     "giocatoreIdFantacalcio": 6439,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 2 - 1 Frosinone 22/10/2023 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

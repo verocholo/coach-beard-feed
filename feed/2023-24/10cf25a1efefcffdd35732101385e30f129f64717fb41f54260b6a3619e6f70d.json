@@ -1,0 +1,1561 @@
+{
+ "label": "Napoli-Frosinone (g32)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-04-14T10:30:00Z",
+  "hoursAfterKickoff": 21730.119502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:49:28.069Z",
+  "sha256": "b8df22d3f690ee3d9bec5ff35a336071e1936ce4b2b187476f012b667d52df29"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::4a5e3918547d49e4a26437038f331add",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-04-14T10:30:00Z",
+   "matchday": 32,
+   "home": "Napoli",
+   "away": "Frosinone",
+   "homeTeamId": "serie-a::Football_Team::f791dab8f0e4449e9884dd8dbd42dbcc",
+   "awayTeamId": "serie-a::Football_Team::b283fcc0aeda401bb081fcd764e290db",
+   "homeScore": 2,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 11
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::4a5e3918547d49e4a26437038f331add",
+   "homeTeam": "Napoli",
+   "awayTeam": "Frosinone",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::18cc6f2bdba14a5a9cca5268d2efafce",
+     "providerId": "opta:Player:af58rhtg8ck7c8g7nwfs67d91",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Alex",
+     "lastName": "Meret",
+     "shirtName": "Alex Meret",
+     "displayName": "Meret",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d7188d856a3147ec84a91748337bf69d",
+     "providerId": "opta:Player:ypfascbq81vkjbe57108cpn9",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Mário Rui",
+     "lastName": "Silva Duarte",
+     "shirtName": "Mário Rui",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "second-yellow-card",
+       "time": 90,
+       "additionalTime": 8,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::816125e2bba042b38c44a6bb8b005f83",
+     "providerId": "opta:Player:40msbo4o5bwx0oeuz4743w161",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Leo Skiri",
+     "lastName": "Ostigard",
+     "shirtName": "Leo Østigård",
+     "displayName": "Østigård",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::25a5058852ed4308b29227d29a952365",
+     "providerId": "opta:Player:2kfkjjqh7vrfcfbgr4aa85dqt",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Amir",
+     "lastName": "Rrahmani",
+     "shirtName": "Amir Rrahmani",
+     "displayName": "Am. Rrahmani",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 29,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::82f747384bae4018a6921bc0568fb9be",
+     "providerId": "opta:Player:5d9i8ubibyiecxecr9jjvxexh",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Giovanni",
+     "lastName": "Di Lorenzo",
+     "shirtName": "G. Di Lorenzo",
+     "displayName": "Di Lorenzo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3",
+     "providerId": "opta:Player:dpcws493fepch23sk26m1a8yd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Piotr Sebastian",
+     "lastName": "Zielinski",
+     "shirtName": "Piotr Zieliński",
+     "displayName": "Zieliński",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::606b8c526e6947f7ada113e708aeb6e1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0e681e091f934fa89130c1476a93a270",
+     "providerId": "opta:Player:9y8fnvazj02vy31ljx3du0d79",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Stanislav",
+     "lastName": "Lobotka",
+     "shirtName": "Stanislav Lobotka",
+     "displayName": "Lobotka",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c52699f76a744afca8862f2584b7a860",
+     "providerId": "opta:Player:3bhy6x04rbwzk0nh1fm59dmnd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Andre Frank",
+     "lastName": "Zambo Anguissa",
+     "shirtName": "Frank Anguissa",
+     "displayName": "Anguissa",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e9a355348ee4452e896a4deab66338c9",
+     "providerId": "opta:Player:4zy4d60v2qmaplm9xbe51y1gp",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Khvicha",
+     "lastName": "Kvaratskhelia",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4fc7ff427cee43be981e42f7d5e831ef",
+     "providerId": "opta:Player:1wynwp4x95o9w5tt4cdog6i1",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Victor",
+     "lastName": "Osimhen",
+     "shirtName": "V. Osimhen",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e9a355348ee4452e896a4deab66338c9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2d6bc8e9be4e45ab976bf3d43595aad9",
+     "providerId": "opta:Player:9bba1hgnx5mzpkzeazsoikn9x",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Matteo",
+     "lastName": "Politano",
+     "shirtName": "Matteo Politano",
+     "displayName": "Politano",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 16,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::82f747384bae4018a6921bc0568fb9be"
+      },
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0923fb81d1d04b96b576857c0077028b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d1353afe3c6a4a2d829f536b76c1eaed",
+     "providerId": "opta:Player:1i23wphi202aguaeexba0le22",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Hubert Dawid",
+     "lastName": "Idasiak",
+     "shirtName": "H. Idasiak",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fd3f2ae64bbe4ea587ce10b218dbf183",
+     "providerId": "opta:Player:u60zu48a4zqnupyxp2d0mqqd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Pierluigi",
+     "lastName": "Gollini",
+     "shirtName": "Pierluigi Gollini",
+     "displayName": "Gollini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::68dfc54047c941c6aef6f67913ce7ac2",
+     "providerId": "opta:Player:2r4450bqkmpcf1ogmcfhvczmy",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Natan Bernardo",
+     "lastName": "de Souza",
+     "shirtName": "Natan",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9034907ae3a84fa38b8d51fdb7a89100",
+     "providerId": "opta:Player:ctq9si3nbc6n8cznhlcvtixd6",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Hamed",
+     "lastName": "Traore",
+     "shirtName": "H. Traorè",
+     "displayName": "Traoré",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c",
+     "providerId": "opta:Player:cp13vthbds3tl1wtfelfx2evp",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Giovanni Pablo",
+     "lastName": "Simeone Baldini",
+     "shirtName": "Giovanni Simeone",
+     "displayName": "Simeone",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c52699f76a744afca8862f2584b7a860"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::606b8c526e6947f7ada113e708aeb6e1",
+     "providerId": "opta:Player:2lvit204llltk13iglsa2tjah",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Jens",
+     "lastName": "Cajuste",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bae651bb2c5745278e889a27f02e68cb",
+     "providerId": "opta:Player:5ph2ln91ycq1qlq03cnqqs9re",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Jesper Graenge",
+     "lastName": "Lindstrom",
+     "shirtName": "Jesper Lindstrøm",
+     "displayName": "Lindstrøm",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::517b28659d184092827d69958ea33574",
+     "providerId": "opta:Player:etryzuxz65dmn5ewmocse66l1",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Pasquale",
+     "lastName": "Mazzocchi",
+     "shirtName": "Pasquale Mazzocchi",
+     "displayName": "Mazzocchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8afad8f6903348cda6783fca4bea801e",
+     "providerId": "opta:Player:1emj0rlthc8syfleox4c39kut",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Leander",
+     "lastName": "Dendoncker",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0923fb81d1d04b96b576857c0077028b",
+     "providerId": "opta:Player:abq67eup8kd31w8da2i0eftgp",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Giacomo",
+     "lastName": "Raspadori",
+     "shirtName": "Giacomo Raspadori",
+     "displayName": "Raspadori",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2d6bc8e9be4e45ab976bf3d43595aad9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7ee9be263d9542faa19317ebdd17e027",
+     "providerId": "opta:Player:5jfy7133kfbmyl8ur6ze9y2ju",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Stefano",
+     "lastName": "Turati",
+     "shirtName": "S. Turati",
+     "displayName": "Turati",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d639c24dd73a479b9f8cb10db193187e",
+     "providerId": "opta:Player:agmcwbzoertg4l8njpdai7kl",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Pol Mikel",
+     "lastName": "Lirola Kosok",
+     "shirtName": "P. Lirola",
+     "displayName": "Lirola",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c72904d1afac49048a5a46e4d04092b3",
+     "providerId": "opta:Player:9h01w81t6g5f5owrtipn9ybpx",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Simone",
+     "lastName": "Romagnoli",
+     "shirtName": "Simone Romagnoli",
+     "displayName": "Romagnoli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f4f678b744a5416ab959cd7667d0d9b8",
+     "providerId": "opta:Player:e5nv028chtw0955vhnh74ukbu",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Caleb",
+     "lastName": "Okoli",
+     "shirtName": "C. Okoli",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 7,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d58bdcc9557641d3868baea58a37bdf3",
+     "providerId": "opta:Player:d9bg5jjv8pz0f8u55x3hg0962",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Emanuele",
+     "lastName": "Valeri",
+     "shirtName": "Emanuele Valeri",
+     "displayName": "Valeri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf",
+     "providerId": "opta:Player:42m78ny1ggvmzmjtka7exyzqi",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Nadir",
+     "lastName": "Zortea",
+     "shirtName": "Nadir Zortea",
+     "displayName": "Zortea",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e0e83d4947c476eac041473aabf73ad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59",
+     "providerId": "opta:Player:c7u5a6ngr4f839ibw3b0opsk5",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Luca",
+     "lastName": "Mazzitelli",
+     "shirtName": "Luca Mazzitelli",
+     "displayName": "Mazzitelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6c432b4270fe48f1a2980e4b1929a3f9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fdd0841bb9d74fa6bec86c4a3cc92991",
+     "providerId": "opta:Player:5f5e6wufz0x041bvqzor10k16",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Enzo",
+     "lastName": "Barrenechea",
+     "shirtName": "E. Barrenechea",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511",
+     "providerId": "opta:Player:1f37bo8dikes3350u2a0h9hm2",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Marco",
+     "lastName": "Brescianini",
+     "shirtName": "Marco Brescianini",
+     "displayName": "Brescianini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a3e738c4f6b94c2b94af63f973bac498"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4421d3312d534346a1d4a852d63728a5",
+     "providerId": "opta:Player:c23q56z612clw2oxpordhrwiy",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Walid",
+     "lastName": "Cheddira",
+     "shirtName": "Walid Cheddira",
+     "displayName": "Cheddira",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 50,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::467662b231094f4da83cf422a3817132"
+      },
+      {
+       "type": "goal",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::467662b231094f4da83cf422a3817132",
+     "providerId": "opta:Player:erwh25hbq259kqdirfufnbcb8",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Matìas",
+     "lastName": "Soule Malvano",
+     "shirtName": "Matías Soulé",
+     "displayName": "Soulé",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::98c779e859ce4dbe9182a1cf122df51f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a1faf61fd6dc44a299fd57dd1b6b5ec7",
+     "providerId": "opta:Player:dcub83q7nsputaq2zbk0zmb4l",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Pierluigi",
+     "lastName": "Frattali",
+     "shirtName": "P. Frattali",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa2352632f484ea6bdc9a6249d3e9b57",
+     "providerId": "opta:Player:f8kcf2l4h2qzdww1vof5x9t5",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Michele",
+     "lastName": "Cerofolini",
+     "shirtName": "Michele Cerofolini",
+     "displayName": "Cerofolini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::61288ed31f3349c6b8bd5c61f1298e34",
+     "providerId": "opta:Player:37kr5th62ugmy4j55i3n45k2d",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Riccardo",
+     "lastName": "Marchizza",
+     "shirtName": "Riccardo Marchizza",
+     "displayName": "Marchizza",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e70353c739994bbfbe289f6a6eb0f93e",
+     "providerId": "opta:Player:6ldly9c02sbh2ray6u6j6jro5",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Jaime",
+     "lastName": "Báez",
+     "shirtName": "J. Baez",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::98c779e859ce4dbe9182a1cf122df51f",
+     "providerId": "opta:Player:a2rjxibqk9d2yatzz2dx04nx0",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Demba",
+     "lastName": "Seck",
+     "shirtName": "D. Seck",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::467662b231094f4da83cf422a3817132"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a7e65aaeb2884b8c9628cd2fb458228f",
+     "providerId": "opta:Player:571t7un9oijzktbmv1gfibsdm",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Kaio Jorge",
+     "lastName": "Pinto Ramos",
+     "shirtName": "Kaio Jorge",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::04c7b4a141f248e4bf6f5c734f623b54",
+     "providerId": "opta:Player:74pc3b81ffiakci87rjwg9xm2",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Marvin",
+     "lastName": "Cuni",
+     "shirtName": "Marvin Çuni",
+     "displayName": "Çuni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a3e738c4f6b94c2b94af63f973bac498",
+     "providerId": "opta:Player:9iwptrplnmwst5nfimyuqekq2",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Reinier Jesus",
+     "lastName": "Carvalho",
+     "shirtName": "Reinier",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6c432b4270fe48f1a2980e4b1929a3f9",
+     "providerId": "opta:Player:87mcqd2i04rgbe5w0khsakij9",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Francesco",
+     "lastName": "Gelli",
+     "shirtName": "Francesco Gelli",
+     "displayName": "F. Gelli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6f7f214423df4ece8ba328a74de16eaa",
+     "providerId": "opta:Player:aynx9h96efsfkd0l1h8r8dsd1",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Luca",
+     "lastName": "Garritano",
+     "shirtName": "L. Garritano",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0b042de974074786b4f062b303d0ce58",
+     "providerId": "opta:Player:2lx4dy8gdeox803t8iwmy2ivo",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Giorgi",
+     "lastName": "Kvernadze",
+     "shirtName": "Giorgi Kvernadze",
+     "displayName": "Kvernadze",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::95a7041f24a14a40bf4592bb3c8a6ec5",
+     "providerId": "opta:Player:56oxuwxbszkg8xjic1bizd1xw",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Farès",
+     "lastName": "Ghedjemis",
+     "shirtName": "Farès Ghedjemis",
+     "displayName": "Ghedjemis",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0e0e83d4947c476eac041473aabf73ad",
+     "providerId": "opta:Player:bvnzh2sq474xl2wj7jser1uz8",
+     "side": "away",
+     "team": "Frosinone",
+     "firstName": "Mateus Henrique",
+     "lastName": "Vanzelli Lusuardi",
+     "shirtName": "Mateus Lusuardi",
+     "displayName": "Lusuardi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:46:20.151Z",
+   "sha256": "3f98fe8dafc8a8afdf72532bdadab384fc25067f1c9563d981246d95dcda869d"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:49:28.069Z",
+   "sha256": "b8df22d3f690ee3d9bec5ff35a336071e1936ce4b2b187476f012b667d52df29",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Turati",
+     "giocatoreIdFantacalcio": 4867,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 5,
+     "votoItalia": 7,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Romagnoli S.",
+     "giocatoreIdFantacalcio": 76,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lirola",
+     "giocatoreIdFantacalcio": 2006,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Okoli",
+     "giocatoreIdFantacalcio": 4432,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zortea",
+     "giocatoreIdFantacalcio": 4433,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valeri",
+     "giocatoreIdFantacalcio": 5862,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mateus Lusuardi",
+     "giocatoreIdFantacalcio": 6411,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mazzitelli",
+     "giocatoreIdFantacalcio": 1976,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Brescianini",
+     "giocatoreIdFantacalcio": 4947,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Reinier",
+     "giocatoreIdFantacalcio": 5093,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Barrenechea",
+     "giocatoreIdFantacalcio": 6175,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gelli",
+     "giocatoreIdFantacalcio": 6241,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Soule'",
+     "giocatoreIdFantacalcio": 5734,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 3,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 2.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 1,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Seck",
+     "giocatoreIdFantacalcio": 5806,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cheddira",
+     "giocatoreIdFantacalcio": 6439,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 14,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Meret",
+     "giocatoreIdFantacalcio": 572,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 1,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mario Rui",
+     "giocatoreIdFantacalcio": 142,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 5,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Di Lorenzo",
+     "giocatoreIdFantacalcio": 2816,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Rrahmani",
+     "giocatoreIdFantacalcio": 4409,
+     "votoRedazione": 4,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ostigard",
+     "giocatoreIdFantacalcio": 5750,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zielinski",
+     "giocatoreIdFantacalcio": 152,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Politano",
+     "giocatoreIdFantacalcio": 536,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zambo Anguissa",
+     "giocatoreIdFantacalcio": 4220,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lobotka",
+     "giocatoreIdFantacalcio": 4287,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cajuste",
+     "giocatoreIdFantacalcio": 6402,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Simeone",
+     "giocatoreIdFantacalcio": 2061,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Raspadori",
+     "giocatoreIdFantacalcio": 4371,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Osimhen",
+     "giocatoreIdFantacalcio": 4661,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 9,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/32",
+      "estrattoIl": "2026-10-06T20:49:28.069Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kvaratskhelia",
+     "giocatoreIdFantacalcio": 5839,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 2 - 2 Frosinone 14/04/2024 - 12:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}
