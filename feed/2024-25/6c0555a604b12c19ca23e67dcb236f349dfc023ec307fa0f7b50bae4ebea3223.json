@@ -1,0 +1,1611 @@
+{
+ "label": "Napoli-Empoli (g32)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-04-14T18:45:00Z",
+  "hoursAfterKickoff": 12961.6547625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:36:24.960Z",
+  "sha256": "af5ccaf1125e9834d3067d34ee14df701feca0f60b3efa0868135cb9bc2c5207"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::c86db49d10d44f8b83b9c76d0820c528",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-04-14T18:45:00Z",
+   "matchday": 32,
+   "home": "Napoli",
+   "away": "Empoli",
+   "homeTeamId": "serie-a::Football_Team::f791dab8f0e4449e9884dd8dbd42dbcc",
+   "awayTeamId": "serie-a::Football_Team::4de00d41f5654013b192a9515df5bf39",
+   "homeScore": 3,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 4
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::c86db49d10d44f8b83b9c76d0820c528",
+   "homeTeam": "Napoli",
+   "awayTeam": "Empoli",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::18cc6f2bdba14a5a9cca5268d2efafce",
+     "providerId": "opta:Player:af58rhtg8ck7c8g7nwfs67d91",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Alex",
+     "lastName": "Meret",
+     "shirtName": "Alex Meret",
+     "displayName": "Meret",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4d288b42418140a196d4ca71601d0c58",
+     "providerId": "opta:Player:896uaqjrz22q6fqjfzuwf77jd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Mathias",
+     "lastName": "Olivera Miramontes",
+     "shirtName": "Mathías Olivera",
+     "displayName": "Olivera",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4",
+     "providerId": "opta:Player:8n0c5t5wzfkoauryyzy8be0gl",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Juan Guilherme",
+     "lastName": "Nunes Jesus",
+     "shirtName": "Juan Jesus",
+     "displayName": "Juan Jesus",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a608e5111451470face14c869bfb8d9e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::25a5058852ed4308b29227d29a952365",
+     "providerId": "opta:Player:2kfkjjqh7vrfcfbgr4aa85dqt",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Amir",
+     "lastName": "Rrahmani",
+     "shirtName": "Amir Rrahmani",
+     "displayName": "Am. Rrahmani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::517b28659d184092827d69958ea33574",
+     "providerId": "opta:Player:etryzuxz65dmn5ewmocse66l1",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Pasquale",
+     "lastName": "Mazzocchi",
+     "shirtName": "Pasquale Mazzocchi",
+     "displayName": "Mazzocchi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::310a726a64854ced91418ec3cc090391",
+     "providerId": "opta:Player:9fvo9v5e9r0ptibied6ejv3zd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Scott Francis",
+     "lastName": "Mctominay",
+     "shirtName": "Scott McTominay",
+     "displayName": "McTominay",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 18,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2446e6543344454a955ba29acace1ad6"
+      },
+      {
+       "type": "goal",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2446e6543344454a955ba29acace1ad6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0e681e091f934fa89130c1476a93a270",
+     "providerId": "opta:Player:9y8fnvazj02vy31ljx3du0d79",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Stanislav",
+     "lastName": "Lobotka",
+     "shirtName": "Stanislav Lobotka",
+     "displayName": "Lobotka",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::97e494fcc78543cd9ac8219e5e97503c",
+     "providerId": "opta:Player:5okl8s3e8ad2add75m46ojo4p",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Billy Clifford",
+     "lastName": "Gilmour",
+     "shirtName": "Billy Gilmour",
+     "displayName": "Gilmour",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c9f5b1fc8f874673a004839a5052bba9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7495155a4714425c82eadd3e58763969",
+     "providerId": "opta:Player:7pi4j76iy3cfh0bfkxf9x8ell",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "David",
+     "lastName": "Neres Campos",
+     "shirtName": "David Neres",
+     "displayName": "Neres",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2446e6543344454a955ba29acace1ad6",
+     "providerId": "opta:Player:8qgbxff7xlg0zjtyees7ljljp",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Romelu",
+     "lastName": "Lukaku Bolingoli",
+     "shirtName": "Romelu Lukaku",
+     "displayName": "Lukaku",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 42,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "goal",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4d288b42418140a196d4ca71601d0c58"
+      },
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0923fb81d1d04b96b576857c0077028b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2d6bc8e9be4e45ab976bf3d43595aad9",
+     "providerId": "opta:Player:9bba1hgnx5mzpkzeazsoikn9x",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Matteo",
+     "lastName": "Politano",
+     "shirtName": "Matteo Politano",
+     "displayName": "Politano",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::769ba74ad01f4b94a84bd5b2c31a1aa0",
+     "providerId": "opta:Player:buzb0wwg97yjjnovs25iofx90",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Claudio",
+     "lastName": "Turi",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3a012d7f5bb2431981c0e77dce09aee5",
+     "providerId": "opta:Player:17iqlyu99zttyubi6ya6yu9cl",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Simone",
+     "lastName": "Scuffet",
+     "shirtName": "Simone Scuffet",
+     "displayName": "Scuffet",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c1271863b32040488e39d87177146f1b",
+     "providerId": "opta:Player:aqlu9i7yzmnmyzwuw6u93j6y1",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Noah Arinzechuk",
+     "lastName": "Okafor",
+     "shirtName": "Noah Okafor",
+     "displayName": "Okafor",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c9f5b1fc8f874673a004839a5052bba9",
+     "providerId": "opta:Player:33cny48k38nlo8pcx3i24ldqt",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Philip",
+     "lastName": "Billing",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::97e494fcc78543cd9ac8219e5e97503c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a608e5111451470face14c869bfb8d9e",
+     "providerId": "opta:Player:d27r61wcc9az0shpevisc4iga",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Rafael",
+     "lastName": "Marin Zamora",
+     "shirtName": "Rafa Marín",
+     "displayName": "Rafa Marín",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c",
+     "providerId": "opta:Player:cp13vthbds3tl1wtfelfx2evp",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Giovanni Pablo",
+     "lastName": "Simeone Baldini",
+     "shirtName": "Giovanni Simeone",
+     "displayName": "Simeone",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb",
+     "providerId": "opta:Player:a9z0jsjwfteq974bxwucvc4ix",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Cyril Jean",
+     "lastName": "Ngonge",
+     "shirtName": "Cyril Ngonge",
+     "displayName": "Ngonge",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2d6bc8e9be4e45ab976bf3d43595aad9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f6df7b58957c4eb5ba387d10eddbfd20",
+     "providerId": "opta:Player:el1iasw3t612r6gawvodhyf4k",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Luis",
+     "lastName": "Hasa",
+     "shirtName": "Luis Hasa",
+     "displayName": "Hasa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b",
+     "providerId": "opta:Player:9ka7y81b5kst146mhq7mom5ed",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Leonardo",
+     "lastName": "Spinazzola",
+     "shirtName": "Leonardo Spinazzola",
+     "displayName": "Spinazzola",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::517b28659d184092827d69958ea33574"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0923fb81d1d04b96b576857c0077028b",
+     "providerId": "opta:Player:abq67eup8kd31w8da2i0eftgp",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Giacomo",
+     "lastName": "Raspadori",
+     "shirtName": "Giacomo Raspadori",
+     "displayName": "Raspadori",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2446e6543344454a955ba29acace1ad6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::410303ba6eb74fcb882fc6aca990c956",
+     "providerId": "opta:Player:fb1s5est3fuw1flrjl9isusp",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Devis Estiven",
+     "lastName": "Vasquez Llach",
+     "shirtName": "D. Vasquez",
+     "displayName": "D. Vásquez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe",
+     "providerId": "opta:Player:2e0ipswbkv4vf7lav6ee1j3oq",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Mattia",
+     "lastName": "Viti",
+     "shirtName": "Mattia Viti",
+     "displayName": "Viti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::73c92fda395c44ceb50d57f3b42ffd98"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a1ee3415386144ad88b60048528e69bd",
+     "providerId": "opta:Player:1ijyezydbb4zzio95vj0sr09g",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Luca",
+     "lastName": "Marianucci",
+     "shirtName": "Luca Marianucci",
+     "displayName": "Marianucci",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50a60abf290e4880afe7411c15616fb2",
+     "providerId": "opta:Player:6pzskxh8wy2b4gaf4kj6zuivo",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Saba",
+     "lastName": "Goglichidze",
+     "shirtName": "Saba Goglichidze",
+     "displayName": "Goglichidze",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c7e44f29f2a74a10b079abe0d392bc5a",
+     "providerId": "opta:Player:90pjbz2aq8vz4qapqu1yt2ynd",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Giuseppe",
+     "lastName": "Pezzella",
+     "shirtName": "Giuseppe Pezzella",
+     "displayName": "Pezzella",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a5857e6c5af14b0a8faade09103a5e93",
+     "providerId": "opta:Player:an5eip4p2zmw49hh9eqksigo9",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Liberato",
+     "lastName": "Cacace",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ff2c6c9226014d4189d926d17ed14339"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::15d093aa2d3b47819ba90355e97d2c0e",
+     "providerId": "opta:Player:2l87vg4m0glbbdvnrg4zud51x",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Liam",
+     "lastName": "Henderson",
+     "shirtName": "Liam Henderson",
+     "displayName": "Henderson",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c4180491d2b04195b655b140a8b17a81"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8763e24fb296404e9360dab1c1a6c0aa",
+     "providerId": "opta:Player:1fdgli7rrzvlhcs1exckc0r11",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Alberto",
+     "lastName": "Grassi",
+     "shirtName": "A. Grassi",
+     "displayName": "Grassi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e99fff87e3e41aeade5683c90094957",
+     "providerId": "opta:Player:8lta4w1nytggiwnaqv4e5cc0l",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Emanuel",
+     "lastName": "Gyasi",
+     "shirtName": "Emmanuel Gyasi",
+     "displayName": "Gyasi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5",
+     "providerId": "opta:Player:6e9fu9o226zn6jzx02jutvi3u",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Jacopo",
+     "lastName": "Fazzini",
+     "shirtName": "Jacopo Fazzini",
+     "displayName": "Fazzini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba",
+     "providerId": "opta:Player:c4n7kjp8c47trslpssnyqjo16",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Sebastiano",
+     "lastName": "Esposito",
+     "shirtName": "Sebastiano Esposito",
+     "displayName": "S. Esposito",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::adb3802917f84f18b2d899e1cc681700",
+     "providerId": "opta:Player:93237ztqyi3r4hu3rmgzrgudx",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Marco",
+     "lastName": "Silvestri",
+     "shirtName": "Marco Silvestri",
+     "displayName": "Silvestri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::75ccbc3aa26f422ebcdf89b1a26f8e2e",
+     "providerId": "opta:Player:vxehbg5v0s42cmvntbd6xc7o",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Jacopo",
+     "lastName": "Seghetti",
+     "shirtName": "J. Seghetti",
+     "displayName": "Seghetti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bd503deb2e9447fd8314978582571644",
+     "providerId": "opta:Player:9t753r5hnyq6qe5o7csuurw15",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Federico",
+     "lastName": "Brancolini",
+     "shirtName": "Federico Brancolini",
+     "displayName": "Brancolini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ff2c6c9226014d4189d926d17ed14339",
+     "providerId": "opta:Player:ezpkmoz1z08da3o3g45m12lzp",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Junior",
+     "lastName": "Sambia",
+     "shirtName": "J. Sambia",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a5857e6c5af14b0a8faade09103a5e93"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c4180491d2b04195b655b140a8b17a81",
+     "providerId": "opta:Player:1s7qbrynbcv9uw9r5f29oyc5",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Viktor",
+     "lastName": "Kovalenko",
+     "shirtName": "V. Kovalenko",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::15d093aa2d3b47819ba90355e97d2c0e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::05e6582794f1475abb32a7d1d26fb404",
+     "providerId": "opta:Player:9pe3yqjsmcjtxdx7bdne3d4ut",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Mattia",
+     "lastName": "De Sciglio",
+     "shirtName": "M. De Sciglio",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::73c92fda395c44ceb50d57f3b42ffd98",
+     "providerId": "opta:Player:f0o0jfa9hp54otpnwe09d591",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Tyronne Efe",
+     "lastName": "Ebuehi",
+     "shirtName": "Tyronne Ebuehi",
+     "displayName": "Ebuehi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1d944920a2fb4952877847e11ccae21e",
+     "providerId": "opta:Player:ewlrfjbmk1resvq3w234lwr2s",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Lorenzo",
+     "lastName": "Tosto",
+     "shirtName": "Lorenzo Tosto",
+     "displayName": "Tosto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::acd16c7a271347e297ff47c6d8198633",
+     "providerId": "opta:Player:2loc1ic2jcwxtfdes93tcy0b8",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Jacopo",
+     "lastName": "Bacci",
+     "shirtName": "Jacopo Bacci",
+     "displayName": "Bacci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cc141feee5294a5fa3915f69f5d80aa9",
+     "providerId": "opta:Player:7ut56715j129guhzl0snsyo0k",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Thomas",
+     "lastName": "Campaniello",
+     "shirtName": "Thomas Campaniello",
+     "displayName": "Campaniello",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::860306a52650438ab2f0e0e6e1fb9adb",
+     "providerId": "opta:Player:8rouava6glln14si4xxksgwt0",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Ismael",
+     "lastName": "Konate",
+     "shirtName": "Ismael Konaté",
+     "displayName": "Konaté",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:33:39.391Z",
+   "sha256": "d36a1fd247ae8f61857dce2f129253f07b9345ef80a87e752a7bb50542e57221"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:36:24.960Z",
+   "sha256": "af5ccaf1125e9834d3067d34ee14df701feca0f60b3efa0868135cb9bc2c5207",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Vasquez D.",
+     "giocatoreIdFantacalcio": 6125,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 2.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pezzella Giu.",
+     "giocatoreIdFantacalcio": 770,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ebuehi",
+     "giocatoreIdFantacalcio": 5480,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Viti",
+     "giocatoreIdFantacalcio": 5718,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cacace",
+     "giocatoreIdFantacalcio": 5804,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sambia",
+     "giocatoreIdFantacalcio": 5856,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Goglichidze",
+     "giocatoreIdFantacalcio": 6537,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marianucci",
+     "giocatoreIdFantacalcio": 6809,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Grassi",
+     "giocatoreIdFantacalcio": 27,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Henderson L.",
+     "giocatoreIdFantacalcio": 4498,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gyasi",
+     "giocatoreIdFantacalcio": 4992,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kovalenko",
+     "giocatoreIdFantacalcio": 5397,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fazzini",
+     "giocatoreIdFantacalcio": 6010,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Esposito Se.",
+     "giocatoreIdFantacalcio": 4463,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Colombo",
+     "giocatoreIdFantacalcio": 4923,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Meret",
+     "giocatoreIdFantacalcio": 572,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Juan Jesus",
+     "giocatoreIdFantacalcio": 256,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Spinazzola",
+     "giocatoreIdFantacalcio": 1852,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Rrahmani",
+     "giocatoreIdFantacalcio": 4409,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mazzocchi",
+     "giocatoreIdFantacalcio": 5481,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Olivera",
+     "giocatoreIdFantacalcio": 5840,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marin R.",
+     "giocatoreIdFantacalcio": 6638,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Politano",
+     "giocatoreIdFantacalcio": 536,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lobotka",
+     "giocatoreIdFantacalcio": 4287,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "McTominay",
+     "giocatoreIdFantacalcio": 4777,
+     "votoRedazione": 8,
+     "fantavotoRedazione": 14,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 14,
+     "votoItalia": 8,
+     "fantavotoItalia": 14,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gilmour",
+     "giocatoreIdFantacalcio": 5131,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Neres",
+     "giocatoreIdFantacalcio": 6831,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Billing",
+     "giocatoreIdFantacalcio": 6969,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lukaku",
+     "giocatoreIdFantacalcio": 2531,
+     "votoRedazione": 8,
+     "fantavotoRedazione": 12.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 12,
+     "votoItalia": 8,
+     "fantavotoItalia": 12.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 2,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Raspadori",
+     "giocatoreIdFantacalcio": 4371,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/32",
+      "estrattoIl": "2026-10-06T20:36:24.960Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ngonge",
+     "giocatoreIdFantacalcio": 6145,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 0 Empoli 14/04/2025 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

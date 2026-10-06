@@ -1,0 +1,1525 @@
+{
+ "label": "Juventus-Como (g1)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-08-19T18:45:00Z",
+  "hoursAfterKickoff": 18673.6547625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:24.521Z",
+  "sha256": "c4653e4d5b89f36e8bbcc7265432c98851e47e92ea36bb1a2cd570bef5a01b85"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::6995a59ba46544ad95b94c586842858a",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-08-19T18:45:00Z",
+   "matchday": 1,
+   "home": "Juventus",
+   "away": "Como",
+   "homeTeamId": "serie-a::Football_Team::0ae9210dce6f4f9b9d50aeeb19b0d371",
+   "awayTeamId": "serie-a::Football_Team::367e70bf50b346209f8a0f16429850cb",
+   "homeScore": 3,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 9
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::6995a59ba46544ad95b94c586842858a",
+   "homeTeam": "Juventus",
+   "awayTeam": "Como",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::f567339708a7468fa5b76cbf3d4b345e",
+     "providerId": "opta:Player:b3hr4q25jvqr7565z5ydqylt5",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Michele",
+     "lastName": "Di Gregorio",
+     "shirtName": "Michele Di Gregorio",
+     "displayName": "Di Gregorio",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::468dfc7f2036468d90394cb8d22ae809",
+     "providerId": "opta:Player:5054kfjkrimomrhilbe5j3xbe",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Juan David",
+     "lastName": "Cabal Murillo",
+     "shirtName": "Juan Cabal",
+     "displayName": "Cabal",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e6156f9d23e84e7084a3e488b92521ac",
+     "providerId": "opta:Player:d196vatyvq6ycn1q7d477d2i1",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Gleison Bremer",
+     "lastName": "Bremer",
+     "shirtName": "Bremer",
+     "displayName": "Bremer",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::591a828679214db3b8beddc1e6f9af2e",
+     "providerId": "opta:Player:cv46mxj5i98p4hgtbomxlxs7o",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Federico",
+     "lastName": "Gatti",
+     "shirtName": "Federico Gatti",
+     "displayName": "Gatti",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1701dcc4409d48bcac98374a47f96dad",
+     "providerId": "opta:Player:7ohgxs03szerp6mwiiv58ryay",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Andrea",
+     "lastName": "Cambiaso",
+     "shirtName": "Andrea Cambiaso",
+     "displayName": "Cambiaso",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::af17805688ad437cbfb68eb1a8f6a11f"
+      },
+      {
+       "type": "yellow-card",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6e685e98714e4024ad09aefd600bd42e",
+     "providerId": "opta:Player:6j0ogojh2b7poyceg7i3k09yi",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Khephren",
+     "lastName": "Thuram-ulien",
+     "shirtName": "Khéphren Thuram",
+     "displayName": "K. Thuram",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::01e3217dea474ebea0e15b49727cd04c",
+     "providerId": "opta:Player:ahz2npxe4geixkaz25f2pc82d",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Manuel",
+     "lastName": "Locatelli",
+     "shirtName": "Manuel Locatelli",
+     "displayName": "Locatelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9ad06cbcf0164d7ea5b1b961b4a1e884"
+      },
+      {
+       "type": "yellow-card",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::af17805688ad437cbfb68eb1a8f6a11f",
+     "providerId": "opta:Player:58d87tochcm6hk4n6l7ua7jvu",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Samuel Germain",
+     "lastName": "Mbangula Tshifunda",
+     "shirtName": "",
+     "displayName": "Mbangula",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 23,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a762de25d2d446e6bbc74e3cff793155"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2355805d93e04684aa6fdcba93a37b7d",
+     "providerId": "opta:Player:6kvtqep8korw8d75n5me0lbmc",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Kenan",
+     "lastName": "Yildiz",
+     "shirtName": "Kenan Yildiz",
+     "displayName": "Yıldız",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ea8c6fecf53741abb39999d699652b3c",
+     "providerId": "opta:Player:e5xxqwz0sdlwkkmp8bgs1k6w9",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Timothy",
+     "lastName": "Weah",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 45,
+       "additionalTime": 1,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2355805d93e04684aa6fdcba93a37b7d"
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::36c4ce6495d846628de97677cc41d6dc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::40673b7f5d5a4fbabf9cd4ad276993f5",
+     "providerId": "opta:Player:3ua8gs8tzx1dkdi9z88kjk9nt",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Dusan",
+     "lastName": "Vlahović",
+     "shirtName": "Dusan Vlahović",
+     "displayName": "Vlahović",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::74c42bc75c774096b689dfe348184f56",
+     "providerId": "opta:Player:3o573dblmfc1o3wkkt2nva8k5",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Mattia",
+     "lastName": "Perin",
+     "shirtName": "Mattia Perin",
+     "displayName": "Perin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::417c5ec6753749f98505e4e3f443a8bb",
+     "providerId": "opta:Player:8rlf5vjyddkcid5ysa3yo7hlh",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Carlo",
+     "lastName": "Pinsoglio",
+     "shirtName": "Carlo Pinsoglio",
+     "displayName": "Pinsoglio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5a49185d19114670b262c33272cc397a",
+     "providerId": "opta:Player:8yv9xuzriaecvvssfm8dlmz85",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Danilo Luiz",
+     "lastName": "da Silva",
+     "shirtName": "Danilo",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0acefc0dc80a4f4284f5733d6f6a5217",
+     "providerId": "opta:Player:288nn7pbq5ewriiyb9o7da86h",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Weston James Earl",
+     "lastName": "McKennie",
+     "shirtName": "Weston McKennie",
+     "displayName": "McKennie",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6e685e98714e4024ad09aefd600bd42e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9ad06cbcf0164d7ea5b1b961b4a1e884",
+     "providerId": "opta:Player:7j84ozqdpgupzxevbxemi5tyh",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Douglas Luiz",
+     "lastName": "Soares De Paulo",
+     "shirtName": "Douglas Luiz Soares de Paulo",
+     "displayName": "Douglas Luiz",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::01e3217dea474ebea0e15b49727cd04c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::36c4ce6495d846628de97677cc41d6dc",
+     "providerId": "opta:Player:979xx3uzyuwalkho856m0b14a",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Nicolò",
+     "lastName": "Savona",
+     "shirtName": "Nicolò Savona",
+     "displayName": "Savona",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ea8c6fecf53741abb39999d699652b3c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::28cc459af3e54439ba6d25b424b8fced",
+     "providerId": "opta:Player:exgknpydnzp14n18nn1w6ugpg",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Jonas Jakob",
+     "lastName": "Rouhi",
+     "shirtName": "Jonas Rouhi",
+     "displayName": "Rouhi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3d1630a5c43a4307a85f23cd3157ccf7",
+     "providerId": "opta:Player:76r2yw3wtql61qh5l0yumdn85",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Pepe",
+     "lastName": "Reina",
+     "shirtName": "P. Reina",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de184c78c1c844d3be7e3c4fd2a3910a",
+     "providerId": "opta:Player:67na4se53q1wb8vwsjx13bka2",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Marco",
+     "lastName": "Sala",
+     "shirtName": "M. Sala",
+     "displayName": "M. Sala",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 9,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4d33a4b049be419693a2e4e5061840d0",
+     "providerId": "opta:Player:8rn2c1zyjnyw0tyi43ulhbetx",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Federico",
+     "lastName": "Barba",
+     "shirtName": "F. Barba",
+     "displayName": "Barba",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0cae729dddfb432dba1ad7789b0f910e",
+     "providerId": "opta:Player:7yeax9s2rpt3xuace2b77xgid",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Edoardo",
+     "lastName": "Goldaniga",
+     "shirtName": "E. Goldaniga",
+     "displayName": "Goldaniga",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::076fcd52000d423399e6caba08dd9f64",
+     "providerId": "opta:Player:a3w1uczgmswm3cwk4vmvoglhx",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Moreno Perez",
+     "shirtName": "Alberto Moreno",
+     "displayName": "Alberto Moreno",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6867551cf5a6427a9ab81bd06fd9d455",
+     "providerId": "opta:Player:92vjurxjnipl210yanki2oz8q",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Lucas",
+     "lastName": "Da Cunha",
+     "shirtName": "Lucas da Cunha",
+     "displayName": "da Cunha",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3cae39af1a24482fbba28db04d6e4ed1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eb9eddee926242be89569029eaba90c2",
+     "providerId": "opta:Player:9or4f5wmwzhotzamqjpgeg6vp",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Daniele",
+     "lastName": "Baselli",
+     "shirtName": "Daniele Baselli",
+     "displayName": "Baselli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 22,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8efffa24ecbc49119c24eebf18306943"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9fe0fecc2aa24bb48c3074af958cd460",
+     "providerId": "opta:Player:d1s6ucvydq0oe5vsg00e9me7e",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Matthias",
+     "lastName": "Braunöder",
+     "shirtName": "Matthias Braunöder",
+     "displayName": "Braunöder",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::526c1ebfad434e53936bb1c7e24db3a5",
+     "providerId": "opta:Player:44f0q2ucrld1rwcwx63vgs7hl",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Gabriel",
+     "lastName": "Strefezza",
+     "shirtName": "Gabriel Strefezza",
+     "displayName": "Strefezza",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::17c07473515a40a9a9ee3211a33ab18d",
+     "providerId": "opta:Player:97mmzzi3dwdos6jtj2m05w4ph",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Andrea",
+     "lastName": "Belotti",
+     "shirtName": "A. Belotti",
+     "displayName": "Belotti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1710a45696bb4c338978eaa08de28a3a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4919025f871840d199d459a2c636266e",
+     "providerId": "opta:Player:7dnu1vdavskc4ct33k88lpdcl",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Patrick",
+     "lastName": "Cutrone",
+     "shirtName": "Patrick Cutrone",
+     "displayName": "Cutrone",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d06c2e6b91bb4f10a33b68fc87a178c0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffc8be5bd4e749d0b24674083abab469",
+     "providerId": "opta:Player:e2dn4s6p2f6xnbaje17wd3jyt",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Emil",
+     "lastName": "Audero Mulyadi",
+     "shirtName": "Emil Audero",
+     "displayName": "Audero",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1710a45696bb4c338978eaa08de28a3a",
+     "providerId": "opta:Player:7jssa0kt7p97akgi41umce85x",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alessandro",
+     "lastName": "Gabrielloni",
+     "shirtName": "Alessandro Gabrielloni",
+     "displayName": "Gabrielloni",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::17c07473515a40a9a9ee3211a33ab18d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fffc084cc99648e8a49304ce1b960215",
+     "providerId": "opta:Player:2fbg7v69wyis2his47u8ij4rt",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Dossena",
+     "shirtName": "Alberto Dossena",
+     "displayName": "Dossena",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d06c2e6b91bb4f10a33b68fc87a178c0",
+     "providerId": "opta:Player:209wrczpg1xivjis7rmntw0r9",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Cerri",
+     "shirtName": "A. Cerri",
+     "displayName": "Cerri",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4919025f871840d199d459a2c636266e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8efffa24ecbc49119c24eebf18306943",
+     "providerId": "opta:Player:vzbmf6lqvbw398clnt7jyiqy",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Yannik",
+     "lastName": "Engelhardt",
+     "shirtName": "Yannik Engelhardt",
+     "displayName": "Engelhardt",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 22,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eb9eddee926242be89569029eaba90c2"
+      },
+      {
+       "type": "yellow-card",
+       "time": 33,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3cae39af1a24482fbba28db04d6e4ed1",
+     "providerId": "opta:Player:kc4qkj63uqu3wnkydxtvmwh5",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Oliver Abildgaard",
+     "lastName": "Nielsen",
+     "shirtName": "Oliver Abildgaard",
+     "displayName": "Abildgaard",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6867551cf5a6427a9ab81bd06fd9d455"
+      },
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::225f6cb9653e4e9aa816c7ba9d02384f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::656bce51b1e94e4081151c4644b4e1ed",
+     "providerId": "opta:Player:e3o8o5b5sxbjd2s17w14rmga",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Tommaso",
+     "lastName": "Cassandro",
+     "shirtName": "T. Cassandro",
+     "displayName": "Cassandro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::225f6cb9653e4e9aa816c7ba9d02384f",
+     "providerId": "opta:Player:c39nv7jn5c3qzglosgzigif2t",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Simone",
+     "lastName": "Verdi",
+     "shirtName": "S. Verdi",
+     "displayName": "Verdi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3cae39af1a24482fbba28db04d6e4ed1"
+      },
+      {
+       "type": "yellow-card",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:24:36.947Z",
+   "sha256": "cc4b7ee4904db3369e44cd82733409abe76b0f4d0ae17c8a0b8e1b5c9990aafe"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:24.521Z",
+   "sha256": "c4653e4d5b89f36e8bbcc7265432c98851e47e92ea36bb1a2cd570bef5a01b85",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Reina",
+     "giocatoreIdFantacalcio": 387,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 3,
+     "votoItalia": 6,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Barba",
+     "giocatoreIdFantacalcio": 134,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Goldaniga",
+     "giocatoreIdFantacalcio": 418,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sala M.",
+     "giocatoreIdFantacalcio": 4386,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Moreno Alb.",
+     "giocatoreIdFantacalcio": 5435,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Verdi",
+     "giocatoreIdFantacalcio": 376,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baselli",
+     "giocatoreIdFantacalcio": 556,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Strefezza",
+     "giocatoreIdFantacalcio": 4486,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Da Cunha",
+     "giocatoreIdFantacalcio": 5559,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Abildgaard",
+     "giocatoreIdFantacalcio": 6162,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Braunoder",
+     "giocatoreIdFantacalcio": 6656,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Engelhardt",
+     "giocatoreIdFantacalcio": 6676,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cerri",
+     "giocatoreIdFantacalcio": 306,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Belotti",
+     "giocatoreIdFantacalcio": 441,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cutrone",
+     "giocatoreIdFantacalcio": 2155,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gabrielloni",
+     "giocatoreIdFantacalcio": 6657,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Di Gregorio",
+     "giocatoreIdFantacalcio": 5876,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bremer",
+     "giocatoreIdFantacalcio": 2788,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cambiaso",
+     "giocatoreIdFantacalcio": 5520,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gatti",
+     "giocatoreIdFantacalcio": 5831,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cabal",
+     "giocatoreIdFantacalcio": 6039,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Savona",
+     "giocatoreIdFantacalcio": 6802,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Locatelli",
+     "giocatoreIdFantacalcio": 827,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "giocatoreIdFantacalcio": 4465,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Weah",
+     "giocatoreIdFantacalcio": 4662,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Douglas Luiz",
+     "giocatoreIdFantacalcio": 4911,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thuram K.",
+     "giocatoreIdFantacalcio": 5562,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vlahovic",
+     "giocatoreIdFantacalcio": 2841,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Yildiz",
+     "giocatoreIdFantacalcio": 6434,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/1",
+      "estrattoIl": "2026-10-06T20:35:24.521Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mbangula",
+     "giocatoreIdFantacalcio": 6833,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 11,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 11,
+     "votoItalia": 7,
+     "fantavotoItalia": 11,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Juventus 3 - 0 Como 19/08/2024 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

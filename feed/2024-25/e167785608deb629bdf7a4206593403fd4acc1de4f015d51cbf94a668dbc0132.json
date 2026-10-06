@@ -1,0 +1,1748 @@
+{
+ "label": "Verona-Monza (g8)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-10-21T18:45:00Z",
+  "hoursAfterKickoff": 17161.6547625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:38.744Z",
+  "sha256": "aff1311649daa627e1d1924e0e82cbd2c4594a8a216edaf41c6c1eb5ff6ad25c"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::a06dff981dd74a4ba8f9ba2610110364",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-10-21T18:45:00Z",
+   "matchday": 8,
+   "home": "Verona",
+   "away": "Monza",
+   "homeTeamId": "serie-a::Football_Team::be24fc024dd946ebbeb957ee6e796a2a",
+   "awayTeamId": "serie-a::Football_Team::9ba470f39580450fac7654956ba574fa",
+   "homeScore": 0,
+   "awayScore": 3,
+   "clockTime": 90,
+   "clockAdditionalTime": 4
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::a06dff981dd74a4ba8f9ba2610110364",
+   "homeTeam": "Verona",
+   "awayTeam": "Monza",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::b28865a6d4814858be353447697de6d1",
+     "providerId": "opta:Player:c7fky0h6gi7wmibnv2tzf6mz9",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Lorenzo",
+     "lastName": "Montipò",
+     "shirtName": "Lorenzo Montipò",
+     "displayName": "Montipò",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4a80a3286797490b977c0402c8f50947",
+     "providerId": "opta:Player:b0e6d3zgwzbzysmt9b2ycvf56",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Domagoj",
+     "lastName": "Bradarić",
+     "shirtName": "Domagoj Bradarić",
+     "displayName": "Bradarić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2103f76167cb4b2cb65dfc3409f739c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50b9b8de45a04dd4852d3d6b0c1d183b",
+     "providerId": "opta:Player:n92xjnlc1ppuxe70hsyc0mj8",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniele",
+     "lastName": "Ghilardi",
+     "shirtName": "Daniele Ghilardi",
+     "displayName": "Ghilardi",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 44,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eea5229af55c44daaa0e08f91958a577",
+     "providerId": "opta:Player:m7fe173js8on94ag3htziy8l",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Giangiacomo",
+     "lastName": "Magnani",
+     "shirtName": "Giangiacomo Magnani",
+     "displayName": "Magnani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ae847ee54d004034bbb50f4eb49acdda",
+     "providerId": "opta:Player:39bcswfqnpa07b4afevezejo4",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Jackson",
+     "lastName": "Tchatchoua",
+     "shirtName": "Jackson Tchatchoua",
+     "displayName": "Tchatchoua",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 35,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fc6a0de0a0e24a59912d61b75a21c665",
+     "providerId": "opta:Player:4t85yj2ijymrz5vf457jcihre",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Tomas",
+     "lastName": "Suslov",
+     "shirtName": "Tomás Suslov",
+     "displayName": "Suslov",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0b153ab8efcc43a8a8fbd3d4ae19c29c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9ec032cd51bc44f98182e1f0ebafe77d",
+     "providerId": "opta:Player:g64b8x11ndowv2zj29r9i311",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Ondrej",
+     "lastName": "Duda",
+     "shirtName": "O. Duda",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::010941b53746419ca120d241d0398bc2"
+      },
+      {
+       "type": "yellow-card",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::317f90e84ebc4866b303fe44867825d6",
+     "providerId": "opta:Player:cjgrtf1xc97ir3b64cnl9ecyc",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Reda",
+     "lastName": "Belahyane",
+     "shirtName": "Reda Belahyane",
+     "displayName": "Belahyane",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a48d141a770b4e89b048117135ef9f5f",
+     "providerId": "opta:Player:bo98qzo4gu0npm4pewc25ovyt",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Darko",
+     "lastName": "Lazovic",
+     "shirtName": "D. Lazovic",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b4b385efb64748d5b0b0df4d56a29045"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::190984e6cae7426380790e7dc82b9e2b",
+     "providerId": "opta:Player:3o4tq8qooplx2izq9rucgu7d",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Casper",
+     "lastName": "Tengstedt",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::76a5eaa653204872a1dfe59a2d1f4cb0",
+     "providerId": "opta:Player:8lg7bwc6k73s2x0zd236pbomi",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniel Fernando",
+     "lastName": "Mosquera Bonilla",
+     "shirtName": "Daniel Mosquera",
+     "displayName": "Mosquera",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::55b939f2918f4e9699549922b9db610d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::df20a308466c432e997baa7bafaa3c1a",
+     "providerId": "opta:Player:co1vwppy1870xm5iymj3wmp5h",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Alessandro",
+     "lastName": "Berardi",
+     "shirtName": "A. Berardi",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa2557307f604fde9512778cc9616b43",
+     "providerId": "opta:Player:c2ezyc2fftje7rcm5ybbuytp1",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Simone",
+     "lastName": "Perilli",
+     "shirtName": "Simone Perilli",
+     "displayName": "Perilli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::07ed871ab5064c939e1747948b647838",
+     "providerId": "opta:Player:4u281v53ges3kimtgac0tidm2",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Flavius",
+     "lastName": "Daniliuc",
+     "shirtName": "F. Daniliuc",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2103f76167cb4b2cb65dfc3409f739c2",
+     "providerId": "opta:Player:68etig279gs3btjb7fv6rvfth",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Marco Davide",
+     "lastName": "Faraoni",
+     "shirtName": "D. Faraoni",
+     "displayName": "Faraoni",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4a80a3286797490b977c0402c8f50947"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::55b939f2918f4e9699549922b9db610d",
+     "providerId": "opta:Player:amvonu36at4dg7ksi1ioczi3u",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Amin",
+     "lastName": "Sarr",
+     "shirtName": "Amin Sarr",
+     "displayName": "A. Sarr",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::76a5eaa653204872a1dfe59a2d1f4cb0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b4b385efb64748d5b0b0df4d56a29045",
+     "providerId": "opta:Player:1dljhkcvmodqq9u1w8iv145m2",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Dailon",
+     "lastName": "Rocha Livramento do Rosario",
+     "shirtName": "Dailon Livramento",
+     "displayName": "D. Livramento",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a48d141a770b4e89b048117135ef9f5f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::799142c39c4547deaad724bd24595a5a",
+     "providerId": "opta:Player:8cbqpjojozpalklx15jxjfii2",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Yllan",
+     "lastName": "Okou",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9b7ef743b9e741749ef855c6dacf3168",
+     "providerId": "opta:Player:ctz25vsbahcxo8plb091q61g",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Ayanda",
+     "lastName": "Sishuba",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0b153ab8efcc43a8a8fbd3d4ae19c29c",
+     "providerId": "opta:Player:drljavudmjvyj9mvyzq7gz2s5",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Grigoris",
+     "lastName": "Kastanos",
+     "shirtName": "Grigoris Kastanos",
+     "displayName": "Kastanos",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc6a0de0a0e24a59912d61b75a21c665"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dc4ee1fb8d45435096ed9d6a64bc8f10",
+     "providerId": "opta:Player:1qcf5gb8wf8f4tu94xh96yqy",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniel Filipe",
+     "lastName": "Bandeira e Silva",
+     "shirtName": "Dani Silva",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::010941b53746419ca120d241d0398bc2",
+     "providerId": "opta:Player:9j1fd0mz39tl1h5che3f357md",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Suat",
+     "lastName": "Serdar",
+     "shirtName": "Suat Serdar",
+     "displayName": "Serdar",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9ec032cd51bc44f98182e1f0ebafe77d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::05d6dbf24852469a911a67533e85a516",
+     "providerId": "opta:Player:9ed74dfr9aeuedaf63l0i7aei",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Faride",
+     "lastName": "Alidou",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50d991aac7894c54a6e2d43379f06ead",
+     "providerId": "opta:Player:8o8o4rxbdhv002pj0q21l0f84",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Diego",
+     "lastName": "Coppola",
+     "shirtName": "D. Coppola",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::68603b73a2a54a37af3ff03a93ea556c",
+     "providerId": "opta:Player:498kxii7w64hmki575xdur28k",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Alphadjo",
+     "lastName": "Cisse",
+     "shirtName": "Alphadjo Cissè",
+     "displayName": "Cisse",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0854f2c511b243a0a801c89e8880222e",
+     "providerId": "opta:Player:9voekt8gmx6qkolwj3xazx2j8",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Christian",
+     "lastName": "Corradi",
+     "shirtName": "",
+     "displayName": "Corradi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7ee9be263d9542faa19317ebdd17e027",
+     "providerId": "opta:Player:5jfy7133kfbmyl8ur6ze9y2ju",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Stefano",
+     "lastName": "Turati",
+     "shirtName": "S. Turati",
+     "displayName": "Turati",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdbd7dfe606548d5919e564f018239bf",
+     "providerId": "opta:Player:chjjcy789cuwlsik2ibmubtyi",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Carboni",
+     "shirtName": "Andrea Carboni",
+     "displayName": "A. Carboni",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 41,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6b877858b0d14ac5bf60e2c21de3dd40",
+     "providerId": "opta:Player:erdqr6vrr5tlfypbks3og0dlh",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Pablo",
+     "lastName": "Mari Villar",
+     "shirtName": "Pablo Marí",
+     "displayName": "Pablo Marí",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f560b55a1ff1466da1ea41275cf41e4f",
+     "providerId": "opta:Player:thnje2i2s96fcbuscj57053p",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Armando",
+     "lastName": "Izzo",
+     "shirtName": "Armando Izzo",
+     "displayName": "Izzo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b1831a9d79fa4a65baaa65f5d3dae7a5",
+     "providerId": "opta:Player:83hpavqn7r5bzcgxvjbcso3px",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Georgios",
+     "lastName": "Kyriakopoulos",
+     "shirtName": "G. Kyriakopoulos",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::83319bf0373b43518888065782bf262a",
+     "providerId": "opta:Player:a38yzp61vlk5x7ib4yspxrx05",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Pedro Miguel",
+     "lastName": "Almeida Lopes Pereira",
+     "shirtName": "Pedro Pereira",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9251f37b2a045cfae6d735c6658dae9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5395422c0fce40fba80082e4dc17ae13",
+     "providerId": "opta:Player:98x5xrku2jffo0in2u2htazca",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Warren Pierre",
+     "lastName": "Bondo",
+     "shirtName": "Warren Bondo",
+     "displayName": "Bondo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ee4aa696a3a14a04979f1ce6f835331a",
+     "providerId": "opta:Player:2qdgfxqyh0bjn3alkz97py8k5",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Matteo",
+     "lastName": "Pessina",
+     "shirtName": "Matteo Pessina",
+     "displayName": "Pessina",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::962fa7f9204c4e04b41883d4d3b5bb82"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9ff28fb62c554f96a4f89c0a9c14e598",
+     "providerId": "opta:Player:6ck9f1ppvl65nui0x71q80jx1",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Gianluca",
+     "lastName": "Caprari",
+     "shirtName": "Gianluca Caprari",
+     "displayName": "Caprari",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f7f6ded8c3724d20bb5246f79c123019"
+      },
+      {
+       "type": "yellow-card",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::23a565adf58c4105b28af9c5e3ab150a",
+     "providerId": "opta:Player:dq037w5t3ht5zgd75mue4p1pl",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Dany",
+     "lastName": "Mota",
+     "shirtName": "Dany Mota",
+     "displayName": "Dany Mota",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 9,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9ff28fb62c554f96a4f89c0a9c14e598"
+      },
+      {
+       "type": "goal",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94"
+      },
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::05897f6701eb4d848b01084345b24ffc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94",
+     "providerId": "opta:Player:dp1y9x5r6z1q120hj3sgyhxat",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Milan",
+     "lastName": "Djuric",
+     "shirtName": "Milan Djuric",
+     "displayName": "Djuric",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a27880cf9f3a4754892fbfbc4ed31360"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::faea7272d5524a2fb5d1f2b64aa12b87",
+     "providerId": "opta:Player:40rsjcp9bgu6pt4bf2qrczyp6",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Semuel",
+     "lastName": "Pizzignacco",
+     "shirtName": "Semuel Pizzignacco",
+     "displayName": "Pizzignacco",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::894a787d7b2841ffb508126d4f0c386f",
+     "providerId": "opta:Player:9j9vm19kbcmeki09m5mdpe6ms",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Mazza",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b4e4c2d21769485ea0a865f6b5d5c30d",
+     "providerId": "opta:Player:av8588qp8e5wz3s7cg1n2qgnp",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Luca",
+     "lastName": "Caldirola",
+     "shirtName": "L. Caldirola",
+     "displayName": "Caldirola",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::962fa7f9204c4e04b41883d4d3b5bb82",
+     "providerId": "opta:Player:ci37qg2uu0z3nppxvn0z9034l",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Roberto",
+     "lastName": "Gagliardini",
+     "shirtName": "R. Gagliardini",
+     "displayName": "Gagliardini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ee4aa696a3a14a04979f1ce6f835331a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::96055ebe6dee4170beba44ac206302b1",
+     "providerId": "opta:Player:ez84mmwnccba4l4mprch00962",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Omari Nathan",
+     "lastName": "Forson",
+     "shirtName": "Omari Forson",
+     "displayName": "Forson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a27880cf9f3a4754892fbfbc4ed31360",
+     "providerId": "opta:Player:36gtyjc6dg13f6ff8go77951x",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Mirko",
+     "lastName": "Maric",
+     "shirtName": "Mirko Maric",
+     "displayName": "Marić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::49486d5a5c4c4af08d35ad0cf879227e",
+     "providerId": "opta:Player:9noq0ogmqc2cwj3nowoadcdlh",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Mattia",
+     "lastName": "Valoti",
+     "shirtName": "Mattia Valoti",
+     "displayName": "Valoti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d9251f37b2a045cfae6d735c6658dae9",
+     "providerId": "opta:Player:6zcok1vbaitp91a9nrac20t05",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Danilo",
+     "lastName": "D'ambrosio",
+     "shirtName": "D. D'ambrosio",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::83319bf0373b43518888065782bf262a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f7f6ded8c3724d20bb5246f79c123019",
+     "providerId": "opta:Player:5bi4t2dob5mo0okdbv6sna6fo",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Alessandro",
+     "lastName": "Bianco",
+     "shirtName": "A. Bianco",
+     "displayName": "Bianco",
+     "starter": false,
+     "events": [
+      {
+       "type": "goal",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d0d94d3638ca4feebb59b8c947c85f11"
+      },
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9ff28fb62c554f96a4f89c0a9c14e598"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bf0959249bd94fd3b0ba34a0e9991e62",
+     "providerId": "opta:Player:9gz2cxsw9fzw3gf05zbcoj1g4",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Niccolò",
+     "lastName": "Postiglione",
+     "shirtName": "",
+     "displayName": "Postiglione",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::25b7f437c1644538814b58c7cc27807f",
+     "providerId": "opta:Player:ac4saxgx8emqfsxwmlq9cubkk",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Kevin Maussi",
+     "lastName": "Martins",
+     "shirtName": "Kevin Martins",
+     "displayName": "Martins",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::05897f6701eb4d848b01084345b24ffc",
+     "providerId": "opta:Player:rblijalj0qnu455jtjoi3pjo",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Samuele",
+     "lastName": "Vignato",
+     "shirtName": "S. Vignato",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::23a565adf58c4105b28af9c5e3ab150a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::182ac9f618344346935fc08f81456bbe",
+     "providerId": "opta:Player:bcqsti42fhzap385lnfe4auhh",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Patrick",
+     "lastName": "Ciurria",
+     "shirtName": "Patrick Ciurria",
+     "displayName": "Ciurria",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:26:38.657Z",
+   "sha256": "f20a4f827263af1b1a763be82c298b97be56513cf410ce6f68799fa0b375fa43"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:38.744Z",
+   "sha256": "aff1311649daa627e1d1924e0e82cbd2c4594a8a216edaf41c6c1eb5ff6ad25c",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Turati",
+     "giocatoreIdFantacalcio": 4867,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Izzo",
+     "giocatoreIdFantacalcio": 226,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "D'Ambrosio",
+     "giocatoreIdFantacalcio": 253,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pereira P.",
+     "giocatoreIdFantacalcio": 729,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kyriakopoulos",
+     "giocatoreIdFantacalcio": 4530,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mari'",
+     "giocatoreIdFantacalcio": 4904,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Carboni A.",
+     "giocatoreIdFantacalcio": 4925,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gagliardini",
+     "giocatoreIdFantacalcio": 801,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pessina",
+     "giocatoreIdFantacalcio": 2741,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bianco",
+     "giocatoreIdFantacalcio": 5516,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vignato S.",
+     "giocatoreIdFantacalcio": 5879,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bondo",
+     "giocatoreIdFantacalcio": 5992,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Caprari",
+     "giocatoreIdFantacalcio": 1958,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Djuric",
+     "giocatoreIdFantacalcio": 5471,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mota",
+     "giocatoreIdFantacalcio": 5882,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 13.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Maric",
+     "giocatoreIdFantacalcio": 6250,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Montipo'",
+     "giocatoreIdFantacalcio": 4957,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 3,
+     "votoItalia": 6,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Faraoni",
+     "giocatoreIdFantacalcio": 581,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Magnani",
+     "giocatoreIdFantacalcio": 2769,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bradaric",
+     "giocatoreIdFantacalcio": 5532,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tchatchoua",
+     "giocatoreIdFantacalcio": 6480,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ghilardi",
+     "giocatoreIdFantacalcio": 6631,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lazovic",
+     "giocatoreIdFantacalcio": 236,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kastanos",
+     "giocatoreIdFantacalcio": 2117,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Duda",
+     "giocatoreIdFantacalcio": 4342,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Belahyane",
+     "giocatoreIdFantacalcio": 6191,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Serdar",
+     "giocatoreIdFantacalcio": 6458,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Suslov",
+     "giocatoreIdFantacalcio": 6486,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sarr A.",
+     "giocatoreIdFantacalcio": 6159,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mosquera",
+     "giocatoreIdFantacalcio": 6630,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Rocha Livramento",
+     "giocatoreIdFantacalcio": 6644,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/8",
+      "estrattoIl": "2026-10-06T20:35:38.744Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Tengstedt",
+     "giocatoreIdFantacalcio": 6801,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 3 Monza 21/10/2024 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

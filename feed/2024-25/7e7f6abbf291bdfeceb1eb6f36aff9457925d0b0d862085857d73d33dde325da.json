@@ -1,0 +1,1707 @@
+{
+ "label": "Genoa-Como (g12)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-11-07T19:45:00Z",
+  "hoursAfterKickoff": 16752.6547625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:45.966Z",
+  "sha256": "6cc52cbb3101ba01ab17cfeb79cd055614b1a2c5b127ed28aa1f917fcf75e38d"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::d2bf4088abff48abb736c2b778cb8e70",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-11-07T19:45:00Z",
+   "matchday": 12,
+   "home": "Genoa",
+   "away": "Como",
+   "homeTeamId": "serie-a::Football_Team::8c7aa94d22f44738951748e2ccdf319a",
+   "awayTeamId": "serie-a::Football_Team::367e70bf50b346209f8a0f16429850cb",
+   "homeScore": 1,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 8
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::d2bf4088abff48abb736c2b778cb8e70",
+   "homeTeam": "Genoa",
+   "awayTeam": "Como",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::03ea7d3b17b74069830746c24db1de69",
+     "providerId": "opta:Player:9dc7uictce9dq0tbphn74qz85",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Nicola",
+     "lastName": "Leali",
+     "shirtName": "Nicola Leali",
+     "displayName": "Leali",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::57434fa1513942daab95debc399d1e11",
+     "providerId": "opta:Player:2y25g5wgiygxbp97r22o1a1as",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alan Agustin",
+     "lastName": "Matturro Romero",
+     "shirtName": "A. Matturro",
+     "displayName": "Matturro",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ac9814fb4e4245378d64a972b9fd3199",
+     "providerId": "opta:Player:7ojvhhfvbtbn60sc50y4l2ctm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Johan Felipe",
+     "lastName": "Vasquez Ibarra",
+     "shirtName": "Johan Vásquez",
+     "displayName": "J. Vásquez",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cdf7936c03a041c1a0fe067134f46d20",
+     "providerId": "opta:Player:4u772cqkpukg725e11yf9y28l",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Vogliacco",
+     "shirtName": "Alessandro Vogliacco",
+     "displayName": "Vogliacco",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba"
+      },
+      {
+       "type": "yellow-card",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488",
+     "providerId": "opta:Player:eh9sh9aa10zrp80l6e4l0c7h1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Aaron",
+     "lastName": "Martin Caricol",
+     "shirtName": "Aarón Martín",
+     "displayName": "Martín",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 32,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d",
+     "providerId": "opta:Player:8psio8fqce76uinoqpilzxsd1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Stefano",
+     "lastName": "Sabelli",
+     "shirtName": "Stefano Sabelli",
+     "displayName": "Sabelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1a115e96dce24288ae6ac16522b66ceb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a",
+     "providerId": "opta:Player:2um03dny7h3sdvehq3bygd1t6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten Wetche",
+     "lastName": "Frendrup",
+     "shirtName": "Morten Frendrup",
+     "displayName": "Frendrup",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c93da55122bf4695ad42c7fea7a85df9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a187be5f53b74c04a5a307c936ed5f49",
+     "providerId": "opta:Player:d4e0d51gajxau9pbdt8ccrys5",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Milan",
+     "lastName": "Badelj",
+     "shirtName": "M. Badelj",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f3670f8a13ba4c38a58d8f59eda2e1b0",
+     "providerId": "opta:Player:9qzxygb9hyzag1szans0k2jth",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten",
+     "lastName": "Thorsby",
+     "shirtName": "Morten Thorsby",
+     "displayName": "Thorsby",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934",
+     "providerId": "opta:Player:bf41pexjnkx8o1wdxudesfac4",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Osayuki Jeff",
+     "lastName": "Ekhator",
+     "shirtName": "Jeff Ekhator",
+     "displayName": "Ekhator",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fffb8c5c20044472a1ab25adc93ab802"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba",
+     "providerId": "opta:Player:153ljvbov0n176vm9fdaizoix",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Andrea",
+     "lastName": "Pinamonti",
+     "shirtName": "A. Pinamonti",
+     "displayName": "Pinamonti",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::308ee64855794d61811119f70f5f018e",
+     "providerId": "opta:Player:4b6mhmoeo78f8x928q2imp591",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Daniele",
+     "lastName": "Sommariva",
+     "shirtName": "Daniele Sommariva",
+     "displayName": "Sommariva",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6dcdd579fc3040a1975150f689072165",
+     "providerId": "opta:Player:3okob1fs1l9get2ziqsha076y",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Franz",
+     "lastName": "Stolz",
+     "shirtName": "",
+     "displayName": "Stolz",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::108d67a926264eb89df91615c9690fac",
+     "providerId": "opta:Player:d6sstsibcsfxporots5k9cicp",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Emil",
+     "lastName": "Bohinen",
+     "shirtName": "Emil Bohinen",
+     "displayName": "Bohinen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c93da55122bf4695ad42c7fea7a85df9",
+     "providerId": "opta:Player:2qvv9pjgwxutk0sx2dnbndm8l",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Gaston Rodrigo",
+     "lastName": "Pereiro Lopez",
+     "shirtName": "Gastón Pereiro",
+     "displayName": "Pereiro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c",
+     "providerId": "opta:Player:bjob8tftnxojnytcj7juo0ga2",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Fabio",
+     "lastName": "Miretti",
+     "shirtName": "Fabio Miretti",
+     "displayName": "Miretti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488"
+      },
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::65bb7b8d02084d858daeba0cff0cc4eb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::65bb7b8d02084d858daeba0cff0cc4eb",
+     "providerId": "opta:Player:1lxfpn0wmr895me9xbzcfnh90",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Marcandalli",
+     "shirtName": "Alessandro Marcandalli",
+     "displayName": "Marcandalli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fffb8c5c20044472a1ab25adc93ab802",
+     "providerId": "opta:Player:e9bvab77g9rr1g092mhz6bff9",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Mario",
+     "lastName": "Balotelli",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934"
+      },
+      {
+       "type": "yellow-card",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::821fb35ddafe4e92bd03a8da07cd0531",
+     "providerId": "opta:Player:224a72g0ssa77eo0hb3ruvuhg",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Lior",
+     "lastName": "Kassa",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fef893261b0b4f6d9ea99c144ae8ede8",
+     "providerId": "opta:Player:1fifu7lcu3450mx2uyi1yv2tw",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Federico",
+     "lastName": "Accornero",
+     "shirtName": "Federico Accornero",
+     "displayName": "Accornero",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1a115e96dce24288ae6ac16522b66ceb",
+     "providerId": "opta:Player:7kbn6vt37rfgd9yszzvx9idm2",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Zanoli",
+     "shirtName": "A. Zanoli",
+     "displayName": "Zanoli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d2fa3bc0f70849d1897fed1d8fa22626",
+     "providerId": "opta:Player:70zr0nhl2tgyor1oajhcxg6j8",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Honest",
+     "lastName": "Ahanor",
+     "shirtName": "Honest Ahanor",
+     "displayName": "Ahanor",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::30636499c5a64aeb8363e2a6598888c7",
+     "providerId": "opta:Player:bxudrqx99a3zv5gajdzxz38id",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Filippo",
+     "lastName": "Melegoni",
+     "shirtName": "Filippo Melegoni",
+     "displayName": "Melegoni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c",
+     "providerId": "opta:Player:7xdhy2xi9mrhzjn6aiatd9ono",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Patrizio",
+     "lastName": "Masini",
+     "shirtName": "Patrizio Masini",
+     "displayName": "Masini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3d1630a5c43a4307a85f23cd3157ccf7",
+     "providerId": "opta:Player:76r2yw3wtql61qh5l0yumdn85",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Pepe",
+     "lastName": "Reina",
+     "shirtName": "P. Reina",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::076fcd52000d423399e6caba08dd9f64",
+     "providerId": "opta:Player:a3w1uczgmswm3cwk4vmvoglhx",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Moreno Perez",
+     "shirtName": "Alberto Moreno",
+     "displayName": "Alberto Moreno",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de184c78c1c844d3be7e3c4fd2a3910a"
+      },
+      {
+       "type": "yellow-card",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::10128bcdb2974a83908a844014b93ecb",
+     "providerId": "opta:Player:djpsc1fvcnrh61c071t00gmad",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Marc-Oliver",
+     "lastName": "Kempf",
+     "shirtName": "Marc-Oliver Kempf",
+     "displayName": "Kempf",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fffc084cc99648e8a49304ce1b960215",
+     "providerId": "opta:Player:2fbg7v69wyis2his47u8ij4rt",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Dossena",
+     "shirtName": "Alberto Dossena",
+     "displayName": "Dossena",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0cae729dddfb432dba1ad7789b0f910e",
+     "providerId": "opta:Player:7yeax9s2rpt3xuace2b77xgid",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Edoardo",
+     "lastName": "Goldaniga",
+     "shirtName": "E. Goldaniga",
+     "displayName": "Goldaniga",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6867551cf5a6427a9ab81bd06fd9d455",
+     "providerId": "opta:Player:92vjurxjnipl210yanki2oz8q",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Lucas",
+     "lastName": "Da Cunha",
+     "shirtName": "Lucas da Cunha",
+     "displayName": "da Cunha",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 17,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::027970dce05b45359fbaa7d11eb36313"
+      },
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9fe0fecc2aa24bb48c3074af958cd460"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8efffa24ecbc49119c24eebf18306943",
+     "providerId": "opta:Player:vzbmf6lqvbw398clnt7jyiqy",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Yannik",
+     "lastName": "Engelhardt",
+     "shirtName": "Yannik Engelhardt",
+     "displayName": "Engelhardt",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::027970dce05b45359fbaa7d11eb36313",
+     "providerId": "opta:Player:9i6hs8toyjwrh7ub04vow8wes",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Nicolas",
+     "lastName": "Paz Martinez",
+     "shirtName": "Nico Paz",
+     "displayName": "Nico Paz",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::996213fa92014868bf3a50155d8bd4dd",
+     "providerId": "opta:Player:5f13ro5hgmago2bmqtzjw5ey",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alieu",
+     "lastName": "Fadera",
+     "shirtName": "Alieu Fadera",
+     "displayName": "Fadera",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::73e8d120a4234676960dea6b421bea7d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::526c1ebfad434e53936bb1c7e24db3a5",
+     "providerId": "opta:Player:44f0q2ucrld1rwcwx63vgs7hl",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Gabriel",
+     "lastName": "Strefezza",
+     "shirtName": "Gabriel Strefezza",
+     "displayName": "Strefezza",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::225f6cb9653e4e9aa816c7ba9d02384f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4919025f871840d199d459a2c636266e",
+     "providerId": "opta:Player:7dnu1vdavskc4ct33k88lpdcl",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Patrick",
+     "lastName": "Cutrone",
+     "shirtName": "Patrick Cutrone",
+     "displayName": "Cutrone",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::17c07473515a40a9a9ee3211a33ab18d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffc8be5bd4e749d0b24674083abab469",
+     "providerId": "opta:Player:e2dn4s6p2f6xnbaje17wd3jyt",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Emil",
+     "lastName": "Audero Mulyadi",
+     "shirtName": "Emil Audero",
+     "displayName": "Audero",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de184c78c1c844d3be7e3c4fd2a3910a",
+     "providerId": "opta:Player:67na4se53q1wb8vwsjx13bka2",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Marco",
+     "lastName": "Sala",
+     "shirtName": "M. Sala",
+     "displayName": "M. Sala",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::076fcd52000d423399e6caba08dd9f64"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::73e8d120a4234676960dea6b421bea7d",
+     "providerId": "opta:Player:2lr51fk6qzyf6xskjd9dse8yd",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alessio",
+     "lastName": "Iovine",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::996213fa92014868bf3a50155d8bd4dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::17c07473515a40a9a9ee3211a33ab18d",
+     "providerId": "opta:Player:97mmzzi3dwdos6jtj2m05w4ph",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Andrea",
+     "lastName": "Belotti",
+     "shirtName": "A. Belotti",
+     "displayName": "Belotti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4919025f871840d199d459a2c636266e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a576292a7d5047e0bffa0e38b5556934",
+     "providerId": "opta:Player:m9kg2l0d9lr6r3k0hu8hqgb8",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Ali Jasim El Aibi",
+     "lastName": "Al Tameemi",
+     "shirtName": "Ali Jasim",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d19e41c14e1e4e0b9b3bce130aca9ea9",
+     "providerId": "opta:Player:e3fgsuh8gm0zd6g3ihn1otzpw",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Fellipe Jack",
+     "lastName": "Ozilio Moreira Pacheco",
+     "shirtName": "Fellipe Jack",
+     "displayName": "Fellipe Jack",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d06c2e6b91bb4f10a33b68fc87a178c0",
+     "providerId": "opta:Player:209wrczpg1xivjis7rmntw0r9",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Cerri",
+     "shirtName": "A. Cerri",
+     "displayName": "Cerri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9fe0fecc2aa24bb48c3074af958cd460",
+     "providerId": "opta:Player:d1s6ucvydq0oe5vsg00e9me7e",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Matthias",
+     "lastName": "Braunöder",
+     "shirtName": "Matthias Braunöder",
+     "displayName": "Braunöder",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6867551cf5a6427a9ab81bd06fd9d455"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5d93f761ec4f48c7b9991bd813e32d14",
+     "providerId": "opta:Player:egj95yd1uyml2y9lqgbsiqg44",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Giuseppe",
+     "lastName": "Mazzaglia",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::225f6cb9653e4e9aa816c7ba9d02384f",
+     "providerId": "opta:Player:c39nv7jn5c3qzglosgzigif2t",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Simone",
+     "lastName": "Verdi",
+     "shirtName": "S. Verdi",
+     "displayName": "Verdi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::526c1ebfad434e53936bb1c7e24db3a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4d33a4b049be419693a2e4e5061840d0",
+     "providerId": "opta:Player:8rn2c1zyjnyw0tyi43ulhbetx",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Federico",
+     "lastName": "Barba",
+     "shirtName": "F. Barba",
+     "displayName": "Barba",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:27:31.996Z",
+   "sha256": "f3e798a0460bcddd0a818ccd91a5491cac655f5afeb36088e44877c8be734c4c"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:45.966Z",
+   "sha256": "6cc52cbb3101ba01ab17cfeb79cd055614b1a2c5b127ed28aa1f917fcf75e38d",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Reina",
+     "giocatoreIdFantacalcio": 387,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Goldaniga",
+     "giocatoreIdFantacalcio": 418,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sala M.",
+     "giocatoreIdFantacalcio": 4386,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Moreno Alb.",
+     "giocatoreIdFantacalcio": 5435,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dossena",
+     "giocatoreIdFantacalcio": 6230,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Iovine",
+     "giocatoreIdFantacalcio": 6654,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kempf",
+     "giocatoreIdFantacalcio": 6893,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Verdi",
+     "giocatoreIdFantacalcio": 376,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Strefezza",
+     "giocatoreIdFantacalcio": 4486,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Da Cunha",
+     "giocatoreIdFantacalcio": 5559,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Braunoder",
+     "giocatoreIdFantacalcio": 6656,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Engelhardt",
+     "giocatoreIdFantacalcio": 6676,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fadera",
+     "giocatoreIdFantacalcio": 6815,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Paz N.",
+     "giocatoreIdFantacalcio": 6875,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 8.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Belotti",
+     "giocatoreIdFantacalcio": 441,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cutrone",
+     "giocatoreIdFantacalcio": 2155,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Leali",
+     "giocatoreIdFantacalcio": 188,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sabelli",
+     "giocatoreIdFantacalcio": 791,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Martin",
+     "giocatoreIdFantacalcio": 2593,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vasquez",
+     "giocatoreIdFantacalcio": 5514,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zanoli",
+     "giocatoreIdFantacalcio": 5527,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Matturro",
+     "giocatoreIdFantacalcio": 6244,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vogliacco",
+     "giocatoreIdFantacalcio": 6245,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marcandalli",
+     "giocatoreIdFantacalcio": 6660,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Badelj",
+     "giocatoreIdFantacalcio": 170,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thorsby",
+     "giocatoreIdFantacalcio": 4404,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pereiro",
+     "giocatoreIdFantacalcio": 4886,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frendrup",
+     "giocatoreIdFantacalcio": 5791,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Miretti",
+     "giocatoreIdFantacalcio": 5813,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Balotelli",
+     "giocatoreIdFantacalcio": 696,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pinamonti",
+     "giocatoreIdFantacalcio": 2038,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/12",
+      "estrattoIl": "2026-10-06T20:35:45.966Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekhator",
+     "giocatoreIdFantacalcio": 6822,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Como 07/11/2024 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

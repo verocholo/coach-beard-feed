@@ -1,0 +1,1772 @@
+{
+ "label": "Parma-Empoli (g9)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-10-27T11:30:00Z",
+  "hoursAfterKickoff": 17024.9047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:40.708Z",
+  "sha256": "5a38d69fc13c97212e4a06345b45fb8f8801f479229c65a68afc0dca494ab182"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::67d5247d44394bb4a3ef7d006c2fb91c",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-10-27T11:30:00Z",
+   "matchday": 9,
+   "home": "Parma",
+   "away": "Empoli",
+   "homeTeamId": "serie-a::Football_Team::3294993c79b14d918ccdc78da0fb90c5",
+   "awayTeamId": "serie-a::Football_Team::4de00d41f5654013b192a9515df5bf39",
+   "homeScore": 1,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 4
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::67d5247d44394bb4a3ef7d006c2fb91c",
+   "homeTeam": "Parma",
+   "awayTeam": "Empoli",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::46948dee4bd54172a455ffab38485dbc",
+     "providerId": "opta:Player:2mfunwzltzdnmzlcjyvx752i",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Zion",
+     "lastName": "Suzuki",
+     "shirtName": "Zion Suzuki",
+     "displayName": "Suzuki",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d58bdcc9557641d3868baea58a37bdf3",
+     "providerId": "opta:Player:d9bg5jjv8pz0f8u55x3hg0962",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Emanuele",
+     "lastName": "Valeri",
+     "shirtName": "Emanuele Valeri",
+     "displayName": "Valeri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2734fbf9386f41ccacf20e530f1f60ad",
+     "providerId": "opta:Player:5rfktdh40rf3noeykoauyhca2",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Botond",
+     "lastName": "Balogh",
+     "shirtName": "Botond Balogh",
+     "displayName": "Balogh",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a01dba5f6172497b9d2f35d1cb37d24a",
+     "providerId": "opta:Player:r9rn4eaw3twb224jrpojz0x6",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Enrico",
+     "lastName": "Delprato",
+     "shirtName": "Enrico Delprato",
+     "displayName": "Delprato",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 16,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::81c9e3d7e6d94a7384066d055f96a06b",
+     "providerId": "opta:Player:68iplmlkdp5wkgnlnnanj9be1",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Woyo",
+     "lastName": "Coulibaly",
+     "shirtName": "Woyo Coulibaly",
+     "displayName": "W. Coulibaly",
+     "starter": true,
+     "events": [
+      {
+       "type": "own-goal",
+       "time": 35,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::23085f3390244b7ead51327029b80de5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b",
+     "providerId": "opta:Player:b7l20ljluxk74v0ok82s0iz56",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Adrian",
+     "lastName": "Bernabe' Garcia",
+     "shirtName": "Adrián Bernabé",
+     "displayName": "Bernabé",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8f967973aae8494a88a0bd219be50e94"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::064aed514b584e55a8fcefb1be3db5eb",
+     "providerId": "opta:Player:8zke93n0uca6gf2jihqby28d1",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Hernani",
+     "lastName": "Azevedo Júnior",
+     "shirtName": "Hernani",
+     "displayName": "Hernani",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4b27493789914a909a54f27f57cd3e45"
+      },
+      {
+       "type": "yellow-card",
+       "time": 50,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 4,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::38861941353d48968b5312cfe5ff32b7",
+     "providerId": "opta:Player:ho87m362sey4msdjp4n180oa",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Matteo",
+     "lastName": "Cancellieri",
+     "shirtName": "M. Cancellieri",
+     "displayName": "Cancellieri",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::50da604b3a694f0581a2066168c2988b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::44d3b9eda1d0403faf7b95a1ac82308a",
+     "providerId": "opta:Player:biee6dvb524juzai7iryyskix",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Dennis",
+     "lastName": "Man",
+     "shirtName": "D. Man",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4dd1f0f57e1d4589a5e553cbf6451aaf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9037ff0e7e834729838dceb4b44250bf",
+     "providerId": "opta:Player:ejbp3sxls7lgrg6y3a9q4u978",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Ange-Yoan Laure",
+     "lastName": "Bonny",
+     "shirtName": "Ange-Yoan Bonny",
+     "displayName": "Bonny",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a73af121dd7e433693cb4f35b4ea131b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b49133633ce6423ca1065840c606211d",
+     "providerId": "opta:Player:ak7v165q53kqigk2wouifs639",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Leandro",
+     "lastName": "Chichizola",
+     "shirtName": "Leandro Chichizola",
+     "displayName": "Chichizola",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c34da415302b4416a28d463708a8ec16",
+     "providerId": "opta:Player:ais3wh8wz8oeyjpwv84o4ybfu",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Edoardo",
+     "lastName": "Corvi",
+     "shirtName": "Edoardo Corvi",
+     "displayName": "Corvi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c738f36256404be3830f701e8ee68149",
+     "providerId": "opta:Player:befbveuodyomkhm9ed31kb4a2",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Lautaro Rodrigo",
+     "lastName": "Valenti",
+     "shirtName": "Lautaro Valenti",
+     "displayName": "Valenti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5908e4c64e5a46f1a6c846810586e624",
+     "providerId": "opta:Player:25wawsdczm69ctbpw5nn51kvd",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Adrian Dawid",
+     "lastName": "Benedyczak",
+     "shirtName": "Adrian Benedyczak",
+     "displayName": "Benedyczak",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abcfe9eb7e2a40eaad6b03168cb911bb",
+     "providerId": "opta:Player:1to07m18m7wqroewvyxzrz0lx",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Nahuel",
+     "lastName": "Estevez Alvarez",
+     "shirtName": "Nahuel Estévez",
+     "displayName": "Estévez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4dd1f0f57e1d4589a5e553cbf6451aaf",
+     "providerId": "opta:Player:f4724kw58pqrw2epu4ctvhwmi",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Gabriel Andre Joseph",
+     "lastName": "Charpentier",
+     "shirtName": "Gabriel Charpentier",
+     "displayName": "Charpentier",
+     "starter": false,
+     "events": [
+      {
+       "type": "goal",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d58bdcc9557641d3868baea58a37bdf3"
+      },
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::44d3b9eda1d0403faf7b95a1ac82308a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50da604b3a694f0581a2066168c2988b",
+     "providerId": "opta:Player:21bdtv9f28xkfmo2dy3uk7bah",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Pontus Skule Erik",
+     "lastName": "Almqvist",
+     "shirtName": "Pontus Almqvist",
+     "displayName": "Almqvist",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::38861941353d48968b5312cfe5ff32b7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4b27493789914a909a54f27f57cd3e45",
+     "providerId": "opta:Player:cjf412x9sg56vos0jkj85k3ys",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Lamine Mandela",
+     "lastName": "Keita",
+     "shirtName": "Mandela Keita",
+     "displayName": "Keita",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::064aed514b584e55a8fcefb1be3db5eb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e2a458c59eb4cfaa2212212d59711f5",
+     "providerId": "opta:Player:8ct2oybj8d1b03aklkg8ihbf8",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Antoine",
+     "lastName": "Hainaut",
+     "shirtName": "Antoine Hainaut",
+     "displayName": "Hainaut",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a73af121dd7e433693cb4f35b4ea131b",
+     "providerId": "opta:Player:7nk0a34pfkkcvzo1ca9bl8sbu",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Drissa",
+     "lastName": "Camara",
+     "shirtName": "D. Camara",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9037ff0e7e834729838dceb4b44250bf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8f967973aae8494a88a0bd219be50e94",
+     "providerId": "opta:Player:b6qu8gv2mpfju7a7qwm2wcciy",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Valentin Mihai",
+     "lastName": "Mihăilă",
+     "shirtName": "V. Mihaila",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e912e1f3e59946e9a62a735b38dc6838",
+     "providerId": "opta:Player:9ejageyf74hgdw1n0uvnbc74k",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Giovanni",
+     "lastName": "Leoni",
+     "shirtName": "Giovanni Leoni",
+     "displayName": "Leoni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1f875b9a10034297bd209b79cd6ce487",
+     "providerId": "opta:Player:3z5j5lcbi4r5tl5iif1mf95g",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Anas",
+     "lastName": "Haj Mohamed",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0a6cf99d97654d8a887f31a91fa4b537",
+     "providerId": "opta:Player:awi07pi5jmngr7x7njq7znwt1",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Gian Luca",
+     "lastName": "Di Chiara",
+     "shirtName": "Gianluca Di Chiara",
+     "displayName": "Di Chiara",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::410303ba6eb74fcb882fc6aca990c956",
+     "providerId": "opta:Player:fb1s5est3fuw1flrjl9isusp",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Devis Estiven",
+     "lastName": "Vasquez Llach",
+     "shirtName": "D. Vasquez",
+     "displayName": "D. Vásquez",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe",
+     "providerId": "opta:Player:2e0ipswbkv4vf7lav6ee1j3oq",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Mattia",
+     "lastName": "Viti",
+     "shirtName": "Mattia Viti",
+     "displayName": "Viti",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::deaa04c0b01942838b061bf8acc34282",
+     "providerId": "opta:Player:54mmovmx3osoxgbloe9rzmx9l",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Ardian",
+     "lastName": "Ismajli",
+     "shirtName": "Ardian Ismajli",
+     "displayName": "Ismajli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50a60abf290e4880afe7411c15616fb2",
+     "providerId": "opta:Player:6pzskxh8wy2b4gaf4kj6zuivo",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Saba",
+     "lastName": "Goglichidze",
+     "shirtName": "Saba Goglichidze",
+     "displayName": "Goglichidze",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7e44f29f2a74a10b079abe0d392bc5a",
+     "providerId": "opta:Player:90pjbz2aq8vz4qapqu1yt2ynd",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Giuseppe",
+     "lastName": "Pezzella",
+     "shirtName": "Giuseppe Pezzella",
+     "displayName": "Pezzella",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8763e24fb296404e9360dab1c1a6c0aa",
+     "providerId": "opta:Player:1fdgli7rrzvlhcs1exckc0r11",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Alberto",
+     "lastName": "Grassi",
+     "shirtName": "A. Grassi",
+     "displayName": "Grassi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c608c4d673404cd7adf05b86d036e0f3"
+      },
+      {
+       "type": "yellow-card",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5e99fff87e3e41aeade5683c90094957",
+     "providerId": "opta:Player:8lta4w1nytggiwnaqv4e5cc0l",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Emanuel",
+     "lastName": "Gyasi",
+     "shirtName": "Emmanuel Gyasi",
+     "displayName": "Gyasi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d00c221b12c74ce08e4ef1e38addca64",
+     "providerId": "opta:Player:byjq5v4tqpjt9scaj17ccuesq",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Faustino Adebola",
+     "lastName": "Anjorin",
+     "shirtName": "Tino Anjorin",
+     "displayName": "Anjorin",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 20,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::15d093aa2d3b47819ba90355e97d2c0e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5",
+     "providerId": "opta:Player:6e9fu9o226zn6jzx02jutvi3u",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Jacopo",
+     "lastName": "Fazzini",
+     "shirtName": "Jacopo Fazzini",
+     "displayName": "Fazzini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::41fa0af8c1a04fc183b1f72859f37d4a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d175f39f24cc4afc87d0290737ab6d10",
+     "providerId": "opta:Player:54c43p8ykqxjtbmy2z5nakijt",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Ola",
+     "lastName": "Solbakken",
+     "shirtName": "O. Solbakken",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::087035d08ee3497a8635416bb03e579f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7934d2c8d3ba4a34a1e1e46c2afb4a8d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::75ccbc3aa26f422ebcdf89b1a26f8e2e",
+     "providerId": "opta:Player:vxehbg5v0s42cmvntbd6xc7o",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Jacopo",
+     "lastName": "Seghetti",
+     "shirtName": "J. Seghetti",
+     "displayName": "Seghetti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bd503deb2e9447fd8314978582571644",
+     "providerId": "opta:Player:9t753r5hnyq6qe5o7csuurw15",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Federico",
+     "lastName": "Brancolini",
+     "shirtName": "Federico Brancolini",
+     "displayName": "Brancolini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::15d093aa2d3b47819ba90355e97d2c0e",
+     "providerId": "opta:Player:2l87vg4m0glbbdvnrg4zud51x",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Liam",
+     "lastName": "Henderson",
+     "shirtName": "Liam Henderson",
+     "displayName": "Henderson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d00c221b12c74ce08e4ef1e38addca64"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ff2c6c9226014d4189d926d17ed14339",
+     "providerId": "opta:Player:ezpkmoz1z08da3o3g45m12lzp",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Junior",
+     "lastName": "Sambia",
+     "shirtName": "J. Sambia",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7934d2c8d3ba4a34a1e1e46c2afb4a8d",
+     "providerId": "opta:Player:ds0ka65ypjubtgp60kupc7dnt",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Pietro",
+     "lastName": "Pellegri",
+     "shirtName": "Pietro Pellegri",
+     "displayName": "Pellegri",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a5857e6c5af14b0a8faade09103a5e93",
+     "providerId": "opta:Player:an5eip4p2zmw49hh9eqksigo9",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Liberato",
+     "lastName": "Cacace",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::92664974620c4d13b1f283ba22787318",
+     "providerId": "opta:Player:c8vkca2q4vypf9rwcqvkdbfxm",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Luca",
+     "lastName": "Belardinelli",
+     "shirtName": "Luca Belardinelli",
+     "displayName": "Belardinelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::087035d08ee3497a8635416bb03e579f",
+     "providerId": "opta:Player:4az5n8aekw6ipzu7fagqhkys4",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Emmanuel",
+     "lastName": "Ekong",
+     "shirtName": "E. Ekong",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d175f39f24cc4afc87d0290737ab6d10"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::05e6582794f1475abb32a7d1d26fb404",
+     "providerId": "opta:Player:9pe3yqjsmcjtxdx7bdne3d4ut",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Mattia",
+     "lastName": "De Sciglio",
+     "shirtName": "M. De Sciglio",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1d944920a2fb4952877847e11ccae21e",
+     "providerId": "opta:Player:ewlrfjbmk1resvq3w234lwr2s",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Lorenzo",
+     "lastName": "Tosto",
+     "shirtName": "Lorenzo Tosto",
+     "displayName": "Tosto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::41fa0af8c1a04fc183b1f72859f37d4a",
+     "providerId": "opta:Player:d7xfjvw4kun7fx4j9ldr6cb11",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Nicolas",
+     "lastName": "Haas",
+     "shirtName": "Nicolas Haas",
+     "displayName": "Haas",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a1ee3415386144ad88b60048528e69bd",
+     "providerId": "opta:Player:1ijyezydbb4zzio95vj0sr09g",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Luca",
+     "lastName": "Marianucci",
+     "shirtName": "Luca Marianucci",
+     "displayName": "Marianucci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::860306a52650438ab2f0e0e6e1fb9adb",
+     "providerId": "opta:Player:8rouava6glln14si4xxksgwt0",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Ismael",
+     "lastName": "Konate",
+     "shirtName": "Ismael Konaté",
+     "displayName": "Konaté",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c608c4d673404cd7adf05b86d036e0f3",
+     "providerId": "opta:Player:d9sakxlp96siw0z1jltszdlgp",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Youssef",
+     "lastName": "Maleh",
+     "shirtName": "Youssef Maleh",
+     "displayName": "Maleh",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8763e24fb296404e9360dab1c1a6c0aa"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:26:47.395Z",
+   "sha256": "c6512573af0ecf53829f0e77e90dba05b0eb63adcbf725e25a6920b0ae437a44"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:40.708Z",
+   "sha256": "5a38d69fc13c97212e4a06345b45fb8f8801f479229c65a68afc0dca494ab182",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Vasquez D.",
+     "giocatoreIdFantacalcio": 6125,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pezzella Giu.",
+     "giocatoreIdFantacalcio": 770,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ismajli",
+     "giocatoreIdFantacalcio": 5010,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Viti",
+     "giocatoreIdFantacalcio": 5718,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Goglichidze",
+     "giocatoreIdFantacalcio": 6537,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Grassi",
+     "giocatoreIdFantacalcio": 27,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Haas",
+     "giocatoreIdFantacalcio": 2161,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Henderson L.",
+     "giocatoreIdFantacalcio": 4498,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gyasi",
+     "giocatoreIdFantacalcio": 4992,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Maleh",
+     "giocatoreIdFantacalcio": 5457,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fazzini",
+     "giocatoreIdFantacalcio": 6010,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Anjorin",
+     "giocatoreIdFantacalcio": 6889,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pellegri",
+     "giocatoreIdFantacalcio": 2103,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Colombo",
+     "giocatoreIdFantacalcio": 4923,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekong",
+     "giocatoreIdFantacalcio": 6011,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Solbakken",
+     "giocatoreIdFantacalcio": 6119,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Suzuki",
+     "giocatoreIdFantacalcio": 6641,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Balogh",
+     "giocatoreIdFantacalcio": 5353,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valeri",
+     "giocatoreIdFantacalcio": 5862,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Delprato",
+     "giocatoreIdFantacalcio": 6664,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coulibaly W.",
+     "giocatoreIdFantacalcio": 6665,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 3,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 1,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Hernani",
+     "giocatoreIdFantacalcio": 4423,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "giocatoreIdFantacalcio": 5319,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Man",
+     "giocatoreIdFantacalcio": 5393,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Camara D.",
+     "giocatoreIdFantacalcio": 5421,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernabe'",
+     "giocatoreIdFantacalcio": 6666,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Keita M.",
+     "giocatoreIdFantacalcio": 6898,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mihaila",
+     "giocatoreIdFantacalcio": 5322,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cancellieri",
+     "giocatoreIdFantacalcio": 5500,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Almqvist",
+     "giocatoreIdFantacalcio": 6207,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bonny",
+     "giocatoreIdFantacalcio": 6669,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 2.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 2,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 2.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 1,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Charpentier",
+     "giocatoreIdFantacalcio": 6670,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Parma 1 - 1 Empoli 27/10/2024 - 12:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

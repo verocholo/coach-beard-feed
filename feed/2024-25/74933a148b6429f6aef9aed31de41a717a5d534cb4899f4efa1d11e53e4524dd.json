@@ -1,0 +1,1435 @@
+{
+ "label": "Torino-Monza (g13)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-11-24T14:00:00Z",
+  "hoursAfterKickoff": 16350.4047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:48.120Z",
+  "sha256": "8395720054ef836a06421faa765925f9950685bde262be2ae0f87693ff5ffa47"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::c5f6e3bb00124be29321df57d17e3f46",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-11-24T14:00:00Z",
+   "matchday": 13,
+   "home": "Torino",
+   "away": "Monza",
+   "homeTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "awayTeamId": "serie-a::Football_Team::9ba470f39580450fac7654956ba574fa",
+   "homeScore": 1,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 3
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::c5f6e3bb00124be29321df57d17e3f46",
+   "homeTeam": "Torino",
+   "awayTeam": "Monza",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::5b15b16a974543dc8fab8732ca7835ae",
+     "providerId": "opta:Player:5syage212151fcixahbq3k8ut",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Vanja",
+     "lastName": "Milinković-Savić",
+     "shirtName": "Vanja Milinković-Savić",
+     "displayName": "Milinković-Savić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21",
+     "providerId": "opta:Player:6gzi8qf8szxn99dnwh3h6gkb9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adam",
+     "lastName": "Masina",
+     "shirtName": "Adam Masina",
+     "displayName": "Masina",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e01f727bb7304efea37d2cc9fc152812",
+     "providerId": "opta:Player:7vykym3hy0qf1rxw3yv58kxgq",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Saul Basilio",
+     "lastName": "Coco Bassey Oubina",
+     "shirtName": "Saúl Coco",
+     "displayName": "Coco",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::92d8dd7d3de74369bddf1d125ed5bbad",
+     "providerId": "opta:Player:dnk24js88d4ie661mwo7jkq95",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Sebastian",
+     "lastName": "Walukiewicz",
+     "shirtName": "Sebastian Walukiewicz",
+     "displayName": "Walukiewicz",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1",
+     "providerId": "opta:Player:866f0f7taqhae91o3cjnnx0ph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Valentino",
+     "lastName": "Lazaro",
+     "shirtName": "Valentino Lazaro",
+     "displayName": "Lazaro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba",
+     "providerId": "opta:Player:e2oeysariwd866ksilu3t4m7e",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Samuele",
+     "lastName": "Ricci",
+     "shirtName": "Samuele Ricci",
+     "displayName": "Ricci",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a",
+     "providerId": "opta:Player:ebgkv548xih19m8uza7bgrvmd",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Nikola",
+     "lastName": "Vlašić",
+     "shirtName": "Nikola Vlašić",
+     "displayName": "Vlašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b0ee43987924349879779b9a10c47e5",
+     "providerId": "opta:Player:e7tz6hxliohn3gkj4cgl3j1ed",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Arnaldo Antonio",
+     "lastName": "Sanabria Ayala",
+     "shirtName": "Antonio Sanabria",
+     "displayName": "Sanabria",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81",
+     "providerId": "opta:Player:59ujnkvl7rlffomi2bqpsmbpx",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Che Zach Everton",
+     "lastName": "Adams",
+     "shirtName": "Ché Adams",
+     "displayName": "C. Adams",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0cc5d45eeae84da4b2c8d3335f629006",
+     "providerId": "opta:Player:a8s8bl5kp1rif458yt3qlevo5",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alberto Andrea",
+     "lastName": "Paleari",
+     "shirtName": "Alberto Paleari",
+     "displayName": "Paleari",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb5ceb32771241c0b5a7de1965b73310",
+     "providerId": "opta:Player:eh7ps2hd71ls027vlzhjviuad",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Antonio",
+     "lastName": "Donnarumma",
+     "shirtName": "A. Donnarumma",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::337edc1627994b61bcd6938cf486fccc",
+     "providerId": "opta:Player:ez8vzwaf7iuiv2ceetiwg6ymt",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Yann",
+     "lastName": "Karamoh",
+     "shirtName": "Y. Karamoh",
+     "displayName": "Karamoh",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600",
+     "providerId": "opta:Player:270djbc9lxhoupmd1djrii191",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Guillermo Alfonso",
+     "lastName": "Maripan Loayza",
+     "shirtName": "Guillermo Maripán",
+     "displayName": "Maripán",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9de4e3f19b5e489b9f8eec96d7532148",
+     "providerId": "opta:Player:eug1as582cl6ji78ylyq4zfo4",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ali Bina",
+     "lastName": "Dembelé",
+     "shirtName": "Ali Dembélé",
+     "displayName": "Dembélé",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c49829887c1045fd898b13b52aa02cf6",
+     "providerId": "opta:Player:e9u7cmvaem5p7x9px3yq9f179",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Borna",
+     "lastName": "Sosa",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56",
+     "providerId": "opta:Player:16kv5p8we3pwqpt5ktwrb7mj9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Mergim",
+     "lastName": "Vojvoda",
+     "shirtName": "M. Vojvoda",
+     "displayName": "Vojvoda",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd",
+     "providerId": "opta:Player:9sjt5rv156hr2llfu241r6cph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adrien Fidele",
+     "lastName": "Tameze Aoutsa",
+     "shirtName": "Adrien Tamèze",
+     "displayName": "Tameze",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a91fb2eb080b40ac9b577257f26ea6d5",
+     "providerId": "opta:Player:c4x02yr9yedl9xi27r2l4jkes",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Aaron",
+     "lastName": "Ciammaglichella",
+     "shirtName": "Aaron Ciammaglichella",
+     "displayName": "Ciammaglichella",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2d7273706f1648ca940ba7075a78b533",
+     "providerId": "opta:Player:6ol411t0mogw6m83heiqd0m39",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Karol",
+     "lastName": "Linetty",
+     "shirtName": "K. Linetty",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3",
+     "providerId": "opta:Player:9hl7yh42qvmdcjw69si5imnf8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alieu Badara",
+     "lastName": "Njie",
+     "shirtName": "Alieu Njie",
+     "displayName": "Njie",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7ee9be263d9542faa19317ebdd17e027",
+     "providerId": "opta:Player:5jfy7133kfbmyl8ur6ze9y2ju",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Stefano",
+     "lastName": "Turati",
+     "shirtName": "S. Turati",
+     "displayName": "Turati",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdbd7dfe606548d5919e564f018239bf",
+     "providerId": "opta:Player:chjjcy789cuwlsik2ibmubtyi",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Carboni",
+     "shirtName": "Andrea Carboni",
+     "displayName": "A. Carboni",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6b877858b0d14ac5bf60e2c21de3dd40",
+     "providerId": "opta:Player:erdqr6vrr5tlfypbks3og0dlh",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Pablo",
+     "lastName": "Mari Villar",
+     "shirtName": "Pablo Marí",
+     "displayName": "Pablo Marí",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f560b55a1ff1466da1ea41275cf41e4f",
+     "providerId": "opta:Player:thnje2i2s96fcbuscj57053p",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Armando",
+     "lastName": "Izzo",
+     "shirtName": "Armando Izzo",
+     "displayName": "Izzo",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b1831a9d79fa4a65baaa65f5d3dae7a5",
+     "providerId": "opta:Player:83hpavqn7r5bzcgxvjbcso3px",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Georgios",
+     "lastName": "Kyriakopoulos",
+     "shirtName": "G. Kyriakopoulos",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::83319bf0373b43518888065782bf262a",
+     "providerId": "opta:Player:a38yzp61vlk5x7ib4yspxrx05",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Pedro Miguel",
+     "lastName": "Almeida Lopes Pereira",
+     "shirtName": "Pedro Pereira",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f7f6ded8c3724d20bb5246f79c123019",
+     "providerId": "opta:Player:5bi4t2dob5mo0okdbv6sna6fo",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Alessandro",
+     "lastName": "Bianco",
+     "shirtName": "A. Bianco",
+     "displayName": "Bianco",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5395422c0fce40fba80082e4dc17ae13",
+     "providerId": "opta:Player:98x5xrku2jffo0in2u2htazca",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Warren Pierre",
+     "lastName": "Bondo",
+     "shirtName": "Warren Bondo",
+     "displayName": "Bondo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dd491713fb4649b6a431512f272de5d1",
+     "providerId": "opta:Player:1fsum47fkh62rer9xxe3smctm",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Daniel",
+     "lastName": "Maldini",
+     "shirtName": "Daniel Maldini",
+     "displayName": "Maldini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::05897f6701eb4d848b01084345b24ffc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::23a565adf58c4105b28af9c5e3ab150a",
+     "providerId": "opta:Player:dq037w5t3ht5zgd75mue4p1pl",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Dany",
+     "lastName": "Mota",
+     "shirtName": "Dany Mota",
+     "displayName": "Dany Mota",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9ff28fb62c554f96a4f89c0a9c14e598"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94",
+     "providerId": "opta:Player:dp1y9x5r6z1q120hj3sgyhxat",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Milan",
+     "lastName": "Djuric",
+     "shirtName": "Milan Djuric",
+     "displayName": "Djuric",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b1831a9d79fa4a65baaa65f5d3dae7a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::faea7272d5524a2fb5d1f2b64aa12b87",
+     "providerId": "opta:Player:40rsjcp9bgu6pt4bf2qrczyp6",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Semuel",
+     "lastName": "Pizzignacco",
+     "shirtName": "Semuel Pizzignacco",
+     "displayName": "Pizzignacco",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::894a787d7b2841ffb508126d4f0c386f",
+     "providerId": "opta:Player:9j9vm19kbcmeki09m5mdpe6ms",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Mazza",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b4e4c2d21769485ea0a865f6b5d5c30d",
+     "providerId": "opta:Player:av8588qp8e5wz3s7cg1n2qgnp",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Luca",
+     "lastName": "Caldirola",
+     "shirtName": "L. Caldirola",
+     "displayName": "Caldirola",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9ff28fb62c554f96a4f89c0a9c14e598",
+     "providerId": "opta:Player:6ck9f1ppvl65nui0x71q80jx1",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Gianluca",
+     "lastName": "Caprari",
+     "shirtName": "Gianluca Caprari",
+     "displayName": "Caprari",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::23a565adf58c4105b28af9c5e3ab150a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ba94b88e151c4d15b84236490d4751f8",
+     "providerId": "opta:Player:64z85woxiowxzod5e0g0x77x1",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Stefano",
+     "lastName": "Sensi",
+     "shirtName": "S. Sensi",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0a2dc8ae97814840b2d66181479af681",
+     "providerId": "opta:Player:721e4tx2wrwb4kd9w80fcq19l",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Samuele",
+     "lastName": "Birindelli",
+     "shirtName": "Samuele Birindelli",
+     "displayName": "Birindelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::96055ebe6dee4170beba44ac206302b1",
+     "providerId": "opta:Player:ez84mmwnccba4l4mprch00962",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Omari Nathan",
+     "lastName": "Forson",
+     "shirtName": "Omari Forson",
+     "displayName": "Forson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a27880cf9f3a4754892fbfbc4ed31360",
+     "providerId": "opta:Player:36gtyjc6dg13f6ff8go77951x",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Mirko",
+     "lastName": "Maric",
+     "shirtName": "Mirko Maric",
+     "displayName": "Marić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::49486d5a5c4c4af08d35ad0cf879227e",
+     "providerId": "opta:Player:9noq0ogmqc2cwj3nowoadcdlh",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Mattia",
+     "lastName": "Valoti",
+     "shirtName": "Mattia Valoti",
+     "displayName": "Valoti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aeafacbd9b694c3d8ae7446a54afd306",
+     "providerId": "opta:Player:91sgvwun5559mwe9bszj4xql1",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Petagna",
+     "shirtName": "Andrea Petagna",
+     "displayName": "Petagna",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bf0959249bd94fd3b0ba34a0e9991e62",
+     "providerId": "opta:Player:9gz2cxsw9fzw3gf05zbcoj1g4",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Niccolò",
+     "lastName": "Postiglione",
+     "shirtName": "",
+     "displayName": "Postiglione",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::955ccd1275654c91b55ff397dcdcfa59",
+     "providerId": "opta:Player:6r2xfmixeizxzt19lna2jjwgk",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Leonardo",
+     "lastName": "Colombo",
+     "shirtName": "Leonardo Colombo",
+     "displayName": "Le. Colombo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::05897f6701eb4d848b01084345b24ffc",
+     "providerId": "opta:Player:rblijalj0qnu455jtjoi3pjo",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Samuele",
+     "lastName": "Vignato",
+     "shirtName": "S. Vignato",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dd491713fb4649b6a431512f272de5d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::182ac9f618344346935fc08f81456bbe",
+     "providerId": "opta:Player:bcqsti42fhzap385lnfe4auhh",
+     "side": "away",
+     "team": "Monza",
+     "firstName": "Patrick",
+     "lastName": "Ciurria",
+     "shirtName": "Patrick Ciurria",
+     "displayName": "Ciurria",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:27:56.573Z",
+   "sha256": "b291790abd5c5e10047b5b84130b237f36a0cf0ead57aba13d5f47c7277d9292"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:48.120Z",
+   "sha256": "8395720054ef836a06421faa765925f9950685bde262be2ae0f87693ff5ffa47",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Turati",
+     "giocatoreIdFantacalcio": 4867,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Izzo",
+     "giocatoreIdFantacalcio": 226,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pereira P.",
+     "giocatoreIdFantacalcio": 729,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kyriakopoulos",
+     "giocatoreIdFantacalcio": 4530,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mari'",
+     "giocatoreIdFantacalcio": 4904,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Carboni A.",
+     "giocatoreIdFantacalcio": 4925,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Maldini",
+     "giocatoreIdFantacalcio": 4896,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bianco",
+     "giocatoreIdFantacalcio": 5516,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vignato S.",
+     "giocatoreIdFantacalcio": 5879,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bondo",
+     "giocatoreIdFantacalcio": 5992,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Caprari",
+     "giocatoreIdFantacalcio": 1958,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Djuric",
+     "giocatoreIdFantacalcio": 5471,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mota",
+     "giocatoreIdFantacalcio": 5882,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Milinkovic-Savic V.",
+     "giocatoreIdFantacalcio": 2170,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Masina",
+     "giocatoreIdFantacalcio": 49,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Walukiewicz",
+     "giocatoreIdFantacalcio": 4374,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazaro",
+     "giocatoreIdFantacalcio": 4385,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vojvoda",
+     "giocatoreIdFantacalcio": 4994,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "giocatoreIdFantacalcio": 6426,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coco",
+     "giocatoreIdFantacalcio": 6642,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ricci S.",
+     "giocatoreIdFantacalcio": 5453,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vlasic",
+     "giocatoreIdFantacalcio": 5687,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gineitis",
+     "giocatoreIdFantacalcio": 6170,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sanabria",
+     "giocatoreIdFantacalcio": 479,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams C.",
+     "giocatoreIdFantacalcio": 6646,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/13",
+      "estrattoIl": "2026-10-06T20:35:48.120Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Njie",
+     "giocatoreIdFantacalcio": 6827,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 1 Monza 24/11/2024 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

@@ -1,0 +1,1698 @@
+{
+ "label": "Inter-Como (g17)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-12-23T19:45:00Z",
+  "hoursAfterKickoff": 15648.6547625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:55.942Z",
+  "sha256": "890b5af8900e8719e692a757a4829ed39f793c4a6425bc98b2f96efbdd1a4b11"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::0a832a821d99464ab1a2856687924a3e",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-12-23T19:45:00Z",
+   "matchday": 17,
+   "home": "Inter",
+   "away": "Como",
+   "homeTeamId": "serie-a::Football_Team::b7421caff23448c49134fa4f9095ee09",
+   "awayTeamId": "serie-a::Football_Team::367e70bf50b346209f8a0f16429850cb",
+   "homeScore": 2,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 4
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::0a832a821d99464ab1a2856687924a3e",
+   "homeTeam": "Inter",
+   "awayTeam": "Como",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::ba1d8d07dbc54e05b7cecd5ab3c32a42",
+     "providerId": "opta:Player:bagn0ce4xunsiz3mezrtqx1p1",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Yann",
+     "lastName": "Sommer",
+     "shirtName": "Yann Sommer",
+     "displayName": "Sommer",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f7e0ecad1aa04f53959bd22f68cfbf70",
+     "providerId": "opta:Player:4d17grk2qflzake218uz76uei",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Carlos Augusto",
+     "lastName": "Zopolato Neves",
+     "shirtName": "Carlos Augusto",
+     "displayName": "Carlos Augusto",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 48,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f0a9b20016914b8691db2fc83568fe0b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::77b61833f0db49729ebf0ad5342a5ba8",
+     "providerId": "opta:Player:q6ns1fyw7w10xkkubh8etfc9",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Alessandro",
+     "lastName": "Bastoni",
+     "shirtName": "Alessandro Bastoni",
+     "displayName": "Bastoni",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4b050d8d189243d8acf6f32df3e5e74a",
+     "providerId": "opta:Player:280fh7f5q9lud8lk8reyu7fxm",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Yann Aurel",
+     "lastName": "Bisseck",
+     "shirtName": "Yann Bisseck",
+     "displayName": "Bisseck",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 24,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1aef084aff6c49578d08fcd0a4d1ad85"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f0a9b20016914b8691db2fc83568fe0b",
+     "providerId": "opta:Player:botfgp0oq4wqlwtcs9m90kded",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Hakan",
+     "lastName": "Calhanoglu",
+     "shirtName": "Hakan Çalhanoglu",
+     "displayName": "Çalhanoğlu",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::07b9aa070bab4074bcd41776db3c7c8d",
+     "providerId": "opta:Player:19856wqwrmzmvfw9thf0tzrv9",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Federico",
+     "lastName": "Dimarco",
+     "shirtName": "Federico Dimarco",
+     "displayName": "Dimarco",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1da5e07465404ecb994c81e9a1e1a620"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7f9fb5ddcf02430eacad4a1092bc6850",
+     "providerId": "opta:Player:2r6hs8npijvt4wekd059t6tx",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Denzel Justus Morris",
+     "lastName": "Dumfries",
+     "shirtName": "Denzel Dumfries",
+     "displayName": "Dumfries",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ac04e2006b104030909b682c7db38853",
+     "providerId": "opta:Player:1xscywgyfqisqexmpfvbf9g45",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Henrikh",
+     "lastName": "Mkhitaryan",
+     "shirtName": "Henrikh Mkhitaryan",
+     "displayName": "Mkhitaryan",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8568cd16882848deab08aaae90e8a2c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4da6f1068d1444eafe0a0d5e775aa42",
+     "providerId": "opta:Player:ahgd3on22t4h7gg9ipnj1itw5",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Nicolò",
+     "lastName": "Barella",
+     "shirtName": "Nicolò Barella",
+     "displayName": "Barella",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1b183c6c48ae4d08b1cec88dfe4641c6",
+     "providerId": "opta:Player:7r2tgpdrr4v6n9d2gkzwmlazt",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Lautaro Javier",
+     "lastName": "Martinez",
+     "shirtName": "Lautaro Martínez",
+     "displayName": "L. Martínez",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a1cf5674209f43d19f7b18848d49b89d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a98a0f54d53c4a4d9961f08b995147c5",
+     "providerId": "opta:Player:66nvc8a4kd3cyeyj3i474cudx",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Marcus Lilian",
+     "lastName": "Thuram Ulien",
+     "shirtName": "Marcus Thuram",
+     "displayName": "M. Thuram",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5bc6e2f303c14386be2919d9d3c6c0a1",
+     "providerId": "opta:Player:3yqxkw0tqpoucur51ieh9xdrd",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Josep",
+     "lastName": "Martinez Riera",
+     "shirtName": "Josep Martínez",
+     "displayName": "J. Martínez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7a302d8b81eb4db0be865ec4611f5377",
+     "providerId": "opta:Player:2ymde9vw7jtox06b3qp2dtus4",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Alessandro",
+     "lastName": "Calligaris",
+     "shirtName": "Alessandro Calligaris",
+     "displayName": "Calligaris",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1aef084aff6c49578d08fcd0a4d1ad85",
+     "providerId": "opta:Player:by2gxuixij1eciu56k8mb3cgl",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Stefan",
+     "lastName": "De Vrij",
+     "shirtName": "Stefan de Vrij",
+     "displayName": "de Vrij",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4b050d8d189243d8acf6f32df3e5e74a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3",
+     "providerId": "opta:Player:dpcws493fepch23sk26m1a8yd",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Piotr Sebastian",
+     "lastName": "Zielinski",
+     "shirtName": "Piotr Zieliński",
+     "displayName": "Zieliński",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4da6f1068d1444eafe0a0d5e775aa42"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a957697c2c2544bf9e51b040df112790",
+     "providerId": "opta:Player:dccxma9p13p00n0gi1cxk1nf9",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Marko",
+     "lastName": "Arnautovic",
+     "shirtName": "M. Arnautovic",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a62ed1571821489599bffb6682bae022",
+     "providerId": "opta:Player:6d7rip50yu2j7vyk76zokeehh",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Joaquín",
+     "lastName": "Correa",
+     "shirtName": "J. Correa",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8568cd16882848deab08aaae90e8a2c2",
+     "providerId": "opta:Player:4qejyummzkrfllds8ord642qx",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Davide",
+     "lastName": "Frattesi",
+     "shirtName": "Davide Frattesi",
+     "displayName": "Frattesi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ac04e2006b104030909b682c7db38853"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1da5e07465404ecb994c81e9a1e1a620",
+     "providerId": "opta:Player:acx78ftnm61hm01wpmme77hbe",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Tajon",
+     "lastName": "Buchanan",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::07b9aa070bab4074bcd41776db3c7c8d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::29030faa6a7a411f935e176b7c681ef7",
+     "providerId": "opta:Player:can2l9ha4ufsxdjxdkb739fkk",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Kristjan",
+     "lastName": "Asllani",
+     "shirtName": "Kristjan Asllani",
+     "displayName": "Asllani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37d9d1bf8ca742ab83df8848cfcfea03",
+     "providerId": "opta:Player:b9ow6berfpggxkj6crdei9q1g",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Tiago Tomas",
+     "lastName": "Palacios",
+     "shirtName": "Tomás Palacios",
+     "displayName": "Palacios",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6d6417cf5b34415f8365f2e8c0aa4853",
+     "providerId": "opta:Player:blj7lblwxt3wlkdlovxrrx9n8",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Mike",
+     "lastName": "Aidoo",
+     "shirtName": "",
+     "displayName": "Aidoo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a0ffa5f1a57f4acead42c2c7a60c65e1",
+     "providerId": "opta:Player:6f36qg1p4wpow71u8yh7u2m1g",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Matteo",
+     "lastName": "Motta",
+     "shirtName": "Matteo Motta",
+     "displayName": "Motta",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a1cf5674209f43d19f7b18848d49b89d",
+     "providerId": "opta:Player:97vuoqg0x9nx56dmd9u5e12hh",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Mehdi",
+     "lastName": "Taremi",
+     "shirtName": "Mehdi Taremi",
+     "displayName": "Taremi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1b183c6c48ae4d08b1cec88dfe4641c6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3d1630a5c43a4307a85f23cd3157ccf7",
+     "providerId": "opta:Player:76r2yw3wtql61qh5l0yumdn85",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Pepe",
+     "lastName": "Reina",
+     "shirtName": "P. Reina",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::10128bcdb2974a83908a844014b93ecb",
+     "providerId": "opta:Player:djpsc1fvcnrh61c071t00gmad",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Marc-Oliver",
+     "lastName": "Kempf",
+     "shirtName": "Marc-Oliver Kempf",
+     "displayName": "Kempf",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4d33a4b049be419693a2e4e5061840d0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fffc084cc99648e8a49304ce1b960215",
+     "providerId": "opta:Player:2fbg7v69wyis2his47u8ij4rt",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Dossena",
+     "shirtName": "Alberto Dossena",
+     "displayName": "Dossena",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0cae729dddfb432dba1ad7789b0f910e",
+     "providerId": "opta:Player:7yeax9s2rpt3xuace2b77xgid",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Edoardo",
+     "lastName": "Goldaniga",
+     "shirtName": "E. Goldaniga",
+     "displayName": "Goldaniga",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1e98bf9e66dd413c9ffb846e76aec1c1",
+     "providerId": "opta:Player:3pba28sk4auqjp27jfssfvvxm",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Ignace Fabienne",
+     "lastName": "Van Der Brempt",
+     "shirtName": "Ignace Van der Brempt",
+     "displayName": "Van der Brempt",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::027970dce05b45359fbaa7d11eb36313",
+     "providerId": "opta:Player:9i6hs8toyjwrh7ub04vow8wes",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Nicolas",
+     "lastName": "Paz Martinez",
+     "shirtName": "Nico Paz",
+     "displayName": "Nico Paz",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6867551cf5a6427a9ab81bd06fd9d455",
+     "providerId": "opta:Player:92vjurxjnipl210yanki2oz8q",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Lucas",
+     "lastName": "Da Cunha",
+     "shirtName": "Lucas da Cunha",
+     "displayName": "da Cunha",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7e40ae9c747342c7ad5ad2fe1b425246",
+     "providerId": "opta:Player:4q6kuikopbgls8y2rwqiu415h",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Sergi",
+     "lastName": "Roberto Carnicer",
+     "shirtName": "Sergi Roberto",
+     "displayName": "Sergi Roberto",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6940895d3fb24634aa5b0c28f632a35c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::996213fa92014868bf3a50155d8bd4dd",
+     "providerId": "opta:Player:5f13ro5hgmago2bmqtzjw5ey",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alieu",
+     "lastName": "Fadera",
+     "shirtName": "Alieu Fadera",
+     "displayName": "Fadera",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d06c2e6b91bb4f10a33b68fc87a178c0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::526c1ebfad434e53936bb1c7e24db3a5",
+     "providerId": "opta:Player:44f0q2ucrld1rwcwx63vgs7hl",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Gabriel",
+     "lastName": "Strefezza",
+     "shirtName": "Gabriel Strefezza",
+     "displayName": "Strefezza",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4919025f871840d199d459a2c636266e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::17c07473515a40a9a9ee3211a33ab18d",
+     "providerId": "opta:Player:97mmzzi3dwdos6jtj2m05w4ph",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Andrea",
+     "lastName": "Belotti",
+     "shirtName": "A. Belotti",
+     "displayName": "Belotti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffc8be5bd4e749d0b24674083abab469",
+     "providerId": "opta:Player:e2dn4s6p2f6xnbaje17wd3jyt",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Emil",
+     "lastName": "Audero Mulyadi",
+     "shirtName": "Emil Audero",
+     "displayName": "Audero",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6940895d3fb24634aa5b0c28f632a35c",
+     "providerId": "opta:Player:a8dm3433l77bkgla902imcr56",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Ben",
+     "lastName": "Ben Kone",
+     "shirtName": "Ben Kone",
+     "displayName": "Kone",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7e40ae9c747342c7ad5ad2fe1b425246"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::73e8d120a4234676960dea6b421bea7d",
+     "providerId": "opta:Player:2lr51fk6qzyf6xskjd9dse8yd",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alessio",
+     "lastName": "Iovine",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb9eddee926242be89569029eaba90c2",
+     "providerId": "opta:Player:9or4f5wmwzhotzamqjpgeg6vp",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Daniele",
+     "lastName": "Baselli",
+     "shirtName": "Daniele Baselli",
+     "displayName": "Baselli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4919025f871840d199d459a2c636266e",
+     "providerId": "opta:Player:7dnu1vdavskc4ct33k88lpdcl",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Patrick",
+     "lastName": "Cutrone",
+     "shirtName": "Patrick Cutrone",
+     "displayName": "Cutrone",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::526c1ebfad434e53936bb1c7e24db3a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d19e41c14e1e4e0b9b3bce130aca9ea9",
+     "providerId": "opta:Player:e3fgsuh8gm0zd6g3ihn1otzpw",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Fellipe Jack",
+     "lastName": "Ozilio Moreira Pacheco",
+     "shirtName": "Fellipe Jack",
+     "displayName": "Fellipe Jack",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d06c2e6b91bb4f10a33b68fc87a178c0",
+     "providerId": "opta:Player:209wrczpg1xivjis7rmntw0r9",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Cerri",
+     "shirtName": "A. Cerri",
+     "displayName": "Cerri",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::996213fa92014868bf3a50155d8bd4dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8efffa24ecbc49119c24eebf18306943",
+     "providerId": "opta:Player:vzbmf6lqvbw398clnt7jyiqy",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Yannik",
+     "lastName": "Engelhardt",
+     "shirtName": "Yannik Engelhardt",
+     "displayName": "Engelhardt",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9fe0fecc2aa24bb48c3074af958cd460",
+     "providerId": "opta:Player:d1s6ucvydq0oe5vsg00e9me7e",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Matthias",
+     "lastName": "Braunöder",
+     "shirtName": "Matthias Braunöder",
+     "displayName": "Braunöder",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59",
+     "providerId": "opta:Player:c7u5a6ngr4f839ibw3b0opsk5",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Luca",
+     "lastName": "Mazzitelli",
+     "shirtName": "Luca Mazzitelli",
+     "displayName": "Mazzitelli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::17c07473515a40a9a9ee3211a33ab18d"
+      },
+      {
+       "type": "yellow-card",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::225f6cb9653e4e9aa816c7ba9d02384f",
+     "providerId": "opta:Player:c39nv7jn5c3qzglosgzigif2t",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Simone",
+     "lastName": "Verdi",
+     "shirtName": "S. Verdi",
+     "displayName": "Verdi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4d33a4b049be419693a2e4e5061840d0",
+     "providerId": "opta:Player:8rn2c1zyjnyw0tyi43ulhbetx",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Federico",
+     "lastName": "Barba",
+     "shirtName": "F. Barba",
+     "displayName": "Barba",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::10128bcdb2974a83908a844014b93ecb"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:29:17.509Z",
+   "sha256": "d0dd7828ad28facc06abcc382d9f7049e136f70c28d7e154e5fa8ed0523187cc"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:55.942Z",
+   "sha256": "890b5af8900e8719e692a757a4829ed39f793c4a6425bc98b2f96efbdd1a4b11",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Reina",
+     "giocatoreIdFantacalcio": 387,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Barba",
+     "giocatoreIdFantacalcio": 134,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Goldaniga",
+     "giocatoreIdFantacalcio": 418,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sergi Roberto",
+     "giocatoreIdFantacalcio": 4284,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dossena",
+     "giocatoreIdFantacalcio": 6230,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kempf",
+     "giocatoreIdFantacalcio": 6893,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Van Der Brempt",
+     "giocatoreIdFantacalcio": 6896,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mazzitelli",
+     "giocatoreIdFantacalcio": 1976,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Strefezza",
+     "giocatoreIdFantacalcio": 4486,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Da Cunha",
+     "giocatoreIdFantacalcio": 5559,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kone B.",
+     "giocatoreIdFantacalcio": 5725,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fadera",
+     "giocatoreIdFantacalcio": 6815,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Paz N.",
+     "giocatoreIdFantacalcio": 6875,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cerri",
+     "giocatoreIdFantacalcio": 306,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Belotti",
+     "giocatoreIdFantacalcio": 441,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cutrone",
+     "giocatoreIdFantacalcio": 2155,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Sommer",
+     "giocatoreIdFantacalcio": 2428,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dimarco",
+     "giocatoreIdFantacalcio": 254,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Vrij",
+     "giocatoreIdFantacalcio": 322,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bastoni",
+     "giocatoreIdFantacalcio": 2120,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dumfries",
+     "giocatoreIdFantacalcio": 5513,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Carlos Augusto",
+     "giocatoreIdFantacalcio": 5877,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bisseck",
+     "giocatoreIdFantacalcio": 6217,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zielinski",
+     "giocatoreIdFantacalcio": 152,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Barella",
+     "giocatoreIdFantacalcio": 1870,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Calhanoglu",
+     "giocatoreIdFantacalcio": 2194,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mkhitaryan",
+     "giocatoreIdFantacalcio": 2529,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frattesi",
+     "giocatoreIdFantacalcio": 2848,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Buchanan T.",
+     "giocatoreIdFantacalcio": 6532,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Martinez L.",
+     "giocatoreIdFantacalcio": 2764,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Thuram",
+     "giocatoreIdFantacalcio": 4871,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/17",
+      "estrattoIl": "2026-10-06T20:35:55.942Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Taremi",
+     "giocatoreIdFantacalcio": 6628,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 2 - 0 Como 23/12/2024 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

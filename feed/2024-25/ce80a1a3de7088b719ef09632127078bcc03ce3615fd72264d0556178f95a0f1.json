@@ -1,0 +1,1715 @@
+{
+ "label": "Cagliari-Venezia (g37)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-05-18T18:45:00Z",
+  "hoursAfterKickoff": 12145.6547625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:36:35.112Z",
+  "sha256": "265be7d527d4cce75702e3563a9124c69854076df2ad6118a6fbd84ba511dd33"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::62d36c97e39f40a98b13cc8b5e997aaa",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-05-18T18:45:00Z",
+   "matchday": 37,
+   "home": "Cagliari",
+   "away": "Venezia",
+   "homeTeamId": "serie-a::Football_Team::25aecd0eda3e4453aabd9a9d5e7fba0d",
+   "awayTeamId": "serie-a::Football_Team::a28236708d214df3a2e2e04ceb7e5c54",
+   "homeScore": 3,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 8
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::62d36c97e39f40a98b13cc8b5e997aaa",
+   "homeTeam": "Cagliari",
+   "awayTeam": "Venezia",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::f67db0ff9c994cc2892588aa52ab1786",
+     "providerId": "opta:Player:ab420lzne042a3e3b2lfmy5ii",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Elia",
+     "lastName": "Caprile",
+     "shirtName": "E. Caprile",
+     "displayName": "Caprile",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2e9c48828f524b9fbb10b8ea2907bba6",
+     "providerId": "opta:Player:cnk07o3823zl5gd7qr2bdks7p",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Sebastiano",
+     "lastName": "Luperto",
+     "shirtName": "Sebastiano Luperto",
+     "displayName": "Luperto",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7be97fe90708442e8e31a6a48e0f01e5",
+     "providerId": "opta:Player:d4vdrtte9kb9qmlkrx1rvgk45",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Yerry Fernando",
+     "lastName": "Mina Gonzalez",
+     "shirtName": "Yerry Mina",
+     "displayName": "Mina",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 11,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f05d9435895449898582e4c9a82f01d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3b58041ca667411c8526f236ab74b4e9",
+     "providerId": "opta:Player:13ey9mb0ullya36lpv62pspre",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Gabriele",
+     "lastName": "Zappa",
+     "shirtName": "Gabriele Zappa",
+     "displayName": "Zappa",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f05d9435895449898582e4c9a82f01d1",
+     "providerId": "opta:Player:14vhrqvqomi57x5mtsawm44b9",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Tommaso",
+     "lastName": "Augello",
+     "shirtName": "Tommaso Augello",
+     "displayName": "Augello",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf",
+     "providerId": "opta:Player:42m78ny1ggvmzmjtka7exyzqi",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Nadir",
+     "lastName": "Zortea",
+     "shirtName": "Nadir Zortea",
+     "displayName": "Zortea",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f4f1a038fbc648fc86df04026bc773b2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6cd4530a22374a9e8b73d6614d93e5ee",
+     "providerId": "opta:Player:cmg6y5t0yuzeuzuxitelbvglx",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Alessandro",
+     "lastName": "Deiola",
+     "shirtName": "Alessandro Deiola",
+     "displayName": "Deiola",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 14,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "goal",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::86fe2ed4fa6f4b76a9c5d4954467e688"
+      },
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::239a99661025482dbc162547f9f9a77a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::86fe2ed4fa6f4b76a9c5d4954467e688",
+     "providerId": "opta:Player:6tyqf520jm9w64iudvxsdt621",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Antoine",
+     "lastName": "Makoumbou",
+     "shirtName": "A. Makoumbou",
+     "displayName": "Makoumbou",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0d0f43d9fa874b839d9be10ca8ed2501",
+     "providerId": "opta:Player:43rid94d7jz7u5ba4xzb8bbe2",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Ndary Michel",
+     "lastName": "Adopo",
+     "shirtName": "Michel Adopo",
+     "displayName": "Adopo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cfa82c623c8144c2ab90f04d74604442"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bce17b00cb494129b8b8816fb595d74a",
+     "providerId": "opta:Player:e0gv5rugqtsipy89z4rk7hsoa",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Zito André Sebastião",
+     "lastName": "Luvumbo",
+     "shirtName": "Zito Luvumbo",
+     "displayName": "Luvumbo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::06c65f309d6740948f30ef3425da1e88"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 41,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::521d74f8dbe1415bb54378aabbf682c9",
+     "providerId": "opta:Player:apvsegsrcr043jtqe5mqxn88a",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Giuseppe",
+     "lastName": "Ciocci",
+     "shirtName": "Giuseppe Ciocci",
+     "displayName": "Ciocci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::05c00fd35d214087901268929b3e1c3e",
+     "providerId": "opta:Player:3g1akjy7dpa6o8o3j5p69naad",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Alen",
+     "lastName": "Sherri",
+     "shirtName": "Alen Sherri",
+     "displayName": "Sherri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bcefed5f1fc14c6c94eca3bafecc5b0e",
+     "providerId": "opta:Player:edczc3lr85w3vcg83qhbzefh1",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Florinel",
+     "lastName": "Coman",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cfa82c623c8144c2ab90f04d74604442",
+     "providerId": "opta:Player:bvvu13ztgt8qj58j8a3k8slp1",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Benito Nicolas",
+     "lastName": "Viola",
+     "shirtName": "N. Viola",
+     "displayName": "Viola",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0d0f43d9fa874b839d9be10ca8ed2501"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9",
+     "providerId": "opta:Player:akvrot9hi5mylunfr07nytt04",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Matteo",
+     "lastName": "Prati",
+     "shirtName": "Matteo Prati",
+     "displayName": "Prati",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::86fe2ed4fa6f4b76a9c5d4954467e688"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::239a99661025482dbc162547f9f9a77a",
+     "providerId": "opta:Player:9cy6lgb0e0cq4a7ht389qaklx",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Razvan",
+     "lastName": "Marin",
+     "shirtName": "R. Marin",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6cd4530a22374a9e8b73d6614d93e5ee"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ac2c5f8ed96b4f28847611e06410f196",
+     "providerId": "opta:Player:4owkiwotj219lazmqvucnza39",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Jakub",
+     "lastName": "Jankto",
+     "shirtName": "J. Jankto",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::02bf7eba27374eb7b7888356a41b64fa",
+     "providerId": "opta:Player:45ubqc5i6yn2l5kdtlt8tbw7p",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "José",
+     "lastName": "Palomino",
+     "shirtName": "J. Palomino",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::99890eab78bc4ef7b90a8afaff9ac22f",
+     "providerId": "opta:Player:2uvexgjeidkvy6qu4i2nf14a",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Adam",
+     "lastName": "Obert",
+     "shirtName": "Adam Obert",
+     "displayName": "Obert",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f4f1a038fbc648fc86df04026bc773b2",
+     "providerId": "opta:Player:brfgmt7r59lah9iyqicc95v6c",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Nicola",
+     "lastName": "Pintus",
+     "shirtName": "Nicola Pintus",
+     "displayName": "Pintus",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::06c65f309d6740948f30ef3425da1e88",
+     "providerId": "opta:Player:1ct0gujao4wvj1ff3aebqgqnd",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Gianluca",
+     "lastName": "Gaetano",
+     "shirtName": "G. Gaetano",
+     "displayName": "Gaetano",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bce17b00cb494129b8b8816fb595d74a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::02596564e2c844f6a3fb664ac4db5020",
+     "providerId": "opta:Player:6xd7rgs4s3717tnasercrgqok",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Kingstone",
+     "lastName": "Mutandwa",
+     "shirtName": "",
+     "displayName": "Mutandwa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::629f6681748f4e0ebd90f9e418949897",
+     "providerId": "opta:Player:ancokw84xekm3uve7tnoiiju",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Mattia",
+     "lastName": "Felici",
+     "shirtName": "M. Felici",
+     "displayName": "Felici",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2086f33a32f4437a9792a3f52ed57e02",
+     "providerId": "opta:Player:6wplm29z7qxxmujyc2ml19gix",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Ionut Andrei",
+     "lastName": "Radu",
+     "shirtName": "Ionut Radu",
+     "displayName": "Radu",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4ad6de1187a440b0a4cb32957804d272",
+     "providerId": "opta:Player:5mjg1aoi0j61wsx2tc0tidr6x",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Fali",
+     "lastName": "Cande",
+     "shirtName": "Fali Candé",
+     "displayName": "Candé",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8057b4914e084f28aba58281a65a589c",
+     "providerId": "opta:Player:7nfr8xuo637qma7ovxx4r9fmy",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Jay Noah",
+     "lastName": "Idzes",
+     "shirtName": "Jay Idzes",
+     "displayName": "Idzes",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 4,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1484a7561ce74337bfa1d366cbeafec6",
+     "providerId": "opta:Player:avubg95m07a6rted50ejdkftg",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Joël",
+     "lastName": "Schingtienne",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ac569c6fdfc4fbfa30125442769111c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dbd53bdc4ffe446da33ce7774384da90",
+     "providerId": "opta:Player:7u9bpiajlgr3zibj89pub7wbu",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Mikael Egill",
+     "lastName": "Ellertsson",
+     "shirtName": "Mikael Ellertsson",
+     "displayName": "Ellertsson",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::322ceda3cb844022af977369f2ade64c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2696f7e05fea46fdb91b6b94df2c81b2",
+     "providerId": "opta:Player:3haxsyfrccsgw6x5jgbwdjze",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Gianluca Cristiano",
+     "lastName": "Busio",
+     "shirtName": "Gianluca Busio",
+     "displayName": "Busio",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::580e2f5d129542e2bcc9ea5436adf6a1",
+     "providerId": "opta:Player:a6lo3s66xv87llkhwveoq1vqh",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Hans",
+     "lastName": "Nicolussi Caviglia",
+     "shirtName": "Hans Nicolussi Caviglia",
+     "displayName": "Nicolussi C.",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e3a4eec9aabd422bb4ae48807622f92d",
+     "providerId": "opta:Player:66t7zm54jgmcjtiizl9g0rkkp",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Enrique",
+     "lastName": "Perez Munoz",
+     "shirtName": "Kike Pérez",
+     "displayName": "Kike Pérez",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d4c64a0d23474227a8ba81400f705dc3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5879c1ef79b349c6a46f75a5d1d7e8d6",
+     "providerId": "opta:Player:7knk2xsg4690hgq9us9us8ull",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Alessio",
+     "lastName": "Zerbin",
+     "shirtName": "Alessio Zerbin",
+     "displayName": "Zerbin",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cfeb1d0545a64b06bee7773550f7198c",
+     "providerId": "opta:Player:3kbhgmnf6bhfgut0jxf4m2sfe",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Gaetano Pio",
+     "lastName": "Oristanio",
+     "shirtName": "Gaetano Oristanio",
+     "displayName": "Oristanio",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 32,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::147e19df7aa84ee48b4afad050404c3a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::adccc4694b4d4410a98deabc59cabd83",
+     "providerId": "opta:Player:2c796ozt5nw1l8n61cwtv9all",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "John",
+     "lastName": "Yeboah",
+     "shirtName": "John Yeboah",
+     "displayName": "Yeboah",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a27880cf9f3a4754892fbfbc4ed31360"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4182f2a47d404441a9c8c796fddb1013",
+     "providerId": "opta:Player:5416w329xhbli0b3gq8irfzkl",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Jesse Pekka",
+     "lastName": "Joronen",
+     "shirtName": "Jesse Joronen",
+     "displayName": "Joronen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cbee40e250ef403cbc5dfd46c7a50dd6",
+     "providerId": "opta:Player:9hq7905vqyq0hzjwl2uxz0ij9",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Matteo",
+     "lastName": "Grandi",
+     "shirtName": "M. Grandi",
+     "displayName": "Grandi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c3b8ff6261d94b7ead6fd32487db048f",
+     "providerId": "opta:Player:7dg8woqlx67ch0ji3ujhgb52i",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Filip",
+     "lastName": "Stanković",
+     "shirtName": "Filip Stankovic",
+     "displayName": "F. Stanković",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::322ceda3cb844022af977369f2ade64c",
+     "providerId": "opta:Player:abk9geafxglsmnu9qhra8x1at",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Ridgeciano Delano",
+     "lastName": "Haps",
+     "shirtName": "Ridgeciano Haps",
+     "displayName": "Haps",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dbd53bdc4ffe446da33ce7774384da90"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ac569c6fdfc4fbfa30125442769111c",
+     "providerId": "opta:Player:4a82gc9vfzklr8sf1mu0ral79",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Francesco",
+     "lastName": "Zampano",
+     "shirtName": "Francesco Zampano",
+     "displayName": "Zampano",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1484a7561ce74337bfa1d366cbeafec6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::147e19df7aa84ee48b4afad050404c3a",
+     "providerId": "opta:Player:61phh511ju65h6coren0pbkd1",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Christian Lund",
+     "lastName": "Gytkjaer",
+     "shirtName": "Christian Gytkjær",
+     "displayName": "Gytkjær",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 32,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cfeb1d0545a64b06bee7773550f7198c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::65bb7b8d02084d858daeba0cff0cc4eb",
+     "providerId": "opta:Player:1lxfpn0wmr895me9xbzcfnh90",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Alessandro",
+     "lastName": "Marcandalli",
+     "shirtName": "Alessandro Marcandalli",
+     "displayName": "Marcandalli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ed122a12be6d47588b6593e37d3d27b3",
+     "providerId": "opta:Player:7dwzeq0xhhw0j6hfx3vgahmhg",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Daniel",
+     "lastName": "Fila",
+     "shirtName": "Daniel Fila",
+     "displayName": "Fila",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::adb6499ee6c348c7819a4a6c2856cc6e",
+     "providerId": "opta:Player:1k7glue8w8zxco3koftntib8q",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Bjarki Steinn",
+     "lastName": "Bjarkason",
+     "shirtName": "Bjarki Bjarkason",
+     "displayName": "Bjarkason",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8143399f5d04d0d992ef3e5d2e2de5b",
+     "providerId": "opta:Player:amc2rculxvgo2wanilkna8s2c",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Richie",
+     "lastName": "Sagrado Sebastiao",
+     "shirtName": "Richie Sagrado",
+     "displayName": "Sagrado",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3bb01a1fa6294ec2bda049445dbffeff",
+     "providerId": "opta:Player:8r87vw2cxrsal257e9v7jicx5",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Marin",
+     "lastName": "Sverko",
+     "shirtName": "Marin Sverko",
+     "displayName": "Sverko",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::98c74629e3a0424eaa0f457eb4392dab",
+     "providerId": "opta:Player:ejmdm3h3oxr0fqubd5sbozq0a",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Franco Ezequiel",
+     "lastName": "Carboni",
+     "shirtName": "Franco Carboni",
+     "displayName": "F. Carboni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d4c64a0d23474227a8ba81400f705dc3",
+     "providerId": "opta:Player:1t1uhpv8wc9gyalnbdrsn4tn8",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Issa",
+     "lastName": "Doumbia",
+     "shirtName": "Issa Doumbia",
+     "displayName": "Doumbia",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e3a4eec9aabd422bb4ae48807622f92d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a27880cf9f3a4754892fbfbc4ed31360",
+     "providerId": "opta:Player:36gtyjc6dg13f6ff8go77951x",
+     "side": "away",
+     "team": "Venezia",
+     "firstName": "Mirko",
+     "lastName": "Maric",
+     "shirtName": "Mirko Maric",
+     "displayName": "Marić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::adccc4694b4d4410a98deabc59cabd83"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:35:05.592Z",
+   "sha256": "3db246e42d8b8ad9283e2280602f08b0d896921a70fbac77acb3c0495c657ec8"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:36:35.112Z",
+   "sha256": "265be7d527d4cce75702e3563a9124c69854076df2ad6118a6fbd84ba511dd33",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Caprile",
+     "giocatoreIdFantacalcio": 4360,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Luperto",
+     "giocatoreIdFantacalcio": 393,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pintus",
+     "giocatoreIdFantacalcio": 650,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mina",
+     "giocatoreIdFantacalcio": 4210,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Augello",
+     "giocatoreIdFantacalcio": 4421,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zortea",
+     "giocatoreIdFantacalcio": 4433,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zappa",
+     "giocatoreIdFantacalcio": 4461,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Viola",
+     "giocatoreIdFantacalcio": 440,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Deiola",
+     "giocatoreIdFantacalcio": 1871,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gaetano",
+     "giocatoreIdFantacalcio": 4364,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Adopo",
+     "giocatoreIdFantacalcio": 4870,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Marin",
+     "giocatoreIdFantacalcio": 4965,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Makoumbou",
+     "giocatoreIdFantacalcio": 6232,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Prati",
+     "giocatoreIdFantacalcio": 6424,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "giocatoreIdFantacalcio": 4359,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Luvumbo",
+     "giocatoreIdFantacalcio": 5297,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Radu I.",
+     "giocatoreIdFantacalcio": 1843,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 3,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zampano",
+     "giocatoreIdFantacalcio": 1952,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Haps",
+     "giocatoreIdFantacalcio": 5695,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Idzes",
+     "giocatoreIdFantacalcio": 6672,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Schingtienne",
+     "giocatoreIdFantacalcio": 6892,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Candè",
+     "giocatoreIdFantacalcio": 6985,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Nicolussi Caviglia",
+     "giocatoreIdFantacalcio": 4349,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Busio",
+     "giocatoreIdFantacalcio": 5507,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zerbin",
+     "giocatoreIdFantacalcio": 5998,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ellertsson",
+     "giocatoreIdFantacalcio": 6020,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Oristanio",
+     "giocatoreIdFantacalcio": 6218,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Doumbia I.",
+     "giocatoreIdFantacalcio": 6683,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Yeboah J.",
+     "giocatoreIdFantacalcio": 6904,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Perez K.",
+     "giocatoreIdFantacalcio": 6994,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gytkjaer",
+     "giocatoreIdFantacalcio": 5881,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/37",
+      "estrattoIl": "2026-10-06T20:36:35.112Z"
+     },
+     "squadraRaw": "Venezia",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Maric",
+     "giocatoreIdFantacalcio": 6250,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 3 - 0 Venezia 18/05/2025 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

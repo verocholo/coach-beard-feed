@@ -1,0 +1,1761 @@
+{
+ "label": "Verona-Roma (g11)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-11-03T17:00:00Z",
+  "hoursAfterKickoff": 16851.4047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:44.406Z",
+  "sha256": "d8cb9b008552f9493d252733a5d8c76781b79b8266e8ae59c052eb200b98d7f9"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::7f896894644f4c1392a803390d1a0682",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-11-03T17:00:00Z",
+   "matchday": 11,
+   "home": "Verona",
+   "away": "Roma",
+   "homeTeamId": "serie-a::Football_Team::be24fc024dd946ebbeb957ee6e796a2a",
+   "awayTeamId": "serie-a::Football_Team::8ddc09c1aa73448da2dff953edd95d82",
+   "homeScore": 3,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 7
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::7f896894644f4c1392a803390d1a0682",
+   "homeTeam": "Verona",
+   "awayTeam": "Roma",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::b28865a6d4814858be353447697de6d1",
+     "providerId": "opta:Player:c7fky0h6gi7wmibnv2tzf6mz9",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Lorenzo",
+     "lastName": "Montipò",
+     "shirtName": "Lorenzo Montipò",
+     "displayName": "Montipò",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4a80a3286797490b977c0402c8f50947",
+     "providerId": "opta:Player:b0e6d3zgwzbzysmt9b2ycvf56",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Domagoj",
+     "lastName": "Bradarić",
+     "shirtName": "Domagoj Bradarić",
+     "displayName": "Bradarić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50d991aac7894c54a6e2d43379f06ead",
+     "providerId": "opta:Player:8o8o4rxbdhv002pj0q21l0f84",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Diego",
+     "lastName": "Coppola",
+     "shirtName": "D. Coppola",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eea5229af55c44daaa0e08f91958a577",
+     "providerId": "opta:Player:m7fe173js8on94ag3htziy8l",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Giangiacomo",
+     "lastName": "Magnani",
+     "shirtName": "Giangiacomo Magnani",
+     "displayName": "Magnani",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 34,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9ec032cd51bc44f98182e1f0ebafe77d"
+      },
+      {
+       "type": "yellow-card",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::07ed871ab5064c939e1747948b647838",
+     "providerId": "opta:Player:4u281v53ges3kimtgac0tidm2",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Flavius",
+     "lastName": "Daniliuc",
+     "shirtName": "F. Daniliuc",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2103f76167cb4b2cb65dfc3409f739c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::010941b53746419ca120d241d0398bc2",
+     "providerId": "opta:Player:9j1fd0mz39tl1h5che3f357md",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Suat",
+     "lastName": "Serdar",
+     "shirtName": "Suat Serdar",
+     "displayName": "Serdar",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dc4ee1fb8d45435096ed9d6a64bc8f10"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9ec032cd51bc44f98182e1f0ebafe77d",
+     "providerId": "opta:Player:g64b8x11ndowv2zj29r9i311",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Ondrej",
+     "lastName": "Duda",
+     "shirtName": "O. Duda",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a48d141a770b4e89b048117135ef9f5f",
+     "providerId": "opta:Player:bo98qzo4gu0npm4pewc25ovyt",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Darko",
+     "lastName": "Lazovic",
+     "shirtName": "D. Lazovic",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0b153ab8efcc43a8a8fbd3d4ae19c29c",
+     "providerId": "opta:Player:drljavudmjvyj9mvyzq7gz2s5",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Grigoris",
+     "lastName": "Kastanos",
+     "shirtName": "Grigoris Kastanos",
+     "displayName": "Kastanos",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::484c0436c6304bedb654ca67e73d5a84"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fc6a0de0a0e24a59912d61b75a21c665",
+     "providerId": "opta:Player:4t85yj2ijymrz5vf457jcihre",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Tomas",
+     "lastName": "Suslov",
+     "shirtName": "Tomás Suslov",
+     "displayName": "Suslov",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b4b385efb64748d5b0b0df4d56a29045"
+      },
+      {
+       "type": "yellow-card",
+       "time": 47,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::190984e6cae7426380790e7dc82b9e2b",
+     "providerId": "opta:Player:3o4tq8qooplx2izq9rucgu7d",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Casper",
+     "lastName": "Tengstedt",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 13,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dd5475f15e364641aa82ff60878023a9"
+      },
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::76a5eaa653204872a1dfe59a2d1f4cb0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aa2557307f604fde9512778cc9616b43",
+     "providerId": "opta:Player:c2ezyc2fftje7rcm5ybbuytp1",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Simone",
+     "lastName": "Perilli",
+     "shirtName": "Simone Perilli",
+     "displayName": "Perilli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1605653b39a94cb8b119658906df70c8",
+     "providerId": "opta:Player:98s39ysrglc5vbswzeseb3pck",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Federico",
+     "lastName": "Magro",
+     "shirtName": "Federico Magro",
+     "displayName": "Magro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2103f76167cb4b2cb65dfc3409f739c2",
+     "providerId": "opta:Player:68etig279gs3btjb7fv6rvfth",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Marco Davide",
+     "lastName": "Faraoni",
+     "shirtName": "D. Faraoni",
+     "displayName": "Faraoni",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::07ed871ab5064c939e1747948b647838"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a84a54c026384fda8bbd053109970668",
+     "providerId": "opta:Player:9a4i8i66bch7834l9vmmgg55g",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Mathis Thierry",
+     "lastName": "Lambourde-frontier",
+     "shirtName": "Mathis Lambourde",
+     "displayName": "Lambourde",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::55b939f2918f4e9699549922b9db610d",
+     "providerId": "opta:Player:amvonu36at4dg7ksi1ioczi3u",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Amin",
+     "lastName": "Sarr",
+     "shirtName": "Amin Sarr",
+     "displayName": "A. Sarr",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b4b385efb64748d5b0b0df4d56a29045",
+     "providerId": "opta:Player:1dljhkcvmodqq9u1w8iv145m2",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Dailon",
+     "lastName": "Rocha Livramento do Rosario",
+     "shirtName": "Dailon Livramento",
+     "displayName": "D. Livramento",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc6a0de0a0e24a59912d61b75a21c665"
+      },
+      {
+       "type": "red-card",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::799142c39c4547deaad724bd24595a5a",
+     "providerId": "opta:Player:8cbqpjojozpalklx15jxjfii2",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Yllan",
+     "lastName": "Okou",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9b7ef743b9e741749ef855c6dacf3168",
+     "providerId": "opta:Player:ctz25vsbahcxo8plb091q61g",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Ayanda",
+     "lastName": "Sishuba",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::484c0436c6304bedb654ca67e73d5a84",
+     "providerId": "opta:Player:74o97lnqpku6m9svks66qbend",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Abderrahman",
+     "lastName": "Harroui",
+     "shirtName": "Abdou Harroui",
+     "displayName": "Harroui",
+     "starter": false,
+     "events": [
+      {
+       "type": "goal",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b4b385efb64748d5b0b0df4d56a29045"
+      },
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0b153ab8efcc43a8a8fbd3d4ae19c29c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dc4ee1fb8d45435096ed9d6a64bc8f10",
+     "providerId": "opta:Player:1qcf5gb8wf8f4tu94xh96yqy",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniel Filipe",
+     "lastName": "Bandeira e Silva",
+     "shirtName": "Dani Silva",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::010941b53746419ca120d241d0398bc2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::76a5eaa653204872a1dfe59a2d1f4cb0",
+     "providerId": "opta:Player:8lg7bwc6k73s2x0zd236pbomi",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniel Fernando",
+     "lastName": "Mosquera Bonilla",
+     "shirtName": "Daniel Mosquera",
+     "displayName": "Mosquera",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::190984e6cae7426380790e7dc82b9e2b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b1a0286e56704c36a6011c4eb1b3092f",
+     "providerId": "opta:Player:brdwe9zdjjecw8nhw4a3s0v84",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Junior",
+     "lastName": "Ajayi",
+     "shirtName": "Junior Ajayi",
+     "displayName": "Ajayi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::68603b73a2a54a37af3ff03a93ea556c",
+     "providerId": "opta:Player:498kxii7w64hmki575xdur28k",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Alphadjo",
+     "lastName": "Cisse",
+     "shirtName": "Alphadjo Cissè",
+     "displayName": "Cisse",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0854f2c511b243a0a801c89e8880222e",
+     "providerId": "opta:Player:9voekt8gmx6qkolwj3xazx2j8",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Christian",
+     "lastName": "Corradi",
+     "shirtName": "",
+     "displayName": "Corradi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50b9b8de45a04dd4852d3d6b0c1d183b",
+     "providerId": "opta:Player:n92xjnlc1ppuxe70hsyc0mj8",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniele",
+     "lastName": "Ghilardi",
+     "shirtName": "Daniele Ghilardi",
+     "displayName": "Ghilardi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::942bc68934354b26a012b1d689290a82",
+     "providerId": "opta:Player:el58uxf7oaqu95yx1vbgmr7it",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mile",
+     "lastName": "Svilar",
+     "shirtName": "Mile Svilar",
+     "displayName": "Svilar",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 35,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eefe9d10fdf748d48162e78f410c498f",
+     "providerId": "opta:Player:9uthj64y9f77y63tq7did539x",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "José Ángel",
+     "lastName": "Esmoris Tasende",
+     "shirtName": "Angeliño",
+     "displayName": "Angeliño",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1fc7bb7eab2545dd8f5952b20f425090",
+     "providerId": "opta:Player:efzokrggje7s9wc6hg75yc6ax",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Obite Evan",
+     "lastName": "Ndicka",
+     "shirtName": "Evan Ndicka",
+     "displayName": "Ndicka",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdfeb421bf10427ba410d9db7f5f3b00",
+     "providerId": "opta:Player:6fttn5mk6n1lstqt0dl5xzn4l",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Gianluca",
+     "lastName": "Mancini",
+     "shirtName": "Gianluca Mancini",
+     "displayName": "Mancini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d",
+     "providerId": "opta:Player:1pkymw7biivk760rxhubin1ed",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mehmet Zeki",
+     "lastName": "Çelik",
+     "shirtName": "Zeki Çelik",
+     "displayName": "Çelik",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::466bd5fe831940f7af73ca8f03bb6f46",
+     "providerId": "opta:Player:du4ciqofpkn3nei5q3huwlnje",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Nicola",
+     "lastName": "Zalewski",
+     "shirtName": "Nicola Zalewski",
+     "displayName": "Zalewski",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50d3b7399e32419d973e4d6c1740b487",
+     "providerId": "opta:Player:44o5mjglkzqxctz07ust9bcru",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Enzo",
+     "lastName": "Le Fée",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::11d045f4b49645158b2773f6fc7d6941"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::714daf0fa4e947b3891bfec1a3d5d2f0",
+     "providerId": "opta:Player:au5tbnn48ve4kqnuu3dhmk296",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Kouadio Emmanuel Boris",
+     "lastName": "Kone",
+     "shirtName": "Manu Koné",
+     "displayName": "M. Koné",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3f758f3587f54c9db2c10d5f4e92faa5"
+      },
+      {
+       "type": "yellow-card",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27",
+     "providerId": "opta:Player:57bin6he6kbdo2bs4i78z2k0l",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Lorenzo",
+     "lastName": "Pellegrini",
+     "shirtName": "Lorenzo Pellegrini",
+     "displayName": "Lo. Pellegrini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::467662b231094f4da83cf422a3817132",
+     "providerId": "opta:Player:erwh25hbq259kqdirfufnbcb8",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Matìas",
+     "lastName": "Soule Malvano",
+     "shirtName": "Matías Soulé",
+     "displayName": "Soulé",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 28,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3633ec0ec4ea4aca8dca3b5391c06f48"
+      },
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ce4b4184d61f402698ac6c9e954d2b31"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a8d5e937e3da4cf8889676f7969eba2f",
+     "providerId": "opta:Player:192q3f2xwk9nc6juoa1bcm3th",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Artem",
+     "lastName": "Dovbyk",
+     "shirtName": "Artem Dovbyk",
+     "displayName": "Dovbyk",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d"
+      },
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::308db65f2a214e42a77b995729090b7f",
+     "providerId": "opta:Player:wumjn7yf33t74gyzbqd7qc4",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Renato",
+     "lastName": "Marin",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::16033bf06c9b4b0398d1d0067d2c2534",
+     "providerId": "opta:Player:7udphhcokm6vralyz5gkovxsl",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mathew",
+     "lastName": "Ryan",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::11d045f4b49645158b2773f6fc7d6941",
+     "providerId": "opta:Player:1ftejgsl4hho40cceqne1hcyd",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Bryan",
+     "lastName": "Cristante",
+     "shirtName": "Bryan Cristante",
+     "displayName": "Cristante",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::50d3b7399e32419d973e4d6c1740b487"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b329eddf0f6d4ef59d00a649d23681d4",
+     "providerId": "opta:Player:aq8pym2fuweqbkxbbu7hqn0x6",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Saud bin Abdullah bin Salem",
+     "lastName": "Abdulhamid",
+     "shirtName": "Saud Abdulhamid",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9f1e00cd66384caaa137863ec06edc83",
+     "providerId": "opta:Player:a21winmltx1h9oiwqtfditkut",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Eldor",
+     "lastName": "Shomurodov",
+     "shirtName": "E. Shomurodov",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aeadcf1eeec941cda47f9abdba22efb5",
+     "providerId": "opta:Player:cd6i7khi5wgsfsg19c9tcjydx",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mats",
+     "lastName": "Hummels",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3f758f3587f54c9db2c10d5f4e92faa5",
+     "providerId": "opta:Player:apdtqouzo9b02ozdxk8mx4zbp",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Leandro",
+     "lastName": "Paredes",
+     "shirtName": "L. Paredes",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::714daf0fa4e947b3891bfec1a3d5d2f0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ce4b4184d61f402698ac6c9e954d2b31",
+     "providerId": "opta:Player:93i0gcndi2m8giqqcm4knduxh",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Paulo Exequiel",
+     "lastName": "Dybala",
+     "shirtName": "Paulo Dybala",
+     "displayName": "Dybala",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::467662b231094f4da83cf422a3817132"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::46d76b9f9aed41e7887adbfb169d4338",
+     "providerId": "opta:Player:5i2tc06romjqx7a7wlu1iye7e",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Samuel",
+     "lastName": "Dahl",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab",
+     "providerId": "opta:Player:bk1gdyxtfp4drwb0yotwerbsa",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Tommaso",
+     "lastName": "Baldanzi",
+     "shirtName": "Tommaso Baldanzi",
+     "displayName": "Baldanzi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a8d5e937e3da4cf8889676f7969eba2f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a24d76c06d864fe9978e6b195041c291",
+     "providerId": "opta:Player:5kktohikuoy0a1oagcgps8mxg",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Niccolò",
+     "lastName": "Pisilli",
+     "shirtName": "Niccolò Pisilli",
+     "displayName": "Pisilli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5538dce5c4f84ec490c5a25931bb5634",
+     "providerId": "opta:Player:anzk8a183bh3gf3gcuz0v0tuc",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Aboubacar",
+     "lastName": "Sangare Traore",
+     "shirtName": "Buba Sangaré",
+     "displayName": "Sangaré",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0",
+     "providerId": "opta:Player:a1iz91ed6hus61yhhk2r0vkd1",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Stephan",
+     "lastName": "El Shaarawy",
+     "shirtName": "Stephan El Shaarawy",
+     "displayName": "El Shaarawy",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::466bd5fe831940f7af73ca8f03bb6f46"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:27:23.233Z",
+   "sha256": "65dc4481ed4b7d27bcdfa068694a4810b4283219bf2329ef914621622f30796b"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:44.406Z",
+   "sha256": "d8cb9b008552f9493d252733a5d8c76781b79b8266e8ae59c052eb200b98d7f9",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Svilar",
+     "giocatoreIdFantacalcio": 5841,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 2.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 2.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 2.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mancini",
+     "giocatoreIdFantacalcio": 2296,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "N'Dicka",
+     "giocatoreIdFantacalcio": 4317,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Celik",
+     "giocatoreIdFantacalcio": 4657,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Angelino",
+     "giocatoreIdFantacalcio": 4772,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Paredes",
+     "giocatoreIdFantacalcio": 468,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pellegrini Lo.",
+     "giocatoreIdFantacalcio": 530,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cristante",
+     "giocatoreIdFantacalcio": 779,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "El Shaarawy",
+     "giocatoreIdFantacalcio": 795,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zalewski",
+     "giocatoreIdFantacalcio": 5422,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kone' M.",
+     "giocatoreIdFantacalcio": 5589,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baldanzi",
+     "giocatoreIdFantacalcio": 5823,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Le Fee",
+     "giocatoreIdFantacalcio": 6299,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dybala",
+     "giocatoreIdFantacalcio": 309,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Soule'",
+     "giocatoreIdFantacalcio": 5734,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dovbyk",
+     "giocatoreIdFantacalcio": 6675,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Montipo'",
+     "giocatoreIdFantacalcio": 4957,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Faraoni",
+     "giocatoreIdFantacalcio": 581,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Magnani",
+     "giocatoreIdFantacalcio": 2769,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 8.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bradaric",
+     "giocatoreIdFantacalcio": 5532,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Daniliuc",
+     "giocatoreIdFantacalcio": 5554,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coppola D.",
+     "giocatoreIdFantacalcio": 5764,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lazovic",
+     "giocatoreIdFantacalcio": 236,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kastanos",
+     "giocatoreIdFantacalcio": 2117,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Duda",
+     "giocatoreIdFantacalcio": 4342,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Harroui",
+     "giocatoreIdFantacalcio": 5688,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Serdar",
+     "giocatoreIdFantacalcio": 6458,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Suslov",
+     "giocatoreIdFantacalcio": 6486,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Dani Silva",
+     "giocatoreIdFantacalcio": 6562,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mosquera",
+     "giocatoreIdFantacalcio": 6630,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Rocha Livramento",
+     "giocatoreIdFantacalcio": 6644,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/11",
+      "estrattoIl": "2026-10-06T20:35:44.406Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Tengstedt",
+     "giocatoreIdFantacalcio": 6801,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 3 - 2 Roma 03/11/2024 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

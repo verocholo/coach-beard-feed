@@ -1,0 +1,1627 @@
+{
+ "label": "Udinese-Empoli (g25)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-02-16T14:00:00Z",
+  "hoursAfterKickoff": 14334.4047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:36:11.807Z",
+  "sha256": "85a90e73dc2d419678b280180a07109dda60083c22586b2d9d34f238494fd2e9"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::e763093b72f640bcb42d4ed57b813bae",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-02-16T14:00:00Z",
+   "matchday": 25,
+   "home": "Udinese",
+   "away": "Empoli",
+   "homeTeamId": "serie-a::Football_Team::630b1e3631db42498d1b7bc94595c5e0",
+   "awayTeamId": "serie-a::Football_Team::4de00d41f5654013b192a9515df5bf39",
+   "homeScore": 3,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::e763093b72f640bcb42d4ed57b813bae",
+   "homeTeam": "Udinese",
+   "awayTeam": "Empoli",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::c66a8f0dd6dd43e6b06c5a4890d52a12",
+     "providerId": "opta:Player:9kp0q3f77gz8f5e2qumj6kpyi",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Razvan Sergiu",
+     "lastName": "Sava",
+     "shirtName": "Razvan Sava",
+     "displayName": "Sava",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18ccff309d1c46efbab30d302ece28e7",
+     "providerId": "opta:Player:95qrrtlyz4ikkzjbgy6exbnit",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Hassane",
+     "lastName": "Kamara",
+     "shirtName": "Hassane Kamara",
+     "displayName": "Kamara",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa46c1e9504d4070876a364bc69fc470",
+     "providerId": "opta:Player:cet0tgjv82l6ao07ij1ylgp9l",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Oumar Mickael",
+     "lastName": "Solet Bomawoko",
+     "shirtName": "Oumar Solet",
+     "displayName": "Solet",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9c5999dbc5cc44a292a49414e20ef094",
+     "providerId": "opta:Player:ah0f7tonnst92d8q91j1wll62",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Jaka",
+     "lastName": "Bijol",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::52d5b4022e8e431aa4b4c8983843965b",
+     "providerId": "opta:Player:dfckk0xst90yjlep74tvups5x",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Kingsley Osezele",
+     "lastName": "Ehizibue",
+     "shirtName": "Kingsley Ehizibue",
+     "displayName": "Ehizibue",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9d07b4ef7bea4aae9e85d8b094ee251f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e8f6079ece014914adab3caf2e98babb",
+     "providerId": "opta:Player:d19yalwh3i2olvpwoi89feqjt",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Jurgen",
+     "lastName": "Ekkelenkamp",
+     "shirtName": "Jurgen Ekkelenkamp",
+     "displayName": "Ekkelenkamp",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 19,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cd9708fcf981489e939152ec78f997c2"
+      },
+      {
+       "type": "goal",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9e4058bd40ec4eabbf8ce0565e5e40e3"
+      },
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e89efd0630fb4de388cce5a2499362ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::75e8a5f9f7c54239aaf5c7620816ca7a",
+     "providerId": "opta:Player:agnmzpaj62lzsavtq43uxt4gl",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Jesper",
+     "lastName": "Karlström",
+     "shirtName": "Jesper Karlström",
+     "displayName": "Karlström",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4f65b66648584493baf8b6a7a025413b",
+     "providerId": "opta:Player:13o5eskqs8b88yerwltk0tivp",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Sandi",
+     "lastName": "Lovrić",
+     "shirtName": "Sandi Lovrić",
+     "displayName": "Lovrić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::74e3b0dfd49c49e582c6d804539367e7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cd9708fcf981489e939152ec78f997c2",
+     "providerId": "opta:Player:2wwbf11c9mc2psxaa8p58qnmc",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Arthur Eric",
+     "lastName": "Atta",
+     "shirtName": "Arthur Atta",
+     "displayName": "Atta",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bd51deb9de4a486dbaa8f1544cad3e31"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::23f8b38d705e43bfaffccba16e316b37",
+     "providerId": "opta:Player:6w6ewzxircqxk6dsrs1rvc8ru",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Lorenzo",
+     "lastName": "Lucca",
+     "shirtName": "L. Lucca",
+     "displayName": "Lucca",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5290120066c84fa5b679c315af96ccc9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5324dde79ee2429ca8d62d4c2f990997",
+     "providerId": "opta:Player:8shwa0k28rt5duyrhuqza1hhx",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Florian",
+     "lastName": "Thauvin",
+     "shirtName": "F. Thauvin",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bd51deb9de4a486dbaa8f1544cad3e31"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::33adbfd3dc2b4caaab762d93b4cc6f97",
+     "providerId": "opta:Player:hhv3h90gifzevkeqh97cb504",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Edoardo",
+     "lastName": "Piana",
+     "shirtName": "E. Piana",
+     "displayName": "Piana",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f42dc8a471d44f2d8cb4a23c2cb0fefc",
+     "providerId": "opta:Player:al3t9fzj4ab55yux0zkd1jkr9",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Daniele",
+     "lastName": "Padelli",
+     "shirtName": "Daniele Padelli",
+     "displayName": "Padelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bd51deb9de4a486dbaa8f1544cad3e31",
+     "providerId": "opta:Player:1bd23slibfdzz32n8nhwosbqi",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Martin Ismael",
+     "lastName": "Payero",
+     "shirtName": "Martín Payero",
+     "displayName": "Payero",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cd9708fcf981489e939152ec78f997c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5931a8de6cc3493ebdaa0b4c30758add",
+     "providerId": "opta:Player:488vwilxllk6nhf4o1wrh0gve",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Oier",
+     "lastName": "Zarraga Egana",
+     "shirtName": "Oier Zarraga",
+     "displayName": "Zarraga",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e89efd0630fb4de388cce5a2499362ff",
+     "providerId": "opta:Player:vl1b0gayryiqvl5dlukpmswl",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Alexis Alejandro",
+     "lastName": "Sanchez Sanchez",
+     "shirtName": "Alexis Sánchez",
+     "displayName": "Sánchez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8f6079ece014914adab3caf2e98babb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5290120066c84fa5b679c315af96ccc9",
+     "providerId": "opta:Player:bf4gvp8pzp50lhtb2fc35zeok",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Simone",
+     "lastName": "Pafundi",
+     "shirtName": "Simone Pafundi",
+     "displayName": "Pafundi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::23f8b38d705e43bfaffccba16e316b37"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74e3b0dfd49c49e582c6d804539367e7",
+     "providerId": "opta:Player:6ffcfr6a1l2p5crr71rb5szys",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Iker",
+     "lastName": "Bravo Solanilla",
+     "shirtName": "Iker Bravo",
+     "displayName": "Iker Bravo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4f65b66648584493baf8b6a7a025413b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::700f9b23586149c6a32011198f8e928a",
+     "providerId": "opta:Player:5ljs2bj3wwiurcyxiwka2i8d1",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Christian",
+     "lastName": "Kabasele",
+     "shirtName": "Christian Kabasele",
+     "displayName": "Kabasele",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::91041af82e6e4aada3968d2f8673a1b1",
+     "providerId": "opta:Player:4n7c1vbt01lpgzzx22u333t1x",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Lautaro Daniel",
+     "lastName": "Giannetti",
+     "shirtName": "Lautaro Giannetti",
+     "displayName": "Giannetti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8c5ec14ba3bf4e1fa505c0bff2fbaa52",
+     "providerId": "opta:Player:6rbsjfwx4pon2d1vu3k7ojxuc",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Thomas Thiesson",
+     "lastName": "Kristensen",
+     "shirtName": "Thomas Kristensen",
+     "displayName": "Kristensen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2c1de35b4eba480dbcd4e21a4cde2c88",
+     "providerId": "opta:Player:918sxflcvngsy0xvc9dh3jaei",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Jordan",
+     "lastName": "Zemura",
+     "shirtName": "Jordan Zemura",
+     "displayName": "Zemura",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9d07b4ef7bea4aae9e85d8b094ee251f",
+     "providerId": "opta:Player:35s5mefte5hagf4wjv96u9756",
+     "side": "home",
+     "team": "Udinese",
+     "firstName": "Rui Manuel",
+     "lastName": "Muati Modesto",
+     "shirtName": "Rui Modesto",
+     "displayName": "Rui Modesto",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::52d5b4022e8e431aa4b4c8983843965b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::adb3802917f84f18b2d899e1cc681700",
+     "providerId": "opta:Player:93237ztqyi3r4hu3rmgzrgudx",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Marco",
+     "lastName": "Silvestri",
+     "shirtName": "Marco Silvestri",
+     "displayName": "Silvestri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a5857e6c5af14b0a8faade09103a5e93",
+     "providerId": "opta:Player:an5eip4p2zmw49hh9eqksigo9",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Liberato",
+     "lastName": "Cacace",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c4180491d2b04195b655b140a8b17a81"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50a60abf290e4880afe7411c15616fb2",
+     "providerId": "opta:Player:6pzskxh8wy2b4gaf4kj6zuivo",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Saba",
+     "lastName": "Goglichidze",
+     "shirtName": "Saba Goglichidze",
+     "displayName": "Goglichidze",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::05e6582794f1475abb32a7d1d26fb404",
+     "providerId": "opta:Player:9pe3yqjsmcjtxdx7bdne3d4ut",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Mattia",
+     "lastName": "De Sciglio",
+     "shirtName": "M. De Sciglio",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7e44f29f2a74a10b079abe0d392bc5a",
+     "providerId": "opta:Player:90pjbz2aq8vz4qapqu1yt2ynd",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Giuseppe",
+     "lastName": "Pezzella",
+     "shirtName": "Giuseppe Pezzella",
+     "displayName": "Pezzella",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::15d093aa2d3b47819ba90355e97d2c0e",
+     "providerId": "opta:Player:2l87vg4m0glbbdvnrg4zud51x",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Liam",
+     "lastName": "Henderson",
+     "shirtName": "Liam Henderson",
+     "displayName": "Henderson",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::860306a52650438ab2f0e0e6e1fb9adb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c608c4d673404cd7adf05b86d036e0f3",
+     "providerId": "opta:Player:d9sakxlp96siw0z1jltszdlgp",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Youssef",
+     "lastName": "Maleh",
+     "shirtName": "Youssef Maleh",
+     "displayName": "Maleh",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7a313bbe5dd44452999921b8e8087bda"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8763e24fb296404e9360dab1c1a6c0aa",
+     "providerId": "opta:Player:1fdgli7rrzvlhcs1exckc0r11",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Alberto",
+     "lastName": "Grassi",
+     "shirtName": "A. Grassi",
+     "displayName": "Grassi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e99fff87e3e41aeade5683c90094957",
+     "providerId": "opta:Player:8lta4w1nytggiwnaqv4e5cc0l",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Emanuel",
+     "lastName": "Gyasi",
+     "shirtName": "Emmanuel Gyasi",
+     "displayName": "Gyasi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ff2c6c9226014d4189d926d17ed14339"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdc070e8a5964a7188c228293722fced",
+     "providerId": "opta:Player:6gjn7pt0i34q45g4porckuj8p",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Kouakou Christian",
+     "lastName": "Kouame",
+     "shirtName": "C. Kouamé",
+     "displayName": "Kouamé",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::75ccbc3aa26f422ebcdf89b1a26f8e2e",
+     "providerId": "opta:Player:vxehbg5v0s42cmvntbd6xc7o",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Jacopo",
+     "lastName": "Seghetti",
+     "shirtName": "J. Seghetti",
+     "displayName": "Seghetti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::410303ba6eb74fcb882fc6aca990c956",
+     "providerId": "opta:Player:fb1s5est3fuw1flrjl9isusp",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Devis Estiven",
+     "lastName": "Vasquez Llach",
+     "shirtName": "D. Vasquez",
+     "displayName": "D. Vásquez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ff2c6c9226014d4189d926d17ed14339",
+     "providerId": "opta:Player:ezpkmoz1z08da3o3g45m12lzp",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Junior",
+     "lastName": "Sambia",
+     "shirtName": "J. Sambia",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5e99fff87e3e41aeade5683c90094957"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c4180491d2b04195b655b140a8b17a81",
+     "providerId": "opta:Player:1s7qbrynbcv9uw9r5f29oyc5",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Viktor",
+     "lastName": "Kovalenko",
+     "shirtName": "V. Kovalenko",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a5857e6c5af14b0a8faade09103a5e93"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7a313bbe5dd44452999921b8e8087bda",
+     "providerId": "opta:Player:1i47csjlvcikfs4wixzserend",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Szymon Piotr",
+     "lastName": "Żurkowski",
+     "shirtName": "Szymon Żurkowski",
+     "displayName": "Żurkowski",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c608c4d673404cd7adf05b86d036e0f3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1d944920a2fb4952877847e11ccae21e",
+     "providerId": "opta:Player:ewlrfjbmk1resvq3w234lwr2s",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Lorenzo",
+     "lastName": "Tosto",
+     "shirtName": "Lorenzo Tosto",
+     "displayName": "Tosto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c35ea6cc7abe4f3eb67b1c789335e60c",
+     "providerId": "opta:Player:1n3x6amcyzy6d4bhz8wwxstn8",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Dawid",
+     "lastName": "Bembnista",
+     "shirtName": "Dawid Bembnista",
+     "displayName": "Bembnista",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::860306a52650438ab2f0e0e6e1fb9adb",
+     "providerId": "opta:Player:8rouava6glln14si4xxksgwt0",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Ismael",
+     "lastName": "Konate",
+     "shirtName": "Ismael Konaté",
+     "displayName": "Konaté",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::15d093aa2d3b47819ba90355e97d2c0e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba",
+     "providerId": "opta:Player:c4n7kjp8c47trslpssnyqjo16",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Sebastiano",
+     "lastName": "Esposito",
+     "shirtName": "Sebastiano Esposito",
+     "displayName": "S. Esposito",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:31:28.685Z",
+   "sha256": "15aa6e0c3202b79ae6b478f146f35a1a2cb94083dfcaf8d9ce75545cc5e4c7c9"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:36:11.807Z",
+   "sha256": "85a90e73dc2d419678b280180a07109dda60083c22586b2d9d34f238494fd2e9",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Silvestri",
+     "giocatoreIdFantacalcio": 2211,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 2.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 3,
+     "votoItalia": 6,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Sciglio",
+     "giocatoreIdFantacalcio": 358,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pezzella Giu.",
+     "giocatoreIdFantacalcio": 770,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cacace",
+     "giocatoreIdFantacalcio": 5804,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sambia",
+     "giocatoreIdFantacalcio": 5856,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Goglichidze",
+     "giocatoreIdFantacalcio": 6537,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Grassi",
+     "giocatoreIdFantacalcio": 27,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zurkowski",
+     "giocatoreIdFantacalcio": 4376,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Henderson L.",
+     "giocatoreIdFantacalcio": 4498,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gyasi",
+     "giocatoreIdFantacalcio": 4992,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kovalenko",
+     "giocatoreIdFantacalcio": 5397,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Maleh",
+     "giocatoreIdFantacalcio": 5457,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kouame'",
+     "giocatoreIdFantacalcio": 2762,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Esposito Se.",
+     "giocatoreIdFantacalcio": 4463,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Colombo",
+     "giocatoreIdFantacalcio": 4923,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Konate Is.",
+     "giocatoreIdFantacalcio": 6935,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Sava",
+     "giocatoreIdFantacalcio": 6842,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kamara H.",
+     "giocatoreIdFantacalcio": 5555,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bijol",
+     "giocatoreIdFantacalcio": 5847,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ehizibue",
+     "giocatoreIdFantacalcio": 6047,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Solet",
+     "giocatoreIdFantacalcio": 6956,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pafundi",
+     "giocatoreIdFantacalcio": 5824,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lovric",
+     "giocatoreIdFantacalcio": 5850,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Payero",
+     "giocatoreIdFantacalcio": 6481,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Karlstrom",
+     "giocatoreIdFantacalcio": 6680,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ekkelenkamp",
+     "giocatoreIdFantacalcio": 6684,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 14,
+     "votoItalia": 8,
+     "fantavotoItalia": 14,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rui Modesto",
+     "giocatoreIdFantacalcio": 6900,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Atta",
+     "giocatoreIdFantacalcio": 6908,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Thauvin",
+     "giocatoreIdFantacalcio": 2369,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sanchez",
+     "giocatoreIdFantacalcio": 2475,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lucca",
+     "giocatoreIdFantacalcio": 6215,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/25",
+      "estrattoIl": "2026-10-06T20:36:11.807Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bravo",
+     "giocatoreIdFantacalcio": 6653,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Udinese 3 - 0 Empoli 16/02/2025 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

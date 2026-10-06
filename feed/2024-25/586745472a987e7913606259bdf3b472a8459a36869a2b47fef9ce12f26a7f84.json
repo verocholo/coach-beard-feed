@@ -1,0 +1,1738 @@
+{
+ "label": "Como-Milan (g19)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-01-14T17:30:00Z",
+  "hoursAfterKickoff": 15122.9047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:59.568Z",
+  "sha256": "233f018bd47de545dd7a27be705c8bf3386249f64221b93ef57489dccfae5be7"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::fc059666cde34077a798a643f73af7e6",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-01-14T17:30:00Z",
+   "matchday": 19,
+   "home": "Como",
+   "away": "Milan",
+   "homeTeamId": "serie-a::Football_Team::367e70bf50b346209f8a0f16429850cb",
+   "awayTeamId": "serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0",
+   "homeScore": 1,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::fc059666cde34077a798a643f73af7e6",
+   "homeTeam": "Como",
+   "awayTeam": "Milan",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::b8f4bf41ac6a4c38894b71c72e278bb6",
+     "providerId": "opta:Player:r0hm6ahwcvdu57bgfi5zkslx",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Jean Jules Michel",
+     "lastName": "Butez",
+     "shirtName": "Jean Butez",
+     "displayName": "Butez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::10128bcdb2974a83908a844014b93ecb",
+     "providerId": "opta:Player:djpsc1fvcnrh61c071t00gmad",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Marc-Oliver",
+     "lastName": "Kempf",
+     "shirtName": "Marc-Oliver Kempf",
+     "displayName": "Kempf",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fffc084cc99648e8a49304ce1b960215",
+     "providerId": "opta:Player:2fbg7v69wyis2his47u8ij4rt",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Dossena",
+     "shirtName": "Alberto Dossena",
+     "displayName": "Dossena",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1710a45696bb4c338978eaa08de28a3a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0cae729dddfb432dba1ad7789b0f910e",
+     "providerId": "opta:Player:7yeax9s2rpt3xuace2b77xgid",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Edoardo",
+     "lastName": "Goldaniga",
+     "shirtName": "E. Goldaniga",
+     "displayName": "Goldaniga",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1e98bf9e66dd413c9ffb846e76aec1c1",
+     "providerId": "opta:Player:3pba28sk4auqjp27jfssfvvxm",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Ignace Fabienne",
+     "lastName": "Van Der Brempt",
+     "shirtName": "Ignace Van der Brempt",
+     "displayName": "Van der Brempt",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6867551cf5a6427a9ab81bd06fd9d455",
+     "providerId": "opta:Player:92vjurxjnipl210yanki2oz8q",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Lucas",
+     "lastName": "Da Cunha",
+     "shirtName": "Lucas da Cunha",
+     "displayName": "da Cunha",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8efffa24ecbc49119c24eebf18306943",
+     "providerId": "opta:Player:vzbmf6lqvbw398clnt7jyiqy",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Yannik",
+     "lastName": "Engelhardt",
+     "shirtName": "Yannik Engelhardt",
+     "displayName": "Engelhardt",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e2f4254456b445c1a4cdee770f7fc8ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::996213fa92014868bf3a50155d8bd4dd",
+     "providerId": "opta:Player:5f13ro5hgmago2bmqtzjw5ey",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Alieu",
+     "lastName": "Fadera",
+     "shirtName": "Alieu Fadera",
+     "displayName": "Fadera",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::526c1ebfad434e53936bb1c7e24db3a5",
+     "providerId": "opta:Player:44f0q2ucrld1rwcwx63vgs7hl",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Gabriel",
+     "lastName": "Strefezza",
+     "shirtName": "Gabriel Strefezza",
+     "displayName": "Strefezza",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::97481def06eb44989781b7ff153b83a3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9536d7ae0f7b418bba2381f37d640659",
+     "providerId": "opta:Player:13uxs8820y7mi31fsw1i0qxw4",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Assane",
+     "lastName": "Diao Diaoune",
+     "shirtName": "Assane Diao",
+     "displayName": "Diao",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::97481def06eb44989781b7ff153b83a3"
+      },
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::225f6cb9653e4e9aa816c7ba9d02384f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4919025f871840d199d459a2c636266e",
+     "providerId": "opta:Player:7dnu1vdavskc4ct33k88lpdcl",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Patrick",
+     "lastName": "Cutrone",
+     "shirtName": "Patrick Cutrone",
+     "displayName": "Cutrone",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::17c07473515a40a9a9ee3211a33ab18d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffc8be5bd4e749d0b24674083abab469",
+     "providerId": "opta:Player:e2dn4s6p2f6xnbaje17wd3jyt",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Emil",
+     "lastName": "Audero Mulyadi",
+     "shirtName": "Emil Audero",
+     "displayName": "Audero",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3d1630a5c43a4307a85f23cd3157ccf7",
+     "providerId": "opta:Player:76r2yw3wtql61qh5l0yumdn85",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Pepe",
+     "lastName": "Reina",
+     "shirtName": "P. Reina",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6940895d3fb24634aa5b0c28f632a35c",
+     "providerId": "opta:Player:a8dm3433l77bkgla902imcr56",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Ben",
+     "lastName": "Ben Kone",
+     "shirtName": "Ben Kone",
+     "displayName": "Kone",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::73e8d120a4234676960dea6b421bea7d",
+     "providerId": "opta:Player:2lr51fk6qzyf6xskjd9dse8yd",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Alessio",
+     "lastName": "Iovine",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1710a45696bb4c338978eaa08de28a3a",
+     "providerId": "opta:Player:7jssa0kt7p97akgi41umce85x",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Alessandro",
+     "lastName": "Gabrielloni",
+     "shirtName": "Alessandro Gabrielloni",
+     "displayName": "Gabrielloni",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fffc084cc99648e8a49304ce1b960215"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::17c07473515a40a9a9ee3211a33ab18d",
+     "providerId": "opta:Player:97mmzzi3dwdos6jtj2m05w4ph",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Andrea",
+     "lastName": "Belotti",
+     "shirtName": "A. Belotti",
+     "displayName": "Belotti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4919025f871840d199d459a2c636266e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d19e41c14e1e4e0b9b3bce130aca9ea9",
+     "providerId": "opta:Player:e3fgsuh8gm0zd6g3ihn1otzpw",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Fellipe Jack",
+     "lastName": "Ozilio Moreira Pacheco",
+     "shirtName": "Fellipe Jack",
+     "displayName": "Fellipe Jack",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e2f4254456b445c1a4cdee770f7fc8ba",
+     "providerId": "opta:Player:6d36zn3fr35yhj70yx5n445qs",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Maximo",
+     "lastName": "Perrone Rodriguez",
+     "shirtName": "Máximo Perrone",
+     "displayName": "Perrone",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8efffa24ecbc49119c24eebf18306943"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9fe0fecc2aa24bb48c3074af958cd460",
+     "providerId": "opta:Player:d1s6ucvydq0oe5vsg00e9me7e",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Matthias",
+     "lastName": "Braunöder",
+     "shirtName": "Matthias Braunöder",
+     "displayName": "Braunöder",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59",
+     "providerId": "opta:Player:c7u5a6ngr4f839ibw3b0opsk5",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Luca",
+     "lastName": "Mazzitelli",
+     "shirtName": "Luca Mazzitelli",
+     "displayName": "Mazzitelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2633691f9cc8423987c564bba96ca8af",
+     "providerId": "opta:Player:cdct67nakr6jks1wjd3hn8efo",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Naj",
+     "lastName": "Razi",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2f425dd023324ce58665d232e72b1841",
+     "providerId": "opta:Player:bpdp3gw7g0f87ckumwaq50hlg",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Federico",
+     "lastName": "Chinetti",
+     "shirtName": "Federico Chinetti",
+     "displayName": "Chinetti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::027970dce05b45359fbaa7d11eb36313",
+     "providerId": "opta:Player:9i6hs8toyjwrh7ub04vow8wes",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Nicolas",
+     "lastName": "Paz Martinez",
+     "shirtName": "Nico Paz",
+     "displayName": "Nico Paz",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::97481def06eb44989781b7ff153b83a3",
+     "providerId": "opta:Player:79dz7zni5fcgh5e70spoj2j8p",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Maxence",
+     "lastName": "Caqueret",
+     "shirtName": "Maxence Caqueret",
+     "displayName": "Caqueret",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::526c1ebfad434e53936bb1c7e24db3a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::225f6cb9653e4e9aa816c7ba9d02384f",
+     "providerId": "opta:Player:c39nv7jn5c3qzglosgzigif2t",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Simone",
+     "lastName": "Verdi",
+     "shirtName": "S. Verdi",
+     "displayName": "Verdi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9536d7ae0f7b418bba2381f37d640659"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f6b27c8e1cf04b3391184988ee7336f7",
+     "providerId": "opta:Player:3fpnfgoy4lbpapv2th6g60cet",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Mike Peterson",
+     "lastName": "Maignan",
+     "shirtName": "Mike Maignan",
+     "displayName": "Maignan",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6e2697d31a5049a5af8e5051c6143b2d",
+     "providerId": "opta:Player:3tpmw6tlijytn0ahwztvedkut",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Theo",
+     "lastName": "Hernández",
+     "shirtName": "T. Hernandez",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::526fcc66372a488eb78060243d650614"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7a10a159c6f54d1ab3bd8335f1fdcb29",
+     "providerId": "opta:Player:cfpaejad8i9p2r1fj0wx0g222",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Malick",
+     "lastName": "Thiaw",
+     "shirtName": "M. Thiaw",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 43,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::37d0e89ba51343a8b24b768e4efa02d6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4",
+     "providerId": "opta:Player:3sezchmdtivxl4kusvgc6j7x1",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Oluwafikayomi Oluwadamilola",
+     "lastName": "Tomori",
+     "shirtName": "Fikayo Tomori",
+     "displayName": "Tomori",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1ba9cc621f5847919e8bf0ba780c91c5",
+     "providerId": "opta:Player:anxby26pfxpu4u5bfy9nbuvah",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Emerson Aparecido",
+     "lastName": "Leite de Souza Júnior",
+     "shirtName": "Emerson Royal",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1",
+     "providerId": "opta:Player:b0wb7gf04synxlkq7o8gvzkoa",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Youssouf",
+     "lastName": "Fofana",
+     "shirtName": "Youssouf Fofana",
+     "displayName": "Y. Fofana",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::236541094aea443b92ea9ae2520bdd52"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6bb2f80c73db4d569efd2374d748ab68",
+     "providerId": "opta:Player:cknjube5flk1r5ppqthj82c5",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Ismaël",
+     "lastName": "Bennacer",
+     "shirtName": "I. Bennacer",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 33,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c8dd9df24f93474e895c96839e7021e7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6fde4369a9f648b3ba1397aaba3c527b",
+     "providerId": "opta:Player:2w7xspkzg7b9ghl20me202ove",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Tijjani",
+     "lastName": "Reijnders",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c",
+     "providerId": "opta:Player:11o903vztwpnmvgrinn208qnd",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Rafael Alexandre",
+     "lastName": "da Conceição Leão",
+     "shirtName": "Rafael Leão",
+     "displayName": "Rafael Leão",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::90f14d0d8f7c4e20b78b33106df2979d"
+      },
+      {
+       "type": "yellow-card",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad",
+     "providerId": "opta:Player:93soe2rjn0z874cc9ofcesgkp",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Christian Mate",
+     "lastName": "Pulisic",
+     "shirtName": "Christian Pulišić",
+     "displayName": "Pulisic",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7bba1cf90e5242579e9cdcb5c20c6974"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a28bdeb07514be7abed730e8a5b4a6f",
+     "providerId": "opta:Player:46kq5653o302ebz4o5yzsss0l",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Alvaro Borja",
+     "lastName": "Morata Martin",
+     "shirtName": "A. Morata",
+     "displayName": "Morata",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 20,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::90f14d0d8f7c4e20b78b33106df2979d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::09cd84f668164a29bd254dcc8c8b5507",
+     "providerId": "opta:Player:3ww5879aay1xf2a20nl9ihwid",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Marco",
+     "lastName": "Sportiello",
+     "shirtName": "Marco Sportiello",
+     "displayName": "Sportiello",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e5ab095b8ad24c42ab8bbf17164143bd",
+     "providerId": "opta:Player:d0ag3rk2mc50gwbo5famdzaqc",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Lorenzo",
+     "lastName": "Torriani",
+     "shirtName": "Lorenzo Torriani",
+     "displayName": "Torriani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::30504a8e71d349f19ea0141d861d6d09",
+     "providerId": "opta:Player:e2vtm1318mm61db2wtj4m5p79",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Davide",
+     "lastName": "Calabria",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7bba1cf90e5242579e9cdcb5c20c6974",
+     "providerId": "opta:Player:clbsrtzkf61e6vx28ou5lbx90",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Alejandro",
+     "lastName": "Jimenez Sanchez",
+     "shirtName": "Álex Jiménez",
+     "displayName": "Jiménez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad"
+      },
+      {
+       "type": "yellow-card",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6075b492bae04b149467f30c9c6923be",
+     "providerId": "opta:Player:7wjdqyl3bkhsfca5cu4riwley",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Strahinja",
+     "lastName": "Pavlović",
+     "shirtName": "Strahinja Pavlović",
+     "displayName": "Pavlović",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::528463bd1ae34632b21700b2f1a4290c",
+     "providerId": "opta:Player:20f5apcbciifqyln8hp3cziwa",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Filippo",
+     "lastName": "Terracciano",
+     "shirtName": "Filippo Terracciano",
+     "displayName": "F. Terracciano",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37d0e89ba51343a8b24b768e4efa02d6",
+     "providerId": "opta:Player:enqcaecpt5hy0qv9x5pzmkjc9",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Gabbia",
+     "shirtName": "Matteo Gabbia",
+     "displayName": "Gabbia",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7a10a159c6f54d1ab3bd8335f1fdcb29"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::236541094aea443b92ea9ae2520bdd52",
+     "providerId": "opta:Player:5vz3ahy53htjc8pk4wzvytzbo",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Francesco",
+     "lastName": "Camarda",
+     "shirtName": "Francesco Camarda",
+     "displayName": "Camarda",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e25ec8ccb1cb4399ae10cc0ade721ad6",
+     "providerId": "opta:Player:ejza1e0bht5ac5llijmttuo0k",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Bob",
+     "lastName": "Omoregbe",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c8dd9df24f93474e895c96839e7021e7",
+     "providerId": "opta:Player:b2e12l3s3dxgyr8d2rk5qb9ey",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Yunus Dimoara",
+     "lastName": "Musah",
+     "shirtName": "Yunus Musah",
+     "displayName": "Musah",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6bb2f80c73db4d569efd2374d748ab68"
+      },
+      {
+       "type": "yellow-card",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::90f14d0d8f7c4e20b78b33106df2979d",
+     "providerId": "opta:Player:363nsa82dww242zeo09wpcslx",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Tammy",
+     "lastName": "Abraham",
+     "shirtName": "T. Abraham",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a28bdeb07514be7abed730e8a5b4a6f"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:30:04.760Z",
+   "sha256": "6373020b3eb1b662dbaeea937801ad5b2aef4661063e1a9e07b613bde545024c"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:59.568Z",
+   "sha256": "233f018bd47de545dd7a27be705c8bf3386249f64221b93ef57489dccfae5be7",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Butez",
+     "giocatoreIdFantacalcio": 6966,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Goldaniga",
+     "giocatoreIdFantacalcio": 418,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dossena",
+     "giocatoreIdFantacalcio": 6230,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kempf",
+     "giocatoreIdFantacalcio": 6893,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Van Der Brempt",
+     "giocatoreIdFantacalcio": 6896,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Verdi",
+     "giocatoreIdFantacalcio": 376,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Strefezza",
+     "giocatoreIdFantacalcio": 4486,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Caqueret",
+     "giocatoreIdFantacalcio": 5036,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Da Cunha",
+     "giocatoreIdFantacalcio": 5559,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Perrone",
+     "giocatoreIdFantacalcio": 6151,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Engelhardt",
+     "giocatoreIdFantacalcio": 6676,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fadera",
+     "giocatoreIdFantacalcio": 6815,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Diao",
+     "giocatoreIdFantacalcio": 6967,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Belotti",
+     "giocatoreIdFantacalcio": 441,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cutrone",
+     "giocatoreIdFantacalcio": 2155,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gabrielloni",
+     "giocatoreIdFantacalcio": 6657,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Maignan",
+     "giocatoreIdFantacalcio": 4312,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hernandez T.",
+     "giocatoreIdFantacalcio": 4292,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gabbia",
+     "giocatoreIdFantacalcio": 4401,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tomori",
+     "giocatoreIdFantacalcio": 4751,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Emerson Royal",
+     "giocatoreIdFantacalcio": 4816,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Thiaw",
+     "giocatoreIdFantacalcio": 6055,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Jimenez A.",
+     "giocatoreIdFantacalcio": 6531,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pulisic",
+     "giocatoreIdFantacalcio": 2423,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bennacer",
+     "giocatoreIdFantacalcio": 2818,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fofana Y.",
+     "giocatoreIdFantacalcio": 4686,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Musah",
+     "giocatoreIdFantacalcio": 5295,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Reijnders",
+     "giocatoreIdFantacalcio": 6224,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Morata",
+     "giocatoreIdFantacalcio": 313,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Abraham",
+     "giocatoreIdFantacalcio": 2544,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Leao",
+     "giocatoreIdFantacalcio": 4510,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/19",
+      "estrattoIl": "2026-10-06T20:35:59.568Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Camarda",
+     "giocatoreIdFantacalcio": 6519,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Milan 14/01/2025 - 18:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

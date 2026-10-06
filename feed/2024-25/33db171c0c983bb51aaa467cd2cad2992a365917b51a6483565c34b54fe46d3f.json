@@ -1,0 +1,1658 @@
+{
+ "label": "Monza-Bologna (g5)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-09-22T13:00:00Z",
+  "hoursAfterKickoff": 17863.4047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:32.673Z",
+  "sha256": "de691ae7efb290ce2b9b346a26319a36f158c4ec0a281b0d1b957849baca20d3"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::11c6cc50db594aa69323e892fe16d197",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-09-22T13:00:00Z",
+   "matchday": 5,
+   "home": "Monza",
+   "away": "Bologna",
+   "homeTeamId": "serie-a::Football_Team::9ba470f39580450fac7654956ba574fa",
+   "awayTeamId": "serie-a::Football_Team::4af71b35aab34ad5a7d06148abe66ad6",
+   "homeScore": 1,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 4
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::11c6cc50db594aa69323e892fe16d197",
+   "homeTeam": "Monza",
+   "awayTeam": "Bologna",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::7ee9be263d9542faa19317ebdd17e027",
+     "providerId": "opta:Player:5jfy7133kfbmyl8ur6ze9y2ju",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Stefano",
+     "lastName": "Turati",
+     "shirtName": "S. Turati",
+     "displayName": "Turati",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdbd7dfe606548d5919e564f018239bf",
+     "providerId": "opta:Player:chjjcy789cuwlsik2ibmubtyi",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Carboni",
+     "shirtName": "Andrea Carboni",
+     "displayName": "A. Carboni",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 18,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6b877858b0d14ac5bf60e2c21de3dd40",
+     "providerId": "opta:Player:erdqr6vrr5tlfypbks3og0dlh",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Pablo",
+     "lastName": "Mari Villar",
+     "shirtName": "Pablo Marí",
+     "displayName": "Pablo Marí",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f560b55a1ff1466da1ea41275cf41e4f",
+     "providerId": "opta:Player:thnje2i2s96fcbuscj57053p",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Armando",
+     "lastName": "Izzo",
+     "shirtName": "Armando Izzo",
+     "displayName": "Izzo",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 42,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5395422c0fce40fba80082e4dc17ae13"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b1831a9d79fa4a65baaa65f5d3dae7a5",
+     "providerId": "opta:Player:83hpavqn7r5bzcgxvjbcso3px",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Georgios",
+     "lastName": "Kyriakopoulos",
+     "shirtName": "G. Kyriakopoulos",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::83319bf0373b43518888065782bf262a",
+     "providerId": "opta:Player:a38yzp61vlk5x7ib4yspxrx05",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Pedro Miguel",
+     "lastName": "Almeida Lopes Pereira",
+     "shirtName": "Pedro Pereira",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9251f37b2a045cfae6d735c6658dae9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f7f6ded8c3724d20bb5246f79c123019",
+     "providerId": "opta:Player:5bi4t2dob5mo0okdbv6sna6fo",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Alessandro",
+     "lastName": "Bianco",
+     "shirtName": "A. Bianco",
+     "displayName": "Bianco",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ee4aa696a3a14a04979f1ce6f835331a",
+     "providerId": "opta:Player:2qdgfxqyh0bjn3alkz97py8k5",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Matteo",
+     "lastName": "Pessina",
+     "shirtName": "Matteo Pessina",
+     "displayName": "Pessina",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dd491713fb4649b6a431512f272de5d1",
+     "providerId": "opta:Player:1fsum47fkh62rer9xxe3smctm",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Daniel",
+     "lastName": "Maldini",
+     "shirtName": "Daniel Maldini",
+     "displayName": "Maldini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::96055ebe6dee4170beba44ac206302b1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::23a565adf58c4105b28af9c5e3ab150a",
+     "providerId": "opta:Player:dq037w5t3ht5zgd75mue4p1pl",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Dany",
+     "lastName": "Mota",
+     "shirtName": "Dany Mota",
+     "displayName": "Dany Mota",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9ff28fb62c554f96a4f89c0a9c14e598"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94",
+     "providerId": "opta:Player:dp1y9x5r6z1q120hj3sgyhxat",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Milan",
+     "lastName": "Djuric",
+     "shirtName": "Milan Djuric",
+     "displayName": "Djuric",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 43,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d0d94d3638ca4feebb59b8c947c85f11"
+      },
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a27880cf9f3a4754892fbfbc4ed31360"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::faea7272d5524a2fb5d1f2b64aa12b87",
+     "providerId": "opta:Player:40rsjcp9bgu6pt4bf2qrczyp6",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Semuel",
+     "lastName": "Pizzignacco",
+     "shirtName": "Semuel Pizzignacco",
+     "displayName": "Pizzignacco",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::894a787d7b2841ffb508126d4f0c386f",
+     "providerId": "opta:Player:9j9vm19kbcmeki09m5mdpe6ms",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Andrea",
+     "lastName": "Mazza",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9ff28fb62c554f96a4f89c0a9c14e598",
+     "providerId": "opta:Player:6ck9f1ppvl65nui0x71q80jx1",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Gianluca",
+     "lastName": "Caprari",
+     "shirtName": "Gianluca Caprari",
+     "displayName": "Caprari",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::23a565adf58c4105b28af9c5e3ab150a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::96055ebe6dee4170beba44ac206302b1",
+     "providerId": "opta:Player:ez84mmwnccba4l4mprch00962",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Omari Nathan",
+     "lastName": "Forson",
+     "shirtName": "Omari Forson",
+     "displayName": "Forson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dd491713fb4649b6a431512f272de5d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a27880cf9f3a4754892fbfbc4ed31360",
+     "providerId": "opta:Player:36gtyjc6dg13f6ff8go77951x",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Mirko",
+     "lastName": "Maric",
+     "shirtName": "Mirko Maric",
+     "displayName": "Marić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::49486d5a5c4c4af08d35ad0cf879227e",
+     "providerId": "opta:Player:9noq0ogmqc2cwj3nowoadcdlh",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Mattia",
+     "lastName": "Valoti",
+     "shirtName": "Mattia Valoti",
+     "displayName": "Valoti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d9251f37b2a045cfae6d735c6658dae9",
+     "providerId": "opta:Player:6zcok1vbaitp91a9nrac20t05",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Danilo",
+     "lastName": "D'ambrosio",
+     "shirtName": "D. D'ambrosio",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::83319bf0373b43518888065782bf262a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5395422c0fce40fba80082e4dc17ae13",
+     "providerId": "opta:Player:98x5xrku2jffo0in2u2htazca",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Warren Pierre",
+     "lastName": "Bondo",
+     "shirtName": "Warren Bondo",
+     "displayName": "Bondo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f560b55a1ff1466da1ea41275cf41e4f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bf0959249bd94fd3b0ba34a0e9991e62",
+     "providerId": "opta:Player:9gz2cxsw9fzw3gf05zbcoj1g4",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Niccolò",
+     "lastName": "Postiglione",
+     "shirtName": "",
+     "displayName": "Postiglione",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9927a245547444148f1ec6e944940a03",
+     "providerId": "opta:Player:3h3ldwhj45k6erfy4hjpjsm50",
+     "side": "home",
+     "team": "Monza",
+     "firstName": "Endris",
+     "lastName": "Scaramelli",
+     "shirtName": "Endris Scaramelli",
+     "displayName": "Scaramelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::53a4937f0ee0461bafae8598946349a4",
+     "providerId": "opta:Player:9m6yva52cmdq7uu31qrwdrund",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Ravaglia",
+     "shirtName": "Federico Ravaglia",
+     "displayName": "Ravaglia",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::21a70260eb4045f99d307966ab7ba64e",
+     "providerId": "opta:Player:a2n9op95qyb3rkye5pxqjb7bp",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Charalampos",
+     "lastName": "Lykogiannīs",
+     "shirtName": "Charalampos Lykogiannīs",
+     "displayName": "Lykogiannīs",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ddf4ceac503b43648e42f966b5fe37b3",
+     "providerId": "opta:Player:3l0mj1zzhytxvm9tryvqv8kix",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jhon Janer",
+     "lastName": "Lucumi' Bonilla",
+     "shirtName": "Jhon Lucumí",
+     "displayName": "Lucumí",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 51,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::313bd55b6a874a0c8657fc0d8b1d0f40",
+     "providerId": "opta:Player:1x10v3yh4e3f1p2ndhtxcck4p",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Casale",
+     "shirtName": "Nicolò Casale",
+     "displayName": "Casale",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bcf150cd064745dd84cdf52fff84fd23"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839",
+     "providerId": "opta:Player:3cbwh4pfwae5xw072cy14gb85",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Lorenzo",
+     "lastName": "De Silvestri",
+     "shirtName": "Lorenzo De Silvestri",
+     "displayName": "De Silvestri",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ee9c033adeaa4527b7c728995c53ac62"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a74cbc51025f490cb8c10f031cd7fc9c",
+     "providerId": "opta:Player:bpfg11qh1q0zj2x6sqd3srvmx",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Michel",
+     "lastName": "Aebischer",
+     "shirtName": "Michel Aebischer",
+     "displayName": "Aebischer",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c",
+     "providerId": "opta:Player:19nlw3sa0khwz0el4wqc7zrp",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Remo",
+     "lastName": "Freuler",
+     "shirtName": "Remo Freuler",
+     "displayName": "Freuler",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e4e9ea37c076469ea8fb0d76074fb02e",
+     "providerId": "opta:Player:efow9aip64uaszfwxh1j0l6y2",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Kacper",
+     "lastName": "Urbański",
+     "shirtName": "Kacper Urbański",
+     "displayName": "Urbański",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 24,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21a70260eb4045f99d307966ab7ba64e"
+      },
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::71f6c7d55bca4c25bb706cda960a55e9",
+     "providerId": "opta:Player:ex10o77wnk1exp9tj1t1rqj56",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Dan",
+     "lastName": "Ndoye",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb",
+     "providerId": "opta:Player:b9clhoz198r69kavhw4anymms",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Santiago Thomas",
+     "lastName": "Castro",
+     "shirtName": "Santiago Castro",
+     "displayName": "Castro",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c"
+      },
+      {
+       "type": "yellow-card",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947",
+     "providerId": "opta:Player:1t7nph4960rjzu7rgi47sf8ix",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jens",
+     "lastName": "Odgaard",
+     "shirtName": "Jens Odgaard",
+     "displayName": "Odgaard",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::95028eb2bc974712a00355d9e39738af"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::47c6788b77eb47bf90274613223577a4",
+     "providerId": "opta:Player:4hrmzpx1nt5ze55fpby71mcb9",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Łukasz",
+     "lastName": "Skorupski",
+     "shirtName": "Łukasz Skorupski",
+     "displayName": "Skorupski",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::14010adf030c4819af95fa650e882444",
+     "providerId": "opta:Player:x8runqzjfkym8r7kdy3a8t0",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nicola",
+     "lastName": "Bagnolini",
+     "shirtName": "N. Bagnolini",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ee9c033adeaa4527b7c728995c53ac62",
+     "providerId": "opta:Player:1po7tmdv73zfjentt0p20wdlh",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Stefan",
+     "lastName": "Posch",
+     "shirtName": "Stefan Posch",
+     "displayName": "Posch",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7e36cde8760f40efb3e00ca36f5c2675",
+     "providerId": "opta:Player:e5fnoxb8f2hycjx4gnmce2wvd",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Martin",
+     "lastName": "Erlić",
+     "shirtName": "M. Erlic",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187",
+     "providerId": "opta:Player:6eqqtmbg35rg2stk10ic7q8k5",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nikola",
+     "lastName": "Moro",
+     "shirtName": "Nikola Moro",
+     "displayName": "N. Moro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e4e9ea37c076469ea8fb0d76074fb02e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029",
+     "providerId": "opta:Player:1cu7fg8sf90isf9gp21e5fqh",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Riccardo",
+     "lastName": "Orsolini",
+     "shirtName": "Riccardo Orsolini",
+     "displayName": "Orsolini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a2f96557c5a14589abcae509e89edafd",
+     "providerId": "opta:Player:33yauarx84sam5u05vgyqxfxl",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Karl Jesper",
+     "lastName": "Karlsson",
+     "shirtName": "Jesper Karlsson",
+     "displayName": "Karlsson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::95028eb2bc974712a00355d9e39738af",
+     "providerId": "opta:Player:9p621hq50jdkujzy4309sagkq",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Samuel",
+     "lastName": "Iling-junior",
+     "shirtName": "S. Iling",
+     "displayName": "Iling-Junior",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5e60f9fc9c3249d2b71ec4871bd42d78",
+     "providerId": "opta:Player:3m6mnytvm0s8u4390tr88x9g4",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Tommaso",
+     "lastName": "Corazza",
+     "shirtName": "Tommaso Corazza",
+     "displayName": "Corazza",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2",
+     "providerId": "opta:Player:1lnktjxx0mux4beo28cl54j1m",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Thijs Jacco Jan",
+     "lastName": "Dallinga",
+     "shirtName": "Thijs Dallinga",
+     "displayName": "Dallinga",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::102e52dc3ff54e2bb5ebcfe902fd0fe5",
+     "providerId": "opta:Player:ausjnoieiyx9m37qzam0gqgic",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Benjamin",
+     "lastName": "Dominguez",
+     "shirtName": "Benjamín Domínguez",
+     "displayName": "Domínguez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bcf150cd064745dd84cdf52fff84fd23",
+     "providerId": "opta:Player:42cg746sa90jla5x4islj9pwq",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Sam",
+     "lastName": "Beukema",
+     "shirtName": "Sam Beukema",
+     "displayName": "Beukema",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::313bd55b6a874a0c8657fc0d8b1d0f40"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4cd4bfae3a13463d882e18735047e596",
+     "providerId": "opta:Player:emvmn561wgd62zj0s3qi5j5rd",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Juan",
+     "lastName": "Miranda Gonzalez",
+     "shirtName": "Juan Miranda",
+     "displayName": "Miranda",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15",
+     "providerId": "opta:Player:4j3d7ujmhevsi0y3zvs34i13o",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Giovanni",
+     "lastName": "Fabbian",
+     "shirtName": "Giovanni Fabbian",
+     "displayName": "Fabbian",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:25:42.085Z",
+   "sha256": "979e43018d808bdc8f6c8ea49ec5e2e3ce223d322cba0b3c6389675a6786a139"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:32.673Z",
+   "sha256": "de691ae7efb290ce2b9b346a26319a36f158c4ec0a281b0d1b957849baca20d3",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Ravaglia F.",
+     "giocatoreIdFantacalcio": 2722,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 5,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Silvestri",
+     "giocatoreIdFantacalcio": 487,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lykogiannis",
+     "giocatoreIdFantacalcio": 2653,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Casale",
+     "giocatoreIdFantacalcio": 5498,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lucumi'",
+     "giocatoreIdFantacalcio": 6042,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Posch",
+     "giocatoreIdFantacalcio": 6066,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Beukema",
+     "giocatoreIdFantacalcio": 6202,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Freuler",
+     "giocatoreIdFantacalcio": 788,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Urbanski",
+     "giocatoreIdFantacalcio": 5425,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndoye",
+     "giocatoreIdFantacalcio": 5564,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Aebischer",
+     "giocatoreIdFantacalcio": 5784,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Moro N.",
+     "giocatoreIdFantacalcio": 6054,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Iling Junior",
+     "giocatoreIdFantacalcio": 6112,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Odgaard",
+     "giocatoreIdFantacalcio": 2765,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Castro S.",
+     "giocatoreIdFantacalcio": 6572,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Turati",
+     "giocatoreIdFantacalcio": 4867,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Izzo",
+     "giocatoreIdFantacalcio": 226,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "D'Ambrosio",
+     "giocatoreIdFantacalcio": 253,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pereira P.",
+     "giocatoreIdFantacalcio": 729,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kyriakopoulos",
+     "giocatoreIdFantacalcio": 4530,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mari'",
+     "giocatoreIdFantacalcio": 4904,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Carboni A.",
+     "giocatoreIdFantacalcio": 4925,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pessina",
+     "giocatoreIdFantacalcio": 2741,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Maldini",
+     "giocatoreIdFantacalcio": 4896,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bianco",
+     "giocatoreIdFantacalcio": 5516,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bondo",
+     "giocatoreIdFantacalcio": 5992,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Forson O.",
+     "giocatoreIdFantacalcio": 6592,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Caprari",
+     "giocatoreIdFantacalcio": 1958,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Djuric",
+     "giocatoreIdFantacalcio": 5471,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mota",
+     "giocatoreIdFantacalcio": 5882,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/5",
+      "estrattoIl": "2026-10-06T20:35:32.673Z"
+     },
+     "squadraRaw": "Monza",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Maric",
+     "giocatoreIdFantacalcio": 6250,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Monza 1 - 2 Bologna 22/09/2024 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

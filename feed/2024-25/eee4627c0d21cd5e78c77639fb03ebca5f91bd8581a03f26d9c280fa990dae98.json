@@ -1,0 +1,1728 @@
+{
+ "label": "Atalanta-Parma (g38)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-05-25T18:45:00Z",
+  "hoursAfterKickoff": 11977.6547625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:36:37.408Z",
+  "sha256": "c3a9d904c52a95203a4e363b68b65a1d31b765bf550419ba45d031aeb567ce2a"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::ef079b939cd04e59808baf091be9427d",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-05-25T18:45:00Z",
+   "matchday": 38,
+   "home": "Atalanta",
+   "away": "Parma",
+   "homeTeamId": "serie-a::Football_Team::b5846a2413804c2e8cab8b773b18370a",
+   "awayTeamId": "serie-a::Football_Team::3294993c79b14d918ccdc78da0fb90c5",
+   "homeScore": 2,
+   "awayScore": 3,
+   "clockTime": 90,
+   "clockAdditionalTime": 8
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::ef079b939cd04e59808baf091be9427d",
+   "homeTeam": "Atalanta",
+   "awayTeam": "Parma",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::adfb707431614df5aeec9b486a888815",
+     "providerId": "opta:Player:eu9b86opw6n66vftu1r5alfqh",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Marco",
+     "lastName": "Carnesecchi",
+     "shirtName": "M. Carnesecchi",
+     "displayName": "Carnesecchi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6f1f74d51f704ff991834370d8ed339e",
+     "providerId": "opta:Player:2idy9ngk2rojseoxxw9n98c7p",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Berat",
+     "lastName": "Djimsiti",
+     "shirtName": "Berat Djimsiti",
+     "displayName": "Djimsiti",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 47,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::37cecde40207416184c6d630e559c022",
+     "providerId": "opta:Player:cis0z72hgahfnfjduk7hdnz3e",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Kouakou Odilon",
+     "lastName": "Kossounou",
+     "shirtName": "Odilon Kossounou",
+     "displayName": "Kossounou",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4a5bc90856df482c9a44a8a85ea7efb0",
+     "providerId": "opta:Player:8lxt5lqavooy0xo0pcinqluz8",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Marco",
+     "lastName": "Palestra",
+     "shirtName": "Marco Palestra",
+     "displayName": "Palestra",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ee9c033adeaa4527b7c728995c53ac62"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e64d199987e7498dba08dd9d0ad95c9c",
+     "providerId": "opta:Player:aripnzu9yo2wlr8ud93ufdhih",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Raoul",
+     "lastName": "Bellanova",
+     "shirtName": "Raoul Bellanova",
+     "displayName": "Bellanova",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f280c8cfd106468db8d8dac473f93c7a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5b699b132951464d89c7e153fa681d49",
+     "providerId": "opta:Player:7mvqysbmyf6uj3jny3qpqw2ga",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Matteo",
+     "lastName": "Ruggeri",
+     "shirtName": "M. Ruggeri",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511",
+     "providerId": "opta:Player:1f37bo8dikes3350u2a0h9hm2",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Marco",
+     "lastName": "Brescianini",
+     "shirtName": "Marco Brescianini",
+     "displayName": "Brescianini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7cdf9a3c8b6a46e39554faa2a4a102d7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f8c979a577bb48de98f28b17c281a9e1",
+     "providerId": "opta:Player:8kdamc6zz4bskby51c59uuntg",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Ibrahim Sulemana",
+     "lastName": "Kakari",
+     "shirtName": "Ibrahim Sulemana",
+     "displayName": "I. Sulemana",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8d75af40732a49c4a2b7aa44b07be610"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dd491713fb4649b6a431512f272de5d1",
+     "providerId": "opta:Player:1fsum47fkh62rer9xxe3smctm",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Daniel",
+     "lastName": "Maldini",
+     "shirtName": "Daniel Maldini",
+     "displayName": "Maldini",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 32,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e64d199987e7498dba08dd9d0ad95c9c"
+      },
+      {
+       "type": "goal",
+       "time": 33,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0401a5a40df548cc8638abab6709746e"
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6d745922e74d49bd8260da4144042beb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae",
+     "providerId": "opta:Player:7ox43isyywsnrfcd56nm65be",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Charles",
+     "lastName": "De Ketelaere",
+     "shirtName": "Charles De Ketelaere",
+     "displayName": "De Ketelaere",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0401a5a40df548cc8638abab6709746e",
+     "providerId": "opta:Player:lmih2q1hcr1dp40wx782re5m",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Mateo",
+     "lastName": "Retegui",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::77e6d65595a147d2a3e3dfd93c2c7bd9",
+     "providerId": "opta:Player:7gu0t0g8nej405k918fwsf8id",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Rui Pedro",
+     "lastName": "dos Santos Patrício",
+     "shirtName": "Rui Patrício",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e68cd3c0e4804bdebfdb42961ace2285",
+     "providerId": "opta:Player:9sdrd6flk2jene11v193nm1n9",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Francesco",
+     "lastName": "Rossi",
+     "shirtName": "Francesco Rossi",
+     "displayName": "Rossi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18797ae6eb8c45e887c916ad44c968ac",
+     "providerId": "opta:Player:cm6iy4b06qv9y6ww0hthqlwb9",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Rafael",
+     "lastName": "Tolói",
+     "shirtName": "R. Toloi",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ec4be88c0ed443fa953404eb6af085db",
+     "providerId": "opta:Player:130pg17ru5fzq4igokx0k73e1",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Isak Malcolm Kwaku",
+     "lastName": "Hien",
+     "shirtName": "Isak Hien",
+     "displayName": "Hien",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ee9c033adeaa4527b7c728995c53ac62",
+     "providerId": "opta:Player:1po7tmdv73zfjentt0p20wdlh",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Stefan",
+     "lastName": "Posch",
+     "shirtName": "Stefan Posch",
+     "displayName": "Posch",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4a5bc90856df482c9a44a8a85ea7efb0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f280c8cfd106468db8d8dac473f93c7a",
+     "providerId": "opta:Player:pconfrmsdy9aikioqz9s9lg5",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Juan Guillermo",
+     "lastName": "Cuadrado Bello",
+     "shirtName": "Juan Cuadrado",
+     "displayName": "Cuadrado",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e64d199987e7498dba08dd9d0ad95c9c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8d75af40732a49c4a2b7aa44b07be610",
+     "providerId": "opta:Player:2fsgc0b4mvwpenawmit0q0bmd",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Mario",
+     "lastName": "Pašalić",
+     "shirtName": "Mario Pašalić",
+     "displayName": "Pašalić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f8c979a577bb48de98f28b17c281a9e1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6d745922e74d49bd8260da4144042beb",
+     "providerId": "opta:Player:8d04q3yp2kouwog0lj0s7ew2x",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Ademola Olajide",
+     "lastName": "Lookman",
+     "shirtName": "Ademola Lookman",
+     "displayName": "Lookman",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dd491713fb4649b6a431512f272de5d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7cdf9a3c8b6a46e39554faa2a4a102d7",
+     "providerId": "opta:Player:4aqkgskbra4wsoo7a8uw7xl9l",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Éderson José",
+     "lastName": "dos Santos Lourenço da Silva",
+     "shirtName": "Éderson",
+     "displayName": "Éderson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::430712e4c44c415398a71ae60698f5b2",
+     "providerId": "opta:Player:9q01y4w4dwpaqf8lmpv9wnmc5",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Marten Elco",
+     "lastName": "de Roon",
+     "shirtName": "Marten de Roon",
+     "displayName": "de Roon",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::df726d9e0b284705be78eb3af4f6e441",
+     "providerId": "opta:Player:bl76cebhta912vfi9z7ky32p6",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Lazar Vujadin",
+     "lastName": "Samardžić",
+     "shirtName": "Lazar Samardžić",
+     "displayName": "Samardžić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f343b63a6bff4f5380e6ae1a4e618324",
+     "providerId": "opta:Player:a69r2pf2w8da4dl0zl4k5vil1",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Davide",
+     "lastName": "Zappacosta",
+     "shirtName": "Davide Zappacosta",
+     "displayName": "Zappacosta",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::46948dee4bd54172a455ffab38485dbc",
+     "providerId": "opta:Player:2mfunwzltzdnmzlcjyvx752i",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Zion",
+     "lastName": "Suzuki",
+     "shirtName": "Zion Suzuki",
+     "displayName": "Suzuki",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c738f36256404be3830f701e8ee68149",
+     "providerId": "opta:Player:befbveuodyomkhm9ed31kb4a2",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Lautaro Rodrigo",
+     "lastName": "Valenti",
+     "shirtName": "Lautaro Valenti",
+     "displayName": "Valenti",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9cf5d7690d324ad2b61516ca923dbc05",
+     "providerId": "opta:Player:c1sj6aogyfpm5wqvhd2bli7e",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Alessandro",
+     "lastName": "Circati",
+     "shirtName": "Alessandro Circati",
+     "displayName": "Circati",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2734fbf9386f41ccacf20e530f1f60ad",
+     "providerId": "opta:Player:5rfktdh40rf3noeykoauyhca2",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Botond",
+     "lastName": "Balogh",
+     "shirtName": "Botond Balogh",
+     "displayName": "Balogh",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d58bdcc9557641d3868baea58a37bdf3",
+     "providerId": "opta:Player:d9bg5jjv8pz0f8u55x3hg0962",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Emanuele",
+     "lastName": "Valeri",
+     "shirtName": "Emanuele Valeri",
+     "displayName": "Valeri",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e2a458c59eb4cfaa2212212d59711f5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a01dba5f6172497b9d2f35d1cb37d24a",
+     "providerId": "opta:Player:r9rn4eaw3twb224jrpojz0x6",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Enrico",
+     "lastName": "Delprato",
+     "shirtName": "Enrico Delprato",
+     "displayName": "Delprato",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4b27493789914a909a54f27f57cd3e45",
+     "providerId": "opta:Player:cjf412x9sg56vos0jkj85k3ys",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Lamine Mandela",
+     "lastName": "Keita",
+     "shirtName": "Mandela Keita",
+     "displayName": "Keita",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 8,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::abcfe9eb7e2a40eaad6b03168cb911bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::064aed514b584e55a8fcefb1be3db5eb",
+     "providerId": "opta:Player:8zke93n0uca6gf2jihqby28d1",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Hernani",
+     "lastName": "Azevedo Júnior",
+     "shirtName": "Hernani",
+     "displayName": "Hernani",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f1f86134a2ac4290ba546f5b014e061f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9037ff0e7e834729838dceb4b44250bf",
+     "providerId": "opta:Player:ejbp3sxls7lgrg6y3a9q4u978",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Ange-Yoan Laure",
+     "lastName": "Bonny",
+     "shirtName": "Ange-Yoan Bonny",
+     "displayName": "Bonny",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::38861941353d48968b5312cfe5ff32b7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a",
+     "providerId": "opta:Player:7maur0rp96hubnkuu84576wpg",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Mateo",
+     "lastName": "Pellegrino Casalanguida",
+     "shirtName": "Mateo Pellegrino",
+     "displayName": "Pellegrino",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d6090544b55d4af79c0bf0c0cbd3fb18",
+     "providerId": "opta:Player:3qucjtkv1c4fk71hidfjq0991",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Richard",
+     "lastName": "Marcone",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c34da415302b4416a28d463708a8ec16",
+     "providerId": "opta:Player:ais3wh8wz8oeyjpwv84o4ybfu",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Edoardo",
+     "lastName": "Corvi",
+     "shirtName": "Edoardo Corvi",
+     "displayName": "Corvi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5908e4c64e5a46f1a6c846810586e624",
+     "providerId": "opta:Player:25wawsdczm69ctbpw5nn51kvd",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Adrian Dawid",
+     "lastName": "Benedyczak",
+     "shirtName": "Adrian Benedyczak",
+     "displayName": "Benedyczak",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abcfe9eb7e2a40eaad6b03168cb911bb",
+     "providerId": "opta:Player:1to07m18m7wqroewvyxzrz0lx",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Nahuel",
+     "lastName": "Estevez Alvarez",
+     "shirtName": "Nahuel Estévez",
+     "displayName": "Estévez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b",
+     "providerId": "opta:Player:b7l20ljluxk74v0ok82s0iz56",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Adrian",
+     "lastName": "Bernabe' Garcia",
+     "shirtName": "Adrián Bernabé",
+     "displayName": "Bernabé",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 8,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4b27493789914a909a54f27f57cd3e45"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50da604b3a694f0581a2066168c2988b",
+     "providerId": "opta:Player:21bdtv9f28xkfmo2dy3uk7bah",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Pontus Skule Erik",
+     "lastName": "Almqvist",
+     "shirtName": "Pontus Almqvist",
+     "displayName": "Almqvist",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f1f86134a2ac4290ba546f5b014e061f",
+     "providerId": "opta:Player:4s3dvpdloqr1hpl9svn8rk222",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Jacob Axel Per",
+     "lastName": "Ondrejka",
+     "shirtName": "Jacob Ondrejka",
+     "displayName": "Ondrejka",
+     "starter": false,
+     "events": [
+      {
+       "type": "goal",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9037ff0e7e834729838dceb4b44250bf"
+      },
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b"
+      },
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::064aed514b584e55a8fcefb1be3db5eb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::95113df1d4494b4cbf1e7f378d740782",
+     "providerId": "opta:Player:3m81rmpqzm0j40978dmjig38q",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Mathias Johan Fjortoft",
+     "lastName": "Lovik",
+     "shirtName": "Mathias Løvik",
+     "displayName": "Løvik",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e2a458c59eb4cfaa2212212d59711f5",
+     "providerId": "opta:Player:8ct2oybj8d1b03aklkg8ihbf8",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Antoine",
+     "lastName": "Hainaut",
+     "shirtName": "Antoine Hainaut",
+     "displayName": "Hainaut",
+     "starter": false,
+     "events": [
+      {
+       "type": "goal",
+       "time": 49,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::23085f3390244b7ead51327029b80de5"
+      },
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d58bdcc9557641d3868baea58a37bdf3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cdf7936c03a041c1a0fe067134f46d20",
+     "providerId": "opta:Player:4u772cqkpukg725e11yf9y28l",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Alessandro",
+     "lastName": "Vogliacco",
+     "shirtName": "Alessandro Vogliacco",
+     "displayName": "Vogliacco",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::38861941353d48968b5312cfe5ff32b7",
+     "providerId": "opta:Player:ho87m362sey4msdjp4n180oa",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Matteo",
+     "lastName": "Cancellieri",
+     "shirtName": "M. Cancellieri",
+     "displayName": "Cancellieri",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9037ff0e7e834729838dceb4b44250bf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a73af121dd7e433693cb4f35b4ea131b",
+     "providerId": "opta:Player:7nk0a34pfkkcvzo1ca9bl8sbu",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Drissa",
+     "lastName": "Camara",
+     "shirtName": "D. Camara",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94",
+     "providerId": "opta:Player:dp1y9x5r6z1q120hj3sgyhxat",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Milan",
+     "lastName": "Djuric",
+     "shirtName": "Milan Djuric",
+     "displayName": "Djuric",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1f875b9a10034297bd209b79cd6ce487",
+     "providerId": "opta:Player:3z5j5lcbi4r5tl5iif1mf95g",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Anas",
+     "lastName": "Haj Mohamed",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::44d3b9eda1d0403faf7b95a1ac82308a",
+     "providerId": "opta:Player:biee6dvb524juzai7iryyskix",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Dennis",
+     "lastName": "Man",
+     "shirtName": "D. Man",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:35:22.731Z",
+   "sha256": "48a62443626c2c2138290fa08cefc5be59520ff5e292f856530e33ec91088e63"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:36:37.408Z",
+   "sha256": "c3a9d904c52a95203a4e363b68b65a1d31b765bf550419ba45d031aeb567ce2a",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Carnesecchi",
+     "giocatoreIdFantacalcio": 4431,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 4,
+     "votoItalia": 7,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cuadrado",
+     "giocatoreIdFantacalcio": 697,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Djimsiti",
+     "giocatoreIdFantacalcio": 787,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bellanova",
+     "giocatoreIdFantacalcio": 4887,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ruggeri",
+     "giocatoreIdFantacalcio": 5354,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kossounou",
+     "giocatoreIdFantacalcio": 5578,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Posch",
+     "giocatoreIdFantacalcio": 6066,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Palestra",
+     "giocatoreIdFantacalcio": 6832,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pasalic",
+     "giocatoreIdFantacalcio": 2077,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Maldini",
+     "giocatoreIdFantacalcio": 4896,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 13.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Brescianini",
+     "giocatoreIdFantacalcio": 4947,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ederson D.s.",
+     "giocatoreIdFantacalcio": 5792,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sulemana I.",
+     "giocatoreIdFantacalcio": 6024,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lookman",
+     "giocatoreIdFantacalcio": 4730,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "De Ketelaere",
+     "giocatoreIdFantacalcio": 5995,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Retegui",
+     "giocatoreIdFantacalcio": 6228,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Suzuki",
+     "giocatoreIdFantacalcio": 6641,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valenti",
+     "giocatoreIdFantacalcio": 5307,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Balogh",
+     "giocatoreIdFantacalcio": 5353,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valeri",
+     "giocatoreIdFantacalcio": 5862,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Circati",
+     "giocatoreIdFantacalcio": 6663,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Delprato",
+     "giocatoreIdFantacalcio": 6664,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Hernani",
+     "giocatoreIdFantacalcio": 4423,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Estevez",
+     "giocatoreIdFantacalcio": 5290,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "giocatoreIdFantacalcio": 5319,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernabe'",
+     "giocatoreIdFantacalcio": 6666,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Hainaut",
+     "giocatoreIdFantacalcio": 6821,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Keita M.",
+     "giocatoreIdFantacalcio": 6898,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ondrejka",
+     "giocatoreIdFantacalcio": 6984,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 14,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cancellieri",
+     "giocatoreIdFantacalcio": 5500,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bonny",
+     "giocatoreIdFantacalcio": 6669,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/38",
+      "estrattoIl": "2026-10-06T20:36:37.408Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pellegrino M.",
+     "giocatoreIdFantacalcio": 7023,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 3 Parma 25/05/2025 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

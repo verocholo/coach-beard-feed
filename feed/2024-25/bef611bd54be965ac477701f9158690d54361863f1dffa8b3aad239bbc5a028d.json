@@ -1,0 +1,1748 @@
+{
+ "label": "Lecce-Milan (g28)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-03-08T17:00:00Z",
+  "hoursAfterKickoff": 13851.4047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:36:17.398Z",
+  "sha256": "2f17a0081aef40c9d8b77e3392176efc9e68f880e66200ced7ac42f0b496b281"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::adbe35a04a8a49928168ddfac2d1fc0a",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-03-08T17:00:00Z",
+   "matchday": 28,
+   "home": "Lecce",
+   "away": "Milan",
+   "homeTeamId": "serie-a::Football_Team::ced7bf0df3a140dfa48138311122133b",
+   "awayTeamId": "serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0",
+   "homeScore": 2,
+   "awayScore": 3,
+   "clockTime": 90,
+   "clockAdditionalTime": 9
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::adbe35a04a8a49928168ddfac2d1fc0a",
+   "homeTeam": "Lecce",
+   "awayTeam": "Milan",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::1892b78973b5448fa477250b8a5732db",
+     "providerId": "opta:Player:3nfxhugbxid6o0r92txslivh1",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Wladimiro",
+     "lastName": "Falcone",
+     "shirtName": "Wladimiro Falcone",
+     "displayName": "Falcone",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::386bc75089ad468196b1372d6a4e85af",
+     "providerId": "opta:Player:1oszv53od5pulbhx566ht984q",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Antonino",
+     "lastName": "Gallo",
+     "shirtName": "Antonino Gallo",
+     "displayName": "Gallo",
+     "starter": true,
+     "events": [
+      {
+       "type": "own-goal",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::54d576d479bc4984bd025253a3c0351c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::635e82f4100e46138e16480d1fdc5b70",
+     "providerId": "opta:Player:pl5ns1qxie3gqhzoe33s7ip6",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Gaby",
+     "lastName": "Jean",
+     "shirtName": "Gaby Jean",
+     "displayName": "Jean",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2b979996a62e42b7b29bbc5021db165d",
+     "providerId": "opta:Player:bkz9b4cqf8f970myv8r49f561",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Federico",
+     "lastName": "Baschirotto",
+     "shirtName": "Federico Baschirotto",
+     "displayName": "Baschirotto",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fa790e75c34d4c1ba213c8ef6864b183",
+     "providerId": "opta:Player:7atxpldexe9adg8ft1wbjndud",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Frédéric",
+     "lastName": "Guilbert",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::34abfa4e6fed40d1882fc8c0c4b313b4",
+     "providerId": "opta:Player:d12unjo4sk39iix9of2yfask4",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Medon",
+     "lastName": "Berisha",
+     "shirtName": "M. Berisha",
+     "displayName": "Berisha",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 42,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::22aab70c97fc4d8ea89066460f86ece8"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::585e8188ab1f452eb0225212825c051a",
+     "providerId": "opta:Player:7pg1pu4ptby6hi0rp29hv4jxl",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Lassana",
+     "lastName": "Coulibaly",
+     "shirtName": "Lassana Coulibaly",
+     "displayName": "L. Coulibaly",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ab4d9178ddb40c5b57adb7608a1f4c9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e5de8a35b5224cd996eddb38390167d4",
+     "providerId": "opta:Player:1i9mqbswolg91evnmsrf5katx",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Jose Antonio",
+     "lastName": "Morente Oliva",
+     "shirtName": "Tete Morente",
+     "displayName": "Tete Morente",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::66001478227b419082b8d8167fec632d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aa13ef84519b43358627a26804914d9e",
+     "providerId": "opta:Player:3ail949zww61xhkymcg66bca1",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Thórir Jóhann",
+     "lastName": "Helgason",
+     "shirtName": "Þórir Helgason",
+     "displayName": "Helgason",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::29de27ea145841a289fb471c08a042a8"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9154d20dd59c4f3586de460f5f303d71",
+     "providerId": "opta:Player:dy4p5raczhbmglfsu8n4xcdwq",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Santiago Daniel",
+     "lastName": "Pierotti",
+     "shirtName": "Santiago Pierotti",
+     "displayName": "Pierotti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aacc54c788404b6d9945a11fef21aa1e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0ffb0532cc8044aebb4a64ea8c02be13",
+     "providerId": "opta:Player:11r7kkbcv2bn8lar3unczuz8p",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Nikola",
+     "lastName": "Krstović",
+     "shirtName": "Nikola Krstović",
+     "displayName": "Krstović",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 7,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aa13ef84519b43358627a26804914d9e"
+      },
+      {
+       "type": "goal",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fa790e75c34d4c1ba213c8ef6864b183"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ce5c24fc6bb4d4f846a4ad8dbb573db",
+     "providerId": "opta:Player:f25vq95i4fayxcel0nr9uyl0p",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Christian Martin",
+     "lastName": "Fruchtl",
+     "shirtName": "Christian Früchtl",
+     "displayName": "Früchtl",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c3759dc16f2f41bbbb331b03f2e38060",
+     "providerId": "opta:Player:8ikf00dzaqhw0pnpnbncpz2wa",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Jasper Lauri Petteri",
+     "lastName": "Samooja",
+     "shirtName": "Jasper Samooja",
+     "displayName": "Samooja",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::66001478227b419082b8d8167fec632d",
+     "providerId": "opta:Player:eyra5urhrm92240e7qbll736d",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Ante",
+     "lastName": "Rebic",
+     "shirtName": "A. Rebic",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e5de8a35b5224cd996eddb38390167d4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2241d16b749246698712e2d0f18ce48c",
+     "providerId": "opta:Player:6udrxynn6611j9tjm258iu80k",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Kialonda",
+     "lastName": "Gaspar",
+     "shirtName": "Kialonda Gaspar",
+     "displayName": "Gaspar",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::82c9eb767c094b75a23dafeb0a0a9586",
+     "providerId": "opta:Player:4g64l7opsuqvgx8190cbh1otl",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Hamza",
+     "lastName": "Rafia",
+     "shirtName": "H. Rafia",
+     "displayName": "Rafia",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ab36af56054945ef8f56a3b54cd323c5",
+     "providerId": "opta:Player:8xjlysmwl5vnhcnvsynftjd62",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Konan Ignace Jocelyn",
+     "lastName": "N'Dri",
+     "shirtName": "Konan N’Dri",
+     "displayName": "N'Dri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aacc54c788404b6d9945a11fef21aa1e",
+     "providerId": "opta:Player:1lisq580zw4yfk6id6f1dwr56",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Danilo Filipe",
+     "lastName": "De Melo Veiga",
+     "shirtName": "Danilo Veiga",
+     "displayName": "Danilo Veiga",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9154d20dd59c4f3586de460f5f303d71"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::29de27ea145841a289fb471c08a042a8",
+     "providerId": "opta:Player:c4kxfrbrfedilykhbyak3e579",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Ylber",
+     "lastName": "Ramadani",
+     "shirtName": "Ylber Ramadani",
+     "displayName": "Ramadani",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aa13ef84519b43358627a26804914d9e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ab4d9178ddb40c5b57adb7608a1f4c9",
+     "providerId": "opta:Player:cntcffa67r95rbcf1154r92zu",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Lameck",
+     "lastName": "Banda",
+     "shirtName": "Lameck Banda",
+     "displayName": "Banda",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::585e8188ab1f452eb0225212825c051a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3520000adb414cbfae1da8b60bd27a09",
+     "providerId": "opta:Player:4nyqgkdgcac58sypcdvuxpv1m",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Rares Catalin",
+     "lastName": "Burnete",
+     "shirtName": "Rares Burnete",
+     "displayName": "Burnete",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a2f96557c5a14589abcae509e89edafd",
+     "providerId": "opta:Player:33yauarx84sam5u05vgyqxfxl",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Karl Jesper",
+     "lastName": "Karlsson",
+     "shirtName": "Jesper Karlsson",
+     "displayName": "Karlsson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::17a1eabd8e2145e89f8cec8be9a90ce9",
+     "providerId": "opta:Player:dfsb8uzowi737si30le6gjaxg",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Tiago Gabriel",
+     "lastName": "Coelho Oliveira",
+     "shirtName": "Tiago Gabriel",
+     "displayName": "Tiago Gabriel",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::22aab70c97fc4d8ea89066460f86ece8",
+     "providerId": "opta:Player:3bdkw17dkx2c3u0uwztdss6zu",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Balthazar Jean",
+     "lastName": "Pierret",
+     "shirtName": "Balthazar Pierret",
+     "displayName": "Pierret",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::34abfa4e6fed40d1882fc8c0c4b313b4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::17a8ac7283904085b33fb34c24371bba",
+     "providerId": "opta:Player:3g14bqou9coim6fit9c2cyr8q",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Mohamed",
+     "lastName": "Kaba",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de184c78c1c844d3be7e3c4fd2a3910a",
+     "providerId": "opta:Player:67na4se53q1wb8vwsjx13bka2",
+     "side": "home",
+     "team": "Lecce",
+     "firstName": "Marco",
+     "lastName": "Sala",
+     "shirtName": "M. Sala",
+     "displayName": "M. Sala",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::09cd84f668164a29bd254dcc8c8b5507",
+     "providerId": "opta:Player:3ww5879aay1xf2a20nl9ihwid",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Marco",
+     "lastName": "Sportiello",
+     "shirtName": "Marco Sportiello",
+     "displayName": "Sportiello",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6e2697d31a5049a5af8e5051c6143b2d",
+     "providerId": "opta:Player:3tpmw6tlijytn0ahwztvedkut",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Theo",
+     "lastName": "Hernández",
+     "shirtName": "T. Hernandez",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7a10a159c6f54d1ab3bd8335f1fdcb29",
+     "providerId": "opta:Player:cfpaejad8i9p2r1fj0wx0g222",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Malick",
+     "lastName": "Thiaw",
+     "shirtName": "M. Thiaw",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37d0e89ba51343a8b24b768e4efa02d6",
+     "providerId": "opta:Player:enqcaecpt5hy0qv9x5pzmkjc9",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Gabbia",
+     "shirtName": "Matteo Gabbia",
+     "displayName": "Gabbia",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::831252ea13104abd9ffc06ce63fbedb0",
+     "providerId": "opta:Player:e9wu8dcamrtj3ftbx3nmhusid",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Kyle",
+     "lastName": "Walker",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7bba1cf90e5242579e9cdcb5c20c6974",
+     "providerId": "opta:Player:clbsrtzkf61e6vx28ou5lbx90",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Alejandro",
+     "lastName": "Jimenez Sanchez",
+     "shirtName": "Álex Jiménez",
+     "displayName": "Jiménez",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c8dd9df24f93474e895c96839e7021e7",
+     "providerId": "opta:Player:b2e12l3s3dxgyr8d2rk5qb9ey",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Yunus Dimoara",
+     "lastName": "Musah",
+     "shirtName": "Yunus Musah",
+     "displayName": "Musah",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6e09bff1618142f0ab2e4765ab7d5211"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5395422c0fce40fba80082e4dc17ae13",
+     "providerId": "opta:Player:98x5xrku2jffo0in2u2htazca",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Warren Pierre",
+     "lastName": "Bondo",
+     "shirtName": "Warren Bondo",
+     "displayName": "Bondo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::25160993d438468ebace9204773bac71"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6fde4369a9f648b3ba1397aaba3c527b",
+     "providerId": "opta:Player:2w7xspkzg7b9ghl20me202ove",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Tijjani",
+     "lastName": "Reijnders",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad",
+     "providerId": "opta:Player:93soe2rjn0z874cc9ofcesgkp",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Christian Mate",
+     "lastName": "Pulisic",
+     "shirtName": "Christian Pulišić",
+     "displayName": "Pulisic",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::526fcc66372a488eb78060243d650614"
+      },
+      {
+       "type": "goal",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5b8d20ccf6db45e388edc6e8ec8d4c18",
+     "providerId": "opta:Player:aboxil79ulfa73pckzsdnwp62",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Santiago Tomas",
+     "lastName": "Gimenez",
+     "shirtName": "Santiago Giménez",
+     "displayName": "Giménez",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::90f14d0d8f7c4e20b78b33106df2979d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b951edc16d794b30a47216f1a1fbba0e",
+     "providerId": "opta:Player:6cowiesazkskzzljywnix5ous",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Lapo Francesco",
+     "lastName": "Nava",
+     "shirtName": "Lapo Nava",
+     "displayName": "Nava",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e5ab095b8ad24c42ab8bbf17164143bd",
+     "providerId": "opta:Player:d0ag3rk2mc50gwbo5famdzaqc",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Lorenzo",
+     "lastName": "Torriani",
+     "shirtName": "Lorenzo Torriani",
+     "displayName": "Torriani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f77bb4a1d4c84865866f2c5755da7b93",
+     "providerId": "opta:Player:21pztrby95djexvw3m9hhzgt1",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Luka",
+     "lastName": "Jovic",
+     "shirtName": "L. Jovic",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c",
+     "providerId": "opta:Player:11o903vztwpnmvgrinn208qnd",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Rafael Alexandre",
+     "lastName": "da Conceição Leão",
+     "shirtName": "Rafael Leão",
+     "displayName": "Rafael Leão",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7bba1cf90e5242579e9cdcb5c20c6974"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::07b990a034894aea9fe366396b16b278",
+     "providerId": "opta:Player:3bm08rp9rgzh6cjhk0picxs6h",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Samuel Chimerenka",
+     "lastName": "Chukwueze",
+     "shirtName": "Samuel Chukwueze",
+     "displayName": "Chukwueze",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4",
+     "providerId": "opta:Player:3sezchmdtivxl4kusvgc6j7x1",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Oluwafikayomi Oluwadamilola",
+     "lastName": "Tomori",
+     "shirtName": "Fikayo Tomori",
+     "displayName": "Tomori",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b5aac686848d4dcd9717f96eb0ba0c36",
+     "providerId": "opta:Player:ad1n9czqhmfe1saleourqmzth",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Alessandro",
+     "lastName": "Florenzi",
+     "shirtName": "A. Florenzi",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1",
+     "providerId": "opta:Player:b0wb7gf04synxlkq7o8gvzkoa",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Youssouf",
+     "lastName": "Fofana",
+     "shirtName": "Youssouf Fofana",
+     "displayName": "Y. Fofana",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::831252ea13104abd9ffc06ce63fbedb0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5e795d74e1e04302b39b9815471ba3df",
+     "providerId": "opta:Player:7odl8qgd0qak6w4ox0t3kg3kk",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Davide",
+     "lastName": "Bartesaghi",
+     "shirtName": "Davide Bartesaghi",
+     "displayName": "Bartesaghi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::528463bd1ae34632b21700b2f1a4290c",
+     "providerId": "opta:Player:20f5apcbciifqyln8hp3cziwa",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Filippo",
+     "lastName": "Terracciano",
+     "shirtName": "Filippo Terracciano",
+     "displayName": "F. Terracciano",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::25160993d438468ebace9204773bac71",
+     "providerId": "opta:Player:4z60ztggqxzfbp8w9ijoqefop",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "João",
+     "lastName": "Félix Sequeira",
+     "shirtName": "João Félix",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5395422c0fce40fba80082e4dc17ae13"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::90f14d0d8f7c4e20b78b33106df2979d",
+     "providerId": "opta:Player:363nsa82dww242zeo09wpcslx",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Tammy",
+     "lastName": "Abraham",
+     "shirtName": "T. Abraham",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5b8d20ccf6db45e388edc6e8ec8d4c18"
+      },
+      {
+       "type": "yellow-card",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6e09bff1618142f0ab2e4765ab7d5211",
+     "providerId": "opta:Player:b7vmywgydbcs4m9pcjcoabt62",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Riccardo",
+     "lastName": "Sottil",
+     "shirtName": "Riccardo Sottil",
+     "displayName": "Sottil",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c8dd9df24f93474e895c96839e7021e7"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:32:17.339Z",
+   "sha256": "1a9823ae6984087cfd7dcd494ce1a307691c127bc7a55a2f0f03e530093fcc3a"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:36:17.398Z",
+   "sha256": "2f17a0081aef40c9d8b77e3392176efc9e68f880e66200ced7ac42f0b496b281",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Falcone",
+     "giocatoreIdFantacalcio": 2134,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gallo",
+     "giocatoreIdFantacalcio": 4502,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 3,
+     "votoItalia": 5,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 1,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Guilbert",
+     "giocatoreIdFantacalcio": 5626,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Baschirotto",
+     "giocatoreIdFantacalcio": 5835,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Jean",
+     "giocatoreIdFantacalcio": 6883,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Veiga D.",
+     "giocatoreIdFantacalcio": 6990,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Coulibaly L.",
+     "giocatoreIdFantacalcio": 5504,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Helgason",
+     "giocatoreIdFantacalcio": 5872,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Berisha M.",
+     "giocatoreIdFantacalcio": 6015,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ramadani",
+     "giocatoreIdFantacalcio": 6394,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pierret",
+     "giocatoreIdFantacalcio": 6633,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tete Morente",
+     "giocatoreIdFantacalcio": 6634,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Rebic",
+     "giocatoreIdFantacalcio": 186,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Banda",
+     "giocatoreIdFantacalcio": 6001,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Krstovic",
+     "giocatoreIdFantacalcio": 6435,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 13,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pierotti",
+     "giocatoreIdFantacalcio": 6549,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Sportiello",
+     "giocatoreIdFantacalcio": 4,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Walker",
+     "giocatoreIdFantacalcio": 2515,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hernandez T.",
+     "giocatoreIdFantacalcio": 4292,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gabbia",
+     "giocatoreIdFantacalcio": 4401,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Thiaw",
+     "giocatoreIdFantacalcio": 6055,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Jimenez A.",
+     "giocatoreIdFantacalcio": 6531,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pulisic",
+     "giocatoreIdFantacalcio": 2423,
+     "votoRedazione": 8,
+     "fantavotoRedazione": 14,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 14,
+     "votoItalia": 8,
+     "fantavotoItalia": 14,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sottil",
+     "giocatoreIdFantacalcio": 2839,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fofana Y.",
+     "giocatoreIdFantacalcio": 4686,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Musah",
+     "giocatoreIdFantacalcio": 5295,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bondo",
+     "giocatoreIdFantacalcio": 5992,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Reijnders",
+     "giocatoreIdFantacalcio": 6224,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Abraham",
+     "giocatoreIdFantacalcio": 2544,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Leao",
+     "giocatoreIdFantacalcio": 4510,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Joao Felix",
+     "giocatoreIdFantacalcio": 4811,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/28",
+      "estrattoIl": "2026-10-06T20:36:17.398Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gimenez",
+     "giocatoreIdFantacalcio": 7008,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lecce 2 - 3 Milan 08/03/2025 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

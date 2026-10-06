@@ -1,0 +1,1599 @@
+{
+ "label": "Milan-Roma (g18)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-12-29T19:45:00Z",
+  "hoursAfterKickoff": 15504.6547625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:57.911Z",
+  "sha256": "2ef3999411887b97b0f5e1198e5c56589c2462e2a01efde9a2adb07365ddc71c"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::ea60f6dbabff43f28dd2171350d2f3c6",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-12-29T19:45:00Z",
+   "matchday": 18,
+   "home": "Milan",
+   "away": "Roma",
+   "homeTeamId": "serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0",
+   "awayTeamId": "serie-a::Football_Team::8ddc09c1aa73448da2dff953edd95d82",
+   "homeScore": 1,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::ea60f6dbabff43f28dd2171350d2f3c6",
+   "homeTeam": "Milan",
+   "awayTeam": "Roma",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::f6b27c8e1cf04b3391184988ee7336f7",
+     "providerId": "opta:Player:3fpnfgoy4lbpapv2th6g60cet",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Mike Peterson",
+     "lastName": "Maignan",
+     "shirtName": "Mike Maignan",
+     "displayName": "Maignan",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6e2697d31a5049a5af8e5051c6143b2d",
+     "providerId": "opta:Player:3tpmw6tlijytn0ahwztvedkut",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Theo",
+     "lastName": "Hernández",
+     "shirtName": "T. Hernandez",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 43,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7a10a159c6f54d1ab3bd8335f1fdcb29",
+     "providerId": "opta:Player:cfpaejad8i9p2r1fj0wx0g222",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Malick",
+     "lastName": "Thiaw",
+     "shirtName": "M. Thiaw",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37d0e89ba51343a8b24b768e4efa02d6",
+     "providerId": "opta:Player:enqcaecpt5hy0qv9x5pzmkjc9",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Gabbia",
+     "shirtName": "Matteo Gabbia",
+     "displayName": "Gabbia",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 4,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1ba9cc621f5847919e8bf0ba780c91c5",
+     "providerId": "opta:Player:anxby26pfxpu4u5bfy9nbuvah",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Emerson Aparecido",
+     "lastName": "Leite de Souza Júnior",
+     "shirtName": "Emerson Royal",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::528463bd1ae34632b21700b2f1a4290c",
+     "providerId": "opta:Player:20f5apcbciifqyln8hp3cziwa",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Filippo",
+     "lastName": "Terracciano",
+     "shirtName": "Filippo Terracciano",
+     "displayName": "F. Terracciano",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6bb2f80c73db4d569efd2374d748ab68"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7bba1cf90e5242579e9cdcb5c20c6974",
+     "providerId": "opta:Player:clbsrtzkf61e6vx28ou5lbx90",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Alejandro",
+     "lastName": "Jimenez Sanchez",
+     "shirtName": "Álex Jiménez",
+     "displayName": "Jiménez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1",
+     "providerId": "opta:Player:b0wb7gf04synxlkq7o8gvzkoa",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Youssouf",
+     "lastName": "Fofana",
+     "shirtName": "Youssouf Fofana",
+     "displayName": "Y. Fofana",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6fde4369a9f648b3ba1397aaba3c527b",
+     "providerId": "opta:Player:2w7xspkzg7b9ghl20me202ove",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Tijjani",
+     "lastName": "Reijnders",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 16,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1"
+      },
+      {
+       "type": "yellow-card",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::07b990a034894aea9fe366396b16b278",
+     "providerId": "opta:Player:3bm08rp9rgzh6cjhk0picxs6h",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Samuel Chimerenka",
+     "lastName": "Chukwueze",
+     "shirtName": "Samuel Chukwueze",
+     "displayName": "Chukwueze",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::90f14d0d8f7c4e20b78b33106df2979d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a28bdeb07514be7abed730e8a5b4a6f",
+     "providerId": "opta:Player:46kq5653o302ebz4o5yzsss0l",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Alvaro Borja",
+     "lastName": "Morata Martin",
+     "shirtName": "A. Morata",
+     "displayName": "Morata",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 44,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::236541094aea443b92ea9ae2520bdd52"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::09cd84f668164a29bd254dcc8c8b5507",
+     "providerId": "opta:Player:3ww5879aay1xf2a20nl9ihwid",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Marco",
+     "lastName": "Sportiello",
+     "shirtName": "Marco Sportiello",
+     "displayName": "Sportiello",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e5ab095b8ad24c42ab8bbf17164143bd",
+     "providerId": "opta:Player:d0ag3rk2mc50gwbo5famdzaqc",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Lorenzo",
+     "lastName": "Torriani",
+     "shirtName": "Lorenzo Torriani",
+     "displayName": "Torriani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::30504a8e71d349f19ea0141d861d6d09",
+     "providerId": "opta:Player:e2vtm1318mm61db2wtj4m5p79",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Davide",
+     "lastName": "Calabria",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6bb2f80c73db4d569efd2374d748ab68",
+     "providerId": "opta:Player:cknjube5flk1r5ppqthj82c5",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Ismaël",
+     "lastName": "Bennacer",
+     "shirtName": "I. Bennacer",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::528463bd1ae34632b21700b2f1a4290c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e1d176ef26564e8d9795ed5eab1b8041",
+     "providerId": "opta:Player:e0o7l3yd8fuzlr3xsbihpmvis",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Kevin",
+     "lastName": "Zeroli",
+     "shirtName": "Kevin Zeroli",
+     "displayName": "Zeroli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4",
+     "providerId": "opta:Player:3sezchmdtivxl4kusvgc6j7x1",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Oluwafikayomi Oluwadamilola",
+     "lastName": "Tomori",
+     "shirtName": "Fikayo Tomori",
+     "displayName": "Tomori",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::11910bf86a0d47ca885790dedbec6bc3",
+     "providerId": "opta:Player:22vctvwf3zrm9jzgrmo4kc4k4",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Mattia",
+     "lastName": "Liberali",
+     "shirtName": "Mattia Liberali",
+     "displayName": "Liberali",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6075b492bae04b149467f30c9c6923be",
+     "providerId": "opta:Player:7wjdqyl3bkhsfca5cu4riwley",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Strahinja",
+     "lastName": "Pavlović",
+     "shirtName": "Strahinja Pavlović",
+     "displayName": "Pavlović",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e795d74e1e04302b39b9815471ba3df",
+     "providerId": "opta:Player:7odl8qgd0qak6w4ox0t3kg3kk",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Davide",
+     "lastName": "Bartesaghi",
+     "shirtName": "Davide Bartesaghi",
+     "displayName": "Bartesaghi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::236541094aea443b92ea9ae2520bdd52",
+     "providerId": "opta:Player:5vz3ahy53htjc8pk4wzvytzbo",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Francesco",
+     "lastName": "Camarda",
+     "shirtName": "Francesco Camarda",
+     "displayName": "Camarda",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a28bdeb07514be7abed730e8a5b4a6f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::90f14d0d8f7c4e20b78b33106df2979d",
+     "providerId": "opta:Player:363nsa82dww242zeo09wpcslx",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Tammy",
+     "lastName": "Abraham",
+     "shirtName": "T. Abraham",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::07b990a034894aea9fe366396b16b278"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::942bc68934354b26a012b1d689290a82",
+     "providerId": "opta:Player:el58uxf7oaqu95yx1vbgmr7it",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mile",
+     "lastName": "Svilar",
+     "shirtName": "Mile Svilar",
+     "displayName": "Svilar",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1fc7bb7eab2545dd8f5952b20f425090",
+     "providerId": "opta:Player:efzokrggje7s9wc6hg75yc6ax",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Obite Evan",
+     "lastName": "Ndicka",
+     "shirtName": "Evan Ndicka",
+     "displayName": "Ndicka",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aeadcf1eeec941cda47f9abdba22efb5",
+     "providerId": "opta:Player:cd6i7khi5wgsfsg19c9tcjydx",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mats",
+     "lastName": "Hummels",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 13,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cdfeb421bf10427ba410d9db7f5f3b00",
+     "providerId": "opta:Player:6fttn5mk6n1lstqt0dl5xzn4l",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Gianluca",
+     "lastName": "Mancini",
+     "shirtName": "Gianluca Mancini",
+     "displayName": "Mancini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eefe9d10fdf748d48162e78f410c498f",
+     "providerId": "opta:Player:9uthj64y9f77y63tq7did539x",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "José Ángel",
+     "lastName": "Esmoris Tasende",
+     "shirtName": "Angeliño",
+     "displayName": "Angeliño",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3f758f3587f54c9db2c10d5f4e92faa5",
+     "providerId": "opta:Player:apdtqouzo9b02ozdxk8mx4zbp",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Leandro",
+     "lastName": "Paredes",
+     "shirtName": "L. Paredes",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::714daf0fa4e947b3891bfec1a3d5d2f0",
+     "providerId": "opta:Player:au5tbnn48ve4kqnuu3dhmk296",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Kouadio Emmanuel Boris",
+     "lastName": "Kone",
+     "shirtName": "Manu Koné",
+     "displayName": "M. Koné",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 4,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a24d76c06d864fe9978e6b195041c291",
+     "providerId": "opta:Player:5kktohikuoy0a1oagcgps8mxg",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Niccolò",
+     "lastName": "Pisilli",
+     "shirtName": "Niccolò Pisilli",
+     "displayName": "Pisilli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7",
+     "providerId": "opta:Player:9vnr9uog5fmggich2i4vjxwbt",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Alexis Jesse",
+     "lastName": "Saelemaekers",
+     "shirtName": "Alexis Saelemaekers",
+     "displayName": "Saelemaekers",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ce4b4184d61f402698ac6c9e954d2b31",
+     "providerId": "opta:Player:93i0gcndi2m8giqqcm4knduxh",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Paulo Exequiel",
+     "lastName": "Dybala",
+     "shirtName": "Paulo Dybala",
+     "displayName": "Dybala",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 23,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a8d5e937e3da4cf8889676f7969eba2f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a8d5e937e3da4cf8889676f7969eba2f",
+     "providerId": "opta:Player:192q3f2xwk9nc6juoa1bcm3th",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Artem",
+     "lastName": "Dovbyk",
+     "shirtName": "Artem Dovbyk",
+     "displayName": "Dovbyk",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9f1e00cd66384caaa137863ec06edc83"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::849c452aca51458d858b81bf873c7cc1",
+     "providerId": "opta:Player:8vzqa5td06vimowk59hsu2bro",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Giorgio",
+     "lastName": "De Marzi",
+     "shirtName": "Giorgio De Marzi",
+     "displayName": "De Marzi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::308db65f2a214e42a77b995729090b7f",
+     "providerId": "opta:Player:wumjn7yf33t74gyzbqd7qc4",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Renato",
+     "lastName": "Marin",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27",
+     "providerId": "opta:Player:57bin6he6kbdo2bs4i78z2k0l",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Lorenzo",
+     "lastName": "Pellegrini",
+     "shirtName": "Lorenzo Pellegrini",
+     "displayName": "Lo. Pellegrini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::714daf0fa4e947b3891bfec1a3d5d2f0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b329eddf0f6d4ef59d00a649d23681d4",
+     "providerId": "opta:Player:aq8pym2fuweqbkxbbu7hqn0x6",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Saud bin Abdullah bin Salem",
+     "lastName": "Abdulhamid",
+     "shirtName": "Saud Abdulhamid",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9f1e00cd66384caaa137863ec06edc83",
+     "providerId": "opta:Player:a21winmltx1h9oiwqtfditkut",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Eldor",
+     "lastName": "Shomurodov",
+     "shirtName": "E. Shomurodov",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a8d5e937e3da4cf8889676f7969eba2f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::467662b231094f4da83cf422a3817132",
+     "providerId": "opta:Player:erwh25hbq259kqdirfufnbcb8",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Matìas",
+     "lastName": "Soule Malvano",
+     "shirtName": "Matías Soulé",
+     "displayName": "Soulé",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d",
+     "providerId": "opta:Player:1pkymw7biivk760rxhubin1ed",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mehmet Zeki",
+     "lastName": "Çelik",
+     "shirtName": "Zeki Çelik",
+     "displayName": "Çelik",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aeadcf1eeec941cda47f9abdba22efb5"
+      },
+      {
+       "type": "yellow-card",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::72d8637dba5842c2a7f8e74dd686ea81",
+     "providerId": "opta:Player:am5gj5qg3gjtyhvwfnj8sjz6d",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mario",
+     "lastName": "Hermoso Canseco",
+     "shirtName": "Mario Hermoso",
+     "displayName": "Hermoso",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::46d76b9f9aed41e7887adbfb169d4338",
+     "providerId": "opta:Player:5i2tc06romjqx7a7wlu1iye7e",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Samuel",
+     "lastName": "Dahl",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50d3b7399e32419d973e4d6c1740b487",
+     "providerId": "opta:Player:44o5mjglkzqxctz07ust9bcru",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Enzo",
+     "lastName": "Le Fée",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab",
+     "providerId": "opta:Player:bk1gdyxtfp4drwb0yotwerbsa",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Tommaso",
+     "lastName": "Baldanzi",
+     "shirtName": "Tommaso Baldanzi",
+     "displayName": "Baldanzi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::466bd5fe831940f7af73ca8f03bb6f46",
+     "providerId": "opta:Player:du4ciqofpkn3nei5q3huwlnje",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Nicola",
+     "lastName": "Zalewski",
+     "shirtName": "Nicola Zalewski",
+     "displayName": "Zalewski",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5538dce5c4f84ec490c5a25931bb5634",
+     "providerId": "opta:Player:anzk8a183bh3gf3gcuz0v0tuc",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Aboubacar",
+     "lastName": "Sangare Traore",
+     "shirtName": "Buba Sangaré",
+     "displayName": "Sangaré",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0",
+     "providerId": "opta:Player:a1iz91ed6hus61yhhk2r0vkd1",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Stephan",
+     "lastName": "El Shaarawy",
+     "shirtName": "Stephan El Shaarawy",
+     "displayName": "El Shaarawy",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:29:30.902Z",
+   "sha256": "6b5a01962f014c8290671e18916e783152bc4d35c94bf44110f1169725d36ccd"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:57.911Z",
+   "sha256": "2ef3999411887b97b0f5e1198e5c56589c2462e2a01efde9a2adb07365ddc71c",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Maignan",
+     "giocatoreIdFantacalcio": 4312,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hernandez T.",
+     "giocatoreIdFantacalcio": 4292,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gabbia",
+     "giocatoreIdFantacalcio": 4401,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Emerson Royal",
+     "giocatoreIdFantacalcio": 4816,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Terracciano F.",
+     "giocatoreIdFantacalcio": 5812,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Thiaw",
+     "giocatoreIdFantacalcio": 6055,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Jimenez A.",
+     "giocatoreIdFantacalcio": 6531,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bennacer",
+     "giocatoreIdFantacalcio": 2818,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fofana Y.",
+     "giocatoreIdFantacalcio": 4686,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Chukwueze",
+     "giocatoreIdFantacalcio": 4856,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Reijnders",
+     "giocatoreIdFantacalcio": 6224,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Morata",
+     "giocatoreIdFantacalcio": 313,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Abraham",
+     "giocatoreIdFantacalcio": 2544,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Camarda",
+     "giocatoreIdFantacalcio": 6519,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Svilar",
+     "giocatoreIdFantacalcio": 5841,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mancini",
+     "giocatoreIdFantacalcio": 2296,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hummels",
+     "giocatoreIdFantacalcio": 2406,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "N'Dicka",
+     "giocatoreIdFantacalcio": 4317,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Celik",
+     "giocatoreIdFantacalcio": 4657,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Angelino",
+     "giocatoreIdFantacalcio": 4772,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Paredes",
+     "giocatoreIdFantacalcio": 468,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pellegrini Lo.",
+     "giocatoreIdFantacalcio": 530,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "El Shaarawy",
+     "giocatoreIdFantacalcio": 795,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Saelemaekers",
+     "giocatoreIdFantacalcio": 4892,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kone' M.",
+     "giocatoreIdFantacalcio": 5589,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pisilli",
+     "giocatoreIdFantacalcio": 6190,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dybala",
+     "giocatoreIdFantacalcio": 309,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 11,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Shomurodov",
+     "giocatoreIdFantacalcio": 5311,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/18",
+      "estrattoIl": "2026-10-06T20:35:57.911Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dovbyk",
+     "giocatoreIdFantacalcio": 6675,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 1 Roma 29/12/2024 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

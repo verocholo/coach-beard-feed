@@ -1,0 +1,1624 @@
+{
+ "label": "Genoa-Empoli (g27)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-03-02T14:00:00Z",
+  "hoursAfterKickoff": 13998.4047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:36:15.429Z",
+  "sha256": "22ee84c58d9fd58145eba097c03892024a90dd6034e22a383224836741989522"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::7ff8e7019c5e49e5b529cdea369074ca",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-03-02T14:00:00Z",
+   "matchday": 27,
+   "home": "Genoa",
+   "away": "Empoli",
+   "homeTeamId": "serie-a::Football_Team::8c7aa94d22f44738951748e2ccdf319a",
+   "awayTeamId": "serie-a::Football_Team::4de00d41f5654013b192a9515df5bf39",
+   "homeScore": 1,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::7ff8e7019c5e49e5b529cdea369074ca",
+   "homeTeam": "Genoa",
+   "awayTeam": "Empoli",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::03ea7d3b17b74069830746c24db1de69",
+     "providerId": "opta:Player:9dc7uictce9dq0tbphn74qz85",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Nicola",
+     "lastName": "Leali",
+     "shirtName": "Nicola Leali",
+     "displayName": "Leali",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ac9814fb4e4245378d64a972b9fd3199",
+     "providerId": "opta:Player:7ojvhhfvbtbn60sc50y4l2ctm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Johan Felipe",
+     "lastName": "Vasquez Ibarra",
+     "shirtName": "Johan Vásquez",
+     "displayName": "J. Vásquez",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::addf3cf1ea704379915f2046b15d525b",
+     "providerId": "opta:Player:donnt3rdq2n3x0jwmmhqfo7v9",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Mattia",
+     "lastName": "Bani",
+     "shirtName": "Mattia Bani",
+     "displayName": "Bani",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1",
+     "providerId": "opta:Player:95r0jtkw03vjohzwc8os8ielm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Koni",
+     "lastName": "De Winter",
+     "shirtName": "Koni De Winter",
+     "displayName": "De Winter",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488",
+     "providerId": "opta:Player:eh9sh9aa10zrp80l6e4l0c7h1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Aaron",
+     "lastName": "Martin Caricol",
+     "shirtName": "Aarón Martín",
+     "displayName": "Martín",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1a115e96dce24288ae6ac16522b66ceb",
+     "providerId": "opta:Player:7kbn6vt37rfgd9yszzvx9idm2",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Zanoli",
+     "shirtName": "A. Zanoli",
+     "displayName": "Zanoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 52,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a",
+     "providerId": "opta:Player:2um03dny7h3sdvehq3bygd1t6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten Wetche",
+     "lastName": "Frendrup",
+     "shirtName": "Morten Frendrup",
+     "displayName": "Frendrup",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c",
+     "providerId": "opta:Player:7xdhy2xi9mrhzjn6aiatd9ono",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Patrizio",
+     "lastName": "Masini",
+     "shirtName": "Patrizio Masini",
+     "displayName": "Masini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3e3618a7ee924889973db5ff58423c2b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c",
+     "providerId": "opta:Player:bjob8tftnxojnytcj7juo0ga2",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Fabio",
+     "lastName": "Miretti",
+     "shirtName": "Fabio Miretti",
+     "displayName": "Miretti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 52,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2681452588b14a15a9aa5afe6fab05d3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b",
+     "providerId": "opta:Player:17au7v1ocl4zab872g59821yi",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Walter",
+     "lastName": "Messias Junior",
+     "shirtName": "Junior Messias",
+     "displayName": "Messias",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba",
+     "providerId": "opta:Player:153ljvbov0n176vm9fdaizoix",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Andrea",
+     "lastName": "Pinamonti",
+     "shirtName": "A. Pinamonti",
+     "displayName": "Pinamonti",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a7f3917b59744fcbb169a2adb6f4d2e7",
+     "providerId": "opta:Player:52lu5mlc9xdqjzgh1ne86wtsl",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Benjamin Kevin",
+     "lastName": "Siegrist",
+     "shirtName": "Benjamin Siegrist",
+     "displayName": "Siegrist",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::308ee64855794d61811119f70f5f018e",
+     "providerId": "opta:Player:4b6mhmoeo78f8x928q2imp591",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Daniele",
+     "lastName": "Sommariva",
+     "shirtName": "Daniele Sommariva",
+     "displayName": "Sommariva",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3e3618a7ee924889973db5ff58423c2b",
+     "providerId": "opta:Player:b4lc7czw7al6g7a7qzcqzya22",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Jean Emile Junior",
+     "lastName": "Onana Onana",
+     "shirtName": "",
+     "displayName": "Onana",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::48bbf1a2c4494bb0b02d0a49eb431c98",
+     "providerId": "opta:Player:bj9f6t8o0nji79rbaxrsioep6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Brooke Dion Nelson",
+     "lastName": "Norton-Cuffy",
+     "shirtName": "Brooke Norton-Cuffy",
+     "displayName": "Norton-Cuffy",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4af8f3465e44cefbe9617f9c576691b",
+     "providerId": "opta:Player:4euxcqawlks4c56pqj8xvwbf9",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Ruslan",
+     "lastName": "Malinovskyi",
+     "shirtName": "Ruslan Malinovskyi",
+     "displayName": "Malinovskyi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc",
+     "providerId": "opta:Player:8ncvq09i7or8rxwq9233djtg5",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Caleb Ansah",
+     "lastName": "Ekuban",
+     "shirtName": "Caleb Ekuban",
+     "displayName": "Ekuban",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d",
+     "providerId": "opta:Player:8psio8fqce76uinoqpilzxsd1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Stefano",
+     "lastName": "Sabelli",
+     "shirtName": "Stefano Sabelli",
+     "displayName": "Sabelli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::addf3cf1ea704379915f2046b15d525b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934",
+     "providerId": "opta:Player:bf41pexjnkx8o1wdxudesfac4",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Osayuki Jeff",
+     "lastName": "Ekhator",
+     "shirtName": "Jeff Ekhator",
+     "displayName": "Ekhator",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 52,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1a115e96dce24288ae6ac16522b66ceb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4f99b059e04c47dc9feb28b23e95f252",
+     "providerId": "opta:Player:8srykssgtk4opuabiet4ahpn8",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Hugo Francisco",
+     "lastName": "Cuenca Martinez",
+     "shirtName": "Hugo Cuenca",
+     "displayName": "Cuenca",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::57434fa1513942daab95debc399d1e11",
+     "providerId": "opta:Player:2y25g5wgiygxbp97r22o1a1as",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alan Agustin",
+     "lastName": "Matturro Romero",
+     "shirtName": "A. Matturro",
+     "displayName": "Matturro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50f786bf0927432c9ee1d36704a91106",
+     "providerId": "opta:Player:dq2eqqywinhsh9ijg8amqyp78",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Sebastian Villaume",
+     "lastName": "Otoa",
+     "shirtName": "Sebastian Otoa",
+     "displayName": "Otoa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a187be5f53b74c04a5a307c936ed5f49",
+     "providerId": "opta:Player:d4e0d51gajxau9pbdt8ccrys5",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Milan",
+     "lastName": "Badelj",
+     "shirtName": "M. Badelj",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2681452588b14a15a9aa5afe6fab05d3",
+     "providerId": "opta:Player:f2pknjv2uohldehbp39j0so2d",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Gnaly Albert Maxwel",
+     "lastName": "Cornet",
+     "shirtName": "",
+     "displayName": "Cornet",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 52,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cc52adc5bbc24b01b26fb63196963491",
+     "providerId": "opta:Player:mvlk84jquwhfjb5a8ic9el0",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Lorenzo",
+     "lastName": "Venturino",
+     "shirtName": "Lorenzo Venturino",
+     "displayName": "Venturino",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::adb3802917f84f18b2d899e1cc681700",
+     "providerId": "opta:Player:93237ztqyi3r4hu3rmgzrgudx",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Marco",
+     "lastName": "Silvestri",
+     "shirtName": "Marco Silvestri",
+     "displayName": "Silvestri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a5857e6c5af14b0a8faade09103a5e93",
+     "providerId": "opta:Player:an5eip4p2zmw49hh9eqksigo9",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Liberato",
+     "lastName": "Cacace",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a1ee3415386144ad88b60048528e69bd",
+     "providerId": "opta:Player:1ijyezydbb4zzio95vj0sr09g",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Luca",
+     "lastName": "Marianucci",
+     "shirtName": "Luca Marianucci",
+     "displayName": "Marianucci",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50a60abf290e4880afe7411c15616fb2",
+     "providerId": "opta:Player:6pzskxh8wy2b4gaf4kj6zuivo",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Saba",
+     "lastName": "Goglichidze",
+     "shirtName": "Saba Goglichidze",
+     "displayName": "Goglichidze",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7e44f29f2a74a10b079abe0d392bc5a",
+     "providerId": "opta:Player:90pjbz2aq8vz4qapqu1yt2ynd",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Giuseppe",
+     "lastName": "Pezzella",
+     "shirtName": "Giuseppe Pezzella",
+     "displayName": "Pezzella",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::15d093aa2d3b47819ba90355e97d2c0e",
+     "providerId": "opta:Player:2l87vg4m0glbbdvnrg4zud51x",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Liam",
+     "lastName": "Henderson",
+     "shirtName": "Liam Henderson",
+     "displayName": "Henderson",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::860306a52650438ab2f0e0e6e1fb9adb"
+      },
+      {
+       "type": "yellow-card",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8763e24fb296404e9360dab1c1a6c0aa",
+     "providerId": "opta:Player:1fdgli7rrzvlhcs1exckc0r11",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Alberto",
+     "lastName": "Grassi",
+     "shirtName": "A. Grassi",
+     "displayName": "Grassi",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 36,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2bc922fd4dee4920b5a240fab9359815"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5e99fff87e3e41aeade5683c90094957",
+     "providerId": "opta:Player:8lta4w1nytggiwnaqv4e5cc0l",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Emanuel",
+     "lastName": "Gyasi",
+     "shirtName": "Emmanuel Gyasi",
+     "displayName": "Gyasi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c608c4d673404cd7adf05b86d036e0f3",
+     "providerId": "opta:Player:d9sakxlp96siw0z1jltszdlgp",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Youssef",
+     "lastName": "Maleh",
+     "shirtName": "Youssef Maleh",
+     "displayName": "Maleh",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba",
+     "providerId": "opta:Player:c4n7kjp8c47trslpssnyqjo16",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Sebastiano",
+     "lastName": "Esposito",
+     "shirtName": "Sebastiano Esposito",
+     "displayName": "S. Esposito",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::05e6582794f1475abb32a7d1d26fb404"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 37,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdc070e8a5964a7188c228293722fced"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::75ccbc3aa26f422ebcdf89b1a26f8e2e",
+     "providerId": "opta:Player:vxehbg5v0s42cmvntbd6xc7o",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Jacopo",
+     "lastName": "Seghetti",
+     "shirtName": "J. Seghetti",
+     "displayName": "Seghetti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::410303ba6eb74fcb882fc6aca990c956",
+     "providerId": "opta:Player:fb1s5est3fuw1flrjl9isusp",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Devis Estiven",
+     "lastName": "Vasquez Llach",
+     "shirtName": "D. Vasquez",
+     "displayName": "D. Vásquez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bd503deb2e9447fd8314978582571644",
+     "providerId": "opta:Player:9t753r5hnyq6qe5o7csuurw15",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Federico",
+     "lastName": "Brancolini",
+     "shirtName": "Federico Brancolini",
+     "displayName": "Brancolini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ff2c6c9226014d4189d926d17ed14339",
+     "providerId": "opta:Player:ezpkmoz1z08da3o3g45m12lzp",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Junior",
+     "lastName": "Sambia",
+     "shirtName": "J. Sambia",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bdc070e8a5964a7188c228293722fced",
+     "providerId": "opta:Player:6gjn7pt0i34q45g4porckuj8p",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Kouakou Christian",
+     "lastName": "Kouame",
+     "shirtName": "C. Kouamé",
+     "displayName": "Kouamé",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c4180491d2b04195b655b140a8b17a81",
+     "providerId": "opta:Player:1s7qbrynbcv9uw9r5f29oyc5",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Viktor",
+     "lastName": "Kovalenko",
+     "shirtName": "V. Kovalenko",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::05e6582794f1475abb32a7d1d26fb404",
+     "providerId": "opta:Player:9pe3yqjsmcjtxdx7bdne3d4ut",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Mattia",
+     "lastName": "De Sciglio",
+     "shirtName": "M. De Sciglio",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1d944920a2fb4952877847e11ccae21e",
+     "providerId": "opta:Player:ewlrfjbmk1resvq3w234lwr2s",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Lorenzo",
+     "lastName": "Tosto",
+     "shirtName": "Lorenzo Tosto",
+     "displayName": "Tosto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::acd16c7a271347e297ff47c6d8198633",
+     "providerId": "opta:Player:2loc1ic2jcwxtfdes93tcy0b8",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Jacopo",
+     "lastName": "Bacci",
+     "shirtName": "Jacopo Bacci",
+     "displayName": "Bacci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7fd766bb3b8148d5ad50822bdf4eaaa2",
+     "providerId": "opta:Player:p2rlpsk1ufa9ind2ld7ap72s",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Anders",
+     "lastName": "Asmussen",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cc141feee5294a5fa3915f69f5d80aa9",
+     "providerId": "opta:Player:7ut56715j129guhzl0snsyo0k",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Thomas",
+     "lastName": "Campaniello",
+     "shirtName": "Thomas Campaniello",
+     "displayName": "Campaniello",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::860306a52650438ab2f0e0e6e1fb9adb",
+     "providerId": "opta:Player:8rouava6glln14si4xxksgwt0",
+     "side": "away",
+     "team": "Empoli",
+     "firstName": "Ismael",
+     "lastName": "Konate",
+     "shirtName": "Ismael Konaté",
+     "displayName": "Konaté",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::15d093aa2d3b47819ba90355e97d2c0e"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:32:04.033Z",
+   "sha256": "ca60fdfb19fe23689d9ec946e0da0bcafc9ebcd987f8673b63c8a90067056093"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:36:15.429Z",
+   "sha256": "22ee84c58d9fd58145eba097c03892024a90dd6034e22a383224836741989522",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Silvestri",
+     "giocatoreIdFantacalcio": 2211,
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Sciglio",
+     "giocatoreIdFantacalcio": 358,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pezzella Giu.",
+     "giocatoreIdFantacalcio": 770,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cacace",
+     "giocatoreIdFantacalcio": 5804,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Goglichidze",
+     "giocatoreIdFantacalcio": 6537,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marianucci",
+     "giocatoreIdFantacalcio": 6809,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Grassi",
+     "giocatoreIdFantacalcio": 27,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Henderson L.",
+     "giocatoreIdFantacalcio": 4498,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gyasi",
+     "giocatoreIdFantacalcio": 4992,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Maleh",
+     "giocatoreIdFantacalcio": 5457,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kouame'",
+     "giocatoreIdFantacalcio": 2762,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Esposito Se.",
+     "giocatoreIdFantacalcio": 4463,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Colombo",
+     "giocatoreIdFantacalcio": 4923,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Konate Is.",
+     "giocatoreIdFantacalcio": 6935,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Leali",
+     "giocatoreIdFantacalcio": 188,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sabelli",
+     "giocatoreIdFantacalcio": 791,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bani",
+     "giocatoreIdFantacalcio": 2285,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Martin",
+     "giocatoreIdFantacalcio": 2593,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vasquez",
+     "giocatoreIdFantacalcio": 5514,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zanoli",
+     "giocatoreIdFantacalcio": 5527,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Winter",
+     "giocatoreIdFantacalcio": 5739,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cornet",
+     "giocatoreIdFantacalcio": 4677,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Messias",
+     "giocatoreIdFantacalcio": 4970,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frendrup",
+     "giocatoreIdFantacalcio": 5791,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Miretti",
+     "giocatoreIdFantacalcio": 5813,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Onana J.",
+     "giocatoreIdFantacalcio": 6538,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Masini",
+     "giocatoreIdFantacalcio": 6917,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pinamonti",
+     "giocatoreIdFantacalcio": 2038,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekuban",
+     "giocatoreIdFantacalcio": 5506,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/27",
+      "estrattoIl": "2026-10-06T20:36:15.429Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekhator",
+     "giocatoreIdFantacalcio": 6822,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Empoli 02/03/2025 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

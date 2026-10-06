@@ -1,0 +1,1652 @@
+{
+ "label": "Torino-Udinese (g33)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-04-23T16:30:00Z",
+  "hoursAfterKickoff": 12747.9047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:36:26.999Z",
+  "sha256": "e95fc61a0b73a99822a328c0af16a6f5f34b52b51d91d2ba54d6817f6a28293e"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::198a8cab7cfe44d2aafef815ae938079",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-04-23T16:30:00Z",
+   "matchday": 33,
+   "home": "Torino",
+   "away": "Udinese",
+   "homeTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "awayTeamId": "serie-a::Football_Team::630b1e3631db42498d1b7bc94595c5e0",
+   "homeScore": 2,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::198a8cab7cfe44d2aafef815ae938079",
+   "homeTeam": "Torino",
+   "awayTeam": "Udinese",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::5b15b16a974543dc8fab8732ca7835ae",
+     "providerId": "opta:Player:5syage212151fcixahbq3k8ut",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Vanja",
+     "lastName": "Milinković-Savić",
+     "shirtName": "Vanja Milinković-Savić",
+     "displayName": "Milinković-Savić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737",
+     "providerId": "opta:Player:66at96kfhvigkny465lkmrnbp",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cristiano",
+     "lastName": "Biraghi",
+     "shirtName": "Cristiano Biraghi",
+     "displayName": "Biraghi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21",
+     "providerId": "opta:Player:6gzi8qf8szxn99dnwh3h6gkb9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adam",
+     "lastName": "Masina",
+     "shirtName": "Adam Masina",
+     "displayName": "Masina",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9de4e3f19b5e489b9f8eec96d7532148"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600",
+     "providerId": "opta:Player:270djbc9lxhoupmd1djrii191",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Guillermo Alfonso",
+     "lastName": "Maripan Loayza",
+     "shirtName": "Guillermo Maripán",
+     "displayName": "Maripán",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 38,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::92d8dd7d3de74369bddf1d125ed5bbad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f3b8743fff5a497b8b2686e3301c46f3",
+     "providerId": "opta:Player:72im0m7d8rqpsclo4f5crqmsp",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Eljif",
+     "lastName": "Elmas",
+     "shirtName": "E. Elmas",
+     "displayName": "Elmas",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c27be8dcbb4d40fcba22d71d69bb2b08"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2d7273706f1648ca940ba7075a78b533",
+     "providerId": "opta:Player:6ol411t0mogw6m83heiqd0m39",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Karol",
+     "lastName": "Linetty",
+     "shirtName": "K. Linetty",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba",
+     "providerId": "opta:Player:e2oeysariwd866ksilu3t4m7e",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Samuele",
+     "lastName": "Ricci",
+     "shirtName": "Samuele Ricci",
+     "displayName": "Ricci",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::337edc1627994b61bcd6938cf486fccc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd",
+     "providerId": "opta:Player:82pgcsfvbitzlpbao9ptbsgoa",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cesare",
+     "lastName": "Casadei",
+     "shirtName": "Cesare Casadei",
+     "displayName": "Casadei",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81",
+     "providerId": "opta:Player:59ujnkvl7rlffomi2bqpsmbpx",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Che Zach Everton",
+     "lastName": "Adams",
+     "shirtName": "Ché Adams",
+     "displayName": "C. Adams",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 39,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::31f4cfdd838c456c882c84f5d7c93bf0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0cc5d45eeae84da4b2c8d3335f629006",
+     "providerId": "opta:Player:a8s8bl5kp1rif458yt3qlevo5",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alberto Andrea",
+     "lastName": "Paleari",
+     "shirtName": "Alberto Paleari",
+     "displayName": "Paleari",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb5ceb32771241c0b5a7de1965b73310",
+     "providerId": "opta:Player:eh7ps2hd71ls027vlzhjviuad",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Antonio",
+     "lastName": "Donnarumma",
+     "shirtName": "A. Donnarumma",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::92d8dd7d3de74369bddf1d125ed5bbad",
+     "providerId": "opta:Player:dnk24js88d4ie661mwo7jkq95",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Sebastian",
+     "lastName": "Walukiewicz",
+     "shirtName": "Sebastian Walukiewicz",
+     "displayName": "Walukiewicz",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::337edc1627994b61bcd6938cf486fccc",
+     "providerId": "opta:Player:ez8vzwaf7iuiv2ceetiwg6ymt",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Yann",
+     "lastName": "Karamoh",
+     "shirtName": "Y. Karamoh",
+     "displayName": "Karamoh",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b0ee43987924349879779b9a10c47e5",
+     "providerId": "opta:Player:e7tz6hxliohn3gkj4cgl3j1ed",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Arnaldo Antonio",
+     "lastName": "Sanabria Ayala",
+     "shirtName": "Antonio Sanabria",
+     "displayName": "Sanabria",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9de4e3f19b5e489b9f8eec96d7532148",
+     "providerId": "opta:Player:eug1as582cl6ji78ylyq4zfo4",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ali Bina",
+     "lastName": "Dembelé",
+     "shirtName": "Ali Dembélé",
+     "displayName": "Dembélé",
+     "starter": false,
+     "events": [
+      {
+       "type": "goal",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::31f4cfdd838c456c882c84f5d7c93bf0"
+      },
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd",
+     "providerId": "opta:Player:9sjt5rv156hr2llfu241r6cph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adrien Fidele",
+     "lastName": "Tameze Aoutsa",
+     "shirtName": "Adrien Tamèze",
+     "displayName": "Tameze",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c27be8dcbb4d40fcba22d71d69bb2b08",
+     "providerId": "opta:Player:dweodk4hxk8llpyfsjpnin1n8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Sergiu",
+     "lastName": "Perciun",
+     "shirtName": "Sergiu Perciun",
+     "displayName": "Perciun",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f3b8743fff5a497b8b2686e3301c46f3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f11f085ecb324eae82187473378994f4",
+     "providerId": "opta:Player:7gdfooe2sa90g72nddjazusd0",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alessio",
+     "lastName": "Cacciamani",
+     "shirtName": "Alessio Cacciamani",
+     "displayName": "Cacciamani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::577277231cb84394a7d96c70a11a528f",
+     "providerId": "opta:Player:70ps22rygrlq3msxgwmesowyx",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Emil Maduka",
+     "lastName": "Okoye",
+     "shirtName": "Maduka Okoye",
+     "displayName": "Okoye",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18ccff309d1c46efbab30d302ece28e7",
+     "providerId": "opta:Player:95qrrtlyz4ikkzjbgy6exbnit",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Hassane",
+     "lastName": "Kamara",
+     "shirtName": "Hassane Kamara",
+     "displayName": "Kamara",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa46c1e9504d4070876a364bc69fc470",
+     "providerId": "opta:Player:cet0tgjv82l6ao07ij1ylgp9l",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Oumar Mickael",
+     "lastName": "Solet Bomawoko",
+     "shirtName": "Oumar Solet",
+     "displayName": "Solet",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9c5999dbc5cc44a292a49414e20ef094",
+     "providerId": "opta:Player:ah0f7tonnst92d8q91j1wll62",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jaka",
+     "lastName": "Bijol",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 3,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::52d5b4022e8e431aa4b4c8983843965b",
+     "providerId": "opta:Player:dfckk0xst90yjlep74tvups5x",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Kingsley Osezele",
+     "lastName": "Ehizibue",
+     "shirtName": "Kingsley Ehizibue",
+     "displayName": "Ehizibue",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9d07b4ef7bea4aae9e85d8b094ee251f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e8f6079ece014914adab3caf2e98babb",
+     "providerId": "opta:Player:d19yalwh3i2olvpwoi89feqjt",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jurgen",
+     "lastName": "Ekkelenkamp",
+     "shirtName": "Jurgen Ekkelenkamp",
+     "displayName": "Ekkelenkamp",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5005a54bda154824abf9fee40d580c02"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::75e8a5f9f7c54239aaf5c7620816ca7a",
+     "providerId": "opta:Player:agnmzpaj62lzsavtq43uxt4gl",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jesper",
+     "lastName": "Karlström",
+     "shirtName": "Jesper Karlström",
+     "displayName": "Karlström",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4f65b66648584493baf8b6a7a025413b",
+     "providerId": "opta:Player:13o5eskqs8b88yerwltk0tivp",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Sandi",
+     "lastName": "Lovrić",
+     "shirtName": "Sandi Lovrić",
+     "displayName": "Lovrić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5290120066c84fa5b679c315af96ccc9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cd9708fcf981489e939152ec78f997c2",
+     "providerId": "opta:Player:2wwbf11c9mc2psxaa8p58qnmc",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Arthur Eric",
+     "lastName": "Atta",
+     "shirtName": "Arthur Atta",
+     "displayName": "Atta",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bd51deb9de4a486dbaa8f1544cad3e31",
+     "providerId": "opta:Player:1bd23slibfdzz32n8nhwosbqi",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Martin Ismael",
+     "lastName": "Payero",
+     "shirtName": "Martín Payero",
+     "displayName": "Payero",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e89efd0630fb4de388cce5a2499362ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74e3b0dfd49c49e582c6d804539367e7",
+     "providerId": "opta:Player:6ffcfr6a1l2p5crr71rb5szys",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Iker",
+     "lastName": "Bravo Solanilla",
+     "shirtName": "Iker Bravo",
+     "displayName": "Iker Bravo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bceddc37986049e09f271927bd712727"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c66a8f0dd6dd43e6b06c5a4890d52a12",
+     "providerId": "opta:Player:9kp0q3f77gz8f5e2qumj6kpyi",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Razvan Sergiu",
+     "lastName": "Sava",
+     "shirtName": "Razvan Sava",
+     "displayName": "Sava",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f42dc8a471d44f2d8cb4a23c2cb0fefc",
+     "providerId": "opta:Player:al3t9fzj4ab55yux0zkd1jkr9",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Daniele",
+     "lastName": "Padelli",
+     "shirtName": "Daniele Padelli",
+     "displayName": "Padelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5931a8de6cc3493ebdaa0b4c30758add",
+     "providerId": "opta:Player:488vwilxllk6nhf4o1wrh0gve",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Oier",
+     "lastName": "Zarraga Egana",
+     "shirtName": "Oier Zarraga",
+     "displayName": "Zarraga",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e89efd0630fb4de388cce5a2499362ff",
+     "providerId": "opta:Player:vl1b0gayryiqvl5dlukpmswl",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Alexis Alejandro",
+     "lastName": "Sanchez Sanchez",
+     "shirtName": "Alexis Sánchez",
+     "displayName": "Sánchez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bd51deb9de4a486dbaa8f1544cad3e31"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bceddc37986049e09f271927bd712727",
+     "providerId": "opta:Player:bdg3xeth77c0nw61hvj5fct0p",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Keinan Vincent Joseph",
+     "lastName": "Davis",
+     "shirtName": "Keinan Davis",
+     "displayName": "Davis",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::74e3b0dfd49c49e582c6d804539367e7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::663b54dec4a14f3bb02e940c87a699c8",
+     "providerId": "opta:Player:b4qo4uwejb2o323k7lgefzac4",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Matteo",
+     "lastName": "Palma",
+     "shirtName": "Matteo Palma",
+     "displayName": "Palma",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5290120066c84fa5b679c315af96ccc9",
+     "providerId": "opta:Player:bf4gvp8pzp50lhtb2fc35zeok",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Simone",
+     "lastName": "Pafundi",
+     "shirtName": "Simone Pafundi",
+     "displayName": "Pafundi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4f65b66648584493baf8b6a7a025413b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::700f9b23586149c6a32011198f8e928a",
+     "providerId": "opta:Player:5ljs2bj3wwiurcyxiwka2i8d1",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Christian",
+     "lastName": "Kabasele",
+     "shirtName": "Christian Kabasele",
+     "displayName": "Kabasele",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::91041af82e6e4aada3968d2f8673a1b1",
+     "providerId": "opta:Player:4n7c1vbt01lpgzzx22u333t1x",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Lautaro Daniel",
+     "lastName": "Giannetti",
+     "shirtName": "Lautaro Giannetti",
+     "displayName": "Giannetti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8c5ec14ba3bf4e1fa505c0bff2fbaa52",
+     "providerId": "opta:Player:6rbsjfwx4pon2d1vu3k7ojxuc",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Thomas Thiesson",
+     "lastName": "Kristensen",
+     "shirtName": "Thomas Kristensen",
+     "displayName": "Kristensen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9d07b4ef7bea4aae9e85d8b094ee251f",
+     "providerId": "opta:Player:35s5mefte5hagf4wjv96u9756",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Rui Manuel",
+     "lastName": "Muati Modesto",
+     "shirtName": "Rui Modesto",
+     "displayName": "Rui Modesto",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::52d5b4022e8e431aa4b4c8983843965b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5005a54bda154824abf9fee40d580c02",
+     "providerId": "opta:Player:afjbobbjlk2g5tbqstn68cxsk",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Damian Nicolas",
+     "lastName": "Pizarro Huenuqueo",
+     "shirtName": "Damián Pizarro",
+     "displayName": "Pizarro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8f6079ece014914adab3caf2e98babb"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:33:51.445Z",
+   "sha256": "0251326e146bd96c0388b2ed3953e78a06717dfeec4641695554cf3028ad6bbb"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:36:26.999Z",
+   "sha256": "e95fc61a0b73a99822a328c0af16a6f5f34b52b51d91d2ba54d6817f6a28293e",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Milinkovic-Savic V.",
+     "giocatoreIdFantacalcio": 2170,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Masina",
+     "giocatoreIdFantacalcio": 49,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Biraghi",
+     "giocatoreIdFantacalcio": 252,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Walukiewicz",
+     "giocatoreIdFantacalcio": 4374,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Maripan",
+     "giocatoreIdFantacalcio": 4665,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "giocatoreIdFantacalcio": 6426,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dembele' A.",
+     "giocatoreIdFantacalcio": 6826,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Linetty",
+     "giocatoreIdFantacalcio": 2008,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Elmas",
+     "giocatoreIdFantacalcio": 4479,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tameze",
+     "giocatoreIdFantacalcio": 4890,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ricci S.",
+     "giocatoreIdFantacalcio": 5453,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Casadei",
+     "giocatoreIdFantacalcio": 5888,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gineitis",
+     "giocatoreIdFantacalcio": 6170,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Perciun",
+     "giocatoreIdFantacalcio": 7052,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Karamoh",
+     "giocatoreIdFantacalcio": 2325,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams C.",
+     "giocatoreIdFantacalcio": 6646,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Okoye",
+     "giocatoreIdFantacalcio": 6462,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kamara H.",
+     "giocatoreIdFantacalcio": 5555,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bijol",
+     "giocatoreIdFantacalcio": 5847,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ehizibue",
+     "giocatoreIdFantacalcio": 6047,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Solet",
+     "giocatoreIdFantacalcio": 6956,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pafundi",
+     "giocatoreIdFantacalcio": 5824,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lovric",
+     "giocatoreIdFantacalcio": 5850,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Payero",
+     "giocatoreIdFantacalcio": 6481,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Karlstrom",
+     "giocatoreIdFantacalcio": 6680,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ekkelenkamp",
+     "giocatoreIdFantacalcio": 6684,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rui Modesto",
+     "giocatoreIdFantacalcio": 6900,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Atta",
+     "giocatoreIdFantacalcio": 6908,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sanchez",
+     "giocatoreIdFantacalcio": 2475,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Davis K.",
+     "giocatoreIdFantacalcio": 5637,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pizarro",
+     "giocatoreIdFantacalcio": 6635,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/33",
+      "estrattoIl": "2026-10-06T20:36:26.999Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bravo",
+     "giocatoreIdFantacalcio": 6653,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 0 Udinese 23/04/2025 - 18:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

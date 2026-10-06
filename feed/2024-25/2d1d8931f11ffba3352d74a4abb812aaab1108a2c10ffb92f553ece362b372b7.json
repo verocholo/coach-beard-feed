@@ -1,0 +1,1632 @@
+{
+ "label": "Torino-Napoli (g14)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-12-01T14:00:00Z",
+  "hoursAfterKickoff": 16182.4047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:49.848Z",
+  "sha256": "0c36749389ac7ca34fd790ebe37ba974aec9adb716f82d06de67c27bfc0bdb23"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::c2fbd2921e3c4fbb9a2f26df45bb47d0",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-12-01T14:00:00Z",
+   "matchday": 14,
+   "home": "Torino",
+   "away": "Napoli",
+   "homeTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "awayTeamId": "serie-a::Football_Team::f791dab8f0e4449e9884dd8dbd42dbcc",
+   "homeScore": 0,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 4
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::c2fbd2921e3c4fbb9a2f26df45bb47d0",
+   "homeTeam": "Torino",
+   "awayTeam": "Napoli",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::5b15b16a974543dc8fab8732ca7835ae",
+     "providerId": "opta:Player:5syage212151fcixahbq3k8ut",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Vanja",
+     "lastName": "Milinković-Savić",
+     "shirtName": "Vanja Milinković-Savić",
+     "displayName": "Milinković-Savić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21",
+     "providerId": "opta:Player:6gzi8qf8szxn99dnwh3h6gkb9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adam",
+     "lastName": "Masina",
+     "shirtName": "Adam Masina",
+     "displayName": "Masina",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c49829887c1045fd898b13b52aa02cf6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e01f727bb7304efea37d2cc9fc152812",
+     "providerId": "opta:Player:7vykym3hy0qf1rxw3yv58kxgq",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Saul Basilio",
+     "lastName": "Coco Bassey Oubina",
+     "shirtName": "Saúl Coco",
+     "displayName": "Coco",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::92d8dd7d3de74369bddf1d125ed5bbad",
+     "providerId": "opta:Player:dnk24js88d4ie661mwo7jkq95",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Sebastian",
+     "lastName": "Walukiewicz",
+     "shirtName": "Sebastian Walukiewicz",
+     "displayName": "Walukiewicz",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 39,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 41,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56",
+     "providerId": "opta:Player:16kv5p8we3pwqpt5ktwrb7mj9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Mergim",
+     "lastName": "Vojvoda",
+     "shirtName": "M. Vojvoda",
+     "displayName": "Vojvoda",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::337edc1627994b61bcd6938cf486fccc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2d7273706f1648ca940ba7075a78b533",
+     "providerId": "opta:Player:6ol411t0mogw6m83heiqd0m39",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Karol",
+     "lastName": "Linetty",
+     "shirtName": "K. Linetty",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba",
+     "providerId": "opta:Player:e2oeysariwd866ksilu3t4m7e",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Samuele",
+     "lastName": "Ricci",
+     "shirtName": "Samuele Ricci",
+     "displayName": "Ricci",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b0ee43987924349879779b9a10c47e5",
+     "providerId": "opta:Player:e7tz6hxliohn3gkj4cgl3j1ed",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Arnaldo Antonio",
+     "lastName": "Sanabria Ayala",
+     "shirtName": "Antonio Sanabria",
+     "displayName": "Sanabria",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81",
+     "providerId": "opta:Player:59ujnkvl7rlffomi2bqpsmbpx",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Che Zach Everton",
+     "lastName": "Adams",
+     "shirtName": "Ché Adams",
+     "displayName": "C. Adams",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0cc5d45eeae84da4b2c8d3335f629006",
+     "providerId": "opta:Player:a8s8bl5kp1rif458yt3qlevo5",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alberto Andrea",
+     "lastName": "Paleari",
+     "shirtName": "Alberto Paleari",
+     "displayName": "Paleari",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb5ceb32771241c0b5a7de1965b73310",
+     "providerId": "opta:Player:eh7ps2hd71ls027vlzhjviuad",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Antonio",
+     "lastName": "Donnarumma",
+     "shirtName": "A. Donnarumma",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::337edc1627994b61bcd6938cf486fccc",
+     "providerId": "opta:Player:ez8vzwaf7iuiv2ceetiwg6ymt",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Yann",
+     "lastName": "Karamoh",
+     "shirtName": "Y. Karamoh",
+     "displayName": "Karamoh",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a",
+     "providerId": "opta:Player:ebgkv548xih19m8uza7bgrvmd",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Nikola",
+     "lastName": "Vlašić",
+     "shirtName": "Nikola Vlašić",
+     "displayName": "Vlašić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2d7273706f1648ca940ba7075a78b533"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600",
+     "providerId": "opta:Player:270djbc9lxhoupmd1djrii191",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Guillermo Alfonso",
+     "lastName": "Maripan Loayza",
+     "shirtName": "Guillermo Maripán",
+     "displayName": "Maripán",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1",
+     "providerId": "opta:Player:866f0f7taqhae91o3cjnnx0ph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Valentino",
+     "lastName": "Lazaro",
+     "shirtName": "Valentino Lazaro",
+     "displayName": "Lazaro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9de4e3f19b5e489b9f8eec96d7532148",
+     "providerId": "opta:Player:eug1as582cl6ji78ylyq4zfo4",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ali Bina",
+     "lastName": "Dembelé",
+     "shirtName": "Ali Dembélé",
+     "displayName": "Dembélé",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c49829887c1045fd898b13b52aa02cf6",
+     "providerId": "opta:Player:e9u7cmvaem5p7x9px3yq9f179",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Borna",
+     "lastName": "Sosa",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd",
+     "providerId": "opta:Player:9sjt5rv156hr2llfu241r6cph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adrien Fidele",
+     "lastName": "Tameze Aoutsa",
+     "shirtName": "Adrien Tamèze",
+     "displayName": "Tameze",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2625820682bd45568a03101a17d1ab3c",
+     "providerId": "opta:Player:9fixo2e099k9apyv4dn2ayfpw",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Come Gerard",
+     "lastName": "Bianay Balcot",
+     "shirtName": "Côme Bianay",
+     "displayName": "Bianay",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3",
+     "providerId": "opta:Player:9hl7yh42qvmdcjw69si5imnf8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alieu Badara",
+     "lastName": "Njie",
+     "shirtName": "Alieu Njie",
+     "displayName": "Njie",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0b0ee43987924349879779b9a10c47e5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::18cc6f2bdba14a5a9cca5268d2efafce",
+     "providerId": "opta:Player:af58rhtg8ck7c8g7nwfs67d91",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Alex",
+     "lastName": "Meret",
+     "shirtName": "Alex Meret",
+     "displayName": "Meret",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4d288b42418140a196d4ca71601d0c58",
+     "providerId": "opta:Player:896uaqjrz22q6fqjfzuwf77jd",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Mathias",
+     "lastName": "Olivera Miramontes",
+     "shirtName": "Mathías Olivera",
+     "displayName": "Olivera",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ef2c2d627ff94df4840479fa3473a59c",
+     "providerId": "opta:Player:22x1ucwwak58wi6r5x1j6ohk9",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Alessandro",
+     "lastName": "Buongiorno",
+     "shirtName": "Alessandro Buongiorno",
+     "displayName": "Buongiorno",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::25a5058852ed4308b29227d29a952365",
+     "providerId": "opta:Player:2kfkjjqh7vrfcfbgr4aa85dqt",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Amir",
+     "lastName": "Rrahmani",
+     "shirtName": "Amir Rrahmani",
+     "displayName": "Am. Rrahmani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::82f747384bae4018a6921bc0568fb9be",
+     "providerId": "opta:Player:5d9i8ubibyiecxecr9jjvxexh",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Giovanni",
+     "lastName": "Di Lorenzo",
+     "shirtName": "G. Di Lorenzo",
+     "displayName": "Di Lorenzo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::310a726a64854ced91418ec3cc090391",
+     "providerId": "opta:Player:9fvo9v5e9r0ptibied6ejv3zd",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Scott Francis",
+     "lastName": "Mctominay",
+     "shirtName": "Scott McTominay",
+     "displayName": "McTominay",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 31,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e9a355348ee4452e896a4deab66338c9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0e681e091f934fa89130c1476a93a270",
+     "providerId": "opta:Player:9y8fnvazj02vy31ljx3du0d79",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Stanislav",
+     "lastName": "Lobotka",
+     "shirtName": "Stanislav Lobotka",
+     "displayName": "Lobotka",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c52699f76a744afca8862f2584b7a860",
+     "providerId": "opta:Player:3bhy6x04rbwzk0nh1fm59dmnd",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Andre Frank",
+     "lastName": "Zambo Anguissa",
+     "shirtName": "Frank Anguissa",
+     "displayName": "Anguissa",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ea7e072211441fe9dccc9cfa52fb58e"
+      },
+      {
+       "type": "yellow-card",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e9a355348ee4452e896a4deab66338c9",
+     "providerId": "opta:Player:4zy4d60v2qmaplm9xbe51y1gp",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Khvicha",
+     "lastName": "Kvaratskhelia",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7495155a4714425c82eadd3e58763969"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2446e6543344454a955ba29acace1ad6",
+     "providerId": "opta:Player:8qgbxff7xlg0zjtyees7ljljp",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Romelu",
+     "lastName": "Lukaku Bolingoli",
+     "shirtName": "Romelu Lukaku",
+     "displayName": "Lukaku",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2d6bc8e9be4e45ab976bf3d43595aad9",
+     "providerId": "opta:Player:9bba1hgnx5mzpkzeazsoikn9x",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Matteo",
+     "lastName": "Politano",
+     "shirtName": "Matteo Politano",
+     "displayName": "Politano",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b7fab203b474fdf8a0d905faa8d9396",
+     "providerId": "opta:Player:dz33ybo9w22154xeaiteuca8l",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Nikita",
+     "lastName": "Contini Baranovsky",
+     "shirtName": "Nikita Contini",
+     "displayName": "Contini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f67db0ff9c994cc2892588aa52ab1786",
+     "providerId": "opta:Player:ab420lzne042a3e3b2lfmy5ii",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Elia",
+     "lastName": "Caprile",
+     "shirtName": "E. Caprile",
+     "displayName": "Caprile",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4",
+     "providerId": "opta:Player:8n0c5t5wzfkoauryyzy8be0gl",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Juan Guilherme",
+     "lastName": "Nunes Jesus",
+     "shirtName": "Juan Jesus",
+     "displayName": "Juan Jesus",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::97e494fcc78543cd9ac8219e5e97503c",
+     "providerId": "opta:Player:5okl8s3e8ad2add75m46ojo4p",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Billy Clifford",
+     "lastName": "Gilmour",
+     "shirtName": "Billy Gilmour",
+     "displayName": "Gilmour",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7495155a4714425c82eadd3e58763969",
+     "providerId": "opta:Player:7pi4j76iy3cfh0bfkxf9x8ell",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "David",
+     "lastName": "Neres Campos",
+     "shirtName": "David Neres",
+     "displayName": "Neres",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e9a355348ee4452e896a4deab66338c9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a608e5111451470face14c869bfb8d9e",
+     "providerId": "opta:Player:d27r61wcc9az0shpevisc4iga",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Rafael",
+     "lastName": "Marin Zamora",
+     "shirtName": "Rafa Marín",
+     "displayName": "Rafa Marín",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c",
+     "providerId": "opta:Player:cp13vthbds3tl1wtfelfx2evp",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Giovanni Pablo",
+     "lastName": "Simeone Baldini",
+     "shirtName": "Giovanni Simeone",
+     "displayName": "Simeone",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2446e6543344454a955ba29acace1ad6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5879c1ef79b349c6a46f75a5d1d7e8d6",
+     "providerId": "opta:Player:7knk2xsg4690hgq9us9us8ull",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Alessio",
+     "lastName": "Zerbin",
+     "shirtName": "Alessio Zerbin",
+     "displayName": "Zerbin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb",
+     "providerId": "opta:Player:a9z0jsjwfteq974bxwucvc4ix",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Cyril Jean",
+     "lastName": "Ngonge",
+     "shirtName": "Cyril Ngonge",
+     "displayName": "Ngonge",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b",
+     "providerId": "opta:Player:9ka7y81b5kst146mhq7mom5ed",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Leonardo",
+     "lastName": "Spinazzola",
+     "shirtName": "Leonardo Spinazzola",
+     "displayName": "Spinazzola",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2d6bc8e9be4e45ab976bf3d43595aad9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0923fb81d1d04b96b576857c0077028b",
+     "providerId": "opta:Player:abq67eup8kd31w8da2i0eftgp",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Giacomo",
+     "lastName": "Raspadori",
+     "shirtName": "Giacomo Raspadori",
+     "displayName": "Raspadori",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ea7e072211441fe9dccc9cfa52fb58e",
+     "providerId": "opta:Player:8ofihttdgz6nyxxon2zim7x0p",
+     "side": "away",
+     "team": "Napoli",
+     "firstName": "Michael",
+     "lastName": "Folorunsho Ijiemuan",
+     "shirtName": "Michael Folorunsho",
+     "displayName": "Folorunsho",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c52699f76a744afca8862f2584b7a860"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:28:15.281Z",
+   "sha256": "aee0b5da49be1e26eca362343596a09f6b17b1f4756fa19a4abefb2e4085b59c"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:49.848Z",
+   "sha256": "0c36749389ac7ca34fd790ebe37ba974aec9adb716f82d06de67c27bfc0bdb23",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Meret",
+     "giocatoreIdFantacalcio": 572,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Spinazzola",
+     "giocatoreIdFantacalcio": 1852,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Buongiorno",
+     "giocatoreIdFantacalcio": 2724,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Di Lorenzo",
+     "giocatoreIdFantacalcio": 2816,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Rrahmani",
+     "giocatoreIdFantacalcio": 4409,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Olivera",
+     "giocatoreIdFantacalcio": 5840,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Politano",
+     "giocatoreIdFantacalcio": 536,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zambo Anguissa",
+     "giocatoreIdFantacalcio": 4220,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lobotka",
+     "giocatoreIdFantacalcio": 4287,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "McTominay",
+     "giocatoreIdFantacalcio": 4777,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Folorunsho",
+     "giocatoreIdFantacalcio": 6252,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Neres",
+     "giocatoreIdFantacalcio": 6831,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Simeone",
+     "giocatoreIdFantacalcio": 2061,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lukaku",
+     "giocatoreIdFantacalcio": 2531,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kvaratskhelia",
+     "giocatoreIdFantacalcio": 5839,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Milinkovic-Savic V.",
+     "giocatoreIdFantacalcio": 2170,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Masina",
+     "giocatoreIdFantacalcio": 49,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Walukiewicz",
+     "giocatoreIdFantacalcio": 4374,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazaro",
+     "giocatoreIdFantacalcio": 4385,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vojvoda",
+     "giocatoreIdFantacalcio": 4994,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "giocatoreIdFantacalcio": 6426,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coco",
+     "giocatoreIdFantacalcio": 6642,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sosa B.",
+     "giocatoreIdFantacalcio": 6820,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Linetty",
+     "giocatoreIdFantacalcio": 2008,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ricci S.",
+     "giocatoreIdFantacalcio": 5453,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vlasic",
+     "giocatoreIdFantacalcio": 5687,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gineitis",
+     "giocatoreIdFantacalcio": 6170,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sanabria",
+     "giocatoreIdFantacalcio": 479,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Karamoh",
+     "giocatoreIdFantacalcio": 2325,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams C.",
+     "giocatoreIdFantacalcio": 6646,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/14",
+      "estrattoIl": "2026-10-06T20:35:49.848Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Njie",
+     "giocatoreIdFantacalcio": 6827,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 1 Napoli 01/12/2024 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

@@ -1,0 +1,1641 @@
+{
+ "label": "Genoa-Roma (g4)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-09-15T10:30:00Z",
+  "hoursAfterKickoff": 18033.9047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:30.390Z",
+  "sha256": "f2d1d1e80a91d846be1375fafd6a5b2acc13ee9b084a81e0070d3e0995604b69"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::414db22a2bc549c6a34a2769b9788137",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-09-15T10:30:00Z",
+   "matchday": 4,
+   "home": "Genoa",
+   "away": "Roma",
+   "homeTeamId": "serie-a::Football_Team::8c7aa94d22f44738951748e2ccdf319a",
+   "awayTeamId": "serie-a::Football_Team::8ddc09c1aa73448da2dff953edd95d82",
+   "homeScore": 1,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 14
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::414db22a2bc549c6a34a2769b9788137",
+   "homeTeam": "Genoa",
+   "awayTeam": "Roma",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::fd3f2ae64bbe4ea587ce10b218dbf183",
+     "providerId": "opta:Player:u60zu48a4zqnupyxp2d0mqqd",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Pierluigi",
+     "lastName": "Gollini",
+     "shirtName": "Pierluigi Gollini",
+     "displayName": "Gollini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ac9814fb4e4245378d64a972b9fd3199",
+     "providerId": "opta:Player:7ojvhhfvbtbn60sc50y4l2ctm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Johan Felipe",
+     "lastName": "Vasquez Ibarra",
+     "shirtName": "Johan Vásquez",
+     "displayName": "J. Vásquez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1",
+     "providerId": "opta:Player:95r0jtkw03vjohzwc8os8ielm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Koni",
+     "lastName": "De Winter",
+     "shirtName": "Koni De Winter",
+     "displayName": "De Winter",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 6,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573"
+      },
+      {
+       "type": "yellow-card",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cdf7936c03a041c1a0fe067134f46d20",
+     "providerId": "opta:Player:4u772cqkpukg725e11yf9y28l",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Vogliacco",
+     "shirtName": "Alessandro Vogliacco",
+     "displayName": "Vogliacco",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488",
+     "providerId": "opta:Player:eh9sh9aa10zrp80l6e4l0c7h1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Aaron",
+     "lastName": "Martin Caricol",
+     "shirtName": "Aarón Martín",
+     "displayName": "Martín",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d",
+     "providerId": "opta:Player:8psio8fqce76uinoqpilzxsd1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Stefano",
+     "lastName": "Sabelli",
+     "shirtName": "Stefano Sabelli",
+     "displayName": "Sabelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a",
+     "providerId": "opta:Player:2um03dny7h3sdvehq3bygd1t6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten Wetche",
+     "lastName": "Frendrup",
+     "shirtName": "Morten Frendrup",
+     "displayName": "Frendrup",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a187be5f53b74c04a5a307c936ed5f49",
+     "providerId": "opta:Player:d4e0d51gajxau9pbdt8ccrys5",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Milan",
+     "lastName": "Badelj",
+     "shirtName": "M. Badelj",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::108d67a926264eb89df91615c9690fac"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f3670f8a13ba4c38a58d8f59eda2e1b0",
+     "providerId": "opta:Player:9qzxygb9hyzag1szans0k2jth",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten",
+     "lastName": "Thorsby",
+     "shirtName": "Morten Thorsby",
+     "displayName": "Thorsby",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4af8f3465e44cefbe9617f9c576691b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc",
+     "providerId": "opta:Player:8ncvq09i7or8rxwq9233djtg5",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Caleb Ansah",
+     "lastName": "Ekuban",
+     "shirtName": "Caleb Ekuban",
+     "displayName": "Ekuban",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba",
+     "providerId": "opta:Player:153ljvbov0n176vm9fdaizoix",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Andrea",
+     "lastName": "Pinamonti",
+     "shirtName": "A. Pinamonti",
+     "displayName": "Pinamonti",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::03ea7d3b17b74069830746c24db1de69",
+     "providerId": "opta:Player:9dc7uictce9dq0tbphn74qz85",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Nicola",
+     "lastName": "Leali",
+     "shirtName": "Nicola Leali",
+     "displayName": "Leali",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::308ee64855794d61811119f70f5f018e",
+     "providerId": "opta:Player:4b6mhmoeo78f8x928q2imp591",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Daniele",
+     "lastName": "Sommariva",
+     "shirtName": "Daniele Sommariva",
+     "displayName": "Sommariva",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::108d67a926264eb89df91615c9690fac",
+     "providerId": "opta:Player:d6sstsibcsfxporots5k9cicp",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Emil",
+     "lastName": "Bohinen",
+     "shirtName": "Emil Bohinen",
+     "displayName": "Bohinen",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a187be5f53b74c04a5a307c936ed5f49"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573",
+     "providerId": "opta:Player:cnriqwh17pqgz7p2gt74uar6c",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Vitor Manuel",
+     "lastName": "Carvalho De Oliveira",
+     "shirtName": "Vitinha",
+     "displayName": "Vitinha",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cdf7936c03a041c1a0fe067134f46d20"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4af8f3465e44cefbe9617f9c576691b",
+     "providerId": "opta:Player:4euxcqawlks4c56pqj8xvwbf9",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Ruslan",
+     "lastName": "Malinovskyi",
+     "shirtName": "Ruslan Malinovskyi",
+     "displayName": "Malinovskyi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f3670f8a13ba4c38a58d8f59eda2e1b0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934",
+     "providerId": "opta:Player:bf41pexjnkx8o1wdxudesfac4",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Osayuki Jeff",
+     "lastName": "Ekhator",
+     "shirtName": "Jeff Ekhator",
+     "displayName": "Ekhator",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::65bb7b8d02084d858daeba0cff0cc4eb",
+     "providerId": "opta:Player:1lxfpn0wmr895me9xbzcfnh90",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Marcandalli",
+     "shirtName": "Alessandro Marcandalli",
+     "displayName": "Marcandalli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::57434fa1513942daab95debc399d1e11",
+     "providerId": "opta:Player:2y25g5wgiygxbp97r22o1a1as",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alan Agustin",
+     "lastName": "Matturro Romero",
+     "shirtName": "A. Matturro",
+     "displayName": "Matturro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fef893261b0b4f6d9ea99c144ae8ede8",
+     "providerId": "opta:Player:1fifu7lcu3450mx2uyi1yv2tw",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Federico",
+     "lastName": "Accornero",
+     "shirtName": "Federico Accornero",
+     "displayName": "Accornero",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d2fa3bc0f70849d1897fed1d8fa22626",
+     "providerId": "opta:Player:70zr0nhl2tgyor1oajhcxg6j8",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Honest",
+     "lastName": "Ahanor",
+     "shirtName": "Honest Ahanor",
+     "displayName": "Ahanor",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c",
+     "providerId": "opta:Player:7xdhy2xi9mrhzjn6aiatd9ono",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Patrizio",
+     "lastName": "Masini",
+     "shirtName": "Patrizio Masini",
+     "displayName": "Masini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::942bc68934354b26a012b1d689290a82",
+     "providerId": "opta:Player:el58uxf7oaqu95yx1vbgmr7it",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mile",
+     "lastName": "Svilar",
+     "shirtName": "Mile Svilar",
+     "displayName": "Svilar",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eefe9d10fdf748d48162e78f410c498f",
+     "providerId": "opta:Player:9uthj64y9f77y63tq7did539x",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "José Ángel",
+     "lastName": "Esmoris Tasende",
+     "shirtName": "Angeliño",
+     "displayName": "Angeliño",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1fc7bb7eab2545dd8f5952b20f425090",
+     "providerId": "opta:Player:efzokrggje7s9wc6hg75yc6ax",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Obite Evan",
+     "lastName": "Ndicka",
+     "shirtName": "Evan Ndicka",
+     "displayName": "Ndicka",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdfeb421bf10427ba410d9db7f5f3b00",
+     "providerId": "opta:Player:6fttn5mk6n1lstqt0dl5xzn4l",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Gianluca",
+     "lastName": "Mancini",
+     "shirtName": "Gianluca Mancini",
+     "displayName": "Mancini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a24d76c06d864fe9978e6b195041c291",
+     "providerId": "opta:Player:5kktohikuoy0a1oagcgps8mxg",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Niccolò",
+     "lastName": "Pisilli",
+     "shirtName": "Niccolò Pisilli",
+     "displayName": "Pisilli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::11d045f4b49645158b2773f6fc7d6941",
+     "providerId": "opta:Player:1ftejgsl4hho40cceqne1hcyd",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Bryan",
+     "lastName": "Cristante",
+     "shirtName": "Bryan Cristante",
+     "displayName": "Cristante",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::714daf0fa4e947b3891bfec1a3d5d2f0",
+     "providerId": "opta:Player:au5tbnn48ve4kqnuu3dhmk296",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Kouadio Emmanuel Boris",
+     "lastName": "Kone",
+     "shirtName": "Manu Koné",
+     "displayName": "M. Koné",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7",
+     "providerId": "opta:Player:9vnr9uog5fmggich2i4vjxwbt",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Alexis Jesse",
+     "lastName": "Saelemaekers",
+     "shirtName": "Alexis Saelemaekers",
+     "displayName": "Saelemaekers",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 50,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::72d8637dba5842c2a7f8e74dd686ea81"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0",
+     "providerId": "opta:Player:a1iz91ed6hus61yhhk2r0vkd1",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Stephan",
+     "lastName": "El Shaarawy",
+     "shirtName": "Stephan El Shaarawy",
+     "displayName": "El Shaarawy",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ce4b4184d61f402698ac6c9e954d2b31",
+     "providerId": "opta:Player:93i0gcndi2m8giqqcm4knduxh",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Paulo Exequiel",
+     "lastName": "Dybala",
+     "shirtName": "Paulo Dybala",
+     "displayName": "Dybala",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a8d5e937e3da4cf8889676f7969eba2f",
+     "providerId": "opta:Player:192q3f2xwk9nc6juoa1bcm3th",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Artem",
+     "lastName": "Dovbyk",
+     "shirtName": "Artem Dovbyk",
+     "displayName": "Dovbyk",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 37,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3633ec0ec4ea4aca8dca3b5391c06f48"
+      },
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9f1e00cd66384caaa137863ec06edc83"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::308db65f2a214e42a77b995729090b7f",
+     "providerId": "opta:Player:wumjn7yf33t74gyzbqd7qc4",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Renato",
+     "lastName": "Marin",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::16033bf06c9b4b0398d1d0067d2c2534",
+     "providerId": "opta:Player:7udphhcokm6vralyz5gkovxsl",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mathew",
+     "lastName": "Ryan",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27",
+     "providerId": "opta:Player:57bin6he6kbdo2bs4i78z2k0l",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Lorenzo",
+     "lastName": "Pellegrini",
+     "shirtName": "Lorenzo Pellegrini",
+     "displayName": "Lo. Pellegrini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a24d76c06d864fe9978e6b195041c291"
+      },
+      {
+       "type": "yellow-card",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b329eddf0f6d4ef59d00a649d23681d4",
+     "providerId": "opta:Player:aq8pym2fuweqbkxbbu7hqn0x6",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Saud bin Abdullah bin Salem",
+     "lastName": "Abdulhamid",
+     "shirtName": "Saud Abdulhamid",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9f1e00cd66384caaa137863ec06edc83",
+     "providerId": "opta:Player:a21winmltx1h9oiwqtfditkut",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Eldor",
+     "lastName": "Shomurodov",
+     "shirtName": "E. Shomurodov",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a8d5e937e3da4cf8889676f7969eba2f"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aeadcf1eeec941cda47f9abdba22efb5",
+     "providerId": "opta:Player:cd6i7khi5wgsfsg19c9tcjydx",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mats",
+     "lastName": "Hummels",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3f758f3587f54c9db2c10d5f4e92faa5",
+     "providerId": "opta:Player:apdtqouzo9b02ozdxk8mx4zbp",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Leandro",
+     "lastName": "Paredes",
+     "shirtName": "L. Paredes",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::467662b231094f4da83cf422a3817132",
+     "providerId": "opta:Player:erwh25hbq259kqdirfufnbcb8",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Matìas",
+     "lastName": "Soule Malvano",
+     "shirtName": "Matías Soulé",
+     "displayName": "Soulé",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d",
+     "providerId": "opta:Player:1pkymw7biivk760rxhubin1ed",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mehmet Zeki",
+     "lastName": "Çelik",
+     "shirtName": "Zeki Çelik",
+     "displayName": "Çelik",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::72d8637dba5842c2a7f8e74dd686ea81",
+     "providerId": "opta:Player:am5gj5qg3gjtyhvwfnj8sjz6d",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mario",
+     "lastName": "Hermoso Canseco",
+     "shirtName": "Mario Hermoso",
+     "displayName": "Hermoso",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 50,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::46d76b9f9aed41e7887adbfb169d4338",
+     "providerId": "opta:Player:5i2tc06romjqx7a7wlu1iye7e",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Samuel",
+     "lastName": "Dahl",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab",
+     "providerId": "opta:Player:bk1gdyxtfp4drwb0yotwerbsa",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Tommaso",
+     "lastName": "Baldanzi",
+     "shirtName": "Tommaso Baldanzi",
+     "displayName": "Baldanzi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ce4b4184d61f402698ac6c9e954d2b31"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5538dce5c4f84ec490c5a25931bb5634",
+     "providerId": "opta:Player:anzk8a183bh3gf3gcuz0v0tuc",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Aboubacar",
+     "lastName": "Sangare Traore",
+     "shirtName": "Buba Sangaré",
+     "displayName": "Sangaré",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:25:18.640Z",
+   "sha256": "a18d154cf88bdb87905c9c7ff7d90b8f15bf56b219e69d0d6f8fa26f4408d179"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:30.390Z",
+   "sha256": "f2d1d1e80a91d846be1375fafd6a5b2acc13ee9b084a81e0070d3e0995604b69",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Gollini",
+     "giocatoreIdFantacalcio": 610,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 6,
+     "votoItalia": 7,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sabelli",
+     "giocatoreIdFantacalcio": 791,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Martin",
+     "giocatoreIdFantacalcio": 2593,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vasquez",
+     "giocatoreIdFantacalcio": 5514,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Winter",
+     "giocatoreIdFantacalcio": 5739,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vogliacco",
+     "giocatoreIdFantacalcio": 6245,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Badelj",
+     "giocatoreIdFantacalcio": 170,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thorsby",
+     "giocatoreIdFantacalcio": 4404,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Malinovskyi",
+     "giocatoreIdFantacalcio": 4427,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frendrup",
+     "giocatoreIdFantacalcio": 5791,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bohinen",
+     "giocatoreIdFantacalcio": 5798,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pinamonti",
+     "giocatoreIdFantacalcio": 2038,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekuban",
+     "giocatoreIdFantacalcio": 5506,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vitinha O.",
+     "giocatoreIdFantacalcio": 6164,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekhator",
+     "giocatoreIdFantacalcio": 6822,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Svilar",
+     "giocatoreIdFantacalcio": 5841,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mancini",
+     "giocatoreIdFantacalcio": 2296,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "N'Dicka",
+     "giocatoreIdFantacalcio": 4317,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Celik",
+     "giocatoreIdFantacalcio": 4657,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Angelino",
+     "giocatoreIdFantacalcio": 4772,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hermoso",
+     "giocatoreIdFantacalcio": 4807,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pellegrini Lo.",
+     "giocatoreIdFantacalcio": 530,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cristante",
+     "giocatoreIdFantacalcio": 779,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "El Shaarawy",
+     "giocatoreIdFantacalcio": 795,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Saelemaekers",
+     "giocatoreIdFantacalcio": 4892,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kone' M.",
+     "giocatoreIdFantacalcio": 5589,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baldanzi",
+     "giocatoreIdFantacalcio": 5823,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pisilli",
+     "giocatoreIdFantacalcio": 6190,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dybala",
+     "giocatoreIdFantacalcio": 309,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Shomurodov",
+     "giocatoreIdFantacalcio": 5311,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/4",
+      "estrattoIl": "2026-10-06T20:35:30.390Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dovbyk",
+     "giocatoreIdFantacalcio": 6675,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 1 - 1 Roma 15/09/2024 - 12:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

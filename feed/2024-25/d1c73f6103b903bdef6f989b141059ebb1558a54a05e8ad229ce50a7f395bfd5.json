@@ -1,0 +1,1759 @@
+{
+ "label": "Verona-Lecce (g36)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-05-11T13:00:00Z",
+  "hoursAfterKickoff": 12319.4047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:36:32.760Z",
+  "sha256": "e076aec25f63801fa15d1b1e1bf2ae117b4f2e4afd28c131293bddace98d694f"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::2b6df254d6ab446084e5e6b4dfcb5e06",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-05-11T13:00:00Z",
+   "matchday": 36,
+   "home": "Verona",
+   "away": "Lecce",
+   "homeTeamId": "serie-a::Football_Team::be24fc024dd946ebbeb957ee6e796a2a",
+   "awayTeamId": "serie-a::Football_Team::ced7bf0df3a140dfa48138311122133b",
+   "homeScore": 1,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 8
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::2b6df254d6ab446084e5e6b4dfcb5e06",
+   "homeTeam": "Verona",
+   "awayTeam": "Lecce",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::b28865a6d4814858be353447697de6d1",
+     "providerId": "opta:Player:c7fky0h6gi7wmibnv2tzf6mz9",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Lorenzo",
+     "lastName": "Montipò",
+     "shirtName": "Lorenzo Montipò",
+     "displayName": "Montipò",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::599d165fda154a628ccd935f803a24b5",
+     "providerId": "opta:Player:djepfduaa3j07utg0j259cowk",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Nicolas",
+     "lastName": "Valentini",
+     "shirtName": "Nicolás Valentini",
+     "displayName": "Valentini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::07ed871ab5064c939e1747948b647838"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50d991aac7894c54a6e2d43379f06ead",
+     "providerId": "opta:Player:8o8o4rxbdhv002pj0q21l0f84",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Diego",
+     "lastName": "Coppola",
+     "shirtName": "D. Coppola",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 41,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc6a0de0a0e24a59912d61b75a21c665"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50b9b8de45a04dd4852d3d6b0c1d183b",
+     "providerId": "opta:Player:n92xjnlc1ppuxe70hsyc0mj8",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniele",
+     "lastName": "Ghilardi",
+     "shirtName": "Daniele Ghilardi",
+     "displayName": "Ghilardi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9a3f6a2b0be34fcb846af1ff94b8a2ce",
+     "providerId": "opta:Player:75n60pzg0y5agf5nzo3sd3cvd",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Martin Sonder",
+     "lastName": "Frese",
+     "shirtName": "Martin Frese",
+     "displayName": "Frese",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ae847ee54d004034bbb50f4eb49acdda",
+     "providerId": "opta:Player:39bcswfqnpa07b4afevezejo4",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Jackson",
+     "lastName": "Tchatchoua",
+     "shirtName": "Jackson Tchatchoua",
+     "displayName": "Tchatchoua",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9ec032cd51bc44f98182e1f0ebafe77d",
+     "providerId": "opta:Player:g64b8x11ndowv2zj29r9i311",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Ondrej",
+     "lastName": "Duda",
+     "shirtName": "O. Duda",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 31,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d3ead3460b6b485fbe9c9b053b4e08dd",
+     "providerId": "opta:Player:2r3mojnewwtd6bts6w931ho15",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Cheikh Ahmet Tidian",
+     "lastName": "Niasse",
+     "shirtName": "Cheikh Niasse",
+     "displayName": "Niasse",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b4b385efb64748d5b0b0df4d56a29045"
+      },
+      {
+       "type": "yellow-card",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fc6a0de0a0e24a59912d61b75a21c665",
+     "providerId": "opta:Player:4t85yj2ijymrz5vf457jcihre",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Tomas",
+     "lastName": "Suslov",
+     "shirtName": "Tomás Suslov",
+     "displayName": "Suslov",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 15,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::010941b53746419ca120d241d0398bc2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::55b939f2918f4e9699549922b9db610d",
+     "providerId": "opta:Player:amvonu36at4dg7ksi1ioczi3u",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Amin",
+     "lastName": "Sarr",
+     "shirtName": "Amin Sarr",
+     "displayName": "A. Sarr",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::637e41e0aa734e6cbf084a9af6a658aa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::190984e6cae7426380790e7dc82b9e2b",
+     "providerId": "opta:Player:3o4tq8qooplx2izq9rucgu7d",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Casper",
+     "lastName": "Tengstedt",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::76a5eaa653204872a1dfe59a2d1f4cb0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::df20a308466c432e997baa7bafaa3c1a",
+     "providerId": "opta:Player:co1vwppy1870xm5iymj3wmp5h",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Alessandro",
+     "lastName": "Berardi",
+     "shirtName": "A. Berardi",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa2557307f604fde9512778cc9616b43",
+     "providerId": "opta:Player:c2ezyc2fftje7rcm5ybbuytp1",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Simone",
+     "lastName": "Perilli",
+     "shirtName": "Simone Perilli",
+     "displayName": "Perilli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b9807ae490644fd4b292cfc76d82b565",
+     "providerId": "opta:Player:am1da6dm0zympt2yt120h94yy",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniel Oladele",
+     "lastName": "Oyegoke",
+     "shirtName": "Daniel Oyegoke",
+     "displayName": "Oyegoke",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::07ed871ab5064c939e1747948b647838",
+     "providerId": "opta:Player:4u281v53ges3kimtgac0tidm2",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Flavius",
+     "lastName": "Daniliuc",
+     "shirtName": "F. Daniliuc",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::599d165fda154a628ccd935f803a24b5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2103f76167cb4b2cb65dfc3409f739c2",
+     "providerId": "opta:Player:68etig279gs3btjb7fv6rvfth",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Marco Davide",
+     "lastName": "Faraoni",
+     "shirtName": "D. Faraoni",
+     "displayName": "Faraoni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a84a54c026384fda8bbd053109970668",
+     "providerId": "opta:Player:9a4i8i66bch7834l9vmmgg55g",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Mathis Thierry",
+     "lastName": "Lambourde-frontier",
+     "shirtName": "Mathis Lambourde",
+     "displayName": "Lambourde",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a48d141a770b4e89b048117135ef9f5f",
+     "providerId": "opta:Player:bo98qzo4gu0npm4pewc25ovyt",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Darko",
+     "lastName": "Lazovic",
+     "shirtName": "D. Lazovic",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4a80a3286797490b977c0402c8f50947",
+     "providerId": "opta:Player:b0e6d3zgwzbzysmt9b2ycvf56",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Domagoj",
+     "lastName": "Bradarić",
+     "shirtName": "Domagoj Bradarić",
+     "displayName": "Bradarić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b4b385efb64748d5b0b0df4d56a29045",
+     "providerId": "opta:Player:1dljhkcvmodqq9u1w8iv145m2",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Dailon",
+     "lastName": "Rocha Livramento do Rosario",
+     "shirtName": "Dailon Livramento",
+     "displayName": "D. Livramento",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3ead3460b6b485fbe9c9b053b4e08dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e860753479974863b13556096840d8d7",
+     "providerId": "opta:Player:wrckom9vy4352nos44600ydw",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Tobias Lahrmann",
+     "lastName": "Slotsager",
+     "shirtName": "Tobias Slotsager",
+     "displayName": "Slotsager",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0b153ab8efcc43a8a8fbd3d4ae19c29c",
+     "providerId": "opta:Player:drljavudmjvyj9mvyzq7gz2s5",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Grigoris",
+     "lastName": "Kastanos",
+     "shirtName": "Grigoris Kastanos",
+     "displayName": "Kastanos",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::637e41e0aa734e6cbf084a9af6a658aa",
+     "providerId": "opta:Player:alrmqpg2y5f7xqqpgubwvx0q1",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Antoine Joseph",
+     "lastName": "Bernède",
+     "shirtName": "Antoine Bernede",
+     "displayName": "Bernède",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::55b939f2918f4e9699549922b9db610d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::010941b53746419ca120d241d0398bc2",
+     "providerId": "opta:Player:9j1fd0mz39tl1h5che3f357md",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Suat",
+     "lastName": "Serdar",
+     "shirtName": "Suat Serdar",
+     "displayName": "Serdar",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc6a0de0a0e24a59912d61b75a21c665"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::76a5eaa653204872a1dfe59a2d1f4cb0",
+     "providerId": "opta:Player:8lg7bwc6k73s2x0zd236pbomi",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniel Fernando",
+     "lastName": "Mosquera Bonilla",
+     "shirtName": "Daniel Mosquera",
+     "displayName": "Mosquera",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::190984e6cae7426380790e7dc82b9e2b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b1a0286e56704c36a6011c4eb1b3092f",
+     "providerId": "opta:Player:brdwe9zdjjecw8nhw4a3s0v84",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Junior",
+     "lastName": "Ajayi",
+     "shirtName": "Junior Ajayi",
+     "displayName": "Ajayi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1892b78973b5448fa477250b8a5732db",
+     "providerId": "opta:Player:3nfxhugbxid6o0r92txslivh1",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Wladimiro",
+     "lastName": "Falcone",
+     "shirtName": "Wladimiro Falcone",
+     "displayName": "Falcone",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::386bc75089ad468196b1372d6a4e85af",
+     "providerId": "opta:Player:1oszv53od5pulbhx566ht984q",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Antonino",
+     "lastName": "Gallo",
+     "shirtName": "Antonino Gallo",
+     "displayName": "Gallo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2b979996a62e42b7b29bbc5021db165d",
+     "providerId": "opta:Player:bkz9b4cqf8f970myv8r49f561",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Federico",
+     "lastName": "Baschirotto",
+     "shirtName": "Federico Baschirotto",
+     "displayName": "Baschirotto",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2241d16b749246698712e2d0f18ce48c",
+     "providerId": "opta:Player:6udrxynn6611j9tjm258iu80k",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Kialonda",
+     "lastName": "Gaspar",
+     "shirtName": "Kialonda Gaspar",
+     "displayName": "Gaspar",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::17a1eabd8e2145e89f8cec8be9a90ce9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fa790e75c34d4c1ba213c8ef6864b183",
+     "providerId": "opta:Player:7atxpldexe9adg8ft1wbjndud",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Frédéric",
+     "lastName": "Guilbert",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aacc54c788404b6d9945a11fef21aa1e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::22aab70c97fc4d8ea89066460f86ece8",
+     "providerId": "opta:Player:3bdkw17dkx2c3u0uwztdss6zu",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Balthazar Jean",
+     "lastName": "Pierret",
+     "shirtName": "Balthazar Pierret",
+     "displayName": "Pierret",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::34abfa4e6fed40d1882fc8c0c4b313b4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::585e8188ab1f452eb0225212825c051a",
+     "providerId": "opta:Player:7pg1pu4ptby6hi0rp29hv4jxl",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Lassana",
+     "lastName": "Coulibaly",
+     "shirtName": "Lassana Coulibaly",
+     "displayName": "L. Coulibaly",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e5de8a35b5224cd996eddb38390167d4",
+     "providerId": "opta:Player:1i9mqbswolg91evnmsrf5katx",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Jose Antonio",
+     "lastName": "Morente Oliva",
+     "shirtName": "Tete Morente",
+     "displayName": "Tete Morente",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9154d20dd59c4f3586de460f5f303d71"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aa13ef84519b43358627a26804914d9e",
+     "providerId": "opta:Player:3ail949zww61xhkymcg66bca1",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Thórir Jóhann",
+     "lastName": "Helgason",
+     "shirtName": "Þórir Helgason",
+     "displayName": "Helgason",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ab36af56054945ef8f56a3b54cd323c5",
+     "providerId": "opta:Player:8xjlysmwl5vnhcnvsynftjd62",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Konan Ignace Jocelyn",
+     "lastName": "N'Dri",
+     "shirtName": "Konan N’Dri",
+     "displayName": "N'Dri",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ab4d9178ddb40c5b57adb7608a1f4c9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0ffb0532cc8044aebb4a64ea8c02be13",
+     "providerId": "opta:Player:11r7kkbcv2bn8lar3unczuz8p",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Nikola",
+     "lastName": "Krstović",
+     "shirtName": "Nikola Krstović",
+     "displayName": "Krstović",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 23,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e5de8a35b5224cd996eddb38390167d4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ce5c24fc6bb4d4f846a4ad8dbb573db",
+     "providerId": "opta:Player:f25vq95i4fayxcel0nr9uyl0p",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Christian Martin",
+     "lastName": "Fruchtl",
+     "shirtName": "Christian Früchtl",
+     "displayName": "Früchtl",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c3759dc16f2f41bbbb331b03f2e38060",
+     "providerId": "opta:Player:8ikf00dzaqhw0pnpnbncpz2wa",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Jasper Lauri Petteri",
+     "lastName": "Samooja",
+     "shirtName": "Jasper Samooja",
+     "displayName": "Samooja",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::66001478227b419082b8d8167fec632d",
+     "providerId": "opta:Player:eyra5urhrm92240e7qbll736d",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Ante",
+     "lastName": "Rebic",
+     "shirtName": "A. Rebic",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::34abfa4e6fed40d1882fc8c0c4b313b4",
+     "providerId": "opta:Player:d12unjo4sk39iix9of2yfask4",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Medon",
+     "lastName": "Berisha",
+     "shirtName": "M. Berisha",
+     "displayName": "Berisha",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::22aab70c97fc4d8ea89066460f86ece8"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::82c9eb767c094b75a23dafeb0a0a9586",
+     "providerId": "opta:Player:4g64l7opsuqvgx8190cbh1otl",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Hamza",
+     "lastName": "Rafia",
+     "shirtName": "H. Rafia",
+     "displayName": "Rafia",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::27a32cbcdbb04b209d76e20d1506690e",
+     "providerId": "opta:Player:5j7hbe94ewys7hkd04ay5bpw5",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Nicola",
+     "lastName": "Sansone",
+     "shirtName": "N. Sansone",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aacc54c788404b6d9945a11fef21aa1e",
+     "providerId": "opta:Player:1lisq580zw4yfk6id6f1dwr56",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Danilo Filipe",
+     "lastName": "De Melo Veiga",
+     "shirtName": "Danilo Veiga",
+     "displayName": "Danilo Veiga",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fa790e75c34d4c1ba213c8ef6864b183"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::29de27ea145841a289fb471c08a042a8",
+     "providerId": "opta:Player:c4kxfrbrfedilykhbyak3e579",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Ylber",
+     "lastName": "Ramadani",
+     "shirtName": "Ylber Ramadani",
+     "displayName": "Ramadani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ab4d9178ddb40c5b57adb7608a1f4c9",
+     "providerId": "opta:Player:cntcffa67r95rbcf1154r92zu",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Lameck",
+     "lastName": "Banda",
+     "shirtName": "Lameck Banda",
+     "displayName": "Banda",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ab36af56054945ef8f56a3b54cd323c5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3520000adb414cbfae1da8b60bd27a09",
+     "providerId": "opta:Player:4nyqgkdgcac58sypcdvuxpv1m",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Rares Catalin",
+     "lastName": "Burnete",
+     "shirtName": "Rares Burnete",
+     "displayName": "Burnete",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a2f96557c5a14589abcae509e89edafd",
+     "providerId": "opta:Player:33yauarx84sam5u05vgyqxfxl",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Karl Jesper",
+     "lastName": "Karlsson",
+     "shirtName": "Jesper Karlsson",
+     "displayName": "Karlsson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::17a1eabd8e2145e89f8cec8be9a90ce9",
+     "providerId": "opta:Player:dfsb8uzowi737si30le6gjaxg",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Tiago Gabriel",
+     "lastName": "Coelho Oliveira",
+     "shirtName": "Tiago Gabriel",
+     "displayName": "Tiago Gabriel",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2241d16b749246698712e2d0f18ce48c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9154d20dd59c4f3586de460f5f303d71",
+     "providerId": "opta:Player:dy4p5raczhbmglfsu8n4xcdwq",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Santiago Daniel",
+     "lastName": "Pierotti",
+     "shirtName": "Santiago Pierotti",
+     "displayName": "Pierotti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e5de8a35b5224cd996eddb38390167d4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::17a8ac7283904085b33fb34c24371bba",
+     "providerId": "opta:Player:3g14bqou9coim6fit9c2cyr8q",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Mohamed",
+     "lastName": "Kaba",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de184c78c1c844d3be7e3c4fd2a3910a",
+     "providerId": "opta:Player:67na4se53q1wb8vwsjx13bka2",
+     "side": "away",
+     "team": "Lecce",
+     "firstName": "Marco",
+     "lastName": "Sala",
+     "shirtName": "M. Sala",
+     "displayName": "M. Sala",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:34:41.496Z",
+   "sha256": "3f679ddab2071652583691c90cfe800008a069733f8a0422e917f35519cdef90"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:36:32.760Z",
+   "sha256": "e076aec25f63801fa15d1b1e1bf2ae117b4f2e4afd28c131293bddace98d694f",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Falcone",
+     "giocatoreIdFantacalcio": 2134,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gallo",
+     "giocatoreIdFantacalcio": 4502,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Guilbert",
+     "giocatoreIdFantacalcio": 5626,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Baschirotto",
+     "giocatoreIdFantacalcio": 5835,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gaspar K.",
+     "giocatoreIdFantacalcio": 6632,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tiago Gabriel",
+     "giocatoreIdFantacalcio": 6989,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Veiga D.",
+     "giocatoreIdFantacalcio": 6990,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Coulibaly L.",
+     "giocatoreIdFantacalcio": 5504,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Helgason",
+     "giocatoreIdFantacalcio": 5872,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Berisha M.",
+     "giocatoreIdFantacalcio": 6015,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pierret",
+     "giocatoreIdFantacalcio": 6633,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tete Morente",
+     "giocatoreIdFantacalcio": 6634,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Banda",
+     "giocatoreIdFantacalcio": 6001,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Krstovic",
+     "giocatoreIdFantacalcio": 6435,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pierotti",
+     "giocatoreIdFantacalcio": 6549,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Lecce",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "N'Dri",
+     "giocatoreIdFantacalcio": 7001,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Montipo'",
+     "giocatoreIdFantacalcio": 4957,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Daniliuc",
+     "giocatoreIdFantacalcio": 5554,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coppola D.",
+     "giocatoreIdFantacalcio": 5764,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tchatchoua",
+     "giocatoreIdFantacalcio": 6480,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ghilardi",
+     "giocatoreIdFantacalcio": 6631,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Frese",
+     "giocatoreIdFantacalcio": 6639,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valentini N.",
+     "giocatoreIdFantacalcio": 6957,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Duda",
+     "giocatoreIdFantacalcio": 4342,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Niasse",
+     "giocatoreIdFantacalcio": 5540,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Serdar",
+     "giocatoreIdFantacalcio": 6458,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Suslov",
+     "giocatoreIdFantacalcio": 6486,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernede",
+     "giocatoreIdFantacalcio": 7028,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sarr A.",
+     "giocatoreIdFantacalcio": 6159,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mosquera",
+     "giocatoreIdFantacalcio": 6630,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Rocha Livramento",
+     "giocatoreIdFantacalcio": 6644,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/36",
+      "estrattoIl": "2026-10-06T20:36:32.760Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Tengstedt",
+     "giocatoreIdFantacalcio": 6801,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 1 - 1 Lecce 11/05/2025 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

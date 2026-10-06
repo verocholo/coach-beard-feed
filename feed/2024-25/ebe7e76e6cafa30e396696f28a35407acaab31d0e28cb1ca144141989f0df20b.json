@@ -1,0 +1,1623 @@
+{
+ "label": "Empoli-Lazio (g35)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-05-04T10:30:00Z",
+  "hoursAfterKickoff": 12489.9047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:36:30.953Z",
+  "sha256": "5fb08802f7d82cf68ca8e7dbfbf0135626d9a396af7a5251ba0d076cc5001803"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::5c05f1c99b9b46958ca3b57d63d5d595",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-05-04T10:30:00Z",
+   "matchday": 35,
+   "home": "Empoli",
+   "away": "Lazio",
+   "homeTeamId": "serie-a::Football_Team::4de00d41f5654013b192a9515df5bf39",
+   "awayTeamId": "serie-a::Football_Team::fe6490f2b16e45be9956a1cd04aaf3a2",
+   "homeScore": 0,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 8
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::5c05f1c99b9b46958ca3b57d63d5d595",
+   "homeTeam": "Empoli",
+   "awayTeam": "Lazio",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::410303ba6eb74fcb882fc6aca990c956",
+     "providerId": "opta:Player:fb1s5est3fuw1flrjl9isusp",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Devis Estiven",
+     "lastName": "Vasquez Llach",
+     "shirtName": "D. Vasquez",
+     "displayName": "D. Vásquez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe",
+     "providerId": "opta:Player:2e0ipswbkv4vf7lav6ee1j3oq",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Mattia",
+     "lastName": "Viti",
+     "shirtName": "Mattia Viti",
+     "displayName": "Viti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cc141feee5294a5fa3915f69f5d80aa9"
+      },
+      {
+       "type": "yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::deaa04c0b01942838b061bf8acc34282",
+     "providerId": "opta:Player:54mmovmx3osoxgbloe9rzmx9l",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Ardian",
+     "lastName": "Ismajli",
+     "shirtName": "Ardian Ismajli",
+     "displayName": "Ismajli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50a60abf290e4880afe7411c15616fb2",
+     "providerId": "opta:Player:6pzskxh8wy2b4gaf4kj6zuivo",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Saba",
+     "lastName": "Goglichidze",
+     "shirtName": "Saba Goglichidze",
+     "displayName": "Goglichidze",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 45,
+       "additionalTime": 2,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ff2c6c9226014d4189d926d17ed14339"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c7e44f29f2a74a10b079abe0d392bc5a",
+     "providerId": "opta:Player:90pjbz2aq8vz4qapqu1yt2ynd",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Giuseppe",
+     "lastName": "Pezzella",
+     "shirtName": "Giuseppe Pezzella",
+     "displayName": "Pezzella",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a1ee3415386144ad88b60048528e69bd",
+     "providerId": "opta:Player:1ijyezydbb4zzio95vj0sr09g",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Luca",
+     "lastName": "Marianucci",
+     "shirtName": "Luca Marianucci",
+     "displayName": "Marianucci",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a5857e6c5af14b0a8faade09103a5e93",
+     "providerId": "opta:Player:an5eip4p2zmw49hh9eqksigo9",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Liberato",
+     "lastName": "Cacace",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5",
+     "providerId": "opta:Player:6e9fu9o226zn6jzx02jutvi3u",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Jacopo",
+     "lastName": "Fazzini",
+     "shirtName": "Jacopo Fazzini",
+     "displayName": "Fazzini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e99fff87e3e41aeade5683c90094957",
+     "providerId": "opta:Player:8lta4w1nytggiwnaqv4e5cc0l",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Emanuel",
+     "lastName": "Gyasi",
+     "shirtName": "Emmanuel Gyasi",
+     "displayName": "Gyasi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d175f39f24cc4afc87d0290737ab6d10",
+     "providerId": "opta:Player:54c43p8ykqxjtbmy2z5nakijt",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Ola",
+     "lastName": "Solbakken",
+     "shirtName": "O. Solbakken",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::860306a52650438ab2f0e0e6e1fb9adb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 34,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "second-yellow-card",
+       "time": 38,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::adb3802917f84f18b2d899e1cc681700",
+     "providerId": "opta:Player:93237ztqyi3r4hu3rmgzrgudx",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Marco",
+     "lastName": "Silvestri",
+     "shirtName": "Marco Silvestri",
+     "displayName": "Silvestri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::75ccbc3aa26f422ebcdf89b1a26f8e2e",
+     "providerId": "opta:Player:vxehbg5v0s42cmvntbd6xc7o",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Jacopo",
+     "lastName": "Seghetti",
+     "shirtName": "J. Seghetti",
+     "displayName": "Seghetti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bd503deb2e9447fd8314978582571644",
+     "providerId": "opta:Player:9t753r5hnyq6qe5o7csuurw15",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Federico",
+     "lastName": "Brancolini",
+     "shirtName": "Federico Brancolini",
+     "displayName": "Brancolini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ff2c6c9226014d4189d926d17ed14339",
+     "providerId": "opta:Player:ezpkmoz1z08da3o3g45m12lzp",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Junior",
+     "lastName": "Sambia",
+     "shirtName": "J. Sambia",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::50a60abf290e4880afe7411c15616fb2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::05e6582794f1475abb32a7d1d26fb404",
+     "providerId": "opta:Player:9pe3yqjsmcjtxdx7bdne3d4ut",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Mattia",
+     "lastName": "De Sciglio",
+     "shirtName": "M. De Sciglio",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1d944920a2fb4952877847e11ccae21e",
+     "providerId": "opta:Player:ewlrfjbmk1resvq3w234lwr2s",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Lorenzo",
+     "lastName": "Tosto",
+     "shirtName": "Lorenzo Tosto",
+     "displayName": "Tosto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::acd16c7a271347e297ff47c6d8198633",
+     "providerId": "opta:Player:2loc1ic2jcwxtfdes93tcy0b8",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Jacopo",
+     "lastName": "Bacci",
+     "shirtName": "Jacopo Bacci",
+     "displayName": "Bacci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cc141feee5294a5fa3915f69f5d80aa9",
+     "providerId": "opta:Player:7ut56715j129guhzl0snsyo0k",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Thomas",
+     "lastName": "Campaniello",
+     "shirtName": "Thomas Campaniello",
+     "displayName": "Campaniello",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::860306a52650438ab2f0e0e6e1fb9adb",
+     "providerId": "opta:Player:8rouava6glln14si4xxksgwt0",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Ismael",
+     "lastName": "Konate",
+     "shirtName": "Ismael Konaté",
+     "displayName": "Konaté",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d175f39f24cc4afc87d0290737ab6d10"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba",
+     "providerId": "opta:Player:c4n7kjp8c47trslpssnyqjo16",
+     "side": "home",
+     "team": "Empoli",
+     "firstName": "Sebastiano",
+     "lastName": "Esposito",
+     "shirtName": "Sebastiano Esposito",
+     "displayName": "S. Esposito",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fec04752003c4e30bdd70e07e39f8b4c",
+     "providerId": "opta:Player:1jv2z06bjokvswjhuo1xsxdgq",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Christos",
+     "lastName": "Mandas",
+     "shirtName": "Christos Mandas",
+     "displayName": "Mandas",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f69c6130a9394ce8ba49545549784479",
+     "providerId": "opta:Player:d7xdtkzw3h749ngi4sobn6kmh",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Luca",
+     "lastName": "Pellegrini",
+     "shirtName": "Luca Pellegrini",
+     "displayName": "Lu. Pellegrini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::41bbde87e072481eadfee9ec7a9fdb87"
+      },
+      {
+       "type": "yellow-card",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::315053caa8a74d6ab0be8724c8d0c10e",
+     "providerId": "opta:Player:7nwh5uoczypmuiigzi8ylsd1",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Alessio",
+     "lastName": "Romagnoli",
+     "shirtName": "Alessio Romagnoli",
+     "displayName": "Romagnoli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6db5c88a7fa04914bedd172137f2c511",
+     "providerId": "opta:Player:8ni13k73i9xusj01utdmqk7h1",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Samuel Florent",
+     "lastName": "Gigot",
+     "shirtName": "Samuel Gigot",
+     "displayName": "Gigot",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::230ed488be8043b5add42c2ab7b1b72a",
+     "providerId": "opta:Player:62uaf4amxdyz6j2fuvadp0no5",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Elseid",
+     "lastName": "Hysaj",
+     "shirtName": "Elseid Hysaj",
+     "displayName": "Hysaj",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "second-yellow-card",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7e3ac8828eb94971b02ecfac4064d6bc",
+     "providerId": "opta:Player:a22hb1s02edsj7t38out5r3rp",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Adam",
+     "lastName": "Marušić",
+     "shirtName": "Adam Marušić",
+     "displayName": "Marušić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c1e11a5f38b74d2ba5dc23c1fe037aaf",
+     "providerId": "opta:Player:79e6khfyg3rdauul0yjlixv8q",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Nicolò",
+     "lastName": "Rovella",
+     "shirtName": "Nicolò Rovella",
+     "displayName": "Rovella",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8bb18ae810b34b4aa89fc0cfb0ccbf35"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c3ae98df646f44eb8e28f147e289af83",
+     "providerId": "opta:Player:asvqr3i5wcjiajxipt1qvldyh",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Matteo Elias Kenzo",
+     "lastName": "Guendouzi Olie",
+     "shirtName": "Mattéo Guendouzi",
+     "displayName": "Guendouzi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5d188308b5a14e13bd61d64f792ecb69",
+     "providerId": "opta:Player:cfzvplhlvlfvau521u6b86xud",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Mattia",
+     "lastName": "Zaccagni",
+     "shirtName": "M. Zaccagni",
+     "displayName": "Zaccagni",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a1cccd7bad54cba93bb1b0bc3ba8456"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f1c815bc10ff4566bac2a33b996dc106",
+     "providerId": "opta:Player:3mqhkh4iz4kesvmqui3hupgmi",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Boulaye",
+     "lastName": "Dia",
+     "shirtName": "Boulaye Dia",
+     "displayName": "Dia",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 1,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::230ed488be8043b5add42c2ab7b1b72a"
+      },
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7f4df908b56b4d1aafae8176354d678b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::61dbfb65ef2c4919a57fd9fc25c449b4",
+     "providerId": "opta:Player:27hwtukeqxh91ch1f3qr1it49",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Valentin Mariano",
+     "lastName": "Castellanos Gimenez",
+     "shirtName": "Valentín Castellanos",
+     "displayName": "Castellanos",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::187f6a3f5a994928a1335039c0bff5f0",
+     "providerId": "opta:Player:9otimgokxyef8248fo7h8msq",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Alessio",
+     "lastName": "Furlanetto",
+     "shirtName": "A. Furlanetto",
+     "displayName": "Furlanetto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e0e39e3ec3b643a1b0d325ae86516cf9",
+     "providerId": "opta:Player:8n4rruxbnzvjgdomxslnmcno5",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Ivan",
+     "lastName": "Provedel",
+     "shirtName": "Ivan Provedel",
+     "displayName": "Provedel",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7f4df908b56b4d1aafae8176354d678b",
+     "providerId": "opta:Player:9462218yklkts6mod3cbfryz9",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Matias",
+     "lastName": "Vecino Falero",
+     "shirtName": "Matías Vecino",
+     "displayName": "Vecino",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f1c815bc10ff4566bac2a33b996dc106"
+      },
+      {
+       "type": "yellow-card",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8225dd96c7174c9493b6e77f324369a6",
+     "providerId": "opta:Player:7f87a26gzayk0bfzbm42huuw9",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Oluwafisayo Faruq",
+     "lastName": "Dele-bashiru",
+     "shirtName": "Fisayo Dele-Bashiru",
+     "displayName": "Dele-Bashiru",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8a1cccd7bad54cba93bb1b0bc3ba8456",
+     "providerId": "opta:Player:d02p1ldr57bkxcpmq12vtvhsl",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Pedro",
+     "lastName": "Rodríguez Ledesma",
+     "shirtName": "Pedro",
+     "displayName": "Pedro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5d188308b5a14e13bd61d64f792ecb69"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7c06889abf144462a381039c0a5bb5df",
+     "providerId": "opta:Player:71gwdg60saiwwwnnv6is52may",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Tijjani",
+     "lastName": "Noslin",
+     "shirtName": "Tijjani Noslin",
+     "displayName": "Noslin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b",
+     "providerId": "opta:Player:5ec6f4mm3rwjm0fgis0k3cmp5",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Gustav Tang",
+     "lastName": "Isaksen",
+     "shirtName": "Gustav Isaksen",
+     "displayName": "Isaksen",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7e3ac8828eb94971b02ecfac4064d6bc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c7cb86523551459cb8bab40f308f0c68",
+     "providerId": "opta:Player:97nqu0mjr4ulkoiqn3y6nsmzu",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Loum",
+     "lastName": "Tchaouna",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::317f90e84ebc4866b303fe44867825d6",
+     "providerId": "opta:Player:cjgrtf1xc97ir3b64cnl9ecyc",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Reda",
+     "lastName": "Belahyane",
+     "shirtName": "Reda Belahyane",
+     "displayName": "Belahyane",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8bb18ae810b34b4aa89fc0cfb0ccbf35",
+     "providerId": "opta:Player:7hukebiijqntuvetwzralzuju",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Oliver Provstgaard",
+     "lastName": "Nielsen",
+     "shirtName": "Oliver Provstgaard",
+     "displayName": "Provstgaard",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c1e11a5f38b74d2ba5dc23c1fe037aaf"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 4,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6f0edcdd2c08415889ac244cf37aa744",
+     "providerId": "opta:Player:7y5qwgl0xu7btfd7yxgeb2gut",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Toma",
+     "lastName": "Basic",
+     "shirtName": "Toma Basic",
+     "displayName": "Bašić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dcdc85e2d5324f1e81ed24df4c392174",
+     "providerId": "opta:Player:5bnq6c53ofgo9msqn3vlobpm2",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Arijon",
+     "lastName": "Ibrahimovic",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::41bbde87e072481eadfee9ec7a9fdb87",
+     "providerId": "opta:Player:5gond4ss348863bc1768s4q",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Mario",
+     "lastName": "Gila Fuentes",
+     "shirtName": "Mario Gila",
+     "displayName": "Gila",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f69c6130a9394ce8ba49545549784479"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:34:24.441Z",
+   "sha256": "b17b8cc3eec2a94aced71de860e2d2298c2edcf1e48a04a9e7e20766653eae95"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:36:30.953Z",
+   "sha256": "5fb08802f7d82cf68ca8e7dbfbf0135626d9a396af7a5251ba0d076cc5001803",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Vasquez D.",
+     "giocatoreIdFantacalcio": 6125,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pezzella Giu.",
+     "giocatoreIdFantacalcio": 770,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ismajli",
+     "giocatoreIdFantacalcio": 5010,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Viti",
+     "giocatoreIdFantacalcio": 5718,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cacace",
+     "giocatoreIdFantacalcio": 5804,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sambia",
+     "giocatoreIdFantacalcio": 5856,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Goglichidze",
+     "giocatoreIdFantacalcio": 6537,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marianucci",
+     "giocatoreIdFantacalcio": 6809,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gyasi",
+     "giocatoreIdFantacalcio": 4992,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fazzini",
+     "giocatoreIdFantacalcio": 6010,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Colombo",
+     "giocatoreIdFantacalcio": 4923,
+     "votoRedazione": 4,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 3,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Solbakken",
+     "giocatoreIdFantacalcio": 6119,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Konate Is.",
+     "giocatoreIdFantacalcio": 6935,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Empoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Campaniello",
+     "giocatoreIdFantacalcio": 7044,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Mandas",
+     "giocatoreIdFantacalcio": 6482,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hysaj",
+     "giocatoreIdFantacalcio": 140,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Romagnoli",
+     "giocatoreIdFantacalcio": 460,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marusic",
+     "giocatoreIdFantacalcio": 2188,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pellegrini Lu.",
+     "giocatoreIdFantacalcio": 2728,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gila",
+     "giocatoreIdFantacalcio": 5833,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gigot",
+     "giocatoreIdFantacalcio": 5899,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Provstgaard",
+     "giocatoreIdFantacalcio": 7012,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vecino",
+     "giocatoreIdFantacalcio": 181,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zaccagni",
+     "giocatoreIdFantacalcio": 632,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Guendouzi",
+     "giocatoreIdFantacalcio": 4186,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rovella",
+     "giocatoreIdFantacalcio": 4459,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pedro",
+     "giocatoreIdFantacalcio": 2489,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dia",
+     "giocatoreIdFantacalcio": 5672,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Castellanos",
+     "giocatoreIdFantacalcio": 6226,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/35",
+      "estrattoIl": "2026-10-06T20:36:30.953Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Isaksen",
+     "giocatoreIdFantacalcio": 6398,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Empoli 0 - 1 Lazio 04/05/2025 - 12:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

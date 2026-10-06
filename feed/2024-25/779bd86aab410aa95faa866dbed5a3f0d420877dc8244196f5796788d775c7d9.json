@@ -1,0 +1,1641 @@
+{
+ "label": "Inter-Juventus (g9)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:24:17.145Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2024-10-27T17:00:00Z",
+  "hoursAfterKickoff": 17019.4047625,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:24:17.145Z",
+   "sha256": "262693f29569afc1efbeac66c23d4f47f5b52f63a9c6670b7a1ec94bcd47dca1"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:35:40.708Z",
+  "sha256": "5a38d69fc13c97212e4a06345b45fb8f8801f479229c65a68afc0dca494ab182"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::6f4ea1b6cf3e41b9b642bf73f89d9293",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2024-10-27T17:00:00Z",
+   "matchday": 9,
+   "home": "Inter",
+   "away": "Juventus",
+   "homeTeamId": "serie-a::Football_Team::b7421caff23448c49134fa4f9095ee09",
+   "awayTeamId": "serie-a::Football_Team::0ae9210dce6f4f9b9d50aeeb19b0d371",
+   "homeScore": 4,
+   "awayScore": 4,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::6f4ea1b6cf3e41b9b642bf73f89d9293",
+   "homeTeam": "Inter",
+   "awayTeam": "Juventus",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::ba1d8d07dbc54e05b7cecd5ab3c32a42",
+     "providerId": "opta:Player:bagn0ce4xunsiz3mezrtqx1p1",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Yann",
+     "lastName": "Sommer",
+     "shirtName": "Yann Sommer",
+     "displayName": "Sommer",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::77b61833f0db49729ebf0ad5342a5ba8",
+     "providerId": "opta:Player:q6ns1fyw7w10xkkubh8etfc9",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Alessandro",
+     "lastName": "Bastoni",
+     "shirtName": "Alessandro Bastoni",
+     "displayName": "Bastoni",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1aef084aff6c49578d08fcd0a4d1ad85",
+     "providerId": "opta:Player:by2gxuixij1eciu56k8mb3cgl",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Stefan",
+     "lastName": "De Vrij",
+     "shirtName": "Stefan de Vrij",
+     "displayName": "de Vrij",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c03c6b04498f4f4793c53793c12cc01d",
+     "providerId": "opta:Player:yq0cm7vwr0tkv7nvt9vo77bp",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Benjamin Jacques",
+     "lastName": "Pavard",
+     "shirtName": "Benjamin Pavard",
+     "displayName": "Pavard",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4b050d8d189243d8acf6f32df3e5e74a"
+      },
+      {
+       "type": "yellow-card",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::07b9aa070bab4074bcd41776db3c7c8d",
+     "providerId": "opta:Player:19856wqwrmzmvfw9thf0tzrv9",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Federico",
+     "lastName": "Dimarco",
+     "shirtName": "Federico Dimarco",
+     "displayName": "Dimarco",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cd904e1336274300b8c5502705831d4b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ac04e2006b104030909b682c7db38853",
+     "providerId": "opta:Player:1xscywgyfqisqexmpfvbf9g45",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Henrikh",
+     "lastName": "Mkhitaryan",
+     "shirtName": "Henrikh Mkhitaryan",
+     "displayName": "Mkhitaryan",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 35,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a98a0f54d53c4a4d9961f08b995147c5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3",
+     "providerId": "opta:Player:dpcws493fepch23sk26m1a8yd",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Piotr Sebastian",
+     "lastName": "Zielinski",
+     "shirtName": "Piotr Zieliński",
+     "displayName": "Zieliński",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 15,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::051f85da8d6b4f4e852a372187727b6c"
+      },
+      {
+       "type": "penalty-goal",
+       "time": 37,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::051f85da8d6b4f4e852a372187727b6c"
+      },
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8568cd16882848deab08aaae90e8a2c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4da6f1068d1444eafe0a0d5e775aa42",
+     "providerId": "opta:Player:ahgd3on22t4h7gg9ipnj1itw5",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Nicolò",
+     "lastName": "Barella",
+     "shirtName": "Nicolò Barella",
+     "displayName": "Barella",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7f9fb5ddcf02430eacad4a1092bc6850",
+     "providerId": "opta:Player:2r6hs8npijvt4wekd059t6tx",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Denzel Justus Morris",
+     "lastName": "Dumfries",
+     "shirtName": "Denzel Dumfries",
+     "displayName": "Dumfries",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::051f85da8d6b4f4e852a372187727b6c"
+      },
+      {
+       "type": "yellow-card",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1b183c6c48ae4d08b1cec88dfe4641c6",
+     "providerId": "opta:Player:7r2tgpdrr4v6n9d2gkzwmlazt",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Lautaro Javier",
+     "lastName": "Martinez",
+     "shirtName": "Lautaro Martínez",
+     "displayName": "L. Martínez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a98a0f54d53c4a4d9961f08b995147c5",
+     "providerId": "opta:Player:66nvc8a4kd3cyeyj3i474cudx",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Marcus Lilian",
+     "lastName": "Thuram Ulien",
+     "shirtName": "Marcus Thuram",
+     "displayName": "M. Thuram",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a1cf5674209f43d19f7b18848d49b89d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7a09fe6eeeb141cab3226c7f028f8f10",
+     "providerId": "opta:Player:1e95np0v66lmp2qysqq8f33rp",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Raffaele",
+     "lastName": "Di Gennaro",
+     "shirtName": "Raffaele Di Gennaro",
+     "displayName": "Di Gennaro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5bc6e2f303c14386be2919d9d3c6c0a1",
+     "providerId": "opta:Player:3yqxkw0tqpoucur51ieh9xdrd",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Josep",
+     "lastName": "Martinez Riera",
+     "shirtName": "Josep Martínez",
+     "displayName": "J. Martínez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a957697c2c2544bf9e51b040df112790",
+     "providerId": "opta:Player:dccxma9p13p00n0gi1cxk1nf9",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Marko",
+     "lastName": "Arnautovic",
+     "shirtName": "M. Arnautovic",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a62ed1571821489599bffb6682bae022",
+     "providerId": "opta:Player:6d7rip50yu2j7vyk76zokeehh",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Joaquín",
+     "lastName": "Correa",
+     "shirtName": "J. Correa",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8568cd16882848deab08aaae90e8a2c2",
+     "providerId": "opta:Player:4qejyummzkrfllds8ord642qx",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Davide",
+     "lastName": "Frattesi",
+     "shirtName": "Davide Frattesi",
+     "displayName": "Frattesi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1da5e07465404ecb994c81e9a1e1a620",
+     "providerId": "opta:Player:acx78ftnm61hm01wpmme77hbe",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Tajon",
+     "lastName": "Buchanan",
+     "shirtName": "",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::29030faa6a7a411f935e176b7c681ef7",
+     "providerId": "opta:Player:can2l9ha4ufsxdjxdkb739fkk",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Kristjan",
+     "lastName": "Asllani",
+     "shirtName": "Kristjan Asllani",
+     "displayName": "Asllani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4b050d8d189243d8acf6f32df3e5e74a",
+     "providerId": "opta:Player:280fh7f5q9lud8lk8reyu7fxm",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Yann Aurel",
+     "lastName": "Bisseck",
+     "shirtName": "Yann Bisseck",
+     "displayName": "Bisseck",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c03c6b04498f4f4793c53793c12cc01d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cd904e1336274300b8c5502705831d4b",
+     "providerId": "opta:Player:asyzhp3qu95vmzdbau6nmoic5",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Matteo",
+     "lastName": "Darmian",
+     "shirtName": "Matteo Darmian",
+     "displayName": "Darmian",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::07b9aa070bab4074bcd41776db3c7c8d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::37d9d1bf8ca742ab83df8848cfcfea03",
+     "providerId": "opta:Player:b9ow6berfpggxkj6crdei9q1g",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Tiago Tomas",
+     "lastName": "Palacios",
+     "shirtName": "Tomás Palacios",
+     "displayName": "Palacios",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e1d91e822beb452c8e6cc126fabb1f0a",
+     "providerId": "opta:Player:x7d6pwly28lq1s2xi53gqnmc",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Thomas",
+     "lastName": "Berenbruch",
+     "shirtName": "Thomas Berenbruch",
+     "displayName": "Berenbruch",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a1cf5674209f43d19f7b18848d49b89d",
+     "providerId": "opta:Player:97vuoqg0x9nx56dmd9u5e12hh",
+     "side": "home",
+     "team": "Inter",
+     "firstName": "Mehdi",
+     "lastName": "Taremi",
+     "shirtName": "Mehdi Taremi",
+     "displayName": "Taremi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a98a0f54d53c4a4d9961f08b995147c5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f567339708a7468fa5b76cbf3d4b345e",
+     "providerId": "opta:Player:b3hr4q25jvqr7565z5ydqylt5",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Michele",
+     "lastName": "Di Gregorio",
+     "shirtName": "Michele Di Gregorio",
+     "displayName": "Di Gregorio",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::468dfc7f2036468d90394cb8d22ae809",
+     "providerId": "opta:Player:5054kfjkrimomrhilbe5j3xbe",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Juan David",
+     "lastName": "Cabal Murillo",
+     "shirtName": "Juan Cabal",
+     "displayName": "Cabal",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5a49185d19114670b262c33272cc397a",
+     "providerId": "opta:Player:8yv9xuzriaecvvssfm8dlmz85",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Danilo Luiz",
+     "lastName": "da Silva",
+     "shirtName": "Danilo",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::591a828679214db3b8beddc1e6f9af2e"
+      },
+      {
+       "type": "yellow-card",
+       "time": 52,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::38b07b038621478c9b293665fc91eedc",
+     "providerId": "opta:Player:b33rlpjo3kx4477alx82si5wq",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Pierre Kazaye Rommel",
+     "lastName": "Kalulu Kyatengwa",
+     "shirtName": "Pierre Kalulu",
+     "displayName": "Kalulu",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1701dcc4409d48bcac98374a47f96dad",
+     "providerId": "opta:Player:7ohgxs03szerp6mwiiv58ryay",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Andrea",
+     "lastName": "Cambiaso",
+     "shirtName": "Andrea Cambiaso",
+     "displayName": "Cambiaso",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::01e3217dea474ebea0e15b49727cd04c",
+     "providerId": "opta:Player:ahz2npxe4geixkaz25f2pc82d",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Manuel",
+     "lastName": "Locatelli",
+     "shirtName": "Manuel Locatelli",
+     "displayName": "Locatelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0acefc0dc80a4f4284f5733d6f6a5217",
+     "providerId": "opta:Player:288nn7pbq5ewriiyb9o7da86h",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Weston James Earl",
+     "lastName": "McKennie",
+     "shirtName": "Weston McKennie",
+     "displayName": "McKennie",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6e685e98714e4024ad09aefd600bd42e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::36c4ce6495d846628de97677cc41d6dc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ea8c6fecf53741abb39999d699652b3c",
+     "providerId": "opta:Player:e5xxqwz0sdlwkkmp8bgs1k6w9",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Timothy",
+     "lastName": "Weah",
+     "shirtName": "",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 26,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7df3c938bbfb46638b151f12e0d1d5a0"
+      },
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2355805d93e04684aa6fdcba93a37b7d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7df3c938bbfb46638b151f12e0d1d5a0",
+     "providerId": "opta:Player:2x44f29a52v8kpkkjsuiiywdm",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Francisco",
+     "lastName": "Fernandes da Conceição",
+     "shirtName": "Francisco Conceição",
+     "displayName": "Conceição",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::40673b7f5d5a4fbabf9cd4ad276993f5",
+     "providerId": "opta:Player:3ua8gs8tzx1dkdi9z88kjk9nt",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Dusan",
+     "lastName": "Vlahović",
+     "shirtName": "Dusan Vlahović",
+     "displayName": "Vlahović",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 20,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0acefc0dc80a4f4284f5733d6f6a5217"
+      },
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::af17805688ad437cbfb68eb1a8f6a11f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74c42bc75c774096b689dfe348184f56",
+     "providerId": "opta:Player:3o573dblmfc1o3wkkt2nva8k5",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Mattia",
+     "lastName": "Perin",
+     "shirtName": "Mattia Perin",
+     "displayName": "Perin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::417c5ec6753749f98505e4e3f443a8bb",
+     "providerId": "opta:Player:8rlf5vjyddkcid5ysa3yo7hlh",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Carlo",
+     "lastName": "Pinsoglio",
+     "shirtName": "Carlo Pinsoglio",
+     "displayName": "Pinsoglio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::591a828679214db3b8beddc1e6f9af2e",
+     "providerId": "opta:Player:cv46mxj5i98p4hgtbomxlxs7o",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Federico",
+     "lastName": "Gatti",
+     "shirtName": "Federico Gatti",
+     "displayName": "Gatti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5a49185d19114670b262c33272cc397a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2355805d93e04684aa6fdcba93a37b7d",
+     "providerId": "opta:Player:6kvtqep8korw8d75n5me0lbmc",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Kenan",
+     "lastName": "Yildiz",
+     "shirtName": "Kenan Yildiz",
+     "displayName": "Yıldız",
+     "starter": false,
+     "events": [
+      {
+       "type": "goal",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0acefc0dc80a4f4284f5733d6f6a5217"
+      },
+      {
+       "type": "goal",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a762de25d2d446e6bbc74e3cff793155"
+      },
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ea8c6fecf53741abb39999d699652b3c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a0826cc1e617411898652d28f20f1cbe",
+     "providerId": "opta:Player:7pirs3v9u80j5qy71cmhzbxn8",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Vasilije",
+     "lastName": "Adžić",
+     "shirtName": "Vasilije Adžić",
+     "displayName": "Adžić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6e685e98714e4024ad09aefd600bd42e",
+     "providerId": "opta:Player:6j0ogojh2b7poyceg7i3k09yi",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Khephren",
+     "lastName": "Thuram-ulien",
+     "shirtName": "Khéphren Thuram",
+     "displayName": "K. Thuram",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0acefc0dc80a4f4284f5733d6f6a5217"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::36c4ce6495d846628de97677cc41d6dc",
+     "providerId": "opta:Player:979xx3uzyuwalkho856m0b14a",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Nicolò",
+     "lastName": "Savona",
+     "shirtName": "Nicolò Savona",
+     "displayName": "Savona",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::28cc459af3e54439ba6d25b424b8fced",
+     "providerId": "opta:Player:exgknpydnzp14n18nn1w6ugpg",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Jonas Jakob",
+     "lastName": "Rouhi",
+     "shirtName": "Jonas Rouhi",
+     "displayName": "Rouhi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::af17805688ad437cbfb68eb1a8f6a11f",
+     "providerId": "opta:Player:58d87tochcm6hk4n6l7ua7jvu",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Samuel Germain",
+     "lastName": "Mbangula Tshifunda",
+     "shirtName": "",
+     "displayName": "Mbangula",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::40673b7f5d5a4fbabf9cd4ad276993f5"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:26:52.666Z",
+   "sha256": "ec5b9f4c9934e8d1f08f3de230e5f78e1833e7adfc48615edf28baabd5eb23b1"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:35:40.708Z",
+   "sha256": "5a38d69fc13c97212e4a06345b45fb8f8801f479229c65a68afc0dca494ab182",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Sommer",
+     "giocatoreIdFantacalcio": 2428,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 1.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 1,
+     "votoItalia": 5,
+     "fantavotoItalia": 1,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 4,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dimarco",
+     "giocatoreIdFantacalcio": 254,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Vrij",
+     "giocatoreIdFantacalcio": 322,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bastoni",
+     "giocatoreIdFantacalcio": 2120,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Darmian",
+     "giocatoreIdFantacalcio": 2525,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pavard",
+     "giocatoreIdFantacalcio": 4177,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dumfries",
+     "giocatoreIdFantacalcio": 5513,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 8.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 8.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 8.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bisseck",
+     "giocatoreIdFantacalcio": 6217,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zielinski",
+     "giocatoreIdFantacalcio": 152,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 13.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 13,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 2,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Barella",
+     "giocatoreIdFantacalcio": 1870,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mkhitaryan",
+     "giocatoreIdFantacalcio": 2529,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frattesi",
+     "giocatoreIdFantacalcio": 2848,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Martinez L.",
+     "giocatoreIdFantacalcio": 2764,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Thuram",
+     "giocatoreIdFantacalcio": 4871,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 8.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 8.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 8.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Taremi",
+     "giocatoreIdFantacalcio": 6628,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Di Gregorio",
+     "giocatoreIdFantacalcio": 5876,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 2.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 2,
+     "votoItalia": 6,
+     "fantavotoItalia": 2,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 4,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Danilo",
+     "giocatoreIdFantacalcio": 4237,
+     "votoRedazione": 4,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 4,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kalulu",
+     "giocatoreIdFantacalcio": 4976,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cambiaso",
+     "giocatoreIdFantacalcio": 5520,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gatti",
+     "giocatoreIdFantacalcio": 5831,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cabal",
+     "giocatoreIdFantacalcio": 6039,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Savona",
+     "giocatoreIdFantacalcio": 6802,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Locatelli",
+     "giocatoreIdFantacalcio": 827,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "giocatoreIdFantacalcio": 4465,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Weah",
+     "giocatoreIdFantacalcio": 4662,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "McKennie",
+     "giocatoreIdFantacalcio": 4973,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thuram K.",
+     "giocatoreIdFantacalcio": 5562,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Conceicao",
+     "giocatoreIdFantacalcio": 6884,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vlahovic",
+     "giocatoreIdFantacalcio": 2841,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Yildiz",
+     "giocatoreIdFantacalcio": 6434,
+     "votoRedazione": 8,
+     "fantavotoRedazione": 14,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 14,
+     "votoItalia": 8,
+     "fantavotoItalia": 14,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2024-25/9",
+      "estrattoIl": "2026-10-06T20:35:40.708Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mbangula",
+     "giocatoreIdFantacalcio": 6833,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Inter 4 - 4 Juventus 27/10/2024 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}
