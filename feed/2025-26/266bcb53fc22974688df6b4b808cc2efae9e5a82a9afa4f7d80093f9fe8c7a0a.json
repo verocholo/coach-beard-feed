@@ -1,0 +1,1708 @@
+{
+ "label": "Torino-Genoa (g8)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-10-26T11:30:00Z",
+  "hoursAfterKickoff": 8276.783666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:28.311Z",
+  "sha256": "cbeced0699492972f38f285c67edfddfda431c694a5d9b92294c0e1099ac3d9f"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::becc599a4c1a4db5a5cf91cf6e10be35",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-10-26T11:30:00Z",
+   "matchday": 8,
+   "home": "Torino",
+   "away": "Genoa",
+   "homeTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "awayTeamId": "serie-a::Football_Team::8c7aa94d22f44738951748e2ccdf319a",
+   "homeScore": 2,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 7
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::becc599a4c1a4db5a5cf91cf6e10be35",
+   "homeTeam": "Torino",
+   "awayTeam": "Genoa",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::0cc5d45eeae84da4b2c8d3335f629006",
+     "providerId": "opta:Player:a8s8bl5kp1rif458yt3qlevo5",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alberto Andrea",
+     "lastName": "Paleari",
+     "shirtName": "Alberto Paleari",
+     "displayName": "Paleari",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737",
+     "providerId": "opta:Player:66at96kfhvigkny465lkmrnbp",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cristiano",
+     "lastName": "Biraghi",
+     "shirtName": "Cristiano Biraghi",
+     "displayName": "Biraghi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e01f727bb7304efea37d2cc9fc152812",
+     "providerId": "opta:Player:7vykym3hy0qf1rxw3yv58kxgq",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Saul Basilio",
+     "lastName": "Coco Bassey Oubina",
+     "shirtName": "Saúl Coco",
+     "displayName": "Coco",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600",
+     "providerId": "opta:Player:270djbc9lxhoupmd1djrii191",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Guillermo Alfonso",
+     "lastName": "Maripan Loayza",
+     "shirtName": "Guillermo Maripán",
+     "displayName": "Maripán",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::29030faa6a7a411f935e176b7c681ef7",
+     "providerId": "opta:Player:can2l9ha4ufsxdjxdkb739fkk",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Kristjan",
+     "lastName": "Asllani",
+     "shirtName": "Kristjan Asllani",
+     "displayName": "Asllani",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::deaa04c0b01942838b061bf8acc34282"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a",
+     "providerId": "opta:Player:ebgkv548xih19m8uza7bgrvmd",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Nikola",
+     "lastName": "Vlašić",
+     "shirtName": "Nikola Vlašić",
+     "displayName": "Vlašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd",
+     "providerId": "opta:Player:82pgcsfvbitzlpbao9ptbsgoa",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cesare",
+     "lastName": "Casadei",
+     "shirtName": "Cesare Casadei",
+     "displayName": "Casadei",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 29,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd",
+     "providerId": "opta:Player:9sjt5rv156hr2llfu241r6cph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adrien Fidele",
+     "lastName": "Tameze Aoutsa",
+     "shirtName": "Adrien Tamèze",
+     "displayName": "Tameze",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81",
+     "providerId": "opta:Player:59ujnkvl7rlffomi2bqpsmbpx",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Che Zach Everton",
+     "lastName": "Adams",
+     "shirtName": "Ché Adams",
+     "displayName": "C. Adams",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c",
+     "providerId": "opta:Player:cp13vthbds3tl1wtfelfx2evp",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Giovanni Pablo",
+     "lastName": "Simeone Baldini",
+     "shirtName": "Giovanni Simeone",
+     "displayName": "Simeone",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fa8793423f574374b968c141faabf725"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1396abd02b8946108f41e65ecdd990cf",
+     "providerId": "opta:Player:b1jyt86vbfyektviyeiqtl562",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Maximilian Mihai",
+     "lastName": "Popa",
+     "shirtName": "Mihai Popa",
+     "displayName": "Popa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8407424229094b7dbf8c8f4aca345c7b",
+     "providerId": "opta:Player:9w6xwaepe2bw3h0hwbfmr1f6c",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Lapo",
+     "lastName": "Siviero",
+     "shirtName": "Lapo Siviero",
+     "displayName": "Siviero",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21",
+     "providerId": "opta:Player:6gzi8qf8szxn99dnwh3h6gkb9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adam",
+     "lastName": "Masina",
+     "shirtName": "Adam Masina",
+     "displayName": "Masina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429",
+     "providerId": "opta:Player:8vom3bt6es2kp5sdl98az6gwk",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Emirhan",
+     "lastName": "Ilkhan",
+     "shirtName": "Emirhan Ilkhan",
+     "displayName": "İlkhan",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0250707b586045f087776dea4ea39f51",
+     "providerId": "kama:Player:98848",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Zakaria",
+     "lastName": "Aboukhlal",
+     "shirtName": "Zakaria Aboukhlal",
+     "displayName": "Aboukhlal",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1b963dfa250b41d5b596ef5ad7cb1379",
+     "providerId": "opta:Player:7hwj9pf9roe74jifvuhiu6n6x",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ivan",
+     "lastName": "Ilić",
+     "shirtName": "Ivan Ilić",
+     "displayName": "Ilić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1",
+     "providerId": "opta:Player:866f0f7taqhae91o3cjnnx0ph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Valentino",
+     "lastName": "Lazaro",
+     "shirtName": "Valentino Lazaro",
+     "displayName": "Lazaro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9de4e3f19b5e489b9f8eec96d7532148",
+     "providerId": "opta:Player:eug1as582cl6ji78ylyq4zfo4",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ali Bina",
+     "lastName": "Dembelé",
+     "shirtName": "Ali Dembélé",
+     "displayName": "Dembélé",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb",
+     "providerId": "opta:Player:a9z0jsjwfteq974bxwucvc4ix",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cyril Jean",
+     "lastName": "Ngonge",
+     "shirtName": "Cyril Ngonge",
+     "displayName": "Ngonge",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::deaa04c0b01942838b061bf8acc34282",
+     "providerId": "opta:Player:54mmovmx3osoxgbloe9rzmx9l",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ardian",
+     "lastName": "Ismajli",
+     "shirtName": "Ardian Ismajli",
+     "displayName": "Ismajli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::29030faa6a7a411f935e176b7c681ef7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fa8793423f574374b968c141faabf725",
+     "providerId": "opta:Player:30gsjr0xlmjulnz227zfxga8l",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Duvan Esteban",
+     "lastName": "Zapata Banguero",
+     "shirtName": "Duván Zapata",
+     "displayName": "Zapata",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3",
+     "providerId": "opta:Player:9hl7yh42qvmdcjw69si5imnf8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alieu Badara",
+     "lastName": "Njie",
+     "shirtName": "Alieu Njie",
+     "displayName": "Njie",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::03ea7d3b17b74069830746c24db1de69",
+     "providerId": "opta:Player:9dc7uictce9dq0tbphn74qz85",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Nicola",
+     "lastName": "Leali",
+     "shirtName": "Nicola Leali",
+     "displayName": "Leali",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::48bbf1a2c4494bb0b02d0a49eb431c98",
+     "providerId": "opta:Player:bj9f6t8o0nji79rbaxrsioep6",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Brooke Dion Nelson",
+     "lastName": "Norton-Cuffy",
+     "shirtName": "Brooke Norton-Cuffy",
+     "displayName": "Norton-Cuffy",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ac9814fb4e4245378d64a972b9fd3199",
+     "providerId": "opta:Player:7ojvhhfvbtbn60sc50y4l2ctm",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Johan Felipe",
+     "lastName": "Vasquez Ibarra",
+     "shirtName": "Johan Vásquez",
+     "displayName": "J. Vásquez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::816125e2bba042b38c44a6bb8b005f83",
+     "providerId": "opta:Player:40msbo4o5bwx0oeuz4743w161",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Leo Skiri",
+     "lastName": "Ostigard",
+     "shirtName": "Leo Østigård",
+     "displayName": "Østigård",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d",
+     "providerId": "opta:Player:8psio8fqce76uinoqpilzxsd1",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Stefano",
+     "lastName": "Sabelli",
+     "shirtName": "Stefano Sabelli",
+     "displayName": "Sabelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "own-goal",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2681452588b14a15a9aa5afe6fab05d3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4af8f3465e44cefbe9617f9c576691b",
+     "providerId": "opta:Player:4euxcqawlks4c56pqj8xvwbf9",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Ruslan",
+     "lastName": "Malinovskyi",
+     "shirtName": "Ruslan Malinovskyi",
+     "displayName": "Malinovskyi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f3670f8a13ba4c38a58d8f59eda2e1b0",
+     "providerId": "opta:Player:9qzxygb9hyzag1szans0k2jth",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Morten",
+     "lastName": "Thorsby",
+     "shirtName": "Morten Thorsby",
+     "displayName": "Thorsby",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 7,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a",
+     "providerId": "opta:Player:2um03dny7h3sdvehq3bygd1t6",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Morten Wetche",
+     "lastName": "Frendrup",
+     "shirtName": "Morten Frendrup",
+     "displayName": "Frendrup",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 5,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3e3618a7ee924889973db5ff58423c2b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c",
+     "providerId": "opta:Player:7xdhy2xi9mrhzjn6aiatd9ono",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Patrizio",
+     "lastName": "Masini",
+     "shirtName": "Patrizio Masini",
+     "displayName": "Masini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dbd53bdc4ffe446da33ce7774384da90",
+     "providerId": "opta:Player:7u9bpiajlgr3zibj89pub7wbu",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Mikael Egill",
+     "lastName": "Ellertsson",
+     "shirtName": "Mikael Ellertsson",
+     "displayName": "Ellertsson",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934",
+     "providerId": "opta:Player:bf41pexjnkx8o1wdxudesfac4",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Osayuki Jeff",
+     "lastName": "Ekhator",
+     "shirtName": "Jeff Ekhator",
+     "displayName": "Ekhator",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a7f3917b59744fcbb169a2adb6f4d2e7",
+     "providerId": "opta:Player:52lu5mlc9xdqjzgh1ne86wtsl",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Benjamin Kevin",
+     "lastName": "Siegrist",
+     "shirtName": "Benjamin Siegrist",
+     "displayName": "Siegrist",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::308ee64855794d61811119f70f5f018e",
+     "providerId": "opta:Player:4b6mhmoeo78f8x928q2imp591",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Daniele",
+     "lastName": "Sommariva",
+     "shirtName": "Daniele Sommariva",
+     "displayName": "Sommariva",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488",
+     "providerId": "opta:Player:eh9sh9aa10zrp80l6e4l0c7h1",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Aaron",
+     "lastName": "Martin Caricol",
+     "shirtName": "Aarón Martín",
+     "displayName": "Martín",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573",
+     "providerId": "opta:Player:cnriqwh17pqgz7p2gt74uar6c",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Vitor Manuel",
+     "lastName": "Carvalho De Oliveira",
+     "shirtName": "Vitinha",
+     "displayName": "Vitinha",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f3670f8a13ba4c38a58d8f59eda2e1b0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b",
+     "providerId": "opta:Player:17au7v1ocl4zab872g59821yi",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Walter",
+     "lastName": "Messias Junior",
+     "shirtName": "Junior Messias",
+     "displayName": "Messias",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b935d80dda174738ab539b7d73b71a16",
+     "providerId": "opta:Player:biuovem90utcyzda58nixtaay",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Albert Grønbæk",
+     "lastName": "Erlykke",
+     "shirtName": "Albert Grønbæk",
+     "displayName": "Grønbæk",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3e3618a7ee924889973db5ff58423c2b",
+     "providerId": "opta:Player:b4lc7czw7al6g7a7qzcqzya22",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Jean Emile Junior",
+     "lastName": "Onana Onana",
+     "shirtName": "Jean Onana",
+     "displayName": "Onana",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc",
+     "providerId": "opta:Player:8ncvq09i7or8rxwq9233djtg5",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Caleb Ansah",
+     "lastName": "Ekuban",
+     "shirtName": "Caleb Ekuban",
+     "displayName": "Ekuban",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9a1ea729ff9e4ac092602eb71e9c2a67",
+     "providerId": "opta:Player:6vz9qzgtbh3iqzv73xw2xaiok",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Valentin",
+     "lastName": "Carboni",
+     "shirtName": "V. Carboni",
+     "displayName": "V. Carboni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4af8f3465e44cefbe9617f9c576691b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4f99b059e04c47dc9feb28b23e95f252",
+     "providerId": "opta:Player:8srykssgtk4opuabiet4ahpn8",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Hugo Francisco",
+     "lastName": "Cuenca Martinez",
+     "shirtName": "Hugo Cuenca",
+     "displayName": "Cuenca",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50f786bf0927432c9ee1d36704a91106",
+     "providerId": "opta:Player:dq2eqqywinhsh9ijg8amqyp78",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Sebastian Villaume",
+     "lastName": "Otoa",
+     "shirtName": "Sebastian Otoa",
+     "displayName": "Otoa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f0f15f171e034b32a0a4559ee10219cf",
+     "providerId": "opta:Player:dx7fg77tfqytimfiixw9tyfx0",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Seydou",
+     "lastName": "Fini",
+     "shirtName": "Seydou Fini",
+     "displayName": "Fini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2681452588b14a15a9aa5afe6fab05d3",
+     "providerId": "opta:Player:f2pknjv2uohldehbp39j0so2d",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Gnaly Albert Maxwel",
+     "lastName": "Cornet",
+     "shirtName": "Maxwel Cornet",
+     "displayName": "Cornet",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cc52adc5bbc24b01b26fb63196963491",
+     "providerId": "opta:Player:mvlk84jquwhfjb5a8ic9el0",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Lorenzo",
+     "lastName": "Venturino",
+     "shirtName": "Lorenzo Venturino",
+     "displayName": "Venturino",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:19:18.363Z",
+   "sha256": "312b2d99a0446f3b878d6cd2dde785566580546a3188e9ede312dbad25501579"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:28.311Z",
+   "sha256": "cbeced0699492972f38f285c67edfddfda431c694a5d9b92294c0e1099ac3d9f",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Leali",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sabelli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 3,
+     "votoItalia": 5,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 1,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vasquez",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ostigard",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Norton-Cuffy",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thorsby",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Malinovskyi",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cornet",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frendrup",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ellertsson",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Onana J.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Masini",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Colombo",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekuban",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vitinha O.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekhator",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Paleari",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Biraghi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazaro",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Maripan",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ismajli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coco",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tameze",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vlasic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Asllani",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Casadei",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gineitis",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Zapata D.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Simeone",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ngonge",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/8",
+      "estrattoIl": "2026-10-06T08:28:28.311Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams C.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 1 Genoa 26/10/2025 - 12:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

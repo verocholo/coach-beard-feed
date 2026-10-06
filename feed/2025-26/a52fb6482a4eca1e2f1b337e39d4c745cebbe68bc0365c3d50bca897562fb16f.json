@@ -1,0 +1,1666 @@
+{
+ "label": "Atalanta-Fiorentina (g13)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-11-30T17:00:00Z",
+  "hoursAfterKickoff": 7431.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:36.145Z",
+  "sha256": "257d79b4e13f72ef15b9172da13b9ef8f23af45e763f6816bdcf06ad17cd9ad8"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::d5091d9bdfb84aeeb81e2b666ad67f0c",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-11-30T17:00:00Z",
+   "matchday": 13,
+   "home": "Atalanta",
+   "away": "Fiorentina",
+   "homeTeamId": "serie-a::Football_Team::b5846a2413804c2e8cab8b773b18370a",
+   "awayTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "homeScore": 2,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::d5091d9bdfb84aeeb81e2b666ad67f0c",
+   "homeTeam": "Atalanta",
+   "awayTeam": "Fiorentina",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::adfb707431614df5aeec9b486a888815",
+     "providerId": "opta:Player:eu9b86opw6n66vftu1r5alfqh",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Marco",
+     "lastName": "Carnesecchi",
+     "shirtName": "M. Carnesecchi",
+     "displayName": "Carnesecchi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37cecde40207416184c6d630e559c022",
+     "providerId": "opta:Player:cis0z72hgahfnfjduk7hdnz3e",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Kouakou Odilon",
+     "lastName": "Kossounou",
+     "shirtName": "Odilon Kossounou",
+     "displayName": "Kossounou",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 41,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ec4be88c0ed443fa953404eb6af085db",
+     "providerId": "opta:Player:130pg17ru5fzq4igokx0k73e1",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Isak Malcolm Kwaku",
+     "lastName": "Hien",
+     "shirtName": "Isak Hien",
+     "displayName": "Hien",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ef81865fbc0442caa1894f9118f4ca6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6f1f74d51f704ff991834370d8ed339e",
+     "providerId": "opta:Player:2idy9ngk2rojseoxxw9n98c7p",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Berat",
+     "lastName": "Djimsiti",
+     "shirtName": "Berat Djimsiti",
+     "displayName": "Djimsiti",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f343b63a6bff4f5380e6ae1a4e618324",
+     "providerId": "opta:Player:a69r2pf2w8da4dl0zl4k5vil1",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Davide",
+     "lastName": "Zappacosta",
+     "shirtName": "Davide Zappacosta",
+     "displayName": "Zappacosta",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::466bd5fe831940f7af73ca8f03bb6f46"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e64d199987e7498dba08dd9d0ad95c9c",
+     "providerId": "opta:Player:aripnzu9yo2wlr8ud93ufdhih",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Raoul",
+     "lastName": "Bellanova",
+     "shirtName": "Raoul Bellanova",
+     "displayName": "Bellanova",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::430712e4c44c415398a71ae60698f5b2",
+     "providerId": "opta:Player:9q01y4w4dwpaqf8lmpv9wnmc5",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Marten Elco",
+     "lastName": "de Roon",
+     "shirtName": "Marten de Roon",
+     "displayName": "de Roon",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7cdf9a3c8b6a46e39554faa2a4a102d7",
+     "providerId": "opta:Player:4aqkgskbra4wsoo7a8uw7xl9l",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Éderson José",
+     "lastName": "dos Santos Lourenço da Silva",
+     "shirtName": "Éderson",
+     "displayName": "Éderson",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8d75af40732a49c4a2b7aa44b07be610"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae",
+     "providerId": "opta:Player:7ox43isyywsnrfcd56nm65be",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Charles",
+     "lastName": "De Ketelaere",
+     "shirtName": "Charles De Ketelaere",
+     "displayName": "De Ketelaere",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3c80144dd7c641b982628157e52a8852",
+     "providerId": "opta:Player:4ml8pyt3rxwxakjxslg0c8kb9",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Gianluca",
+     "lastName": "Scamacca",
+     "shirtName": "Gianluca Scamacca",
+     "displayName": "Scamacca",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0ffb0532cc8044aebb4a64ea8c02be13"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6d745922e74d49bd8260da4144042beb",
+     "providerId": "opta:Player:8d04q3yp2kouwog0lj0s7ew2x",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Ademola Olajide",
+     "lastName": "Lookman",
+     "shirtName": "Ademola Lookman",
+     "displayName": "Lookman",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 51,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a3f141c52961445a928095b995522b92"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e68cd3c0e4804bdebfdb42961ace2285",
+     "providerId": "opta:Player:9sdrd6flk2jene11v193nm1n9",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Francesco",
+     "lastName": "Rossi",
+     "shirtName": "Francesco Rossi",
+     "displayName": "Rossi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::09cd84f668164a29bd254dcc8c8b5507",
+     "providerId": "opta:Player:3ww5879aay1xf2a20nl9ihwid",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Marco",
+     "lastName": "Sportiello",
+     "shirtName": "Marco Sportiello",
+     "displayName": "Sportiello",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c8dd9df24f93474e895c96839e7021e7",
+     "providerId": "opta:Player:b2e12l3s3dxgyr8d2rk5qb9ey",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Yunus Dimoara",
+     "lastName": "Musah",
+     "shirtName": "Yunus Musah",
+     "displayName": "Musah",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a3f141c52961445a928095b995522b92",
+     "providerId": "kama:Player:98239",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Kamaldeen",
+     "lastName": "Sulemana",
+     "shirtName": "Kamaldeen Sulemana",
+     "displayName": "K. Sulemana",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6d745922e74d49bd8260da4144042beb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8d75af40732a49c4a2b7aa44b07be610",
+     "providerId": "opta:Player:2fsgc0b4mvwpenawmit0q0bmd",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Mario",
+     "lastName": "Pašalić",
+     "shirtName": "Mario Pašalić",
+     "displayName": "Pašalić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7cdf9a3c8b6a46e39554faa2a4a102d7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::df726d9e0b284705be78eb3af4f6e441",
+     "providerId": "opta:Player:bl76cebhta912vfi9z7ky32p6",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Lazar Vujadin",
+     "lastName": "Samardžić",
+     "shirtName": "Lazar Samardžić",
+     "displayName": "Samardžić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ef81865fbc0442caa1894f9118f4ca6",
+     "providerId": "opta:Player:9j742o5vdc7d54x1xdz4t9ck5",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Sead",
+     "lastName": "Kolašinac",
+     "shirtName": "Sead Kolašinac",
+     "displayName": "Kolašinac",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ec4be88c0ed443fa953404eb6af085db"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511",
+     "providerId": "opta:Player:1f37bo8dikes3350u2a0h9hm2",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Marco",
+     "lastName": "Brescianini",
+     "shirtName": "Marco Brescianini",
+     "displayName": "Brescianini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3c5522df52c945a19b271eb0aeb3d56b",
+     "providerId": "opta:Player:63tj5b59b7en3tnd4sjff8woa",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Lorenzo",
+     "lastName": "Bernasconi",
+     "shirtName": "Lorenzo Bernasconi",
+     "displayName": "Bernasconi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::466bd5fe831940f7af73ca8f03bb6f46",
+     "providerId": "opta:Player:du4ciqofpkn3nei5q3huwlnje",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Nicola",
+     "lastName": "Zalewski",
+     "shirtName": "Nicola Zalewski",
+     "displayName": "Zalewski",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f343b63a6bff4f5380e6ae1a4e618324"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d2fa3bc0f70849d1897fed1d8fa22626",
+     "providerId": "opta:Player:70zr0nhl2tgyor1oajhcxg6j8",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Honest",
+     "lastName": "Ahanor",
+     "shirtName": "Honest Ahanor",
+     "displayName": "Ahanor",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dd491713fb4649b6a431512f272de5d1",
+     "providerId": "opta:Player:1fsum47fkh62rer9xxe3smctm",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Daniel",
+     "lastName": "Maldini",
+     "shirtName": "Daniel Maldini",
+     "displayName": "Maldini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0ffb0532cc8044aebb4a64ea8c02be13",
+     "providerId": "opta:Player:11r7kkbcv2bn8lar3unczuz8p",
+     "side": "home",
+     "team": "Atalanta",
+     "firstName": "Nikola",
+     "lastName": "Krstović",
+     "shirtName": "Nikola Krstović",
+     "displayName": "Krstović",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3c80144dd7c641b982628157e52a8852"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7eea4a3905274129bc4fdfec8574cc43",
+     "providerId": "opta:Player:e00004wkpfc8jawioejmpu1n9",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "David",
+     "lastName": "De Gea Quintana",
+     "shirtName": "David de Gea",
+     "displayName": "de Gea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646",
+     "providerId": "opta:Player:8dgh4fzut8khpt32d6dsrljsa",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Fabiano",
+     "lastName": "Parisi",
+     "shirtName": "F. Parisi",
+     "displayName": "Parisi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51",
+     "providerId": "opta:Player:9e3t2wyjqzxsn690aysao8cfd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Domilson",
+     "lastName": "Cordeiro Dos Santo",
+     "shirtName": "Dodô",
+     "displayName": "Dodô",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6b877858b0d14ac5bf60e2c21de3dd40",
+     "providerId": "opta:Player:erdqr6vrr5tlfypbks3og0dlh",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pablo",
+     "lastName": "Mari Villar",
+     "shirtName": "Pablo Marí",
+     "displayName": "Pablo Marí",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::000931a496414061b3387beb069c8593",
+     "providerId": "opta:Player:dpnp9rguhhs04of6vmlw5spg5",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Rolando",
+     "lastName": "Mandragora",
+     "shirtName": "Rolando Mandragora",
+     "displayName": "Mandragora",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac",
+     "providerId": "opta:Player:3zqpvn7r1c779l9vwwh7yukfd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Bioty Moise",
+     "lastName": "Kean",
+     "shirtName": "Moise Kean",
+     "displayName": "Kean",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0ddde8a585e94c82bc75bf08263ed5ea"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d58bb19e4fac428c91c7d3d22c54aeb8",
+     "providerId": "opta:Player:bgwbowoiz7t2lvpit75zlqz11",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Lezzerini",
+     "shirtName": "Luca Lezzerini",
+     "displayName": "Lezzerini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7010f5d11294dae84684c62572d4d6b",
+     "providerId": "opta:Player:4jh6mywmhugi4ltyhq5vd5ij8",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Tommaso",
+     "lastName": "Martinelli",
+     "shirtName": "Tommaso Martinelli",
+     "displayName": "Martinelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b3e34cb840d443e48360b4af40f06917",
+     "providerId": "emg:Player:DZKDN|opta:Player:a5eki9p236y4zxmp9qz202pcl",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Edin",
+     "lastName": "Dzeko",
+     "shirtName": "Edin Dzeko",
+     "displayName": "Džeko",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4",
+     "providerId": "opta:Player:ejzxqtdo5xxvbg6gvtju3lk9h",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Albert",
+     "lastName": "Guðmundsson",
+     "shirtName": "Albert Gudmundsson",
+     "displayName": "Guðmundsson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::580e2f5d129542e2bcc9ea5436adf6a1",
+     "providerId": "opta:Player:a6lo3s66xv87llkhwveoq1vqh",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Hans",
+     "lastName": "Nicolussi Caviglia",
+     "shirtName": "Hans Nicolussi Caviglia",
+     "displayName": "Nicolussi C.",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63",
+     "providerId": "opta:Player:9srjp22oprs2tkcutb2g4o2dw",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Comuzzo",
+     "shirtName": "Pietro Comuzzo",
+     "displayName": "Comuzzo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6b877858b0d14ac5bf60e2c21de3dd40"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0ddde8a585e94c82bc75bf08263ed5ea",
+     "providerId": "opta:Player:45lcfmo0varfc325n562ul2j8",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Michael Amir Junior",
+     "lastName": "Richardson",
+     "shirtName": "Amir Richardson",
+     "displayName": "Richardson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe",
+     "providerId": "opta:Player:2e0ipswbkv4vf7lav6ee1j3oq",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Mattia",
+     "lastName": "Viti",
+     "shirtName": "Mattia Viti",
+     "displayName": "Viti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc",
+     "providerId": "opta:Player:kvbjuvcseqk4sbr04ctkqi38",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Cher",
+     "lastName": "Ndour",
+     "shirtName": "Cher Ndour",
+     "displayName": "Ndour",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122",
+     "providerId": "opta:Player:c4bccspnyg73206u27nhiwu1g",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Niccolo’",
+     "lastName": "Fortini",
+     "shirtName": "Niccolò Fortini",
+     "displayName": "Fortini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf",
+     "providerId": "kama:Player:1479",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nda Konan Bienvenu Ange Eddy",
+     "lastName": "Kouadio",
+     "shirtName": "Eddy Kouadio",
+     "displayName": "Kouadio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bdc070e8a5964a7188c228293722fced",
+     "providerId": "opta:Player:6gjn7pt0i34q45g4porckuj8p",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Kouakou Christian",
+     "lastName": "Kouame",
+     "shirtName": "C. Kouamé",
+     "displayName": "Kouamé",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:20:46.840Z",
+   "sha256": "34fa7d258d0c08d88534e3b08b99066a70bdb33c7dcb5428d799d564f2073868"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:36.145Z",
+   "sha256": "257d79b4e13f72ef15b9172da13b9ef8f23af45e763f6816bdcf06ad17cd9ad8",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Carnesecchi",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zappacosta",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Djimsiti",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kolasinac",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bellanova",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kossounou",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hien",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "De Roon",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pasalic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zalewski",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ederson D.S.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Scamacca",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lookman",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sulemana K.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "De Ketelaere",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Krstovic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "De Gea",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ranieri L.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marì",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Parisi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dodò",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Comuzzo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Fortini",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mandragora",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gudmundsson A.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndour",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Richardson",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kean",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Atalanta 2 - 0 Fiorentina 30/11/2025 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

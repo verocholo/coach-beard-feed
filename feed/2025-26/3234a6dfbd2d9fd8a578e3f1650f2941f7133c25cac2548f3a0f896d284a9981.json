@@ -1,0 +1,1672 @@
+{
+ "label": "Milan-Torino (g30)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-03-21T17:00:00Z",
+  "hoursAfterKickoff": 4767.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:29:03.271Z",
+  "sha256": "984d2ebbcc0fcffb8b2977d9bef02c80293c3dd93dd3aa30a90b4757ac93ba00"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::7f1c184849fe45b0a9698b1e86c7bbf9",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-03-21T17:00:00Z",
+   "matchday": 30,
+   "home": "Milan",
+   "away": "Torino",
+   "homeTeamId": "serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0",
+   "awayTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "homeScore": 3,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::7f1c184849fe45b0a9698b1e86c7bbf9",
+   "homeTeam": "Milan",
+   "awayTeam": "Torino",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::f6b27c8e1cf04b3391184988ee7336f7",
+     "providerId": "opta:Player:3fpnfgoy4lbpapv2th6g60cet",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Mike Peterson",
+     "lastName": "Maignan",
+     "shirtName": "Mike Maignan",
+     "displayName": "Maignan",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e795d74e1e04302b39b9815471ba3df",
+     "providerId": "opta:Player:7odl8qgd0qak6w4ox0t3kg3kk",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Davide",
+     "lastName": "Bartesaghi",
+     "shirtName": "Davide Bartesaghi",
+     "displayName": "Bartesaghi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4",
+     "providerId": "opta:Player:3sezchmdtivxl4kusvgc6j7x1",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Oluwafikayomi Oluwadamilola",
+     "lastName": "Tomori",
+     "shirtName": "Fikayo Tomori",
+     "displayName": "Tomori",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 9,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6075b492bae04b149467f30c9c6923be",
+     "providerId": "opta:Player:7wjdqyl3bkhsfca5cu4riwley",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Strahinja",
+     "lastName": "Pavlović",
+     "shirtName": "Strahinja Pavlović",
+     "displayName": "Pavlović",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 37,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "yellow-card",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1",
+     "providerId": "opta:Player:95r0jtkw03vjohzwc8os8ielm",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Koni",
+     "lastName": "De Winter",
+     "shirtName": "Koni De Winter",
+     "displayName": "De Winter",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e76cb5d2e68843ed99459ed2f8237e2f",
+     "providerId": "kama:Player:98422",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Luka",
+     "lastName": "Modrić",
+     "shirtName": "Luka Modrić",
+     "displayName": "Modrić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::afe60d6be6104d909dfe50221995523a",
+     "providerId": "opta:Player:2nddcty9qris2mmeldon0ogd1",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Adrien",
+     "lastName": "Rabiot",
+     "shirtName": "Adrien Rabiot",
+     "displayName": "Rabiot",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1",
+     "providerId": "opta:Player:b0wb7gf04synxlkq7o8gvzkoa",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Youssouf",
+     "lastName": "Fofana",
+     "shirtName": "Youssouf Fofana",
+     "displayName": "Y. Fofana",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07"
+      },
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7",
+     "providerId": "opta:Player:9vnr9uog5fmggich2i4vjxwbt",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Alexis Jesse",
+     "lastName": "Saelemaekers",
+     "shirtName": "Alexis Saelemaekers",
+     "displayName": "Saelemaekers",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::068f9e3dc64548ebb49468f1f103016e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f75f69d015184e6fa1f443c3442eb94d",
+     "providerId": "kama:Player:100418",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Niclas",
+     "lastName": "Füllkrug",
+     "shirtName": "Niclas Füllkrug",
+     "displayName": "Füllkrug",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad",
+     "providerId": "opta:Player:93soe2rjn0z874cc9ofcesgkp",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Christian Mate",
+     "lastName": "Pulisic",
+     "shirtName": "Christian Pulisic",
+     "displayName": "Pulisic",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5b8d20ccf6db45e388edc6e8ec8d4c18"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::366978e66f2b41d291912b96fef017a5",
+     "providerId": "opta:Player:2udciji4n7tr07ft7twe2r9w5",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Pietro",
+     "lastName": "Terracciano",
+     "shirtName": "Pietro Terracciano",
+     "displayName": "P. Terracciano",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6be573f23d4742d6a81779d7d1fb3fcf",
+     "providerId": "kama:Player:1741",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Pittarella",
+     "shirtName": "Matteo Pittarella",
+     "displayName": "Pittarella",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::46c4483cd2954db7a7fbf5cfaec0bafe",
+     "providerId": "kama:Player:98780",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Pervis Josue",
+     "lastName": "Estupinan Tenorio",
+     "shirtName": "Pervis Estupiñán",
+     "displayName": "Estupiñán",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba",
+     "providerId": "opta:Player:e2oeysariwd866ksilu3t4m7e",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Samuele",
+     "lastName": "Ricci",
+     "shirtName": "Samuele Ricci",
+     "displayName": "Ricci",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5b8d20ccf6db45e388edc6e8ec8d4c18",
+     "providerId": "opta:Player:aboxil79ulfa73pckzsdnwp62",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Santiago Tomas",
+     "lastName": "Gimenez",
+     "shirtName": "Santiago Giménez",
+     "displayName": "Giménez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 6,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d",
+     "providerId": "kama:Player:99337",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Christopher Alan",
+     "lastName": "Nkunku",
+     "shirtName": "Christopher Nkunku",
+     "displayName": "Nkunku",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f75f69d015184e6fa1f443c3442eb94d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07",
+     "providerId": "kama:Player:99087",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Zachary Christopher",
+     "lastName": "Athekame",
+     "shirtName": "Zachary Athekame",
+     "displayName": "Athekame",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::068f9e3dc64548ebb49468f1f103016e",
+     "providerId": "kama:Player:99396",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "David Uyoyo",
+     "lastName": "Odogu",
+     "shirtName": "David Uyoyo Odogu",
+     "displayName": "Odogu",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b616b0e6528b42459ac6410543f823ef",
+     "providerId": "kama:Player:98958",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Ardon",
+     "lastName": "Jashari",
+     "shirtName": "Ardon Jashari",
+     "displayName": "Jashari",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0cc5d45eeae84da4b2c8d3335f629006",
+     "providerId": "opta:Player:a8s8bl5kp1rif458yt3qlevo5",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Alberto Andrea",
+     "lastName": "Paleari",
+     "shirtName": "Alberto Paleari",
+     "displayName": "Paleari",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::afd2050ee7f64f2d80bb6ed6c702ece6",
+     "providerId": "kama:Player:100592",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Rafel",
+     "lastName": "Obrador Burguera",
+     "shirtName": "Rafael Obrador Burguera",
+     "displayName": "Obrador",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4672592c583246358f920921b38f10ca"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c10bf0264425406d82c2909fbd66439e",
+     "providerId": "opta:Player:e2xiayt8k5tv4dw5hjop71fqh",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Enzo Jacques Rodolphe",
+     "lastName": "Ebosse",
+     "shirtName": "Enzo Ebosse",
+     "displayName": "Ebosse",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::69ad412c08e5413e9754af4d21250711"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::deaa04c0b01942838b061bf8acc34282",
+     "providerId": "opta:Player:54mmovmx3osoxgbloe9rzmx9l",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Ardian",
+     "lastName": "Ismajli",
+     "shirtName": "Ardian Ismajli",
+     "displayName": "Ismajli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e01f727bb7304efea37d2cc9fc152812",
+     "providerId": "opta:Player:7vykym3hy0qf1rxw3yv58kxgq",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Saul Basilio",
+     "lastName": "Coco Bassey Oubina",
+     "shirtName": "Saúl Coco",
+     "displayName": "Coco",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a",
+     "providerId": "opta:Player:ebgkv548xih19m8uza7bgrvmd",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Nikola",
+     "lastName": "Vlašić",
+     "shirtName": "Nikola Vlašić",
+     "displayName": "Vlašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9",
+     "providerId": "opta:Player:akvrot9hi5mylunfr07nytt04",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Matteo",
+     "lastName": "Prati",
+     "shirtName": "Matteo Prati",
+     "displayName": "Prati",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fa8793423f574374b968c141faabf725",
+     "providerId": "opta:Player:30gsjr0xlmjulnz227zfxga8l",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Duvan Esteban",
+     "lastName": "Zapata Banguero",
+     "shirtName": "Duván Zapata",
+     "displayName": "Zapata",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c",
+     "providerId": "opta:Player:cp13vthbds3tl1wtfelfx2evp",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Giovanni Pablo",
+     "lastName": "Simeone Baldini",
+     "shirtName": "Giovanni Simeone",
+     "displayName": "Simeone",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 44,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1521324d10634da1bdf493649696124d",
+     "providerId": "opta:Player:cuc7gtr9q0465wxmzgq834ag9",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Franco",
+     "lastName": "Israel Wibmer",
+     "shirtName": "Franco Israel",
+     "displayName": "Israel",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8407424229094b7dbf8c8f4aca345c7b",
+     "providerId": "opta:Player:9w6xwaepe2bw3h0hwbfmr1f6c",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Lapo",
+     "lastName": "Siviero",
+     "shirtName": "Lapo Siviero",
+     "displayName": "Siviero",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429",
+     "providerId": "opta:Player:8vom3bt6es2kp5sdl98az6gwk",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Emirhan",
+     "lastName": "Ilkhan",
+     "shirtName": "Emirhan Ilkhan",
+     "displayName": "İlkhan",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 3,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1b963dfa250b41d5b596ef5ad7cb1379",
+     "providerId": "opta:Player:7hwj9pf9roe74jifvuhiu6n6x",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Ivan",
+     "lastName": "Ilić",
+     "shirtName": "Ivan Ilić",
+     "displayName": "Ilić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600",
+     "providerId": "opta:Player:270djbc9lxhoupmd1djrii191",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Guillermo Alfonso",
+     "lastName": "Maripan Loayza",
+     "shirtName": "Guillermo Maripán",
+     "displayName": "Maripán",
+     "starter": false,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d00c221b12c74ce08e4ef1e38addca64",
+     "providerId": "opta:Player:byjq5v4tqpjt9scaj17ccuesq",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Faustino Adebola",
+     "lastName": "Anjorin",
+     "shirtName": "Tino Anjorin",
+     "displayName": "Anjorin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::69ad412c08e5413e9754af4d21250711",
+     "providerId": "opta:Player:2yuntws503qs5o9er31diwmp5",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Sandro",
+     "lastName": "Kulenović",
+     "shirtName": "Sandro Kulenović",
+     "displayName": "Kulenović",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c10bf0264425406d82c2909fbd66439e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81",
+     "providerId": "opta:Player:59ujnkvl7rlffomi2bqpsmbpx",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Che Zach Everton",
+     "lastName": "Adams",
+     "shirtName": "Ché Adams",
+     "displayName": "C. Adams",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fa8793423f574374b968c141faabf725"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1",
+     "providerId": "opta:Player:866f0f7taqhae91o3cjnnx0ph",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Valentino",
+     "lastName": "Lazaro",
+     "shirtName": "Valentino Lazaro",
+     "displayName": "Lazaro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd",
+     "providerId": "opta:Player:82pgcsfvbitzlpbao9ptbsgoa",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Cesare",
+     "lastName": "Casadei",
+     "shirtName": "Cesare Casadei",
+     "displayName": "Casadei",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4672592c583246358f920921b38f10ca",
+     "providerId": "kama:Player:99338",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Niels Patrick",
+     "lastName": "Nkounkou",
+     "shirtName": "Niels Patrick Nkounkou",
+     "displayName": "Nkounkou",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::afd2050ee7f64f2d80bb6ed6c702ece6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737",
+     "providerId": "opta:Player:66at96kfhvigkny465lkmrnbp",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Cristiano",
+     "lastName": "Biraghi",
+     "shirtName": "Cristiano Biraghi",
+     "displayName": "Biraghi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a1ee3415386144ad88b60048528e69bd",
+     "providerId": "opta:Player:1ijyezydbb4zzio95vj0sr09g",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Luca",
+     "lastName": "Marianucci",
+     "shirtName": "Luca Marianucci",
+     "displayName": "Marianucci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd",
+     "providerId": "opta:Player:9sjt5rv156hr2llfu241r6cph",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Adrien Fidele",
+     "lastName": "Tameze Aoutsa",
+     "shirtName": "Adrien Tamèze",
+     "displayName": "Tameze",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:25:39.550Z",
+   "sha256": "436db3ebdaed093dda3a67dc90153f8339d6e6df420ba81819168f790333913b"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:29:03.271Z",
+   "sha256": "984d2ebbcc0fcffb8b2977d9bef02c80293c3dd93dd3aa30a90b4757ac93ba00",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Maignan",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tomori",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pavlovic",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Winter",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bartesaghi",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Athekame",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Odogu",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rabiot",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pulisic",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Modric",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fofana Y.",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Saelemaekers",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ricci S.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Fullkrug",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nkunku",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gimenez",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Paleari",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 2.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 2,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 2.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ismajli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Nkounkou",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ebosse",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coco",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Obrador",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vlasic",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Casadei",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ilkhan",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gineitis",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Prati",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Zapata D.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Simeone",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams C.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/30",
+      "estrattoIl": "2026-10-06T08:29:03.271Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kulenovic",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 3 - 2 Torino 21/03/2026 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

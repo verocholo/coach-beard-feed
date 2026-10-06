@@ -1,0 +1,1560 @@
+{
+ "label": "Parma-Milan (g11)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-11-08T19:45:00Z",
+  "hoursAfterKickoff": 7956.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:32.999Z",
+  "sha256": "a77d850612bc0c86941112e02ee85fa0d8871027f08bb4902ce5a275f0f06180"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::076bef9542914cf4ac71bae814a00b60",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-11-08T19:45:00Z",
+   "matchday": 11,
+   "home": "Parma",
+   "away": "Milan",
+   "homeTeamId": "serie-a::Football_Team::3294993c79b14d918ccdc78da0fb90c5",
+   "awayTeamId": "serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0",
+   "homeScore": 2,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 15
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::076bef9542914cf4ac71bae814a00b60",
+   "homeTeam": "Parma",
+   "awayTeam": "Milan",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::46948dee4bd54172a455ffab38485dbc",
+     "providerId": "opta:Player:2mfunwzltzdnmzlcjyvx752i",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Zion",
+     "lastName": "Suzuki",
+     "shirtName": "Zion Suzuki",
+     "displayName": "Suzuki",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::95113df1d4494b4cbf1e7f378d740782",
+     "providerId": "opta:Player:3m81rmpqzm0j40978dmjig38q",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mathias Johan Fjortoft",
+     "lastName": "Lovik",
+     "shirtName": "Mathias Løvik",
+     "displayName": "Løvik",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d58bdcc9557641d3868baea58a37bdf3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a16050d0946f41e79f0b72cf539dd4a1",
+     "providerId": "kama:Player:99268",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Sascha",
+     "lastName": "Britschgi",
+     "shirtName": "Sascha Britschgi",
+     "displayName": "Britschgi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7aa85c09d04442e0a1ace1a67c01554d",
+     "providerId": "kama:Player:99033",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Abdoulaye Niakhate",
+     "lastName": "Ndiaye",
+     "shirtName": "Abdoulaye Ndiaye",
+     "displayName": "Ndiaye",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::038ef975d5434ce6a293c9497fd6bb65"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c738f36256404be3830f701e8ee68149",
+     "providerId": "opta:Player:befbveuodyomkhm9ed31kb4a2",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Lautaro Rodrigo",
+     "lastName": "Valenti",
+     "shirtName": "Lautaro Valenti",
+     "displayName": "Valenti",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a01dba5f6172497b9d2f35d1cb37d24a",
+     "providerId": "opta:Player:r9rn4eaw3twb224jrpojz0x6",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Enrico",
+     "lastName": "Delprato",
+     "shirtName": "Enrico Delprato",
+     "displayName": "Delprato",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a16050d0946f41e79f0b72cf539dd4a1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4b27493789914a909a54f27f57cd3e45",
+     "providerId": "opta:Player:cjf412x9sg56vos0jkj85k3ys",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Lamine Mandela",
+     "lastName": "Keita",
+     "shirtName": "Mandela Keita",
+     "displayName": "Keita",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18105742a5e94cd9a0d31ac35bc60506",
+     "providerId": "kama:Player:99071",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Oliver Sørensen",
+     "lastName": "Jensen",
+     "shirtName": "Oliver Sørensen",
+     "displayName": "Sørensen",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b",
+     "providerId": "opta:Player:b7l20ljluxk74v0ok82s0iz56",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Adrian",
+     "lastName": "Bernabe' Garcia",
+     "shirtName": "Adrián Bernabé",
+     "displayName": "Bernabé",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 45,
+       "additionalTime": 1,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a16050d0946f41e79f0b72cf539dd4a1"
+      },
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::064aed514b584e55a8fcefb1be3db5eb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a",
+     "providerId": "opta:Player:7maur0rp96hubnkuu84576wpg",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mateo",
+     "lastName": "Pellegrino Casalanguida",
+     "shirtName": "Mateo Pellegrino",
+     "displayName": "Pellegrino",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4919025f871840d199d459a2c636266e",
+     "providerId": "opta:Player:7dnu1vdavskc4ct33k88lpdcl",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Patrick",
+     "lastName": "Cutrone",
+     "shirtName": "Patrick Cutrone",
+     "displayName": "Cutrone",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::46afafc5e885483e954daa8e73863370"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c34da415302b4416a28d463708a8ec16",
+     "providerId": "opta:Player:ais3wh8wz8oeyjpwv84o4ybfu",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Edoardo",
+     "lastName": "Corvi",
+     "shirtName": "Edoardo Corvi",
+     "displayName": "Corvi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d24795262b354d0bb0fb4ab37dae7ced",
+     "providerId": "opta:Player:824rbovqk1q9ta7i4dzo26bmy",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Filippo",
+     "lastName": "Rinaldi",
+     "shirtName": "Filippo Rinaldi",
+     "displayName": "Rinaldi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5908e4c64e5a46f1a6c846810586e624",
+     "providerId": "opta:Player:25wawsdczm69ctbpw5nn51kvd",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Adrian Dawid",
+     "lastName": "Benedyczak",
+     "shirtName": "Adrian Benedyczak",
+     "displayName": "Benedyczak",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d58bdcc9557641d3868baea58a37bdf3",
+     "providerId": "opta:Player:d9bg5jjv8pz0f8u55x3hg0962",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Emanuele",
+     "lastName": "Valeri",
+     "shirtName": "Emanuele Valeri",
+     "displayName": "Valeri",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::95113df1d4494b4cbf1e7f378d740782"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::37e258380dab45e387ebbc299a2c0182",
+     "providerId": "opta:Player:79pqp9xigjcfe7xggn23m2q22",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Tjas",
+     "lastName": "Begic",
+     "shirtName": "Tjas Begic",
+     "displayName": "Begić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::064aed514b584e55a8fcefb1be3db5eb",
+     "providerId": "opta:Player:8zke93n0uca6gf2jihqby28d1",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Hernani",
+     "lastName": "Azevedo Júnior",
+     "shirtName": "Hernani",
+     "displayName": "Hernani",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::46afafc5e885483e954daa8e73863370",
+     "providerId": "kama:Player:99339",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Benjamin",
+     "lastName": "Cremaschi",
+     "shirtName": "Benjamin Cremaschi",
+     "displayName": "Cremaschi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4919025f871840d199d459a2c636266e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94",
+     "providerId": "opta:Player:dp1y9x5r6z1q120hj3sgyhxat",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Milan",
+     "lastName": "Djuric",
+     "shirtName": "Milan Djuric",
+     "displayName": "Djuric",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::038ef975d5434ce6a293c9497fd6bb65",
+     "providerId": "kama:Player:99291",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mariano Emir",
+     "lastName": "Troilo",
+     "shirtName": "Mariano Troilo",
+     "displayName": "Troilo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7aa85c09d04442e0a1ace1a67c01554d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2a72c273fe2649519da24e6fef05e666",
+     "providerId": "opta:Player:6rxw2uuw2itwbr90nodrz0x04",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Nicolas",
+     "lastName": "Trabucchi",
+     "shirtName": "Nicolas Trabucchi",
+     "displayName": "Trabucchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::91fbc425931343c98f56acd3d4b54c2b",
+     "providerId": "opta:Player:7ygfxjgn90rx0moga0aorjdhw",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Elia",
+     "lastName": "Plicco",
+     "shirtName": "Elia Plicco",
+     "displayName": "Plicco",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7eff207d23dd4272a35a043e960b5884",
+     "providerId": "kama:Player:1429",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Alessandro",
+     "lastName": "Cardinali",
+     "shirtName": "Alessandro Cardinali",
+     "displayName": "Cardinali",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::87ce57e829ee4c3586f91333a97f5213",
+     "providerId": "kama:Player:2094",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Edoardo",
+     "lastName": "Tigani",
+     "shirtName": "Edoardo Tigani",
+     "displayName": "Tigani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0d37907ed7be44dfad0a8ba038f03a1d",
+     "providerId": "kama:Player:3606",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Abdou-Salam",
+     "lastName": "Konaté",
+     "shirtName": "Abdou-Salam Konaté",
+     "displayName": "Konaté",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f6b27c8e1cf04b3391184988ee7336f7",
+     "providerId": "opta:Player:3fpnfgoy4lbpapv2th6g60cet",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Mike Peterson",
+     "lastName": "Maignan",
+     "shirtName": "Mike Maignan",
+     "displayName": "Maignan",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6075b492bae04b149467f30c9c6923be",
+     "providerId": "opta:Player:7wjdqyl3bkhsfca5cu4riwley",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Strahinja",
+     "lastName": "Pavlović",
+     "shirtName": "Strahinja Pavlović",
+     "displayName": "Pavlović",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37d0e89ba51343a8b24b768e4efa02d6",
+     "providerId": "opta:Player:enqcaecpt5hy0qv9x5pzmkjc9",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Gabbia",
+     "shirtName": "Matteo Gabbia",
+     "displayName": "Gabbia",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1",
+     "providerId": "opta:Player:95r0jtkw03vjohzwc8os8ielm",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Koni",
+     "lastName": "De Winter",
+     "shirtName": "Koni De Winter",
+     "displayName": "De Winter",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::46c4483cd2954db7a7fbf5cfaec0bafe",
+     "providerId": "kama:Player:98780",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Pervis Josue",
+     "lastName": "Estupinan Tenorio",
+     "shirtName": "Pervis Estupiñán",
+     "displayName": "Estupiñán",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5e795d74e1e04302b39b9815471ba3df"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e76cb5d2e68843ed99459ed2f8237e2f",
+     "providerId": "kama:Player:98422",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Luka",
+     "lastName": "Modrić",
+     "shirtName": "Luka Modrić",
+     "displayName": "Modrić",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba",
+     "providerId": "opta:Player:e2oeysariwd866ksilu3t4m7e",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Samuele",
+     "lastName": "Ricci",
+     "shirtName": "Samuele Ricci",
+     "displayName": "Ricci",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1",
+     "providerId": "opta:Player:b0wb7gf04synxlkq7o8gvzkoa",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Youssouf",
+     "lastName": "Fofana",
+     "shirtName": "Youssouf Fofana",
+     "displayName": "Y. Fofana",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7",
+     "providerId": "opta:Player:9vnr9uog5fmggich2i4vjxwbt",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Alexis Jesse",
+     "lastName": "Saelemaekers",
+     "shirtName": "Alexis Saelemaekers",
+     "displayName": "Saelemaekers",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 12,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d",
+     "providerId": "kama:Player:99337",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Christopher Alan",
+     "lastName": "Nkunku",
+     "shirtName": "Christopher Nkunku",
+     "displayName": "Nkunku",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c",
+     "providerId": "opta:Player:11o903vztwpnmvgrinn208qnd",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Rafael Alexandre",
+     "lastName": "da Conceição Leão",
+     "shirtName": "Rafael Leão",
+     "displayName": "Rafael Leão",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 25,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::366978e66f2b41d291912b96fef017a5",
+     "providerId": "opta:Player:2udciji4n7tr07ft7twe2r9w5",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Pietro",
+     "lastName": "Terracciano",
+     "shirtName": "Pietro Terracciano",
+     "displayName": "P. Terracciano",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e5ab095b8ad24c42ab8bbf17164143bd",
+     "providerId": "opta:Player:d0ag3rk2mc50gwbo5famdzaqc",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Lorenzo",
+     "lastName": "Torriani",
+     "shirtName": "Lorenzo Torriani",
+     "displayName": "Torriani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808",
+     "providerId": "opta:Player:e6jaaazxqeczj6ziaj0qnqpxx",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Ruben Ira",
+     "lastName": "Loftus-cheek",
+     "shirtName": "Ruben Loftus-Cheek",
+     "displayName": "Loftus-Cheek",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad",
+     "providerId": "opta:Player:93soe2rjn0z874cc9ofcesgkp",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Christian Mate",
+     "lastName": "Pulisic",
+     "shirtName": "Christian Pulisic",
+     "displayName": "Pulisic",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4",
+     "providerId": "opta:Player:3sezchmdtivxl4kusvgc6j7x1",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Oluwafikayomi Oluwadamilola",
+     "lastName": "Tomori",
+     "shirtName": "Fikayo Tomori",
+     "displayName": "Tomori",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07",
+     "providerId": "kama:Player:99087",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Zachary Christopher",
+     "lastName": "Athekame",
+     "shirtName": "Zachary Athekame",
+     "displayName": "Athekame",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::068f9e3dc64548ebb49468f1f103016e",
+     "providerId": "kama:Player:99396",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "David Uyoyo",
+     "lastName": "Odogu",
+     "shirtName": "David Uyoyo Odogu",
+     "displayName": "Odogu",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b616b0e6528b42459ac6410543f823ef",
+     "providerId": "kama:Player:98958",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Ardon",
+     "lastName": "Jashari",
+     "shirtName": "Ardon Jashari",
+     "displayName": "Jashari",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e795d74e1e04302b39b9815471ba3df",
+     "providerId": "opta:Player:7odl8qgd0qak6w4ox0t3kg3kk",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Davide",
+     "lastName": "Bartesaghi",
+     "shirtName": "Davide Bartesaghi",
+     "displayName": "Bartesaghi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::46c4483cd2954db7a7fbf5cfaec0bafe"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:20:07.706Z",
+   "sha256": "b6880b8954d32813bc484248433e7afd28fd5328d87e2c267b3f83c25e1e15fb"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:32.999Z",
+   "sha256": "a77d850612bc0c86941112e02ee85fa0d8871027f08bb4902ce5a275f0f06180",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Maignan",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gabbia",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pavlovic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Estupinan",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Winter",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bartesaghi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Athekame",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pulisic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Modric",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Loftus-Cheek",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fofana Y.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Saelemaekers",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ricci S.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Leao",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nkunku",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Suzuki",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valenti",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valeri",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Delprato",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lovik",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ndiaye",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Troilo",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Britschgi",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9,
+     "votoItalia": 7,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 2,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Hernani",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernabè",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Keita M.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sorensen O.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cremaschi",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cutrone",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pellegrino M.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 2 Milan 08/11/2025 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

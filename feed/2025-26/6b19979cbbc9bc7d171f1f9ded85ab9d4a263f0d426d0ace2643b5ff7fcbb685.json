@@ -1,0 +1,1680 @@
+{
+ "label": "Fiorentina-Juventus (g12)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-11-22T17:00:00Z",
+  "hoursAfterKickoff": 7623.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:34.570Z",
+  "sha256": "ea43c31370373695f27c2a2bb2975c8a16387e1a9949880db0496fc08cee7095"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::76b28f5952c24a5c8c8230b10728a8f3",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-11-22T17:00:00Z",
+   "matchday": 12,
+   "home": "Fiorentina",
+   "away": "Juventus",
+   "homeTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "awayTeamId": "serie-a::Football_Team::0ae9210dce6f4f9b9d50aeeb19b0d371",
+   "homeScore": 1,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 4
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::76b28f5952c24a5c8c8230b10728a8f3",
+   "homeTeam": "Fiorentina",
+   "awayTeam": "Juventus",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::7eea4a3905274129bc4fdfec8574cc43",
+     "providerId": "opta:Player:e00004wkpfc8jawioejmpu1n9",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "David",
+     "lastName": "De Gea Quintana",
+     "shirtName": "David de Gea",
+     "displayName": "de Gea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6b877858b0d14ac5bf60e2c21de3dd40",
+     "providerId": "opta:Player:erdqr6vrr5tlfypbks3og0dlh",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Pablo",
+     "lastName": "Mari Villar",
+     "shirtName": "Pablo Marí",
+     "displayName": "Pablo Marí",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51",
+     "providerId": "opta:Player:9e3t2wyjqzxsn690aysao8cfd",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Domilson",
+     "lastName": "Cordeiro Dos Santo",
+     "shirtName": "Dodô",
+     "displayName": "Dodô",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646",
+     "providerId": "opta:Player:8dgh4fzut8khpt32d6dsrljsa",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Fabiano",
+     "lastName": "Parisi",
+     "shirtName": "F. Parisi",
+     "displayName": "Parisi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf"
+      },
+      {
+       "type": "yellow-card",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 7,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::000931a496414061b3387beb069c8593",
+     "providerId": "opta:Player:dpnp9rguhhs04of6vmlw5spg5",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Rolando",
+     "lastName": "Mandragora",
+     "shirtName": "Rolando Mandragora",
+     "displayName": "Mandragora",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 48,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac"
+      },
+      {
+       "type": "yellow-card",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac",
+     "providerId": "opta:Player:3zqpvn7r1c779l9vwwh7yukfd",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Bioty Moise",
+     "lastName": "Kean",
+     "shirtName": "Moise Kean",
+     "displayName": "Kean",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d58bb19e4fac428c91c7d3d22c54aeb8",
+     "providerId": "opta:Player:bgwbowoiz7t2lvpit75zlqz11",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Lezzerini",
+     "shirtName": "Luca Lezzerini",
+     "displayName": "Lezzerini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7010f5d11294dae84684c62572d4d6b",
+     "providerId": "opta:Player:4jh6mywmhugi4ltyhq5vd5ij8",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Tommaso",
+     "lastName": "Martinelli",
+     "shirtName": "Tommaso Martinelli",
+     "displayName": "Martinelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b3e34cb840d443e48360b4af40f06917",
+     "providerId": "emg:Player:DZKDN|opta:Player:a5eki9p236y4zxmp9qz202pcl",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Edin",
+     "lastName": "Dzeko",
+     "shirtName": "Edin Dzeko",
+     "displayName": "Džeko",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4",
+     "providerId": "opta:Player:ejzxqtdo5xxvbg6gvtju3lk9h",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Albert",
+     "lastName": "Guðmundsson",
+     "shirtName": "Albert Gudmundsson",
+     "displayName": "Guðmundsson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::580e2f5d129542e2bcc9ea5436adf6a1",
+     "providerId": "opta:Player:a6lo3s66xv87llkhwveoq1vqh",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Hans",
+     "lastName": "Nicolussi Caviglia",
+     "shirtName": "Hans Nicolussi Caviglia",
+     "displayName": "Nicolussi C.",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63",
+     "providerId": "opta:Player:9srjp22oprs2tkcutb2g4o2dw",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Comuzzo",
+     "shirtName": "Pietro Comuzzo",
+     "displayName": "Comuzzo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5",
+     "providerId": "opta:Player:6e9fu9o226zn6jzx02jutvi3u",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Jacopo",
+     "lastName": "Fazzini",
+     "shirtName": "Jacopo Fazzini",
+     "displayName": "Fazzini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0ddde8a585e94c82bc75bf08263ed5ea",
+     "providerId": "opta:Player:45lcfmo0varfc325n562ul2j8",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Michael Amir Junior",
+     "lastName": "Richardson",
+     "shirtName": "Amir Richardson",
+     "displayName": "Richardson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe",
+     "providerId": "opta:Player:2e0ipswbkv4vf7lav6ee1j3oq",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Mattia",
+     "lastName": "Viti",
+     "shirtName": "Mattia Viti",
+     "displayName": "Viti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc",
+     "providerId": "opta:Player:kvbjuvcseqk4sbr04ctkqi38",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Cher",
+     "lastName": "Ndour",
+     "shirtName": "Cher Ndour",
+     "displayName": "Ndour",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122",
+     "providerId": "opta:Player:c4bccspnyg73206u27nhiwu1g",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Niccolo’",
+     "lastName": "Fortini",
+     "shirtName": "Niccolò Fortini",
+     "displayName": "Fortini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf",
+     "providerId": "kama:Player:1479",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Nda Konan Bienvenu Ange Eddy",
+     "lastName": "Kouadio",
+     "shirtName": "Eddy Kouadio",
+     "displayName": "Kouadio",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f567339708a7468fa5b76cbf3d4b345e",
+     "providerId": "opta:Player:b3hr4q25jvqr7565z5ydqylt5",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Michele",
+     "lastName": "Di Gregorio",
+     "shirtName": "Michele Di Gregorio",
+     "displayName": "Di Gregorio",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::38b07b038621478c9b293665fc91eedc",
+     "providerId": "opta:Player:b33rlpjo3kx4477alx82si5wq",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Pierre Kazaye Rommel",
+     "lastName": "Kalulu Kyatengwa",
+     "shirtName": "Pierre Kalulu",
+     "displayName": "Kalulu",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3961ddf993cc41dc9ee587e28a227d8e",
+     "providerId": "opta:Player:7gyfpskzbb3r5nhiniky22o6h",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Lloyd Casius",
+     "lastName": "Kelly",
+     "shirtName": "Lloyd Kelly",
+     "displayName": "Kelly",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1701dcc4409d48bcac98374a47f96dad",
+     "providerId": "opta:Player:7ohgxs03szerp6mwiiv58ryay",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Andrea",
+     "lastName": "Cambiaso",
+     "shirtName": "Andrea Cambiaso",
+     "displayName": "Cambiaso",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7df3c938bbfb46638b151f12e0d1d5a0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b07576d30f0548efa6003ec696a8e447",
+     "providerId": "opta:Player:2ugzqrpaooto1r24a6kvqf2ll",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Teun",
+     "lastName": "Koopmeiners",
+     "shirtName": "Teun Koopmeiners",
+     "displayName": "Koopmeiners",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::01e3217dea474ebea0e15b49727cd04c",
+     "providerId": "opta:Player:ahz2npxe4geixkaz25f2pc82d",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Manuel",
+     "lastName": "Locatelli",
+     "shirtName": "Manuel Locatelli",
+     "displayName": "Locatelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6e685e98714e4024ad09aefd600bd42e",
+     "providerId": "opta:Player:6j0ogojh2b7poyceg7i3k09yi",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Khephren",
+     "lastName": "Thuram-ulien",
+     "shirtName": "Khéphren Thuram",
+     "displayName": "K. Thuram",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f4f09dd907d348f5b945a628e62a2175",
+     "providerId": "opta:Player:555z9bynvux7oruirg67r8i51",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Filip",
+     "lastName": "Kostić",
+     "shirtName": "Filip Kostić",
+     "displayName": "Kostić",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 45,
+       "additionalTime": 5,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::40673b7f5d5a4fbabf9cd4ad276993f5"
+      },
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::468dfc7f2036468d90394cb8d22ae809"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0acefc0dc80a4f4284f5733d6f6a5217",
+     "providerId": "opta:Player:288nn7pbq5ewriiyb9o7da86h",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Weston James Earl",
+     "lastName": "McKennie",
+     "shirtName": "Weston McKennie",
+     "displayName": "McKennie",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 42,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2355805d93e04684aa6fdcba93a37b7d",
+     "providerId": "opta:Player:6kvtqep8korw8d75n5me0lbmc",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Kenan",
+     "lastName": "Yildiz",
+     "shirtName": "Kenan Yildiz",
+     "displayName": "Yıldız",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::590e7c135581454394bc4326ad73672e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::40673b7f5d5a4fbabf9cd4ad276993f5",
+     "providerId": "opta:Player:3ua8gs8tzx1dkdi9z88kjk9nt",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Dusan",
+     "lastName": "Vlahović",
+     "shirtName": "Dusan Vlahović",
+     "displayName": "Vlahović",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6aa53cb043e44d9884ea112ca2e9e1dc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74c42bc75c774096b689dfe348184f56",
+     "providerId": "opta:Player:3o573dblmfc1o3wkkt2nva8k5",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Mattia",
+     "lastName": "Perin",
+     "shirtName": "Mattia Perin",
+     "displayName": "Perin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::93f6462fa8f746e983d7a4fc7b4bbf93",
+     "providerId": "opta:Player:67i1f5231dvjs6i20f6xbnaxg",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Simone",
+     "lastName": "Scaglia",
+     "shirtName": "Simone Scaglia",
+     "displayName": "Scaglia",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::591a828679214db3b8beddc1e6f9af2e",
+     "providerId": "opta:Player:cv46mxj5i98p4hgtbomxlxs7o",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Federico",
+     "lastName": "Gatti",
+     "shirtName": "Federico Gatti",
+     "displayName": "Gatti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7df3c938bbfb46638b151f12e0d1d5a0",
+     "providerId": "opta:Player:2x44f29a52v8kpkkjsuiiywdm",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Francisco",
+     "lastName": "Fernandes da Conceição",
+     "shirtName": "Francisco Conceição",
+     "displayName": "Conceição",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1701dcc4409d48bcac98374a47f96dad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ed11723358234b7cb05b9cc0ae47dbfb",
+     "providerId": "kama:Player:99506",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Edon",
+     "lastName": "Zhegrova",
+     "shirtName": "Edon Zhegrova",
+     "displayName": "Zhegrova",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a0826cc1e617411898652d28f20f1cbe",
+     "providerId": "opta:Player:7pirs3v9u80j5qy71cmhzbxn8",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Vasilije",
+     "lastName": "Adžić",
+     "shirtName": "Vasilije Adžić",
+     "displayName": "Adžić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::590e7c135581454394bc4326ad73672e",
+     "providerId": "kama:Player:99387",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Ikoma-Loïs ",
+     "lastName": "Openda",
+     "shirtName": "Loïs Openda",
+     "displayName": "Openda",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2355805d93e04684aa6fdcba93a37b7d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c",
+     "providerId": "opta:Player:bjob8tftnxojnytcj7juo0ga2",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Fabio",
+     "lastName": "Miretti",
+     "shirtName": "Fabio Miretti",
+     "displayName": "Miretti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6e685e98714e4024ad09aefd600bd42e"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 3,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2de0dfeaa65140cd855ca8681b0f1e65",
+     "providerId": "kama:Player:98464",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "João Mário",
+     "lastName": "Neto Lopes",
+     "shirtName": "João Mário Neto Lopes",
+     "displayName": "João Mário",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6aa53cb043e44d9884ea112ca2e9e1dc",
+     "providerId": "kama:Player:98490",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Jonathan Christian",
+     "lastName": "David",
+     "shirtName": "Jonathan David",
+     "displayName": "J. David",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::40673b7f5d5a4fbabf9cd4ad276993f5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::468dfc7f2036468d90394cb8d22ae809",
+     "providerId": "opta:Player:5054kfjkrimomrhilbe5j3xbe",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Juan David",
+     "lastName": "Cabal Murillo",
+     "shirtName": "Juan Cabal",
+     "displayName": "Cabal",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f4f09dd907d348f5b945a628e62a2175"
+      },
+      {
+       "type": "yellow-card",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::28cc459af3e54439ba6d25b424b8fced",
+     "providerId": "opta:Player:exgknpydnzp14n18nn1w6ugpg",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Jonas Jakob",
+     "lastName": "Rouhi",
+     "shirtName": "Jonas Rouhi",
+     "displayName": "Rouhi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dfbf92e44ffa4e368ac50d4c8b095adc",
+     "providerId": "opta:Player:4u0o6pfpmohhbzuggq31bj02c",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Pedro Felipe",
+     "lastName": "De Jesus Gomes",
+     "shirtName": "Pedro Felipe",
+     "displayName": "Pedro Felipe",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:20:21.463Z",
+   "sha256": "8f674b36001ef44841aa6c0873595041252b963e704a6a77fb9325c0b96ea6d9"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:34.570Z",
+   "sha256": "ea43c31370373695f27c2a2bb2975c8a16387e1a9949880db0496fc08cee7095",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "De Gea",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ranieri L.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marì",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Parisi",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Viti",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dodò",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Fortini",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kouadio",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mandragora",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gudmundsson A.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndour",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kean",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Di Gregorio",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kalulu",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cambiaso",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cabal",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kelly L.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Locatelli",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Kostic",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "McKennie",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thuram K.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Koopmeiners",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Miretti",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Conceicao",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vlahovic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "David",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Openda",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/12",
+      "estrattoIl": "2026-10-06T08:28:34.570Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Yildiz",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 1 - 1 Juventus 22/11/2025 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

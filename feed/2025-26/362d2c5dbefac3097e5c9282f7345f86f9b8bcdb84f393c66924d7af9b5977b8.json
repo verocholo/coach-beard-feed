@@ -1,0 +1,1647 @@
+{
+ "label": "Como-Sassuolo (g13)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-11-28T19:45:00Z",
+  "hoursAfterKickoff": 7476.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:36.145Z",
+  "sha256": "257d79b4e13f72ef15b9172da13b9ef8f23af45e763f6816bdcf06ad17cd9ad8"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::ebe22512f34a40c8bad6f113f6a02039",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-11-28T19:45:00Z",
+   "matchday": 13,
+   "home": "Como",
+   "away": "Sassuolo",
+   "homeTeamId": "serie-a::Football_Team::367e70bf50b346209f8a0f16429850cb",
+   "awayTeamId": "serie-a::Football_Team::b70390ba4e3c4bc2947a37617d53e8a3",
+   "homeScore": 2,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 7
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::ebe22512f34a40c8bad6f113f6a02039",
+   "homeTeam": "Como",
+   "awayTeam": "Sassuolo",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::b8f4bf41ac6a4c38894b71c72e278bb6",
+     "providerId": "opta:Player:r0hm6ahwcvdu57bgfi5zkslx",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Jean Jules Michel",
+     "lastName": "Butez",
+     "shirtName": "Jean Butez",
+     "displayName": "Butez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::076fcd52000d423399e6caba08dd9f64",
+     "providerId": "opta:Player:a3w1uczgmswm3cwk4vmvoglhx",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Moreno Perez",
+     "shirtName": "Alberto Moreno",
+     "displayName": "Alberto Moreno",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::027970dce05b45359fbaa7d11eb36313"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::399fc3f07e3d40e5b9c40bf2a72c610f",
+     "providerId": "kama:Player:98853",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Jacobo",
+     "lastName": "Ramon Naveros",
+     "shirtName": "Jacobo Ramón",
+     "displayName": "Ramón",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::866d618d06994344b1d86dd8eb428c84",
+     "providerId": "kama:Player:99559",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Diego Carlos",
+     "lastName": "Santos Silva",
+     "shirtName": "Diego Carlos",
+     "displayName": "Diego Carlos",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e2f4254456b445c1a4cdee770f7fc8ba",
+     "providerId": "opta:Player:6d36zn3fr35yhj70yx5n445qs",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Maximo",
+     "lastName": "Perrone Rodriguez",
+     "shirtName": "Máximo Perrone",
+     "displayName": "Perrone",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::10128bcdb2974a83908a844014b93ecb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56",
+     "providerId": "opta:Player:16kv5p8we3pwqpt5ktwrb7mj9",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Mergim",
+     "lastName": "Vojvoda",
+     "shirtName": "M. Vojvoda",
+     "displayName": "Vojvoda",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ee9c033adeaa4527b7c728995c53ac62"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::97481def06eb44989781b7ff153b83a3",
+     "providerId": "opta:Player:79dz7zni5fcgh5e70spoj2j8p",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Maxence",
+     "lastName": "Caqueret",
+     "shirtName": "Maxence Caqueret",
+     "displayName": "Caqueret",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 48,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6867551cf5a6427a9ab81bd06fd9d455"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::027970dce05b45359fbaa7d11eb36313",
+     "providerId": "opta:Player:9i6hs8toyjwrh7ub04vow8wes",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Nicolas",
+     "lastName": "Paz Martinez",
+     "shirtName": "Nico Paz",
+     "displayName": "Nico Paz",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4bf5990efa3c4544ab7a0ed845efad67",
+     "providerId": "opta:Player:30ed2aojjzmqigq6vkcrzc8pg",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Jesus",
+     "lastName": "Rodriguez Caraballo",
+     "shirtName": "Jesús Rodriguez",
+     "displayName": "Jesús Rodríguez",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cd3e52132dcc42bc8bff94c65e0319aa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f861b4ecfff843f6920c13aa90631df5",
+     "providerId": "opta:Player:1p0xp2onnys7jlru55vfgf1pm",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Anastasios",
+     "lastName": "Douvikas",
+     "shirtName": "Tasos Douvikas",
+     "displayName": "Douvikas",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 14,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7b3eaf78996f41c58e891f9d08774efa",
+     "providerId": "opta:Player:685wka5xc8na423mirotcu238",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Jarden",
+     "lastName": "Tutu Addai",
+     "shirtName": "Jayden Addai",
+     "displayName": "Addai",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::db01ed9a28274042a633bc774b61fd7f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::85b349ae27e44e85a331d7b0eb2203d4",
+     "providerId": "opta:Player:c7b2gexssr0uthfxk3xfvb7bp",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Mauro",
+     "lastName": "Vigorito",
+     "shirtName": "Mauro Vigorito",
+     "displayName": "Vigorito",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::420eed39e59f4cde83107b3e055f9998",
+     "providerId": "kama:Player:99308",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Nikola",
+     "lastName": "Čavlina",
+     "shirtName": "Nikola Čavlina",
+     "displayName": "Čavlina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::10128bcdb2974a83908a844014b93ecb",
+     "providerId": "opta:Player:djpsc1fvcnrh61c071t00gmad",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Marc-Oliver",
+     "lastName": "Kempf",
+     "shirtName": "Marc-Oliver Kempf",
+     "displayName": "Kempf",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e2f4254456b445c1a4cdee770f7fc8ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7977f07bbb7f404d8f09afd4eacd5be6",
+     "providerId": "opta:Player:54foi544tygbd4sfx62t7wno",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Alex",
+     "lastName": "Valle Gomez",
+     "shirtName": "Álex Valle",
+     "displayName": "Álex Valle",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8a28bdeb07514be7abed730e8a5b4a6f",
+     "providerId": "opta:Player:46kq5653o302ebz4o5yzsss0l",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Alvaro Borja",
+     "lastName": "Morata Martin",
+     "shirtName": "A. Morata",
+     "displayName": "Morata",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::db01ed9a28274042a633bc774b61fd7f",
+     "providerId": "kama:Player:98273",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Nicolas Gerrit",
+     "lastName": "Kühn",
+     "shirtName": "Nicolas Kühn",
+     "displayName": "Kühn",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7b3eaf78996f41c58e891f9d08774efa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cd3e52132dcc42bc8bff94c65e0319aa",
+     "providerId": "opta:Player:7onr52be14is8cwcfd2k1i784",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Martin",
+     "lastName": "Baturina",
+     "shirtName": "Martin Baturina",
+     "displayName": "Baturina",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4bf5990efa3c4544ab7a0ed845efad67"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ee9c033adeaa4527b7c728995c53ac62",
+     "providerId": "opta:Player:1po7tmdv73zfjentt0p20wdlh",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Stefan",
+     "lastName": "Posch",
+     "shirtName": "Stefan Posch",
+     "displayName": "Posch",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6867551cf5a6427a9ab81bd06fd9d455",
+     "providerId": "opta:Player:92vjurxjnipl210yanki2oz8q",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Lucas",
+     "lastName": "Da Cunha",
+     "shirtName": "Lucas da Cunha",
+     "displayName": "da Cunha",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::97481def06eb44989781b7ff153b83a3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1e98bf9e66dd413c9ffb846e76aec1c1",
+     "providerId": "opta:Player:3pba28sk4auqjp27jfssfvvxm",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Ignace Fabienne",
+     "lastName": "Van Der Brempt",
+     "shirtName": "Ignace Van der Brempt",
+     "displayName": "Van der Brempt",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d06c2e6b91bb4f10a33b68fc87a178c0",
+     "providerId": "opta:Player:209wrczpg1xivjis7rmntw0r9",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Cerri",
+     "shirtName": "Alberto Cerri",
+     "displayName": "Cerri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0c6275822d8f414991d7fc01f42d8c38",
+     "providerId": "kama:Player:99070",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Arijanet Anan",
+     "lastName": "Murić",
+     "shirtName": "Arijanet Murić",
+     "displayName": "Murić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::863e4f06366d4728b311e9aa7a568696",
+     "providerId": "opta:Player:7uf7y7xa6hy3gieetcte3td2i",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Josh Thomas",
+     "lastName": "Doig",
+     "shirtName": "Josh Doig",
+     "displayName": "Doig",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4ad6de1187a440b0a4cb32957804d272"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4a4e1ff8686341f98a7270a97605dd2a",
+     "providerId": "opta:Player:17inz8artrqynbg3qbme42r8q",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Tarik",
+     "lastName": "Muharemović",
+     "shirtName": "Tarik Muharemović",
+     "displayName": "Muharemović",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::92d8dd7d3de74369bddf1d125ed5bbad",
+     "providerId": "opta:Player:dnk24js88d4ie661mwo7jkq95",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Sebastian",
+     "lastName": "Walukiewicz",
+     "shirtName": "Sebastian Walukiewicz",
+     "displayName": "Walukiewicz",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8057b4914e084f28aba58281a65a589c",
+     "providerId": "opta:Player:7nfr8xuo637qma7ovxx4r9fmy",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Jay Noah",
+     "lastName": "Idzes",
+     "shirtName": "Jay Idzes",
+     "displayName": "Idzes",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d48a6ffbde8f4ad58ae8d9f9443792e7",
+     "providerId": "kama:Player:98957",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Ismaël Kenneth",
+     "lastName": "Koné",
+     "shirtName": "Ismaël Koné",
+     "displayName": "I. Koné",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 37,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c735b932a19f4095a9671533d8a6170c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::44e451711e664fd4875632c28cd8fd2a",
+     "providerId": "opta:Player:c5a7z6vphv9tp9ddid5jnrnx1",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Nemanja",
+     "lastName": "Matić",
+     "shirtName": "N. Matic",
+     "displayName": "Matić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::51a8972006ab47c9a0aa07a018f46b60",
+     "providerId": "opta:Player:cc04mat3snly9oe4bt7xaeooa",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Kristian",
+     "lastName": "Thorstvedt",
+     "shirtName": "Kristian Thorstvedt",
+     "displayName": "Thorstvedt",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3899fafda37541d8a5c395226d5e9c38",
+     "providerId": "opta:Player:m030tubgf3zpgf0axzm7z26t",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Domenico",
+     "lastName": "Berardi",
+     "shirtName": "D. Berardi",
+     "displayName": "Berardi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 51,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bacb2fa09efd437f9a2b7c7d6fbae18e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::797109e26eb346e3a6de69944030f6ea",
+     "providerId": "opta:Player:27xj7me8icr5ptta7kwx0kfs9",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Armand Gaetan",
+     "lastName": "Laurienté",
+     "shirtName": "Armand Laurienté",
+     "displayName": "Laurienté",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::996213fa92014868bf3a50155d8bd4dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba",
+     "providerId": "opta:Player:153ljvbov0n176vm9fdaizoix",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Andrea",
+     "lastName": "Pinamonti",
+     "shirtName": "A. Pinamonti",
+     "displayName": "Pinamonti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dd4b8149f2c14166849c809b20c38fb4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b10dca672e374b858d71d691bc041009",
+     "providerId": "opta:Player:wiyhb64zg4hxe0dussuc3209",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Giacomo",
+     "lastName": "Satalino",
+     "shirtName": "Giacomo Satalino",
+     "displayName": "Satalino",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1eab7370f43341dc8c9e7058debd7866",
+     "providerId": "opta:Player:1vzkayk22kpci17ggh5kkc3u2",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Gioele",
+     "lastName": "Zacchi",
+     "shirtName": "Gioele Zacchi",
+     "displayName": "Zacchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4ad6de1187a440b0a4cb32957804d272",
+     "providerId": "opta:Player:5mjg1aoi0j61wsx2tc0tidr6x",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Fali",
+     "lastName": "Cande",
+     "shirtName": "Fali Candé",
+     "displayName": "Candé",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::863e4f06366d4728b311e9aa7a568696"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bacb2fa09efd437f9a2b7c7d6fbae18e",
+     "providerId": "opta:Player:bh9jia8qgkhpm5xn82bx0hhck",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Cristian",
+     "lastName": "Volpato",
+     "shirtName": "C. Volpato",
+     "displayName": "Volpato",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 51,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3899fafda37541d8a5c395226d5e9c38"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4421d3312d534346a1d4a852d63728a5",
+     "providerId": "opta:Player:c23q56z612clw2oxpordhrwiy",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Walid",
+     "lastName": "Cheddira",
+     "shirtName": "Walid Cheddira",
+     "displayName": "Cheddira",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::996213fa92014868bf3a50155d8bd4dd",
+     "providerId": "opta:Player:5f13ro5hgmago2bmqtzjw5ey",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Alieu",
+     "lastName": "Fadera",
+     "shirtName": "Alieu Fadera",
+     "displayName": "Fadera",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::797109e26eb346e3a6de69944030f6ea"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dd4b8149f2c14166849c809b20c38fb4",
+     "providerId": "opta:Player:5o8qoe2fv7ppwrwdyx6v5fdd6",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Luca",
+     "lastName": "Moro",
+     "shirtName": "Luca Moro",
+     "displayName": "L. Moro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::81c9e3d7e6d94a7384066d055f96a06b",
+     "providerId": "opta:Player:68iplmlkdp5wkgnlnnanj9be1",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Woyo",
+     "lastName": "Coulibaly",
+     "shirtName": "Woyo Coulibaly",
+     "displayName": "W. Coulibaly",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f8ed011899414214abd6e06bf91e47d3",
+     "providerId": "opta:Player:5ld0lornm6gih88rs3qg59jze",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Cas Ruben",
+     "lastName": "Odenthal",
+     "shirtName": "Cas Odenthal",
+     "displayName": "Odenthal",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aeb486a12171434ca64e9337ac4697dc",
+     "providerId": "kama:Player:7546",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Tommaso",
+     "lastName": "Macchioni",
+     "shirtName": "Tommaso Macchioni",
+     "displayName": "Macchioni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d25b0133f0f443239b9dd4ffdbb16da0",
+     "providerId": "kama:Player:7659",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Christian",
+     "lastName": "Frangella",
+     "shirtName": "Christian Frangella",
+     "displayName": "Frangella",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c735b932a19f4095a9671533d8a6170c",
+     "providerId": "opta:Player:2r1hv8jivl8q2zd3egpipfe38",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Edoardo",
+     "lastName": "Iannoni",
+     "shirtName": "Edoardo Iannoni",
+     "displayName": "Iannoni",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d48a6ffbde8f4ad58ae8d9f9443792e7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3ec59c9edae54c99adcb787aa2b8f4da",
+     "providerId": "opta:Player:bs140bnmdwxoygd90eh8r9v55",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Nicholas",
+     "lastName": "Pierini",
+     "shirtName": "Nicholas Pierini",
+     "displayName": "Pierini",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:20:35.054Z",
+   "sha256": "b0085c66d5fa16299b9487075679c2d572ecf896b975f49e36090a11aa844583"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:36.145Z",
+   "sha256": "257d79b4e13f72ef15b9172da13b9ef8f23af45e763f6816bdcf06ad17cd9ad8",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Butez",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Diego Carlos",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vojvoda",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Moreno Alb.",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Posch",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ramon",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kempf",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Caqueret",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Da Cunha",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Perrone",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Paz N.",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 8.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baturina",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Douvikas",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Addai",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kuhn",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Rodriguez Je.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Muric",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Walukiewicz",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Doig",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Idzes",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Candè",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Muharemovic",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Matic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Volpato",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thorstvedt",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Konè I.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fadera",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Iannoni",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Berardi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pinamonti",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Laurientè",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Moro L.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 2 - 0 Sassuolo 28/11/2025 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

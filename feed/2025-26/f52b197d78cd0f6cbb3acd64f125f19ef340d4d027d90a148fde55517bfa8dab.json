@@ -1,0 +1,1563 @@
+{
+ "label": "Parma-Genoa (g21)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-01-18T11:30:00Z",
+  "hoursAfterKickoff": 6260.783666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:48.923Z",
+  "sha256": "7453ed43e3245985e4e41743522ae721c4c04f792f0b0b9debf31bb7619eac63"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::8ba9f37b3b9c40ee87a8eab303305066",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-01-18T11:30:00Z",
+   "matchday": 21,
+   "home": "Parma",
+   "away": "Genoa",
+   "homeTeamId": "serie-a::Football_Team::3294993c79b14d918ccdc78da0fb90c5",
+   "awayTeamId": "serie-a::Football_Team::8c7aa94d22f44738951748e2ccdf319a",
+   "homeScore": 0,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::8ba9f37b3b9c40ee87a8eab303305066",
+   "homeTeam": "Parma",
+   "awayTeam": "Genoa",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::c34da415302b4416a28d463708a8ec16",
+     "providerId": "opta:Player:ais3wh8wz8oeyjpwv84o4ybfu",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Edoardo",
+     "lastName": "Corvi",
+     "shirtName": "Edoardo Corvi",
+     "displayName": "Corvi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c738f36256404be3830f701e8ee68149",
+     "providerId": "opta:Player:befbveuodyomkhm9ed31kb4a2",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Lautaro Rodrigo",
+     "lastName": "Valenti",
+     "shirtName": "Lautaro Valenti",
+     "displayName": "Valenti",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 27,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d58bdcc9557641d3868baea58a37bdf3",
+     "providerId": "opta:Player:d9bg5jjv8pz0f8u55x3hg0962",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Emanuele",
+     "lastName": "Valeri",
+     "shirtName": "Emanuele Valeri",
+     "displayName": "Valeri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9cf5d7690d324ad2b61516ca923dbc05",
+     "providerId": "opta:Player:c1sj6aogyfpm5wqvhd2bli7e",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Alessandro",
+     "lastName": "Circati",
+     "shirtName": "Alessandro Circati",
+     "displayName": "Circati",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 35,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a01dba5f6172497b9d2f35d1cb37d24a",
+     "providerId": "opta:Player:r9rn4eaw3twb224jrpojz0x6",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Enrico",
+     "lastName": "Delprato",
+     "shirtName": "Enrico Delprato",
+     "displayName": "Delprato",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b",
+     "providerId": "opta:Player:b7l20ljluxk74v0ok82s0iz56",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Adrian",
+     "lastName": "Bernabe' Garcia",
+     "shirtName": "Adrián Bernabé",
+     "displayName": "Bernabé",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::18105742a5e94cd9a0d31ac35bc60506"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4b27493789914a909a54f27f57cd3e45",
+     "providerId": "opta:Player:cjf412x9sg56vos0jkj85k3ys",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Lamine Mandela",
+     "lastName": "Keita",
+     "shirtName": "Mandela Keita",
+     "displayName": "Keita",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abcfe9eb7e2a40eaad6b03168cb911bb",
+     "providerId": "opta:Player:1to07m18m7wqroewvyxzrz0lx",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Nahuel",
+     "lastName": "Estevez Alvarez",
+     "shirtName": "Nahuel Estévez",
+     "displayName": "Estévez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a",
+     "providerId": "opta:Player:7maur0rp96hubnkuu84576wpg",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mateo",
+     "lastName": "Pellegrino Casalanguida",
+     "shirtName": "Mateo Pellegrino",
+     "displayName": "Pellegrino",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f1f86134a2ac4290ba546f5b014e061f",
+     "providerId": "opta:Player:4s3dvpdloqr1hpl9svn8rk222",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Jacob Axel Per",
+     "lastName": "Ondrejka",
+     "shirtName": "Jacob Ondrejka",
+     "displayName": "Ondrejka",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 20,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a16050d0946f41e79f0b72cf539dd4a1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cfeb1d0545a64b06bee7773550f7198c",
+     "providerId": "opta:Player:3kbhgmnf6bhfgut0jxf4m2sfe",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Gaetano Pio",
+     "lastName": "Oristanio",
+     "shirtName": "Gaetano Oristanio",
+     "displayName": "Oristanio",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::46afafc5e885483e954daa8e73863370"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d24795262b354d0bb0fb4ab37dae7ced",
+     "providerId": "opta:Player:824rbovqk1q9ta7i4dzo26bmy",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Filippo",
+     "lastName": "Rinaldi",
+     "shirtName": "Filippo Rinaldi",
+     "displayName": "Rinaldi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8c2e5e1e9d364efa83869db6100f8b01",
+     "providerId": "kama:Player:1550",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Manuel",
+     "lastName": "Zambelli",
+     "shirtName": "Gabriele Casentini",
+     "displayName": "Casentini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5908e4c64e5a46f1a6c846810586e624",
+     "providerId": "opta:Player:25wawsdczm69ctbpw5nn51kvd",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Adrian Dawid",
+     "lastName": "Benedyczak",
+     "shirtName": "Adrian Benedyczak",
+     "displayName": "Benedyczak",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::95113df1d4494b4cbf1e7f378d740782",
+     "providerId": "opta:Player:3m81rmpqzm0j40978dmjig38q",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mathias Johan Fjortoft",
+     "lastName": "Lovik",
+     "shirtName": "Mathias Løvik",
+     "displayName": "Løvik",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18105742a5e94cd9a0d31ac35bc60506",
+     "providerId": "kama:Player:99071",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Oliver Sørensen",
+     "lastName": "Jensen",
+     "shirtName": "Oliver Sørensen",
+     "displayName": "Sørensen",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffb55f8e4e384f1d86a923e70d2629d2",
+     "providerId": "kama:Player:98352",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Christian Nahuel",
+     "lastName": "Ordonez",
+     "shirtName": "Christian Ordóñez",
+     "displayName": "Ordoñez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::46afafc5e885483e954daa8e73863370",
+     "providerId": "kama:Player:99339",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Benjamin",
+     "lastName": "Cremaschi",
+     "shirtName": "Benjamin Cremaschi",
+     "displayName": "Cremaschi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cfeb1d0545a64b06bee7773550f7198c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a16050d0946f41e79f0b72cf539dd4a1",
+     "providerId": "kama:Player:99268",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Sascha",
+     "lastName": "Britschgi",
+     "shirtName": "Sascha Britschgi",
+     "displayName": "Britschgi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f1f86134a2ac4290ba546f5b014e061f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94",
+     "providerId": "opta:Player:dp1y9x5r6z1q120hj3sgyhxat",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Milan",
+     "lastName": "Djuric",
+     "shirtName": "Milan Djuric",
+     "displayName": "Djuric",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4919025f871840d199d459a2c636266e",
+     "providerId": "opta:Player:7dnu1vdavskc4ct33k88lpdcl",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Patrick",
+     "lastName": "Cutrone",
+     "shirtName": "Patrick Cutrone",
+     "displayName": "Cutrone",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::038ef975d5434ce6a293c9497fd6bb65",
+     "providerId": "kama:Player:99291",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mariano Emir",
+     "lastName": "Troilo",
+     "shirtName": "Mariano Troilo",
+     "displayName": "Troilo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::03ea7d3b17b74069830746c24db1de69",
+     "providerId": "opta:Player:9dc7uictce9dq0tbphn74qz85",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Nicola",
+     "lastName": "Leali",
+     "shirtName": "Nicola Leali",
+     "displayName": "Leali",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488",
+     "providerId": "opta:Player:eh9sh9aa10zrp80l6e4l0c7h1",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Aaron",
+     "lastName": "Martin Caricol",
+     "shirtName": "Aarón Martín",
+     "displayName": "Martín",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d",
+     "providerId": "opta:Player:8psio8fqce76uinoqpilzxsd1",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Stefano",
+     "lastName": "Sabelli",
+     "shirtName": "Stefano Sabelli",
+     "displayName": "Sabelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ac9814fb4e4245378d64a972b9fd3199",
+     "providerId": "opta:Player:7ojvhhfvbtbn60sc50y4l2ctm",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Johan Felipe",
+     "lastName": "Vasquez Ibarra",
+     "shirtName": "Johan Vásquez",
+     "displayName": "J. Vásquez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::816125e2bba042b38c44a6bb8b005f83",
+     "providerId": "opta:Player:40msbo4o5bwx0oeuz4743w161",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Leo Skiri",
+     "lastName": "Ostigard",
+     "shirtName": "Leo Østigård",
+     "displayName": "Østigård",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 36,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::65bb7b8d02084d858daeba0cff0cc4eb",
+     "providerId": "opta:Player:1lxfpn0wmr895me9xbzcfnh90",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Marcandalli",
+     "shirtName": "Alessandro Marcandalli",
+     "displayName": "Marcandalli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dbd53bdc4ffe446da33ce7774384da90",
+     "providerId": "opta:Player:7u9bpiajlgr3zibj89pub7wbu",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Mikael Egill",
+     "lastName": "Ellertsson",
+     "shirtName": "Mikael Ellertsson",
+     "displayName": "Ellertsson",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4af8f3465e44cefbe9617f9c576691b",
+     "providerId": "opta:Player:4euxcqawlks4c56pqj8xvwbf9",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Ruslan",
+     "lastName": "Malinovskyi",
+     "shirtName": "Ruslan Malinovskyi",
+     "displayName": "Malinovskyi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a",
+     "providerId": "opta:Player:2um03dny7h3sdvehq3bygd1t6",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Morten Wetche",
+     "lastName": "Frendrup",
+     "shirtName": "Morten Frendrup",
+     "displayName": "Frendrup",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573",
+     "providerId": "opta:Player:cnriqwh17pqgz7p2gt74uar6c",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Vitor Manuel",
+     "lastName": "Carvalho De Oliveira",
+     "shirtName": "Vitinha",
+     "displayName": "Vitinha",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d676cff54bb6432a8e2880e280dd2fef"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dbf2a2f97997499e82518bd5387c21e9",
+     "providerId": "kama:Player:3102",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Ernestas",
+     "lastName": "Lysionok",
+     "shirtName": "Ernestas Lysionok",
+     "displayName": "Lysionok",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::308ee64855794d61811119f70f5f018e",
+     "providerId": "opta:Player:4b6mhmoeo78f8x928q2imp591",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Daniele",
+     "lastName": "Sommariva",
+     "shirtName": "Daniele Sommariva",
+     "displayName": "Sommariva",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f3670f8a13ba4c38a58d8f59eda2e1b0",
+     "providerId": "opta:Player:9qzxygb9hyzag1szans0k2jth",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Morten",
+     "lastName": "Thorsby",
+     "shirtName": "Morten Thorsby",
+     "displayName": "Thorsby",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b",
+     "providerId": "opta:Player:17au7v1ocl4zab872g59821yi",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Walter",
+     "lastName": "Messias Junior",
+     "shirtName": "Junior Messias",
+     "displayName": "Messias",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4af8f3465e44cefbe9617f9c576691b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3e3618a7ee924889973db5ff58423c2b",
+     "providerId": "opta:Player:b4lc7czw7al6g7a7qzcqzya22",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Jean Emile Junior",
+     "lastName": "Onana Onana",
+     "shirtName": "Jean Onana",
+     "displayName": "Onana",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934",
+     "providerId": "opta:Player:bf41pexjnkx8o1wdxudesfac4",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Osayuki Jeff",
+     "lastName": "Ekhator",
+     "shirtName": "Jeff Ekhator",
+     "displayName": "Ekhator",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4f99b059e04c47dc9feb28b23e95f252",
+     "providerId": "opta:Player:8srykssgtk4opuabiet4ahpn8",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Hugo Francisco",
+     "lastName": "Cuenca Martinez",
+     "shirtName": "Hugo Cuenca",
+     "displayName": "Cuenca",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50f786bf0927432c9ee1d36704a91106",
+     "providerId": "opta:Player:dq2eqqywinhsh9ijg8amqyp78",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Sebastian Villaume",
+     "lastName": "Otoa",
+     "shirtName": "Sebastian Otoa",
+     "displayName": "Otoa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f0f15f171e034b32a0a4559ee10219cf",
+     "providerId": "opta:Player:dx7fg77tfqytimfiixw9tyfx0",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Seydou",
+     "lastName": "Fini",
+     "shirtName": "Seydou Fini",
+     "displayName": "Fini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2681452588b14a15a9aa5afe6fab05d3",
+     "providerId": "opta:Player:f2pknjv2uohldehbp39j0so2d",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Gnaly Albert Maxwel",
+     "lastName": "Cornet",
+     "shirtName": "Maxwel Cornet",
+     "displayName": "Cornet",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c",
+     "providerId": "opta:Player:7xdhy2xi9mrhzjn6aiatd9ono",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Patrizio",
+     "lastName": "Masini",
+     "shirtName": "Patrizio Masini",
+     "displayName": "Masini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cc52adc5bbc24b01b26fb63196963491",
+     "providerId": "opta:Player:mvlk84jquwhfjb5a8ic9el0",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Lorenzo",
+     "lastName": "Venturino",
+     "shirtName": "Lorenzo Venturino",
+     "displayName": "Venturino",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d676cff54bb6432a8e2880e280dd2fef",
+     "providerId": "opta:Player:8fj38q565gmk7iiy6i4s0idqs",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Xheto Joi",
+     "lastName": "Nuredini",
+     "shirtName": "Joi Nuredini",
+     "displayName": "Nuredini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:23:08.095Z",
+   "sha256": "500ba6d7473debc102914f9776c34ac2acaaa326577de1aff22fdf6af94a399f"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:48.923Z",
+   "sha256": "7453ed43e3245985e4e41743522ae721c4c04f792f0b0b9debf31bb7619eac63",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Leali",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sabelli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Martin",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vasquez",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ostigard",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marcandalli",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Malinovskyi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Messias",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frendrup",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ellertsson",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Masini",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Colombo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vitinha O.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekhator",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nuredini",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Corvi",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valenti",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valeri",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Circati",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Delprato",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Britschgi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Estevez",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Oristanio",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernabè",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Keita M.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ondrejka",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sorensen O.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cremaschi",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Djuric",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pellegrino M.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 0 - 0 Genoa 18/01/2026 - 12:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

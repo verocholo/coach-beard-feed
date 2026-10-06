@@ -1,0 +1,1620 @@
+{
+ "label": "Napoli-Cagliari (g2)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-08-30T18:45:00Z",
+  "hoursAfterKickoff": 9637.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:18.836Z",
+  "sha256": "2f84b49c8e8e8a0feb6d923e78753c65f57b241627d3bfe4bf5775ebf3c43f52"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::8e618e19de69403ba52e2fc8aea84b43",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-08-30T18:45:00Z",
+   "matchday": 2,
+   "home": "Napoli",
+   "away": "Cagliari",
+   "homeTeamId": "serie-a::Football_Team::f791dab8f0e4449e9884dd8dbd42dbcc",
+   "awayTeamId": "serie-a::Football_Team::25aecd0eda3e4453aabd9a9d5e7fba0d",
+   "homeScore": 1,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 7
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::8e618e19de69403ba52e2fc8aea84b43",
+   "homeTeam": "Napoli",
+   "awayTeam": "Cagliari",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::18cc6f2bdba14a5a9cca5268d2efafce",
+     "providerId": "opta:Player:af58rhtg8ck7c8g7nwfs67d91",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Alex",
+     "lastName": "Meret",
+     "shirtName": "Alex Meret",
+     "displayName": "Meret",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4",
+     "providerId": "opta:Player:8n0c5t5wzfkoauryyzy8be0gl",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Juan Guilherme",
+     "lastName": "Nunes Jesus",
+     "shirtName": "Juan Jesus",
+     "displayName": "Juan Jesus",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ef2c2d627ff94df4840479fa3473a59c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::25a5058852ed4308b29227d29a952365",
+     "providerId": "opta:Player:2kfkjjqh7vrfcfbgr4aa85dqt",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Amir",
+     "lastName": "Rrahmani",
+     "shirtName": "Amir Rrahmani",
+     "displayName": "Am. Rrahmani",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::82f747384bae4018a6921bc0568fb9be",
+     "providerId": "opta:Player:5d9i8ubibyiecxecr9jjvxexh",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Giovanni",
+     "lastName": "Di Lorenzo",
+     "shirtName": "G. Di Lorenzo",
+     "displayName": "Di Lorenzo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b",
+     "providerId": "opta:Player:9ka7y81b5kst146mhq7mom5ed",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Leonardo",
+     "lastName": "Spinazzola",
+     "shirtName": "Leonardo Spinazzola",
+     "displayName": "Spinazzola",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4d288b42418140a196d4ca71601d0c58"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c52699f76a744afca8862f2584b7a860",
+     "providerId": "opta:Player:3bhy6x04rbwzk0nh1fm59dmnd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Andre Frank",
+     "lastName": "Zambo Anguissa",
+     "shirtName": "Frank Anguissa",
+     "displayName": "Anguissa",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ef2c2d627ff94df4840479fa3473a59c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::33233f2998d9447a9b18d053eeb5712b",
+     "providerId": "opta:Player:c2jqa9vozhqu7x79h5rr2n1ed",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Kevin",
+     "lastName": "De Bruyne",
+     "shirtName": "Kevin De Bruyne",
+     "displayName": "De Bruyne",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 52,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5e828057c33149518121292db068fc6f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0e681e091f934fa89130c1476a93a270",
+     "providerId": "opta:Player:9y8fnvazj02vy31ljx3du0d79",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Stanislav",
+     "lastName": "Lobotka",
+     "shirtName": "Stanislav Lobotka",
+     "displayName": "Lobotka",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::310a726a64854ced91418ec3cc090391",
+     "providerId": "opta:Player:9fvo9v5e9r0ptibied6ejv3zd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Scott Francis",
+     "lastName": "Mctominay",
+     "shirtName": "Scott McTominay",
+     "displayName": "McTominay",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2d6bc8e9be4e45ab976bf3d43595aad9",
+     "providerId": "opta:Player:9bba1hgnx5mzpkzeazsoikn9x",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Matteo",
+     "lastName": "Politano",
+     "shirtName": "Matteo Politano",
+     "displayName": "Politano",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::23f8b38d705e43bfaffccba16e316b37",
+     "providerId": "opta:Player:6w6ewzxircqxk6dsrs1rvc8ru",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Lorenzo",
+     "lastName": "Lucca",
+     "shirtName": "L. Lucca",
+     "displayName": "Lucca",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::13de6cd1a5be4a3d8180e0710b5af103"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b7fab203b474fdf8a0d905faa8d9396",
+     "providerId": "opta:Player:dz33ybo9w22154xeaiteuca8l",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Nikita",
+     "lastName": "Contini Baranovsky",
+     "shirtName": "Nikita Contini",
+     "displayName": "Contini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5b15b16a974543dc8fab8732ca7835ae",
+     "providerId": "opta:Player:5syage212151fcixahbq3k8ut",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Vanja",
+     "lastName": "Milinković-Savić",
+     "shirtName": "Vanja Milinković-Savić",
+     "displayName": "Milinković-Savić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ef2c2d627ff94df4840479fa3473a59c",
+     "providerId": "opta:Player:22x1ucwwak58wi6r5x1j6ohk9",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Alessandro",
+     "lastName": "Buongiorno",
+     "shirtName": "Alessandro Buongiorno",
+     "displayName": "Buongiorno",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::97e494fcc78543cd9ac8219e5e97503c",
+     "providerId": "opta:Player:5okl8s3e8ad2add75m46ojo4p",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Billy Clifford",
+     "lastName": "Gilmour",
+     "shirtName": "Billy Gilmour",
+     "displayName": "Gilmour",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4d288b42418140a196d4ca71601d0c58",
+     "providerId": "opta:Player:896uaqjrz22q6fqjfzuwf77jd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Mathias",
+     "lastName": "Olivera Miramontes",
+     "shirtName": "Mathías Olivera",
+     "displayName": "Olivera",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b79371c5da14434399a2ae767cfc861e",
+     "providerId": "opta:Player:cjliznudpjjraqhj47l40wil0",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Antonio",
+     "lastName": "Vergara",
+     "shirtName": "Antonio Vergara",
+     "displayName": "Vergara",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f6df7b58957c4eb5ba387d10eddbfd20",
+     "providerId": "opta:Player:el1iasw3t612r6gawvodhyf4k",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Luis",
+     "lastName": "Hasa",
+     "shirtName": "Luis Hasa",
+     "displayName": "Hasa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::517b28659d184092827d69958ea33574",
+     "providerId": "opta:Player:etryzuxz65dmn5ewmocse66l1",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Pasquale",
+     "lastName": "Mazzocchi",
+     "shirtName": "Pasquale Mazzocchi",
+     "displayName": "Mazzocchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bcf150cd064745dd84cdf52fff84fd23",
+     "providerId": "opta:Player:42cg746sa90jla5x4islj9pwq",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Sam",
+     "lastName": "Beukema",
+     "shirtName": "Sam Beukema",
+     "displayName": "Beukema",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a1ee3415386144ad88b60048528e69bd",
+     "providerId": "opta:Player:1ijyezydbb4zzio95vj0sr09g",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Luca",
+     "lastName": "Marianucci",
+     "shirtName": "Luca Marianucci",
+     "displayName": "Marianucci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::13de6cd1a5be4a3d8180e0710b5af103",
+     "providerId": "opta:Player:1yr4mqzlcq3fj7u1l8a3bvc44",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Giuseppe",
+     "lastName": "Ambrosino Di Bruttopilo",
+     "shirtName": "Giuseppe Ambrosino",
+     "displayName": "Ambrosino",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::23f8b38d705e43bfaffccba16e316b37"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5e828057c33149518121292db068fc6f",
+     "providerId": "kama:Player:98389",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Noa Noell",
+     "lastName": "Lang",
+     "shirtName": "Noa Lang",
+     "displayName": "Lang",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::33233f2998d9447a9b18d053eeb5712b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4421d3312d534346a1d4a852d63728a5",
+     "providerId": "opta:Player:c23q56z612clw2oxpordhrwiy",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Walid",
+     "lastName": "Cheddira",
+     "shirtName": "Walid Cheddira",
+     "displayName": "Cheddira",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fd65b020045d4bfcad7b55cd5eb1355f",
+     "providerId": "opta:Player:banl2dah01b9j0abhwrtzn66s",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Coli",
+     "lastName": "Saco",
+     "shirtName": "Coli Saco",
+     "displayName": "Saco",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f67db0ff9c994cc2892588aa52ab1786",
+     "providerId": "opta:Player:ab420lzne042a3e3b2lfmy5ii",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Elia",
+     "lastName": "Caprile",
+     "shirtName": "E. Caprile",
+     "displayName": "Caprile",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::99890eab78bc4ef7b90a8afaff9ac22f",
+     "providerId": "opta:Player:2uvexgjeidkvy6qu4i2nf14a",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Adam",
+     "lastName": "Obert",
+     "shirtName": "Adam Obert",
+     "displayName": "Obert",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4a5bc90856df482c9a44a8a85ea7efb0",
+     "providerId": "opta:Player:8lxt5lqavooy0xo0pcinqluz8",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Marco",
+     "lastName": "Palestra",
+     "shirtName": "Marco Palestra",
+     "displayName": "Palestra",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::300d27fc3b0a4b2291eb725d71183844"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3b58041ca667411c8526f236ab74b4e9",
+     "providerId": "opta:Player:13ey9mb0ullya36lpv62pspre",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Gabriele",
+     "lastName": "Zappa",
+     "shirtName": "Gabriele Zappa",
+     "displayName": "Zappa",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 5,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bce17b00cb494129b8b8816fb595d74a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7be97fe90708442e8e31a6a48e0f01e5",
+     "providerId": "opta:Player:d4vdrtte9kb9qmlkrx1rvgk45",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Yerry Fernando",
+     "lastName": "Mina Gonzalez",
+     "shirtName": "Yerry Mina",
+     "displayName": "Mina",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2e9c48828f524b9fbb10b8ea2907bba6",
+     "providerId": "opta:Player:cnk07o3823zl5gd7qr2bdks7p",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Sebastiano",
+     "lastName": "Luperto",
+     "shirtName": "Sebastiano Luperto",
+     "displayName": "Luperto",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9",
+     "providerId": "opta:Player:akvrot9hi5mylunfr07nytt04",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Matteo",
+     "lastName": "Prati",
+     "shirtName": "Matteo Prati",
+     "displayName": "Prati",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::06c65f309d6740948f30ef3425da1e88"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ea7e072211441fe9dccc9cfa52fb58e",
+     "providerId": "opta:Player:8ofihttdgz6nyxxon2zim7x0p",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Michael",
+     "lastName": "Folorunsho Ijiemuan",
+     "shirtName": "Michael Folorunsho",
+     "displayName": "Folorunsho",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4348f99e8c948f083f28386a7c61908"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0d0f43d9fa874b839d9be10ca8ed2501",
+     "providerId": "opta:Player:43rid94d7jz7u5ba4xzb8bbe2",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Ndary Michel",
+     "lastName": "Adopo",
+     "shirtName": "Michel Adopo",
+     "displayName": "Adopo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6cd4530a22374a9e8b73d6614d93e5ee",
+     "providerId": "opta:Player:cmg6y5t0yuzeuzuxitelbvglx",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Alessandro",
+     "lastName": "Deiola",
+     "shirtName": "Alessandro Deiola",
+     "displayName": "Deiola",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba",
+     "providerId": "opta:Player:c4n7kjp8c47trslpssnyqjo16",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Sebastiano",
+     "lastName": "Esposito",
+     "shirtName": "Sebastiano Esposito",
+     "displayName": "S. Esposito",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1048dd798cd64a7488fdbd7f37a43813"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::521d74f8dbe1415bb54378aabbf682c9",
+     "providerId": "opta:Player:apvsegsrcr043jtqe5mqxn88a",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Giuseppe",
+     "lastName": "Ciocci",
+     "shirtName": "Giuseppe Ciocci",
+     "displayName": "Ciocci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9fa3fa319d9d46319bc11c9a4d828915",
+     "providerId": "kama:Player:2033",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Vincenzo",
+     "lastName": "Sarno",
+     "shirtName": "Vincenzo Sarno",
+     "displayName": "Sarno",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4348f99e8c948f083f28386a7c61908",
+     "providerId": "opta:Player:cx7olq6m4no1tvyou3j58c2z8",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Riyad",
+     "lastName": "Idrissi",
+     "shirtName": "Riyad Idrissi",
+     "displayName": "Idrissi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ea7e072211441fe9dccc9cfa52fb58e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59",
+     "providerId": "opta:Player:c7u5a6ngr4f839ibw3b0opsk5",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Luca",
+     "lastName": "Mazzitelli",
+     "shirtName": "Luca Mazzitelli",
+     "displayName": "Mazzitelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdae414cf24d4ce384e8c8895da9463d",
+     "providerId": "kama:Player:99028",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Semih",
+     "lastName": "Kılıçsoy ",
+     "shirtName": "Semih Kılıçsoy ",
+     "displayName": "Kılıçsoy",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::06c65f309d6740948f30ef3425da1e88",
+     "providerId": "opta:Player:1ct0gujao4wvj1ff3aebqgqnd",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Gianluca",
+     "lastName": "Gaetano",
+     "shirtName": "G. Gaetano",
+     "displayName": "Gaetano",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::629f6681748f4e0ebd90f9e418949897",
+     "providerId": "opta:Player:ancokw84xekm3uve7tnoiiju",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Mattia",
+     "lastName": "Felici",
+     "shirtName": "M. Felici",
+     "displayName": "Felici",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::300d27fc3b0a4b2291eb725d71183844",
+     "providerId": "opta:Player:cgv93t4k8bzl9neswrjfcdbai",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Alessandro",
+     "lastName": "Di Pardo",
+     "shirtName": "A. Di Pardo",
+     "displayName": "Di Pardo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4a5bc90856df482c9a44a8a85ea7efb0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0a0dbd427fdb4e91ac9b401ed5150844",
+     "providerId": "opta:Player:8f4dnhlapwc3zd9sz7a6pb651",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Marko",
+     "lastName": "Rog",
+     "shirtName": "Marko Rog",
+     "displayName": "Rog",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7ad851764d124ab193e66a115ed44cb4",
+     "providerId": "opta:Player:921amcj5jv6wu2p1qbbo4g2s4",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Nicolò",
+     "lastName": "Cavuoti",
+     "shirtName": "Nicolò Cavuoti",
+     "displayName": "Cavuoti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1048dd798cd64a7488fdbd7f37a43813",
+     "providerId": "opta:Player:8bjzw0pgu2gbwhyfm2k62hv8q",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Gennaro",
+     "lastName": "Borrelli",
+     "shirtName": "Gennaro Borrelli",
+     "displayName": "Borrelli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bce17b00cb494129b8b8816fb595d74a",
+     "providerId": "opta:Player:e0gv5rugqtsipy89z4rk7hsoa",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Zito André Sebastião",
+     "lastName": "Luvumbo",
+     "shirtName": "Zito Luvumbo",
+     "displayName": "Luvumbo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3b58041ca667411c8526f236ab74b4e9"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:17:30.404Z",
+   "sha256": "6ae7551caf7bbf326540edc8e1f2b32596c88aab56b5298815809e278f5b93f3"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:18.836Z",
+   "sha256": "2f84b49c8e8e8a0feb6d923e78753c65f57b241627d3bfe4bf5775ebf3c43f52",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Caprile",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Luperto",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mina",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zappa",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Di Pardo",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Obert",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Palestra",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Idrissi R.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Deiola",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gaetano",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Adopo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Folorunsho",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Prati",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Esposito Se.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Luvumbo",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Borrelli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Meret",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Juan Jesus",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Spinazzola",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Buongiorno",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Di Lorenzo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Rrahmani",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Olivera",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Politano",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "De Bruyne",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zambo Anguissa",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lobotka",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "McTominay",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lucca",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lang",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/2",
+      "estrattoIl": "2026-10-06T08:28:18.836Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ambrosino",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Cagliari 30/08/2025 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

@@ -1,0 +1,1569 @@
+{
+ "label": "Torino-Roma (g21)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-01-18T17:00:00Z",
+  "hoursAfterKickoff": 6255.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:48.923Z",
+  "sha256": "7453ed43e3245985e4e41743522ae721c4c04f792f0b0b9debf31bb7619eac63"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::2fa7f4b01d224f459199310cac946fd0",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-01-18T17:00:00Z",
+   "matchday": 21,
+   "home": "Torino",
+   "away": "Roma",
+   "homeTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "awayTeamId": "serie-a::Football_Team::8ddc09c1aa73448da2dff953edd95d82",
+   "homeScore": 0,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::2fa7f4b01d224f459199310cac946fd0",
+   "homeTeam": "Torino",
+   "awayTeam": "Roma",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::0cc5d45eeae84da4b2c8d3335f629006",
+     "providerId": "opta:Player:a8s8bl5kp1rif458yt3qlevo5",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alberto Andrea",
+     "lastName": "Paleari",
+     "shirtName": "Alberto Paleari",
+     "displayName": "Paleari",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::deaa04c0b01942838b061bf8acc34282",
+     "providerId": "opta:Player:54mmovmx3osoxgbloe9rzmx9l",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ardian",
+     "lastName": "Ismajli",
+     "shirtName": "Ardian Ismajli",
+     "displayName": "Ismajli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 9,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1",
+     "providerId": "opta:Player:866f0f7taqhae91o3cjnnx0ph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Valentino",
+     "lastName": "Lazaro",
+     "shirtName": "Valentino Lazaro",
+     "displayName": "Lazaro",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e01f727bb7304efea37d2cc9fc152812",
+     "providerId": "opta:Player:7vykym3hy0qf1rxw3yv58kxgq",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Saul Basilio",
+     "lastName": "Coco Bassey Oubina",
+     "shirtName": "Saúl Coco",
+     "displayName": "Coco",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd",
+     "providerId": "opta:Player:9sjt5rv156hr2llfu241r6cph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adrien Fidele",
+     "lastName": "Tameze Aoutsa",
+     "shirtName": "Adrien Tamèze",
+     "displayName": "Tameze",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a",
+     "providerId": "opta:Player:ebgkv548xih19m8uza7bgrvmd",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Nikola",
+     "lastName": "Vlašić",
+     "shirtName": "Nikola Vlašić",
+     "displayName": "Vlašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429",
+     "providerId": "opta:Player:8vom3bt6es2kp5sdl98az6gwk",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Emirhan",
+     "lastName": "Ilkhan",
+     "shirtName": "Emirhan Ilkhan",
+     "displayName": "İlkhan",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d00c221b12c74ce08e4ef1e38addca64"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81",
+     "providerId": "opta:Player:59ujnkvl7rlffomi2bqpsmbpx",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Che Zach Everton",
+     "lastName": "Adams",
+     "shirtName": "Ché Adams",
+     "displayName": "C. Adams",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb",
+     "providerId": "opta:Player:a9z0jsjwfteq974bxwucvc4ix",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cyril Jean",
+     "lastName": "Ngonge",
+     "shirtName": "Cyril Ngonge",
+     "displayName": "Ngonge",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0250707b586045f087776dea4ea39f51",
+     "providerId": "kama:Player:98848",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Zakaria",
+     "lastName": "Aboukhlal",
+     "shirtName": "Zakaria Aboukhlal",
+     "displayName": "Aboukhlal",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 33,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1396abd02b8946108f41e65ecdd990cf",
+     "providerId": "opta:Player:b1jyt86vbfyektviyeiqtl562",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Maximilian Mihai",
+     "lastName": "Popa",
+     "shirtName": "Mihai Popa",
+     "displayName": "Popa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1521324d10634da1bdf493649696124d",
+     "providerId": "opta:Player:cuc7gtr9q0465wxmzgq834ag9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Franco",
+     "lastName": "Israel Wibmer",
+     "shirtName": "Franco Israel",
+     "displayName": "Israel",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600",
+     "providerId": "opta:Player:270djbc9lxhoupmd1djrii191",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Guillermo Alfonso",
+     "lastName": "Maripan Loayza",
+     "shirtName": "Guillermo Maripán",
+     "displayName": "Maripán",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d00c221b12c74ce08e4ef1e38addca64",
+     "providerId": "opta:Player:byjq5v4tqpjt9scaj17ccuesq",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Faustino Adebola",
+     "lastName": "Anjorin",
+     "shirtName": "Tino Anjorin",
+     "displayName": "Anjorin",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 33,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0250707b586045f087776dea4ea39f51"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c",
+     "providerId": "opta:Player:cp13vthbds3tl1wtfelfx2evp",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Giovanni Pablo",
+     "lastName": "Simeone Baldini",
+     "shirtName": "Giovanni Simeone",
+     "displayName": "Simeone",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd",
+     "providerId": "opta:Player:82pgcsfvbitzlpbao9ptbsgoa",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cesare",
+     "lastName": "Casadei",
+     "shirtName": "Cesare Casadei",
+     "displayName": "Casadei",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::06fa04a475e74b3eb04157709e556599",
+     "providerId": "opta:Player:1782u1y0k71hjenn3wvd80o44",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Tommaso",
+     "lastName": "Gabellini",
+     "shirtName": "Tommaso Gabellini",
+     "displayName": "Gabellini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3",
+     "providerId": "opta:Player:9hl7yh42qvmdcjw69si5imnf8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alieu Badara",
+     "lastName": "Njie",
+     "shirtName": "Alieu Njie",
+     "displayName": "Njie",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e0f71fe995b0408c9a9e748972fc71ac",
+     "providerId": "kama:Player:539",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Mattia",
+     "lastName": "Pellini",
+     "shirtName": "Mattia Pellini",
+     "displayName": "Pellini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::811d1fefd0094ffd81af6caa2c1ba7b3",
+     "providerId": "kama:Player:3379",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Zalan",
+     "lastName": "Kugyela",
+     "shirtName": "Zalan Kugyela",
+     "displayName": "Kugyela",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::942bc68934354b26a012b1d689290a82",
+     "providerId": "opta:Player:el58uxf7oaqu95yx1vbgmr7it",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mile",
+     "lastName": "Svilar",
+     "shirtName": "Mile Svilar",
+     "displayName": "Svilar",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1fc7bb7eab2545dd8f5952b20f425090",
+     "providerId": "opta:Player:efzokrggje7s9wc6hg75yc6ax",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Obite Evan",
+     "lastName": "Ndicka",
+     "shirtName": "Evan Ndicka",
+     "displayName": "Ndicka",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdfeb421bf10427ba410d9db7f5f3b00",
+     "providerId": "opta:Player:6fttn5mk6n1lstqt0dl5xzn4l",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Gianluca",
+     "lastName": "Mancini",
+     "shirtName": "Gianluca Mancini",
+     "displayName": "Mancini",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::de8f21b9c48a4e65a6512adc921ab464",
+     "providerId": "opta:Player:6sg2ot7z9kfyrlgjkmpqvejqi",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Devyne Fabian Jairo",
+     "lastName": "Rensch",
+     "shirtName": "Devyne Rensch",
+     "displayName": "Rensch",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::65166edd2aba48758561ddd0758a6e03"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5d7b25a2706e4e2588ae53883dc5743a",
+     "providerId": "kama:Player:98927",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Wesley Vinícius",
+     "lastName": "França Lima",
+     "shirtName": "Wesley França",
+     "displayName": "Wesley",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::72d8637dba5842c2a7f8e74dd686ea81",
+     "providerId": "opta:Player:am5gj5qg3gjtyhvwfnj8sjz6d",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mario",
+     "lastName": "Hermoso Canseco",
+     "shirtName": "Mario Hermoso",
+     "displayName": "Hermoso",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 23,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::50b9b8de45a04dd4852d3d6b0c1d183b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::11d045f4b49645158b2773f6fc7d6941",
+     "providerId": "opta:Player:1ftejgsl4hho40cceqne1hcyd",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Bryan",
+     "lastName": "Cristante",
+     "shirtName": "Bryan Cristante",
+     "displayName": "Cristante",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::714daf0fa4e947b3891bfec1a3d5d2f0",
+     "providerId": "opta:Player:au5tbnn48ve4kqnuu3dhmk296",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Kouadio Emmanuel Boris",
+     "lastName": "Kone",
+     "shirtName": "Manu Koné",
+     "displayName": "M. Koné",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27",
+     "providerId": "opta:Player:57bin6he6kbdo2bs4i78z2k0l",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Lorenzo",
+     "lastName": "Pellegrini",
+     "shirtName": "Lorenzo Pellegrini",
+     "displayName": "Lo. Pellegrini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 52,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::467662b231094f4da83cf422a3817132"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ce4b4184d61f402698ac6c9e954d2b31",
+     "providerId": "opta:Player:93i0gcndi2m8giqqcm4knduxh",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Paulo Exequiel",
+     "lastName": "Dybala",
+     "shirtName": "Paulo Dybala",
+     "displayName": "Dybala",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de8f21b9c48a4e65a6512adc921ab464"
+      },
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ec63c67cd0e546e789ab18af85b2e07c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cd96a370761046eba3c0557013459cfe",
+     "providerId": "kama:Player:100588",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Donyell",
+     "lastName": "Malen",
+     "shirtName": "Donyell Malen",
+     "displayName": "Malen",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 26,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ce4b4184d61f402698ac6c9e954d2b31"
+      },
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a24d76c06d864fe9978e6b195041c291"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::410303ba6eb74fcb882fc6aca990c956",
+     "providerId": "opta:Player:fb1s5est3fuw1flrjl9isusp",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Devis Estiven",
+     "lastName": "Vasquez Llach",
+     "shirtName": "D. Vasquez",
+     "displayName": "D. Vásquez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b0279839f3ce4b78a1f2b532c9a41358",
+     "providerId": "kama:Player:2664",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Radoslaw Dominik",
+     "lastName": "Żelezny",
+     "shirtName": "Radoslaw Żelezny",
+     "displayName": "Żelezny",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::65166edd2aba48758561ddd0758a6e03",
+     "providerId": "kama:Player:99335",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Konstantinos",
+     "lastName": "Tsimikas",
+     "shirtName": "Konstantinos Tsimikas",
+     "displayName": "Tsimikas",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de8f21b9c48a4e65a6512adc921ab464"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::467662b231094f4da83cf422a3817132",
+     "providerId": "opta:Player:erwh25hbq259kqdirfufnbcb8",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Matìas",
+     "lastName": "Soule Malvano",
+     "shirtName": "Matías Soulé",
+     "displayName": "Soulé",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 52,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d",
+     "providerId": "opta:Player:1pkymw7biivk760rxhubin1ed",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Mehmet Zeki",
+     "lastName": "Çelik",
+     "shirtName": "Zeki Çelik",
+     "displayName": "Çelik",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fbce9cf442fc4904b29a5cf7ab502671",
+     "providerId": "kama:Player:99329",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Jan Stanislaw",
+     "lastName": "Ziółkowski",
+     "shirtName": "Jan Ziółkowski",
+     "displayName": "Ziółkowski",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a24d76c06d864fe9978e6b195041c291",
+     "providerId": "opta:Player:5kktohikuoy0a1oagcgps8mxg",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Niccolò",
+     "lastName": "Pisilli",
+     "shirtName": "Niccolò Pisilli",
+     "displayName": "Pisilli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cd96a370761046eba3c0557013459cfe"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1f3ca33f802c44098c31a441073dd525",
+     "providerId": "kama:Player:17000",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Antonio",
+     "lastName": "Arena",
+     "shirtName": "Antonio Arena",
+     "displayName": "Arena",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ec63c67cd0e546e789ab18af85b2e07c",
+     "providerId": "kama:Player:100581",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Robinio",
+     "lastName": "Vaz",
+     "shirtName": "Robinio Vaz",
+     "displayName": "Robinio Vaz",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ce4b4184d61f402698ac6c9e954d2b31"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50b9b8de45a04dd4852d3d6b0c1d183b",
+     "providerId": "opta:Player:n92xjnlc1ppuxe70hsyc0mj8",
+     "side": "away",
+     "team": "Roma",
+     "firstName": "Daniele",
+     "lastName": "Ghilardi",
+     "shirtName": "Daniele Ghilardi",
+     "displayName": "Ghilardi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 23,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::72d8637dba5842c2a7f8e74dd686ea81"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:23:11.452Z",
+   "sha256": "68fb3241e8adfaa55ba38a003b9209dc581e22b026aeb2594228f80fba757ca3"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:48.923Z",
+   "sha256": "7453ed43e3245985e4e41743522ae721c4c04f792f0b0b9debf31bb7619eac63",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Svilar",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mancini",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "N'Dicka",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hermoso",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tsimikas",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ghilardi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Rensch",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Wesley",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pellegrini Lo.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cristante",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Konè M.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pisilli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dybala",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 11.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 11.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 11.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Malen",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Soulè",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vaz",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Paleari",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazaro",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ismajli",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coco",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tameze",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vlasic",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Casadei",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ilkhan",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gineitis",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Anjorin",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ngonge",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams C.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Njie",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Aboukhlal",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 0 - 2 Roma 18/01/2026 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

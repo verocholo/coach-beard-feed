@@ -1,0 +1,1661 @@
+{
+ "label": "Torino-Bologna (g25)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-02-15T17:00:00Z",
+  "hoursAfterKickoff": 5583.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:55.322Z",
+  "sha256": "2df563d95432151b6c192f7b9aa622a50421fa7a224961788274f3b03d07a199"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::a37ce165414e451a9b5374e80d17052f",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-02-15T17:00:00Z",
+   "matchday": 25,
+   "home": "Torino",
+   "away": "Bologna",
+   "homeTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "awayTeamId": "serie-a::Football_Team::4af71b35aab34ad5a7d06148abe66ad6",
+   "homeScore": 1,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::a37ce165414e451a9b5374e80d17052f",
+   "homeTeam": "Torino",
+   "awayTeam": "Bologna",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::0cc5d45eeae84da4b2c8d3335f629006",
+     "providerId": "opta:Player:a8s8bl5kp1rif458yt3qlevo5",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alberto Andrea",
+     "lastName": "Paleari",
+     "shirtName": "Alberto Paleari",
+     "displayName": "Paleari",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a1ee3415386144ad88b60048528e69bd",
+     "providerId": "opta:Player:1ijyezydbb4zzio95vj0sr09g",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Luca",
+     "lastName": "Marianucci",
+     "shirtName": "Luca Marianucci",
+     "displayName": "Marianucci",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600",
+     "providerId": "opta:Player:270djbc9lxhoupmd1djrii191",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Guillermo Alfonso",
+     "lastName": "Maripan Loayza",
+     "shirtName": "Guillermo Maripán",
+     "displayName": "Maripán",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 20,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e01f727bb7304efea37d2cc9fc152812",
+     "providerId": "opta:Player:7vykym3hy0qf1rxw3yv58kxgq",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Saul Basilio",
+     "lastName": "Coco Bassey Oubina",
+     "shirtName": "Saúl Coco",
+     "displayName": "Coco",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 51,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9",
+     "providerId": "opta:Player:akvrot9hi5mylunfr07nytt04",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Matteo",
+     "lastName": "Prati",
+     "shirtName": "Matteo Prati",
+     "displayName": "Prati",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a",
+     "providerId": "opta:Player:ebgkv548xih19m8uza7bgrvmd",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Nikola",
+     "lastName": "Vlašić",
+     "shirtName": "Nikola Vlašić",
+     "displayName": "Vlašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "yellow-card",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0250707b586045f087776dea4ea39f51",
+     "providerId": "kama:Player:98848",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Zakaria",
+     "lastName": "Aboukhlal",
+     "shirtName": "Zakaria Aboukhlal",
+     "displayName": "Aboukhlal",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81",
+     "providerId": "opta:Player:59ujnkvl7rlffomi2bqpsmbpx",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Che Zach Everton",
+     "lastName": "Adams",
+     "shirtName": "Ché Adams",
+     "displayName": "C. Adams",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fa8793423f574374b968c141faabf725"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c",
+     "providerId": "opta:Player:cp13vthbds3tl1wtfelfx2evp",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Giovanni Pablo",
+     "lastName": "Simeone Baldini",
+     "shirtName": "Giovanni Simeone",
+     "displayName": "Simeone",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1521324d10634da1bdf493649696124d",
+     "providerId": "opta:Player:cuc7gtr9q0465wxmzgq834ag9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Franco",
+     "lastName": "Israel Wibmer",
+     "shirtName": "Franco Israel",
+     "displayName": "Israel",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8407424229094b7dbf8c8f4aca345c7b",
+     "providerId": "opta:Player:9w6xwaepe2bw3h0hwbfmr1f6c",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Lapo",
+     "lastName": "Siviero",
+     "shirtName": "Lapo Siviero",
+     "displayName": "Siviero",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429",
+     "providerId": "opta:Player:8vom3bt6es2kp5sdl98az6gwk",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Emirhan",
+     "lastName": "Ilkhan",
+     "shirtName": "Emirhan Ilkhan",
+     "displayName": "İlkhan",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::69ad412c08e5413e9754af4d21250711",
+     "providerId": "opta:Player:2yuntws503qs5o9er31diwmp5",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Sandro",
+     "lastName": "Kulenović",
+     "shirtName": "Sandro Kulenović",
+     "displayName": "Kulenović",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1",
+     "providerId": "opta:Player:866f0f7taqhae91o3cjnnx0ph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Valentino",
+     "lastName": "Lazaro",
+     "shirtName": "Valentino Lazaro",
+     "displayName": "Lazaro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0250707b586045f087776dea4ea39f51"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd",
+     "providerId": "opta:Player:82pgcsfvbitzlpbao9ptbsgoa",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cesare",
+     "lastName": "Casadei",
+     "shirtName": "Cesare Casadei",
+     "displayName": "Casadei",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4672592c583246358f920921b38f10ca",
+     "providerId": "kama:Player:99338",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Niels Patrick",
+     "lastName": "Nkounkou",
+     "shirtName": "Niels Patrick Nkounkou",
+     "displayName": "Nkounkou",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737",
+     "providerId": "opta:Player:66at96kfhvigkny465lkmrnbp",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cristiano",
+     "lastName": "Biraghi",
+     "shirtName": "Cristiano Biraghi",
+     "displayName": "Biraghi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd",
+     "providerId": "opta:Player:9sjt5rv156hr2llfu241r6cph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adrien Fidele",
+     "lastName": "Tameze Aoutsa",
+     "shirtName": "Adrien Tamèze",
+     "displayName": "Tameze",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c10bf0264425406d82c2909fbd66439e",
+     "providerId": "opta:Player:e2xiayt8k5tv4dw5hjop71fqh",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Enzo Jacques Rodolphe",
+     "lastName": "Ebosse",
+     "shirtName": "Enzo Ebosse",
+     "displayName": "Ebosse",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fa8793423f574374b968c141faabf725",
+     "providerId": "opta:Player:30gsjr0xlmjulnz227zfxga8l",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Duvan Esteban",
+     "lastName": "Zapata Banguero",
+     "shirtName": "Duván Zapata",
+     "displayName": "Zapata",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3",
+     "providerId": "opta:Player:9hl7yh42qvmdcjw69si5imnf8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alieu Badara",
+     "lastName": "Njie",
+     "shirtName": "Alieu Njie",
+     "displayName": "Njie",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a1ee3415386144ad88b60048528e69bd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::47c6788b77eb47bf90274613223577a4",
+     "providerId": "opta:Player:4hrmzpx1nt5ze55fpby71mcb9",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Łukasz",
+     "lastName": "Skorupski",
+     "shirtName": "Łukasz Skorupski",
+     "displayName": "Skorupski",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2de0dfeaa65140cd855ca8681b0f1e65",
+     "providerId": "kama:Player:98464",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "João Mário",
+     "lastName": "Neto Lopes",
+     "shirtName": "João Mário Neto Lopes",
+     "displayName": "João Mário",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9efa092039cb45689a389ed539961558",
+     "providerId": "opta:Player:7m3wseg5lilrkzatyvc2yemay",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Martin",
+     "lastName": "Vitik",
+     "shirtName": "Martin Vitík",
+     "displayName": "Vitík",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ddf4ceac503b43648e42f966b5fe37b3",
+     "providerId": "opta:Player:3l0mj1zzhytxvm9tryvqv8kix",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jhon Janer",
+     "lastName": "Lucumi' Bonilla",
+     "shirtName": "Jhon Lucumí",
+     "displayName": "Lucumí",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4cd4bfae3a13463d882e18735047e596",
+     "providerId": "opta:Player:emvmn561wgd62zj0s3qi5j5rd",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Juan",
+     "lastName": "Miranda Gonzalez",
+     "shirtName": "Juan Miranda",
+     "displayName": "Miranda",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187",
+     "providerId": "opta:Player:6eqqtmbg35rg2stk10ic7q8k5",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nikola",
+     "lastName": "Moro",
+     "shirtName": "Nikola Moro",
+     "displayName": "N. Moro",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 49,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c",
+     "providerId": "opta:Player:19nlw3sa0khwz0el4wqc7zrp",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Remo",
+     "lastName": "Freuler",
+     "shirtName": "Remo Freuler",
+     "displayName": "Freuler",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b",
+     "providerId": "emg:Player:BRNFD|opta:Player:6kms3ctf8joymna289onk9lg5",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Bernardeschi",
+     "shirtName": "Federico Bernardeschi",
+     "displayName": "Bernardeschi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5",
+     "providerId": "kama:Player:99257",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jonathan David",
+     "lastName": "Rowe",
+     "shirtName": "Jonathan Rowe",
+     "displayName": "Rowe",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::102e52dc3ff54e2bb5ebcfe902fd0fe5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb",
+     "providerId": "opta:Player:b9clhoz198r69kavhw4anymms",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Santiago Thomas",
+     "lastName": "Castro",
+     "shirtName": "Santiago Castro",
+     "displayName": "Castro",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b"
+      },
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::53a4937f0ee0461bafae8598946349a4",
+     "providerId": "opta:Player:9m6yva52cmdq7uu31qrwdrund",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Ravaglia",
+     "shirtName": "Federico Ravaglia",
+     "displayName": "Ravaglia",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2709aca071e3476cb9411d5d4c9a0270",
+     "providerId": "opta:Player:1bz1zdxmtx5oxipvukpg7svmc",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Massimo",
+     "lastName": "Pessina",
+     "shirtName": "Massimo Pessina",
+     "displayName": "Pessina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7340c690ce54b1b93423b7300249755",
+     "providerId": "kama:Player:100611",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Eivind Fauske",
+     "lastName": "Helland",
+     "shirtName": "Eivind Fauske Helland",
+     "displayName": "Helland",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029",
+     "providerId": "opta:Player:1cu7fg8sf90isf9gp21e5fqh",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Riccardo",
+     "lastName": "Orsolini",
+     "shirtName": "Riccardo Orsolini",
+     "displayName": "Orsolini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::313bd55b6a874a0c8657fc0d8b1d0f40",
+     "providerId": "opta:Player:1x10v3yh4e3f1p2ndhtxcck4p",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Casale",
+     "shirtName": "Nicolò Casale",
+     "displayName": "Casale",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18",
+     "providerId": "opta:Player:bdb6j168crcrwje9k0titxv55",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Lewis",
+     "lastName": "Ferguson",
+     "shirtName": "Lewis Ferguson",
+     "displayName": "L. Ferguson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf",
+     "providerId": "opta:Player:42m78ny1ggvmzmjtka7exyzqi",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nadir",
+     "lastName": "Zortea",
+     "shirtName": "Nadir Zortea",
+     "displayName": "Zortea",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2de0dfeaa65140cd855ca8681b0f1e65"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947",
+     "providerId": "opta:Player:1t7nph4960rjzu7rgi47sf8ix",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jens",
+     "lastName": "Odgaard",
+     "shirtName": "Jens Odgaard",
+     "displayName": "Odgaard",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2",
+     "providerId": "opta:Player:1lnktjxx0mux4beo28cl54j1m",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Thijs Jacco Jan",
+     "lastName": "Dallinga",
+     "shirtName": "Thijs Dallinga",
+     "displayName": "Dallinga",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66",
+     "providerId": "opta:Player:d5m5q6dlc7vnbs634dinbsuwa",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Cambiaghi",
+     "shirtName": "Nicolò Cambiaghi",
+     "displayName": "Cambiaghi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839",
+     "providerId": "opta:Player:3cbwh4pfwae5xw072cy14gb85",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Lorenzo",
+     "lastName": "De Silvestri",
+     "shirtName": "Lorenzo De Silvestri",
+     "displayName": "De Silvestri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::102e52dc3ff54e2bb5ebcfe902fd0fe5",
+     "providerId": "opta:Player:ausjnoieiyx9m37qzam0gqgic",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Benjamin",
+     "lastName": "Dominguez",
+     "shirtName": "Benjamín Domínguez",
+     "displayName": "Domínguez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:24:19.416Z",
+   "sha256": "daf572e5a7ebe3958b6c3a220a6ff5dc8d749dc15657dd6612a9b21dbbb6eef5"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:55.322Z",
+   "sha256": "2df563d95432151b6c192f7b9aa622a50421fa7a224961788274f3b03d07a199",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Skorupski",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zortea",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Miranda J.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lucumì",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vitik",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Joao Mario",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernardeschi",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Freuler",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Orsolini",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Odgaard",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ferguson",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Moro N.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rowe",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Castro S.",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dominguez B.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Paleari",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazaro",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Maripan",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coco",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marianucci",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vlasic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 8.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 8.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 8.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Casadei",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ilkhan",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gineitis",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Prati",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Zapata D.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Simeone",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams C.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Njie",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Aboukhlal",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Bologna 15/02/2026 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

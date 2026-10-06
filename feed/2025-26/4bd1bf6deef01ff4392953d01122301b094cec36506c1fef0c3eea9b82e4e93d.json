@@ -1,0 +1,1635 @@
+{
+ "label": "Bologna-Juventus (g15)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-12-14T19:45:00Z",
+  "hoursAfterKickoff": 7092.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:39.272Z",
+  "sha256": "8941fe8b5cf55eeeaaa07ce43f25f8baf7eb21bd5adda4e538154a37336f7bbc"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::f60a4a2f128b44ceb43d7bc990c2b5cf",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-12-14T19:45:00Z",
+   "matchday": 15,
+   "home": "Bologna",
+   "away": "Juventus",
+   "homeTeamId": "serie-a::Football_Team::4af71b35aab34ad5a7d06148abe66ad6",
+   "awayTeamId": "serie-a::Football_Team::0ae9210dce6f4f9b9d50aeeb19b0d371",
+   "homeScore": 0,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::f60a4a2f128b44ceb43d7bc990c2b5cf",
+   "homeTeam": "Bologna",
+   "awayTeam": "Juventus",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::53a4937f0ee0461bafae8598946349a4",
+     "providerId": "opta:Player:9m6yva52cmdq7uu31qrwdrund",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Ravaglia",
+     "shirtName": "Federico Ravaglia",
+     "displayName": "Ravaglia",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf",
+     "providerId": "opta:Player:42m78ny1ggvmzmjtka7exyzqi",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nadir",
+     "lastName": "Zortea",
+     "shirtName": "Nadir Zortea",
+     "displayName": "Zortea",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::266904423255478690c9b4351f05d4ff",
+     "providerId": "kama:Player:99145",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Torbjørn Lysaker",
+     "lastName": "Heggem",
+     "shirtName": "Torbjørn Heggem",
+     "displayName": "Heggem",
+     "starter": true,
+     "events": [
+      {
+       "type": "red-card",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ddf4ceac503b43648e42f966b5fe37b3",
+     "providerId": "opta:Player:3l0mj1zzhytxvm9tryvqv8kix",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Jhon Janer",
+     "lastName": "Lucumi' Bonilla",
+     "shirtName": "Jhon Lucumí",
+     "displayName": "Lucumí",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4cd4bfae3a13463d882e18735047e596",
+     "providerId": "opta:Player:emvmn561wgd62zj0s3qi5j5rd",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Juan",
+     "lastName": "Miranda Gonzalez",
+     "shirtName": "Juan Miranda",
+     "displayName": "Miranda",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 24,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18",
+     "providerId": "opta:Player:bdb6j168crcrwje9k0titxv55",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lewis",
+     "lastName": "Ferguson",
+     "shirtName": "Lewis Ferguson",
+     "displayName": "L. Ferguson",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f8c979a577bb48de98f28b17c281a9e1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187",
+     "providerId": "opta:Player:6eqqtmbg35rg2stk10ic7q8k5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nikola",
+     "lastName": "Moro",
+     "shirtName": "Nikola Moro",
+     "displayName": "N. Moro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d1f41fea8f1b43c2900da19c63c95d52"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f378fcb31cec4ca380fe22dafb5469fc",
+     "providerId": "opta:Player:ch5rw8dgb6wh99wyhd8o3t1pl",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Tommaso",
+     "lastName": "Pobega",
+     "shirtName": "Tommaso Pobega",
+     "displayName": "Pobega",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029",
+     "providerId": "opta:Player:1cu7fg8sf90isf9gp21e5fqh",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Riccardo",
+     "lastName": "Orsolini",
+     "shirtName": "Riccardo Orsolini",
+     "displayName": "Orsolini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66",
+     "providerId": "opta:Player:d5m5q6dlc7vnbs634dinbsuwa",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Cambiaghi",
+     "shirtName": "Nicolò Cambiaghi",
+     "displayName": "Cambiaghi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2",
+     "providerId": "opta:Player:1lnktjxx0mux4beo28cl54j1m",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Thijs Jacco Jan",
+     "lastName": "Dallinga",
+     "shirtName": "Thijs Dallinga",
+     "displayName": "Dallinga",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2709aca071e3476cb9411d5d4c9a0270",
+     "providerId": "opta:Player:1bz1zdxmtx5oxipvukpg7svmc",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Massimo",
+     "lastName": "Pessina",
+     "shirtName": "Massimo Pessina",
+     "displayName": "Pessina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fa0bcdec9d7f4011a5128cc4e5fed4b5",
+     "providerId": "kama:Player:795",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Matteo",
+     "lastName": "Franceschelli",
+     "shirtName": "Matteo Franceschelli",
+     "displayName": "Franceschelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1f41fea8f1b43c2900da19c63c95d52",
+     "providerId": "opta:Player:awf3x41nsz8m73bhte5wlz6ui",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Emil Alfons",
+     "lastName": "Holm",
+     "shirtName": "Emil Holm",
+     "displayName": "Holm",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb",
+     "providerId": "opta:Player:b9clhoz198r69kavhw4anymms",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Santiago Thomas",
+     "lastName": "Castro",
+     "shirtName": "Santiago Castro",
+     "displayName": "Castro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b",
+     "providerId": "emg:Player:BRNFD|opta:Player:6kms3ctf8joymna289onk9lg5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Bernardeschi",
+     "shirtName": "Federico Bernardeschi",
+     "displayName": "Bernardeschi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ddf4ceac503b43648e42f966b5fe37b3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5",
+     "providerId": "kama:Player:99257",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Jonathan David",
+     "lastName": "Rowe",
+     "shirtName": "Jonathan Rowe",
+     "displayName": "Rowe",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::10a8c9ec69b045a28e64a549c96d655a",
+     "providerId": "opta:Player:5o80hrbyw554cetm1rbbns0k5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Ciro",
+     "lastName": "Immobile",
+     "shirtName": "Ciro Immobile",
+     "displayName": "Immobile",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947",
+     "providerId": "opta:Player:1t7nph4960rjzu7rgi47sf8ix",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Jens",
+     "lastName": "Odgaard",
+     "shirtName": "Jens Odgaard",
+     "displayName": "Odgaard",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::21a70260eb4045f99d307966ab7ba64e",
+     "providerId": "opta:Player:a2n9op95qyb3rkye5pxqjb7bp",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Charalampos",
+     "lastName": "Lykogiannīs",
+     "shirtName": "Charalampos Lykogiannīs",
+     "displayName": "Lykogiannīs",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839",
+     "providerId": "opta:Player:3cbwh4pfwae5xw072cy14gb85",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lorenzo",
+     "lastName": "De Silvestri",
+     "shirtName": "Lorenzo De Silvestri",
+     "displayName": "De Silvestri",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 4,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::102e52dc3ff54e2bb5ebcfe902fd0fe5",
+     "providerId": "opta:Player:ausjnoieiyx9m37qzam0gqgic",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Benjamin",
+     "lastName": "Dominguez",
+     "shirtName": "Benjamín Domínguez",
+     "displayName": "Domínguez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4dbcbbff72564a44987c7fd0eec9984c",
+     "providerId": "kama:Player:1769",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Petar",
+     "lastName": "Markovic",
+     "shirtName": "Petar Markovic",
+     "displayName": "Markovic",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f8c979a577bb48de98f28b17c281a9e1",
+     "providerId": "opta:Player:8kdamc6zz4bskby51c59uuntg",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Ibrahim Sulemana",
+     "lastName": "Kakari",
+     "shirtName": "Ibrahim Sulemana",
+     "displayName": "I. Sulemana",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15",
+     "providerId": "opta:Player:4j3d7ujmhevsi0y3zvs34i13o",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Giovanni",
+     "lastName": "Fabbian",
+     "shirtName": "Giovanni Fabbian",
+     "displayName": "Fabbian",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f567339708a7468fa5b76cbf3d4b345e",
+     "providerId": "opta:Player:b3hr4q25jvqr7565z5ydqylt5",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Michele",
+     "lastName": "Di Gregorio",
+     "shirtName": "Michele Di Gregorio",
+     "displayName": "Di Gregorio",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1701dcc4409d48bcac98374a47f96dad",
+     "providerId": "opta:Player:7ohgxs03szerp6mwiiv58ryay",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Andrea",
+     "lastName": "Cambiaso",
+     "shirtName": "Andrea Cambiaso",
+     "displayName": "Cambiaso",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::468dfc7f2036468d90394cb8d22ae809"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::38b07b038621478c9b293665fc91eedc",
+     "providerId": "opta:Player:b33rlpjo3kx4477alx82si5wq",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Pierre Kazaye Rommel",
+     "lastName": "Kalulu Kyatengwa",
+     "shirtName": "Pierre Kalulu",
+     "displayName": "Kalulu",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3961ddf993cc41dc9ee587e28a227d8e",
+     "providerId": "opta:Player:7gyfpskzbb3r5nhiniky22o6h",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Lloyd Casius",
+     "lastName": "Kelly",
+     "shirtName": "Lloyd Kelly",
+     "displayName": "Kelly",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::01e3217dea474ebea0e15b49727cd04c",
+     "providerId": "opta:Player:ahz2npxe4geixkaz25f2pc82d",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Manuel",
+     "lastName": "Locatelli",
+     "shirtName": "Manuel Locatelli",
+     "displayName": "Locatelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0acefc0dc80a4f4284f5733d6f6a5217",
+     "providerId": "opta:Player:288nn7pbq5ewriiyb9o7da86h",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Weston James Earl",
+     "lastName": "McKennie",
+     "shirtName": "Weston McKennie",
+     "displayName": "McKennie",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6e685e98714e4024ad09aefd600bd42e",
+     "providerId": "opta:Player:6j0ogojh2b7poyceg7i3k09yi",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Khephren",
+     "lastName": "Thuram-ulien",
+     "shirtName": "Khéphren Thuram",
+     "displayName": "K. Thuram",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b07576d30f0548efa6003ec696a8e447",
+     "providerId": "opta:Player:2ugzqrpaooto1r24a6kvqf2ll",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Teun",
+     "lastName": "Koopmeiners",
+     "shirtName": "Teun Koopmeiners",
+     "displayName": "Koopmeiners",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 19,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e6156f9d23e84e7084a3e488b92521ac"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2355805d93e04684aa6fdcba93a37b7d",
+     "providerId": "opta:Player:6kvtqep8korw8d75n5me0lbmc",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Kenan",
+     "lastName": "Yildiz",
+     "shirtName": "Kenan Yildiz",
+     "displayName": "Yıldız",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6aa53cb043e44d9884ea112ca2e9e1dc",
+     "providerId": "kama:Player:98490",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Jonathan Christian",
+     "lastName": "David",
+     "shirtName": "Jonathan David",
+     "displayName": "J. David",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::590e7c135581454394bc4326ad73672e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7df3c938bbfb46638b151f12e0d1d5a0",
+     "providerId": "opta:Player:2x44f29a52v8kpkkjsuiiywdm",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Francisco",
+     "lastName": "Fernandes da Conceição",
+     "shirtName": "Francisco Conceição",
+     "displayName": "Conceição",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74c42bc75c774096b689dfe348184f56",
+     "providerId": "opta:Player:3o573dblmfc1o3wkkt2nva8k5",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Mattia",
+     "lastName": "Perin",
+     "shirtName": "Mattia Perin",
+     "displayName": "Perin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::93f6462fa8f746e983d7a4fc7b4bbf93",
+     "providerId": "opta:Player:67i1f5231dvjs6i20f6xbnaxg",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Simone",
+     "lastName": "Scaglia",
+     "shirtName": "Simone Scaglia",
+     "displayName": "Scaglia",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e6156f9d23e84e7084a3e488b92521ac",
+     "providerId": "opta:Player:d196vatyvq6ycn1q7d477d2i1",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Gleison Bremer",
+     "lastName": "Bremer",
+     "shirtName": "Bremer",
+     "displayName": "Bremer",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b07576d30f0548efa6003ec696a8e447"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ed11723358234b7cb05b9cc0ae47dbfb",
+     "providerId": "kama:Player:99506",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Edon",
+     "lastName": "Zhegrova",
+     "shirtName": "Edon Zhegrova",
+     "displayName": "Zhegrova",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a0826cc1e617411898652d28f20f1cbe",
+     "providerId": "opta:Player:7pirs3v9u80j5qy71cmhzbxn8",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Vasilije",
+     "lastName": "Adžić",
+     "shirtName": "Vasilije Adžić",
+     "displayName": "Adžić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f4f09dd907d348f5b945a628e62a2175",
+     "providerId": "opta:Player:555z9bynvux7oruirg67r8i51",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Filip",
+     "lastName": "Kostić",
+     "shirtName": "Filip Kostić",
+     "displayName": "Kostić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::590e7c135581454394bc4326ad73672e",
+     "providerId": "kama:Player:99387",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Ikoma-Loïs ",
+     "lastName": "Openda",
+     "shirtName": "Loïs Openda",
+     "displayName": "Openda",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6aa53cb043e44d9884ea112ca2e9e1dc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c",
+     "providerId": "opta:Player:bjob8tftnxojnytcj7juo0ga2",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Fabio",
+     "lastName": "Miretti",
+     "shirtName": "Fabio Miretti",
+     "displayName": "Miretti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7df3c938bbfb46638b151f12e0d1d5a0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1f830d3aee9a4a21b6b95324c1f60452",
+     "providerId": "opta:Player:bh3b7e2qzh41dltd6h2obpln9",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Daniele",
+     "lastName": "Rugani",
+     "shirtName": "Daniele Rugani",
+     "displayName": "Rugani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2de0dfeaa65140cd855ca8681b0f1e65",
+     "providerId": "kama:Player:98464",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "João Mário",
+     "lastName": "Neto Lopes",
+     "shirtName": "João Mário Neto Lopes",
+     "displayName": "João Mário",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::468dfc7f2036468d90394cb8d22ae809",
+     "providerId": "opta:Player:5054kfjkrimomrhilbe5j3xbe",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Juan David",
+     "lastName": "Cabal Murillo",
+     "shirtName": "Juan Cabal",
+     "displayName": "Cabal",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1701dcc4409d48bcac98374a47f96dad"
+      },
+      {
+       "type": "goal",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2355805d93e04684aa6fdcba93a37b7d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::28cc459af3e54439ba6d25b424b8fced",
+     "providerId": "opta:Player:exgknpydnzp14n18nn1w6ugpg",
+     "side": "away",
+     "team": "Juventus",
+     "firstName": "Jonas Jakob",
+     "lastName": "Rouhi",
+     "shirtName": "Jonas Rouhi",
+     "displayName": "Rouhi",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:21:23.021Z",
+   "sha256": "9d070f9875b5d88b586be2d2e1fa6a56a7528e9d6cfde7d3303dc244ddbf4379"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:39.272Z",
+   "sha256": "8941fe8b5cf55eeeaaa07ce43f25f8baf7eb21bd5adda4e538154a37336f7bbc",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Ravaglia F.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Silvestri",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zortea",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Miranda J.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Holm",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lucumì",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Heggem",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernardeschi",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Orsolini",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pobega",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ferguson",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sulemana I.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Moro N.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cambiaghi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Castro S.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dallinga",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Di Gregorio",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bremer",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kalulu",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cambiaso",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cabal",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kelly L.",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Locatelli",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "McKennie",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thuram K.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Koopmeiners",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Miretti",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Conceicao",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "David",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Openda",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/15",
+      "estrattoIl": "2026-10-06T08:28:39.272Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Yildiz",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 0 - 1 Juventus 14/12/2025 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

@@ -1,0 +1,1689 @@
+{
+ "label": "Bologna-Fiorentina (g21)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-01-18T14:00:00Z",
+  "hoursAfterKickoff": 6258.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:48.923Z",
+  "sha256": "7453ed43e3245985e4e41743522ae721c4c04f792f0b0b9debf31bb7619eac63"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::83a6ba928a5f4b198564084e0ad7313d",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-01-18T14:00:00Z",
+   "matchday": 21,
+   "home": "Bologna",
+   "away": "Fiorentina",
+   "homeTeamId": "serie-a::Football_Team::4af71b35aab34ad5a7d06148abe66ad6",
+   "awayTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "homeScore": 1,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 7
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::83a6ba928a5f4b198564084e0ad7313d",
+   "homeTeam": "Bologna",
+   "awayTeam": "Fiorentina",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::53a4937f0ee0461bafae8598946349a4",
+     "providerId": "opta:Player:9m6yva52cmdq7uu31qrwdrund",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Ravaglia",
+     "shirtName": "Federico Ravaglia",
+     "displayName": "Ravaglia",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::266904423255478690c9b4351f05d4ff",
+     "providerId": "kama:Player:99145",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Torbjørn Lysaker",
+     "lastName": "Heggem",
+     "shirtName": "Torbjørn Heggem",
+     "displayName": "Heggem",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4cd4bfae3a13463d882e18735047e596",
+     "providerId": "opta:Player:emvmn561wgd62zj0s3qi5j5rd",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Juan",
+     "lastName": "Miranda Gonzalez",
+     "shirtName": "Juan Miranda",
+     "displayName": "Miranda",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::313bd55b6a874a0c8657fc0d8b1d0f40",
+     "providerId": "opta:Player:1x10v3yh4e3f1p2ndhtxcck4p",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Casale",
+     "shirtName": "Nicolò Casale",
+     "displayName": "Casale",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1f41fea8f1b43c2900da19c63c95d52",
+     "providerId": "opta:Player:awf3x41nsz8m73bhte5wlz6ui",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Emil Alfons",
+     "lastName": "Holm",
+     "shirtName": "Emil Holm",
+     "displayName": "Holm",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 38,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c",
+     "providerId": "opta:Player:19nlw3sa0khwz0el4wqc7zrp",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Remo",
+     "lastName": "Freuler",
+     "shirtName": "Remo Freuler",
+     "displayName": "Freuler",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f378fcb31cec4ca380fe22dafb5469fc",
+     "providerId": "opta:Player:ch5rw8dgb6wh99wyhd8o3t1pl",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Tommaso",
+     "lastName": "Pobega",
+     "shirtName": "Tommaso Pobega",
+     "displayName": "Pobega",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029",
+     "providerId": "opta:Player:1cu7fg8sf90isf9gp21e5fqh",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Riccardo",
+     "lastName": "Orsolini",
+     "shirtName": "Riccardo Orsolini",
+     "displayName": "Orsolini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947",
+     "providerId": "opta:Player:1t7nph4960rjzu7rgi47sf8ix",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Jens",
+     "lastName": "Odgaard",
+     "shirtName": "Jens Odgaard",
+     "displayName": "Odgaard",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66",
+     "providerId": "opta:Player:d5m5q6dlc7vnbs634dinbsuwa",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Cambiaghi",
+     "shirtName": "Nicolò Cambiaghi",
+     "displayName": "Cambiaghi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb",
+     "providerId": "opta:Player:b9clhoz198r69kavhw4anymms",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Santiago Thomas",
+     "lastName": "Castro",
+     "shirtName": "Santiago Castro",
+     "displayName": "Castro",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::47c6788b77eb47bf90274613223577a4",
+     "providerId": "opta:Player:4hrmzpx1nt5ze55fpby71mcb9",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Łukasz",
+     "lastName": "Skorupski",
+     "shirtName": "Łukasz Skorupski",
+     "displayName": "Skorupski",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2709aca071e3476cb9411d5d4c9a0270",
+     "providerId": "opta:Player:1bz1zdxmtx5oxipvukpg7svmc",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Massimo",
+     "lastName": "Pessina",
+     "shirtName": "Massimo Pessina",
+     "displayName": "Pessina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187",
+     "providerId": "opta:Player:6eqqtmbg35rg2stk10ic7q8k5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nikola",
+     "lastName": "Moro",
+     "shirtName": "Nikola Moro",
+     "displayName": "N. Moro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5",
+     "providerId": "kama:Player:99257",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Jonathan David",
+     "lastName": "Rowe",
+     "shirtName": "Jonathan Rowe",
+     "displayName": "Rowe",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::10a8c9ec69b045a28e64a549c96d655a",
+     "providerId": "opta:Player:5o80hrbyw554cetm1rbbns0k5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Ciro",
+     "lastName": "Immobile",
+     "shirtName": "Ciro Immobile",
+     "displayName": "Immobile",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18",
+     "providerId": "opta:Player:bdb6j168crcrwje9k0titxv55",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lewis",
+     "lastName": "Ferguson",
+     "shirtName": "Lewis Ferguson",
+     "displayName": "L. Ferguson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f378fcb31cec4ca380fe22dafb5469fc"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf",
+     "providerId": "opta:Player:42m78ny1ggvmzmjtka7exyzqi",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nadir",
+     "lastName": "Zortea",
+     "shirtName": "Nadir Zortea",
+     "displayName": "Zortea",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d1f41fea8f1b43c2900da19c63c95d52"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21a70260eb4045f99d307966ab7ba64e",
+     "providerId": "opta:Player:a2n9op95qyb3rkye5pxqjb7bp",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Charalampos",
+     "lastName": "Lykogiannīs",
+     "shirtName": "Charalampos Lykogiannīs",
+     "displayName": "Lykogiannīs",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2",
+     "providerId": "opta:Player:1lnktjxx0mux4beo28cl54j1m",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Thijs Jacco Jan",
+     "lastName": "Dallinga",
+     "shirtName": "Thijs Dallinga",
+     "displayName": "Dallinga",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839",
+     "providerId": "opta:Player:3cbwh4pfwae5xw072cy14gb85",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lorenzo",
+     "lastName": "De Silvestri",
+     "shirtName": "Lorenzo De Silvestri",
+     "displayName": "De Silvestri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::102e52dc3ff54e2bb5ebcfe902fd0fe5",
+     "providerId": "opta:Player:ausjnoieiyx9m37qzam0gqgic",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Benjamin",
+     "lastName": "Dominguez",
+     "shirtName": "Benjamín Domínguez",
+     "displayName": "Domínguez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9efa092039cb45689a389ed539961558",
+     "providerId": "opta:Player:7m3wseg5lilrkzatyvc2yemay",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Martin",
+     "lastName": "Vitik",
+     "shirtName": "Martin Vitík",
+     "displayName": "Vitík",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f8c979a577bb48de98f28b17c281a9e1",
+     "providerId": "opta:Player:8kdamc6zz4bskby51c59uuntg",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Ibrahim Sulemana",
+     "lastName": "Kakari",
+     "shirtName": "Ibrahim Sulemana",
+     "displayName": "I. Sulemana",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15",
+     "providerId": "opta:Player:4j3d7ujmhevsi0y3zvs34i13o",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Giovanni",
+     "lastName": "Fabbian",
+     "shirtName": "Giovanni Fabbian",
+     "displayName": "Fabbian",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947"
+      },
+      {
+       "type": "goal",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7eea4a3905274129bc4fdfec8574cc43",
+     "providerId": "opta:Player:e00004wkpfc8jawioejmpu1n9",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "David",
+     "lastName": "De Gea Quintana",
+     "shirtName": "David de Gea",
+     "displayName": "de Gea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63",
+     "providerId": "opta:Player:9srjp22oprs2tkcutb2g4o2dw",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Comuzzo",
+     "shirtName": "Pietro Comuzzo",
+     "displayName": "Comuzzo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51",
+     "providerId": "opta:Player:9e3t2wyjqzxsn690aysao8cfd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Domilson",
+     "lastName": "Cordeiro Dos Santo",
+     "shirtName": "Dodô",
+     "displayName": "Dodô",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646",
+     "providerId": "opta:Player:8dgh4fzut8khpt32d6dsrljsa",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Fabiano",
+     "lastName": "Parisi",
+     "shirtName": "F. Parisi",
+     "displayName": "Parisi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::80838af7be514e3fa7e32f7fb54b4f02",
+     "providerId": "opta:Player:9qow77e16pvlb3860yjpydryt",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Robin Everardus",
+     "lastName": "Gosens",
+     "shirtName": "Robin Gosens",
+     "displayName": "Gosens",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 4,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::000931a496414061b3387beb069c8593",
+     "providerId": "opta:Player:dpnp9rguhhs04of6vmlw5spg5",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Rolando",
+     "lastName": "Mandragora",
+     "shirtName": "Rolando Mandragora",
+     "displayName": "Mandragora",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 19,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4"
+      },
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc",
+     "providerId": "opta:Player:kvbjuvcseqk4sbr04ctkqi38",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Cher",
+     "lastName": "Ndour",
+     "shirtName": "Cher Ndour",
+     "displayName": "Ndour",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4",
+     "providerId": "opta:Player:ejzxqtdo5xxvbg6gvtju3lk9h",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Albert",
+     "lastName": "Guðmundsson",
+     "shirtName": "Albert Gudmundsson",
+     "displayName": "Guðmundsson",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c83a8625f33c4870a3af7371b0d27ec2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d58bb19e4fac428c91c7d3d22c54aeb8",
+     "providerId": "opta:Player:bgwbowoiz7t2lvpit75zlqz11",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Lezzerini",
+     "shirtName": "Luca Lezzerini",
+     "displayName": "Lezzerini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a32fc40b8644de68e49a77591741565",
+     "providerId": "opta:Player:1sjt0nj0232gu88x50c3d16nd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Oliver",
+     "lastName": "Christensen",
+     "shirtName": "Oliver Christensen",
+     "displayName": "Christensen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511",
+     "providerId": "opta:Player:1f37bo8dikes3350u2a0h9hm2",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marco",
+     "lastName": "Brescianini",
+     "shirtName": "Marco Brescianini",
+     "displayName": "Brescianini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::000931a496414061b3387beb069c8593"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 4,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::580e2f5d129542e2bcc9ea5436adf6a1",
+     "providerId": "opta:Player:a6lo3s66xv87llkhwveoq1vqh",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Hans",
+     "lastName": "Nicolussi Caviglia",
+     "shirtName": "Hans Nicolussi Caviglia",
+     "displayName": "Nicolussi C.",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c83a8625f33c4870a3af7371b0d27ec2",
+     "providerId": "kama:Player:100429",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Manor",
+     "lastName": "Solomon",
+     "shirtName": "Manor Solomon",
+     "displayName": "Solomon",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5",
+     "providerId": "opta:Player:6e9fu9o226zn6jzx02jutvi3u",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Jacopo",
+     "lastName": "Fazzini",
+     "shirtName": "Jacopo Fazzini",
+     "displayName": "Fazzini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fe9b2f009a9d4f1faef51ea3b9754e8f",
+     "providerId": "kama:Player:98383",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Eman",
+     "lastName": "Košpo",
+     "shirtName": "Eman Kospo",
+     "displayName": "Košpo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122",
+     "providerId": "opta:Player:c4bccspnyg73206u27nhiwu1g",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Niccolo’",
+     "lastName": "Fortini",
+     "shirtName": "Niccolò Fortini",
+     "displayName": "Fortini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf",
+     "providerId": "kama:Player:1479",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nda Konan Bienvenu Ange Eddy",
+     "lastName": "Kouadio",
+     "shirtName": "Eddy Kouadio",
+     "displayName": "Kouadio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::05d78c4a9e8243bc9408c728928b46a7",
+     "providerId": "kama:Player:5234",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Riccardo",
+     "lastName": "Braschi",
+     "shirtName": "Riccardo Braschi",
+     "displayName": "Braschi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de4ba766d0fe4f37910f084f2e65d62b",
+     "providerId": "kama:Player:5332",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luís Francisco",
+     "lastName": "Balbo Vieira",
+     "shirtName": "Luís Balbo",
+     "displayName": "Luís Balbo",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:23:09.774Z",
+   "sha256": "c047a7ee9abe0ce4e32a636ca0485670f99288d9e66666a778b68bca56f0cfb2"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:48.923Z",
+   "sha256": "7453ed43e3245985e4e41743522ae721c4c04f792f0b0b9debf31bb7619eac63",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Ravaglia F.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zortea",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Miranda J.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Casale",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Holm",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Heggem",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Freuler",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Orsolini",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Odgaard",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pobega",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ferguson",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Moro N.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fabbian",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rowe",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cambiaghi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Castro S.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "De Gea",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gosens",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ranieri L.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Parisi",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dodò",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Comuzzo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Fortini",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mandragora",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Brescianini",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gudmundsson A.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndour",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Solomon",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 2 Fiorentina 18/01/2026 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

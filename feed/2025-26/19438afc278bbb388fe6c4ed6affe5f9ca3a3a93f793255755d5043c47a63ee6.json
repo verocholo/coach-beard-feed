@@ -1,0 +1,1529 @@
+{
+ "label": "Napoli-Milan (g31)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-04-06T18:45:00Z",
+  "hoursAfterKickoff": 4381.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:29:04.865Z",
+  "sha256": "92a392a5bb71d62f3d408209a9f0b7345746ff723a0b5984414f5217ff0100b0"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::2ba58fa4f33646219f92223a4d6fcdc4",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-04-06T18:45:00Z",
+   "matchday": 31,
+   "home": "Napoli",
+   "away": "Milan",
+   "homeTeamId": "serie-a::Football_Team::f791dab8f0e4449e9884dd8dbd42dbcc",
+   "awayTeamId": "serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0",
+   "homeScore": 1,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::2ba58fa4f33646219f92223a4d6fcdc4",
+   "homeTeam": "Napoli",
+   "awayTeam": "Milan",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::5b15b16a974543dc8fab8732ca7835ae",
+     "providerId": "opta:Player:5syage212151fcixahbq3k8ut",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Vanja",
+     "lastName": "Milinković-Savić",
+     "shirtName": "Vanja Milinković-Savić",
+     "displayName": "Milinković-Savić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::570feabb699f45838cec3544b99ea3e1",
+     "providerId": "kama:Player:99144",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Miguel",
+     "lastName": "Gutiérrez Ortega",
+     "shirtName": "Miguel Gutiérrez",
+     "displayName": "Gutiérrez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4",
+     "providerId": "opta:Player:8n0c5t5wzfkoauryyzy8be0gl",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Juan Guilherme",
+     "lastName": "Nunes Jesus",
+     "shirtName": "Juan Jesus",
+     "displayName": "Juan Jesus",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bcf150cd064745dd84cdf52fff84fd23"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ef2c2d627ff94df4840479fa3473a59c",
+     "providerId": "opta:Player:22x1ucwwak58wi6r5x1j6ohk9",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Alessandro",
+     "lastName": "Buongiorno",
+     "shirtName": "Alessandro Buongiorno",
+     "displayName": "Buongiorno",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 12,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b",
+     "providerId": "opta:Player:9ka7y81b5kst146mhq7mom5ed",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Leonardo",
+     "lastName": "Spinazzola",
+     "shirtName": "Leonardo Spinazzola",
+     "displayName": "Spinazzola",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2d6bc8e9be4e45ab976bf3d43595aad9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4d288b42418140a196d4ca71601d0c58",
+     "providerId": "opta:Player:896uaqjrz22q6fqjfzuwf77jd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Mathias",
+     "lastName": "Olivera Miramontes",
+     "shirtName": "Mathías Olivera",
+     "displayName": "Olivera",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::33233f2998d9447a9b18d053eeb5712b",
+     "providerId": "opta:Player:c2jqa9vozhqu7x79h5rr2n1ed",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Kevin",
+     "lastName": "De Bruyne",
+     "shirtName": "Kevin De Bruyne",
+     "displayName": "De Bruyne",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f3b8743fff5a497b8b2686e3301c46f3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::310a726a64854ced91418ec3cc090391",
+     "providerId": "opta:Player:9fvo9v5e9r0ptibied6ejv3zd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Scott Francis",
+     "lastName": "Mctominay",
+     "shirtName": "Scott McTominay",
+     "displayName": "McTominay",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c52699f76a744afca8862f2584b7a860",
+     "providerId": "opta:Player:3bhy6x04rbwzk0nh1fm59dmnd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Andre Frank",
+     "lastName": "Zambo Anguissa",
+     "shirtName": "Frank Anguissa",
+     "displayName": "Anguissa",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0e681e091f934fa89130c1476a93a270",
+     "providerId": "opta:Player:9y8fnvazj02vy31ljx3du0d79",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Stanislav",
+     "lastName": "Lobotka",
+     "shirtName": "Stanislav Lobotka",
+     "displayName": "Lobotka",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d5517ef7842649e1afe4a145cc6871c1",
+     "providerId": "kama:Player:98434",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Giovane",
+     "lastName": "Santana Do Nascimento",
+     "shirtName": "Giovane",
+     "displayName": "Giovane",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c6bcfcde698a4962af90a8fa49060fe2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::18cc6f2bdba14a5a9cca5268d2efafce",
+     "providerId": "opta:Player:af58rhtg8ck7c8g7nwfs67d91",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Alex",
+     "lastName": "Meret",
+     "shirtName": "Alex Meret",
+     "displayName": "Meret",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0b7fab203b474fdf8a0d905faa8d9396",
+     "providerId": "opta:Player:dz33ybo9w22154xeaiteuca8l",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Nikita",
+     "lastName": "Contini Baranovsky",
+     "shirtName": "Nikita Contini",
+     "displayName": "Contini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::97e494fcc78543cd9ac8219e5e97503c",
+     "providerId": "opta:Player:5okl8s3e8ad2add75m46ojo4p",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Billy Clifford",
+     "lastName": "Gilmour",
+     "shirtName": "Billy Gilmour",
+     "displayName": "Gilmour",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f3b8743fff5a497b8b2686e3301c46f3",
+     "providerId": "opta:Player:72im0m7d8rqpsclo4f5crqmsp",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Eljif",
+     "lastName": "Elmas",
+     "shirtName": "Eljif Elmas",
+     "displayName": "Elmas",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::33233f2998d9447a9b18d053eeb5712b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2d6bc8e9be4e45ab976bf3d43595aad9",
+     "providerId": "opta:Player:9bba1hgnx5mzpkzeazsoikn9x",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Matteo",
+     "lastName": "Politano",
+     "shirtName": "Matteo Politano",
+     "displayName": "Politano",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b"
+      },
+      {
+       "type": "goal",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "yellow-card",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c6bcfcde698a4962af90a8fa49060fe2",
+     "providerId": "kama:Player:100731",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Alisson",
+     "lastName": "De Almeida Santos",
+     "shirtName": "Alisson Santos",
+     "displayName": "Alisson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d5517ef7842649e1afe4a145cc6871c1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::517b28659d184092827d69958ea33574",
+     "providerId": "opta:Player:etryzuxz65dmn5ewmocse66l1",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Pasquale",
+     "lastName": "Mazzocchi",
+     "shirtName": "Pasquale Mazzocchi",
+     "displayName": "Mazzocchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bcf150cd064745dd84cdf52fff84fd23",
+     "providerId": "opta:Player:42cg746sa90jla5x4islj9pwq",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Sam",
+     "lastName": "Beukema",
+     "shirtName": "Sam Beukema",
+     "displayName": "Beukema",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f6b27c8e1cf04b3391184988ee7336f7",
+     "providerId": "opta:Player:3fpnfgoy4lbpapv2th6g60cet",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Mike Peterson",
+     "lastName": "Maignan",
+     "shirtName": "Mike Maignan",
+     "displayName": "Maignan",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e795d74e1e04302b39b9815471ba3df",
+     "providerId": "opta:Player:7odl8qgd0qak6w4ox0t3kg3kk",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Davide",
+     "lastName": "Bartesaghi",
+     "shirtName": "Davide Bartesaghi",
+     "displayName": "Bartesaghi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6075b492bae04b149467f30c9c6923be",
+     "providerId": "opta:Player:7wjdqyl3bkhsfca5cu4riwley",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Strahinja",
+     "lastName": "Pavlović",
+     "shirtName": "Strahinja Pavlović",
+     "displayName": "Pavlović",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1",
+     "providerId": "opta:Player:95r0jtkw03vjohzwc8os8ielm",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Koni",
+     "lastName": "De Winter",
+     "shirtName": "Koni De Winter",
+     "displayName": "De Winter",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4",
+     "providerId": "opta:Player:3sezchmdtivxl4kusvgc6j7x1",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Oluwafikayomi Oluwadamilola",
+     "lastName": "Tomori",
+     "shirtName": "Fikayo Tomori",
+     "displayName": "Tomori",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::afe60d6be6104d909dfe50221995523a",
+     "providerId": "opta:Player:2nddcty9qris2mmeldon0ogd1",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Adrien",
+     "lastName": "Rabiot",
+     "shirtName": "Adrien Rabiot",
+     "displayName": "Rabiot",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e76cb5d2e68843ed99459ed2f8237e2f",
+     "providerId": "kama:Player:98422",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Luka",
+     "lastName": "Modrić",
+     "shirtName": "Luka Modrić",
+     "displayName": "Modrić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1",
+     "providerId": "opta:Player:b0wb7gf04synxlkq7o8gvzkoa",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Youssouf",
+     "lastName": "Fofana",
+     "shirtName": "Youssouf Fofana",
+     "displayName": "Y. Fofana",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d",
+     "providerId": "kama:Player:99337",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Christopher Alan",
+     "lastName": "Nkunku",
+     "shirtName": "Christopher Nkunku",
+     "displayName": "Nkunku",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f75f69d015184e6fa1f443c3442eb94d",
+     "providerId": "kama:Player:100418",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Niclas",
+     "lastName": "Füllkrug",
+     "shirtName": "Niclas Füllkrug",
+     "displayName": "Füllkrug",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5b8d20ccf6db45e388edc6e8ec8d4c18"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7",
+     "providerId": "opta:Player:9vnr9uog5fmggich2i4vjxwbt",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Alexis Jesse",
+     "lastName": "Saelemaekers",
+     "shirtName": "Alexis Saelemaekers",
+     "displayName": "Saelemaekers",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::366978e66f2b41d291912b96fef017a5",
+     "providerId": "opta:Player:2udciji4n7tr07ft7twe2r9w5",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Pietro",
+     "lastName": "Terracciano",
+     "shirtName": "Pietro Terracciano",
+     "displayName": "P. Terracciano",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e5ab095b8ad24c42ab8bbf17164143bd",
+     "providerId": "opta:Player:d0ag3rk2mc50gwbo5famdzaqc",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Lorenzo",
+     "lastName": "Torriani",
+     "shirtName": "Lorenzo Torriani",
+     "displayName": "Torriani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::46c4483cd2954db7a7fbf5cfaec0bafe",
+     "providerId": "kama:Player:98780",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Pervis Josue",
+     "lastName": "Estupinan Tenorio",
+     "shirtName": "Pervis Estupiñán",
+     "displayName": "Estupiñán",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba",
+     "providerId": "opta:Player:e2oeysariwd866ksilu3t4m7e",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Samuele",
+     "lastName": "Ricci",
+     "shirtName": "Samuele Ricci",
+     "displayName": "Ricci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5b8d20ccf6db45e388edc6e8ec8d4c18",
+     "providerId": "opta:Player:aboxil79ulfa73pckzsdnwp62",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Santiago Tomas",
+     "lastName": "Gimenez",
+     "shirtName": "Santiago Giménez",
+     "displayName": "Giménez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f75f69d015184e6fa1f443c3442eb94d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808",
+     "providerId": "opta:Player:e6jaaazxqeczj6ziaj0qnqpxx",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Ruben Ira",
+     "lastName": "Loftus-cheek",
+     "shirtName": "Ruben Loftus-Cheek",
+     "displayName": "Loftus-Cheek",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c",
+     "providerId": "opta:Player:11o903vztwpnmvgrinn208qnd",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Rafael Alexandre",
+     "lastName": "da Conceição Leão",
+     "shirtName": "Rafael Leão",
+     "displayName": "Rafael Leão",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad",
+     "providerId": "opta:Player:93soe2rjn0z874cc9ofcesgkp",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Christian Mate",
+     "lastName": "Pulisic",
+     "shirtName": "Christian Pulisic",
+     "displayName": "Pulisic",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07",
+     "providerId": "kama:Player:99087",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Zachary Christopher",
+     "lastName": "Athekame",
+     "shirtName": "Zachary Athekame",
+     "displayName": "Athekame",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::068f9e3dc64548ebb49468f1f103016e",
+     "providerId": "kama:Player:99396",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "David Uyoyo",
+     "lastName": "Odogu",
+     "shirtName": "David Uyoyo Odogu",
+     "displayName": "Odogu",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b616b0e6528b42459ac6410543f823ef",
+     "providerId": "kama:Player:98958",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Ardon",
+     "lastName": "Jashari",
+     "shirtName": "Ardon Jashari",
+     "displayName": "Jashari",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:26:11.773Z",
+   "sha256": "8debda8c1ebe59c445f0574cd25c9a27abd9ef2455f9c0190666a37daf4eea06"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:29:04.865Z",
+   "sha256": "92a392a5bb71d62f3d408209a9f0b7345746ff723a0b5984414f5217ff0100b0",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Maignan",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tomori",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pavlovic",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Winter",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bartesaghi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Athekame",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rabiot",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pulisic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Modric",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Loftus-Cheek",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fofana Y.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Saelemaekers",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Fullkrug",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Leao",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nkunku",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gimenez",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Milinkovic-Savic V.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Juan Jesus",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Spinazzola",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Buongiorno",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gutierrez",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Olivera",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Beukema",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Politano",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "De Bruyne",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zambo Anguissa",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lobotka",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Elmas",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "McTominay",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Santos A.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Giovane",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 1 - 0 Milan 06/04/2026 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

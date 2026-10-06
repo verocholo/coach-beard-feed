@@ -1,0 +1,1687 @@
+{
+ "label": "Pisa-Udinese (g3)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-09-14T13:00:00Z",
+  "hoursAfterKickoff": 9283.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:20.414Z",
+  "sha256": "00a84686abec42b807968647b585804df72cdd8e8117af9cfc187a922942c0dc"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::92c359464bce4a65b707515d5961187e",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-09-14T13:00:00Z",
+   "matchday": 3,
+   "home": "Pisa",
+   "away": "Udinese",
+   "homeTeamId": "serie-a::Football_Team::546afa43cf08486d9234df9e846c1f1e",
+   "awayTeamId": "serie-a::Football_Team::630b1e3631db42498d1b7bc94595c5e0",
+   "homeScore": 0,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::92c359464bce4a65b707515d5961187e",
+   "homeTeam": "Pisa",
+   "awayTeam": "Udinese",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::98e15b4304ae4e0d9f3d1d8cfe905e51",
+     "providerId": "opta:Player:lytldf000kafs2h6g92esfrp",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Adrian",
+     "lastName": "Šemper",
+     "shirtName": "Adrian Šemper",
+     "displayName": "Šemper",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0e0e83d4947c476eac041473aabf73ad",
+     "providerId": "opta:Player:bvnzh2sq474xl2wj7jser1uz8",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Mateus Henrique",
+     "lastName": "Vanzelli Lusuardi",
+     "shirtName": "Mateus Lusuardi",
+     "displayName": "Lusuardi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1800ff3e0c53485b8c5da64ec1159efa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::abe900533cc943cab2316085cff5c521",
+     "providerId": "opta:Player:5tyedyaxnojij3ktc4w44dsd1",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Antonio Aldo",
+     "lastName": "Caracciolo",
+     "shirtName": "Antonio Caracciolo",
+     "displayName": "Caracciolo",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 13,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::63c9aabd25e5414d9beedb1278633362",
+     "providerId": "opta:Player:bxqbdvs3o73d2ck83wstwpg8a",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Simone",
+     "lastName": "Canestrelli",
+     "shirtName": "Simone Canestrelli",
+     "displayName": "Canestrelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::13ed262b2a284cf183ad39dc6c317e12",
+     "providerId": "opta:Player:56ekwofu3616kd4qjlirphdzo",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Samuele",
+     "lastName": "Angori",
+     "shirtName": "S. Angori",
+     "displayName": "Angori",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d1c9d5f5a9bf428c85d563d9ef4e8bad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a74cbc51025f490cb8c10f031cd7fc9c",
+     "providerId": "opta:Player:bpfg11qh1q0zj2x6sqd3srvmx",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Michel",
+     "lastName": "Aebischer",
+     "shirtName": "Michel Aebischer",
+     "displayName": "Aebischer",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d303b13a9b804888851bdf24f7e17ba8"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74c636656c5343ee921582563943e359",
+     "providerId": "opta:Player:3o7gvykqi9ldgjrzxl14dqas4",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Ebenezer Ajodun",
+     "lastName": "Akinsanmiro",
+     "shirtName": "Ebenezer Akinsanmiro",
+     "displayName": "Akinsanmiro",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1fb8ef2081d4501a14971b23d202784",
+     "providerId": "opta:Player:8trp1348qs14phwpsx4a9beuh",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Idrissa",
+     "lastName": "Touré",
+     "shirtName": "Idrissa Touré",
+     "displayName": "I. Touré",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1444d2c7af17447793aac0393c4b215f",
+     "providerId": "opta:Player:4tir4q39uy0c71m8zfxvynd9l",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Mattéo",
+     "lastName": "Tramoni",
+     "shirtName": "Mattéo Tramoni",
+     "displayName": "Tramoni",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4f3593dc934f4ea88accc051da402ca7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9078be5cf70143c6b5cf3ff8bc992622",
+     "providerId": "opta:Player:22ck04xk148cks27zwby83d1x",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Stefano",
+     "lastName": "Moreo",
+     "shirtName": "S. Moreo",
+     "displayName": "Moreo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a53cdd08f2164df2850c0371463911cc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3fd5a79038fd4556b4ae43dcc2633a95",
+     "providerId": "opta:Player:5d6txeello867oroqdv0y5wk4",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Henrik Wendel",
+     "lastName": "Meister",
+     "shirtName": "Henrik Meister",
+     "displayName": "Meister",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dbbf14e9b8b8434db6df471dade0893b",
+     "providerId": "opta:Player:3pcf58m2hgktlm15elgdyut3p",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Nicolas",
+     "lastName": "Andrade David",
+     "shirtName": "Nícolas Andrade",
+     "displayName": "Nicolas",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3a012d7f5bb2431981c0e77dce09aee5",
+     "providerId": "opta:Player:17iqlyu99zttyubi6ya6yu9cl",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Simone",
+     "lastName": "Scuffet",
+     "shirtName": "Simone Scuffet",
+     "displayName": "Scuffet",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::492b9a0d429c45d9b13587f028ac57b0",
+     "providerId": "opta:Player:93cnkzi86q36c8n86mo35q5t5",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Marius Mihai",
+     "lastName": "Marin",
+     "shirtName": "M. Marin",
+     "displayName": "M. Marin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1c9d5f5a9bf428c85d563d9ef4e8bad",
+     "providerId": "opta:Player:6u6mobmk6lpvwebo76ddxr3s9",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Mehdi Pascal Marcel",
+     "lastName": "Léris",
+     "shirtName": "Mehdi Léris",
+     "displayName": "Léris",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::13ed262b2a284cf183ad39dc6c317e12"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2c9d202814c44b22922357aa23f283b5",
+     "providerId": "opta:Player:eyx42tgneccybvhk8bfhtcaqy",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Malthe",
+     "lastName": "Højholt",
+     "shirtName": "Malthe Højholt",
+     "displayName": "Højholt",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a53cdd08f2164df2850c0371463911cc",
+     "providerId": "opta:Player:8zltxvt0rcrcv96x1wmdhlrrp",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Mbala",
+     "lastName": "Nzola",
+     "shirtName": "M'Bala Nzola",
+     "displayName": "Nzola",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9078be5cf70143c6b5cf3ff8bc992622"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fbb0c6d0a7c442dcb823a791ff7bb708",
+     "providerId": "opta:Player:b89cc1q5ztn1pz43ladq7mr8q",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Tomas",
+     "lastName": "Do Lago Pontes Esteves",
+     "shirtName": "Tomás Esteves",
+     "displayName": "Esteves",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f48258f89c024a6b93f47ff096b4d30c",
+     "providerId": "opta:Player:np5er6kwne1u1y3avr7sr11w",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Isak",
+     "lastName": "Vural",
+     "shirtName": "Isak Vural",
+     "displayName": "Vural",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4f3593dc934f4ea88accc051da402ca7",
+     "providerId": "kama:Player:99293",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Calvin Maxim",
+     "lastName": "Stengs",
+     "shirtName": "Calvin Stengs",
+     "displayName": "Stengs",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1444d2c7af17447793aac0393c4b215f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fb3af9b4ca344de38ba61366bfa2b1bf",
+     "providerId": "opta:Player:19xao2zbulnj2ui07q0zc67rp",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Arturo",
+     "lastName": "Calabresi",
+     "shirtName": "Arturo Calabresi",
+     "displayName": "Calabresi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d303b13a9b804888851bdf24f7e17ba8",
+     "providerId": "opta:Player:5qao7tnriecoq3qtmxzobz6dw",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Gabriele",
+     "lastName": "Piccinini",
+     "shirtName": "Gabriele Piccinini",
+     "displayName": "Piccinini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a74cbc51025f490cb8c10f031cd7fc9c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c8bdfbb5a873426a93b6a4febdfc63cf",
+     "providerId": "opta:Player:e615cmv1tfzu84f0z8mwi5711",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Raul",
+     "lastName": "Albiol Tortajada",
+     "shirtName": "Raúl Albiol",
+     "displayName": "Albiol",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2343f7c21d144dccb90ef44e646b9328",
+     "providerId": "kama:Player:98465",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Daniel Tyrell",
+     "lastName": "Denoon",
+     "shirtName": "Daniel Denoon",
+     "displayName": "Denoon",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1800ff3e0c53485b8c5da64ec1159efa",
+     "providerId": "opta:Player:ewhxpafqa4wvkv8945hhgrehg",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Giovanni",
+     "lastName": "Bonfanti",
+     "shirtName": "Giovanni Bonfanti",
+     "displayName": "G. Bonfanti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e0e83d4947c476eac041473aabf73ad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::149ad9adb211416b8edc7a05936e0638",
+     "providerId": "kama:Player:99565",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Lorran Lucas",
+     "lastName": "Pereira De Sousa",
+     "shirtName": "Lorran",
+     "displayName": "Lorran",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c66a8f0dd6dd43e6b06c5a4890d52a12",
+     "providerId": "opta:Player:9kp0q3f77gz8f5e2qumj6kpyi",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Razvan Sergiu",
+     "lastName": "Sava",
+     "shirtName": "Razvan Sava",
+     "displayName": "Sava",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa46c1e9504d4070876a364bc69fc470",
+     "providerId": "opta:Player:cet0tgjv82l6ao07ij1ylgp9l",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Oumar Mickael",
+     "lastName": "Solet Bomawoko",
+     "shirtName": "Oumar Solet",
+     "displayName": "Solet",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8c5ec14ba3bf4e1fa505c0bff2fbaa52",
+     "providerId": "opta:Player:6rbsjfwx4pon2d1vu3k7ojxuc",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Thomas Thiesson",
+     "lastName": "Kristensen",
+     "shirtName": "Thomas Kristensen",
+     "displayName": "Kristensen",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ab6119135bdc4a09b35d54fab9e6fa92",
+     "providerId": "opta:Player:8kioh2rzit592d4zwjoqsftas",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Nicolò",
+     "lastName": "Bertola",
+     "shirtName": "N. Bertola",
+     "displayName": "Bertola",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::50a60abf290e4880afe7411c15616fb2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::18ccff309d1c46efbab30d302ece28e7",
+     "providerId": "opta:Player:95qrrtlyz4ikkzjbgy6exbnit",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Hassane",
+     "lastName": "Kamara",
+     "shirtName": "Hassane Kamara",
+     "displayName": "Kamara",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 18,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2c1de35b4eba480dbcd4e21a4cde2c88"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::52d5b4022e8e431aa4b4c8983843965b",
+     "providerId": "opta:Player:dfckk0xst90yjlep74tvups5x",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Kingsley Osezele",
+     "lastName": "Ehizibue",
+     "shirtName": "Kingsley Ehizibue",
+     "displayName": "Ehizibue",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::75e8a5f9f7c54239aaf5c7620816ca7a",
+     "providerId": "opta:Player:agnmzpaj62lzsavtq43uxt4gl",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jesper",
+     "lastName": "Karlström",
+     "shirtName": "Jesper Karlström",
+     "displayName": "Karlström",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 3,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cd9708fcf981489e939152ec78f997c2",
+     "providerId": "opta:Player:2wwbf11c9mc2psxaa8p58qnmc",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Arthur Eric",
+     "lastName": "Atta",
+     "shirtName": "Arthur Atta",
+     "displayName": "Atta",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::450a3f00ad6b48838ecae9c93a3abf01",
+     "providerId": "kama:Player:98928",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jakub",
+     "lastName": "Piotrowski",
+     "shirtName": "Jakub Piotrowski",
+     "displayName": "Piotrowski",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5931a8de6cc3493ebdaa0b4c30758add"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bceddc37986049e09f271927bd712727",
+     "providerId": "opta:Player:bdg3xeth77c0nw61hvj5fct0p",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Keinan Vincent Joseph",
+     "lastName": "Davis",
+     "shirtName": "Keinan Davis",
+     "displayName": "Davis",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4c54d51902bb49dbb90c4c01a3d955a2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74e3b0dfd49c49e582c6d804539367e7",
+     "providerId": "opta:Player:6ffcfr6a1l2p5crr71rb5szys",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Iker",
+     "lastName": "Bravo Solanilla",
+     "shirtName": "Iker Bravo",
+     "displayName": "Iker Bravo",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 14,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f7bce030bb504b87b9411db54d75480f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::39bf574edd7d46c1b26d118e7bf79cf2",
+     "providerId": "opta:Player:cnop9ik6yyu7ozratrz5r54pg",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Alessandro",
+     "lastName": "Nunziante",
+     "shirtName": "Alessandro Nunziante",
+     "displayName": "Nunziante",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b5eefcbc392d4eee9bb61fa9f2f9f3da",
+     "providerId": "kama:Player:5161",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Gioele",
+     "lastName": "Venuti",
+     "shirtName": "Gioele Venuti",
+     "displayName": "Venuti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50a60abf290e4880afe7411c15616fb2",
+     "providerId": "opta:Player:6pzskxh8wy2b4gaf4kj6zuivo",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Saba",
+     "lastName": "Goglichidze",
+     "shirtName": "Saba Goglichidze",
+     "displayName": "Goglichidze",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ab6119135bdc4a09b35d54fab9e6fa92"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5931a8de6cc3493ebdaa0b4c30758add",
+     "providerId": "opta:Player:488vwilxllk6nhf4o1wrh0gve",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Oier",
+     "lastName": "Zarraga Egana",
+     "shirtName": "Oier Zarraga",
+     "displayName": "Zarraga",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::450a3f00ad6b48838ecae9c93a3abf01"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f7bce030bb504b87b9411db54d75480f",
+     "providerId": "opta:Player:eu4xivu8i6yla9fcnuncx1ucp",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Nicolò",
+     "lastName": "Zaniolo",
+     "shirtName": "Nicolò Zaniolo",
+     "displayName": "Zaniolo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::74e3b0dfd49c49e582c6d804539367e7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::663b54dec4a14f3bb02e940c87a699c8",
+     "providerId": "opta:Player:b4qo4uwejb2o323k7lgefzac4",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Matteo",
+     "lastName": "Palma",
+     "shirtName": "Matteo Palma",
+     "displayName": "Palma",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4c54d51902bb49dbb90c4c01a3d955a2",
+     "providerId": "opta:Player:elhmf9cc26ec5p1wnwonuxf4l",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Adam",
+     "lastName": "Buksa",
+     "shirtName": "Adam Buksa",
+     "displayName": "Buksa",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bceddc37986049e09f271927bd712727"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::700f9b23586149c6a32011198f8e928a",
+     "providerId": "opta:Player:5ljs2bj3wwiurcyxiwka2i8d1",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Christian",
+     "lastName": "Kabasele",
+     "shirtName": "Christian Kabasele",
+     "displayName": "Kabasele",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8f6079ece014914adab3caf2e98babb",
+     "providerId": "opta:Player:d19yalwh3i2olvpwoi89feqjt",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jurgen",
+     "lastName": "Ekkelenkamp",
+     "shirtName": "Jurgen Ekkelenkamp",
+     "displayName": "Ekkelenkamp",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2c1de35b4eba480dbcd4e21a4cde2c88",
+     "providerId": "opta:Player:918sxflcvngsy0xvc9dh3jaei",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jordan",
+     "lastName": "Zemura",
+     "shirtName": "Jordan Zemura",
+     "displayName": "Zemura",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::18ccff309d1c46efbab30d302ece28e7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f97b651b46874386ab92d0e88d27e490",
+     "providerId": "kama:Player:99184",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Lennon",
+     "lastName": "Miller",
+     "shirtName": "Lennon Miller",
+     "displayName": "Miller",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1a115e96dce24288ae6ac16522b66ceb",
+     "providerId": "opta:Player:7kbn6vt37rfgd9yszzvx9idm2",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Alessandro",
+     "lastName": "Zanoli",
+     "shirtName": "A. Zanoli",
+     "displayName": "Zanoli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9d07b4ef7bea4aae9e85d8b094ee251f",
+     "providerId": "opta:Player:35s5mefte5hagf4wjv96u9756",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Rui Manuel",
+     "lastName": "Muati Modesto",
+     "shirtName": "Rui Modesto",
+     "displayName": "Rui Modesto",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:17:51.971Z",
+   "sha256": "70b4ea8cf8e136179413b83dd054afd1b8367e3086dff65efc29bc53fc76485b"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:20.414Z",
+   "sha256": "00a84686abec42b807968647b585804df72cdd8e8117af9cfc187a922942c0dc",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Semper",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Caracciolo A.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mateus Lusuardi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bonfanti",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Canestrelli",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Angori",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Leris",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tramoni M.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Stengs",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Aebischer",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Akinsanmiro",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Piccinini G.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tourè I.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nzola",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Moreo",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Meister",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Sava",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kamara H.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bertola",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ehizibue",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zemura",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kristensen T.",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Goglichidze",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Solet",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zaniolo",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zarraga",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Karlstrom",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Atta",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Piotrowski",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Davis K.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bravo",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/3",
+      "estrattoIl": "2026-10-06T08:28:20.414Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Buksa",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Udinese 14/09/2025 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

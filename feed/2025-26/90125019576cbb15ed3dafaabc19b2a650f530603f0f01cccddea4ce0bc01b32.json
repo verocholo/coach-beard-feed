@@ -1,0 +1,1662 @@
+{
+ "label": "Pisa-Genoa (g33)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-04-19T16:00:00Z",
+  "hoursAfterKickoff": 4072.2836666666667,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:29:08.210Z",
+  "sha256": "d478d00077ffd24f46582b71453fad59a391d180b4647b9b1a422304ddf15183"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::fc36aaf8dc0b47fe8bc388d728332efb",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-04-19T16:00:00Z",
+   "matchday": 33,
+   "home": "Pisa",
+   "away": "Genoa",
+   "homeTeamId": "serie-a::Football_Team::546afa43cf08486d9234df9e846c1f1e",
+   "awayTeamId": "serie-a::Football_Team::8c7aa94d22f44738951748e2ccdf319a",
+   "homeScore": 1,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 4
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::fc36aaf8dc0b47fe8bc388d728332efb",
+   "homeTeam": "Pisa",
+   "awayTeam": "Genoa",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::98e15b4304ae4e0d9f3d1d8cfe905e51",
+     "providerId": "opta:Player:lytldf000kafs2h6g92esfrp",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Adrian",
+     "lastName": "Šemper",
+     "shirtName": "Adrian Šemper",
+     "displayName": "Šemper",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::63c9aabd25e5414d9beedb1278633362",
+     "providerId": "opta:Player:bxqbdvs3o73d2ck83wstwpg8a",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Simone",
+     "lastName": "Canestrelli",
+     "shirtName": "Simone Canestrelli",
+     "displayName": "Canestrelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 19,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::13ed262b2a284cf183ad39dc6c317e12"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::abe900533cc943cab2316085cff5c521",
+     "providerId": "opta:Player:5tyedyaxnojij3ktc4w44dsd1",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Antonio Aldo",
+     "lastName": "Caracciolo",
+     "shirtName": "Antonio Caracciolo",
+     "displayName": "Caracciolo",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fb3af9b4ca344de38ba61366bfa2b1bf",
+     "providerId": "opta:Player:19xao2zbulnj2ui07q0zc67rp",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Arturo",
+     "lastName": "Calabresi",
+     "shirtName": "Arturo Calabresi",
+     "displayName": "Calabresi",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 32,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f48258f89c024a6b93f47ff096b4d30c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::13ed262b2a284cf183ad39dc6c317e12",
+     "providerId": "opta:Player:56ekwofu3616kd4qjlirphdzo",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Samuele",
+     "lastName": "Angori",
+     "shirtName": "S. Angori",
+     "displayName": "Angori",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1fb8ef2081d4501a14971b23d202784",
+     "providerId": "opta:Player:8trp1348qs14phwpsx4a9beuh",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Idrissa",
+     "lastName": "Touré",
+     "shirtName": "Idrissa Touré",
+     "displayName": "I. Touré",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d303b13a9b804888851bdf24f7e17ba8"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8c7f1fa5babd45d2adb4cb3404e88a3d",
+     "providerId": "kama:Player:100601",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Felipe Ignacio",
+     "lastName": "Loyola Olea",
+     "shirtName": "Felipe Loyola",
+     "displayName": "Loyola",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3fd5a79038fd4556b4ae43dcc2633a95"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a74cbc51025f490cb8c10f031cd7fc9c",
+     "providerId": "opta:Player:bpfg11qh1q0zj2x6sqd3srvmx",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Michel",
+     "lastName": "Aebischer",
+     "shirtName": "Michel Aebischer",
+     "displayName": "Aebischer",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74c636656c5343ee921582563943e359",
+     "providerId": "opta:Player:3o7gvykqi9ldgjrzxl14dqas4",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Ebenezer Ajodun",
+     "lastName": "Akinsanmiro",
+     "shirtName": "Ebenezer Akinsanmiro",
+     "displayName": "Akinsanmiro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f280c8cfd106468db8d8dac473f93c7a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1444d2c7af17447793aac0393c4b215f",
+     "providerId": "opta:Player:4tir4q39uy0c71m8zfxvynd9l",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Mattéo",
+     "lastName": "Tramoni",
+     "shirtName": "Mattéo Tramoni",
+     "displayName": "Tramoni",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::79a0c4243488430db5106e3d34d222fa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9078be5cf70143c6b5cf3ff8bc992622",
+     "providerId": "opta:Player:22ck04xk148cks27zwby83d1x",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Stefano",
+     "lastName": "Moreo",
+     "shirtName": "S. Moreo",
+     "displayName": "Moreo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dbbf14e9b8b8434db6df471dade0893b",
+     "providerId": "opta:Player:3pcf58m2hgktlm15elgdyut3p",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Nicolas",
+     "lastName": "Andrade David",
+     "shirtName": "Nícolas Andrade",
+     "displayName": "Nicolas",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3a012d7f5bb2431981c0e77dce09aee5",
+     "providerId": "opta:Player:17iqlyu99zttyubi6ya6yu9cl",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Simone",
+     "lastName": "Scuffet",
+     "shirtName": "Simone Scuffet",
+     "displayName": "Scuffet",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7a83677532248da9b1c9e6c59f1f665",
+     "providerId": "kama:Player:100566",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Rosen Petkov",
+     "lastName": "Božhinov",
+     "shirtName": "Rosen Božhinov",
+     "displayName": "Božhinov",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2c9d202814c44b22922357aa23f283b5",
+     "providerId": "opta:Player:eyx42tgneccybvhk8bfhtcaqy",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Malthe",
+     "lastName": "Højholt",
+     "shirtName": "Malthe Højholt",
+     "displayName": "Højholt",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3fd5a79038fd4556b4ae43dcc2633a95",
+     "providerId": "opta:Player:5d6txeello867oroqdv0y5wk4",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Henrik Wendel",
+     "lastName": "Meister",
+     "shirtName": "Henrik Meister",
+     "displayName": "Meister",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8c7f1fa5babd45d2adb4cb3404e88a3d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f280c8cfd106468db8d8dac473f93c7a",
+     "providerId": "opta:Player:pconfrmsdy9aikioqz9s9lg5",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Juan Guillermo",
+     "lastName": "Cuadrado Bello",
+     "shirtName": "Juan Cuadrado",
+     "displayName": "Cuadrado",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::74c636656c5343ee921582563943e359"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::79a0c4243488430db5106e3d34d222fa",
+     "providerId": "kama:Player:100567",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Rafiu Adekunle",
+     "lastName": "Durosinmi",
+     "shirtName": "Rafiu Durosinmi",
+     "displayName": "Durosinmi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1444d2c7af17447793aac0393c4b215f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f48258f89c024a6b93f47ff096b4d30c",
+     "providerId": "opta:Player:np5er6kwne1u1y3avr7sr11w",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Isak",
+     "lastName": "Vural",
+     "shirtName": "Isak Vural",
+     "displayName": "Vural",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fb3af9b4ca344de38ba61366bfa2b1bf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4f3593dc934f4ea88accc051da402ca7",
+     "providerId": "kama:Player:99293",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Calvin Maxim",
+     "lastName": "Stengs",
+     "shirtName": "Calvin Stengs",
+     "displayName": "Stengs",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c3524c12b4e8484fb1365255f520e5ad",
+     "providerId": "opta:Player:7m9zsxwbrrqsxw79xcb07yo7o",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Francesco",
+     "lastName": "Coppola",
+     "shirtName": "Francesco Coppola",
+     "displayName": "Coppola",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d303b13a9b804888851bdf24f7e17ba8",
+     "providerId": "opta:Player:5qao7tnriecoq3qtmxzobz6dw",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Gabriele",
+     "lastName": "Piccinini",
+     "shirtName": "Gabriele Piccinini",
+     "displayName": "Piccinini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d1fb8ef2081d4501a14971b23d202784"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c8bdfbb5a873426a93b6a4febdfc63cf",
+     "providerId": "opta:Player:e615cmv1tfzu84f0z8mwi5711",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Raul",
+     "lastName": "Albiol Tortajada",
+     "shirtName": "Raúl Albiol",
+     "displayName": "Albiol",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::15fe67d5feb44e07a9ba9074cd6fed25",
+     "providerId": "kama:Player:100652",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Filip",
+     "lastName": "Stojilković",
+     "shirtName": "Filip Stojilković",
+     "displayName": "Stojilković",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4cf1b0e719d44e95aa0f4ca057f0f025",
+     "providerId": "kama:Player:100597",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Justin",
+     "lastName": "Bijlow",
+     "shirtName": "Justin Bijlow",
+     "displayName": "Bijlow",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488",
+     "providerId": "opta:Player:eh9sh9aa10zrp80l6e4l0c7h1",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Aaron",
+     "lastName": "Martin Caricol",
+     "shirtName": "Aarón Martín",
+     "displayName": "Martín",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d",
+     "providerId": "opta:Player:8psio8fqce76uinoqpilzxsd1",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Stefano",
+     "lastName": "Sabelli",
+     "shirtName": "Stefano Sabelli",
+     "displayName": "Sabelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::50f786bf0927432c9ee1d36704a91106"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::65bb7b8d02084d858daeba0cff0cc4eb",
+     "providerId": "opta:Player:1lxfpn0wmr895me9xbzcfnh90",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Marcandalli",
+     "shirtName": "Alessandro Marcandalli",
+     "displayName": "Marcandalli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::816125e2bba042b38c44a6bb8b005f83",
+     "providerId": "opta:Player:40msbo4o5bwx0oeuz4743w161",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Leo Skiri",
+     "lastName": "Ostigard",
+     "shirtName": "Leo Østigård",
+     "displayName": "Østigård",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ac9814fb4e4245378d64a972b9fd3199",
+     "providerId": "opta:Player:7ojvhhfvbtbn60sc50y4l2ctm",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Johan Felipe",
+     "lastName": "Vasquez Ibarra",
+     "shirtName": "Johan Vásquez",
+     "displayName": "J. Vásquez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4fbfb165723441d9a09b3e912770ad90",
+     "providerId": "kama:Player:100678",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Alexsandro",
+     "lastName": "Amorim De Freitas",
+     "shirtName": "Alexsandro Amorim",
+     "displayName": "Amorim",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c",
+     "providerId": "opta:Player:7xdhy2xi9mrhzjn6aiatd9ono",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Patrizio",
+     "lastName": "Masini",
+     "shirtName": "Patrizio Masini",
+     "displayName": "Masini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab",
+     "providerId": "opta:Player:bk1gdyxtfp4drwb0yotwerbsa",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Tommaso",
+     "lastName": "Baldanzi",
+     "shirtName": "Tommaso Baldanzi",
+     "displayName": "Baldanzi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934",
+     "providerId": "opta:Player:bf41pexjnkx8o1wdxudesfac4",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Osayuki Jeff",
+     "lastName": "Ekhator",
+     "shirtName": "Jeff Ekhator",
+     "displayName": "Ekhator",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 41,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab"
+      },
+      {
+       "type": "substitution-out",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3e3618a7ee924889973db5ff58423c2b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::03ea7d3b17b74069830746c24db1de69",
+     "providerId": "opta:Player:9dc7uictce9dq0tbphn74qz85",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Nicola",
+     "lastName": "Leali",
+     "shirtName": "Nicola Leali",
+     "displayName": "Leali",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::308ee64855794d61811119f70f5f018e",
+     "providerId": "opta:Player:4b6mhmoeo78f8x928q2imp591",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Daniele",
+     "lastName": "Sommariva",
+     "shirtName": "Daniele Sommariva",
+     "displayName": "Sommariva",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573",
+     "providerId": "opta:Player:cnriqwh17pqgz7p2gt74uar6c",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Vitor Manuel",
+     "lastName": "Carvalho De Oliveira",
+     "shirtName": "Vitinha",
+     "displayName": "Vitinha",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4fbfb165723441d9a09b3e912770ad90"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b",
+     "providerId": "opta:Player:17au7v1ocl4zab872g59821yi",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Walter",
+     "lastName": "Messias Junior",
+     "shirtName": "Junior Messias",
+     "displayName": "Messias",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d56eec021a0e467db06e5958d5c37e41",
+     "providerId": "kama:Player:100612",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Nils Erik Ulf",
+     "lastName": "Zätterström",
+     "shirtName": "Nils Zätterström",
+     "displayName": "Zätterström",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3e3618a7ee924889973db5ff58423c2b",
+     "providerId": "opta:Player:b4lc7czw7al6g7a7qzcqzya22",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Jean Emile Junior",
+     "lastName": "Onana Onana",
+     "shirtName": "Jean Onana",
+     "displayName": "Onana",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc",
+     "providerId": "opta:Player:8ncvq09i7or8rxwq9233djtg5",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Caleb Ansah",
+     "lastName": "Ekuban",
+     "shirtName": "Caleb Ekuban",
+     "displayName": "Ekuban",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50f786bf0927432c9ee1d36704a91106",
+     "providerId": "opta:Player:dq2eqqywinhsh9ijg8amqyp78",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Sebastian Villaume",
+     "lastName": "Otoa",
+     "shirtName": "Sebastian Otoa",
+     "displayName": "Otoa",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::38b63b8ba7a142afaad360ceb91bac88",
+     "providerId": "kama:Player:99058",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Gaël Luc Michel",
+     "lastName": "Lafont",
+     "shirtName": "Gaël Lafont",
+     "displayName": "Lafont",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::81c419a50cb84df4ba0a4a848e44e777",
+     "providerId": "kama:Player:3034",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Jacopo",
+     "lastName": "Grossi",
+     "shirtName": "Jacopo Grossi",
+     "displayName": "Grossi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::969213be1be7493781f215b4bbfd0887",
+     "providerId": "kama:Player:95942",
+     "side": "away",
+     "team": "Genoa",
+     "firstName": "Wedtoin Latif",
+     "lastName": "Ouedraogo",
+     "shirtName": "Wedtoin Latif Ouedraogo",
+     "displayName": "O. Latif",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:26:45.660Z",
+   "sha256": "cad63beed1b040de14278016da02bbbe9db05b74bde1f172358cf2eb580d9fe8"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:29:08.210Z",
+   "sha256": "d478d00077ffd24f46582b71453fad59a391d180b4647b9b1a422304ddf15183",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Bijlow",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 6,
+     "votoItalia": 7,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Sabelli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Martin",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vasquez",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ostigard",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marcandalli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Otoa",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Messias",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baldanzi",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Onana J.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Masini",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Amorim",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Colombo",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekuban",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vitinha O.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekhator",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Semper",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cuadrado",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Caracciolo A.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Calabresi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Canestrelli",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 9,
+     "votoItalia": 6,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Angori",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tramoni M.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Aebischer",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Akinsanmiro",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Piccinini G.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tourè I.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vural",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Loyola",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Moreo",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Meister",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/33",
+      "estrattoIl": "2026-10-06T08:29:08.210Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Durosinmi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 1 - 2 Genoa 19/04/2026 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

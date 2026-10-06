@@ -1,0 +1,1550 @@
+{
+ "label": "Como-Fiorentina (g25)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-02-14T14:00:00Z",
+  "hoursAfterKickoff": 5610.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:55.322Z",
+  "sha256": "2df563d95432151b6c192f7b9aa622a50421fa7a224961788274f3b03d07a199"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::2684ae6862be416bb7c4d25b7749197f",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-02-14T14:00:00Z",
+   "matchday": 25,
+   "home": "Como",
+   "away": "Fiorentina",
+   "homeTeamId": "serie-a::Football_Team::367e70bf50b346209f8a0f16429850cb",
+   "awayTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "homeScore": 1,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::2684ae6862be416bb7c4d25b7749197f",
+   "homeTeam": "Como",
+   "awayTeam": "Fiorentina",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::b8f4bf41ac6a4c38894b71c72e278bb6",
+     "providerId": "opta:Player:r0hm6ahwcvdu57bgfi5zkslx",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Jean Jules Michel",
+     "lastName": "Butez",
+     "shirtName": "Jean Butez",
+     "displayName": "Butez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7977f07bbb7f404d8f09afd4eacd5be6",
+     "providerId": "opta:Player:54foi544tygbd4sfx62t7wno",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Alex",
+     "lastName": "Valle Gomez",
+     "shirtName": "Álex Valle",
+     "displayName": "Álex Valle",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::076fcd52000d423399e6caba08dd9f64"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::10128bcdb2974a83908a844014b93ecb",
+     "providerId": "opta:Player:djpsc1fvcnrh61c071t00gmad",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Marc-Oliver",
+     "lastName": "Kempf",
+     "shirtName": "Marc-Oliver Kempf",
+     "displayName": "Kempf",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 49,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::399fc3f07e3d40e5b9c40bf2a72c610f",
+     "providerId": "kama:Player:98853",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Jacobo",
+     "lastName": "Ramon Naveros",
+     "shirtName": "Jacobo Ramón",
+     "displayName": "Ramón",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6867551cf5a6427a9ab81bd06fd9d455",
+     "providerId": "opta:Player:92vjurxjnipl210yanki2oz8q",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Lucas",
+     "lastName": "Da Cunha",
+     "shirtName": "Lucas da Cunha",
+     "displayName": "da Cunha",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e2f4254456b445c1a4cdee770f7fc8ba",
+     "providerId": "opta:Player:6d36zn3fr35yhj70yx5n445qs",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Maximo",
+     "lastName": "Perrone Rodriguez",
+     "shirtName": "Máximo Perrone",
+     "displayName": "Perrone",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7b3eaf78996f41c58e891f9d08774efa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::027970dce05b45359fbaa7d11eb36313",
+     "providerId": "opta:Player:9i6hs8toyjwrh7ub04vow8wes",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Nicolas",
+     "lastName": "Paz Martinez",
+     "shirtName": "Nico Paz",
+     "displayName": "Nico Paz",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cd3e52132dcc42bc8bff94c65e0319aa",
+     "providerId": "opta:Player:7onr52be14is8cwcfd2k1i784",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Martin",
+     "lastName": "Baturina",
+     "shirtName": "Martin Baturina",
+     "displayName": "Baturina",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56",
+     "providerId": "opta:Player:16kv5p8we3pwqpt5ktwrb7mj9",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Mergim",
+     "lastName": "Vojvoda",
+     "shirtName": "M. Vojvoda",
+     "displayName": "Vojvoda",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::97481def06eb44989781b7ff153b83a3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::db01ed9a28274042a633bc774b61fd7f",
+     "providerId": "kama:Player:98273",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Nicolas Gerrit",
+     "lastName": "Kühn",
+     "shirtName": "Nicolas Kühn",
+     "displayName": "Kühn",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4bf5990efa3c4544ab7a0ed845efad67"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f861b4ecfff843f6920c13aa90631df5",
+     "providerId": "opta:Player:1p0xp2onnys7jlru55vfgf1pm",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Anastasios",
+     "lastName": "Douvikas",
+     "shirtName": "Tasos Douvikas",
+     "displayName": "Douvikas",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a28bdeb07514be7abed730e8a5b4a6f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::66b07ea257a845bfa69075df0b4e9238",
+     "providerId": "kama:Player:99288",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Noel Max Joachim",
+     "lastName": "Törnqvist",
+     "shirtName": "Noel Törnqvist",
+     "displayName": "Törnqvist",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::85b349ae27e44e85a331d7b0eb2203d4",
+     "providerId": "opta:Player:c7b2gexssr0uthfxk3xfvb7bp",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Mauro",
+     "lastName": "Vigorito",
+     "shirtName": "Mauro Vigorito",
+     "displayName": "Vigorito",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::420eed39e59f4cde83107b3e055f9998",
+     "providerId": "kama:Player:99308",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Nikola",
+     "lastName": "Čavlina",
+     "shirtName": "Nikola Čavlina",
+     "displayName": "Čavlina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::97481def06eb44989781b7ff153b83a3",
+     "providerId": "opta:Player:79dz7zni5fcgh5e70spoj2j8p",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Maxence",
+     "lastName": "Caqueret",
+     "shirtName": "Maxence Caqueret",
+     "displayName": "Caqueret",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a28bdeb07514be7abed730e8a5b4a6f",
+     "providerId": "opta:Player:46kq5653o302ebz4o5yzsss0l",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Alvaro Borja",
+     "lastName": "Morata Martin",
+     "shirtName": "A. Morata",
+     "displayName": "Morata",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f861b4ecfff843f6920c13aa90631df5"
+      },
+      {
+       "type": "yellow-card",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "second-yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7e40ae9c747342c7ad5ad2fe1b425246",
+     "providerId": "opta:Player:4q6kuikopbgls8y2rwqiu415h",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Sergi",
+     "lastName": "Roberto Carnicer",
+     "shirtName": "Sergi Roberto",
+     "displayName": "Sergi Roberto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cad22f4da2c14e85bc2e4c7ec65bbe78",
+     "providerId": "kama:Player:100710",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Adrian Adriano",
+     "lastName": "Lahdo",
+     "shirtName": "Adrian Lahdo",
+     "displayName": "Lahdo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4bf5990efa3c4544ab7a0ed845efad67",
+     "providerId": "opta:Player:30ed2aojjzmqigq6vkcrzc8pg",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Jesus",
+     "lastName": "Rodriguez Caraballo",
+     "shirtName": "Jesús Rodriguez",
+     "displayName": "Jesús Rodríguez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::db01ed9a28274042a633bc774b61fd7f"
+      },
+      {
+       "type": "yellow-card",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::076fcd52000d423399e6caba08dd9f64",
+     "providerId": "opta:Player:a3w1uczgmswm3cwk4vmvoglhx",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Moreno Perez",
+     "shirtName": "Alberto Moreno",
+     "displayName": "Alberto Moreno",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7977f07bbb7f404d8f09afd4eacd5be6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b6e063871e99453dacb938b91b08f6b2",
+     "providerId": "opta:Player:94qw1jp87gqyvae89n11z05ey",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Ivan",
+     "lastName": "Smolčić",
+     "shirtName": "Ivan Smolčić",
+     "displayName": "Smolčić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::866d618d06994344b1d86dd8eb428c84",
+     "providerId": "kama:Player:99559",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Diego Carlos",
+     "lastName": "Santos Silva",
+     "shirtName": "Diego Carlos",
+     "displayName": "Diego Carlos",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7b3eaf78996f41c58e891f9d08774efa",
+     "providerId": "opta:Player:685wka5xc8na423mirotcu238",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Jarden",
+     "lastName": "Tutu Addai",
+     "shirtName": "Jayden Addai",
+     "displayName": "Addai",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e2f4254456b445c1a4cdee770f7fc8ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1e98bf9e66dd413c9ffb846e76aec1c1",
+     "providerId": "opta:Player:3pba28sk4auqjp27jfssfvvxm",
+     "side": "home",
+     "team": "Como",
+     "firstName": "Ignace Fabienne",
+     "lastName": "Van Der Brempt",
+     "shirtName": "Ignace Van der Brempt",
+     "displayName": "Van der Brempt",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7eea4a3905274129bc4fdfec8574cc43",
+     "providerId": "opta:Player:e00004wkpfc8jawioejmpu1n9",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "David",
+     "lastName": "De Gea Quintana",
+     "shirtName": "David de Gea",
+     "displayName": "de Gea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51",
+     "providerId": "opta:Player:9e3t2wyjqzxsn690aysao8cfd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Domilson",
+     "lastName": "Cordeiro Dos Santo",
+     "shirtName": "Dodô",
+     "displayName": "Dodô",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646",
+     "providerId": "opta:Player:8dgh4fzut8khpt32d6dsrljsa",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Fabiano",
+     "lastName": "Parisi",
+     "shirtName": "F. Parisi",
+     "displayName": "Parisi",
+     "starter": true,
+     "events": [
+      {
+       "type": "own-goal",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511",
+     "providerId": "opta:Player:1f37bo8dikes3350u2a0h9hm2",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marco",
+     "lastName": "Brescianini",
+     "shirtName": "Marco Brescianini",
+     "displayName": "Brescianini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::000931a496414061b3387beb069c8593",
+     "providerId": "opta:Player:dpnp9rguhhs04of6vmlw5spg5",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Rolando",
+     "lastName": "Mandragora",
+     "shirtName": "Rolando Mandragora",
+     "displayName": "Mandragora",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 26,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ab56be09c4ce4c818b456701f7106643",
+     "providerId": "kama:Player:100589",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Jack David",
+     "lastName": "Harrison",
+     "shirtName": "Jack Harrison",
+     "displayName": "Harrison",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac",
+     "providerId": "opta:Player:3zqpvn7r1c779l9vwwh7yukfd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Bioty Moise",
+     "lastName": "Kean",
+     "shirtName": "Moise Kean",
+     "displayName": "Kean",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c83a8625f33c4870a3af7371b0d27ec2",
+     "providerId": "kama:Player:100429",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Manor",
+     "lastName": "Solomon",
+     "shirtName": "Manor Solomon",
+     "displayName": "Solomon",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d58bb19e4fac428c91c7d3d22c54aeb8",
+     "providerId": "opta:Player:bgwbowoiz7t2lvpit75zlqz11",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Lezzerini",
+     "shirtName": "Luca Lezzerini",
+     "displayName": "Lezzerini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a32fc40b8644de68e49a77591741565",
+     "providerId": "opta:Player:1sjt0nj0232gu88x50c3d16nd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Oliver",
+     "lastName": "Christensen",
+     "shirtName": "Oliver Christensen",
+     "displayName": "Christensen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63",
+     "providerId": "opta:Player:9srjp22oprs2tkcutb2g4o2dw",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Comuzzo",
+     "shirtName": "Pietro Comuzzo",
+     "displayName": "Comuzzo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::80838af7be514e3fa7e32f7fb54b4f02",
+     "providerId": "opta:Player:9qow77e16pvlb3860yjpydryt",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Robin Everardus",
+     "lastName": "Gosens",
+     "shirtName": "Robin Gosens",
+     "displayName": "Gosens",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5",
+     "providerId": "opta:Player:6e9fu9o226zn6jzx02jutvi3u",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Jacopo",
+     "lastName": "Fazzini",
+     "shirtName": "Jacopo Fazzini",
+     "displayName": "Fazzini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc",
+     "providerId": "opta:Player:kvbjuvcseqk4sbr04ctkqi38",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Cher",
+     "lastName": "Ndour",
+     "shirtName": "Cher Ndour",
+     "displayName": "Ndour",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122",
+     "providerId": "opta:Player:c4bccspnyg73206u27nhiwu1g",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Niccolo’",
+     "lastName": "Fortini",
+     "shirtName": "Niccolò Fortini",
+     "displayName": "Fortini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf",
+     "providerId": "kama:Player:1479",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nda Konan Bienvenu Ange Eddy",
+     "lastName": "Kouadio",
+     "shirtName": "Eddy Kouadio",
+     "displayName": "Kouadio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de4ba766d0fe4f37910f084f2e65d62b",
+     "providerId": "kama:Player:5332",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luís Francisco",
+     "lastName": "Balbo Vieira",
+     "shirtName": "Luís Balbo",
+     "displayName": "Luís Balbo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15",
+     "providerId": "opta:Player:4j3d7ujmhevsi0y3zvs34i13o",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Giovanni",
+     "lastName": "Fabbian",
+     "shirtName": "Giovanni Fabbian",
+     "displayName": "Fabbian",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:24:08.919Z",
+   "sha256": "7fce17cab99aaf049b97119204ffb27c2e00f1b9ab56d68c5c2f1f6254e1e7f4"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:55.322Z",
+   "sha256": "2df563d95432151b6c192f7b9aa622a50421fa7a224961788274f3b03d07a199",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Butez",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vojvoda",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Moreno Alb.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valle",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ramon",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kempf",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Caqueret",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Da Cunha",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Perrone",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Paz N.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baturina",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Morata",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Douvikas",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Addai",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kuhn",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Rodriguez Je.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "De Gea",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ranieri L.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Parisi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 1,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dodò",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mandragora",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Brescianini",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Harrison",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndour",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kean",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/25",
+      "estrattoIl": "2026-10-06T08:28:55.322Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Solomon",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Como 1 - 2 Fiorentina 14/02/2026 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

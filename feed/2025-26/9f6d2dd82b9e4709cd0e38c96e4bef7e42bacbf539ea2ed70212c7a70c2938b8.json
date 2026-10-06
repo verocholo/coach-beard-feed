@@ -1,0 +1,1708 @@
+{
+ "label": "Torino-Pisa (g10)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-11-02T14:00:00Z",
+  "hoursAfterKickoff": 8106.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:31.435Z",
+  "sha256": "bd41fce65766d1f1b6b670bcb91bd4284b0949abab7a580fca3279793a35dedb"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::51694310dd4e4fff8936f7f61ccacae3",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-11-02T14:00:00Z",
+   "matchday": 10,
+   "home": "Torino",
+   "away": "Pisa",
+   "homeTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "awayTeamId": "serie-a::Football_Team::546afa43cf08486d9234df9e846c1f1e",
+   "homeScore": 2,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::51694310dd4e4fff8936f7f61ccacae3",
+   "homeTeam": "Torino",
+   "awayTeam": "Pisa",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::0cc5d45eeae84da4b2c8d3335f629006",
+     "providerId": "opta:Player:a8s8bl5kp1rif458yt3qlevo5",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alberto Andrea",
+     "lastName": "Paleari",
+     "shirtName": "Alberto Paleari",
+     "displayName": "Paleari",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600",
+     "providerId": "opta:Player:270djbc9lxhoupmd1djrii191",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Guillermo Alfonso",
+     "lastName": "Maripan Loayza",
+     "shirtName": "Guillermo Maripán",
+     "displayName": "Maripán",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e01f727bb7304efea37d2cc9fc152812",
+     "providerId": "opta:Player:7vykym3hy0qf1rxw3yv58kxgq",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Saul Basilio",
+     "lastName": "Coco Bassey Oubina",
+     "shirtName": "Saúl Coco",
+     "displayName": "Coco",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::deaa04c0b01942838b061bf8acc34282",
+     "providerId": "opta:Player:54mmovmx3osoxgbloe9rzmx9l",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ardian",
+     "lastName": "Ismajli",
+     "shirtName": "Ardian Ismajli",
+     "displayName": "Ismajli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 4,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1",
+     "providerId": "opta:Player:866f0f7taqhae91o3cjnnx0ph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Valentino",
+     "lastName": "Lazaro",
+     "shirtName": "Valentino Lazaro",
+     "displayName": "Lazaro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd",
+     "providerId": "opta:Player:82pgcsfvbitzlpbao9ptbsgoa",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cesare",
+     "lastName": "Casadei",
+     "shirtName": "Cesare Casadei",
+     "displayName": "Casadei",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 27,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1b963dfa250b41d5b596ef5ad7cb1379",
+     "providerId": "opta:Player:7hwj9pf9roe74jifvuhiu6n6x",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ivan",
+     "lastName": "Ilić",
+     "shirtName": "Ivan Ilić",
+     "displayName": "Ilić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a",
+     "providerId": "opta:Player:ebgkv548xih19m8uza7bgrvmd",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Nikola",
+     "lastName": "Vlašić",
+     "shirtName": "Nikola Vlašić",
+     "displayName": "Vlašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c",
+     "providerId": "opta:Player:cp13vthbds3tl1wtfelfx2evp",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Giovanni Pablo",
+     "lastName": "Simeone Baldini",
+     "shirtName": "Giovanni Simeone",
+     "displayName": "Simeone",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 42,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::deaa04c0b01942838b061bf8acc34282"
+      },
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fa8793423f574374b968c141faabf725"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81",
+     "providerId": "opta:Player:59ujnkvl7rlffomi2bqpsmbpx",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Che Zach Everton",
+     "lastName": "Adams",
+     "shirtName": "Ché Adams",
+     "displayName": "C. Adams",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 45,
+       "additionalTime": 3,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1396abd02b8946108f41e65ecdd990cf",
+     "providerId": "opta:Player:b1jyt86vbfyektviyeiqtl562",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Maximilian Mihai",
+     "lastName": "Popa",
+     "shirtName": "Mihai Popa",
+     "displayName": "Popa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8407424229094b7dbf8c8f4aca345c7b",
+     "providerId": "opta:Player:9w6xwaepe2bw3h0hwbfmr1f6c",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Lapo",
+     "lastName": "Siviero",
+     "shirtName": "Lapo Siviero",
+     "displayName": "Siviero",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21",
+     "providerId": "opta:Player:6gzi8qf8szxn99dnwh3h6gkb9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adam",
+     "lastName": "Masina",
+     "shirtName": "Adam Masina",
+     "displayName": "Masina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429",
+     "providerId": "opta:Player:8vom3bt6es2kp5sdl98az6gwk",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Emirhan",
+     "lastName": "Ilkhan",
+     "shirtName": "Emirhan Ilkhan",
+     "displayName": "İlkhan",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d00c221b12c74ce08e4ef1e38addca64",
+     "providerId": "opta:Player:byjq5v4tqpjt9scaj17ccuesq",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Faustino Adebola",
+     "lastName": "Anjorin",
+     "shirtName": "Tino Anjorin",
+     "displayName": "Anjorin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9de4e3f19b5e489b9f8eec96d7532148",
+     "providerId": "opta:Player:eug1as582cl6ji78ylyq4zfo4",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ali Bina",
+     "lastName": "Dembelé",
+     "shirtName": "Ali Dembélé",
+     "displayName": "Dembélé",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb",
+     "providerId": "opta:Player:a9z0jsjwfteq974bxwucvc4ix",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cyril Jean",
+     "lastName": "Ngonge",
+     "shirtName": "Cyril Ngonge",
+     "displayName": "Ngonge",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::29030faa6a7a411f935e176b7c681ef7",
+     "providerId": "opta:Player:can2l9ha4ufsxdjxdkb739fkk",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Kristjan",
+     "lastName": "Asllani",
+     "shirtName": "Kristjan Asllani",
+     "displayName": "Asllani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737",
+     "providerId": "opta:Player:66at96kfhvigkny465lkmrnbp",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cristiano",
+     "lastName": "Biraghi",
+     "shirtName": "Cristiano Biraghi",
+     "displayName": "Biraghi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd",
+     "providerId": "opta:Player:9sjt5rv156hr2llfu241r6cph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adrien Fidele",
+     "lastName": "Tameze Aoutsa",
+     "shirtName": "Adrien Tamèze",
+     "displayName": "Tameze",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fa8793423f574374b968c141faabf725",
+     "providerId": "opta:Player:30gsjr0xlmjulnz227zfxga8l",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Duvan Esteban",
+     "lastName": "Zapata Banguero",
+     "shirtName": "Duván Zapata",
+     "displayName": "Zapata",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3",
+     "providerId": "opta:Player:9hl7yh42qvmdcjw69si5imnf8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alieu Badara",
+     "lastName": "Njie",
+     "shirtName": "Alieu Njie",
+     "displayName": "Njie",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::98e15b4304ae4e0d9f3d1d8cfe905e51",
+     "providerId": "opta:Player:lytldf000kafs2h6g92esfrp",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Adrian",
+     "lastName": "Šemper",
+     "shirtName": "Adrian Šemper",
+     "displayName": "Šemper",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::63c9aabd25e5414d9beedb1278633362",
+     "providerId": "opta:Player:bxqbdvs3o73d2ck83wstwpg8a",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Simone",
+     "lastName": "Canestrelli",
+     "shirtName": "Simone Canestrelli",
+     "displayName": "Canestrelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abe900533cc943cab2316085cff5c521",
+     "providerId": "opta:Player:5tyedyaxnojij3ktc4w44dsd1",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Antonio Aldo",
+     "lastName": "Caracciolo",
+     "shirtName": "Antonio Caracciolo",
+     "displayName": "Caracciolo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fb3af9b4ca344de38ba61366bfa2b1bf",
+     "providerId": "opta:Player:19xao2zbulnj2ui07q0zc67rp",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Arturo",
+     "lastName": "Calabresi",
+     "shirtName": "Arturo Calabresi",
+     "displayName": "Calabresi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f48258f89c024a6b93f47ff096b4d30c",
+     "providerId": "opta:Player:np5er6kwne1u1y3avr7sr11w",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Isak",
+     "lastName": "Vural",
+     "shirtName": "Isak Vural",
+     "displayName": "Vural",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::492b9a0d429c45d9b13587f028ac57b0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2c9d202814c44b22922357aa23f283b5",
+     "providerId": "opta:Player:eyx42tgneccybvhk8bfhtcaqy",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Malthe",
+     "lastName": "Højholt",
+     "shirtName": "Malthe Højholt",
+     "displayName": "Højholt",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 37,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a74cbc51025f490cb8c10f031cd7fc9c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74c636656c5343ee921582563943e359",
+     "providerId": "opta:Player:3o7gvykqi9ldgjrzxl14dqas4",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Ebenezer Ajodun",
+     "lastName": "Akinsanmiro",
+     "shirtName": "Ebenezer Akinsanmiro",
+     "displayName": "Akinsanmiro",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1c9d5f5a9bf428c85d563d9ef4e8bad",
+     "providerId": "opta:Player:6u6mobmk6lpvwebo76ddxr3s9",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Mehdi Pascal Marcel",
+     "lastName": "Léris",
+     "shirtName": "Mehdi Léris",
+     "displayName": "Léris",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f280c8cfd106468db8d8dac473f93c7a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d1fb8ef2081d4501a14971b23d202784",
+     "providerId": "opta:Player:8trp1348qs14phwpsx4a9beuh",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Idrissa",
+     "lastName": "Touré",
+     "shirtName": "Idrissa Touré",
+     "displayName": "I. Touré",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a53cdd08f2164df2850c0371463911cc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9078be5cf70143c6b5cf3ff8bc992622",
+     "providerId": "opta:Player:22ck04xk148cks27zwby83d1x",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Stefano",
+     "lastName": "Moreo",
+     "shirtName": "S. Moreo",
+     "displayName": "Moreo",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 13,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d1c9d5f5a9bf428c85d563d9ef4e8bad"
+      },
+      {
+       "type": "penalty-goal",
+       "time": 29,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::13ed262b2a284cf183ad39dc6c317e12"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3fd5a79038fd4556b4ae43dcc2633a95",
+     "providerId": "opta:Player:5d6txeello867oroqdv0y5wk4",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Henrik Wendel",
+     "lastName": "Meister",
+     "shirtName": "Henrik Meister",
+     "displayName": "Meister",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dbbf14e9b8b8434db6df471dade0893b",
+     "providerId": "opta:Player:3pcf58m2hgktlm15elgdyut3p",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Nicolas",
+     "lastName": "Andrade David",
+     "shirtName": "Nícolas Andrade",
+     "displayName": "Nicolas",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3a012d7f5bb2431981c0e77dce09aee5",
+     "providerId": "opta:Player:17iqlyu99zttyubi6ya6yu9cl",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Simone",
+     "lastName": "Scuffet",
+     "shirtName": "Simone Scuffet",
+     "displayName": "Scuffet",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::13ed262b2a284cf183ad39dc6c317e12",
+     "providerId": "opta:Player:56ekwofu3616kd4qjlirphdzo",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Samuele",
+     "lastName": "Angori",
+     "shirtName": "S. Angori",
+     "displayName": "Angori",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9078be5cf70143c6b5cf3ff8bc992622"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::492b9a0d429c45d9b13587f028ac57b0",
+     "providerId": "opta:Player:93cnkzi86q36c8n86mo35q5t5",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Marius Mihai",
+     "lastName": "Marin",
+     "shirtName": "M. Marin",
+     "displayName": "M. Marin",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f48258f89c024a6b93f47ff096b4d30c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1444d2c7af17447793aac0393c4b215f",
+     "providerId": "opta:Player:4tir4q39uy0c71m8zfxvynd9l",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Mattéo",
+     "lastName": "Tramoni",
+     "shirtName": "Mattéo Tramoni",
+     "displayName": "Tramoni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f280c8cfd106468db8d8dac473f93c7a",
+     "providerId": "opta:Player:pconfrmsdy9aikioqz9s9lg5",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Juan Guillermo",
+     "lastName": "Cuadrado Bello",
+     "shirtName": "Juan Cuadrado",
+     "displayName": "Cuadrado",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d1c9d5f5a9bf428c85d563d9ef4e8bad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a272bcc2d6e74a7ab403f05744dc0564",
+     "providerId": "opta:Player:apj8n0e2b1o4vfgfb8vrylafo",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Louis Thomas",
+     "lastName": "Buffon",
+     "shirtName": "Louis Buffon",
+     "displayName": "Buffon",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a53cdd08f2164df2850c0371463911cc",
+     "providerId": "opta:Player:8zltxvt0rcrcv96x1wmdhlrrp",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Mbala",
+     "lastName": "Nzola",
+     "shirtName": "M'Bala Nzola",
+     "displayName": "Nzola",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d1fb8ef2081d4501a14971b23d202784"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a74cbc51025f490cb8c10f031cd7fc9c",
+     "providerId": "opta:Player:bpfg11qh1q0zj2x6sqd3srvmx",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Michel",
+     "lastName": "Aebischer",
+     "shirtName": "Michel Aebischer",
+     "displayName": "Aebischer",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2c9d202814c44b22922357aa23f283b5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d303b13a9b804888851bdf24f7e17ba8",
+     "providerId": "opta:Player:5qao7tnriecoq3qtmxzobz6dw",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Gabriele",
+     "lastName": "Piccinini",
+     "shirtName": "Gabriele Piccinini",
+     "displayName": "Piccinini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c8bdfbb5a873426a93b6a4febdfc63cf",
+     "providerId": "opta:Player:e615cmv1tfzu84f0z8mwi5711",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Raul",
+     "lastName": "Albiol Tortajada",
+     "shirtName": "Raúl Albiol",
+     "displayName": "Albiol",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2343f7c21d144dccb90ef44e646b9328",
+     "providerId": "kama:Player:98465",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Daniel Tyrell",
+     "lastName": "Denoon",
+     "shirtName": "Daniel Denoon",
+     "displayName": "Denoon",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0df7aba864bd49798c8344fe7b337a77",
+     "providerId": "kama:Player:98368",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Jeremy Kandje",
+     "lastName": "Mbambi",
+     "shirtName": "Jeremy Kandje Mbambi",
+     "displayName": "Mbambi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1800ff3e0c53485b8c5da64ec1159efa",
+     "providerId": "opta:Player:ewhxpafqa4wvkv8945hhgrehg",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Giovanni",
+     "lastName": "Bonfanti",
+     "shirtName": "Giovanni Bonfanti",
+     "displayName": "G. Bonfanti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::149ad9adb211416b8edc7a05936e0638",
+     "providerId": "kama:Player:99565",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Lorran Lucas",
+     "lastName": "Pereira De Sousa",
+     "shirtName": "Lorran",
+     "displayName": "Lorran",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:19:52.473Z",
+   "sha256": "c2095210de16c22f21f7243790c7ac8718d60fec38cc41312cb925e8054cb7be"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:31.435Z",
+   "sha256": "bd41fce65766d1f1b6b670bcb91bd4284b0949abab7a580fca3279793a35dedb",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Semper",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cuadrado",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Caracciolo A.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Calabresi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Canestrelli",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Angori",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Leris",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Aebischer",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Akinsanmiro",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tourè I.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Hojholt",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Marin M.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vural",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nzola",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Moreo",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 13.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Meister",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Paleari",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Biraghi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazaro",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Maripan",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ismajli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coco",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tameze",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ilic",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vlasic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Casadei",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gineitis",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Zapata D.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Simeone",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ngonge",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams C.",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 2 - 2 Pisa 02/11/2025 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

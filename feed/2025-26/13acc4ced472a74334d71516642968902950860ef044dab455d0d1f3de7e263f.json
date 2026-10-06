@@ -1,0 +1,1634 @@
+{
+ "label": "Torino-Cagliari (g17)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-12-27T14:00:00Z",
+  "hoursAfterKickoff": 6786.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:42.543Z",
+  "sha256": "069b6a4d158573ee4bc7c8a5b3e765a1d596c4cc1c21f59299de477bea7f84c7"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::49138cce420a41069bad873c382b5c1f",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-12-27T14:00:00Z",
+   "matchday": 17,
+   "home": "Torino",
+   "away": "Cagliari",
+   "homeTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "awayTeamId": "serie-a::Football_Team::25aecd0eda3e4453aabd9a9d5e7fba0d",
+   "homeScore": 1,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::49138cce420a41069bad873c382b5c1f",
+   "homeTeam": "Torino",
+   "awayTeam": "Cagliari",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::0cc5d45eeae84da4b2c8d3335f629006",
+     "providerId": "opta:Player:a8s8bl5kp1rif458yt3qlevo5",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alberto Andrea",
+     "lastName": "Paleari",
+     "shirtName": "Alberto Paleari",
+     "displayName": "Paleari",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600",
+     "providerId": "opta:Player:270djbc9lxhoupmd1djrii191",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Guillermo Alfonso",
+     "lastName": "Maripan Loayza",
+     "shirtName": "Guillermo Maripán",
+     "displayName": "Maripán",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::deaa04c0b01942838b061bf8acc34282",
+     "providerId": "opta:Player:54mmovmx3osoxgbloe9rzmx9l",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ardian",
+     "lastName": "Ismajli",
+     "shirtName": "Ardian Ismajli",
+     "displayName": "Ismajli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0250707b586045f087776dea4ea39f51"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1",
+     "providerId": "opta:Player:866f0f7taqhae91o3cjnnx0ph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Valentino",
+     "lastName": "Lazaro",
+     "shirtName": "Valentino Lazaro",
+     "displayName": "Lazaro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4672592c583246358f920921b38f10ca"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a",
+     "providerId": "opta:Player:ebgkv548xih19m8uza7bgrvmd",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Nikola",
+     "lastName": "Vlašić",
+     "shirtName": "Nikola Vlašić",
+     "displayName": "Vlašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 27,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81"
+      },
+      {
+       "type": "yellow-card",
+       "time": 36,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd",
+     "providerId": "opta:Player:9sjt5rv156hr2llfu241r6cph",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Adrien Fidele",
+     "lastName": "Tameze Aoutsa",
+     "shirtName": "Adrien Tamèze",
+     "displayName": "Tameze",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::29030faa6a7a411f935e176b7c681ef7",
+     "providerId": "opta:Player:can2l9ha4ufsxdjxdkb739fkk",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Kristjan",
+     "lastName": "Asllani",
+     "shirtName": "Kristjan Asllani",
+     "displayName": "Asllani",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c",
+     "providerId": "opta:Player:cp13vthbds3tl1wtfelfx2evp",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Giovanni Pablo",
+     "lastName": "Simeone Baldini",
+     "shirtName": "Giovanni Simeone",
+     "displayName": "Simeone",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81",
+     "providerId": "opta:Player:59ujnkvl7rlffomi2bqpsmbpx",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Che Zach Everton",
+     "lastName": "Adams",
+     "shirtName": "Ché Adams",
+     "displayName": "C. Adams",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fa8793423f574374b968c141faabf725"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1396abd02b8946108f41e65ecdd990cf",
+     "providerId": "opta:Player:b1jyt86vbfyektviyeiqtl562",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Maximilian Mihai",
+     "lastName": "Popa",
+     "shirtName": "Mihai Popa",
+     "displayName": "Popa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1521324d10634da1bdf493649696124d",
+     "providerId": "opta:Player:cuc7gtr9q0465wxmzgq834ag9",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Franco",
+     "lastName": "Israel Wibmer",
+     "shirtName": "Franco Israel",
+     "displayName": "Israel",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429",
+     "providerId": "opta:Player:8vom3bt6es2kp5sdl98az6gwk",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Emirhan",
+     "lastName": "Ilkhan",
+     "shirtName": "Emirhan Ilkhan",
+     "displayName": "İlkhan",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0250707b586045f087776dea4ea39f51",
+     "providerId": "kama:Player:98848",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Zakaria",
+     "lastName": "Aboukhlal",
+     "shirtName": "Zakaria Aboukhlal",
+     "displayName": "Aboukhlal",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 4,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d00c221b12c74ce08e4ef1e38addca64",
+     "providerId": "opta:Player:byjq5v4tqpjt9scaj17ccuesq",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Faustino Adebola",
+     "lastName": "Anjorin",
+     "shirtName": "Tino Anjorin",
+     "displayName": "Anjorin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::65e8b1653b084e78885ecb139e1e20e2",
+     "providerId": "opta:Player:7czabe5a0l5icdqb74sa9yru2",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Saba",
+     "lastName": "Sazonov",
+     "shirtName": "Saba Sazonov",
+     "displayName": "Sazonov",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9de4e3f19b5e489b9f8eec96d7532148",
+     "providerId": "opta:Player:eug1as582cl6ji78ylyq4zfo4",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Ali Bina",
+     "lastName": "Dembelé",
+     "shirtName": "Ali Dembélé",
+     "displayName": "Dembélé",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd",
+     "providerId": "opta:Player:82pgcsfvbitzlpbao9ptbsgoa",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cesare",
+     "lastName": "Casadei",
+     "shirtName": "Cesare Casadei",
+     "displayName": "Casadei",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4672592c583246358f920921b38f10ca",
+     "providerId": "kama:Player:99338",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Niels Patrick",
+     "lastName": "Nkounkou",
+     "shirtName": "Niels Patrick Nkounkou",
+     "displayName": "Nkounkou",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb",
+     "providerId": "opta:Player:a9z0jsjwfteq974bxwucvc4ix",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cyril Jean",
+     "lastName": "Ngonge",
+     "shirtName": "Cyril Ngonge",
+     "displayName": "Ngonge",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::29030faa6a7a411f935e176b7c681ef7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737",
+     "providerId": "opta:Player:66at96kfhvigkny465lkmrnbp",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Cristiano",
+     "lastName": "Biraghi",
+     "shirtName": "Cristiano Biraghi",
+     "displayName": "Biraghi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fa8793423f574374b968c141faabf725",
+     "providerId": "opta:Player:30gsjr0xlmjulnz227zfxga8l",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Duvan Esteban",
+     "lastName": "Zapata Banguero",
+     "shirtName": "Duván Zapata",
+     "displayName": "Zapata",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3",
+     "providerId": "opta:Player:9hl7yh42qvmdcjw69si5imnf8",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Alieu Badara",
+     "lastName": "Njie",
+     "shirtName": "Alieu Njie",
+     "displayName": "Njie",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e0f71fe995b0408c9a9e748972fc71ac",
+     "providerId": "kama:Player:539",
+     "side": "home",
+     "team": "Torino",
+     "firstName": "Mattia",
+     "lastName": "Pellini",
+     "shirtName": "Mattia Pellini",
+     "displayName": "Pellini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f67db0ff9c994cc2892588aa52ab1786",
+     "providerId": "opta:Player:ab420lzne042a3e3b2lfmy5ii",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Elia",
+     "lastName": "Caprile",
+     "shirtName": "E. Caprile",
+     "displayName": "Caprile",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3b58041ca667411c8526f236ab74b4e9",
+     "providerId": "opta:Player:13ey9mb0ullya36lpv62pspre",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Gabriele",
+     "lastName": "Zappa",
+     "shirtName": "Gabriele Zappa",
+     "displayName": "Zappa",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4a5bc90856df482c9a44a8a85ea7efb0",
+     "providerId": "opta:Player:8lxt5lqavooy0xo0pcinqluz8",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Marco",
+     "lastName": "Palestra",
+     "shirtName": "Marco Palestra",
+     "displayName": "Palestra",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4348f99e8c948f083f28386a7c61908",
+     "providerId": "opta:Player:cx7olq6m4no1tvyou3j58c2z8",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Riyad",
+     "lastName": "Idrissi",
+     "shirtName": "Riyad Idrissi",
+     "displayName": "Idrissi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2e9c48828f524b9fbb10b8ea2907bba6",
+     "providerId": "opta:Player:cnk07o3823zl5gd7qr2bdks7p",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Sebastiano",
+     "lastName": "Luperto",
+     "shirtName": "Sebastiano Luperto",
+     "displayName": "Luperto",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59",
+     "providerId": "opta:Player:c7u5a6ngr4f839ibw3b0opsk5",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Luca",
+     "lastName": "Mazzitelli",
+     "shirtName": "Luca Mazzitelli",
+     "displayName": "Mazzitelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7ad851764d124ab193e66a115ed44cb4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::06c65f309d6740948f30ef3425da1e88",
+     "providerId": "opta:Player:1ct0gujao4wvj1ff3aebqgqnd",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Gianluca",
+     "lastName": "Gaetano",
+     "shirtName": "G. Gaetano",
+     "displayName": "Gaetano",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0d0f43d9fa874b839d9be10ca8ed2501",
+     "providerId": "opta:Player:43rid94d7jz7u5ba4xzb8bbe2",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Ndary Michel",
+     "lastName": "Adopo",
+     "shirtName": "Michel Adopo",
+     "displayName": "Adopo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6cd4530a22374a9e8b73d6614d93e5ee",
+     "providerId": "opta:Player:cmg6y5t0yuzeuzuxitelbvglx",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Alessandro",
+     "lastName": "Deiola",
+     "shirtName": "Alessandro Deiola",
+     "displayName": "Deiola",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9",
+     "providerId": "opta:Player:akvrot9hi5mylunfr07nytt04",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Matteo",
+     "lastName": "Prati",
+     "shirtName": "Matteo Prati",
+     "displayName": "Prati",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59"
+      },
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::99890eab78bc4ef7b90a8afaff9ac22f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cdae414cf24d4ce384e8c8895da9463d",
+     "providerId": "kama:Player:99028",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Semih",
+     "lastName": "Kılıçsoy ",
+     "shirtName": "Semih Kılıçsoy ",
+     "displayName": "Kılıçsoy",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1048dd798cd64a7488fdbd7f37a43813"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::521d74f8dbe1415bb54378aabbf682c9",
+     "providerId": "opta:Player:apvsegsrcr043jtqe5mqxn88a",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Giuseppe",
+     "lastName": "Ciocci",
+     "shirtName": "Giuseppe Ciocci",
+     "displayName": "Ciocci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a188ec5a294848ff8a89d67015be2c84",
+     "providerId": "opta:Player:4y9swvi27eh7vyn48vbrdp9ed",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Boris",
+     "lastName": "Radunović",
+     "shirtName": "Boris Radunović",
+     "displayName": "Radunović",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::300d27fc3b0a4b2291eb725d71183844",
+     "providerId": "opta:Player:cgv93t4k8bzl9neswrjfcdbai",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Alessandro",
+     "lastName": "Di Pardo",
+     "shirtName": "A. Di Pardo",
+     "displayName": "Di Pardo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0a0dbd427fdb4e91ac9b401ed5150844",
+     "providerId": "opta:Player:8f4dnhlapwc3zd9sz7a6pb651",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Marko",
+     "lastName": "Rog",
+     "shirtName": "Marko Rog",
+     "displayName": "Rog",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7ad851764d124ab193e66a115ed44cb4",
+     "providerId": "opta:Player:921amcj5jv6wu2p1qbbo4g2s4",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Nicolò",
+     "lastName": "Cavuoti",
+     "shirtName": "Nicolò Cavuoti",
+     "displayName": "Cavuoti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f4f1a038fbc648fc86df04026bc773b2",
+     "providerId": "opta:Player:brfgmt7r59lah9iyqicc95v6c",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Nicola",
+     "lastName": "Pintus",
+     "shirtName": "Nicola Pintus",
+     "displayName": "Pintus",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1048dd798cd64a7488fdbd7f37a43813",
+     "providerId": "opta:Player:8bjzw0pgu2gbwhyfm2k62hv8q",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Gennaro",
+     "lastName": "Borrelli",
+     "shirtName": "Gennaro Borrelli",
+     "displayName": "Borrelli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cdae414cf24d4ce384e8c8895da9463d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::75d38ff8f4d74bd59d79d6337cfbf0f0",
+     "providerId": "opta:Player:awkjevra745mh5j30bkjp70t1",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Leonardo",
+     "lastName": "Pavoletti",
+     "shirtName": "Leonardo Pavoletti",
+     "displayName": "Pavoletti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::99890eab78bc4ef7b90a8afaff9ac22f",
+     "providerId": "opta:Player:2uvexgjeidkvy6qu4i2nf14a",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Adam",
+     "lastName": "Obert",
+     "shirtName": "Adam Obert",
+     "displayName": "Obert",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9a244f2454b24998a0da95318cb528f0",
+     "providerId": "kama:Player:1457",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Yael Fritz Junior",
+     "lastName": "Trepy",
+     "shirtName": "Yael Trepy",
+     "displayName": "Trepy",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ee28b19032c44f69894578a71d30eb5",
+     "providerId": "opta:Player:72kgngelj6od528ut4dhos26s",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Andrea",
+     "lastName": "Cogoni",
+     "shirtName": "Andrea Cogoni",
+     "displayName": "Cogoni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba",
+     "providerId": "opta:Player:c4n7kjp8c47trslpssnyqjo16",
+     "side": "away",
+     "team": "Cagliari",
+     "firstName": "Sebastiano",
+     "lastName": "Esposito",
+     "shirtName": "Sebastiano Esposito",
+     "displayName": "S. Esposito",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::06c65f309d6740948f30ef3425da1e88"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:21:46.946Z",
+   "sha256": "56c8d2ad6583c221a280d41feeb173c9a286ea5745e16b63c398adfd8ede32d6"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:42.543Z",
+   "sha256": "069b6a4d158573ee4bc7c8a5b3e765a1d596c4cc1c21f59299de477bea7f84c7",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Caprile",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Luperto",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zappa",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Obert",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Palestra",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Idrissi R.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Deiola",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mazzitelli",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gaetano",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Adopo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Prati",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cavuoti",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Esposito Se.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Borrelli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kilicsoy",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Paleari",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazaro",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Maripan",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ismajli",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Nkounkou",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tameze",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vlasic",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Asllani",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ilkhan",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gineitis",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Zapata D.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Simeone",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ngonge",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams C.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/17",
+      "estrattoIl": "2026-10-06T08:28:42.543Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Aboukhlal",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Torino 1 - 2 Cagliari 27/12/2025 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

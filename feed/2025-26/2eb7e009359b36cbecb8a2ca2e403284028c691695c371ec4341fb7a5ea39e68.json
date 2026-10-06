@@ -1,0 +1,1576 @@
+{
+ "label": "Bologna-Udinese (g26)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-02-23T19:45:00Z",
+  "hoursAfterKickoff": 5388.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:56.917Z",
+  "sha256": "d932772841f67c13437e041c341931061c17bdddb5a9e61c7c78d2c2f595a096"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::62d262b06769421b8f4b4694351d50de",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-02-23T19:45:00Z",
+   "matchday": 26,
+   "home": "Bologna",
+   "away": "Udinese",
+   "homeTeamId": "serie-a::Football_Team::4af71b35aab34ad5a7d06148abe66ad6",
+   "awayTeamId": "serie-a::Football_Team::630b1e3631db42498d1b7bc94595c5e0",
+   "homeScore": 1,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::62d262b06769421b8f4b4694351d50de",
+   "homeTeam": "Bologna",
+   "awayTeam": "Udinese",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::47c6788b77eb47bf90274613223577a4",
+     "providerId": "opta:Player:4hrmzpx1nt5ze55fpby71mcb9",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Łukasz",
+     "lastName": "Skorupski",
+     "shirtName": "Łukasz Skorupski",
+     "displayName": "Skorupski",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4cd4bfae3a13463d882e18735047e596",
+     "providerId": "opta:Player:emvmn561wgd62zj0s3qi5j5rd",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Juan",
+     "lastName": "Miranda Gonzalez",
+     "shirtName": "Juan Miranda",
+     "displayName": "Miranda",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ddf4ceac503b43648e42f966b5fe37b3",
+     "providerId": "opta:Player:3l0mj1zzhytxvm9tryvqv8kix",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Jhon Janer",
+     "lastName": "Lucumi' Bonilla",
+     "shirtName": "Jhon Lucumí",
+     "displayName": "Lucumí",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9efa092039cb45689a389ed539961558",
+     "providerId": "opta:Player:7m3wseg5lilrkzatyvc2yemay",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Martin",
+     "lastName": "Vitik",
+     "shirtName": "Martin Vitík",
+     "displayName": "Vitík",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2de0dfeaa65140cd855ca8681b0f1e65",
+     "providerId": "kama:Player:98464",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "João Mário",
+     "lastName": "Neto Lopes",
+     "shirtName": "João Mário Neto Lopes",
+     "displayName": "João Mário",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c",
+     "providerId": "opta:Player:19nlw3sa0khwz0el4wqc7zrp",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Remo",
+     "lastName": "Freuler",
+     "shirtName": "Remo Freuler",
+     "displayName": "Freuler",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f378fcb31cec4ca380fe22dafb5469fc",
+     "providerId": "opta:Player:ch5rw8dgb6wh99wyhd8o3t1pl",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Tommaso",
+     "lastName": "Pobega",
+     "shirtName": "Tommaso Pobega",
+     "displayName": "Pobega",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb",
+     "providerId": "opta:Player:b9clhoz198r69kavhw4anymms",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Santiago Thomas",
+     "lastName": "Castro",
+     "shirtName": "Santiago Castro",
+     "displayName": "Castro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029",
+     "providerId": "opta:Player:1cu7fg8sf90isf9gp21e5fqh",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Riccardo",
+     "lastName": "Orsolini",
+     "shirtName": "Riccardo Orsolini",
+     "displayName": "Orsolini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5",
+     "providerId": "kama:Player:99257",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Jonathan David",
+     "lastName": "Rowe",
+     "shirtName": "Jonathan Rowe",
+     "displayName": "Rowe",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::53a4937f0ee0461bafae8598946349a4",
+     "providerId": "opta:Player:9m6yva52cmdq7uu31qrwdrund",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Ravaglia",
+     "shirtName": "Federico Ravaglia",
+     "displayName": "Ravaglia",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2709aca071e3476cb9411d5d4c9a0270",
+     "providerId": "opta:Player:1bz1zdxmtx5oxipvukpg7svmc",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Massimo",
+     "lastName": "Pessina",
+     "shirtName": "Massimo Pessina",
+     "displayName": "Pessina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7340c690ce54b1b93423b7300249755",
+     "providerId": "kama:Player:100611",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Eivind Fauske",
+     "lastName": "Helland",
+     "shirtName": "Eivind Fauske Helland",
+     "displayName": "Helland",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187",
+     "providerId": "opta:Player:6eqqtmbg35rg2stk10ic7q8k5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nikola",
+     "lastName": "Moro",
+     "shirtName": "Nikola Moro",
+     "displayName": "N. Moro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f378fcb31cec4ca380fe22dafb5469fc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b",
+     "providerId": "emg:Player:BRNFD|opta:Player:6kms3ctf8joymna289onk9lg5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Bernardeschi",
+     "shirtName": "Federico Bernardeschi",
+     "displayName": "Bernardeschi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029"
+      },
+      {
+       "type": "penalty-goal",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::313bd55b6a874a0c8657fc0d8b1d0f40",
+     "providerId": "opta:Player:1x10v3yh4e3f1p2ndhtxcck4p",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Casale",
+     "shirtName": "Nicolò Casale",
+     "displayName": "Casale",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18",
+     "providerId": "opta:Player:bdb6j168crcrwje9k0titxv55",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lewis",
+     "lastName": "Ferguson",
+     "shirtName": "Lewis Ferguson",
+     "displayName": "L. Ferguson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf",
+     "providerId": "opta:Player:42m78ny1ggvmzmjtka7exyzqi",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nadir",
+     "lastName": "Zortea",
+     "shirtName": "Nadir Zortea",
+     "displayName": "Zortea",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4cd4bfae3a13463d882e18735047e596"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947",
+     "providerId": "opta:Player:1t7nph4960rjzu7rgi47sf8ix",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Jens",
+     "lastName": "Odgaard",
+     "shirtName": "Jens Odgaard",
+     "displayName": "Odgaard",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2",
+     "providerId": "opta:Player:1lnktjxx0mux4beo28cl54j1m",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Thijs Jacco Jan",
+     "lastName": "Dallinga",
+     "shirtName": "Thijs Dallinga",
+     "displayName": "Dallinga",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66",
+     "providerId": "opta:Player:d5m5q6dlc7vnbs634dinbsuwa",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Cambiaghi",
+     "shirtName": "Nicolò Cambiaghi",
+     "displayName": "Cambiaghi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839",
+     "providerId": "opta:Player:3cbwh4pfwae5xw072cy14gb85",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lorenzo",
+     "lastName": "De Silvestri",
+     "shirtName": "Lorenzo De Silvestri",
+     "displayName": "De Silvestri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::577277231cb84394a7d96c70a11a528f",
+     "providerId": "opta:Player:70ps22rygrlq3msxgwmesowyx",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Emil Maduka",
+     "lastName": "Okoye",
+     "shirtName": "Maduka Okoye",
+     "displayName": "Okoye",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::52d5b4022e8e431aa4b4c8983843965b",
+     "providerId": "opta:Player:dfckk0xst90yjlep74tvups5x",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Kingsley Osezele",
+     "lastName": "Ehizibue",
+     "shirtName": "Kingsley Ehizibue",
+     "displayName": "Ehizibue",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa46c1e9504d4070876a364bc69fc470",
+     "providerId": "opta:Player:cet0tgjv82l6ao07ij1ylgp9l",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Oumar Mickael",
+     "lastName": "Solet Bomawoko",
+     "shirtName": "Oumar Solet",
+     "displayName": "Solet",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 10,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ab6119135bdc4a09b35d54fab9e6fa92"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::700f9b23586149c6a32011198f8e928a",
+     "providerId": "opta:Player:5ljs2bj3wwiurcyxiwka2i8d1",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Christian",
+     "lastName": "Kabasele",
+     "shirtName": "Christian Kabasele",
+     "displayName": "Kabasele",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1c89b95ec197444798e975aede089c2c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8c5ec14ba3bf4e1fa505c0bff2fbaa52",
+     "providerId": "opta:Player:6rbsjfwx4pon2d1vu3k7ojxuc",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Thomas Thiesson",
+     "lastName": "Kristensen",
+     "shirtName": "Thomas Kristensen",
+     "displayName": "Kristensen",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2c1de35b4eba480dbcd4e21a4cde2c88",
+     "providerId": "opta:Player:918sxflcvngsy0xvc9dh3jaei",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jordan",
+     "lastName": "Zemura",
+     "shirtName": "Jordan Zemura",
+     "displayName": "Zemura",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cd9708fcf981489e939152ec78f997c2",
+     "providerId": "opta:Player:2wwbf11c9mc2psxaa8p58qnmc",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Arthur Eric",
+     "lastName": "Atta",
+     "shirtName": "Arthur Atta",
+     "displayName": "Atta",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::75e8a5f9f7c54239aaf5c7620816ca7a",
+     "providerId": "opta:Player:agnmzpaj62lzsavtq43uxt4gl",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jesper",
+     "lastName": "Karlström",
+     "shirtName": "Jesper Karlström",
+     "displayName": "Karlström",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5931a8de6cc3493ebdaa0b4c30758add"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::450a3f00ad6b48838ecae9c93a3abf01",
+     "providerId": "kama:Player:98928",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jakub",
+     "lastName": "Piotrowski",
+     "shirtName": "Jakub Piotrowski",
+     "displayName": "Piotrowski",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f7bce030bb504b87b9411db54d75480f",
+     "providerId": "opta:Player:eu4xivu8i6yla9fcnuncx1ucp",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Nicolò",
+     "lastName": "Zaniolo",
+     "shirtName": "Nicolò Zaniolo",
+     "displayName": "Zaniolo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4c54d51902bb49dbb90c4c01a3d955a2",
+     "providerId": "opta:Player:elhmf9cc26ec5p1wnwonuxf4l",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Adam",
+     "lastName": "Buksa",
+     "shirtName": "Adam Buksa",
+     "displayName": "Buksa",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8f6079ece014914adab3caf2e98babb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::39bf574edd7d46c1b26d118e7bf79cf2",
+     "providerId": "opta:Player:cnop9ik6yyu7ozratrz5r54pg",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Alessandro",
+     "lastName": "Nunziante",
+     "shirtName": "Alessandro Nunziante",
+     "displayName": "Nunziante",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f42dc8a471d44f2d8cb4a23c2cb0fefc",
+     "providerId": "opta:Player:al3t9fzj4ab55yux0zkd1jkr9",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Daniele",
+     "lastName": "Padelli",
+     "shirtName": "Daniele Padelli",
+     "displayName": "Padelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5931a8de6cc3493ebdaa0b4c30758add",
+     "providerId": "opta:Player:488vwilxllk6nhf4o1wrh0gve",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Oier",
+     "lastName": "Zarraga Egana",
+     "shirtName": "Oier Zarraga",
+     "displayName": "Zarraga",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::75e8a5f9f7c54239aaf5c7620816ca7a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1c89b95ec197444798e975aede089c2c",
+     "providerId": "kama:Player:99617",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Idrissa",
+     "lastName": "Gueye",
+     "shirtName": "Idrissa Gueye",
+     "displayName": "Gueye",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::700f9b23586149c6a32011198f8e928a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ab6119135bdc4a09b35d54fab9e6fa92",
+     "providerId": "opta:Player:8kioh2rzit592d4zwjoqsftas",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Nicolò",
+     "lastName": "Bertola",
+     "shirtName": "N. Bertola",
+     "displayName": "Bertola",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 10,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aa46c1e9504d4070876a364bc69fc470"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ce65d2c930994c68973373b77f85b2fa",
+     "providerId": "opta:Player:dqazrm2wmu9zqpvp8xbeeb7jd",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Vakoun Issouf",
+     "lastName": "Bayo",
+     "shirtName": "Vakoun Bayo",
+     "displayName": "Bayo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e525d8766d204f289961dfc99ad0885a",
+     "providerId": "kama:Player:100467",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Juan David",
+     "lastName": "Arizala Micolta",
+     "shirtName": "Juan David Arizala Micolta",
+     "displayName": "Arizala",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::acd3522e950d44e4986e72a95e6d9e23",
+     "providerId": "kama:Player:100712",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Branimir",
+     "lastName": "Mlačić",
+     "shirtName": "Branimir Mlačić",
+     "displayName": "Mlačić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::99bc11d4d74d4fbc8b911367fdc47001",
+     "providerId": "kama:Player:98444",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Abdoulaye",
+     "lastName": "Camara",
+     "shirtName": "Abdoulaye Camara",
+     "displayName": "Camara",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8f6079ece014914adab3caf2e98babb",
+     "providerId": "opta:Player:d19yalwh3i2olvpwoi89feqjt",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jurgen",
+     "lastName": "Ekkelenkamp",
+     "shirtName": "Jurgen Ekkelenkamp",
+     "displayName": "Ekkelenkamp",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4c54d51902bb49dbb90c4c01a3d955a2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f97b651b46874386ab92d0e88d27e490",
+     "providerId": "kama:Player:99184",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Lennon",
+     "lastName": "Miller",
+     "shirtName": "Lennon Miller",
+     "displayName": "Miller",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:24:41.359Z",
+   "sha256": "afb27aaef9b9368ec7028de5335e30f2a0619f85ca00b31f301a85720d8d9cdc"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:56.917Z",
+   "sha256": "d932772841f67c13437e041c341931061c17bdddb5a9e61c7c78d2c2f595a096",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Skorupski",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zortea",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Miranda J.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lucumì",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vitik",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Joao Mario",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernardeschi",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Freuler",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Orsolini",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pobega",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Moro N.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rowe",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cambiaghi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Castro S.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dallinga",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Okoye",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kabasele",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bertola",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ehizibue",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zemura",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kristensen T.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Solet",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zaniolo",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zarraga",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Karlstrom",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ekkelenkamp",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Atta",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Piotrowski",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Buksa",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/26",
+      "estrattoIl": "2026-10-06T08:28:56.917Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gueye",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 0 Udinese 23/02/2026 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

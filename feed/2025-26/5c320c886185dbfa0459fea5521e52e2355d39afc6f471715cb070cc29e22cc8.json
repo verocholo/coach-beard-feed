@@ -1,0 +1,1625 @@
+{
+ "label": "Milan-Atalanta (g36)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-05-10T18:45:00Z",
+  "hoursAfterKickoff": 3565.5336666666667,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:29:13.215Z",
+  "sha256": "87870eab0a0ed3a34ecadc9d4edba3ae8ad0aaa7a4ca08f935b622fa289d4698"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::65cf39acef864e1b84394f59c5e2d75c",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-05-10T18:45:00Z",
+   "matchday": 36,
+   "home": "Milan",
+   "away": "Atalanta",
+   "homeTeamId": "serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0",
+   "awayTeamId": "serie-a::Football_Team::b5846a2413804c2e8cab8b773b18370a",
+   "homeScore": 2,
+   "awayScore": 3,
+   "clockTime": 90,
+   "clockAdditionalTime": 9
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::65cf39acef864e1b84394f59c5e2d75c",
+   "homeTeam": "Milan",
+   "awayTeam": "Atalanta",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::f6b27c8e1cf04b3391184988ee7336f7",
+     "providerId": "opta:Player:3fpnfgoy4lbpapv2th6g60cet",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Mike Peterson",
+     "lastName": "Maignan",
+     "shirtName": "Mike Maignan",
+     "displayName": "Maignan",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e795d74e1e04302b39b9815471ba3df",
+     "providerId": "opta:Player:7odl8qgd0qak6w4ox0t3kg3kk",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Davide",
+     "lastName": "Bartesaghi",
+     "shirtName": "Davide Bartesaghi",
+     "displayName": "Bartesaghi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::46c4483cd2954db7a7fbf5cfaec0bafe"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6075b492bae04b149467f30c9c6923be",
+     "providerId": "opta:Player:7wjdqyl3bkhsfca5cu4riwley",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Strahinja",
+     "lastName": "Pavlović",
+     "shirtName": "Strahinja Pavlović",
+     "displayName": "Pavlović",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::37d0e89ba51343a8b24b768e4efa02d6",
+     "providerId": "opta:Player:enqcaecpt5hy0qv9x5pzmkjc9",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Gabbia",
+     "shirtName": "Matteo Gabbia",
+     "displayName": "Gabbia",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1",
+     "providerId": "opta:Player:95r0jtkw03vjohzwc8os8ielm",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Koni",
+     "lastName": "De Winter",
+     "shirtName": "Koni De Winter",
+     "displayName": "De Winter",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::afe60d6be6104d909dfe50221995523a",
+     "providerId": "opta:Player:2nddcty9qris2mmeldon0ogd1",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Adrien",
+     "lastName": "Rabiot",
+     "shirtName": "Adrien Rabiot",
+     "displayName": "Rabiot",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba",
+     "providerId": "opta:Player:e2oeysariwd866ksilu3t4m7e",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Samuele",
+     "lastName": "Ricci",
+     "shirtName": "Samuele Ricci",
+     "displayName": "Ricci",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808",
+     "providerId": "opta:Player:e6jaaazxqeczj6ziaj0qnqpxx",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Ruben Ira",
+     "lastName": "Loftus-cheek",
+     "shirtName": "Ruben Loftus-Cheek",
+     "displayName": "Loftus-Cheek",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5b8d20ccf6db45e388edc6e8ec8d4c18",
+     "providerId": "opta:Player:aboxil79ulfa73pckzsdnwp62",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Santiago Tomas",
+     "lastName": "Gimenez",
+     "shirtName": "Santiago Giménez",
+     "displayName": "Giménez",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f75f69d015184e6fa1f443c3442eb94d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c",
+     "providerId": "opta:Player:11o903vztwpnmvgrinn208qnd",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Rafael Alexandre",
+     "lastName": "da Conceição Leão",
+     "shirtName": "Rafael Leão",
+     "displayName": "Rafael Leão",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 34,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7",
+     "providerId": "opta:Player:9vnr9uog5fmggich2i4vjxwbt",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Alexis Jesse",
+     "lastName": "Saelemaekers",
+     "shirtName": "Alexis Saelemaekers",
+     "displayName": "Saelemaekers",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::366978e66f2b41d291912b96fef017a5",
+     "providerId": "opta:Player:2udciji4n7tr07ft7twe2r9w5",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Pietro",
+     "lastName": "Terracciano",
+     "shirtName": "Pietro Terracciano",
+     "displayName": "P. Terracciano",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6be573f23d4742d6a81779d7d1fb3fcf",
+     "providerId": "kama:Player:1741",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Pittarella",
+     "shirtName": "Matteo Pittarella",
+     "displayName": "Pittarella",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::46c4483cd2954db7a7fbf5cfaec0bafe",
+     "providerId": "kama:Player:98780",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Pervis Josue",
+     "lastName": "Estupinan Tenorio",
+     "shirtName": "Pervis Estupiñán",
+     "displayName": "Estupiñán",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5e795d74e1e04302b39b9815471ba3df"
+      },
+      {
+       "type": "yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f75f69d015184e6fa1f443c3442eb94d",
+     "providerId": "kama:Player:100418",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Niclas",
+     "lastName": "Füllkrug",
+     "shirtName": "Niclas Füllkrug",
+     "displayName": "Füllkrug",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5b8d20ccf6db45e388edc6e8ec8d4c18"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d",
+     "providerId": "kama:Player:99337",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Christopher Alan",
+     "lastName": "Nkunku",
+     "shirtName": "Christopher Nkunku",
+     "displayName": "Nkunku",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808"
+      },
+      {
+       "type": "penalty-goal",
+       "time": 90,
+       "additionalTime": 4,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1",
+     "providerId": "opta:Player:b0wb7gf04synxlkq7o8gvzkoa",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Youssouf",
+     "lastName": "Fofana",
+     "shirtName": "Youssouf Fofana",
+     "displayName": "Y. Fofana",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07",
+     "providerId": "kama:Player:99087",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Zachary Christopher",
+     "lastName": "Athekame",
+     "shirtName": "Zachary Athekame",
+     "displayName": "Athekame",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::068f9e3dc64548ebb49468f1f103016e",
+     "providerId": "kama:Player:99396",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "David Uyoyo",
+     "lastName": "Odogu",
+     "shirtName": "David Uyoyo Odogu",
+     "displayName": "Odogu",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b616b0e6528b42459ac6410543f823ef",
+     "providerId": "kama:Player:98958",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Ardon",
+     "lastName": "Jashari",
+     "shirtName": "Ardon Jashari",
+     "displayName": "Jashari",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::adfb707431614df5aeec9b486a888815",
+     "providerId": "opta:Player:eu9b86opw6n66vftu1r5alfqh",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Marco",
+     "lastName": "Carnesecchi",
+     "shirtName": "M. Carnesecchi",
+     "displayName": "Carnesecchi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ef81865fbc0442caa1894f9118f4ca6",
+     "providerId": "opta:Player:9j742o5vdc7d54x1xdz4t9ck5",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Sead",
+     "lastName": "Kolašinac",
+     "shirtName": "Sead Kolašinac",
+     "displayName": "Kolašinac",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f343b63a6bff4f5380e6ae1a4e618324",
+     "providerId": "opta:Player:a69r2pf2w8da4dl0zl4k5vil1",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Davide",
+     "lastName": "Zappacosta",
+     "shirtName": "Davide Zappacosta",
+     "displayName": "Zappacosta",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 29,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0ffb0532cc8044aebb4a64ea8c02be13"
+      },
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e64d199987e7498dba08dd9d0ad95c9c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ec4be88c0ed443fa953404eb6af085db",
+     "providerId": "opta:Player:130pg17ru5fzq4igokx0k73e1",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Isak Malcolm Kwaku",
+     "lastName": "Hien",
+     "shirtName": "Isak Hien",
+     "displayName": "Hien",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1b6d0e19d5a44981b9deaf7f66a97818",
+     "providerId": "opta:Player:4cejhrr3ji36591xf54jue3ca",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Giorgio",
+     "lastName": "Scalvini",
+     "shirtName": "Giorgio Scalvini",
+     "displayName": "Scalvini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 48,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::37cecde40207416184c6d630e559c022"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::430712e4c44c415398a71ae60698f5b2",
+     "providerId": "opta:Player:9q01y4w4dwpaqf8lmpv9wnmc5",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Marten Elco",
+     "lastName": "de Roon",
+     "shirtName": "Marten de Roon",
+     "displayName": "de Roon",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae",
+     "providerId": "opta:Player:7ox43isyywsnrfcd56nm65be",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Charles",
+     "lastName": "De Ketelaere",
+     "shirtName": "Charles De Ketelaere",
+     "displayName": "De Ketelaere",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8d75af40732a49c4a2b7aa44b07be610"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7cdf9a3c8b6a46e39554faa2a4a102d7",
+     "providerId": "opta:Player:4aqkgskbra4wsoo7a8uw7xl9l",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Éderson José",
+     "lastName": "dos Santos Lourenço da Silva",
+     "shirtName": "Éderson",
+     "displayName": "Éderson",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 7,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::466bd5fe831940f7af73ca8f03bb6f46",
+     "providerId": "opta:Player:du4ciqofpkn3nei5q3huwlnje",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Nicola",
+     "lastName": "Zalewski",
+     "shirtName": "Nicola Zalewski",
+     "displayName": "Zalewski",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0923fb81d1d04b96b576857c0077028b",
+     "providerId": "opta:Player:abq67eup8kd31w8da2i0eftgp",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Giacomo",
+     "lastName": "Raspadori",
+     "shirtName": "Giacomo Raspadori",
+     "displayName": "Raspadori",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 51,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7cdf9a3c8b6a46e39554faa2a4a102d7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0ffb0532cc8044aebb4a64ea8c02be13",
+     "providerId": "opta:Player:11r7kkbcv2bn8lar3unczuz8p",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Nikola",
+     "lastName": "Krstović",
+     "shirtName": "Nikola Krstović",
+     "displayName": "Krstović",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e68cd3c0e4804bdebfdb42961ace2285",
+     "providerId": "opta:Player:9sdrd6flk2jene11v193nm1n9",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Francesco",
+     "lastName": "Rossi",
+     "shirtName": "Francesco Rossi",
+     "displayName": "Rossi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::09cd84f668164a29bd254dcc8c8b5507",
+     "providerId": "opta:Player:3ww5879aay1xf2a20nl9ihwid",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Marco",
+     "lastName": "Sportiello",
+     "shirtName": "Marco Sportiello",
+     "displayName": "Sportiello",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37cecde40207416184c6d630e559c022",
+     "providerId": "opta:Player:cis0z72hgahfnfjduk7hdnz3e",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Kouakou Odilon",
+     "lastName": "Kossounou",
+     "shirtName": "Odilon Kossounou",
+     "displayName": "Kossounou",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 48,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1b6d0e19d5a44981b9deaf7f66a97818"
+      },
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d2fa3bc0f70849d1897fed1d8fa22626"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::60e29b104c19497b9f879c84faed6728",
+     "providerId": "opta:Player:a41r2ob5fhirgdwxwox6nr4yx",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Mitchel",
+     "lastName": "Bakker",
+     "shirtName": "Mitchel Bakker",
+     "displayName": "Bakker",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c8dd9df24f93474e895c96839e7021e7",
+     "providerId": "opta:Player:b2e12l3s3dxgyr8d2rk5qb9ey",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Yunus Dimoara",
+     "lastName": "Musah",
+     "shirtName": "Yunus Musah",
+     "displayName": "Musah",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a3f141c52961445a928095b995522b92",
+     "providerId": "kama:Player:98239",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Kamaldeen",
+     "lastName": "Sulemana",
+     "shirtName": "Kamaldeen Sulemana",
+     "displayName": "K. Sulemana",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8d75af40732a49c4a2b7aa44b07be610",
+     "providerId": "opta:Player:2fsgc0b4mvwpenawmit0q0bmd",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Mario",
+     "lastName": "Pašalić",
+     "shirtName": "Mario Pašalić",
+     "displayName": "Pašalić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3c80144dd7c641b982628157e52a8852",
+     "providerId": "opta:Player:4ml8pyt3rxwxakjxslg0c8kb9",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Gianluca",
+     "lastName": "Scamacca",
+     "shirtName": "Gianluca Scamacca",
+     "displayName": "Scamacca",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::df726d9e0b284705be78eb3af4f6e441",
+     "providerId": "opta:Player:bl76cebhta912vfi9z7ky32p6",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Lazar Vujadin",
+     "lastName": "Samardžić",
+     "shirtName": "Lazar Samardžić",
+     "displayName": "Samardžić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e64d199987e7498dba08dd9d0ad95c9c",
+     "providerId": "opta:Player:aripnzu9yo2wlr8ud93ufdhih",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Raoul",
+     "lastName": "Bellanova",
+     "shirtName": "Raoul Bellanova",
+     "displayName": "Bellanova",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f343b63a6bff4f5380e6ae1a4e618324"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 6,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b00491cc3d764dc0baad3eb4b681647a",
+     "providerId": "opta:Player:n6rrpqmws5nylqrwr7hhqp04",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Relja",
+     "lastName": "Obric",
+     "shirtName": "Relja Obric",
+     "displayName": "Obrić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4f38b800f38543b5bb6e304e829b81bf",
+     "providerId": "opta:Player:6dego6dm4fbzw8ht5o6twm1p0",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Dominic",
+     "lastName": "Vavassori",
+     "shirtName": "Dominic Vavassori",
+     "displayName": "Vavassori",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d2fa3bc0f70849d1897fed1d8fa22626",
+     "providerId": "opta:Player:70zr0nhl2tgyor1oajhcxg6j8",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Honest",
+     "lastName": "Ahanor",
+     "shirtName": "Honest Ahanor",
+     "displayName": "Ahanor",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::37cecde40207416184c6d630e559c022"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:27:39.431Z",
+   "sha256": "ba42f4a26062068717df35fe4e1288b35b21d6c7a3c47cde6017a38d2a54c92e"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:29:13.215Z",
+   "sha256": "87870eab0a0ed3a34ecadc9d4edba3ae8ad0aaa7a4ca08f935b622fa289d4698",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Carnesecchi",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zappacosta",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kolasinac",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bellanova",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Scalvini",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kossounou",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hien",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ahanor",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "De Roon",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pasalic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zalewski",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ederson D.S.",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 11.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 11.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 11.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Raspadori",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "De Ketelaere",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Krstovic",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Maignan",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 2.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 2.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 2,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gabbia",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pavlovic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 9,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 9,
+     "votoItalia": 6,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Estupinan",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Winter",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bartesaghi",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Athekame",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rabiot",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Loftus-Cheek",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fofana Y.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Saelemaekers",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ricci S.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Fullkrug",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Leao",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 4,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nkunku",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/36",
+      "estrattoIl": "2026-10-06T08:29:13.215Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gimenez",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 2 - 3 Atalanta 10/05/2026 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

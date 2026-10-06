@@ -1,0 +1,1628 @@
+{
+ "label": "Genoa-Fiorentina (g11)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-11-09T14:00:00Z",
+  "hoursAfterKickoff": 7938.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:32.999Z",
+  "sha256": "a77d850612bc0c86941112e02ee85fa0d8871027f08bb4902ce5a275f0f06180"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::460a5ee014da48cb81c9c05ea3805a5d",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-11-09T14:00:00Z",
+   "matchday": 11,
+   "home": "Genoa",
+   "away": "Fiorentina",
+   "homeTeamId": "serie-a::Football_Team::8c7aa94d22f44738951748e2ccdf319a",
+   "awayTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "homeScore": 2,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 8
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::460a5ee014da48cb81c9c05ea3805a5d",
+   "homeTeam": "Genoa",
+   "awayTeam": "Fiorentina",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::03ea7d3b17b74069830746c24db1de69",
+     "providerId": "opta:Player:9dc7uictce9dq0tbphn74qz85",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Nicola",
+     "lastName": "Leali",
+     "shirtName": "Nicola Leali",
+     "displayName": "Leali",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ac9814fb4e4245378d64a972b9fd3199",
+     "providerId": "opta:Player:7ojvhhfvbtbn60sc50y4l2ctm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Johan Felipe",
+     "lastName": "Vasquez Ibarra",
+     "shirtName": "Johan Vásquez",
+     "displayName": "J. Vásquez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::65bb7b8d02084d858daeba0cff0cc4eb",
+     "providerId": "opta:Player:1lxfpn0wmr895me9xbzcfnh90",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Marcandalli",
+     "shirtName": "Alessandro Marcandalli",
+     "displayName": "Marcandalli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::816125e2bba042b38c44a6bb8b005f83",
+     "providerId": "opta:Player:40msbo4o5bwx0oeuz4743w161",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Leo Skiri",
+     "lastName": "Ostigard",
+     "shirtName": "Leo Østigård",
+     "displayName": "Østigård",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 15,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::48bbf1a2c4494bb0b02d0a49eb431c98",
+     "providerId": "opta:Player:bj9f6t8o0nji79rbaxrsioep6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Brooke Dion Nelson",
+     "lastName": "Norton-Cuffy",
+     "shirtName": "Brooke Norton-Cuffy",
+     "displayName": "Norton-Cuffy",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488",
+     "providerId": "opta:Player:eh9sh9aa10zrp80l6e4l0c7h1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Aaron",
+     "lastName": "Martin Caricol",
+     "shirtName": "Aarón Martín",
+     "displayName": "Martín",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a",
+     "providerId": "opta:Player:2um03dny7h3sdvehq3bygd1t6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten Wetche",
+     "lastName": "Frendrup",
+     "shirtName": "Morten Frendrup",
+     "displayName": "Frendrup",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f3670f8a13ba4c38a58d8f59eda2e1b0",
+     "providerId": "opta:Player:9qzxygb9hyzag1szans0k2jth",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten",
+     "lastName": "Thorsby",
+     "shirtName": "Morten Thorsby",
+     "displayName": "Thorsby",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dbd53bdc4ffe446da33ce7774384da90",
+     "providerId": "opta:Player:7u9bpiajlgr3zibj89pub7wbu",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Mikael Egill",
+     "lastName": "Ellertsson",
+     "shirtName": "Mikael Ellertsson",
+     "displayName": "Ellertsson",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573",
+     "providerId": "opta:Player:cnriqwh17pqgz7p2gt74uar6c",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Vitor Manuel",
+     "lastName": "Carvalho De Oliveira",
+     "shirtName": "Vitinha",
+     "displayName": "Vitinha",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9a1ea729ff9e4ac092602eb71e9c2a67"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::816125e2bba042b38c44a6bb8b005f83"
+      },
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a7f3917b59744fcbb169a2adb6f4d2e7",
+     "providerId": "opta:Player:52lu5mlc9xdqjzgh1ne86wtsl",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Benjamin Kevin",
+     "lastName": "Siegrist",
+     "shirtName": "Benjamin Siegrist",
+     "displayName": "Siegrist",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::308ee64855794d61811119f70f5f018e",
+     "providerId": "opta:Player:4b6mhmoeo78f8x928q2imp591",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Daniele",
+     "lastName": "Sommariva",
+     "shirtName": "Daniele Sommariva",
+     "displayName": "Sommariva",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f1252be17e804fe393d27bf6334308eb",
+     "providerId": "kama:Player:98227",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Nicolae Claudiu",
+     "lastName": "Stanciu",
+     "shirtName": "Nicolae Stanciu",
+     "displayName": "Stanciu",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b",
+     "providerId": "opta:Player:17au7v1ocl4zab872g59821yi",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Walter",
+     "lastName": "Messias Junior",
+     "shirtName": "Junior Messias",
+     "displayName": "Messias",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b935d80dda174738ab539b7d73b71a16",
+     "providerId": "opta:Player:biuovem90utcyzda58nixtaay",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Albert Grønbæk",
+     "lastName": "Erlykke",
+     "shirtName": "Albert Grønbæk",
+     "displayName": "Grønbæk",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc",
+     "providerId": "opta:Player:8ncvq09i7or8rxwq9233djtg5",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Caleb Ansah",
+     "lastName": "Ekuban",
+     "shirtName": "Caleb Ekuban",
+     "displayName": "Ekuban",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d",
+     "providerId": "opta:Player:8psio8fqce76uinoqpilzxsd1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Stefano",
+     "lastName": "Sabelli",
+     "shirtName": "Stefano Sabelli",
+     "displayName": "Sabelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934",
+     "providerId": "opta:Player:bf41pexjnkx8o1wdxudesfac4",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Osayuki Jeff",
+     "lastName": "Ekhator",
+     "shirtName": "Jeff Ekhator",
+     "displayName": "Ekhator",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9a1ea729ff9e4ac092602eb71e9c2a67",
+     "providerId": "opta:Player:6vz9qzgtbh3iqzv73xw2xaiok",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Valentin",
+     "lastName": "Carboni",
+     "shirtName": "V. Carboni",
+     "displayName": "V. Carboni",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4f99b059e04c47dc9feb28b23e95f252",
+     "providerId": "opta:Player:8srykssgtk4opuabiet4ahpn8",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Hugo Francisco",
+     "lastName": "Cuenca Martinez",
+     "shirtName": "Hugo Cuenca",
+     "displayName": "Cuenca",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f0f15f171e034b32a0a4559ee10219cf",
+     "providerId": "opta:Player:dx7fg77tfqytimfiixw9tyfx0",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Seydou",
+     "lastName": "Fini",
+     "shirtName": "Seydou Fini",
+     "displayName": "Fini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb99aca9c6b5412ea0896a065f126722",
+     "providerId": "kama:Player:17104",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alin",
+     "lastName": "Kumer Celik",
+     "shirtName": "Alin Kumer Celik",
+     "displayName": "Celik",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2681452588b14a15a9aa5afe6fab05d3",
+     "providerId": "opta:Player:f2pknjv2uohldehbp39j0so2d",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Gnaly Albert Maxwel",
+     "lastName": "Cornet",
+     "shirtName": "Maxwel Cornet",
+     "displayName": "Cornet",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c",
+     "providerId": "opta:Player:7xdhy2xi9mrhzjn6aiatd9ono",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Patrizio",
+     "lastName": "Masini",
+     "shirtName": "Patrizio Masini",
+     "displayName": "Masini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cc52adc5bbc24b01b26fb63196963491",
+     "providerId": "opta:Player:mvlk84jquwhfjb5a8ic9el0",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Lorenzo",
+     "lastName": "Venturino",
+     "shirtName": "Lorenzo Venturino",
+     "displayName": "Venturino",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7eea4a3905274129bc4fdfec8574cc43",
+     "providerId": "opta:Player:e00004wkpfc8jawioejmpu1n9",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "David",
+     "lastName": "De Gea Quintana",
+     "shirtName": "David de Gea",
+     "displayName": "de Gea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 42,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122",
+     "providerId": "opta:Player:c4bccspnyg73206u27nhiwu1g",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Niccolo’",
+     "lastName": "Fortini",
+     "shirtName": "Niccolò Fortini",
+     "displayName": "Fortini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 23,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6b877858b0d14ac5bf60e2c21de3dd40",
+     "providerId": "opta:Player:erdqr6vrr5tlfypbks3og0dlh",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pablo",
+     "lastName": "Mari Villar",
+     "shirtName": "Pablo Marí",
+     "displayName": "Pablo Marí",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51",
+     "providerId": "opta:Player:9e3t2wyjqzxsn690aysao8cfd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Domilson",
+     "lastName": "Cordeiro Dos Santo",
+     "shirtName": "Dodô",
+     "displayName": "Dodô",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::000931a496414061b3387beb069c8593",
+     "providerId": "opta:Player:dpnp9rguhhs04of6vmlw5spg5",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Rolando",
+     "lastName": "Mandragora",
+     "shirtName": "Rolando Mandragora",
+     "displayName": "Mandragora",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::580e2f5d129542e2bcc9ea5436adf6a1",
+     "providerId": "opta:Player:a6lo3s66xv87llkhwveoq1vqh",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Hans",
+     "lastName": "Nicolussi Caviglia",
+     "shirtName": "Hans Nicolussi Caviglia",
+     "displayName": "Nicolussi C.",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474"
+      },
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4",
+     "providerId": "opta:Player:ejzxqtdo5xxvbg6gvtju3lk9h",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Albert",
+     "lastName": "Guðmundsson",
+     "shirtName": "Albert Gudmundsson",
+     "displayName": "Guðmundsson",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 20,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b3e34cb840d443e48360b4af40f06917"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d58bb19e4fac428c91c7d3d22c54aeb8",
+     "providerId": "opta:Player:bgwbowoiz7t2lvpit75zlqz11",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Lezzerini",
+     "shirtName": "Luca Lezzerini",
+     "displayName": "Lezzerini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7010f5d11294dae84684c62572d4d6b",
+     "providerId": "opta:Player:4jh6mywmhugi4ltyhq5vd5ij8",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Tommaso",
+     "lastName": "Martinelli",
+     "shirtName": "Tommaso Martinelli",
+     "displayName": "Martinelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b3e34cb840d443e48360b4af40f06917",
+     "providerId": "emg:Player:DZKDN|opta:Player:a5eki9p236y4zxmp9qz202pcl",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Edin",
+     "lastName": "Dzeko",
+     "shirtName": "Edin Dzeko",
+     "displayName": "Džeko",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63",
+     "providerId": "opta:Player:9srjp22oprs2tkcutb2g4o2dw",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Comuzzo",
+     "shirtName": "Pietro Comuzzo",
+     "displayName": "Comuzzo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5",
+     "providerId": "opta:Player:6e9fu9o226zn6jzx02jutvi3u",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Jacopo",
+     "lastName": "Fazzini",
+     "shirtName": "Jacopo Fazzini",
+     "displayName": "Fazzini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fe9b2f009a9d4f1faef51ea3b9754e8f",
+     "providerId": "kama:Player:98383",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Eman",
+     "lastName": "Košpo",
+     "shirtName": "Eman Kospo",
+     "displayName": "Košpo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0ddde8a585e94c82bc75bf08263ed5ea",
+     "providerId": "opta:Player:45lcfmo0varfc325n562ul2j8",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Michael Amir Junior",
+     "lastName": "Richardson",
+     "shirtName": "Amir Richardson",
+     "displayName": "Richardson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe",
+     "providerId": "opta:Player:2e0ipswbkv4vf7lav6ee1j3oq",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Mattia",
+     "lastName": "Viti",
+     "shirtName": "Mattia Viti",
+     "displayName": "Viti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc",
+     "providerId": "opta:Player:kvbjuvcseqk4sbr04ctkqi38",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Cher",
+     "lastName": "Ndour",
+     "shirtName": "Cher Ndour",
+     "displayName": "Ndour",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf",
+     "providerId": "kama:Player:1479",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nda Konan Bienvenu Ange Eddy",
+     "lastName": "Kouadio",
+     "shirtName": "Eddy Kouadio",
+     "displayName": "Kouadio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646",
+     "providerId": "opta:Player:8dgh4fzut8khpt32d6dsrljsa",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Fabiano",
+     "lastName": "Parisi",
+     "shirtName": "F. Parisi",
+     "displayName": "Parisi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:20:12.803Z",
+   "sha256": "e937d5f0ec9461e9d153b33f4961633d5d293b3ae1fc2e31da539c163d8549d4"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:32.999Z",
+   "sha256": "a77d850612bc0c86941112e02ee85fa0d8871027f08bb4902ce5a275f0f06180",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "De Gea",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 1,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ranieri L.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marì",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Parisi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Viti",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dodò",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Fortini",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mandragora",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Nicolussi Caviglia",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gudmundsson A.",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fazzini",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndour",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dzeko",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Leali",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Martin",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vasquez",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ostigard",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marcandalli",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Norton-Cuffy",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thorsby",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frendrup",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ellertsson",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Carboni V.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Masini",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Colombo",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 1,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vitinha O.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/11",
+      "estrattoIl": "2026-10-06T08:28:32.999Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekhator",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 2 - 2 Fiorentina 09/11/2025 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

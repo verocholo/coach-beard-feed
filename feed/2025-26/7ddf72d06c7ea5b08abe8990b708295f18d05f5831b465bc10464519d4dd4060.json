@@ -1,0 +1,1662 @@
+{
+ "label": "Napoli-Pisa (g4)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-09-22T18:45:00Z",
+  "hoursAfterKickoff": 9085.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:22.002Z",
+  "sha256": "59c55251f709af1a74f4a2314ba1b8d2fd7cb69ba26d2d3975bdb1123325fa3d"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::1f2aa7e4d1c049fea3e681b89717fd10",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-09-22T18:45:00Z",
+   "matchday": 4,
+   "home": "Napoli",
+   "away": "Pisa",
+   "homeTeamId": "serie-a::Football_Team::f791dab8f0e4449e9884dd8dbd42dbcc",
+   "awayTeamId": "serie-a::Football_Team::546afa43cf08486d9234df9e846c1f1e",
+   "homeScore": 3,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 8
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::1f2aa7e4d1c049fea3e681b89717fd10",
+   "homeTeam": "Napoli",
+   "awayTeam": "Pisa",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::18cc6f2bdba14a5a9cca5268d2efafce",
+     "providerId": "opta:Player:af58rhtg8ck7c8g7nwfs67d91",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Alex",
+     "lastName": "Meret",
+     "shirtName": "Alex Meret",
+     "displayName": "Meret",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ef2c2d627ff94df4840479fa3473a59c",
+     "providerId": "opta:Player:22x1ucwwak58wi6r5x1j6ohk9",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Alessandro",
+     "lastName": "Buongiorno",
+     "shirtName": "Alessandro Buongiorno",
+     "displayName": "Buongiorno",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b",
+     "providerId": "opta:Player:9ka7y81b5kst146mhq7mom5ed",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Leonardo",
+     "lastName": "Spinazzola",
+     "shirtName": "Leonardo Spinazzola",
+     "displayName": "Spinazzola",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "goal",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e681e091f934fa89130c1476a93a270"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::82f747384bae4018a6921bc0568fb9be",
+     "providerId": "opta:Player:5d9i8ubibyiecxecr9jjvxexh",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Giovanni",
+     "lastName": "Di Lorenzo",
+     "shirtName": "G. Di Lorenzo",
+     "displayName": "Di Lorenzo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bcf150cd064745dd84cdf52fff84fd23",
+     "providerId": "opta:Player:42cg746sa90jla5x4islj9pwq",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Sam",
+     "lastName": "Beukema",
+     "shirtName": "Sam Beukema",
+     "displayName": "Beukema",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f3b8743fff5a497b8b2686e3301c46f3",
+     "providerId": "opta:Player:72im0m7d8rqpsclo4f5crqmsp",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Eljif",
+     "lastName": "Elmas",
+     "shirtName": "Eljif Elmas",
+     "displayName": "Elmas",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c52699f76a744afca8862f2584b7a860"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::310a726a64854ced91418ec3cc090391",
+     "providerId": "opta:Player:9fvo9v5e9r0ptibied6ejv3zd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Scott Francis",
+     "lastName": "Mctominay",
+     "shirtName": "Scott McTominay",
+     "displayName": "McTominay",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::33233f2998d9447a9b18d053eeb5712b",
+     "providerId": "opta:Player:c2jqa9vozhqu7x79h5rr2n1ed",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Kevin",
+     "lastName": "De Bruyne",
+     "shirtName": "Kevin De Bruyne",
+     "displayName": "De Bruyne",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::97e494fcc78543cd9ac8219e5e97503c",
+     "providerId": "opta:Player:5okl8s3e8ad2add75m46ojo4p",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Billy Clifford",
+     "lastName": "Gilmour",
+     "shirtName": "Billy Gilmour",
+     "displayName": "Gilmour",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 39,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::36fd401c0b2049e8948666d0f6ecca4b"
+      },
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e681e091f934fa89130c1476a93a270"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3feecae1d51943858683fe593d008f9f",
+     "providerId": "opta:Player:d364lpc0km51psy3zwc4a6zca",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Rasmus Winther",
+     "lastName": "Højlund",
+     "shirtName": "Rasmus Højlund",
+     "displayName": "Højlund",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::23f8b38d705e43bfaffccba16e316b37"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2d6bc8e9be4e45ab976bf3d43595aad9",
+     "providerId": "opta:Player:9bba1hgnx5mzpkzeazsoikn9x",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Matteo",
+     "lastName": "Politano",
+     "shirtName": "Matteo Politano",
+     "displayName": "Politano",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b42e90591cc04f3f8f4c3140aedd3716",
+     "providerId": "kama:Player:11023",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Mathias",
+     "lastName": "Ferrante",
+     "shirtName": "Mathias Ferrante",
+     "displayName": "Ferrante",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5b15b16a974543dc8fab8732ca7835ae",
+     "providerId": "opta:Player:5syage212151fcixahbq3k8ut",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Vanja",
+     "lastName": "Milinković-Savić",
+     "shirtName": "Vanja Milinković-Savić",
+     "displayName": "Milinković-Savić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::570feabb699f45838cec3544b99ea3e1",
+     "providerId": "kama:Player:99144",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Miguel",
+     "lastName": "Gutiérrez Ortega",
+     "shirtName": "Miguel Gutiérrez",
+     "displayName": "Gutiérrez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::88f3cec77bb64985bd0d38b1263234b4",
+     "providerId": "opta:Player:8n0c5t5wzfkoauryyzy8be0gl",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Juan Guilherme",
+     "lastName": "Nunes Jesus",
+     "shirtName": "Juan Jesus",
+     "displayName": "Juan Jesus",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ef2c2d627ff94df4840479fa3473a59c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7495155a4714425c82eadd3e58763969",
+     "providerId": "opta:Player:7pi4j76iy3cfh0bfkxf9x8ell",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "David",
+     "lastName": "Neres Campos",
+     "shirtName": "David Neres",
+     "displayName": "Neres",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::25a5058852ed4308b29227d29a952365",
+     "providerId": "opta:Player:2kfkjjqh7vrfcfbgr4aa85dqt",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Amir",
+     "lastName": "Rrahmani",
+     "shirtName": "Amir Rrahmani",
+     "displayName": "Am. Rrahmani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4d288b42418140a196d4ca71601d0c58",
+     "providerId": "opta:Player:896uaqjrz22q6fqjfzuwf77jd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Mathias",
+     "lastName": "Olivera Miramontes",
+     "shirtName": "Mathías Olivera",
+     "displayName": "Olivera",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b79371c5da14434399a2ae767cfc861e",
+     "providerId": "opta:Player:cjliznudpjjraqhj47l40wil0",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Antonio",
+     "lastName": "Vergara",
+     "shirtName": "Antonio Vergara",
+     "displayName": "Vergara",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::23f8b38d705e43bfaffccba16e316b37",
+     "providerId": "opta:Player:6w6ewzxircqxk6dsrs1rvc8ru",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Lorenzo",
+     "lastName": "Lucca",
+     "shirtName": "L. Lucca",
+     "displayName": "Lucca",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3feecae1d51943858683fe593d008f9f"
+      },
+      {
+       "type": "goal",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::310a726a64854ced91418ec3cc090391"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a1ee3415386144ad88b60048528e69bd",
+     "providerId": "opta:Player:1ijyezydbb4zzio95vj0sr09g",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Luca",
+     "lastName": "Marianucci",
+     "shirtName": "Luca Marianucci",
+     "displayName": "Marianucci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0e681e091f934fa89130c1476a93a270",
+     "providerId": "opta:Player:9y8fnvazj02vy31ljx3du0d79",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Stanislav",
+     "lastName": "Lobotka",
+     "shirtName": "Stanislav Lobotka",
+     "displayName": "Lobotka",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::97e494fcc78543cd9ac8219e5e97503c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::13de6cd1a5be4a3d8180e0710b5af103",
+     "providerId": "opta:Player:1yr4mqzlcq3fj7u1l8a3bvc44",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Giuseppe",
+     "lastName": "Ambrosino Di Bruttopilo",
+     "shirtName": "Giuseppe Ambrosino",
+     "displayName": "Ambrosino",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e828057c33149518121292db068fc6f",
+     "providerId": "kama:Player:98389",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Noa Noell",
+     "lastName": "Lang",
+     "shirtName": "Noa Lang",
+     "displayName": "Lang",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c52699f76a744afca8862f2584b7a860",
+     "providerId": "opta:Player:3bhy6x04rbwzk0nh1fm59dmnd",
+     "side": "home",
+     "team": "Napoli",
+     "firstName": "Andre Frank",
+     "lastName": "Zambo Anguissa",
+     "shirtName": "Frank Anguissa",
+     "displayName": "Anguissa",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f3b8743fff5a497b8b2686e3301c46f3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::98e15b4304ae4e0d9f3d1d8cfe905e51",
+     "providerId": "opta:Player:lytldf000kafs2h6g92esfrp",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Adrian",
+     "lastName": "Šemper",
+     "shirtName": "Adrian Šemper",
+     "displayName": "Šemper",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::63c9aabd25e5414d9beedb1278633362",
+     "providerId": "opta:Player:bxqbdvs3o73d2ck83wstwpg8a",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Simone",
+     "lastName": "Canestrelli",
+     "shirtName": "Simone Canestrelli",
+     "displayName": "Canestrelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0e0e83d4947c476eac041473aabf73ad",
+     "providerId": "opta:Player:bvnzh2sq474xl2wj7jser1uz8",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Mateus Henrique",
+     "lastName": "Vanzelli Lusuardi",
+     "shirtName": "Mateus Lusuardi",
+     "displayName": "Lusuardi",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1800ff3e0c53485b8c5da64ec1159efa",
+     "providerId": "opta:Player:ewhxpafqa4wvkv8945hhgrehg",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Giovanni",
+     "lastName": "Bonfanti",
+     "shirtName": "Giovanni Bonfanti",
+     "displayName": "G. Bonfanti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::13ed262b2a284cf183ad39dc6c317e12"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::abe900533cc943cab2316085cff5c521",
+     "providerId": "opta:Player:5tyedyaxnojij3ktc4w44dsd1",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Antonio Aldo",
+     "lastName": "Caracciolo",
+     "shirtName": "Antonio Caracciolo",
+     "displayName": "Caracciolo",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 50,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d1c9d5f5a9bf428c85d563d9ef4e8bad",
+     "providerId": "opta:Player:6u6mobmk6lpvwebo76ddxr3s9",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Mehdi Pascal Marcel",
+     "lastName": "Léris",
+     "shirtName": "Mehdi Léris",
+     "displayName": "Léris",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f280c8cfd106468db8d8dac473f93c7a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74c636656c5343ee921582563943e359",
+     "providerId": "opta:Player:3o7gvykqi9ldgjrzxl14dqas4",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Ebenezer Ajodun",
+     "lastName": "Akinsanmiro",
+     "shirtName": "Ebenezer Akinsanmiro",
+     "displayName": "Akinsanmiro",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a74cbc51025f490cb8c10f031cd7fc9c",
+     "providerId": "opta:Player:bpfg11qh1q0zj2x6sqd3srvmx",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Michel",
+     "lastName": "Aebischer",
+     "shirtName": "Michel Aebischer",
+     "displayName": "Aebischer",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::492b9a0d429c45d9b13587f028ac57b0",
+     "providerId": "opta:Player:93cnkzi86q36c8n86mo35q5t5",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Marius Mihai",
+     "lastName": "Marin",
+     "shirtName": "M. Marin",
+     "displayName": "M. Marin",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::149ad9adb211416b8edc7a05936e0638"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9078be5cf70143c6b5cf3ff8bc992622",
+     "providerId": "opta:Player:22ck04xk148cks27zwby83d1x",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Stefano",
+     "lastName": "Moreo",
+     "shirtName": "S. Moreo",
+     "displayName": "Moreo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3fd5a79038fd4556b4ae43dcc2633a95"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a53cdd08f2164df2850c0371463911cc",
+     "providerId": "opta:Player:8zltxvt0rcrcv96x1wmdhlrrp",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Mbala",
+     "lastName": "Nzola",
+     "shirtName": "M'Bala Nzola",
+     "displayName": "Nzola",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1444d2c7af17447793aac0393c4b215f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dbbf14e9b8b8434db6df471dade0893b",
+     "providerId": "opta:Player:3pcf58m2hgktlm15elgdyut3p",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Nicolas",
+     "lastName": "Andrade David",
+     "shirtName": "Nícolas Andrade",
+     "displayName": "Nicolas",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3a012d7f5bb2431981c0e77dce09aee5",
+     "providerId": "opta:Player:17iqlyu99zttyubi6ya6yu9cl",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Simone",
+     "lastName": "Scuffet",
+     "shirtName": "Simone Scuffet",
+     "displayName": "Scuffet",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::13ed262b2a284cf183ad39dc6c317e12",
+     "providerId": "opta:Player:56ekwofu3616kd4qjlirphdzo",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Samuele",
+     "lastName": "Angori",
+     "shirtName": "S. Angori",
+     "displayName": "Angori",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1800ff3e0c53485b8c5da64ec1159efa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2c9d202814c44b22922357aa23f283b5",
+     "providerId": "opta:Player:eyx42tgneccybvhk8bfhtcaqy",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Malthe",
+     "lastName": "Højholt",
+     "shirtName": "Malthe Højholt",
+     "displayName": "Højholt",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3fd5a79038fd4556b4ae43dcc2633a95",
+     "providerId": "opta:Player:5d6txeello867oroqdv0y5wk4",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Henrik Wendel",
+     "lastName": "Meister",
+     "shirtName": "Henrik Meister",
+     "displayName": "Meister",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9078be5cf70143c6b5cf3ff8bc992622"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1444d2c7af17447793aac0393c4b215f",
+     "providerId": "opta:Player:4tir4q39uy0c71m8zfxvynd9l",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Mattéo",
+     "lastName": "Tramoni",
+     "shirtName": "Mattéo Tramoni",
+     "displayName": "Tramoni",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a53cdd08f2164df2850c0371463911cc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f280c8cfd106468db8d8dac473f93c7a",
+     "providerId": "opta:Player:pconfrmsdy9aikioqz9s9lg5",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Juan Guillermo",
+     "lastName": "Cuadrado Bello",
+     "shirtName": "Juan Cuadrado",
+     "displayName": "Cuadrado",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d1c9d5f5a9bf428c85d563d9ef4e8bad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fbb0c6d0a7c442dcb823a791ff7bb708",
+     "providerId": "opta:Player:b89cc1q5ztn1pz43ladq7mr8q",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Tomas",
+     "lastName": "Do Lago Pontes Esteves",
+     "shirtName": "Tomás Esteves",
+     "displayName": "Esteves",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f48258f89c024a6b93f47ff096b4d30c",
+     "providerId": "opta:Player:np5er6kwne1u1y3avr7sr11w",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Isak",
+     "lastName": "Vural",
+     "shirtName": "Isak Vural",
+     "displayName": "Vural",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fb3af9b4ca344de38ba61366bfa2b1bf",
+     "providerId": "opta:Player:19xao2zbulnj2ui07q0zc67rp",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Arturo",
+     "lastName": "Calabresi",
+     "shirtName": "Arturo Calabresi",
+     "displayName": "Calabresi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d303b13a9b804888851bdf24f7e17ba8",
+     "providerId": "opta:Player:5qao7tnriecoq3qtmxzobz6dw",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Gabriele",
+     "lastName": "Piccinini",
+     "shirtName": "Gabriele Piccinini",
+     "displayName": "Piccinini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c8bdfbb5a873426a93b6a4febdfc63cf",
+     "providerId": "opta:Player:e615cmv1tfzu84f0z8mwi5711",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Raul",
+     "lastName": "Albiol Tortajada",
+     "shirtName": "Raúl Albiol",
+     "displayName": "Albiol",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::149ad9adb211416b8edc7a05936e0638",
+     "providerId": "kama:Player:99565",
+     "side": "away",
+     "team": "Pisa",
+     "firstName": "Lorran Lucas",
+     "lastName": "Pereira De Sousa",
+     "shirtName": "Lorran",
+     "displayName": "Lorran",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::492b9a0d429c45d9b13587f028ac57b0"
+      },
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::13ed262b2a284cf183ad39dc6c317e12"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:18:16.460Z",
+   "sha256": "04c2edcf009c39cf09cc81153c9cc10b48c8be2de198afa4119de4430dd43e55"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:22.002Z",
+   "sha256": "59c55251f709af1a74f4a2314ba1b8d2fd7cb69ba26d2d3975bdb1123325fa3d",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Meret",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Juan Jesus",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Spinazzola",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 11,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 11,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 11,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Buongiorno",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Di Lorenzo",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Beukema",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Politano",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "De Bruyne",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zambo Anguissa",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lobotka",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Elmas",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "McTominay",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gilmour",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Hojlund",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Napoli",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lucca",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Semper",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 2.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 2.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 2.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cuadrado",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Caracciolo A.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mateus Lusuardi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bonfanti",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Canestrelli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Angori",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Leris",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tramoni M.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Aebischer",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Akinsanmiro",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Marin M.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lorran",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nzola",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Moreo",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/4",
+      "estrattoIl": "2026-10-06T08:28:22.002Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Meister",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Napoli 3 - 2 Pisa 22/09/2025 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

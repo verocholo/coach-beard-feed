@@ -1,0 +1,1668 @@
+{
+ "label": "Pisa-Bologna (g27)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-03-02T17:30:00Z",
+  "hoursAfterKickoff": 5222.783666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:58.506Z",
+  "sha256": "af5dd83626d63542d8af9c25a31eca53347ec22a536d9aaf5ba7547e7fe473bf"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::f05187d3714d4de183f8136df25e2986",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-03-02T17:30:00Z",
+   "matchday": 27,
+   "home": "Pisa",
+   "away": "Bologna",
+   "homeTeamId": "serie-a::Football_Team::546afa43cf08486d9234df9e846c1f1e",
+   "awayTeamId": "serie-a::Football_Team::4af71b35aab34ad5a7d06148abe66ad6",
+   "homeScore": 0,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::f05187d3714d4de183f8136df25e2986",
+   "homeTeam": "Pisa",
+   "awayTeam": "Bologna",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::dbbf14e9b8b8434db6df471dade0893b",
+     "providerId": "opta:Player:3pcf58m2hgktlm15elgdyut3p",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Nicolas",
+     "lastName": "Andrade David",
+     "shirtName": "Nícolas Andrade",
+     "displayName": "Nicolas",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c3524c12b4e8484fb1365255f520e5ad",
+     "providerId": "opta:Player:7m9zsxwbrrqsxw79xcb07yo7o",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Francesco",
+     "lastName": "Coppola",
+     "shirtName": "Francesco Coppola",
+     "displayName": "Coppola",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abe900533cc943cab2316085cff5c521",
+     "providerId": "opta:Player:5tyedyaxnojij3ktc4w44dsd1",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Antonio Aldo",
+     "lastName": "Caracciolo",
+     "shirtName": "Antonio Caracciolo",
+     "displayName": "Caracciolo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::95028eb2bc974712a00355d9e39738af"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fb3af9b4ca344de38ba61366bfa2b1bf",
+     "providerId": "opta:Player:19xao2zbulnj2ui07q0zc67rp",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Arturo",
+     "lastName": "Calabresi",
+     "shirtName": "Arturo Calabresi",
+     "displayName": "Calabresi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::63c9aabd25e5414d9beedb1278633362"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::13ed262b2a284cf183ad39dc6c317e12",
+     "providerId": "opta:Player:56ekwofu3616kd4qjlirphdzo",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Samuele",
+     "lastName": "Angori",
+     "shirtName": "S. Angori",
+     "displayName": "Angori",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f280c8cfd106468db8d8dac473f93c7a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::492b9a0d429c45d9b13587f028ac57b0",
+     "providerId": "opta:Player:93cnkzi86q36c8n86mo35q5t5",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Marius Mihai",
+     "lastName": "Marin",
+     "shirtName": "M. Marin",
+     "displayName": "M. Marin",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1c9d5f5a9bf428c85d563d9ef4e8bad",
+     "providerId": "opta:Player:6u6mobmk6lpvwebo76ddxr3s9",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Mehdi Pascal Marcel",
+     "lastName": "Léris",
+     "shirtName": "Mehdi Léris",
+     "displayName": "Léris",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2c9d202814c44b22922357aa23f283b5",
+     "providerId": "opta:Player:eyx42tgneccybvhk8bfhtcaqy",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Malthe",
+     "lastName": "Højholt",
+     "shirtName": "Malthe Højholt",
+     "displayName": "Højholt",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d303b13a9b804888851bdf24f7e17ba8"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a74cbc51025f490cb8c10f031cd7fc9c",
+     "providerId": "opta:Player:bpfg11qh1q0zj2x6sqd3srvmx",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Michel",
+     "lastName": "Aebischer",
+     "shirtName": "Michel Aebischer",
+     "displayName": "Aebischer",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9078be5cf70143c6b5cf3ff8bc992622",
+     "providerId": "opta:Player:22ck04xk148cks27zwby83d1x",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Stefano",
+     "lastName": "Moreo",
+     "shirtName": "S. Moreo",
+     "displayName": "Moreo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::79a0c4243488430db5106e3d34d222fa",
+     "providerId": "kama:Player:100567",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Rafiu Adekunle",
+     "lastName": "Durosinmi",
+     "shirtName": "Rafiu Durosinmi",
+     "displayName": "Durosinmi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::15fe67d5feb44e07a9ba9074cd6fed25"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::98e15b4304ae4e0d9f3d1d8cfe905e51",
+     "providerId": "opta:Player:lytldf000kafs2h6g92esfrp",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Adrian",
+     "lastName": "Šemper",
+     "shirtName": "Adrian Šemper",
+     "displayName": "Šemper",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a32aee8c80b341e5aab2cab8d1bc1812",
+     "providerId": "kama:Player:7894",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Matteo",
+     "lastName": "Luppichini",
+     "shirtName": "Matteo Luppichini",
+     "displayName": "Luppichini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7a83677532248da9b1c9e6c59f1f665",
+     "providerId": "kama:Player:100566",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Rosen Petkov",
+     "lastName": "Božhinov",
+     "shirtName": "Rosen Božhinov",
+     "displayName": "Božhinov",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::63c9aabd25e5414d9beedb1278633362",
+     "providerId": "opta:Player:bxqbdvs3o73d2ck83wstwpg8a",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Simone",
+     "lastName": "Canestrelli",
+     "shirtName": "Simone Canestrelli",
+     "displayName": "Canestrelli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fb3af9b4ca344de38ba61366bfa2b1bf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3fd5a79038fd4556b4ae43dcc2633a95",
+     "providerId": "opta:Player:5d6txeello867oroqdv0y5wk4",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Henrik Wendel",
+     "lastName": "Meister",
+     "shirtName": "Henrik Meister",
+     "displayName": "Meister",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1444d2c7af17447793aac0393c4b215f",
+     "providerId": "opta:Player:4tir4q39uy0c71m8zfxvynd9l",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Mattéo",
+     "lastName": "Tramoni",
+     "shirtName": "Mattéo Tramoni",
+     "displayName": "Tramoni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f280c8cfd106468db8d8dac473f93c7a",
+     "providerId": "opta:Player:pconfrmsdy9aikioqz9s9lg5",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Juan Guillermo",
+     "lastName": "Cuadrado Bello",
+     "shirtName": "Juan Cuadrado",
+     "displayName": "Cuadrado",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::13ed262b2a284cf183ad39dc6c317e12"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74c636656c5343ee921582563943e359",
+     "providerId": "opta:Player:3o7gvykqi9ldgjrzxl14dqas4",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Ebenezer Ajodun",
+     "lastName": "Akinsanmiro",
+     "shirtName": "Ebenezer Akinsanmiro",
+     "displayName": "Akinsanmiro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1fb8ef2081d4501a14971b23d202784",
+     "providerId": "opta:Player:8trp1348qs14phwpsx4a9beuh",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Idrissa",
+     "lastName": "Touré",
+     "shirtName": "Idrissa Touré",
+     "displayName": "I. Touré",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::95028eb2bc974712a00355d9e39738af",
+     "providerId": "opta:Player:9p621hq50jdkujzy4309sagkq",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Samuel",
+     "lastName": "Iling-junior",
+     "shirtName": "Samuel Iling-Junior",
+     "displayName": "Iling-Junior",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::abe900533cc943cab2316085cff5c521"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4f3593dc934f4ea88accc051da402ca7",
+     "providerId": "kama:Player:99293",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Calvin Maxim",
+     "lastName": "Stengs",
+     "shirtName": "Calvin Stengs",
+     "displayName": "Stengs",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8c7f1fa5babd45d2adb4cb3404e88a3d",
+     "providerId": "kama:Player:100601",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Felipe Ignacio",
+     "lastName": "Loyola Olea",
+     "shirtName": "Felipe Loyola",
+     "displayName": "Loyola",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d303b13a9b804888851bdf24f7e17ba8",
+     "providerId": "opta:Player:5qao7tnriecoq3qtmxzobz6dw",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Gabriele",
+     "lastName": "Piccinini",
+     "shirtName": "Gabriele Piccinini",
+     "displayName": "Piccinini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2c9d202814c44b22922357aa23f283b5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c8bdfbb5a873426a93b6a4febdfc63cf",
+     "providerId": "opta:Player:e615cmv1tfzu84f0z8mwi5711",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Raul",
+     "lastName": "Albiol Tortajada",
+     "shirtName": "Raúl Albiol",
+     "displayName": "Albiol",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::15fe67d5feb44e07a9ba9074cd6fed25",
+     "providerId": "kama:Player:100652",
+     "side": "home",
+     "team": "Pisa",
+     "firstName": "Filip",
+     "lastName": "Stojilković",
+     "shirtName": "Filip Stojilković",
+     "displayName": "Stojilković",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::79a0c4243488430db5106e3d34d222fa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::47c6788b77eb47bf90274613223577a4",
+     "providerId": "opta:Player:4hrmzpx1nt5ze55fpby71mcb9",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Łukasz",
+     "lastName": "Skorupski",
+     "shirtName": "Łukasz Skorupski",
+     "displayName": "Skorupski",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf",
+     "providerId": "opta:Player:42m78ny1ggvmzmjtka7exyzqi",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nadir",
+     "lastName": "Zortea",
+     "shirtName": "Nadir Zortea",
+     "displayName": "Zortea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9efa092039cb45689a389ed539961558",
+     "providerId": "opta:Player:7m3wseg5lilrkzatyvc2yemay",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Martin",
+     "lastName": "Vitik",
+     "shirtName": "Martin Vitík",
+     "displayName": "Vitík",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 21,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::313bd55b6a874a0c8657fc0d8b1d0f40"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ddf4ceac503b43648e42f966b5fe37b3",
+     "providerId": "opta:Player:3l0mj1zzhytxvm9tryvqv8kix",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jhon Janer",
+     "lastName": "Lucumi' Bonilla",
+     "shirtName": "Jhon Lucumí",
+     "displayName": "Lucumí",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2de0dfeaa65140cd855ca8681b0f1e65",
+     "providerId": "kama:Player:98464",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "João Mário",
+     "lastName": "Neto Lopes",
+     "shirtName": "João Mário Neto Lopes",
+     "displayName": "João Mário",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c",
+     "providerId": "opta:Player:19nlw3sa0khwz0el4wqc7zrp",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Remo",
+     "lastName": "Freuler",
+     "shirtName": "Remo Freuler",
+     "displayName": "Freuler",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187",
+     "providerId": "opta:Player:6eqqtmbg35rg2stk10ic7q8k5",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nikola",
+     "lastName": "Moro",
+     "shirtName": "Nikola Moro",
+     "displayName": "N. Moro",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b",
+     "providerId": "emg:Player:BRNFD|opta:Player:6kms3ctf8joymna289onk9lg5",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Bernardeschi",
+     "shirtName": "Federico Bernardeschi",
+     "displayName": "Bernardeschi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb",
+     "providerId": "opta:Player:b9clhoz198r69kavhw4anymms",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Santiago Thomas",
+     "lastName": "Castro",
+     "shirtName": "Santiago Castro",
+     "displayName": "Castro",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66",
+     "providerId": "opta:Player:d5m5q6dlc7vnbs634dinbsuwa",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Cambiaghi",
+     "shirtName": "Nicolò Cambiaghi",
+     "displayName": "Cambiaghi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::53a4937f0ee0461bafae8598946349a4",
+     "providerId": "opta:Player:9m6yva52cmdq7uu31qrwdrund",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Ravaglia",
+     "shirtName": "Federico Ravaglia",
+     "displayName": "Ravaglia",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2709aca071e3476cb9411d5d4c9a0270",
+     "providerId": "opta:Player:1bz1zdxmtx5oxipvukpg7svmc",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Massimo",
+     "lastName": "Pessina",
+     "shirtName": "Massimo Pessina",
+     "displayName": "Pessina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f378fcb31cec4ca380fe22dafb5469fc",
+     "providerId": "opta:Player:ch5rw8dgb6wh99wyhd8o3t1pl",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Tommaso",
+     "lastName": "Pobega",
+     "shirtName": "Tommaso Pobega",
+     "displayName": "Pobega",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7340c690ce54b1b93423b7300249755",
+     "providerId": "kama:Player:100611",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Eivind Fauske",
+     "lastName": "Helland",
+     "shirtName": "Eivind Fauske Helland",
+     "displayName": "Helland",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029",
+     "providerId": "opta:Player:1cu7fg8sf90isf9gp21e5fqh",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Riccardo",
+     "lastName": "Orsolini",
+     "shirtName": "Riccardo Orsolini",
+     "displayName": "Orsolini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5",
+     "providerId": "kama:Player:99257",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jonathan David",
+     "lastName": "Rowe",
+     "shirtName": "Jonathan Rowe",
+     "displayName": "Rowe",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::313bd55b6a874a0c8657fc0d8b1d0f40",
+     "providerId": "opta:Player:1x10v3yh4e3f1p2ndhtxcck4p",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Casale",
+     "shirtName": "Nicolò Casale",
+     "displayName": "Casale",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 21,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9efa092039cb45689a389ed539961558"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18",
+     "providerId": "opta:Player:bdb6j168crcrwje9k0titxv55",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Lewis",
+     "lastName": "Ferguson",
+     "shirtName": "Lewis Ferguson",
+     "displayName": "L. Ferguson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947",
+     "providerId": "opta:Player:1t7nph4960rjzu7rgi47sf8ix",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jens",
+     "lastName": "Odgaard",
+     "shirtName": "Jens Odgaard",
+     "displayName": "Odgaard",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474"
+      },
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2",
+     "providerId": "opta:Player:1lnktjxx0mux4beo28cl54j1m",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Thijs Jacco Jan",
+     "lastName": "Dallinga",
+     "shirtName": "Thijs Dallinga",
+     "displayName": "Dallinga",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839",
+     "providerId": "opta:Player:3cbwh4pfwae5xw072cy14gb85",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Lorenzo",
+     "lastName": "De Silvestri",
+     "shirtName": "Lorenzo De Silvestri",
+     "displayName": "De Silvestri",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2de0dfeaa65140cd855ca8681b0f1e65"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::102e52dc3ff54e2bb5ebcfe902fd0fe5",
+     "providerId": "opta:Player:ausjnoieiyx9m37qzam0gqgic",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Benjamin",
+     "lastName": "Dominguez",
+     "shirtName": "Benjamín Domínguez",
+     "displayName": "Domínguez",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:24:56.605Z",
+   "sha256": "34ebd6bf38f253cbb67051f6500de9add1e7b77a85d062a63ac7a7c4303c5935"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:58.506Z",
+   "sha256": "af5dd83626d63542d8af9c25a31eca53347ec22a536d9aaf5ba7547e7fe473bf",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Skorupski",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Silvestri",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zortea",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Casale",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lucumì",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vitik",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Joao Mario",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernardeschi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Freuler",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Orsolini",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Odgaard",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Moro N.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rowe",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cambiaghi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Castro S.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Nicolas",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cuadrado",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Caracciolo A.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Calabresi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Canestrelli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coppola F.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Angori",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Leris",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Aebischer",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Iling Junior",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Piccinini G.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Hojholt",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Marin M.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Moreo",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Durosinmi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/27",
+      "estrattoIl": "2026-10-06T08:28:58.506Z"
+     },
+     "squadraRaw": "Pisa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Stojilkovic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Pisa 0 - 1 Bologna 02/03/2026 - 18:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

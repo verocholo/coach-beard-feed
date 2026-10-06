@@ -1,0 +1,1693 @@
+{
+ "label": "Sassuolo-Milan (g35)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-05-03T13:00:00Z",
+  "hoursAfterKickoff": 3739.2836666666667,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:29:11.629Z",
+  "sha256": "f88a648b5b45876146a07a2b72580a0c097815483e4d4775b61ef21b798d14c8"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::f90cb857bfb84b6d8819acfee064f309",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-05-03T13:00:00Z",
+   "matchday": 35,
+   "home": "Sassuolo",
+   "away": "Milan",
+   "homeTeamId": "serie-a::Football_Team::b70390ba4e3c4bc2947a37617d53e8a3",
+   "awayTeamId": "serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0",
+   "homeScore": 2,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::f90cb857bfb84b6d8819acfee064f309",
+   "homeTeam": "Sassuolo",
+   "awayTeam": "Milan",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::7ee9be263d9542faa19317ebdd17e027",
+     "providerId": "opta:Player:5jfy7133kfbmyl8ur6ze9y2ju",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Stefano",
+     "lastName": "Turati",
+     "shirtName": "S. Turati",
+     "displayName": "Turati",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::92d8dd7d3de74369bddf1d125ed5bbad",
+     "providerId": "opta:Player:dnk24js88d4ie661mwo7jkq95",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Sebastian",
+     "lastName": "Walukiewicz",
+     "shirtName": "Sebastian Walukiewicz",
+     "displayName": "Walukiewicz",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8057b4914e084f28aba58281a65a589c",
+     "providerId": "opta:Player:7nfr8xuo637qma7ovxx4r9fmy",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Jay Noah",
+     "lastName": "Idzes",
+     "shirtName": "Jay Idzes",
+     "displayName": "Idzes",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 40,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::81c9e3d7e6d94a7384066d055f96a06b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4a4e1ff8686341f98a7270a97605dd2a",
+     "providerId": "opta:Player:17inz8artrqynbg3qbme42r8q",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Tarik",
+     "lastName": "Muharemović",
+     "shirtName": "Tarik Muharemović",
+     "displayName": "Muharemović",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dc2ae0b65ab4443588120e20b73a0d54",
+     "providerId": "kama:Player:100716",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Ulisses Alexandre",
+     "lastName": "Garcia Lopes",
+     "shirtName": "Ulisses Garcia",
+     "displayName": "Garcia",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d48a6ffbde8f4ad58ae8d9f9443792e7",
+     "providerId": "kama:Player:98957",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Ismaël Kenneth",
+     "lastName": "Koné",
+     "shirtName": "Ismaël Koné",
+     "displayName": "I. Koné",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::44e451711e664fd4875632c28cd8fd2a",
+     "providerId": "opta:Player:c5a7z6vphv9tp9ddid5jnrnx1",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Nemanja",
+     "lastName": "Matić",
+     "shirtName": "N. Matic",
+     "displayName": "Matić",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 38,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d37b584e9071448ca0504a0a217103f0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::51a8972006ab47c9a0aa07a018f46b60",
+     "providerId": "opta:Player:cc04mat3snly9oe4bt7xaeooa",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Kristian",
+     "lastName": "Thorstvedt",
+     "shirtName": "Kristian Thorstvedt",
+     "displayName": "Thorstvedt",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::797109e26eb346e3a6de69944030f6ea",
+     "providerId": "opta:Player:27xj7me8icr5ptta7kwx0kfs9",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Armand Gaetan",
+     "lastName": "Laurienté",
+     "shirtName": "Armand Laurienté",
+     "displayName": "Laurienté",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 47,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::51a8972006ab47c9a0aa07a018f46b60"
+      },
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::996213fa92014868bf3a50155d8bd4dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a53cdd08f2164df2850c0371463911cc",
+     "providerId": "opta:Player:8zltxvt0rcrcv96x1wmdhlrrp",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Mbala",
+     "lastName": "Nzola",
+     "shirtName": "M'Bala Nzola",
+     "displayName": "Nzola",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3899fafda37541d8a5c395226d5e9c38",
+     "providerId": "opta:Player:m030tubgf3zpgf0axzm7z26t",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Domenico",
+     "lastName": "Berardi",
+     "shirtName": "D. Berardi",
+     "displayName": "Berardi",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 5,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::797109e26eb346e3a6de69944030f6ea"
+      },
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bacb2fa09efd437f9a2b7c7d6fbae18e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b10dca672e374b858d71d691bc041009",
+     "providerId": "opta:Player:wiyhb64zg4hxe0dussuc3209",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Giacomo",
+     "lastName": "Satalino",
+     "shirtName": "Giacomo Satalino",
+     "displayName": "Satalino",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1eab7370f43341dc8c9e7058debd7866",
+     "providerId": "opta:Player:1vzkayk22kpci17ggh5kkc3u2",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Gioele",
+     "lastName": "Zacchi",
+     "shirtName": "Gioele Zacchi",
+     "displayName": "Zacchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0c6275822d8f414991d7fc01f42d8c38",
+     "providerId": "kama:Player:99070",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Arijanet Anan",
+     "lastName": "Murić",
+     "shirtName": "Arijanet Murić",
+     "displayName": "Murić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::863e4f06366d4728b311e9aa7a568696",
+     "providerId": "opta:Player:7uf7y7xa6hy3gieetcte3td2i",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Josh Thomas",
+     "lastName": "Doig",
+     "shirtName": "Josh Doig",
+     "displayName": "Doig",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bacb2fa09efd437f9a2b7c7d6fbae18e",
+     "providerId": "opta:Player:bh9jia8qgkhpm5xn82bx0hhck",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Cristian",
+     "lastName": "Volpato",
+     "shirtName": "C. Volpato",
+     "displayName": "Volpato",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3899fafda37541d8a5c395226d5e9c38"
+      },
+      {
+       "type": "yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dd94d6d9abac493db8fb0dab6e1d61fc",
+     "providerId": "opta:Player:61c395xuimpxo2439p8mt3y6t",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Filippo",
+     "lastName": "Romagna",
+     "shirtName": "Filippo Romagna",
+     "displayName": "Romagna",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::996213fa92014868bf3a50155d8bd4dd",
+     "providerId": "opta:Player:5f13ro5hgmago2bmqtzjw5ey",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Alieu",
+     "lastName": "Fadera",
+     "shirtName": "Alieu Fadera",
+     "displayName": "Fadera",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::797109e26eb346e3a6de69944030f6ea"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 4,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dd4b8149f2c14166849c809b20c38fb4",
+     "providerId": "opta:Player:5o8qoe2fv7ppwrwdyx6v5fdd6",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Luca",
+     "lastName": "Moro",
+     "shirtName": "Luca Moro",
+     "displayName": "L. Moro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::81c9e3d7e6d94a7384066d055f96a06b",
+     "providerId": "opta:Player:68iplmlkdp5wkgnlnnanj9be1",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Woyo",
+     "lastName": "Coulibaly",
+     "shirtName": "Woyo Coulibaly",
+     "displayName": "W. Coulibaly",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 40,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8057b4914e084f28aba58281a65a589c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d25b0133f0f443239b9dd4ffdbb16da0",
+     "providerId": "kama:Player:7659",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Christian",
+     "lastName": "Frangella",
+     "shirtName": "Christian Frangella",
+     "displayName": "Frangella",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d37b584e9071448ca0504a0a217103f0",
+     "providerId": "opta:Player:9cv979t3dmbwoy586m01xdvkk",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Luca",
+     "lastName": "Lipani",
+     "shirtName": "Luca Lipani",
+     "displayName": "Lipani",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::44e451711e664fd4875632c28cd8fd2a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::92d1c239f8fe47c4b9c649feaf99f79b",
+     "providerId": "opta:Player:72vim7cq99zdjjwivwtr773vu",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Aster Jan",
+     "lastName": "Vranckx",
+     "shirtName": "Aster Vranckx",
+     "displayName": "Vranckx",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c735b932a19f4095a9671533d8a6170c",
+     "providerId": "opta:Player:2r1hv8jivl8q2zd3egpipfe38",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Edoardo",
+     "lastName": "Iannoni",
+     "shirtName": "Edoardo Iannoni",
+     "displayName": "Iannoni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dfbf92e44ffa4e368ac50d4c8b095adc",
+     "providerId": "opta:Player:4u0o6pfpmohhbzuggq31bj02c",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Pedro Felipe",
+     "lastName": "De Jesus Gomes",
+     "shirtName": "Pedro Felipe",
+     "displayName": "Pedro Felipe",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::89b9a783c7e24268b916ff032c6a67ba",
+     "providerId": "opta:Player:153ljvbov0n176vm9fdaizoix",
+     "side": "home",
+     "team": "Sassuolo",
+     "firstName": "Andrea",
+     "lastName": "Pinamonti",
+     "shirtName": "A. Pinamonti",
+     "displayName": "Pinamonti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a53cdd08f2164df2850c0371463911cc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f6b27c8e1cf04b3391184988ee7336f7",
+     "providerId": "opta:Player:3fpnfgoy4lbpapv2th6g60cet",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Mike Peterson",
+     "lastName": "Maignan",
+     "shirtName": "Mike Maignan",
+     "displayName": "Maignan",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::46c4483cd2954db7a7fbf5cfaec0bafe",
+     "providerId": "kama:Player:98780",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Pervis Josue",
+     "lastName": "Estupinan Tenorio",
+     "shirtName": "Pervis Estupiñán",
+     "displayName": "Estupiñán",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6075b492bae04b149467f30c9c6923be",
+     "providerId": "opta:Player:7wjdqyl3bkhsfca5cu4riwley",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Strahinja",
+     "lastName": "Pavlović",
+     "shirtName": "Strahinja Pavlović",
+     "displayName": "Pavlović",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37d0e89ba51343a8b24b768e4efa02d6",
+     "providerId": "opta:Player:enqcaecpt5hy0qv9x5pzmkjc9",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Gabbia",
+     "shirtName": "Matteo Gabbia",
+     "displayName": "Gabbia",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4",
+     "providerId": "opta:Player:3sezchmdtivxl4kusvgc6j7x1",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Oluwafikayomi Oluwadamilola",
+     "lastName": "Tomori",
+     "shirtName": "Fikayo Tomori",
+     "displayName": "Tomori",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 9,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "second-yellow-card",
+       "time": 24,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::afe60d6be6104d909dfe50221995523a",
+     "providerId": "opta:Player:2nddcty9qris2mmeldon0ogd1",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Adrien",
+     "lastName": "Rabiot",
+     "shirtName": "Adrien Rabiot",
+     "displayName": "Rabiot",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b616b0e6528b42459ac6410543f823ef",
+     "providerId": "kama:Player:98958",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Ardon",
+     "lastName": "Jashari",
+     "shirtName": "Ardon Jashari",
+     "displayName": "Jashari",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1",
+     "providerId": "opta:Player:b0wb7gf04synxlkq7o8gvzkoa",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Youssouf",
+     "lastName": "Fofana",
+     "shirtName": "Youssouf Fofana",
+     "displayName": "Y. Fofana",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c",
+     "providerId": "opta:Player:11o903vztwpnmvgrinn208qnd",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Rafael Alexandre",
+     "lastName": "da Conceição Leão",
+     "shirtName": "Rafael Leão",
+     "displayName": "Rafael Leão",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5b8d20ccf6db45e388edc6e8ec8d4c18"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d",
+     "providerId": "kama:Player:99337",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Christopher Alan",
+     "lastName": "Nkunku",
+     "shirtName": "Christopher Nkunku",
+     "displayName": "Nkunku",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7",
+     "providerId": "opta:Player:9vnr9uog5fmggich2i4vjxwbt",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Alexis Jesse",
+     "lastName": "Saelemaekers",
+     "shirtName": "Alexis Saelemaekers",
+     "displayName": "Saelemaekers",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::366978e66f2b41d291912b96fef017a5",
+     "providerId": "opta:Player:2udciji4n7tr07ft7twe2r9w5",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Pietro",
+     "lastName": "Terracciano",
+     "shirtName": "Pietro Terracciano",
+     "displayName": "P. Terracciano",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6be573f23d4742d6a81779d7d1fb3fcf",
+     "providerId": "kama:Player:1741",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Pittarella",
+     "shirtName": "Matteo Pittarella",
+     "displayName": "Pittarella",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba",
+     "providerId": "opta:Player:e2oeysariwd866ksilu3t4m7e",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Samuele",
+     "lastName": "Ricci",
+     "shirtName": "Samuele Ricci",
+     "displayName": "Ricci",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b616b0e6528b42459ac6410543f823ef"
+      },
+      {
+       "type": "yellow-card",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1",
+     "providerId": "opta:Player:95r0jtkw03vjohzwc8os8ielm",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Koni",
+     "lastName": "De Winter",
+     "shirtName": "Koni De Winter",
+     "displayName": "De Winter",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5b8d20ccf6db45e388edc6e8ec8d4c18",
+     "providerId": "opta:Player:aboxil79ulfa73pckzsdnwp62",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Santiago Tomas",
+     "lastName": "Gimenez",
+     "shirtName": "Santiago Giménez",
+     "displayName": "Giménez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808",
+     "providerId": "opta:Player:e6jaaazxqeczj6ziaj0qnqpxx",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Ruben Ira",
+     "lastName": "Loftus-cheek",
+     "shirtName": "Ruben Loftus-Cheek",
+     "displayName": "Loftus-Cheek",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7"
+      },
+      {
+       "type": "yellow-card",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f75f69d015184e6fa1f443c3442eb94d",
+     "providerId": "kama:Player:100418",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Niclas",
+     "lastName": "Füllkrug",
+     "shirtName": "Niclas Füllkrug",
+     "displayName": "Füllkrug",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad",
+     "providerId": "opta:Player:93soe2rjn0z874cc9ofcesgkp",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Christian Mate",
+     "lastName": "Pulisic",
+     "shirtName": "Christian Pulisic",
+     "displayName": "Pulisic",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07",
+     "providerId": "kama:Player:99087",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Zachary Christopher",
+     "lastName": "Athekame",
+     "shirtName": "Zachary Athekame",
+     "displayName": "Athekame",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5e795d74e1e04302b39b9815471ba3df",
+     "providerId": "opta:Player:7odl8qgd0qak6w4ox0t3kg3kk",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Davide",
+     "lastName": "Bartesaghi",
+     "shirtName": "Davide Bartesaghi",
+     "displayName": "Bartesaghi",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:27:17.448Z",
+   "sha256": "a166617e875a710222427e882d48d25ae309e7e9e5bdac6cc45d96388e01cb15"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:29:11.629Z",
+   "sha256": "f88a648b5b45876146a07a2b72580a0c097815483e4d4775b61ef21b798d14c8",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Maignan",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gabbia",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tomori",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 3,
+     "votoItalia": 4,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pavlovic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Estupinan",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Athekame",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rabiot",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pulisic",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Loftus-Cheek",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fofana Y.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Saelemaekers",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ricci S.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Jashari",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Leao",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nkunku",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gimenez",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Turati",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Walukiewicz",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Garcia U.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coulibaly W.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Idzes",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Muharemovic",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Matic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Volpato",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thorstvedt",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 8.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 8.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 8.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lipani",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Konè I.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fadera",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Berardi",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pinamonti",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nzola",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/35",
+      "estrattoIl": "2026-10-06T08:29:11.629Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Laurientè",
+     "votoRedazione": 8,
+     "fantavotoRedazione": 12,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 11.5,
+     "votoItalia": 8,
+     "fantavotoItalia": 12,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Sassuolo 2 - 0 Milan 03/05/2026 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

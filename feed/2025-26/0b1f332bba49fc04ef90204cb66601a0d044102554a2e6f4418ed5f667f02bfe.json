@@ -1,0 +1,1689 @@
+{
+ "label": "Genoa-Bologna (g22)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-01-25T14:00:00Z",
+  "hoursAfterKickoff": 6090.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:50.506Z",
+  "sha256": "dc217f7998e04891e8e7d7bc7c2a75e25fea7d9e2c1a36a666fd3164f98ba1cc"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::f07f8aec5fa94c18b40a87dd3ffb5b61",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-01-25T14:00:00Z",
+   "matchday": 22,
+   "home": "Genoa",
+   "away": "Bologna",
+   "homeTeamId": "serie-a::Football_Team::8c7aa94d22f44738951748e2ccdf319a",
+   "awayTeamId": "serie-a::Football_Team::4af71b35aab34ad5a7d06148abe66ad6",
+   "homeScore": 3,
+   "awayScore": 2,
+   "clockTime": 90,
+   "clockAdditionalTime": 16
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::f07f8aec5fa94c18b40a87dd3ffb5b61",
+   "homeTeam": "Genoa",
+   "awayTeam": "Bologna",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::4cf1b0e719d44e95aa0f4ca057f0f025",
+     "providerId": "kama:Player:100597",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Justin",
+     "lastName": "Bijlow",
+     "shirtName": "Justin Bijlow",
+     "displayName": "Bijlow",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50f786bf0927432c9ee1d36704a91106",
+     "providerId": "opta:Player:dq2eqqywinhsh9ijg8amqyp78",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Sebastian Villaume",
+     "lastName": "Otoa",
+     "shirtName": "Sebastian Otoa",
+     "displayName": "Otoa",
+     "starter": true,
+     "events": [
+      {
+       "type": "own-goal",
+       "time": 47,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488",
+     "providerId": "opta:Player:eh9sh9aa10zrp80l6e4l0c7h1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Aaron",
+     "lastName": "Martin Caricol",
+     "shirtName": "Aarón Martín",
+     "displayName": "Martín",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::48bbf1a2c4494bb0b02d0a49eb431c98",
+     "providerId": "opta:Player:bj9f6t8o0nji79rbaxrsioep6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Brooke Dion Nelson",
+     "lastName": "Norton-Cuffy",
+     "shirtName": "Brooke Norton-Cuffy",
+     "displayName": "Norton-Cuffy",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 6,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d56eec021a0e467db06e5958d5c37e41"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ac9814fb4e4245378d64a972b9fd3199",
+     "providerId": "opta:Player:7ojvhhfvbtbn60sc50y4l2ctm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Johan Felipe",
+     "lastName": "Vasquez Ibarra",
+     "shirtName": "Johan Vásquez",
+     "displayName": "J. Vásquez",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2681452588b14a15a9aa5afe6fab05d3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::65bb7b8d02084d858daeba0cff0cc4eb",
+     "providerId": "opta:Player:1lxfpn0wmr895me9xbzcfnh90",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alessandro",
+     "lastName": "Marcandalli",
+     "shirtName": "Alessandro Marcandalli",
+     "displayName": "Marcandalli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 7,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dbd53bdc4ffe446da33ce7774384da90",
+     "providerId": "opta:Player:7u9bpiajlgr3zibj89pub7wbu",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Mikael Egill",
+     "lastName": "Ellertsson",
+     "shirtName": "Mikael Ellertsson",
+     "displayName": "Ellertsson",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ebc8da84f5ab44e28aeccc9bedd71b2a",
+     "providerId": "opta:Player:2um03dny7h3sdvehq3bygd1t6",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten Wetche",
+     "lastName": "Frendrup",
+     "shirtName": "Morten Frendrup",
+     "displayName": "Frendrup",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4138ae6bf454cbd97f0a5ce554de3b5",
+     "providerId": "opta:Player:46yp8iqh0qm7i75d98tfrsbxm",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Lorenzo",
+     "lastName": "Colombo",
+     "shirtName": "Lorenzo Colombo",
+     "displayName": "Lo. Colombo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573",
+     "providerId": "opta:Player:cnriqwh17pqgz7p2gt74uar6c",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Vitor Manuel",
+     "lastName": "Carvalho De Oliveira",
+     "shirtName": "Vitinha",
+     "displayName": "Vitinha",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934",
+     "providerId": "opta:Player:bf41pexjnkx8o1wdxudesfac4",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Osayuki Jeff",
+     "lastName": "Ekhator",
+     "shirtName": "Jeff Ekhator",
+     "displayName": "Ekhator",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4af8f3465e44cefbe9617f9c576691b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::03ea7d3b17b74069830746c24db1de69",
+     "providerId": "opta:Player:9dc7uictce9dq0tbphn74qz85",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Nicola",
+     "lastName": "Leali",
+     "shirtName": "Nicola Leali",
+     "displayName": "Leali",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::308ee64855794d61811119f70f5f018e",
+     "providerId": "opta:Player:4b6mhmoeo78f8x928q2imp591",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Daniele",
+     "lastName": "Sommariva",
+     "shirtName": "Daniele Sommariva",
+     "displayName": "Sommariva",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f3670f8a13ba4c38a58d8f59eda2e1b0",
+     "providerId": "opta:Player:9qzxygb9hyzag1szans0k2jth",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Morten",
+     "lastName": "Thorsby",
+     "shirtName": "Morten Thorsby",
+     "displayName": "Thorsby",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a5664d63c9d944e2be3e08a3aa1d4d5b",
+     "providerId": "opta:Player:17au7v1ocl4zab872g59821yi",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Walter",
+     "lastName": "Messias Junior",
+     "shirtName": "Junior Messias",
+     "displayName": "Messias",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4aceacf99c214eacbf37b81beb326488"
+      },
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::65bb7b8d02084d858daeba0cff0cc4eb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d56eec021a0e467db06e5958d5c37e41",
+     "providerId": "kama:Player:100612",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Nils Erik Ulf",
+     "lastName": "Zätterström",
+     "shirtName": "Nils Zätterström",
+     "displayName": "Zätterström",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 6,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::48bbf1a2c4494bb0b02d0a49eb431c98"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3e3618a7ee924889973db5ff58423c2b",
+     "providerId": "opta:Player:b4lc7czw7al6g7a7qzcqzya22",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Jean Emile Junior",
+     "lastName": "Onana Onana",
+     "shirtName": "Jean Onana",
+     "displayName": "Onana",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4af8f3465e44cefbe9617f9c576691b",
+     "providerId": "opta:Player:4euxcqawlks4c56pqj8xvwbf9",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Ruslan",
+     "lastName": "Malinovskyi",
+     "shirtName": "Ruslan Malinovskyi",
+     "displayName": "Malinovskyi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42e0a8cf9e1e4cd0a1830d1d7b09f934"
+      },
+      {
+       "type": "goal",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "yellow-card",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::31928c74a5ca45fea7d419b29e526adc",
+     "providerId": "opta:Player:8ncvq09i7or8rxwq9233djtg5",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Caleb Ansah",
+     "lastName": "Ekuban",
+     "shirtName": "Caleb Ekuban",
+     "displayName": "Ekuban",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6a33b5176e6b46da8e921a0e2996a573"
+      },
+      {
+       "type": "goal",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::65bb7b8d02084d858daeba0cff0cc4eb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9cc9a483cb14471f80f9c047e821308d",
+     "providerId": "opta:Player:8psio8fqce76uinoqpilzxsd1",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Stefano",
+     "lastName": "Sabelli",
+     "shirtName": "Stefano Sabelli",
+     "displayName": "Sabelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4f99b059e04c47dc9feb28b23e95f252",
+     "providerId": "opta:Player:8srykssgtk4opuabiet4ahpn8",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Hugo Francisco",
+     "lastName": "Cuenca Martinez",
+     "shirtName": "Hugo Cuenca",
+     "displayName": "Cuenca",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb99aca9c6b5412ea0896a065f126722",
+     "providerId": "kama:Player:17104",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Alin",
+     "lastName": "Kumer Celik",
+     "shirtName": "Alin Kumer Celik",
+     "displayName": "Celik",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2681452588b14a15a9aa5afe6fab05d3",
+     "providerId": "opta:Player:f2pknjv2uohldehbp39j0so2d",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Gnaly Albert Maxwel",
+     "lastName": "Cornet",
+     "shirtName": "Maxwel Cornet",
+     "displayName": "Cornet",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ac9814fb4e4245378d64a972b9fd3199"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e6fa5c6e91694adcb60f8b6d359cf11c",
+     "providerId": "opta:Player:7xdhy2xi9mrhzjn6aiatd9ono",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Patrizio",
+     "lastName": "Masini",
+     "shirtName": "Patrizio Masini",
+     "displayName": "Masini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d676cff54bb6432a8e2880e280dd2fef",
+     "providerId": "opta:Player:8fj38q565gmk7iiy6i4s0idqs",
+     "side": "home",
+     "team": "Genoa",
+     "firstName": "Xheto Joi",
+     "lastName": "Nuredini",
+     "shirtName": "Joi Nuredini",
+     "displayName": "Nuredini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::47c6788b77eb47bf90274613223577a4",
+     "providerId": "opta:Player:4hrmzpx1nt5ze55fpby71mcb9",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Łukasz",
+     "lastName": "Skorupski",
+     "shirtName": "Łukasz Skorupski",
+     "displayName": "Skorupski",
+     "starter": true,
+     "events": [
+      {
+       "type": "red-card",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::313bd55b6a874a0c8657fc0d8b1d0f40",
+     "providerId": "opta:Player:1x10v3yh4e3f1p2ndhtxcck4p",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Casale",
+     "shirtName": "Nicolò Casale",
+     "displayName": "Casale",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::266904423255478690c9b4351f05d4ff",
+     "providerId": "kama:Player:99145",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Torbjørn Lysaker",
+     "lastName": "Heggem",
+     "shirtName": "Torbjørn Heggem",
+     "displayName": "Heggem",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::21a70260eb4045f99d307966ab7ba64e",
+     "providerId": "opta:Player:a2n9op95qyb3rkye5pxqjb7bp",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Charalampos",
+     "lastName": "Lykogiannīs",
+     "shirtName": "Charalampos Lykogiannīs",
+     "displayName": "Lykogiannīs",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf",
+     "providerId": "opta:Player:42m78ny1ggvmzmjtka7exyzqi",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nadir",
+     "lastName": "Zortea",
+     "shirtName": "Nadir Zortea",
+     "displayName": "Zortea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18",
+     "providerId": "opta:Player:bdb6j168crcrwje9k0titxv55",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Lewis",
+     "lastName": "Ferguson",
+     "shirtName": "Lewis Ferguson",
+     "displayName": "L. Ferguson",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 35,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::102e52dc3ff54e2bb5ebcfe902fd0fe5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c",
+     "providerId": "opta:Player:19nlw3sa0khwz0el4wqc7zrp",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Remo",
+     "lastName": "Freuler",
+     "shirtName": "Remo Freuler",
+     "displayName": "Freuler",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::102e52dc3ff54e2bb5ebcfe902fd0fe5",
+     "providerId": "opta:Player:ausjnoieiyx9m37qzam0gqgic",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Benjamin",
+     "lastName": "Dominguez",
+     "shirtName": "Benjamín Domínguez",
+     "displayName": "Domínguez",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::53a4937f0ee0461bafae8598946349a4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5",
+     "providerId": "kama:Player:99257",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jonathan David",
+     "lastName": "Rowe",
+     "shirtName": "Jonathan Rowe",
+     "displayName": "Rowe",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9efa092039cb45689a389ed539961558"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947",
+     "providerId": "opta:Player:1t7nph4960rjzu7rgi47sf8ix",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jens",
+     "lastName": "Odgaard",
+     "shirtName": "Jens Odgaard",
+     "displayName": "Odgaard",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::10a8c9ec69b045a28e64a549c96d655a",
+     "providerId": "opta:Player:5o80hrbyw554cetm1rbbns0k5",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Ciro",
+     "lastName": "Immobile",
+     "shirtName": "Ciro Immobile",
+     "displayName": "Immobile",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::53a4937f0ee0461bafae8598946349a4",
+     "providerId": "opta:Player:9m6yva52cmdq7uu31qrwdrund",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Ravaglia",
+     "shirtName": "Federico Ravaglia",
+     "displayName": "Ravaglia",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::102e52dc3ff54e2bb5ebcfe902fd0fe5"
+      },
+      {
+       "type": "yellow-card",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2709aca071e3476cb9411d5d4c9a0270",
+     "providerId": "opta:Player:1bz1zdxmtx5oxipvukpg7svmc",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Massimo",
+     "lastName": "Pessina",
+     "shirtName": "Massimo Pessina",
+     "displayName": "Pessina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1f41fea8f1b43c2900da19c63c95d52",
+     "providerId": "opta:Player:awf3x41nsz8m73bhte5wlz6ui",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Emil Alfons",
+     "lastName": "Holm",
+     "shirtName": "Emil Holm",
+     "displayName": "Holm",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f378fcb31cec4ca380fe22dafb5469fc",
+     "providerId": "opta:Player:ch5rw8dgb6wh99wyhd8o3t1pl",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Tommaso",
+     "lastName": "Pobega",
+     "shirtName": "Tommaso Pobega",
+     "displayName": "Pobega",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7340c690ce54b1b93423b7300249755",
+     "providerId": "kama:Player:100611",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Eivind Fauske",
+     "lastName": "Helland",
+     "shirtName": "Eivind Fauske Helland",
+     "displayName": "Helland",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187",
+     "providerId": "opta:Player:6eqqtmbg35rg2stk10ic7q8k5",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nikola",
+     "lastName": "Moro",
+     "shirtName": "Nikola Moro",
+     "displayName": "N. Moro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029",
+     "providerId": "opta:Player:1cu7fg8sf90isf9gp21e5fqh",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Riccardo",
+     "lastName": "Orsolini",
+     "shirtName": "Riccardo Orsolini",
+     "displayName": "Orsolini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb",
+     "providerId": "opta:Player:b9clhoz198r69kavhw4anymms",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Santiago Thomas",
+     "lastName": "Castro",
+     "shirtName": "Santiago Castro",
+     "displayName": "Castro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b",
+     "providerId": "emg:Player:BRNFD|opta:Player:6kms3ctf8joymna289onk9lg5",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Bernardeschi",
+     "shirtName": "Federico Bernardeschi",
+     "displayName": "Bernardeschi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::10a8c9ec69b045a28e64a549c96d655a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2",
+     "providerId": "opta:Player:1lnktjxx0mux4beo28cl54j1m",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Thijs Jacco Jan",
+     "lastName": "Dallinga",
+     "shirtName": "Thijs Dallinga",
+     "displayName": "Dallinga",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66",
+     "providerId": "opta:Player:d5m5q6dlc7vnbs634dinbsuwa",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Cambiaghi",
+     "shirtName": "Nicolò Cambiaghi",
+     "displayName": "Cambiaghi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839",
+     "providerId": "opta:Player:3cbwh4pfwae5xw072cy14gb85",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Lorenzo",
+     "lastName": "De Silvestri",
+     "shirtName": "Lorenzo De Silvestri",
+     "displayName": "De Silvestri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9efa092039cb45689a389ed539961558",
+     "providerId": "opta:Player:7m3wseg5lilrkzatyvc2yemay",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Martin",
+     "lastName": "Vitik",
+     "shirtName": "Martin Vitík",
+     "displayName": "Vitík",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:23:28.385Z",
+   "sha256": "2c40ecc5484345ba67970f07de2bc225d8e27c7de7a21ed64f15907977f2c7a1"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:50.506Z",
+   "sha256": "dc217f7998e04891e8e7d7bc7c2a75e25fea7d9e2c1a36a666fd3164f98ba1cc",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Skorupski",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Ravaglia F.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 2,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 1.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 1.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lykogiannis",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zortea",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Casale",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vitik",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Heggem",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Freuler",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Odgaard",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ferguson",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rowe",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Immobile",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dallinga",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dominguez B.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Bijlow",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Martin",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vasquez",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marcandalli",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Norton-Cuffy",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Otoa",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 1,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zatterstrom",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Malinovskyi",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cornet",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Messias",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frendrup",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ellertsson",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Colombo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekuban",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vitinha O.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/22",
+      "estrattoIl": "2026-10-06T08:28:50.506Z"
+     },
+     "squadraRaw": "Genoa",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ekhator",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Genoa 3 - 2 Bologna 25/01/2026 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

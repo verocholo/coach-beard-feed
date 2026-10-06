@@ -1,0 +1,1755 @@
+{
+ "label": "Parma-Bologna (g10)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-11-02T17:00:00Z",
+  "hoursAfterKickoff": 8103.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:31.435Z",
+  "sha256": "bd41fce65766d1f1b6b670bcb91bd4284b0949abab7a580fca3279793a35dedb"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::2269db2b6692427481b01d4a02c2b52c",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-11-02T17:00:00Z",
+   "matchday": 10,
+   "home": "Parma",
+   "away": "Bologna",
+   "homeTeamId": "serie-a::Football_Team::3294993c79b14d918ccdc78da0fb90c5",
+   "awayTeamId": "serie-a::Football_Team::4af71b35aab34ad5a7d06148abe66ad6",
+   "homeScore": 1,
+   "awayScore": 3,
+   "clockTime": 90,
+   "clockAdditionalTime": 7
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::2269db2b6692427481b01d4a02c2b52c",
+   "homeTeam": "Parma",
+   "awayTeam": "Bologna",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::46948dee4bd54172a455ffab38485dbc",
+     "providerId": "opta:Player:2mfunwzltzdnmzlcjyvx752i",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Zion",
+     "lastName": "Suzuki",
+     "shirtName": "Zion Suzuki",
+     "displayName": "Suzuki",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a01dba5f6172497b9d2f35d1cb37d24a",
+     "providerId": "opta:Player:r9rn4eaw3twb224jrpojz0x6",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Enrico",
+     "lastName": "Delprato",
+     "shirtName": "Enrico Delprato",
+     "displayName": "Delprato",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9cf5d7690d324ad2b61516ca923dbc05",
+     "providerId": "opta:Player:c1sj6aogyfpm5wqvhd2bli7e",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Alessandro",
+     "lastName": "Circati",
+     "shirtName": "Alessandro Circati",
+     "displayName": "Circati",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 41,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7aa85c09d04442e0a1ace1a67c01554d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c738f36256404be3830f701e8ee68149",
+     "providerId": "opta:Player:befbveuodyomkhm9ed31kb4a2",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Lautaro Rodrigo",
+     "lastName": "Valenti",
+     "shirtName": "Lautaro Valenti",
+     "displayName": "Valenti",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a16050d0946f41e79f0b72cf539dd4a1",
+     "providerId": "kama:Player:99268",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Sascha",
+     "lastName": "Britschgi",
+     "shirtName": "Sascha Britschgi",
+     "displayName": "Britschgi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::064aed514b584e55a8fcefb1be3db5eb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffb55f8e4e384f1d86a923e70d2629d2",
+     "providerId": "kama:Player:98352",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Christian Nahuel",
+     "lastName": "Ordonez",
+     "shirtName": "Christian Ordóñez",
+     "displayName": "Ordoñez",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 28,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "second-yellow-card",
+       "time": 35,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b",
+     "providerId": "opta:Player:b7l20ljluxk74v0ok82s0iz56",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Adrian",
+     "lastName": "Bernabe' Garcia",
+     "shirtName": "Adrián Bernabé",
+     "displayName": "Bernabé",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 1,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5908e4c64e5a46f1a6c846810586e624"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4b27493789914a909a54f27f57cd3e45",
+     "providerId": "opta:Player:cjf412x9sg56vos0jkj85k3ys",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Lamine Mandela",
+     "lastName": "Keita",
+     "shirtName": "Mandela Keita",
+     "displayName": "Keita",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abcfe9eb7e2a40eaad6b03168cb911bb",
+     "providerId": "opta:Player:1to07m18m7wqroewvyxzrz0lx",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Nahuel",
+     "lastName": "Estevez Alvarez",
+     "shirtName": "Nahuel Estévez",
+     "displayName": "Estévez",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 24,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::18105742a5e94cd9a0d31ac35bc60506"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a",
+     "providerId": "opta:Player:7maur0rp96hubnkuu84576wpg",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mateo",
+     "lastName": "Pellegrino Casalanguida",
+     "shirtName": "Mateo Pellegrino",
+     "displayName": "Pellegrino",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5908e4c64e5a46f1a6c846810586e624",
+     "providerId": "opta:Player:25wawsdczm69ctbpw5nn51kvd",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Adrian Dawid",
+     "lastName": "Benedyczak",
+     "shirtName": "Adrian Benedyczak",
+     "displayName": "Benedyczak",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4919025f871840d199d459a2c636266e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c34da415302b4416a28d463708a8ec16",
+     "providerId": "opta:Player:ais3wh8wz8oeyjpwv84o4ybfu",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Edoardo",
+     "lastName": "Corvi",
+     "shirtName": "Edoardo Corvi",
+     "displayName": "Corvi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d24795262b354d0bb0fb4ab37dae7ced",
+     "providerId": "opta:Player:824rbovqk1q9ta7i4dzo26bmy",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Filippo",
+     "lastName": "Rinaldi",
+     "shirtName": "Filippo Rinaldi",
+     "displayName": "Rinaldi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7aa85c09d04442e0a1ace1a67c01554d",
+     "providerId": "kama:Player:99033",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Abdoulaye Niakhate",
+     "lastName": "Ndiaye",
+     "shirtName": "Abdoulaye Ndiaye",
+     "displayName": "Ndiaye",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 41,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9cf5d7690d324ad2b61516ca923dbc05"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::95113df1d4494b4cbf1e7f378d740782",
+     "providerId": "opta:Player:3m81rmpqzm0j40978dmjig38q",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mathias Johan Fjortoft",
+     "lastName": "Lovik",
+     "shirtName": "Mathias Løvik",
+     "displayName": "Løvik",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37e258380dab45e387ebbc299a2c0182",
+     "providerId": "opta:Player:79pqp9xigjcfe7xggn23m2q22",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Tjas",
+     "lastName": "Begic",
+     "shirtName": "Tjas Begic",
+     "displayName": "Begić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18105742a5e94cd9a0d31ac35bc60506",
+     "providerId": "kama:Player:99071",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Oliver Sørensen",
+     "lastName": "Jensen",
+     "shirtName": "Oliver Sørensen",
+     "displayName": "Sørensen",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 24,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::abcfe9eb7e2a40eaad6b03168cb911bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::064aed514b584e55a8fcefb1be3db5eb",
+     "providerId": "opta:Player:8zke93n0uca6gf2jihqby28d1",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Hernani",
+     "lastName": "Azevedo Júnior",
+     "shirtName": "Hernani",
+     "displayName": "Hernani",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a16050d0946f41e79f0b72cf539dd4a1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::46afafc5e885483e954daa8e73863370",
+     "providerId": "kama:Player:99339",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Benjamin",
+     "lastName": "Cremaschi",
+     "shirtName": "Benjamin Cremaschi",
+     "displayName": "Cremaschi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94",
+     "providerId": "opta:Player:dp1y9x5r6z1q120hj3sgyhxat",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Milan",
+     "lastName": "Djuric",
+     "shirtName": "Milan Djuric",
+     "displayName": "Djuric",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 7,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4919025f871840d199d459a2c636266e",
+     "providerId": "opta:Player:7dnu1vdavskc4ct33k88lpdcl",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Patrick",
+     "lastName": "Cutrone",
+     "shirtName": "Patrick Cutrone",
+     "displayName": "Cutrone",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5908e4c64e5a46f1a6c846810586e624"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::038ef975d5434ce6a293c9497fd6bb65",
+     "providerId": "kama:Player:99291",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mariano Emir",
+     "lastName": "Troilo",
+     "shirtName": "Mariano Troilo",
+     "displayName": "Troilo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2a72c273fe2649519da24e6fef05e666",
+     "providerId": "opta:Player:6rxw2uuw2itwbr90nodrz0x04",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Nicolas",
+     "lastName": "Trabucchi",
+     "shirtName": "Nicolas Trabucchi",
+     "displayName": "Trabucchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::91fbc425931343c98f56acd3d4b54c2b",
+     "providerId": "opta:Player:7ygfxjgn90rx0moga0aorjdhw",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Elia",
+     "lastName": "Plicco",
+     "shirtName": "Elia Plicco",
+     "displayName": "Plicco",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7eff207d23dd4272a35a043e960b5884",
+     "providerId": "kama:Player:1429",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Alessandro",
+     "lastName": "Cardinali",
+     "shirtName": "Alessandro Cardinali",
+     "displayName": "Cardinali",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::10e5b80efd5a4ea9a84ef9929eed57f9",
+     "providerId": "kama:Player:11548",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Alessandro",
+     "lastName": "Ciardi",
+     "shirtName": "Alessandro Ciardi",
+     "displayName": "Ciardi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::47c6788b77eb47bf90274613223577a4",
+     "providerId": "opta:Player:4hrmzpx1nt5ze55fpby71mcb9",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Łukasz",
+     "lastName": "Skorupski",
+     "shirtName": "Łukasz Skorupski",
+     "displayName": "Skorupski",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d1f41fea8f1b43c2900da19c63c95d52",
+     "providerId": "opta:Player:awf3x41nsz8m73bhte5wlz6ui",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Emil Alfons",
+     "lastName": "Holm",
+     "shirtName": "Emil Holm",
+     "displayName": "Holm",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ddf4ceac503b43648e42f966b5fe37b3",
+     "providerId": "opta:Player:3l0mj1zzhytxvm9tryvqv8kix",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jhon Janer",
+     "lastName": "Lucumi' Bonilla",
+     "shirtName": "Jhon Lucumí",
+     "displayName": "Lucumí",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::266904423255478690c9b4351f05d4ff",
+     "providerId": "kama:Player:99145",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Torbjørn Lysaker",
+     "lastName": "Heggem",
+     "shirtName": "Torbjørn Heggem",
+     "displayName": "Heggem",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4cd4bfae3a13463d882e18735047e596",
+     "providerId": "opta:Player:emvmn561wgd62zj0s3qi5j5rd",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Juan",
+     "lastName": "Miranda Gonzalez",
+     "shirtName": "Juan Miranda",
+     "displayName": "Miranda",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c",
+     "providerId": "opta:Player:19nlw3sa0khwz0el4wqc7zrp",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Remo",
+     "lastName": "Freuler",
+     "shirtName": "Remo Freuler",
+     "displayName": "Freuler",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f378fcb31cec4ca380fe22dafb5469fc",
+     "providerId": "opta:Player:ch5rw8dgb6wh99wyhd8o3t1pl",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Tommaso",
+     "lastName": "Pobega",
+     "shirtName": "Tommaso Pobega",
+     "displayName": "Pobega",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029",
+     "providerId": "opta:Player:1cu7fg8sf90isf9gp21e5fqh",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Riccardo",
+     "lastName": "Orsolini",
+     "shirtName": "Riccardo Orsolini",
+     "displayName": "Orsolini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947",
+     "providerId": "opta:Player:1t7nph4960rjzu7rgi47sf8ix",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jens",
+     "lastName": "Odgaard",
+     "shirtName": "Jens Odgaard",
+     "displayName": "Odgaard",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5",
+     "providerId": "kama:Player:99257",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Jonathan David",
+     "lastName": "Rowe",
+     "shirtName": "Jonathan Rowe",
+     "displayName": "Rowe",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb",
+     "providerId": "opta:Player:b9clhoz198r69kavhw4anymms",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Santiago Thomas",
+     "lastName": "Castro",
+     "shirtName": "Santiago Castro",
+     "displayName": "Castro",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 17,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d1f41fea8f1b43c2900da19c63c95d52"
+      },
+      {
+       "type": "yellow-card",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "goal",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::53a4937f0ee0461bafae8598946349a4",
+     "providerId": "opta:Player:9m6yva52cmdq7uu31qrwdrund",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Ravaglia",
+     "shirtName": "Federico Ravaglia",
+     "displayName": "Ravaglia",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2709aca071e3476cb9411d5d4c9a0270",
+     "providerId": "opta:Player:1bz1zdxmtx5oxipvukpg7svmc",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Massimo",
+     "lastName": "Pessina",
+     "shirtName": "Massimo Pessina",
+     "displayName": "Pessina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187",
+     "providerId": "opta:Player:6eqqtmbg35rg2stk10ic7q8k5",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nikola",
+     "lastName": "Moro",
+     "shirtName": "Nikola Moro",
+     "displayName": "N. Moro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1262e5f3a1ca4e75af84a4332deb022c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b",
+     "providerId": "emg:Player:BRNFD|opta:Player:6kms3ctf8joymna289onk9lg5",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Bernardeschi",
+     "shirtName": "Federico Bernardeschi",
+     "displayName": "Bernardeschi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::786e682f8b01402d891dbc2e4f7f1029"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::313bd55b6a874a0c8657fc0d8b1d0f40",
+     "providerId": "opta:Player:1x10v3yh4e3f1p2ndhtxcck4p",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Casale",
+     "shirtName": "Nicolò Casale",
+     "displayName": "Casale",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18",
+     "providerId": "opta:Player:bdb6j168crcrwje9k0titxv55",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Lewis",
+     "lastName": "Ferguson",
+     "shirtName": "Lewis Ferguson",
+     "displayName": "L. Ferguson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf",
+     "providerId": "opta:Player:42m78ny1ggvmzmjtka7exyzqi",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nadir",
+     "lastName": "Zortea",
+     "shirtName": "Nadir Zortea",
+     "displayName": "Zortea",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::21a70260eb4045f99d307966ab7ba64e",
+     "providerId": "opta:Player:a2n9op95qyb3rkye5pxqjb7bp",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Charalampos",
+     "lastName": "Lykogiannīs",
+     "shirtName": "Charalampos Lykogiannīs",
+     "displayName": "Lykogiannīs",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a9e0c15dbfac48eb94ade8f2fb63d9c2",
+     "providerId": "opta:Player:1lnktjxx0mux4beo28cl54j1m",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Thijs Jacco Jan",
+     "lastName": "Dallinga",
+     "shirtName": "Thijs Dallinga",
+     "displayName": "Dallinga",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0a8fb4004fde4b7db4013195ae73d9bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66",
+     "providerId": "opta:Player:d5m5q6dlc7vnbs634dinbsuwa",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Cambiaghi",
+     "shirtName": "Nicolò Cambiaghi",
+     "displayName": "Cambiaghi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fad024ef7e104125941e4653ec6d73a5"
+      },
+      {
+       "type": "yellow-card",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839",
+     "providerId": "opta:Player:3cbwh4pfwae5xw072cy14gb85",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Lorenzo",
+     "lastName": "De Silvestri",
+     "shirtName": "Lorenzo De Silvestri",
+     "displayName": "De Silvestri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::102e52dc3ff54e2bb5ebcfe902fd0fe5",
+     "providerId": "opta:Player:ausjnoieiyx9m37qzam0gqgic",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Benjamin",
+     "lastName": "Dominguez",
+     "shirtName": "Benjamín Domínguez",
+     "displayName": "Domínguez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9efa092039cb45689a389ed539961558",
+     "providerId": "opta:Player:7m3wseg5lilrkzatyvc2yemay",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Martin",
+     "lastName": "Vitik",
+     "shirtName": "Martin Vitík",
+     "displayName": "Vitík",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f8c979a577bb48de98f28b17c281a9e1",
+     "providerId": "opta:Player:8kdamc6zz4bskby51c59uuntg",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Ibrahim Sulemana",
+     "lastName": "Kakari",
+     "shirtName": "Ibrahim Sulemana",
+     "displayName": "I. Sulemana",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15",
+     "providerId": "opta:Player:4j3d7ujmhevsi0y3zvs34i13o",
+     "side": "away",
+     "team": "Bologna",
+     "firstName": "Giovanni",
+     "lastName": "Fabbian",
+     "shirtName": "Giovanni Fabbian",
+     "displayName": "Fabbian",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:19:54.158Z",
+   "sha256": "a39d706078c389c0c2dfe1077f8cc59bbecf06323259cbca0a97232a75daf686"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:31.435Z",
+   "sha256": "bd41fce65766d1f1b6b670bcb91bd4284b0949abab7a580fca3279793a35dedb",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Skorupski",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Miranda J.",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Holm",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lucumì",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Heggem",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernardeschi",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Freuler",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Orsolini",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Odgaard",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pobega",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Moro N.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fabbian",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rowe",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cambiaghi",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Castro S.",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 13.5,
+     "votoItalia": 8,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dallinga",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Suzuki",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 3,
+     "votoItalia": 6,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valenti",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Circati",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Delprato",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ndiaye",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Britschgi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Hernani",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Estevez",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernabè",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Keita M.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ordonez C.",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 3,
+     "votoItalia": 4,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sorensen O.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cutrone",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Djuric",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Benedyczak",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/10",
+      "estrattoIl": "2026-10-06T08:28:31.435Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pellegrino M.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 1 - 3 Bologna 02/11/2025 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

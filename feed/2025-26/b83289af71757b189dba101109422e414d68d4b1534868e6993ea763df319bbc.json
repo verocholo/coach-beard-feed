@@ -1,0 +1,1690 @@
+{
+ "label": "Roma-Inter (g7)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-10-18T18:45:00Z",
+  "hoursAfterKickoff": 8461.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:26.745Z",
+  "sha256": "fb35b7a5c64e5e480450647043eef30107f5e80206627970b1d810b797519b54"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::696b5ab248834e7ab360ed6c65ac53bc",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-10-18T18:45:00Z",
+   "matchday": 7,
+   "home": "Roma",
+   "away": "Inter",
+   "homeTeamId": "serie-a::Football_Team::8ddc09c1aa73448da2dff953edd95d82",
+   "awayTeamId": "serie-a::Football_Team::b7421caff23448c49134fa4f9095ee09",
+   "homeScore": 0,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::696b5ab248834e7ab360ed6c65ac53bc",
+   "homeTeam": "Roma",
+   "awayTeam": "Inter",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::942bc68934354b26a012b1d689290a82",
+     "providerId": "opta:Player:el58uxf7oaqu95yx1vbgmr7it",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Mile",
+     "lastName": "Svilar",
+     "shirtName": "Mile Svilar",
+     "displayName": "Svilar",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdfeb421bf10427ba410d9db7f5f3b00",
+     "providerId": "opta:Player:6fttn5mk6n1lstqt0dl5xzn4l",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Gianluca",
+     "lastName": "Mancini",
+     "shirtName": "Gianluca Mancini",
+     "displayName": "Mancini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1fc7bb7eab2545dd8f5952b20f425090",
+     "providerId": "opta:Player:efzokrggje7s9wc6hg75yc6ax",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Obite Evan",
+     "lastName": "Ndicka",
+     "shirtName": "Evan Ndicka",
+     "displayName": "Ndicka",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 40,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fbce9cf442fc4904b29a5cf7ab502671"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5d7b25a2706e4e2588ae53883dc5743a",
+     "providerId": "kama:Player:98927",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Wesley Vinícius",
+     "lastName": "França Lima",
+     "shirtName": "Wesley França",
+     "displayName": "Wesley",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2b1d1cbe09fb4920a8b207afa4ece31d",
+     "providerId": "opta:Player:1pkymw7biivk760rxhubin1ed",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Mehmet Zeki",
+     "lastName": "Çelik",
+     "shirtName": "Zeki Çelik",
+     "displayName": "Çelik",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::72d8637dba5842c2a7f8e74dd686ea81",
+     "providerId": "opta:Player:am5gj5qg3gjtyhvwfnj8sjz6d",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Mario",
+     "lastName": "Hermoso Canseco",
+     "shirtName": "Mario Hermoso",
+     "displayName": "Hermoso",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::714daf0fa4e947b3891bfec1a3d5d2f0",
+     "providerId": "opta:Player:au5tbnn48ve4kqnuu3dhmk296",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Kouadio Emmanuel Boris",
+     "lastName": "Kone",
+     "shirtName": "Manu Koné",
+     "displayName": "M. Koné",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::11d045f4b49645158b2773f6fc7d6941",
+     "providerId": "opta:Player:1ftejgsl4hho40cceqne1hcyd",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Bryan",
+     "lastName": "Cristante",
+     "shirtName": "Bryan Cristante",
+     "displayName": "Cristante",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27",
+     "providerId": "opta:Player:57bin6he6kbdo2bs4i78z2k0l",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Lorenzo",
+     "lastName": "Pellegrini",
+     "shirtName": "Lorenzo Pellegrini",
+     "displayName": "Lo. Pellegrini",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a8d5e937e3da4cf8889676f7969eba2f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ce4b4184d61f402698ac6c9e954d2b31",
+     "providerId": "opta:Player:93i0gcndi2m8giqqcm4knduxh",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Paulo Exequiel",
+     "lastName": "Dybala",
+     "shirtName": "Paulo Dybala",
+     "displayName": "Dybala",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ccc6e90f72f94ea596fd7fc4016f3780"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::467662b231094f4da83cf422a3817132",
+     "providerId": "opta:Player:erwh25hbq259kqdirfufnbcb8",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Matìas",
+     "lastName": "Soule Malvano",
+     "shirtName": "Matías Soulé",
+     "displayName": "Soulé",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1d147e7b7c404cb69f70ad364b7f37e7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::410303ba6eb74fcb882fc6aca990c956",
+     "providerId": "opta:Player:fb1s5est3fuw1flrjl9isusp",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Devis Estiven",
+     "lastName": "Vasquez Llach",
+     "shirtName": "D. Vasquez",
+     "displayName": "D. Vásquez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fd3f2ae64bbe4ea587ce10b218dbf183",
+     "providerId": "opta:Player:u60zu48a4zqnupyxp2d0mqqd",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Pierluigi",
+     "lastName": "Gollini",
+     "shirtName": "Pierluigi Gollini",
+     "displayName": "Gollini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de8f21b9c48a4e65a6512adc921ab464",
+     "providerId": "opta:Player:6sg2ot7z9kfyrlgjkmpqvejqi",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Devyne Fabian Jairo",
+     "lastName": "Rensch",
+     "shirtName": "Devyne Rensch",
+     "displayName": "Rensch",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::94b5996c9ec24946ae05d2641c817768",
+     "providerId": "kama:Player:98410",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Neil Yoni",
+     "lastName": "El Aynaoui",
+     "shirtName": "Neil El Aynaoui",
+     "displayName": "El  Aynaoui",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a8d5e937e3da4cf8889676f7969eba2f",
+     "providerId": "opta:Player:192q3f2xwk9nc6juoa1bcm3th",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Artem",
+     "lastName": "Dovbyk",
+     "shirtName": "Artem Dovbyk",
+     "displayName": "Dovbyk",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8bc6af4f20cd4291a499a69648eeee27"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1d147e7b7c404cb69f70ad364b7f37e7",
+     "providerId": "kama:Player:98450",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Evan Joe",
+     "lastName": "Ferguson",
+     "shirtName": "Evan Ferguson",
+     "displayName": "E. Ferguson",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::467662b231094f4da83cf422a3817132"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::65166edd2aba48758561ddd0758a6e03",
+     "providerId": "kama:Player:99335",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Konstantinos",
+     "lastName": "Tsimikas",
+     "shirtName": "Konstantinos Tsimikas",
+     "displayName": "Tsimikas",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fbce9cf442fc4904b29a5cf7ab502671",
+     "providerId": "kama:Player:99329",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Jan Stanislaw",
+     "lastName": "Ziółkowski",
+     "shirtName": "Jan Ziółkowski",
+     "displayName": "Ziółkowski",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 55,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1fc7bb7eab2545dd8f5952b20f425090"
+      },
+      {
+       "type": "yellow-card",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ccc6e90f72f94ea596fd7fc4016f3780",
+     "providerId": "kama:Player:99183",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Leon Patrick",
+     "lastName": "Bailey",
+     "shirtName": "Leon Bailey",
+     "displayName": "Bailey",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ce4b4184d61f402698ac6c9e954d2b31"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eaf2a55cb14e4570bea06ef18413a8ab",
+     "providerId": "opta:Player:bk1gdyxtfp4drwb0yotwerbsa",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Tommaso",
+     "lastName": "Baldanzi",
+     "shirtName": "Tommaso Baldanzi",
+     "displayName": "Baldanzi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::72d8637dba5842c2a7f8e74dd686ea81"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 5,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a24d76c06d864fe9978e6b195041c291",
+     "providerId": "opta:Player:5kktohikuoy0a1oagcgps8mxg",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Niccolò",
+     "lastName": "Pisilli",
+     "shirtName": "Niccolò Pisilli",
+     "displayName": "Pisilli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5538dce5c4f84ec490c5a25931bb5634",
+     "providerId": "opta:Player:anzk8a183bh3gf3gcuz0v0tuc",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Aboubacar",
+     "lastName": "Sangare Traore",
+     "shirtName": "Buba Sangaré",
+     "displayName": "Sangaré",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50b9b8de45a04dd4852d3d6b0c1d183b",
+     "providerId": "opta:Player:n92xjnlc1ppuxe70hsyc0mj8",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Daniele",
+     "lastName": "Ghilardi",
+     "shirtName": "Daniele Ghilardi",
+     "displayName": "Ghilardi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f6daea66ff8d4d14b3aaae0bc244c7f0",
+     "providerId": "opta:Player:a1iz91ed6hus61yhhk2r0vkd1",
+     "side": "home",
+     "team": "Roma",
+     "firstName": "Stephan",
+     "lastName": "El Shaarawy",
+     "shirtName": "Stephan El Shaarawy",
+     "displayName": "El Shaarawy",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ba1d8d07dbc54e05b7cecd5ab3c32a42",
+     "providerId": "opta:Player:bagn0ce4xunsiz3mezrtqx1p1",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Yann",
+     "lastName": "Sommer",
+     "shirtName": "Yann Sommer",
+     "displayName": "Sommer",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cd9e41c44ff14e98b2b9be8ad250dcd9",
+     "providerId": "kama:Player:99389",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Manuel",
+     "lastName": "Akanji",
+     "shirtName": "Manuel Akanji",
+     "displayName": "Akanji",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::77b61833f0db49729ebf0ad5342a5ba8",
+     "providerId": "opta:Player:q6ns1fyw7w10xkkubh8etfc9",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Alessandro",
+     "lastName": "Bastoni",
+     "shirtName": "Alessandro Bastoni",
+     "displayName": "Bastoni",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a1e304c34ebf44589678766c2c0ba08d",
+     "providerId": "opta:Player:ujb2hkujcnwnyrbsgk3ilmtx",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Francesco",
+     "lastName": "Acerbi",
+     "shirtName": "Francesco Acerbi",
+     "displayName": "Acerbi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4da6f1068d1444eafe0a0d5e775aa42",
+     "providerId": "opta:Player:ahgd3on22t4h7gg9ipnj1itw5",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Nicolò",
+     "lastName": "Barella",
+     "shirtName": "Nicolò Barella",
+     "displayName": "Barella",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f0a9b20016914b8691db2fc83568fe0b",
+     "providerId": "opta:Player:botfgp0oq4wqlwtcs9m90kded",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Hakan",
+     "lastName": "Calhanoglu",
+     "shirtName": "Hakan Çalhanoglu",
+     "displayName": "Çalhanoğlu",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8568cd16882848deab08aaae90e8a2c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7f9fb5ddcf02430eacad4a1092bc6850",
+     "providerId": "opta:Player:2r6hs8npijvt4wekd059t6tx",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Denzel Justus Morris",
+     "lastName": "Dumfries",
+     "shirtName": "Denzel Dumfries",
+     "displayName": "Dumfries",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ac04e2006b104030909b682c7db38853",
+     "providerId": "opta:Player:1xscywgyfqisqexmpfvbf9g45",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Henrikh",
+     "lastName": "Mkhitaryan",
+     "shirtName": "Henrikh Mkhitaryan",
+     "displayName": "Mkhitaryan",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::07b9aa070bab4074bcd41776db3c7c8d",
+     "providerId": "opta:Player:19856wqwrmzmvfw9thf0tzrv9",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Federico",
+     "lastName": "Dimarco",
+     "shirtName": "Federico Dimarco",
+     "displayName": "Dimarco",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f7e0ecad1aa04f53959bd22f68cfbf70"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1b183c6c48ae4d08b1cec88dfe4641c6",
+     "providerId": "opta:Player:7r2tgpdrr4v6n9d2gkzwmlazt",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Lautaro Javier",
+     "lastName": "Martinez",
+     "shirtName": "Lautaro Martínez",
+     "displayName": "L. Martínez",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 4,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8499dfc3c937488ebcd3b256ba01263f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9037ff0e7e834729838dceb4b44250bf",
+     "providerId": "opta:Player:ejbp3sxls7lgrg6y3a9q4u978",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Ange-Yoan Laure",
+     "lastName": "Bonny",
+     "shirtName": "Ange-Yoan Bonny",
+     "displayName": "Bonny",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 6,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4da6f1068d1444eafe0a0d5e775aa42"
+      },
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d8f199c7790c48b79e1706b1535a0704"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5bc6e2f303c14386be2919d9d3c6c0a1",
+     "providerId": "opta:Player:3yqxkw0tqpoucur51ieh9xdrd",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Josep",
+     "lastName": "Martinez Riera",
+     "shirtName": "Josep Martínez",
+     "displayName": "J. Martínez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7a302d8b81eb4db0be865ec4611f5377",
+     "providerId": "opta:Player:2ymde9vw7jtox06b3qp2dtus4",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Alessandro",
+     "lastName": "Calligaris",
+     "shirtName": "Alessandro Calligaris",
+     "displayName": "Calligaris",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1aef084aff6c49578d08fcd0a4d1ad85",
+     "providerId": "opta:Player:by2gxuixij1eciu56k8mb3cgl",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Stefan",
+     "lastName": "De Vrij",
+     "shirtName": "Stefan de Vrij",
+     "displayName": "de Vrij",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3",
+     "providerId": "opta:Player:dpcws493fepch23sk26m1a8yd",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Piotr Sebastian",
+     "lastName": "Zielinski",
+     "shirtName": "Piotr Zieliński",
+     "displayName": "Zieliński",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4da6f1068d1444eafe0a0d5e775aa42"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d8f199c7790c48b79e1706b1535a0704",
+     "providerId": "opta:Player:6u7iuum6kqfwb4pbw5lsoff56",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Petar",
+     "lastName": "Sučić",
+     "shirtName": "Petar Sučić",
+     "displayName": "Sučić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9037ff0e7e834729838dceb4b44250bf"
+      },
+      {
+       "type": "yellow-card",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5ae8256e5ca241d8989a52214266c640",
+     "providerId": "opta:Player:7rfw6pyjslb3p5q7gmoj1ysmi",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Luis Henrique",
+     "lastName": "Tomaz De Lima",
+     "shirtName": "Luis Henrique",
+     "displayName": "Luis Henrique",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8568cd16882848deab08aaae90e8a2c2",
+     "providerId": "opta:Player:4qejyummzkrfllds8ord642qx",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Davide",
+     "lastName": "Frattesi",
+     "shirtName": "Davide Frattesi",
+     "displayName": "Frattesi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f0a9b20016914b8691db2fc83568fe0b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::131c52b96557488498ca630e1e1ecbb0",
+     "providerId": "kama:Player:99199",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Andy",
+     "lastName": "Diouf",
+     "shirtName": "Andy Diouf",
+     "displayName": "Diouf",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f7e0ecad1aa04f53959bd22f68cfbf70",
+     "providerId": "opta:Player:4d17grk2qflzake218uz76uei",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Carlos Augusto",
+     "lastName": "Zopolato Neves",
+     "shirtName": "Carlos Augusto",
+     "displayName": "Carlos Augusto",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::07b9aa070bab4074bcd41776db3c7c8d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4b050d8d189243d8acf6f32df3e5e74a",
+     "providerId": "opta:Player:280fh7f5q9lud8lk8reyu7fxm",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Yann Aurel",
+     "lastName": "Bisseck",
+     "shirtName": "Yann Bisseck",
+     "displayName": "Bisseck",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37d9d1bf8ca742ab83df8848cfcfea03",
+     "providerId": "opta:Player:b9ow6berfpggxkj6crdei9q1g",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Tiago Tomas",
+     "lastName": "Palacios",
+     "shirtName": "Tomás Palacios",
+     "displayName": "Palacios",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8499dfc3c937488ebcd3b256ba01263f",
+     "providerId": "opta:Player:1v6nfd46wx11jbfertslccbo4",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Francesco Pio",
+     "lastName": "Esposito",
+     "shirtName": "Francesco Pio Esposito",
+     "displayName": "P. Esposito",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1b183c6c48ae4d08b1cec88dfe4641c6"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:18:58.167Z",
+   "sha256": "a1329685f5bb608b0fb129749a2840898fdad2aa5277ffd90e4faa55843d6eab"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:26.745Z",
+   "sha256": "fb35b7a5c64e5e480450647043eef30107f5e80206627970b1d810b797519b54",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Sommer",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dimarco",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Acerbi",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bastoni",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Akanji",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dumfries",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Carlos Augusto",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zielinski",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Barella",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Calhanoglu",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mkhitaryan",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Frattesi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sucic P.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Martinez L.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bonny",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Esposito F.P.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Svilar",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mancini",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "N'Dicka",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Celik",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hermoso",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Wesley",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ziolkowski",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pellegrini Lo.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cristante",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bailey",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Konè M.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baldanzi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dybala",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Soulè",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ferguson E.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/7",
+      "estrattoIl": "2026-10-06T08:28:26.745Z"
+     },
+     "squadraRaw": "Roma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dovbyk",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Roma 0 - 1 Inter 18/10/2025 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

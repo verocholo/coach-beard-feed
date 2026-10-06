@@ -1,0 +1,1657 @@
+{
+ "label": "Parma-Torino (g5)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-09-29T16:30:00Z",
+  "hoursAfterKickoff": 8919.783666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:23.570Z",
+  "sha256": "c0b8713a7df3b7735f096f523e188d8fa9ca3f8b7ee2d877bba3a8ce8a5ba565"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::ba3f5dc1e08d4406b64f1c3e0ea3fa47",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-09-29T16:30:00Z",
+   "matchday": 5,
+   "home": "Parma",
+   "away": "Torino",
+   "homeTeamId": "serie-a::Football_Team::3294993c79b14d918ccdc78da0fb90c5",
+   "awayTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "homeScore": 2,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::ba3f5dc1e08d4406b64f1c3e0ea3fa47",
+   "homeTeam": "Parma",
+   "awayTeam": "Torino",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::46948dee4bd54172a455ffab38485dbc",
+     "providerId": "opta:Player:2mfunwzltzdnmzlcjyvx752i",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Zion",
+     "lastName": "Suzuki",
+     "shirtName": "Zion Suzuki",
+     "displayName": "Suzuki",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7aa85c09d04442e0a1ace1a67c01554d",
+     "providerId": "kama:Player:99033",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Abdoulaye Niakhate",
+     "lastName": "Ndiaye",
+     "shirtName": "Abdoulaye Ndiaye",
+     "displayName": "Ndiaye",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 16,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a16050d0946f41e79f0b72cf539dd4a1",
+     "providerId": "kama:Player:99268",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Sascha",
+     "lastName": "Britschgi",
+     "shirtName": "Sascha Britschgi",
+     "displayName": "Britschgi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9cf5d7690d324ad2b61516ca923dbc05",
+     "providerId": "opta:Player:c1sj6aogyfpm5wqvhd2bli7e",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Alessandro",
+     "lastName": "Circati",
+     "shirtName": "Alessandro Circati",
+     "displayName": "Circati",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d58bdcc9557641d3868baea58a37bdf3",
+     "providerId": "opta:Player:d9bg5jjv8pz0f8u55x3hg0962",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Emanuele",
+     "lastName": "Valeri",
+     "shirtName": "Emanuele Valeri",
+     "displayName": "Valeri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a01dba5f6172497b9d2f35d1cb37d24a",
+     "providerId": "opta:Player:r9rn4eaw3twb224jrpojz0x6",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Enrico",
+     "lastName": "Delprato",
+     "shirtName": "Enrico Delprato",
+     "displayName": "Delprato",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b",
+     "providerId": "opta:Player:b7l20ljluxk74v0ok82s0iz56",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Adrian",
+     "lastName": "Bernabe' Garcia",
+     "shirtName": "Adrián Bernabé",
+     "displayName": "Bernabé",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::abcfe9eb7e2a40eaad6b03168cb911bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4b27493789914a909a54f27f57cd3e45",
+     "providerId": "opta:Player:cjf412x9sg56vos0jkj85k3ys",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Lamine Mandela",
+     "lastName": "Keita",
+     "shirtName": "Mandela Keita",
+     "displayName": "Keita",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cfeb1d0545a64b06bee7773550f7198c",
+     "providerId": "opta:Player:3kbhgmnf6bhfgut0jxf4m2sfe",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Gaetano Pio",
+     "lastName": "Oristanio",
+     "shirtName": "Gaetano Oristanio",
+     "displayName": "Oristanio",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5908e4c64e5a46f1a6c846810586e624"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4919025f871840d199d459a2c636266e",
+     "providerId": "opta:Player:7dnu1vdavskc4ct33k88lpdcl",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Patrick",
+     "lastName": "Cutrone",
+     "shirtName": "Patrick Cutrone",
+     "displayName": "Cutrone",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::18105742a5e94cd9a0d31ac35bc60506"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a",
+     "providerId": "opta:Player:7maur0rp96hubnkuu84576wpg",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mateo",
+     "lastName": "Pellegrino Casalanguida",
+     "shirtName": "Mateo Pellegrino",
+     "displayName": "Pellegrino",
+     "starter": true,
+     "events": [
+      {
+       "type": "penalty-goal",
+       "time": 36,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "yellow-card",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "goal",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d58bdcc9557641d3868baea58a37bdf3"
+      },
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c34da415302b4416a28d463708a8ec16",
+     "providerId": "opta:Player:ais3wh8wz8oeyjpwv84o4ybfu",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Edoardo",
+     "lastName": "Corvi",
+     "shirtName": "Edoardo Corvi",
+     "displayName": "Corvi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d24795262b354d0bb0fb4ab37dae7ced",
+     "providerId": "opta:Player:824rbovqk1q9ta7i4dzo26bmy",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Filippo",
+     "lastName": "Rinaldi",
+     "shirtName": "Filippo Rinaldi",
+     "displayName": "Rinaldi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5908e4c64e5a46f1a6c846810586e624",
+     "providerId": "opta:Player:25wawsdczm69ctbpw5nn51kvd",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Adrian Dawid",
+     "lastName": "Benedyczak",
+     "shirtName": "Adrian Benedyczak",
+     "displayName": "Benedyczak",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cfeb1d0545a64b06bee7773550f7198c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::abcfe9eb7e2a40eaad6b03168cb911bb",
+     "providerId": "opta:Player:1to07m18m7wqroewvyxzrz0lx",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Nahuel",
+     "lastName": "Estevez Alvarez",
+     "shirtName": "Nahuel Estévez",
+     "displayName": "Estévez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bfe627dce98446ed9ce53fa9afaf479b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50da604b3a694f0581a2066168c2988b",
+     "providerId": "opta:Player:21bdtv9f28xkfmo2dy3uk7bah",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Pontus Skule Erik",
+     "lastName": "Almqvist",
+     "shirtName": "Pontus Almqvist",
+     "displayName": "Almqvist",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::95113df1d4494b4cbf1e7f378d740782",
+     "providerId": "opta:Player:3m81rmpqzm0j40978dmjig38q",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mathias Johan Fjortoft",
+     "lastName": "Lovik",
+     "shirtName": "Mathias Løvik",
+     "displayName": "Løvik",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37e258380dab45e387ebbc299a2c0182",
+     "providerId": "opta:Player:79pqp9xigjcfe7xggn23m2q22",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Tjas",
+     "lastName": "Begic",
+     "shirtName": "Tjas Begic",
+     "displayName": "Begić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18105742a5e94cd9a0d31ac35bc60506",
+     "providerId": "kama:Player:99071",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Oliver Sørensen",
+     "lastName": "Jensen",
+     "shirtName": "Oliver Sørensen",
+     "displayName": "Sørensen",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4919025f871840d199d459a2c636266e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffb55f8e4e384f1d86a923e70d2629d2",
+     "providerId": "kama:Player:98352",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Christian Nahuel",
+     "lastName": "Ordonez",
+     "shirtName": "Christian Ordóñez",
+     "displayName": "Ordoñez",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::79e8e49205aa488b8f48057e10ae5f94",
+     "providerId": "opta:Player:dp1y9x5r6z1q120hj3sgyhxat",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Milan",
+     "lastName": "Djuric",
+     "shirtName": "Milan Djuric",
+     "displayName": "Djuric",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::038ef975d5434ce6a293c9497fd6bb65",
+     "providerId": "kama:Player:99291",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Mariano Emir",
+     "lastName": "Troilo",
+     "shirtName": "Mariano Troilo",
+     "displayName": "Troilo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2a72c273fe2649519da24e6fef05e666",
+     "providerId": "opta:Player:6rxw2uuw2itwbr90nodrz0x04",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Nicolas",
+     "lastName": "Trabucchi",
+     "shirtName": "Nicolas Trabucchi",
+     "displayName": "Trabucchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::91fbc425931343c98f56acd3d4b54c2b",
+     "providerId": "opta:Player:7ygfxjgn90rx0moga0aorjdhw",
+     "side": "home",
+     "team": "Parma",
+     "firstName": "Elia",
+     "lastName": "Plicco",
+     "shirtName": "Elia Plicco",
+     "displayName": "Plicco",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1521324d10634da1bdf493649696124d",
+     "providerId": "opta:Player:cuc7gtr9q0465wxmzgq834ag9",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Franco",
+     "lastName": "Israel Wibmer",
+     "shirtName": "Franco Israel",
+     "displayName": "Israel",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4672592c583246358f920921b38f10ca",
+     "providerId": "kama:Player:99338",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Niels Patrick",
+     "lastName": "Nkounkou",
+     "shirtName": "Niels Patrick Nkounkou",
+     "displayName": "Nkounkou",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::deaa04c0b01942838b061bf8acc34282",
+     "providerId": "opta:Player:54mmovmx3osoxgbloe9rzmx9l",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Ardian",
+     "lastName": "Ismajli",
+     "shirtName": "Ardian Ismajli",
+     "displayName": "Ismajli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600",
+     "providerId": "opta:Player:270djbc9lxhoupmd1djrii191",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Guillermo Alfonso",
+     "lastName": "Maripan Loayza",
+     "shirtName": "Guillermo Maripán",
+     "displayName": "Maripán",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e01f727bb7304efea37d2cc9fc152812",
+     "providerId": "opta:Player:7vykym3hy0qf1rxw3yv58kxgq",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Saul Basilio",
+     "lastName": "Coco Bassey Oubina",
+     "shirtName": "Saúl Coco",
+     "displayName": "Coco",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1",
+     "providerId": "opta:Player:866f0f7taqhae91o3cjnnx0ph",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Valentino",
+     "lastName": "Lazaro",
+     "shirtName": "Valentino Lazaro",
+     "displayName": "Lazaro",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a",
+     "providerId": "opta:Player:ebgkv548xih19m8uza7bgrvmd",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Nikola",
+     "lastName": "Vlašić",
+     "shirtName": "Nikola Vlašić",
+     "displayName": "Vlašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0250707b586045f087776dea4ea39f51"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd",
+     "providerId": "opta:Player:82pgcsfvbitzlpbao9ptbsgoa",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Cesare",
+     "lastName": "Casadei",
+     "shirtName": "Cesare Casadei",
+     "displayName": "Casadei",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::29030faa6a7a411f935e176b7c681ef7",
+     "providerId": "opta:Player:can2l9ha4ufsxdjxdkb739fkk",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Kristjan",
+     "lastName": "Asllani",
+     "shirtName": "Kristjan Asllani",
+     "displayName": "Asllani",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c",
+     "providerId": "opta:Player:cp13vthbds3tl1wtfelfx2evp",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Giovanni Pablo",
+     "lastName": "Simeone Baldini",
+     "shirtName": "Giovanni Simeone",
+     "displayName": "Simeone",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb",
+     "providerId": "opta:Player:a9z0jsjwfteq974bxwucvc4ix",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Cyril Jean",
+     "lastName": "Ngonge",
+     "shirtName": "Cyril Ngonge",
+     "displayName": "Ngonge",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 30,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "goal",
+       "time": 50,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e01f727bb7304efea37d2cc9fc152812"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0cc5d45eeae84da4b2c8d3335f629006",
+     "providerId": "opta:Player:a8s8bl5kp1rif458yt3qlevo5",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Alberto Andrea",
+     "lastName": "Paleari",
+     "shirtName": "Alberto Paleari",
+     "displayName": "Paleari",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1396abd02b8946108f41e65ecdd990cf",
+     "providerId": "opta:Player:b1jyt86vbfyektviyeiqtl562",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Maximilian Mihai",
+     "lastName": "Popa",
+     "shirtName": "Mihai Popa",
+     "displayName": "Popa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21",
+     "providerId": "opta:Player:6gzi8qf8szxn99dnwh3h6gkb9",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Adam",
+     "lastName": "Masina",
+     "shirtName": "Adam Masina",
+     "displayName": "Masina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429",
+     "providerId": "opta:Player:8vom3bt6es2kp5sdl98az6gwk",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Emirhan",
+     "lastName": "Ilkhan",
+     "shirtName": "Emirhan Ilkhan",
+     "displayName": "İlkhan",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0250707b586045f087776dea4ea39f51",
+     "providerId": "kama:Player:98848",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Zakaria",
+     "lastName": "Aboukhlal",
+     "shirtName": "Zakaria Aboukhlal",
+     "displayName": "Aboukhlal",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81",
+     "providerId": "opta:Player:59ujnkvl7rlffomi2bqpsmbpx",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Che Zach Everton",
+     "lastName": "Adams",
+     "shirtName": "Ché Adams",
+     "displayName": "C. Adams",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::deaa04c0b01942838b061bf8acc34282"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9de4e3f19b5e489b9f8eec96d7532148",
+     "providerId": "opta:Player:eug1as582cl6ji78ylyq4zfo4",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Ali Bina",
+     "lastName": "Dembelé",
+     "shirtName": "Ali Dembélé",
+     "displayName": "Dembélé",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737",
+     "providerId": "opta:Player:66at96kfhvigkny465lkmrnbp",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Cristiano",
+     "lastName": "Biraghi",
+     "shirtName": "Cristiano Biraghi",
+     "displayName": "Biraghi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4672592c583246358f920921b38f10ca"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd",
+     "providerId": "opta:Player:9sjt5rv156hr2llfu241r6cph",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Adrien Fidele",
+     "lastName": "Tameze Aoutsa",
+     "shirtName": "Adrien Tamèze",
+     "displayName": "Tameze",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::29030faa6a7a411f935e176b7c681ef7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fa8793423f574374b968c141faabf725",
+     "providerId": "opta:Player:30gsjr0xlmjulnz227zfxga8l",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Duvan Esteban",
+     "lastName": "Zapata Banguero",
+     "shirtName": "Duván Zapata",
+     "displayName": "Zapata",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3",
+     "providerId": "opta:Player:9hl7yh42qvmdcjw69si5imnf8",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Alieu Badara",
+     "lastName": "Njie",
+     "shirtName": "Alieu Njie",
+     "displayName": "Njie",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:18:32.722Z",
+   "sha256": "23a9ced60e3a6aabfcca62a6455cadfb12af181ee2bf1e574ff72abf653e8ea7"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:23.570Z",
+   "sha256": "c0b8713a7df3b7735f096f523e188d8fa9ca3f8b7ee2d877bba3a8ce8a5ba565",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Suzuki",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valeri",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Circati",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Delprato",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ndiaye",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Britschgi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Estevez",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Oristanio",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernabè",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Keita M.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sorensen O.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cutrone",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Djuric",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Benedyczak",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pellegrino M.",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 13,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Israel",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Biraghi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazaro",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Maripan",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ismajli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Nkounkou",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coco",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tameze",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vlasic",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Asllani",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Casadei",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Simeone",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ngonge",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams C.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Njie",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/5",
+      "estrattoIl": "2026-10-06T08:28:23.570Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Aboukhlal",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Parma 2 - 1 Torino 29/09/2025 - 18:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

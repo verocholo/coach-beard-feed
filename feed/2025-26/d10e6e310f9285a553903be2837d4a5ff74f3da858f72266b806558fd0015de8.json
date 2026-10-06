@@ -1,0 +1,1641 @@
+{
+ "label": "Juventus-Cremonese (g20)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-01-12T19:45:00Z",
+  "hoursAfterKickoff": 6396.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:47.330Z",
+  "sha256": "c3fd0034e6946847508e73fa7cad8d210eefb4304639fb1b9453798c4f0886bd"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::3f9ae02f316243b0b7c23c3a03dff49c",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-01-12T19:45:00Z",
+   "matchday": 20,
+   "home": "Juventus",
+   "away": "Cremonese",
+   "homeTeamId": "serie-a::Football_Team::0ae9210dce6f4f9b9d50aeeb19b0d371",
+   "awayTeamId": "serie-a::Football_Team::920da3c6b91d4cf69b2f1448c8a71c96",
+   "homeScore": 5,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 3
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::3f9ae02f316243b0b7c23c3a03dff49c",
+   "homeTeam": "Juventus",
+   "awayTeam": "Cremonese",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::f567339708a7468fa5b76cbf3d4b345e",
+     "providerId": "opta:Player:b3hr4q25jvqr7565z5ydqylt5",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Michele",
+     "lastName": "Di Gregorio",
+     "shirtName": "Michele Di Gregorio",
+     "displayName": "Di Gregorio",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1701dcc4409d48bcac98374a47f96dad",
+     "providerId": "opta:Player:7ohgxs03szerp6mwiiv58ryay",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Andrea",
+     "lastName": "Cambiaso",
+     "shirtName": "Andrea Cambiaso",
+     "displayName": "Cambiaso",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::468dfc7f2036468d90394cb8d22ae809"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3961ddf993cc41dc9ee587e28a227d8e",
+     "providerId": "opta:Player:7gyfpskzbb3r5nhiniky22o6h",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Lloyd Casius",
+     "lastName": "Kelly",
+     "shirtName": "Lloyd Kelly",
+     "displayName": "Kelly",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e6156f9d23e84e7084a3e488b92521ac",
+     "providerId": "opta:Player:d196vatyvq6ycn1q7d477d2i1",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Gleison Bremer",
+     "lastName": "Bremer",
+     "shirtName": "Bremer",
+     "displayName": "Bremer",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 12,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c"
+      },
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b07576d30f0548efa6003ec696a8e447"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::38b07b038621478c9b293665fc91eedc",
+     "providerId": "opta:Player:b33rlpjo3kx4477alx82si5wq",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Pierre Kazaye Rommel",
+     "lastName": "Kalulu Kyatengwa",
+     "shirtName": "Pierre Kalulu",
+     "displayName": "Kalulu",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6e685e98714e4024ad09aefd600bd42e",
+     "providerId": "opta:Player:6j0ogojh2b7poyceg7i3k09yi",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Khephren",
+     "lastName": "Thuram-ulien",
+     "shirtName": "Khéphren Thuram",
+     "displayName": "K. Thuram",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::01e3217dea474ebea0e15b49727cd04c",
+     "providerId": "opta:Player:ahz2npxe4geixkaz25f2pc82d",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Manuel",
+     "lastName": "Locatelli",
+     "shirtName": "Manuel Locatelli",
+     "displayName": "Locatelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a0826cc1e617411898652d28f20f1cbe"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0acefc0dc80a4f4284f5733d6f6a5217",
+     "providerId": "opta:Player:288nn7pbq5ewriiyb9o7da86h",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Weston James Earl",
+     "lastName": "McKennie",
+     "shirtName": "Weston McKennie",
+     "displayName": "McKennie",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::38b07b038621478c9b293665fc91eedc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c",
+     "providerId": "opta:Player:bjob8tftnxojnytcj7juo0ga2",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Fabio",
+     "lastName": "Miretti",
+     "shirtName": "Fabio Miretti",
+     "displayName": "Miretti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::590e7c135581454394bc4326ad73672e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2355805d93e04684aa6fdcba93a37b7d",
+     "providerId": "opta:Player:6kvtqep8korw8d75n5me0lbmc",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Kenan",
+     "lastName": "Yildiz",
+     "shirtName": "Kenan Yildiz",
+     "displayName": "Yıldız",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 35,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ed11723358234b7cb05b9cc0ae47dbfb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6aa53cb043e44d9884ea112ca2e9e1dc",
+     "providerId": "kama:Player:98490",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Jonathan Christian",
+     "lastName": "David",
+     "shirtName": "Jonathan David",
+     "displayName": "J. David",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 15,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6e685e98714e4024ad09aefd600bd42e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::74c42bc75c774096b689dfe348184f56",
+     "providerId": "opta:Player:3o573dblmfc1o3wkkt2nva8k5",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Mattia",
+     "lastName": "Perin",
+     "shirtName": "Mattia Perin",
+     "displayName": "Perin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::417c5ec6753749f98505e4e3f443a8bb",
+     "providerId": "opta:Player:8rlf5vjyddkcid5ysa3yo7hlh",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Carlo",
+     "lastName": "Pinsoglio",
+     "shirtName": "Carlo Pinsoglio",
+     "displayName": "Pinsoglio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b07576d30f0548efa6003ec696a8e447",
+     "providerId": "opta:Player:2ugzqrpaooto1r24a6kvqf2ll",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Teun",
+     "lastName": "Koopmeiners",
+     "shirtName": "Teun Koopmeiners",
+     "displayName": "Koopmeiners",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e6156f9d23e84e7084a3e488b92521ac"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ed11723358234b7cb05b9cc0ae47dbfb",
+     "providerId": "kama:Player:99506",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Edon",
+     "lastName": "Zhegrova",
+     "shirtName": "Edon Zhegrova",
+     "displayName": "Zhegrova",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2355805d93e04684aa6fdcba93a37b7d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a0826cc1e617411898652d28f20f1cbe",
+     "providerId": "opta:Player:7pirs3v9u80j5qy71cmhzbxn8",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Vasilije",
+     "lastName": "Adžić",
+     "shirtName": "Vasilije Adžić",
+     "displayName": "Adžić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::01e3217dea474ebea0e15b49727cd04c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f4f09dd907d348f5b945a628e62a2175",
+     "providerId": "opta:Player:555z9bynvux7oruirg67r8i51",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Filip",
+     "lastName": "Kostić",
+     "shirtName": "Filip Kostić",
+     "displayName": "Kostić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::590e7c135581454394bc4326ad73672e",
+     "providerId": "kama:Player:99387",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Ikoma-Loïs ",
+     "lastName": "Openda",
+     "shirtName": "Loïs Openda",
+     "displayName": "Openda",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0e3d227d8176496dbee25fb38e6e700c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2de0dfeaa65140cd855ca8681b0f1e65",
+     "providerId": "kama:Player:98464",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "João Mário",
+     "lastName": "Neto Lopes",
+     "shirtName": "João Mário Neto Lopes",
+     "displayName": "João Mário",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::468dfc7f2036468d90394cb8d22ae809",
+     "providerId": "opta:Player:5054kfjkrimomrhilbe5j3xbe",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Juan David",
+     "lastName": "Cabal Murillo",
+     "shirtName": "Juan Cabal",
+     "displayName": "Cabal",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1701dcc4409d48bcac98374a47f96dad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::28cc459af3e54439ba6d25b424b8fced",
+     "providerId": "opta:Player:exgknpydnzp14n18nn1w6ugpg",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Jonas Jakob",
+     "lastName": "Rouhi",
+     "shirtName": "Jonas Rouhi",
+     "displayName": "Rouhi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dfbf92e44ffa4e368ac50d4c8b095adc",
+     "providerId": "opta:Player:4u0o6pfpmohhbzuggq31bj02c",
+     "side": "home",
+     "team": "Juventus",
+     "firstName": "Pedro Felipe",
+     "lastName": "De Jesus Gomes",
+     "shirtName": "Pedro Felipe",
+     "displayName": "Pedro Felipe",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffc8be5bd4e749d0b24674083abab469",
+     "providerId": "opta:Player:e2dn4s6p2f6xnbaje17wd3jyt",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Emil",
+     "lastName": "Audero Mulyadi",
+     "shirtName": "Emil Audero",
+     "displayName": "Audero",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::684ed44f98154c089715f064f4023da7",
+     "providerId": "opta:Player:ckzn72wo51pmw475t9tl6vr2t",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Matteo",
+     "lastName": "Bianchetti",
+     "shirtName": "M. Bianchetti",
+     "displayName": "Bianchetti",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7e44f29f2a74a10b079abe0d392bc5a",
+     "providerId": "opta:Player:90pjbz2aq8vz4qapqu1yt2ynd",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Giuseppe",
+     "lastName": "Pezzella",
+     "shirtName": "Giuseppe Pezzella",
+     "displayName": "Pezzella",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2b979996a62e42b7b29bbc5021db165d",
+     "providerId": "opta:Player:bkz9b4cqf8f970myv8r49f561",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Federico",
+     "lastName": "Baschirotto",
+     "shirtName": "Federico Baschirotto",
+     "displayName": "Baschirotto",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::528463bd1ae34632b21700b2f1a4290c",
+     "providerId": "opta:Player:20f5apcbciifqyln8hp3cziwa",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Filippo",
+     "lastName": "Terracciano",
+     "shirtName": "Filippo Terracciano",
+     "displayName": "F. Terracciano",
+     "starter": true,
+     "events": [
+      {
+       "type": "own-goal",
+       "time": 48,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5395422c0fce40fba80082e4dc17ae13",
+     "providerId": "opta:Player:98x5xrku2jffo0in2u2htazca",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Warren Pierre",
+     "lastName": "Bondo",
+     "shirtName": "Warren Bondo",
+     "displayName": "Bondo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fb2b044ea2c641fdaf6dbdc46a8526b6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5879c1ef79b349c6a46f75a5d1d7e8d6",
+     "providerId": "opta:Player:7knk2xsg4690hgq9us9us8ull",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Alessio",
+     "lastName": "Zerbin",
+     "shirtName": "Alessio Zerbin",
+     "displayName": "Zerbin",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8763e24fb296404e9360dab1c1a6c0aa",
+     "providerId": "opta:Player:1fdgli7rrzvlhcs1exckc0r11",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Alberto",
+     "lastName": "Grassi",
+     "shirtName": "A. Grassi",
+     "displayName": "Grassi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1caac65130604f188756f92f6b6c76b9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2bee752bd6864cda812f7412a5c488d6",
+     "providerId": "opta:Player:776qa4yrwh5beenw70cfwh59l",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Dennis Torset",
+     "lastName": "Johnsen",
+     "shirtName": "Dennis Johnsen",
+     "displayName": "Johnsen",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::79c109c187ce4f7cbf763e5b9484319e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::50816a645bb841f384fc015e69e2374c",
+     "providerId": "opta:Player:19gglji6ai70jiu7iqpkaxbyt",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Federico",
+     "lastName": "Bonazzoli",
+     "shirtName": "Federico Bonazzoli",
+     "displayName": "Bonazzoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0b0ee43987924349879779b9a10c47e5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d72bcb4304da42e58f04bcf31478a26d",
+     "providerId": "kama:Player:99563",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Jamie Richard",
+     "lastName": "Vardy",
+     "shirtName": "Jamie Vardy",
+     "displayName": "Vardy",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e2988ee3555b45dd8ab054fc8516212a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::adb3802917f84f18b2d899e1cc681700",
+     "providerId": "opta:Player:93237ztqyi3r4hu3rmgzrgudx",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Marco",
+     "lastName": "Silvestri",
+     "shirtName": "Marco Silvestri",
+     "displayName": "Silvestri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b951edc16d794b30a47216f1a1fbba0e",
+     "providerId": "opta:Player:6cowiesazkskzzljywnix5ous",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Lapo Francesco",
+     "lastName": "Nava",
+     "shirtName": "Lapo Nava",
+     "displayName": "Nava",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa1362df3327444797ed07f5ff55bfd0",
+     "providerId": "opta:Player:342zbrh4dy6y3ohsew14b2ulm",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Tommaso",
+     "lastName": "Barbieri",
+     "shirtName": "Tommaso Barbieri",
+     "displayName": "Barbieri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::49486d5a5c4c4af08d35ad0cf879227e",
+     "providerId": "opta:Player:9noq0ogmqc2cwj3nowoadcdlh",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Mattia",
+     "lastName": "Valoti",
+     "shirtName": "Mattia Valoti",
+     "displayName": "Valoti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::92b794c3bcaa4986a93ea1ab87cb829c",
+     "providerId": "kama:Player:99569",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Faris",
+     "lastName": "Pemi Moumbagna",
+     "shirtName": "Faris Pemi Moumbagna",
+     "displayName": "Moumbagna",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e1206769c1e4415994ef4aba57b8b008",
+     "providerId": "opta:Player:587lj5txpervhinszdat4j9wp",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Michele",
+     "lastName": "Collocolo",
+     "shirtName": "Michele Collocolo",
+     "displayName": "Collocolo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e2988ee3555b45dd8ab054fc8516212a",
+     "providerId": "opta:Player:5pe8vrm8k9dwiy5uw2jca4jbp",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Franco Damian",
+     "lastName": "Vazquez",
+     "shirtName": "Franco Vázquez",
+     "displayName": "F. Vázquez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d72bcb4304da42e58f04bcf31478a26d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::79c109c187ce4f7cbf763e5b9484319e",
+     "providerId": "opta:Player:d3dzhnj9na7marc0c4j0d1zbo",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Romano",
+     "lastName": "Floriani Mussolini",
+     "shirtName": "Romano Floriani M.",
+     "displayName": "Floriani M.",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::2bee752bd6864cda812f7412a5c488d6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f2a038aaa96148e3976dd85dfae27efe",
+     "providerId": "opta:Player:9mldc318nq0tli73wjh6ueket",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Federico",
+     "lastName": "Ceccherini",
+     "shirtName": "Federico Ceccherini",
+     "displayName": "Ceccherini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fb2b044ea2c641fdaf6dbdc46a8526b6",
+     "providerId": "opta:Player:d94867tqgcdqdwg7rhhzt1al1",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Jari",
+     "lastName": "Vandeputte",
+     "shirtName": "Jari Vandeputte",
+     "displayName": "Vandeputte",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5395422c0fce40fba80082e4dc17ae13"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::360b542865f3416281aaa54779f024a3",
+     "providerId": "kama:Player:99564",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Mikayil Ngor",
+     "lastName": "Faye",
+     "shirtName": "Mikayil Faye",
+     "displayName": "Faye",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0b0d4590a66644bda6795790af9173f0",
+     "providerId": "opta:Player:bw1mrbqna1y1f5bbn1tnrqolw",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Dachi",
+     "lastName": "Lordkipanidze",
+     "shirtName": "Dachi Lordkipanidze",
+     "displayName": "Lordkipanidze",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1caac65130604f188756f92f6b6c76b9",
+     "providerId": "opta:Player:4vodu8jalzzq7mqblyv6m7y1g",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Francesco",
+     "lastName": "Folino",
+     "shirtName": "Francesco Folino",
+     "displayName": "Folino",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8763e24fb296404e9360dab1c1a6c0aa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b0ee43987924349879779b9a10c47e5",
+     "providerId": "opta:Player:e7tz6hxliohn3gkj4cgl3j1ed",
+     "side": "away",
+     "team": "Cremonese",
+     "firstName": "Arnaldo Antonio",
+     "lastName": "Sanabria Ayala",
+     "shirtName": "Antonio Sanabria",
+     "displayName": "Sanabria",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::50816a645bb841f384fc015e69e2374c"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:22:52.430Z",
+   "sha256": "0bf89b7ac2e61fc1ecb72d8e9fc1c68e09f16e107252680650b45938359ec3c9"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:47.330Z",
+   "sha256": "c3fd0034e6946847508e73fa7cad8d210eefb4304639fb1b9453798c4f0886bd",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Audero",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 5,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 1,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bianchetti",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pezzella Giu.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Terracciano F.",
+     "votoRedazione": 4,
+     "fantavotoRedazione": 2,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 2,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 2.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 1,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Baschirotto",
+     "votoRedazione": 4,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 4,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Floriani Mussolini",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Grassi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vazquez",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bondo",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zerbin",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vandeputte",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sanabria",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bonazzoli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Vardy",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Cremonese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Johnsen",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Di Gregorio",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bremer",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kalulu",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cambiaso",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Cabal",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kelly L.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Locatelli",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "McKennie",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thuram K.",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Koopmeiners",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zhegrova",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Miretti",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Adzic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "David",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Openda",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/20",
+      "estrattoIl": "2026-10-06T08:28:47.330Z"
+     },
+     "squadraRaw": "Juventus",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Yildiz",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 1,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Juventus 5 - 0 Cremonese 12/01/2026 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

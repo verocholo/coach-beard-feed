@@ -1,0 +1,1647 @@
+{
+ "label": "Lazio-Torino (g6)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-10-04T13:00:00Z",
+  "hoursAfterKickoff": 8803.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:25.172Z",
+  "sha256": "9b58c72b0a7d3fbf8e68ae7ef2c5f3e7cb80bca4acd25ea97329e16baad7bb88"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::a4f26dce6ea04c9eb1d3b8ab96aa6edb",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-10-04T13:00:00Z",
+   "matchday": 6,
+   "home": "Lazio",
+   "away": "Torino",
+   "homeTeamId": "serie-a::Football_Team::fe6490f2b16e45be9956a1cd04aaf3a2",
+   "awayTeamId": "serie-a::Football_Team::a55dcc2058e94976b572262fc564a74c",
+   "homeScore": 3,
+   "awayScore": 3,
+   "clockTime": 90,
+   "clockAdditionalTime": 13
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::a4f26dce6ea04c9eb1d3b8ab96aa6edb",
+   "homeTeam": "Lazio",
+   "awayTeam": "Torino",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::e0e39e3ec3b643a1b0d325ae86516cf9",
+     "providerId": "opta:Player:8n4rruxbnzvjgdomxslnmcno5",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Ivan",
+     "lastName": "Provedel",
+     "shirtName": "Ivan Provedel",
+     "displayName": "Provedel",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::230ed488be8043b5add42c2ab7b1b72a",
+     "providerId": "opta:Player:62uaf4amxdyz6j2fuvadp0no5",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Elseid",
+     "lastName": "Hysaj",
+     "shirtName": "Elseid Hysaj",
+     "displayName": "Hysaj",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::315053caa8a74d6ab0be8724c8d0c10e",
+     "providerId": "opta:Player:7nwh5uoczypmuiigzi8ylsd1",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Alessio",
+     "lastName": "Romagnoli",
+     "shirtName": "Alessio Romagnoli",
+     "displayName": "Romagnoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 47,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::41bbde87e072481eadfee9ec7a9fdb87",
+     "providerId": "opta:Player:5gond4ss348863bc1768s4q",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Mario",
+     "lastName": "Gila Fuentes",
+     "shirtName": "Mario Gila",
+     "displayName": "Gila",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8697e2d27e9b448d8c6cdb826dc41b9d",
+     "providerId": "opta:Player:dqsslq1iz1azubowq3anwws4q",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Nuno Albertino",
+     "lastName": "Varela Tavares",
+     "shirtName": "Nuno Tavares",
+     "displayName": "Nuno Tavares",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fd305b16dbdc46c18c0de85ce5bcdac5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a0cb1115e2814bbe8181d06c6bd795c2",
+     "providerId": "opta:Player:6hlutndh6zstrpi5i0u0mxyvp",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Danilo",
+     "lastName": "Cataldi",
+     "shirtName": "Danilo Cataldi",
+     "displayName": "Cataldi",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 87,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "penalty-goal",
+       "time": 90,
+       "additionalTime": 13,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6f0edcdd2c08415889ac244cf37aa744",
+     "providerId": "opta:Player:7y5qwgl0xu7btfd7yxgeb2gut",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Toma",
+     "lastName": "Basic",
+     "shirtName": "Toma Basic",
+     "displayName": "Bašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::317f90e84ebc4866b303fe44867825d6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::38861941353d48968b5312cfe5ff32b7",
+     "providerId": "opta:Player:ho87m362sey4msdjp4n180oa",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Matteo",
+     "lastName": "Cancellieri",
+     "shirtName": "M. Cancellieri",
+     "displayName": "Cancellieri",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 24,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a1cccd7bad54cba93bb1b0bc3ba8456"
+      },
+      {
+       "type": "goal",
+       "time": 40,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6f0edcdd2c08415889ac244cf37aa744"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f1c815bc10ff4566bac2a33b996dc106",
+     "providerId": "opta:Player:3mqhkh4iz4kesvmqui3hupgmi",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Boulaye",
+     "lastName": "Dia",
+     "shirtName": "Boulaye Dia",
+     "displayName": "Dia",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7c06889abf144462a381039c0a5bb5df"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a1cccd7bad54cba93bb1b0bc3ba8456",
+     "providerId": "opta:Player:d02p1ldr57bkxcpmq12vtvhsl",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Pedro",
+     "lastName": "Rodríguez Ledesma",
+     "shirtName": "Pedro",
+     "displayName": "Pedro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::61dbfb65ef2c4919a57fd9fc25c449b4",
+     "providerId": "opta:Player:27hwtukeqxh91ch1f3qr1it49",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Valentin Mariano",
+     "lastName": "Castellanos Gimenez",
+     "shirtName": "Valentín Castellanos",
+     "displayName": "Castellanos",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 6,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fec04752003c4e30bdd70e07e39f8b4c",
+     "providerId": "opta:Player:1jv2z06bjokvswjhuo1xsxdgq",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Christos",
+     "lastName": "Mandas",
+     "shirtName": "Christos Mandas",
+     "displayName": "Mandas",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::187f6a3f5a994928a1335039c0bff5f0",
+     "providerId": "opta:Player:9otimgokxyef8248fo7h8msq",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Alessio",
+     "lastName": "Furlanetto",
+     "shirtName": "A. Furlanetto",
+     "displayName": "Furlanetto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1edf3535e0a64d27a3ad0c0915d94cd9",
+     "providerId": "opta:Player:3l76cgequy3tjhhudqnrejglx",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Patricio",
+     "lastName": "Gabarrón Gil",
+     "shirtName": "G. Patric",
+     "displayName": "Patric",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7c06889abf144462a381039c0a5bb5df",
+     "providerId": "opta:Player:71gwdg60saiwwwnnv6is52may",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Tijjani",
+     "lastName": "Noslin",
+     "shirtName": "Tijjani Noslin",
+     "displayName": "Noslin",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f1c815bc10ff4566bac2a33b996dc106"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b",
+     "providerId": "opta:Player:5ec6f4mm3rwjm0fgis0k3cmp5",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Gustav Tang",
+     "lastName": "Isaksen",
+     "shirtName": "Gustav Isaksen",
+     "displayName": "Isaksen",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a1cccd7bad54cba93bb1b0bc3ba8456"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::317f90e84ebc4866b303fe44867825d6",
+     "providerId": "opta:Player:cjgrtf1xc97ir3b64cnl9ecyc",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Reda",
+     "lastName": "Belahyane",
+     "shirtName": "Reda Belahyane",
+     "displayName": "Belahyane",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6f0edcdd2c08415889ac244cf37aa744"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8bb18ae810b34b4aa89fc0cfb0ccbf35",
+     "providerId": "opta:Player:7hukebiijqntuvetwzralzuju",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Oliver Provstgaard",
+     "lastName": "Nielsen",
+     "shirtName": "Oliver Provstgaard",
+     "displayName": "Provstgaard",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fd305b16dbdc46c18c0de85ce5bcdac5",
+     "providerId": "opta:Player:8w2rfa3vnu6t1a37510374nv9",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Manuel",
+     "lastName": "Lazzari",
+     "shirtName": "M. Lazzari",
+     "displayName": "Lazzari",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8697e2d27e9b448d8c6cdb826dc41b9d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1b9e5686b039438d8c5fcd44a6847283",
+     "providerId": "kama:Player:901",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Pietro",
+     "lastName": "Pinelli",
+     "shirtName": "Pietro Pinelli",
+     "displayName": "Pinelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2d1d6f1891f04d9d9aa1318ba8d5710f",
+     "providerId": "kama:Player:5011",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Valerio",
+     "lastName": "Farcomeni",
+     "shirtName": "Valerio Farcomeni",
+     "displayName": "Farcomeni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1521324d10634da1bdf493649696124d",
+     "providerId": "opta:Player:cuc7gtr9q0465wxmzgq834ag9",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Franco",
+     "lastName": "Israel Wibmer",
+     "shirtName": "Franco Israel",
+     "displayName": "Israel",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f",
+     "providerId": "opta:Player:e6xexn53yyoxmdt5naduyx8bu",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Marcus Holmgren",
+     "lastName": "Pedersen",
+     "shirtName": "Marcus Pedersen",
+     "displayName": "Pedersen",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9de4e3f19b5e489b9f8eec96d7532148"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e01f727bb7304efea37d2cc9fc152812",
+     "providerId": "opta:Player:7vykym3hy0qf1rxw3yv58kxgq",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Saul Basilio",
+     "lastName": "Coco Bassey Oubina",
+     "shirtName": "Saúl Coco",
+     "displayName": "Coco",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 3,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d57de3daaf6048b1ae7ff99125188600",
+     "providerId": "opta:Player:270djbc9lxhoupmd1djrii191",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Guillermo Alfonso",
+     "lastName": "Maripan Loayza",
+     "shirtName": "Guillermo Maripán",
+     "displayName": "Maripán",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 12,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1",
+     "providerId": "opta:Player:866f0f7taqhae91o3cjnnx0ph",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Valentino",
+     "lastName": "Lazaro",
+     "shirtName": "Valentino Lazaro",
+     "displayName": "Lazaro",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4672592c583246358f920921b38f10ca"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::77ebe2392746494fad62a2cc5fced9dd",
+     "providerId": "opta:Player:82pgcsfvbitzlpbao9ptbsgoa",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Cesare",
+     "lastName": "Casadei",
+     "shirtName": "Cesare Casadei",
+     "displayName": "Casadei",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::29030faa6a7a411f935e176b7c681ef7",
+     "providerId": "opta:Player:can2l9ha4ufsxdjxdkb739fkk",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Kristjan",
+     "lastName": "Asllani",
+     "shirtName": "Kristjan Asllani",
+     "displayName": "Asllani",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 32,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd",
+     "providerId": "opta:Player:9sjt5rv156hr2llfu241r6cph",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Adrien Fidele",
+     "lastName": "Tameze Aoutsa",
+     "shirtName": "Adrien Tamèze",
+     "displayName": "Tameze",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a",
+     "providerId": "opta:Player:ebgkv548xih19m8uza7bgrvmd",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Nikola",
+     "lastName": "Vlašić",
+     "shirtName": "Nikola Vlašić",
+     "displayName": "Vlašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ce69dc0198d84a29b336eecda3e856bb",
+     "providerId": "opta:Player:a9z0jsjwfteq974bxwucvc4ix",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Cyril Jean",
+     "lastName": "Ngonge",
+     "shirtName": "Cyril Ngonge",
+     "displayName": "Ngonge",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c",
+     "providerId": "opta:Player:cp13vthbds3tl1wtfelfx2evp",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Giovanni Pablo",
+     "lastName": "Simeone Baldini",
+     "shirtName": "Giovanni Simeone",
+     "displayName": "Simeone",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 16,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0cc5d45eeae84da4b2c8d3335f629006",
+     "providerId": "opta:Player:a8s8bl5kp1rif458yt3qlevo5",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Alberto Andrea",
+     "lastName": "Paleari",
+     "shirtName": "Alberto Paleari",
+     "displayName": "Paleari",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1396abd02b8946108f41e65ecdd990cf",
+     "providerId": "opta:Player:b1jyt86vbfyektviyeiqtl562",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Maximilian Mihai",
+     "lastName": "Popa",
+     "shirtName": "Mihai Popa",
+     "displayName": "Popa",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c5134094ab4448a98598d14ce6c00f21",
+     "providerId": "opta:Player:6gzi8qf8szxn99dnwh3h6gkb9",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Adam",
+     "lastName": "Masina",
+     "shirtName": "Adam Masina",
+     "displayName": "Masina",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eac62860fcb54439a01fb719b02732dd"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b91dd405c42347deb2c331fc74e97429",
+     "providerId": "opta:Player:8vom3bt6es2kp5sdl98az6gwk",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Emirhan",
+     "lastName": "Ilkhan",
+     "shirtName": "Emirhan Ilkhan",
+     "displayName": "İlkhan",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0250707b586045f087776dea4ea39f51",
+     "providerId": "kama:Player:98848",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Zakaria",
+     "lastName": "Aboukhlal",
+     "shirtName": "Zakaria Aboukhlal",
+     "displayName": "Aboukhlal",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1b963dfa250b41d5b596ef5ad7cb1379",
+     "providerId": "opta:Player:7hwj9pf9roe74jifvuhiu6n6x",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Ivan",
+     "lastName": "Ilić",
+     "shirtName": "Ivan Ilić",
+     "displayName": "Ilić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::836a85d7389346eea6090c05cc237c81",
+     "providerId": "opta:Player:59ujnkvl7rlffomi2bqpsmbpx",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Che Zach Everton",
+     "lastName": "Adams",
+     "shirtName": "Ché Adams",
+     "displayName": "C. Adams",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a9d45cedfdd4945978f615fc897079a"
+      },
+      {
+       "type": "goal",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4672592c583246358f920921b38f10ca"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9de4e3f19b5e489b9f8eec96d7532148",
+     "providerId": "opta:Player:eug1as582cl6ji78ylyq4zfo4",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Ali Bina",
+     "lastName": "Dembelé",
+     "shirtName": "Ali Dembélé",
+     "displayName": "Dembélé",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ffc9f90ab1494474a7e7d893e597193f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4672592c583246358f920921b38f10ca",
+     "providerId": "kama:Player:99338",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Niels Patrick",
+     "lastName": "Nkounkou",
+     "shirtName": "Niels Patrick Nkounkou",
+     "displayName": "Nkounkou",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dfcaf138f1f54ed4b9c484dad288bbe1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0d64c3de207641ecacb222eb6a87e737",
+     "providerId": "opta:Player:66at96kfhvigkny465lkmrnbp",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Cristiano",
+     "lastName": "Biraghi",
+     "shirtName": "Cristiano Biraghi",
+     "displayName": "Biraghi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::be5ad679270341b7ade1f5046da25edd",
+     "providerId": "opta:Player:6egg2gwvxxqv2i9hrr0zg4yz8",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Gvidas",
+     "lastName": "Gineitis",
+     "shirtName": "Gvidas Gineitis",
+     "displayName": "Gineitis",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 78,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d167c290b19a48e0a29bbf98f571152c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fa8793423f574374b968c141faabf725",
+     "providerId": "opta:Player:30gsjr0xlmjulnz227zfxga8l",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Duvan Esteban",
+     "lastName": "Zapata Banguero",
+     "shirtName": "Duván Zapata",
+     "displayName": "Zapata",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fc2b5a269abf473795c6b6b47c736fa3",
+     "providerId": "opta:Player:9hl7yh42qvmdcjw69si5imnf8",
+     "side": "away",
+     "team": "Torino",
+     "firstName": "Alieu Badara",
+     "lastName": "Njie",
+     "shirtName": "Alieu Njie",
+     "displayName": "Njie",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:18:37.833Z",
+   "sha256": "089f1ec63c0d88365d1ab9081f57218aaeb9441ea017f439bcf281d3d6a73d87"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:25.172Z",
+   "sha256": "9b58c72b0a7d3fbf8e68ae7ef2c5f3e7cb80bca4acd25ea97329e16baad7bb88",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Provedel",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 2.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Hysaj",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Romagnoli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazzari",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tavares N.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gila",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cataldi",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 1,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Basic",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Belahyane",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Isaksen",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pedro",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cancellieri",
+     "votoRedazione": 8,
+     "fantavotoRedazione": 14,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 13.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dia",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Castellanos",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Noslin",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Israel",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 2.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 2,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 2.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Masina",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazaro",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Maripan",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Nkounkou",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pedersen",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coco",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 9,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 9,
+     "votoItalia": 6,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dembelè A.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Tameze",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vlasic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Asllani",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Casadei",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gineitis",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Simeone",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ngonge",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/6",
+      "estrattoIl": "2026-10-06T08:28:25.172Z"
+     },
+     "squadraRaw": "Torino",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Adams C.",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 3 - 3 Torino 04/10/2025 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

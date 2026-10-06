@@ -1,0 +1,1465 @@
+{
+ "label": "Milan-Lazio (g13)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-11-29T19:45:00Z",
+  "hoursAfterKickoff": 7452.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:36.145Z",
+  "sha256": "257d79b4e13f72ef15b9172da13b9ef8f23af45e763f6816bdcf06ad17cd9ad8"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::b65875dc76624e1da51f8d167a0072e6",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-11-29T19:45:00Z",
+   "matchday": 13,
+   "home": "Milan",
+   "away": "Lazio",
+   "homeTeamId": "serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0",
+   "awayTeamId": "serie-a::Football_Team::fe6490f2b16e45be9956a1cd04aaf3a2",
+   "homeScore": 1,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 14
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::b65875dc76624e1da51f8d167a0072e6",
+   "homeTeam": "Milan",
+   "awayTeam": "Lazio",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::f6b27c8e1cf04b3391184988ee7336f7",
+     "providerId": "opta:Player:3fpnfgoy4lbpapv2th6g60cet",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Mike Peterson",
+     "lastName": "Maignan",
+     "shirtName": "Mike Maignan",
+     "displayName": "Maignan",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4",
+     "providerId": "opta:Player:3sezchmdtivxl4kusvgc6j7x1",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Oluwafikayomi Oluwadamilola",
+     "lastName": "Tomori",
+     "shirtName": "Fikayo Tomori",
+     "displayName": "Tomori",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 26,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::37d0e89ba51343a8b24b768e4efa02d6",
+     "providerId": "opta:Player:enqcaecpt5hy0qv9x5pzmkjc9",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Gabbia",
+     "shirtName": "Matteo Gabbia",
+     "displayName": "Gabbia",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6075b492bae04b149467f30c9c6923be",
+     "providerId": "opta:Player:7wjdqyl3bkhsfca5cu4riwley",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Strahinja",
+     "lastName": "Pavlović",
+     "shirtName": "Strahinja Pavlović",
+     "displayName": "Pavlović",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5e795d74e1e04302b39b9815471ba3df",
+     "providerId": "opta:Player:7odl8qgd0qak6w4ox0t3kg3kk",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Davide",
+     "lastName": "Bartesaghi",
+     "shirtName": "Davide Bartesaghi",
+     "displayName": "Bartesaghi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e76cb5d2e68843ed99459ed2f8237e2f",
+     "providerId": "kama:Player:98422",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Luka",
+     "lastName": "Modrić",
+     "shirtName": "Luka Modrić",
+     "displayName": "Modrić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1",
+     "providerId": "opta:Player:b0wb7gf04synxlkq7o8gvzkoa",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Youssouf",
+     "lastName": "Fofana",
+     "shirtName": "Youssouf Fofana",
+     "displayName": "Y. Fofana",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::afe60d6be6104d909dfe50221995523a",
+     "providerId": "opta:Player:2nddcty9qris2mmeldon0ogd1",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Adrien",
+     "lastName": "Rabiot",
+     "shirtName": "Adrien Rabiot",
+     "displayName": "Rabiot",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7",
+     "providerId": "opta:Player:9vnr9uog5fmggich2i4vjxwbt",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Alexis Jesse",
+     "lastName": "Saelemaekers",
+     "shirtName": "Alexis Saelemaekers",
+     "displayName": "Saelemaekers",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c",
+     "providerId": "opta:Player:11o903vztwpnmvgrinn208qnd",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Rafael Alexandre",
+     "lastName": "da Conceição Leão",
+     "shirtName": "Rafael Leão",
+     "displayName": "Rafael Leão",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 51,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d",
+     "providerId": "kama:Player:99337",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Christopher Alan",
+     "lastName": "Nkunku",
+     "shirtName": "Christopher Nkunku",
+     "displayName": "Nkunku",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::366978e66f2b41d291912b96fef017a5",
+     "providerId": "opta:Player:2udciji4n7tr07ft7twe2r9w5",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Pietro",
+     "lastName": "Terracciano",
+     "shirtName": "Pietro Terracciano",
+     "displayName": "P. Terracciano",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6be573f23d4742d6a81779d7d1fb3fcf",
+     "providerId": "kama:Player:1741",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Pittarella",
+     "shirtName": "Matteo Pittarella",
+     "displayName": "Pittarella",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::46c4483cd2954db7a7fbf5cfaec0bafe",
+     "providerId": "kama:Player:98780",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Pervis Josue",
+     "lastName": "Estupinan Tenorio",
+     "shirtName": "Pervis Estupiñán",
+     "displayName": "Estupiñán",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba",
+     "providerId": "opta:Player:e2oeysariwd866ksilu3t4m7e",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Samuele",
+     "lastName": "Ricci",
+     "shirtName": "Samuele Ricci",
+     "displayName": "Ricci",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::21b1dc3191d94776a8cde4a881e0002d"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1",
+     "providerId": "opta:Player:95r0jtkw03vjohzwc8os8ielm",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Koni",
+     "lastName": "De Winter",
+     "shirtName": "Koni De Winter",
+     "displayName": "De Winter",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808",
+     "providerId": "opta:Player:e6jaaazxqeczj6ziaj0qnqpxx",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Ruben Ira",
+     "lastName": "Loftus-cheek",
+     "shirtName": "Ruben Loftus-Cheek",
+     "displayName": "Loftus-Cheek",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::068f9e3dc64548ebb49468f1f103016e",
+     "providerId": "kama:Player:99396",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "David Uyoyo",
+     "lastName": "Odogu",
+     "shirtName": "David Uyoyo Odogu",
+     "displayName": "Odogu",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b616b0e6528b42459ac6410543f823ef",
+     "providerId": "kama:Player:98958",
+     "side": "home",
+     "team": "Milan",
+     "firstName": "Ardon",
+     "lastName": "Jashari",
+     "shirtName": "Ardon Jashari",
+     "displayName": "Jashari",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e0e39e3ec3b643a1b0d325ae86516cf9",
+     "providerId": "opta:Player:8n4rruxbnzvjgdomxslnmcno5",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Ivan",
+     "lastName": "Provedel",
+     "shirtName": "Ivan Provedel",
+     "displayName": "Provedel",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::41bbde87e072481eadfee9ec7a9fdb87",
+     "providerId": "opta:Player:5gond4ss348863bc1768s4q",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Mario",
+     "lastName": "Gila Fuentes",
+     "shirtName": "Mario Gila",
+     "displayName": "Gila",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::315053caa8a74d6ab0be8724c8d0c10e",
+     "providerId": "opta:Player:7nwh5uoczypmuiigzi8ylsd1",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Alessio",
+     "lastName": "Romagnoli",
+     "shirtName": "Alessio Romagnoli",
+     "displayName": "Romagnoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f69c6130a9394ce8ba49545549784479",
+     "providerId": "opta:Player:d7xdtkzw3h749ngi4sobn6kmh",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Luca",
+     "lastName": "Pellegrini",
+     "shirtName": "Luca Pellegrini",
+     "displayName": "Lu. Pellegrini",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8697e2d27e9b448d8c6cdb826dc41b9d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7e3ac8828eb94971b02ecfac4064d6bc",
+     "providerId": "opta:Player:a22hb1s02edsj7t38out5r3rp",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Adam",
+     "lastName": "Marušić",
+     "shirtName": "Adam Marušić",
+     "displayName": "Marušić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c3ae98df646f44eb8e28f147e289af83",
+     "providerId": "opta:Player:asvqr3i5wcjiajxipt1qvldyh",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Matteo Elias Kenzo",
+     "lastName": "Guendouzi Olie",
+     "shirtName": "Mattéo Guendouzi",
+     "displayName": "Guendouzi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7f4df908b56b4d1aafae8176354d678b",
+     "providerId": "opta:Player:9462218yklkts6mod3cbfryz9",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Matias",
+     "lastName": "Vecino Falero",
+     "shirtName": "Matías Vecino",
+     "displayName": "Vecino",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8225dd96c7174c9493b6e77f324369a6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6f0edcdd2c08415889ac244cf37aa744",
+     "providerId": "opta:Player:7y5qwgl0xu7btfd7yxgeb2gut",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Toma",
+     "lastName": "Basic",
+     "shirtName": "Toma Basic",
+     "displayName": "Bašić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7c06889abf144462a381039c0a5bb5df"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b",
+     "providerId": "opta:Player:5ec6f4mm3rwjm0fgis0k3cmp5",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Gustav Tang",
+     "lastName": "Isaksen",
+     "shirtName": "Gustav Isaksen",
+     "displayName": "Isaksen",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a1cccd7bad54cba93bb1b0bc3ba8456"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f1c815bc10ff4566bac2a33b996dc106",
+     "providerId": "opta:Player:3mqhkh4iz4kesvmqui3hupgmi",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Boulaye",
+     "lastName": "Dia",
+     "shirtName": "Boulaye Dia",
+     "displayName": "Dia",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::61dbfb65ef2c4919a57fd9fc25c449b4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5d188308b5a14e13bd61d64f792ecb69",
+     "providerId": "opta:Player:cfzvplhlvlfvau521u6b86xud",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Mattia",
+     "lastName": "Zaccagni",
+     "shirtName": "M. Zaccagni",
+     "displayName": "Zaccagni",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 13,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fec04752003c4e30bdd70e07e39f8b4c",
+     "providerId": "opta:Player:1jv2z06bjokvswjhuo1xsxdgq",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Christos",
+     "lastName": "Mandas",
+     "shirtName": "Christos Mandas",
+     "displayName": "Mandas",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::187f6a3f5a994928a1335039c0bff5f0",
+     "providerId": "opta:Player:9otimgokxyef8248fo7h8msq",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Alessio",
+     "lastName": "Furlanetto",
+     "shirtName": "A. Furlanetto",
+     "displayName": "Furlanetto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1edf3535e0a64d27a3ad0c0915d94cd9",
+     "providerId": "opta:Player:3l76cgequy3tjhhudqnrejglx",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Patricio",
+     "lastName": "Gabarrón Gil",
+     "shirtName": "G. Patric",
+     "displayName": "Patric",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8225dd96c7174c9493b6e77f324369a6",
+     "providerId": "opta:Player:7f87a26gzayk0bfzbm42huuw9",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Oluwafisayo Faruq",
+     "lastName": "Dele-bashiru",
+     "shirtName": "Fisayo Dele-Bashiru",
+     "displayName": "Dele-Bashiru",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7f4df908b56b4d1aafae8176354d678b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a1cccd7bad54cba93bb1b0bc3ba8456",
+     "providerId": "opta:Player:d02p1ldr57bkxcpmq12vtvhsl",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Pedro",
+     "lastName": "Rodríguez Ledesma",
+     "shirtName": "Pedro",
+     "displayName": "Pedro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 70,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::61dbfb65ef2c4919a57fd9fc25c449b4",
+     "providerId": "opta:Player:27hwtukeqxh91ch1f3qr1it49",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Valentin Mariano",
+     "lastName": "Castellanos Gimenez",
+     "shirtName": "Valentín Castellanos",
+     "displayName": "Castellanos",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f1c815bc10ff4566bac2a33b996dc106"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7c06889abf144462a381039c0a5bb5df",
+     "providerId": "opta:Player:71gwdg60saiwwwnnv6is52may",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Tijjani",
+     "lastName": "Noslin",
+     "shirtName": "Tijjani Noslin",
+     "displayName": "Noslin",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6f0edcdd2c08415889ac244cf37aa744"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8697e2d27e9b448d8c6cdb826dc41b9d",
+     "providerId": "opta:Player:dqsslq1iz1azubowq3anwws4q",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Nuno Albertino",
+     "lastName": "Varela Tavares",
+     "shirtName": "Nuno Tavares",
+     "displayName": "Nuno Tavares",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f69c6130a9394ce8ba49545549784479"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::317f90e84ebc4866b303fe44867825d6",
+     "providerId": "opta:Player:cjgrtf1xc97ir3b64cnl9ecyc",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Reda",
+     "lastName": "Belahyane",
+     "shirtName": "Reda Belahyane",
+     "displayName": "Belahyane",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8bb18ae810b34b4aa89fc0cfb0ccbf35",
+     "providerId": "opta:Player:7hukebiijqntuvetwzralzuju",
+     "side": "away",
+     "team": "Lazio",
+     "firstName": "Oliver Provstgaard",
+     "lastName": "Nielsen",
+     "shirtName": "Oliver Provstgaard",
+     "displayName": "Provstgaard",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:20:41.786Z",
+   "sha256": "3715d89faf2df6bbe0ea4209f06dde7e2fd764097ea5cc19e81af6754ad8672f"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:36.145Z",
+   "sha256": "257d79b4e13f72ef15b9172da13b9ef8f23af45e763f6816bdcf06ad17cd9ad8",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Provedel",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Romagnoli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marusic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pellegrini Lu.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tavares N.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gila",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Vecino",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zaccagni",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Guendouzi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Basic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Isaksen",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Dele-Bashiru",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pedro",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dia",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Castellanos",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Noslin",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Maignan",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gabbia",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tomori",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pavlovic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bartesaghi",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rabiot",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Modric",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Loftus-Cheek",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fofana Y.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Saelemaekers",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ricci S.",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Leao",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/13",
+      "estrattoIl": "2026-10-06T08:28:36.145Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nkunku",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Milan 1 - 0 Lazio 29/11/2025 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

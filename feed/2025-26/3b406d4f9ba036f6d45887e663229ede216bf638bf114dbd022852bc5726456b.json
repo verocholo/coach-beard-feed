@@ -1,0 +1,1696 @@
+{
+ "label": "Lazio-Sassuolo (g28)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-03-09T19:45:00Z",
+  "hoursAfterKickoff": 5052.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:29:00.100Z",
+  "sha256": "900c0181374dd76cb0448ee13ff7869bb26bd249dc9526e13e8cd0327e60a504"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::b66c5546fb31483daa383096d85fee02",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-03-09T19:45:00Z",
+   "matchday": 28,
+   "home": "Lazio",
+   "away": "Sassuolo",
+   "homeTeamId": "serie-a::Football_Team::fe6490f2b16e45be9956a1cd04aaf3a2",
+   "awayTeamId": "serie-a::Football_Team::b70390ba4e3c4bc2947a37617d53e8a3",
+   "homeScore": 2,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 6
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::b66c5546fb31483daa383096d85fee02",
+   "homeTeam": "Lazio",
+   "awayTeam": "Sassuolo",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::9b8fcf1ef10e4c89902da635ee271f45",
+     "providerId": "opta:Player:2os2xde8tdxbpamab8kngnhuc",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Edoardo",
+     "lastName": "Motta",
+     "shirtName": "Edoardo Motta",
+     "displayName": "Motta",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8697e2d27e9b448d8c6cdb826dc41b9d",
+     "providerId": "opta:Player:dqsslq1iz1azubowq3anwws4q",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Nuno Albertino",
+     "lastName": "Varela Tavares",
+     "shirtName": "Nuno Tavares",
+     "displayName": "Nuno Tavares",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7e3ac8828eb94971b02ecfac4064d6bc",
+     "providerId": "opta:Player:a22hb1s02edsj7t38out5r3rp",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Adam",
+     "lastName": "Marušić",
+     "shirtName": "Adam Marušić",
+     "displayName": "Marušić",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 2,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::38861941353d48968b5312cfe5ff32b7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::41bbde87e072481eadfee9ec7a9fdb87",
+     "providerId": "opta:Player:5gond4ss348863bc1768s4q",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Mario",
+     "lastName": "Gila Fuentes",
+     "shirtName": "Mario Gila",
+     "displayName": "Gila",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::315053caa8a74d6ab0be8724c8d0c10e",
+     "providerId": "opta:Player:7nwh5uoczypmuiigzi8ylsd1",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Alessio",
+     "lastName": "Romagnoli",
+     "shirtName": "Alessio Romagnoli",
+     "displayName": "Romagnoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8bb18ae810b34b4aa89fc0cfb0ccbf35"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dd491713fb4649b6a431512f272de5d1",
+     "providerId": "opta:Player:1fsum47fkh62rer9xxe3smctm",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Daniel",
+     "lastName": "Maldini",
+     "shirtName": "Daniel Maldini",
+     "displayName": "Maldini",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 2,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f1c815bc10ff4566bac2a33b996dc106"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a0cb1115e2814bbe8181d06c6bd795c2",
+     "providerId": "opta:Player:6hlutndh6zstrpi5i0u0mxyvp",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Danilo",
+     "lastName": "Cataldi",
+     "shirtName": "Danilo Cataldi",
+     "displayName": "Cataldi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 38,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1edf3535e0a64d27a3ad0c0915d94cd9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8225dd96c7174c9493b6e77f324369a6",
+     "providerId": "opta:Player:7f87a26gzayk0bfzbm42huuw9",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Oluwafisayo Faruq",
+     "lastName": "Dele-bashiru",
+     "shirtName": "Fisayo Dele-Bashiru",
+     "displayName": "Dele-Bashiru",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b0ba8865af6b497295c46fc7e8f12d63",
+     "providerId": "kama:Player:100526",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Kenneth Ina Dorothea",
+     "lastName": "Taylor",
+     "shirtName": "Kenneth Taylor",
+     "displayName": "Taylor",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5d188308b5a14e13bd61d64f792ecb69",
+     "providerId": "opta:Player:cfzvplhlvlfvau521u6b86xud",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Mattia",
+     "lastName": "Zaccagni",
+     "shirtName": "M. Zaccagni",
+     "displayName": "Zaccagni",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8a1cccd7bad54cba93bb1b0bc3ba8456"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b",
+     "providerId": "opta:Player:5ec6f4mm3rwjm0fgis0k3cmp5",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Gustav Tang",
+     "lastName": "Isaksen",
+     "shirtName": "Gustav Isaksen",
+     "displayName": "Isaksen",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::38861941353d48968b5312cfe5ff32b7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::187f6a3f5a994928a1335039c0bff5f0",
+     "providerId": "opta:Player:9otimgokxyef8248fo7h8msq",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Alessio",
+     "lastName": "Furlanetto",
+     "shirtName": "A. Furlanetto",
+     "displayName": "Furlanetto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::db7ee1d871094d72b4df783f5178207f",
+     "providerId": "kama:Player:2035",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Giacomo",
+     "lastName": "Giacomone",
+     "shirtName": "Giacomo Giacomone",
+     "displayName": "Giacomone",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f69c6130a9394ce8ba49545549784479",
+     "providerId": "opta:Player:d7xdtkzw3h749ngi4sobn6kmh",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Luca",
+     "lastName": "Pellegrini",
+     "shirtName": "Luca Pellegrini",
+     "displayName": "Lu. Pellegrini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1edf3535e0a64d27a3ad0c0915d94cd9",
+     "providerId": "opta:Player:3l76cgequy3tjhhudqnrejglx",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Patricio",
+     "lastName": "Gabarrón Gil",
+     "shirtName": "G. Patric",
+     "displayName": "Patric",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 38,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a0cb1115e2814bbe8181d06c6bd795c2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a1cccd7bad54cba93bb1b0bc3ba8456",
+     "providerId": "opta:Player:d02p1ldr57bkxcpmq12vtvhsl",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Pedro",
+     "lastName": "Rodríguez Ledesma",
+     "shirtName": "Pedro",
+     "displayName": "Pedro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5d188308b5a14e13bd61d64f792ecb69"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7c06889abf144462a381039c0a5bb5df",
+     "providerId": "opta:Player:71gwdg60saiwwwnnv6is52may",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Tijjani",
+     "lastName": "Noslin",
+     "shirtName": "Tijjani Noslin",
+     "displayName": "Noslin",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f1c815bc10ff4566bac2a33b996dc106",
+     "providerId": "opta:Player:3mqhkh4iz4kesvmqui3hupgmi",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Boulaye",
+     "lastName": "Dia",
+     "shirtName": "Boulaye Dia",
+     "displayName": "Dia",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dd491713fb4649b6a431512f272de5d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aba272b57bcc44a394bb4a90ef23d80e",
+     "providerId": "kama:Player:100511",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Petar",
+     "lastName": "Ratkov",
+     "shirtName": "Petar Ratkov",
+     "displayName": "Ratkov",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::317f90e84ebc4866b303fe44867825d6",
+     "providerId": "opta:Player:cjgrtf1xc97ir3b64cnl9ecyc",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Reda",
+     "lastName": "Belahyane",
+     "shirtName": "Reda Belahyane",
+     "displayName": "Belahyane",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::38861941353d48968b5312cfe5ff32b7",
+     "providerId": "opta:Player:ho87m362sey4msdjp4n180oa",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Matteo",
+     "lastName": "Cancellieri",
+     "shirtName": "M. Cancellieri",
+     "displayName": "Cancellieri",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::230ed488be8043b5add42c2ab7b1b72a",
+     "providerId": "opta:Player:62uaf4amxdyz6j2fuvadp0no5",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Elseid",
+     "lastName": "Hysaj",
+     "shirtName": "Elseid Hysaj",
+     "displayName": "Hysaj",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8bb18ae810b34b4aa89fc0cfb0ccbf35",
+     "providerId": "opta:Player:7hukebiijqntuvetwzralzuju",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Oliver Provstgaard",
+     "lastName": "Nielsen",
+     "shirtName": "Oliver Provstgaard",
+     "displayName": "Provstgaard",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::315053caa8a74d6ab0be8724c8d0c10e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::94eb4add15984cdfb7fd6a5769c1f089",
+     "providerId": "kama:Player:100673",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Adrian",
+     "lastName": "Przyborek",
+     "shirtName": "Adrian Rafal Przyborek",
+     "displayName": "Przyborek",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fd305b16dbdc46c18c0de85ce5bcdac5",
+     "providerId": "opta:Player:8w2rfa3vnu6t1a37510374nv9",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Manuel",
+     "lastName": "Lazzari",
+     "shirtName": "M. Lazzari",
+     "displayName": "Lazzari",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0c6275822d8f414991d7fc01f42d8c38",
+     "providerId": "kama:Player:99070",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Arijanet Anan",
+     "lastName": "Murić",
+     "shirtName": "Arijanet Murić",
+     "displayName": "Murić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::81c9e3d7e6d94a7384066d055f96a06b",
+     "providerId": "opta:Player:68iplmlkdp5wkgnlnnanj9be1",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Woyo",
+     "lastName": "Coulibaly",
+     "shirtName": "Woyo Coulibaly",
+     "displayName": "W. Coulibaly",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::92d8dd7d3de74369bddf1d125ed5bbad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8057b4914e084f28aba58281a65a589c",
+     "providerId": "opta:Player:7nfr8xuo637qma7ovxx4r9fmy",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Jay Noah",
+     "lastName": "Idzes",
+     "shirtName": "Jay Idzes",
+     "displayName": "Idzes",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4a4e1ff8686341f98a7270a97605dd2a",
+     "providerId": "opta:Player:17inz8artrqynbg3qbme42r8q",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Tarik",
+     "lastName": "Muharemović",
+     "shirtName": "Tarik Muharemović",
+     "displayName": "Muharemović",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dc2ae0b65ab4443588120e20b73a0d54",
+     "providerId": "kama:Player:100716",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Ulisses Alexandre",
+     "lastName": "Garcia Lopes",
+     "shirtName": "Ulisses Garcia",
+     "displayName": "Garcia",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::863e4f06366d4728b311e9aa7a568696"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d48a6ffbde8f4ad58ae8d9f9443792e7",
+     "providerId": "kama:Player:98957",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Ismaël Kenneth",
+     "lastName": "Koné",
+     "shirtName": "Ismaël Koné",
+     "displayName": "I. Koné",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8206e9fae6884dc69410699ac7f1a969"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d37b584e9071448ca0504a0a217103f0",
+     "providerId": "opta:Player:9cv979t3dmbwoy586m01xdvkk",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Luca",
+     "lastName": "Lipani",
+     "shirtName": "Luca Lipani",
+     "displayName": "Lipani",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 37,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::44e451711e664fd4875632c28cd8fd2a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::51a8972006ab47c9a0aa07a018f46b60",
+     "providerId": "opta:Player:cc04mat3snly9oe4bt7xaeooa",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Kristian",
+     "lastName": "Thorstvedt",
+     "shirtName": "Kristian Thorstvedt",
+     "displayName": "Thorstvedt",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3899fafda37541d8a5c395226d5e9c38",
+     "providerId": "opta:Player:m030tubgf3zpgf0axzm7z26t",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Domenico",
+     "lastName": "Berardi",
+     "shirtName": "D. Berardi",
+     "displayName": "Berardi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a53cdd08f2164df2850c0371463911cc",
+     "providerId": "opta:Player:8zltxvt0rcrcv96x1wmdhlrrp",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Mbala",
+     "lastName": "Nzola",
+     "shirtName": "M'Bala Nzola",
+     "displayName": "Nzola",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dd4b8149f2c14166849c809b20c38fb4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::797109e26eb346e3a6de69944030f6ea",
+     "providerId": "opta:Player:27xj7me8icr5ptta7kwx0kfs9",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Armand Gaetan",
+     "lastName": "Laurienté",
+     "shirtName": "Armand Laurienté",
+     "displayName": "Laurienté",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 35,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::51a8972006ab47c9a0aa07a018f46b60"
+      },
+      {
+       "type": "yellow-card",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b10dca672e374b858d71d691bc041009",
+     "providerId": "opta:Player:wiyhb64zg4hxe0dussuc3209",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Giacomo",
+     "lastName": "Satalino",
+     "shirtName": "Giacomo Satalino",
+     "displayName": "Satalino",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7ee9be263d9542faa19317ebdd17e027",
+     "providerId": "opta:Player:5jfy7133kfbmyl8ur6ze9y2ju",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Stefano",
+     "lastName": "Turati",
+     "shirtName": "S. Turati",
+     "displayName": "Turati",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1eab7370f43341dc8c9e7058debd7866",
+     "providerId": "opta:Player:1vzkayk22kpci17ggh5kkc3u2",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Gioele",
+     "lastName": "Zacchi",
+     "shirtName": "Gioele Zacchi",
+     "displayName": "Zacchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::863e4f06366d4728b311e9aa7a568696",
+     "providerId": "opta:Player:7uf7y7xa6hy3gieetcte3td2i",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Josh Thomas",
+     "lastName": "Doig",
+     "shirtName": "Josh Doig",
+     "displayName": "Doig",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::dc2ae0b65ab4443588120e20b73a0d54"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::92d8dd7d3de74369bddf1d125ed5bbad",
+     "providerId": "opta:Player:dnk24js88d4ie661mwo7jkq95",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Sebastian",
+     "lastName": "Walukiewicz",
+     "shirtName": "Sebastian Walukiewicz",
+     "displayName": "Walukiewicz",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::81c9e3d7e6d94a7384066d055f96a06b"
+      },
+      {
+       "type": "yellow-card",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bacb2fa09efd437f9a2b7c7d6fbae18e",
+     "providerId": "opta:Player:bh9jia8qgkhpm5xn82bx0hhck",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Cristian",
+     "lastName": "Volpato",
+     "shirtName": "C. Volpato",
+     "displayName": "Volpato",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::44e451711e664fd4875632c28cd8fd2a",
+     "providerId": "opta:Player:c5a7z6vphv9tp9ddid5jnrnx1",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Nemanja",
+     "lastName": "Matić",
+     "shirtName": "N. Matic",
+     "displayName": "Matić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d37b584e9071448ca0504a0a217103f0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dd94d6d9abac493db8fb0dab6e1d61fc",
+     "providerId": "opta:Player:61c395xuimpxo2439p8mt3y6t",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Filippo",
+     "lastName": "Romagna",
+     "shirtName": "Filippo Romagna",
+     "displayName": "Romagna",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::dd4b8149f2c14166849c809b20c38fb4",
+     "providerId": "opta:Player:5o8qoe2fv7ppwrwdyx6v5fdd6",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Luca",
+     "lastName": "Moro",
+     "shirtName": "Luca Moro",
+     "displayName": "L. Moro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a53cdd08f2164df2850c0371463911cc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::92d1c239f8fe47c4b9c649feaf99f79b",
+     "providerId": "opta:Player:72vim7cq99zdjjwivwtr773vu",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Aster Jan",
+     "lastName": "Vranckx",
+     "shirtName": "Aster Vranckx",
+     "displayName": "Vranckx",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c735b932a19f4095a9671533d8a6170c",
+     "providerId": "opta:Player:2r1hv8jivl8q2zd3egpipfe38",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Edoardo",
+     "lastName": "Iannoni",
+     "shirtName": "Edoardo Iannoni",
+     "displayName": "Iannoni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8206e9fae6884dc69410699ac7f1a969",
+     "providerId": "kama:Player:100721",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Darryl Georges",
+     "lastName": "Bakola",
+     "shirtName": "Darryl Bakola",
+     "displayName": "Bakola",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d48a6ffbde8f4ad58ae8d9f9443792e7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::dfbf92e44ffa4e368ac50d4c8b095adc",
+     "providerId": "opta:Player:4u0o6pfpmohhbzuggq31bj02c",
+     "side": "away",
+     "team": "Sassuolo",
+     "firstName": "Pedro Felipe",
+     "lastName": "De Jesus Gomes",
+     "shirtName": "Pedro Felipe",
+     "displayName": "Pedro Felipe",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:25:15.356Z",
+   "sha256": "27f611fd7a14339dea6ce2c69b979ff3751b5876af219642d5a7bb6b5f04cf05"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:29:00.100Z",
+   "sha256": "900c0181374dd76cb0448ee13ff7869bb26bd249dc9526e13e8cd0327e60a504",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Motta",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Patric",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Romagnoli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marusic",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tavares N.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gila",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Provstgaard",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cataldi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zaccagni",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Maldini",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Isaksen",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Dele-Bashiru",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Taylor K.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pedro",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cancellieri",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dia",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Muric",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 3,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 3,
+     "votoItalia": 5,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Walukiewicz",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Doig",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Garcia U.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Coulibaly W.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Idzes",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Muharemovic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Matic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Thorstvedt",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lipani",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Konè I.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bakola",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Berardi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Nzola",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Laurientè",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Sassuolo",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Moro L.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 2 - 1 Sassuolo 09/03/2026 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

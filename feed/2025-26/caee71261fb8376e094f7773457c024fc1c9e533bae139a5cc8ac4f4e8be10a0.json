@@ -1,0 +1,1516 @@
+{
+ "label": "Fiorentina-Parma (g28)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-03-08T14:00:00Z",
+  "hoursAfterKickoff": 5082.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:29:00.100Z",
+  "sha256": "900c0181374dd76cb0448ee13ff7869bb26bd249dc9526e13e8cd0327e60a504"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::68ca0635f3144d56af8bb6098b9c8369",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-03-08T14:00:00Z",
+   "matchday": 28,
+   "home": "Fiorentina",
+   "away": "Parma",
+   "homeTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "awayTeamId": "serie-a::Football_Team::3294993c79b14d918ccdc78da0fb90c5",
+   "homeScore": 0,
+   "awayScore": 0,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::68ca0635f3144d56af8bb6098b9c8369",
+   "homeTeam": "Fiorentina",
+   "awayTeam": "Parma",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::7eea4a3905274129bc4fdfec8574cc43",
+     "providerId": "opta:Player:e00004wkpfc8jawioejmpu1n9",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "David",
+     "lastName": "De Gea Quintana",
+     "shirtName": "David de Gea",
+     "displayName": "de Gea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51",
+     "providerId": "opta:Player:9e3t2wyjqzxsn690aysao8cfd",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Domilson",
+     "lastName": "Cordeiro Dos Santo",
+     "shirtName": "Dodô",
+     "displayName": "Dodô",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::80838af7be514e3fa7e32f7fb54b4f02",
+     "providerId": "opta:Player:9qow77e16pvlb3860yjpydryt",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Robin Everardus",
+     "lastName": "Gosens",
+     "shirtName": "Robin Gosens",
+     "displayName": "Gosens",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::000931a496414061b3387beb069c8593",
+     "providerId": "opta:Player:dpnp9rguhhs04of6vmlw5spg5",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Rolando",
+     "lastName": "Mandragora",
+     "shirtName": "Rolando Mandragora",
+     "displayName": "Mandragora",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc",
+     "providerId": "opta:Player:kvbjuvcseqk4sbr04ctkqi38",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Cher",
+     "lastName": "Ndour",
+     "shirtName": "Cher Ndour",
+     "displayName": "Ndour",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4",
+     "providerId": "opta:Player:ejzxqtdo5xxvbg6gvtju3lk9h",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Albert",
+     "lastName": "Guðmundsson",
+     "shirtName": "Albert Gudmundsson",
+     "displayName": "Guðmundsson",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ab56be09c4ce4c818b456701f7106643",
+     "providerId": "kama:Player:100589",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Jack David",
+     "lastName": "Harrison",
+     "shirtName": "Jack Harrison",
+     "displayName": "Harrison",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f482d085c5d54d4fbec57f21b376c64e",
+     "providerId": "opta:Player:7wpqn7j9sggde96ofmzuxif4k",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Leonardelli",
+     "shirtName": "Pietro Leonardelli",
+     "displayName": "Leonardelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a32fc40b8644de68e49a77591741565",
+     "providerId": "opta:Player:1sjt0nj0232gu88x50c3d16nd",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Oliver",
+     "lastName": "Christensen",
+     "shirtName": "Oliver Christensen",
+     "displayName": "Christensen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1f830d3aee9a4a21b6b95324c1f60452",
+     "providerId": "opta:Player:bh3b7e2qzh41dltd6h2obpln9",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Daniele",
+     "lastName": "Rugani",
+     "shirtName": "Daniele Rugani",
+     "displayName": "Rugani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511",
+     "providerId": "opta:Player:1f37bo8dikes3350u2a0h9hm2",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Marco",
+     "lastName": "Brescianini",
+     "shirtName": "Marco Brescianini",
+     "displayName": "Brescianini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63",
+     "providerId": "opta:Player:9srjp22oprs2tkcutb2g4o2dw",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Comuzzo",
+     "shirtName": "Pietro Comuzzo",
+     "displayName": "Comuzzo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5",
+     "providerId": "opta:Player:6e9fu9o226zn6jzx02jutvi3u",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Jacopo",
+     "lastName": "Fazzini",
+     "shirtName": "Jacopo Fazzini",
+     "displayName": "Fazzini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ab56be09c4ce4c818b456701f7106643"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122",
+     "providerId": "opta:Player:c4bccspnyg73206u27nhiwu1g",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Niccolo’",
+     "lastName": "Fortini",
+     "shirtName": "Niccolò Fortini",
+     "displayName": "Fortini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf",
+     "providerId": "kama:Player:1479",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Nda Konan Bienvenu Ange Eddy",
+     "lastName": "Kouadio",
+     "shirtName": "Eddy Kouadio",
+     "displayName": "Kouadio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::05d78c4a9e8243bc9408c728928b46a7",
+     "providerId": "kama:Player:5234",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Riccardo",
+     "lastName": "Braschi",
+     "shirtName": "Riccardo Braschi",
+     "displayName": "Braschi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de4ba766d0fe4f37910f084f2e65d62b",
+     "providerId": "kama:Player:5332",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Luís Francisco",
+     "lastName": "Balbo Vieira",
+     "shirtName": "Luís Balbo",
+     "displayName": "Luís Balbo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15",
+     "providerId": "opta:Player:4j3d7ujmhevsi0y3zvs34i13o",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Giovanni",
+     "lastName": "Fabbian",
+     "shirtName": "Giovanni Fabbian",
+     "displayName": "Fabbian",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::000931a496414061b3387beb069c8593"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c34da415302b4416a28d463708a8ec16",
+     "providerId": "opta:Player:ais3wh8wz8oeyjpwv84o4ybfu",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Edoardo",
+     "lastName": "Corvi",
+     "shirtName": "Edoardo Corvi",
+     "displayName": "Corvi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d58bdcc9557641d3868baea58a37bdf3",
+     "providerId": "opta:Player:d9bg5jjv8pz0f8u55x3hg0962",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Emanuele",
+     "lastName": "Valeri",
+     "shirtName": "Emanuele Valeri",
+     "displayName": "Valeri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9cf5d7690d324ad2b61516ca923dbc05",
+     "providerId": "opta:Player:c1sj6aogyfpm5wqvhd2bli7e",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Alessandro",
+     "lastName": "Circati",
+     "shirtName": "Alessandro Circati",
+     "displayName": "Circati",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::038ef975d5434ce6a293c9497fd6bb65",
+     "providerId": "kama:Player:99291",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Mariano Emir",
+     "lastName": "Troilo",
+     "shirtName": "Mariano Troilo",
+     "displayName": "Troilo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a01dba5f6172497b9d2f35d1cb37d24a",
+     "providerId": "opta:Player:r9rn4eaw3twb224jrpojz0x6",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Enrico",
+     "lastName": "Delprato",
+     "shirtName": "Enrico Delprato",
+     "displayName": "Delprato",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18105742a5e94cd9a0d31ac35bc60506",
+     "providerId": "kama:Player:99071",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Oliver Sørensen",
+     "lastName": "Jensen",
+     "shirtName": "Oliver Sørensen",
+     "displayName": "Sørensen",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::abcfe9eb7e2a40eaad6b03168cb911bb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4b27493789914a909a54f27f57cd3e45",
+     "providerId": "opta:Player:cjf412x9sg56vos0jkj85k3ys",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Lamine Mandela",
+     "lastName": "Keita",
+     "shirtName": "Mandela Keita",
+     "displayName": "Keita",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::580e2f5d129542e2bcc9ea5436adf6a1",
+     "providerId": "opta:Player:a6lo3s66xv87llkhwveoq1vqh",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Hans",
+     "lastName": "Nicolussi Caviglia",
+     "shirtName": "Hans Nicolussi Caviglia",
+     "displayName": "Nicolussi C.",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ffb55f8e4e384f1d86a923e70d2629d2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::46afafc5e885483e954daa8e73863370",
+     "providerId": "kama:Player:99339",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Benjamin",
+     "lastName": "Cremaschi",
+     "shirtName": "Benjamin Cremaschi",
+     "displayName": "Cremaschi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::526c1ebfad434e53936bb1c7e24db3a5",
+     "providerId": "opta:Player:44f0q2ucrld1rwcwx63vgs7hl",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Gabriel",
+     "lastName": "Strefezza",
+     "shirtName": "Gabriel Strefezza",
+     "displayName": "Strefezza",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cfeb1d0545a64b06bee7773550f7198c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a",
+     "providerId": "opta:Player:7maur0rp96hubnkuu84576wpg",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Mateo",
+     "lastName": "Pellegrino Casalanguida",
+     "shirtName": "Mateo Pellegrino",
+     "displayName": "Pellegrino",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::32277e2f0cf844a6a422442a6589b60d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::46948dee4bd54172a455ffab38485dbc",
+     "providerId": "opta:Player:2mfunwzltzdnmzlcjyvx752i",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Zion",
+     "lastName": "Suzuki",
+     "shirtName": "Zion Suzuki",
+     "displayName": "Suzuki",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d24795262b354d0bb0fb4ab37dae7ced",
+     "providerId": "opta:Player:824rbovqk1q9ta7i4dzo26bmy",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Filippo",
+     "lastName": "Rinaldi",
+     "shirtName": "Filippo Rinaldi",
+     "displayName": "Rinaldi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7aa85c09d04442e0a1ace1a67c01554d",
+     "providerId": "kama:Player:99033",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Abdoulaye Niakhate",
+     "lastName": "Ndiaye",
+     "shirtName": "Abdoulaye Ndiaye",
+     "displayName": "Ndiaye",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abcfe9eb7e2a40eaad6b03168cb911bb",
+     "providerId": "opta:Player:1to07m18m7wqroewvyxzrz0lx",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Nahuel",
+     "lastName": "Estevez Alvarez",
+     "shirtName": "Nahuel Estévez",
+     "displayName": "Estévez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::18105742a5e94cd9a0d31ac35bc60506"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f1f86134a2ac4290ba546f5b014e061f",
+     "providerId": "opta:Player:4s3dvpdloqr1hpl9svn8rk222",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Jacob Axel Per",
+     "lastName": "Ondrejka",
+     "shirtName": "Jacob Ondrejka",
+     "displayName": "Ondrejka",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cfeb1d0545a64b06bee7773550f7198c",
+     "providerId": "opta:Player:3kbhgmnf6bhfgut0jxf4m2sfe",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Gaetano Pio",
+     "lastName": "Oristanio",
+     "shirtName": "Gaetano Oristanio",
+     "displayName": "Oristanio",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::526c1ebfad434e53936bb1c7e24db3a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::32277e2f0cf844a6a422442a6589b60d",
+     "providerId": "kama:Player:100659",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Nesta",
+     "lastName": "Elphege",
+     "shirtName": "Nesta Elphege",
+     "displayName": "Elphege",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4a169fd8f794bb289e98199c374e06a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffb55f8e4e384f1d86a923e70d2629d2",
+     "providerId": "kama:Player:98352",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Christian Nahuel",
+     "lastName": "Ordonez",
+     "shirtName": "Christian Ordóñez",
+     "displayName": "Ordoñez",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 54,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::580e2f5d129542e2bcc9ea5436adf6a1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::98c74629e3a0424eaa0f457eb4392dab",
+     "providerId": "opta:Player:ejmdm3h3oxr0fqubd5sbozq0a",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Franco Ezequiel",
+     "lastName": "Carboni",
+     "shirtName": "Franco Carboni",
+     "displayName": "F. Carboni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e439004a5b1145d1b8726576fe669ef2",
+     "providerId": "kama:Player:1558",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Marlon",
+     "lastName": "Mena Martínez",
+     "shirtName": "Marlon Mena",
+     "displayName": "Mena",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5f7b8516e8e64775817ed94a57cf2d7e",
+     "providerId": "kama:Player:1338",
+     "side": "away",
+     "team": "Parma",
+     "firstName": "Bernardo",
+     "lastName": "Conde",
+     "shirtName": "Bernardo Conde",
+     "displayName": "Conde",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:25:10.279Z",
+   "sha256": "9f88fb788b91b774acf09a4e97569818786e583f11c75359cdac9c0a1efad385"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:29:00.100Z",
+   "sha256": "900c0181374dd76cb0448ee13ff7869bb26bd249dc9526e13e8cd0327e60a504",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "De Gea",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gosens",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ranieri L.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dodò",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Comuzzo",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mandragora",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Brescianini",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Harrison",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gudmundsson A.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fazzini",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fabbian",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndour",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Corvi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valeri",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Circati",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Delprato",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Troilo",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Nicolussi Caviglia",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Strefezza",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Estevez",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Oristanio",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Keita M.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ordonez C.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sorensen O.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cremaschi",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pellegrino M.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/28",
+      "estrattoIl": "2026-10-06T08:29:00.100Z"
+     },
+     "squadraRaw": "Parma",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Elphege",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 0 - 0 Parma 08/03/2026 - 15:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

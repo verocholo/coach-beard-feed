@@ -1,0 +1,1715 @@
+{
+ "label": "Fiorentina-Udinese (g16)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-12-21T17:00:00Z",
+  "hoursAfterKickoff": 6927.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:40.861Z",
+  "sha256": "b7e9c72778ac6c9b287bd939e65827540382882e4f08b69e6cc29384702b4e76"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::91a5334c3a384c14a996f17c541a075e",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-12-21T17:00:00Z",
+   "matchday": 16,
+   "home": "Fiorentina",
+   "away": "Udinese",
+   "homeTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "awayTeamId": "serie-a::Football_Team::630b1e3631db42498d1b7bc94595c5e0",
+   "homeScore": 5,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 4
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::91a5334c3a384c14a996f17c541a075e",
+   "homeTeam": "Fiorentina",
+   "awayTeam": "Udinese",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::7eea4a3905274129bc4fdfec8574cc43",
+     "providerId": "opta:Player:e00004wkpfc8jawioejmpu1n9",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "David",
+     "lastName": "De Gea Quintana",
+     "shirtName": "David de Gea",
+     "displayName": "de Gea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63",
+     "providerId": "opta:Player:9srjp22oprs2tkcutb2g4o2dw",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Comuzzo",
+     "shirtName": "Pietro Comuzzo",
+     "displayName": "Comuzzo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51",
+     "providerId": "opta:Player:9e3t2wyjqzxsn690aysao8cfd",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Domilson",
+     "lastName": "Cordeiro Dos Santo",
+     "shirtName": "Dodô",
+     "displayName": "Dodô",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646",
+     "providerId": "opta:Player:8dgh4fzut8khpt32d6dsrljsa",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Fabiano",
+     "lastName": "Parisi",
+     "shirtName": "F. Parisi",
+     "displayName": "Parisi",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 40,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bdc070e8a5964a7188c228293722fced"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::000931a496414061b3387beb069c8593",
+     "providerId": "opta:Player:dpnp9rguhhs04of6vmlw5spg5",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Rolando",
+     "lastName": "Mandragora",
+     "shirtName": "Rolando Mandragora",
+     "displayName": "Mandragora",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 21,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      },
+      {
+       "type": "substitution-out",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::580e2f5d129542e2bcc9ea5436adf6a1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc",
+     "providerId": "opta:Player:kvbjuvcseqk4sbr04ctkqi38",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Cher",
+     "lastName": "Ndour",
+     "shirtName": "Cher Ndour",
+     "displayName": "Ndour",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 45,
+       "additionalTime": 5,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4",
+     "providerId": "opta:Player:ejzxqtdo5xxvbg6gvtju3lk9h",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Albert",
+     "lastName": "Guðmundsson",
+     "shirtName": "Albert Gudmundsson",
+     "displayName": "Guðmundsson",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 42,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac",
+     "providerId": "opta:Player:3zqpvn7r1c779l9vwwh7yukfd",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Bioty Moise",
+     "lastName": "Kean",
+     "shirtName": "Moise Kean",
+     "displayName": "Kean",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "goal",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51"
+      },
+      {
+       "type": "substitution-out",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d58bb19e4fac428c91c7d3d22c54aeb8",
+     "providerId": "opta:Player:bgwbowoiz7t2lvpit75zlqz11",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Lezzerini",
+     "shirtName": "Luca Lezzerini",
+     "displayName": "Lezzerini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7010f5d11294dae84684c62572d4d6b",
+     "providerId": "opta:Player:4jh6mywmhugi4ltyhq5vd5ij8",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Tommaso",
+     "lastName": "Martinelli",
+     "shirtName": "Tommaso Martinelli",
+     "displayName": "Martinelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b3e34cb840d443e48360b4af40f06917",
+     "providerId": "emg:Player:DZKDN|opta:Player:a5eki9p236y4zxmp9qz202pcl",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Edin",
+     "lastName": "Dzeko",
+     "shirtName": "Edin Dzeko",
+     "displayName": "Džeko",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::580e2f5d129542e2bcc9ea5436adf6a1",
+     "providerId": "opta:Player:a6lo3s66xv87llkhwveoq1vqh",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Hans",
+     "lastName": "Nicolussi Caviglia",
+     "shirtName": "Hans Nicolussi Caviglia",
+     "displayName": "Nicolussi C.",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      },
+      {
+       "type": "yellow-card",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fe9b2f009a9d4f1faef51ea3b9754e8f",
+     "providerId": "kama:Player:98383",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Eman",
+     "lastName": "Košpo",
+     "shirtName": "Eman Kospo",
+     "displayName": "Košpo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0ddde8a585e94c82bc75bf08263ed5ea",
+     "providerId": "opta:Player:45lcfmo0varfc325n562ul2j8",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Michael Amir Junior",
+     "lastName": "Richardson",
+     "shirtName": "Amir Richardson",
+     "displayName": "Richardson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe",
+     "providerId": "opta:Player:2e0ipswbkv4vf7lav6ee1j3oq",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Mattia",
+     "lastName": "Viti",
+     "shirtName": "Mattia Viti",
+     "displayName": "Viti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122",
+     "providerId": "opta:Player:c4bccspnyg73206u27nhiwu1g",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Niccolo’",
+     "lastName": "Fortini",
+     "shirtName": "Niccolò Fortini",
+     "displayName": "Fortini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::000931a496414061b3387beb069c8593"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf",
+     "providerId": "kama:Player:1479",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Nda Konan Bienvenu Ange Eddy",
+     "lastName": "Kouadio",
+     "shirtName": "Eddy Kouadio",
+     "displayName": "Kouadio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdc070e8a5964a7188c228293722fced",
+     "providerId": "opta:Player:6gjn7pt0i34q45g4porckuj8p",
+     "side": "home",
+     "team": "Fiorentina",
+     "firstName": "Kouakou Christian",
+     "lastName": "Kouame",
+     "shirtName": "C. Kouamé",
+     "displayName": "Kouamé",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::577277231cb84394a7d96c70a11a528f",
+     "providerId": "opta:Player:70ps22rygrlq3msxgwmesowyx",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Emil Maduka",
+     "lastName": "Okoye",
+     "shirtName": "Maduka Okoye",
+     "displayName": "Okoye",
+     "starter": true,
+     "events": [
+      {
+       "type": "red-card",
+       "time": 7,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8c5ec14ba3bf4e1fa505c0bff2fbaa52",
+     "providerId": "opta:Player:6rbsjfwx4pon2d1vu3k7ojxuc",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Thomas Thiesson",
+     "lastName": "Kristensen",
+     "shirtName": "Thomas Kristensen",
+     "displayName": "Kristensen",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::700f9b23586149c6a32011198f8e928a",
+     "providerId": "opta:Player:5ljs2bj3wwiurcyxiwka2i8d1",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Christian",
+     "lastName": "Kabasele",
+     "shirtName": "Christian Kabasele",
+     "displayName": "Kabasele",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 10,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c66a8f0dd6dd43e6b06c5a4890d52a12"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aa46c1e9504d4070876a364bc69fc470",
+     "providerId": "opta:Player:cet0tgjv82l6ao07ij1ylgp9l",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Oumar Mickael",
+     "lastName": "Solet Bomawoko",
+     "shirtName": "Oumar Solet",
+     "displayName": "Solet",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::450a3f00ad6b48838ecae9c93a3abf01"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1a115e96dce24288ae6ac16522b66ceb",
+     "providerId": "opta:Player:7kbn6vt37rfgd9yszzvx9idm2",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Alessandro",
+     "lastName": "Zanoli",
+     "shirtName": "A. Zanoli",
+     "displayName": "Zanoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 39,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::18ccff309d1c46efbab30d302ece28e7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ab6119135bdc4a09b35d54fab9e6fa92",
+     "providerId": "opta:Player:8kioh2rzit592d4zwjoqsftas",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Nicolò",
+     "lastName": "Bertola",
+     "shirtName": "N. Bertola",
+     "displayName": "Bertola",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::450a3f00ad6b48838ecae9c93a3abf01",
+     "providerId": "kama:Player:98928",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jakub",
+     "lastName": "Piotrowski",
+     "shirtName": "Jakub Piotrowski",
+     "displayName": "Piotrowski",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::75e8a5f9f7c54239aaf5c7620816ca7a",
+     "providerId": "opta:Player:agnmzpaj62lzsavtq43uxt4gl",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jesper",
+     "lastName": "Karlström",
+     "shirtName": "Jesper Karlström",
+     "displayName": "Karlström",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e8f6079ece014914adab3caf2e98babb",
+     "providerId": "opta:Player:d19yalwh3i2olvpwoi89feqjt",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Jurgen",
+     "lastName": "Ekkelenkamp",
+     "shirtName": "Jurgen Ekkelenkamp",
+     "displayName": "Ekkelenkamp",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1c89b95ec197444798e975aede089c2c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f7bce030bb504b87b9411db54d75480f",
+     "providerId": "opta:Player:eu4xivu8i6yla9fcnuncx1ucp",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Nicolò",
+     "lastName": "Zaniolo",
+     "shirtName": "Nicolò Zaniolo",
+     "displayName": "Zaniolo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4f65b66648584493baf8b6a7a025413b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bceddc37986049e09f271927bd712727",
+     "providerId": "opta:Player:bdg3xeth77c0nw61hvj5fct0p",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Keinan Vincent Joseph",
+     "lastName": "Davis",
+     "shirtName": "Keinan Davis",
+     "displayName": "Davis",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4c54d51902bb49dbb90c4c01a3d955a2"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::39bf574edd7d46c1b26d118e7bf79cf2",
+     "providerId": "opta:Player:cnop9ik6yyu7ozratrz5r54pg",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Alessandro",
+     "lastName": "Nunziante",
+     "shirtName": "Alessandro Nunziante",
+     "displayName": "Nunziante",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c66a8f0dd6dd43e6b06c5a4890d52a12",
+     "providerId": "opta:Player:9kp0q3f77gz8f5e2qumj6kpyi",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Razvan Sergiu",
+     "lastName": "Sava",
+     "shirtName": "Razvan Sava",
+     "displayName": "Sava",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 10,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::700f9b23586149c6a32011198f8e928a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f42dc8a471d44f2d8cb4a23c2cb0fefc",
+     "providerId": "opta:Player:al3t9fzj4ab55yux0zkd1jkr9",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Daniele",
+     "lastName": "Padelli",
+     "shirtName": "Daniele Padelli",
+     "displayName": "Padelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::50a60abf290e4880afe7411c15616fb2",
+     "providerId": "opta:Player:6pzskxh8wy2b4gaf4kj6zuivo",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Saba",
+     "lastName": "Goglichidze",
+     "shirtName": "Saba Goglichidze",
+     "displayName": "Goglichidze",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4f65b66648584493baf8b6a7a025413b",
+     "providerId": "opta:Player:13o5eskqs8b88yerwltk0tivp",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Sandi",
+     "lastName": "Lovrić",
+     "shirtName": "Sandi Lovrić",
+     "displayName": "Lovrić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f7bce030bb504b87b9411db54d75480f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5931a8de6cc3493ebdaa0b4c30758add",
+     "providerId": "opta:Player:488vwilxllk6nhf4o1wrh0gve",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Oier",
+     "lastName": "Zarraga Egana",
+     "shirtName": "Oier Zarraga",
+     "displayName": "Zarraga",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1c89b95ec197444798e975aede089c2c",
+     "providerId": "kama:Player:99617",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Idrissa",
+     "lastName": "Gueye",
+     "shirtName": "Idrissa Gueye",
+     "displayName": "Gueye",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8f6079ece014914adab3caf2e98babb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::18ccff309d1c46efbab30d302ece28e7",
+     "providerId": "opta:Player:95qrrtlyz4ikkzjbgy6exbnit",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Hassane",
+     "lastName": "Kamara",
+     "shirtName": "Hassane Kamara",
+     "displayName": "Kamara",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1a115e96dce24288ae6ac16522b66ceb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::663b54dec4a14f3bb02e940c87a699c8",
+     "providerId": "opta:Player:b4qo4uwejb2o323k7lgefzac4",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Matteo",
+     "lastName": "Palma",
+     "shirtName": "Matteo Palma",
+     "displayName": "Palma",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::74e3b0dfd49c49e582c6d804539367e7",
+     "providerId": "opta:Player:6ffcfr6a1l2p5crr71rb5szys",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Iker",
+     "lastName": "Bravo Solanilla",
+     "shirtName": "Iker Bravo",
+     "displayName": "Iker Bravo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4c54d51902bb49dbb90c4c01a3d955a2",
+     "providerId": "opta:Player:elhmf9cc26ec5p1wnwonuxf4l",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Adam",
+     "lastName": "Buksa",
+     "shirtName": "Adam Buksa",
+     "displayName": "Buksa",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bceddc37986049e09f271927bd712727"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::52d5b4022e8e431aa4b4c8983843965b",
+     "providerId": "opta:Player:dfckk0xst90yjlep74tvups5x",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Kingsley Osezele",
+     "lastName": "Ehizibue",
+     "shirtName": "Kingsley Ehizibue",
+     "displayName": "Ehizibue",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::99bc11d4d74d4fbc8b911367fdc47001",
+     "providerId": "kama:Player:98444",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Abdoulaye",
+     "lastName": "Camara",
+     "shirtName": "Abdoulaye Camara",
+     "displayName": "Camara",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f97b651b46874386ab92d0e88d27e490",
+     "providerId": "kama:Player:99184",
+     "side": "away",
+     "team": "Udinese",
+     "firstName": "Lennon",
+     "lastName": "Miller",
+     "shirtName": "Lennon Miller",
+     "displayName": "Miller",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:21:38.774Z",
+   "sha256": "83e9cd8f916341647efbb30084930c7f9058a7d05e26549deda25a9db3af2925"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:40.861Z",
+   "sha256": "b7e9c72778ac6c9b287bd939e65827540382882e4f08b69e6cc29384702b4e76",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "De Gea",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ranieri L.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Parisi",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Viti",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dodò",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 8,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Comuzzo",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Fortini",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mandragora",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Nicolussi Caviglia",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 9,
+     "votoItalia": 7,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 2,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gudmundsson A.",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndour",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kean",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 13.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 13.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 13.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kouamè",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Okoye",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 3,
+     "votoItalia": 4,
+     "fantavotoItalia": 3,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Sava",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 0,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 0,
+     "votoItalia": 5,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 5,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kabasele",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zanoli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kamara H.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bertola",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kristensen T.",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Solet",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 9,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 9,
+     "votoItalia": 6,
+     "fantavotoItalia": 9,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zaniolo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Lovric",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Karlstrom",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ekkelenkamp",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Piotrowski",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Davis K.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Buksa",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/16",
+      "estrattoIl": "2026-10-06T08:28:40.861Z"
+     },
+     "squadraRaw": "Udinese",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Gueye",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Fiorentina 5 - 1 Udinese 21/12/2025 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

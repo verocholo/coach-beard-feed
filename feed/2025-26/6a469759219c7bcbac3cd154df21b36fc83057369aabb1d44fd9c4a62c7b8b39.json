@@ -1,0 +1,1701 @@
+{
+ "label": "Lazio-Como (g21)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-01-19T19:45:00Z",
+  "hoursAfterKickoff": 6228.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:48.923Z",
+  "sha256": "7453ed43e3245985e4e41743522ae721c4c04f792f0b0b9debf31bb7619eac63"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::dbc541d6467647ac86ccc3bba334c8c3",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-01-19T19:45:00Z",
+   "matchday": 21,
+   "home": "Lazio",
+   "away": "Como",
+   "homeTeamId": "serie-a::Football_Team::fe6490f2b16e45be9956a1cd04aaf3a2",
+   "awayTeamId": "serie-a::Football_Team::367e70bf50b346209f8a0f16429850cb",
+   "homeScore": 0,
+   "awayScore": 3,
+   "clockTime": 90,
+   "clockAdditionalTime": 3
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::dbc541d6467647ac86ccc3bba334c8c3",
+   "homeTeam": "Lazio",
+   "awayTeam": "Como",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::e0e39e3ec3b643a1b0d325ae86516cf9",
+     "providerId": "opta:Player:8n4rruxbnzvjgdomxslnmcno5",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Ivan",
+     "lastName": "Provedel",
+     "shirtName": "Ivan Provedel",
+     "displayName": "Provedel",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f69c6130a9394ce8ba49545549784479",
+     "providerId": "opta:Player:d7xdtkzw3h749ngi4sobn6kmh",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Luca",
+     "lastName": "Pellegrini",
+     "shirtName": "Luca Pellegrini",
+     "displayName": "Lu. Pellegrini",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fd305b16dbdc46c18c0de85ce5bcdac5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::315053caa8a74d6ab0be8724c8d0c10e",
+     "providerId": "opta:Player:7nwh5uoczypmuiigzi8ylsd1",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Alessio",
+     "lastName": "Romagnoli",
+     "shirtName": "Alessio Romagnoli",
+     "displayName": "Romagnoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 42,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::41bbde87e072481eadfee9ec7a9fdb87",
+     "providerId": "opta:Player:5gond4ss348863bc1768s4q",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Mario",
+     "lastName": "Gila Fuentes",
+     "shirtName": "Mario Gila",
+     "displayName": "Gila",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7e3ac8828eb94971b02ecfac4064d6bc",
+     "providerId": "opta:Player:a22hb1s02edsj7t38out5r3rp",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Adam",
+     "lastName": "Marušić",
+     "shirtName": "Adam Marušić",
+     "displayName": "Marušić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b0ba8865af6b497295c46fc7e8f12d63",
+     "providerId": "kama:Player:100526",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Kenneth Ina Dorothea",
+     "lastName": "Taylor",
+     "shirtName": "Kenneth Taylor",
+     "displayName": "Taylor",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8225dd96c7174c9493b6e77f324369a6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a0cb1115e2814bbe8181d06c6bd795c2",
+     "providerId": "opta:Player:6hlutndh6zstrpi5i0u0mxyvp",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Danilo",
+     "lastName": "Cataldi",
+     "shirtName": "Danilo Cataldi",
+     "displayName": "Cataldi",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 44,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c1e11a5f38b74d2ba5dc23c1fe037aaf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::317f90e84ebc4866b303fe44867825d6",
+     "providerId": "opta:Player:cjgrtf1xc97ir3b64cnl9ecyc",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Reda",
+     "lastName": "Belahyane",
+     "shirtName": "Reda Belahyane",
+     "displayName": "Belahyane",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5d188308b5a14e13bd61d64f792ecb69",
+     "providerId": "opta:Player:cfzvplhlvlfvau521u6b86xud",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Mattia",
+     "lastName": "Zaccagni",
+     "shirtName": "M. Zaccagni",
+     "displayName": "Zaccagni",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 21,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aba272b57bcc44a394bb4a90ef23d80e",
+     "providerId": "kama:Player:100511",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Petar",
+     "lastName": "Ratkov",
+     "shirtName": "Petar Ratkov",
+     "displayName": "Ratkov",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7c06889abf144462a381039c0a5bb5df"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::38861941353d48968b5312cfe5ff32b7",
+     "providerId": "opta:Player:ho87m362sey4msdjp4n180oa",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Matteo",
+     "lastName": "Cancellieri",
+     "shirtName": "M. Cancellieri",
+     "displayName": "Cancellieri",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fec04752003c4e30bdd70e07e39f8b4c",
+     "providerId": "opta:Player:1jv2z06bjokvswjhuo1xsxdgq",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Christos",
+     "lastName": "Mandas",
+     "shirtName": "Christos Mandas",
+     "displayName": "Mandas",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::187f6a3f5a994928a1335039c0bff5f0",
+     "providerId": "opta:Player:9otimgokxyef8248fo7h8msq",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Alessio",
+     "lastName": "Furlanetto",
+     "shirtName": "A. Furlanetto",
+     "displayName": "Furlanetto",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c1e11a5f38b74d2ba5dc23c1fe037aaf",
+     "providerId": "opta:Player:79e6khfyg3rdauul0yjlixv8q",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Nicolò",
+     "lastName": "Rovella",
+     "shirtName": "Nicolò Rovella",
+     "displayName": "Rovella",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a0cb1115e2814bbe8181d06c6bd795c2"
+      },
+      {
+       "type": "yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8225dd96c7174c9493b6e77f324369a6",
+     "providerId": "opta:Player:7f87a26gzayk0bfzbm42huuw9",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Oluwafisayo Faruq",
+     "lastName": "Dele-bashiru",
+     "shirtName": "Fisayo Dele-Bashiru",
+     "displayName": "Dele-Bashiru",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 85,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b0ba8865af6b497295c46fc7e8f12d63"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8a1cccd7bad54cba93bb1b0bc3ba8456",
+     "providerId": "opta:Player:d02p1ldr57bkxcpmq12vtvhsl",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Pedro",
+     "lastName": "Rodríguez Ledesma",
+     "shirtName": "Pedro",
+     "displayName": "Pedro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7c06889abf144462a381039c0a5bb5df",
+     "providerId": "opta:Player:71gwdg60saiwwwnnv6is52may",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Tijjani",
+     "lastName": "Noslin",
+     "shirtName": "Tijjani Noslin",
+     "displayName": "Noslin",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aba272b57bcc44a394bb4a90ef23d80e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8697e2d27e9b448d8c6cdb826dc41b9d",
+     "providerId": "opta:Player:dqsslq1iz1azubowq3anwws4q",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Nuno Albertino",
+     "lastName": "Varela Tavares",
+     "shirtName": "Nuno Tavares",
+     "displayName": "Nuno Tavares",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d019f24d8eeb4f37bf2bb7ae09db595b",
+     "providerId": "opta:Player:5ec6f4mm3rwjm0fgis0k3cmp5",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Gustav Tang",
+     "lastName": "Isaksen",
+     "shirtName": "Gustav Isaksen",
+     "displayName": "Isaksen",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 53,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::38861941353d48968b5312cfe5ff32b7"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::230ed488be8043b5add42c2ab7b1b72a",
+     "providerId": "opta:Player:62uaf4amxdyz6j2fuvadp0no5",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Elseid",
+     "lastName": "Hysaj",
+     "shirtName": "Elseid Hysaj",
+     "displayName": "Hysaj",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8bb18ae810b34b4aa89fc0cfb0ccbf35",
+     "providerId": "opta:Player:7hukebiijqntuvetwzralzuju",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Oliver Provstgaard",
+     "lastName": "Nielsen",
+     "shirtName": "Oliver Provstgaard",
+     "displayName": "Provstgaard",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fd305b16dbdc46c18c0de85ce5bcdac5",
+     "providerId": "opta:Player:8w2rfa3vnu6t1a37510374nv9",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Manuel",
+     "lastName": "Lazzari",
+     "shirtName": "M. Lazzari",
+     "displayName": "Lazzari",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 64,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f69c6130a9394ce8ba49545549784479"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2d1d6f1891f04d9d9aa1318ba8d5710f",
+     "providerId": "kama:Player:5011",
+     "side": "home",
+     "team": "Lazio",
+     "firstName": "Valerio",
+     "lastName": "Farcomeni",
+     "shirtName": "Valerio Farcomeni",
+     "displayName": "Farcomeni",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b8f4bf41ac6a4c38894b71c72e278bb6",
+     "providerId": "opta:Player:r0hm6ahwcvdu57bgfi5zkslx",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Jean Jules Michel",
+     "lastName": "Butez",
+     "shirtName": "Jean Butez",
+     "displayName": "Butez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b6e063871e99453dacb938b91b08f6b2",
+     "providerId": "opta:Player:94qw1jp87gqyvae89n11z05ey",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Ivan",
+     "lastName": "Smolčić",
+     "shirtName": "Ivan Smolčić",
+     "displayName": "Smolčić",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 22,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ee9c033adeaa4527b7c728995c53ac62"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::399fc3f07e3d40e5b9c40bf2a72c610f",
+     "providerId": "kama:Player:98853",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Jacobo",
+     "lastName": "Ramon Naveros",
+     "shirtName": "Jacobo Ramón",
+     "displayName": "Ramón",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::866d618d06994344b1d86dd8eb428c84",
+     "providerId": "kama:Player:99559",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Diego Carlos",
+     "lastName": "Santos Silva",
+     "shirtName": "Diego Carlos",
+     "displayName": "Diego Carlos",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7977f07bbb7f404d8f09afd4eacd5be6",
+     "providerId": "opta:Player:54foi544tygbd4sfx62t7wno",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alex",
+     "lastName": "Valle Gomez",
+     "shirtName": "Álex Valle",
+     "displayName": "Álex Valle",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::97481def06eb44989781b7ff153b83a3",
+     "providerId": "opta:Player:79dz7zni5fcgh5e70spoj2j8p",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Maxence",
+     "lastName": "Caqueret",
+     "shirtName": "Maxence Caqueret",
+     "displayName": "Caqueret",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7e40ae9c747342c7ad5ad2fe1b425246"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e2f4254456b445c1a4cdee770f7fc8ba",
+     "providerId": "opta:Player:6d36zn3fr35yhj70yx5n445qs",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Maximo",
+     "lastName": "Perrone Rodriguez",
+     "shirtName": "Máximo Perrone",
+     "displayName": "Perrone",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6867551cf5a6427a9ab81bd06fd9d455",
+     "providerId": "opta:Player:92vjurxjnipl210yanki2oz8q",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Lucas",
+     "lastName": "Da Cunha",
+     "shirtName": "Lucas da Cunha",
+     "displayName": "da Cunha",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::027970dce05b45359fbaa7d11eb36313",
+     "providerId": "opta:Player:9i6hs8toyjwrh7ub04vow8wes",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Nicolas",
+     "lastName": "Paz Martinez",
+     "shirtName": "Nico Paz",
+     "displayName": "Nico Paz",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 24,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::97481def06eb44989781b7ff153b83a3"
+      },
+      {
+       "type": "goal",
+       "time": 49,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cd3e52132dcc42bc8bff94c65e0319aa"
+      },
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f861b4ecfff843f6920c13aa90631df5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cd3e52132dcc42bc8bff94c65e0319aa",
+     "providerId": "opta:Player:7onr52be14is8cwcfd2k1i784",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Martin",
+     "lastName": "Baturina",
+     "shirtName": "Martin Baturina",
+     "displayName": "Baturina",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 2,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7977f07bbb7f404d8f09afd4eacd5be6"
+      },
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4bf5990efa3c4544ab7a0ed845efad67",
+     "providerId": "opta:Player:30ed2aojjzmqigq6vkcrzc8pg",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Jesus",
+     "lastName": "Rodriguez Caraballo",
+     "shirtName": "Jesús Rodriguez",
+     "displayName": "Jesús Rodríguez",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::db01ed9a28274042a633bc774b61fd7f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::66b07ea257a845bfa69075df0b4e9238",
+     "providerId": "kama:Player:99288",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Noel Max Joachim",
+     "lastName": "Törnqvist",
+     "shirtName": "Noel Törnqvist",
+     "displayName": "Törnqvist",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::85b349ae27e44e85a331d7b0eb2203d4",
+     "providerId": "opta:Player:c7b2gexssr0uthfxk3xfvb7bp",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Mauro",
+     "lastName": "Vigorito",
+     "shirtName": "Mauro Vigorito",
+     "displayName": "Vigorito",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::10128bcdb2974a83908a844014b93ecb",
+     "providerId": "opta:Player:djpsc1fvcnrh61c071t00gmad",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Marc-Oliver",
+     "lastName": "Kempf",
+     "shirtName": "Marc-Oliver Kempf",
+     "displayName": "Kempf",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fffc084cc99648e8a49304ce1b960215",
+     "providerId": "opta:Player:2fbg7v69wyis2his47u8ij4rt",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Dossena",
+     "shirtName": "Alberto Dossena",
+     "displayName": "Dossena",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7e40ae9c747342c7ad5ad2fe1b425246",
+     "providerId": "opta:Player:4q6kuikopbgls8y2rwqiu415h",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Sergi",
+     "lastName": "Roberto Carnicer",
+     "shirtName": "Sergi Roberto",
+     "displayName": "Sergi Roberto",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 65,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::97481def06eb44989781b7ff153b83a3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f861b4ecfff843f6920c13aa90631df5",
+     "providerId": "opta:Player:1p0xp2onnys7jlru55vfgf1pm",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Anastasios",
+     "lastName": "Douvikas",
+     "shirtName": "Tasos Douvikas",
+     "displayName": "Douvikas",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::027970dce05b45359fbaa7d11eb36313"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::076fcd52000d423399e6caba08dd9f64",
+     "providerId": "opta:Player:a3w1uczgmswm3cwk4vmvoglhx",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Moreno Perez",
+     "shirtName": "Alberto Moreno",
+     "displayName": "Alberto Moreno",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::db01ed9a28274042a633bc774b61fd7f",
+     "providerId": "kama:Player:98273",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Nicolas Gerrit",
+     "lastName": "Kühn",
+     "shirtName": "Nicolas Kühn",
+     "displayName": "Kühn",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4bf5990efa3c4544ab7a0ed845efad67"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ee9c033adeaa4527b7c728995c53ac62",
+     "providerId": "opta:Player:1po7tmdv73zfjentt0p20wdlh",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Stefan",
+     "lastName": "Posch",
+     "shirtName": "Stefan Posch",
+     "displayName": "Posch",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b6e063871e99453dacb938b91b08f6b2"
+      },
+      {
+       "type": "yellow-card",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::de48caf443d148af872acf0c8cf91d56",
+     "providerId": "opta:Player:16kv5p8we3pwqpt5ktwrb7mj9",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Mergim",
+     "lastName": "Vojvoda",
+     "shirtName": "M. Vojvoda",
+     "displayName": "Vojvoda",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cd3e52132dcc42bc8bff94c65e0319aa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::92700f46c17e4779a4d643e70d45563e",
+     "providerId": "kama:Player:12479",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Andréa Paul",
+     "lastName": "Le Borgne",
+     "shirtName": "Andrea Paul Le Borgne",
+     "displayName": "Le Borgne",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1e98bf9e66dd413c9ffb846e76aec1c1",
+     "providerId": "opta:Player:3pba28sk4auqjp27jfssfvvxm",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Ignace Fabienne",
+     "lastName": "Van Der Brempt",
+     "shirtName": "Ignace Van der Brempt",
+     "displayName": "Van der Brempt",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d06c2e6b91bb4f10a33b68fc87a178c0",
+     "providerId": "opta:Player:209wrczpg1xivjis7rmntw0r9",
+     "side": "away",
+     "team": "Como",
+     "firstName": "Alberto",
+     "lastName": "Cerri",
+     "shirtName": "Alberto Cerri",
+     "displayName": "Cerri",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:23:16.499Z",
+   "sha256": "e1b3b6ce89c6c8f5ac21f6e952611dfe842542bd7ec47e05c12ee56aa873f287"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:48.923Z",
+   "sha256": "7453ed43e3245985e4e41743522ae721c4c04f792f0b0b9debf31bb7619eac63",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Butez",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Diego Carlos",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Vojvoda",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Posch",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Valle",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ramon",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Smolcic I.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sergi Roberto",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Caqueret",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Da Cunha",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Perrone",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Paz N.",
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 10.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7.5,
+     "fantavotoItalia": 10.5,
+     "bonusMalus": {
+      "golSegnati": 2,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 1,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baturina",
+     "votoRedazione": 8,
+     "fantavotoRedazione": 12,
+     "votoStatistico": 8,
+     "fantavotoStatistico": 12,
+     "votoItalia": 8,
+     "fantavotoItalia": 12,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Douvikas",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kuhn",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Como",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Rodriguez Je.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Provedel",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 1,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Romagnoli",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marusic",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 4,
+     "votoItalia": 4,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Lazzari",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pellegrini Lu.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 4,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gila",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cataldi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zaccagni",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rovella",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Belahyane",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Isaksen",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Dele-Bashiru",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Taylor K.",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cancellieri",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Noslin",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/21",
+      "estrattoIl": "2026-10-06T08:28:48.923Z"
+     },
+     "squadraRaw": "Lazio",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Ratkov",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Lazio 0 - 3 Como 19/01/2026 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

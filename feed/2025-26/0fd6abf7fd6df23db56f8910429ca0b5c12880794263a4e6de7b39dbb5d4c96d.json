@@ -1,0 +1,1621 @@
+{
+ "label": "Cagliari-Milan (g18)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-01-02T19:45:00Z",
+  "hoursAfterKickoff": 6636.533666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:44.136Z",
+  "sha256": "b1d2a48700fdc1c1053b50bf1c996bc601f3375e6f5cbcee9eb4eb8caa910ba2"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::bd0539f8574947c98e0eedecb689fdaf",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-01-02T19:45:00Z",
+   "matchday": 18,
+   "home": "Cagliari",
+   "away": "Milan",
+   "homeTeamId": "serie-a::Football_Team::25aecd0eda3e4453aabd9a9d5e7fba0d",
+   "awayTeamId": "serie-a::Football_Team::d0867ddf777c41789ca282b8276002b0",
+   "homeScore": 0,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::bd0539f8574947c98e0eedecb689fdaf",
+   "homeTeam": "Cagliari",
+   "awayTeam": "Milan",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::f67db0ff9c994cc2892588aa52ab1786",
+     "providerId": "opta:Player:ab420lzne042a3e3b2lfmy5ii",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Elia",
+     "lastName": "Caprile",
+     "shirtName": "E. Caprile",
+     "displayName": "Caprile",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3b58041ca667411c8526f236ab74b4e9",
+     "providerId": "opta:Player:13ey9mb0ullya36lpv62pspre",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Gabriele",
+     "lastName": "Zappa",
+     "shirtName": "Gabriele Zappa",
+     "displayName": "Zappa",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::99890eab78bc4ef7b90a8afaff9ac22f",
+     "providerId": "opta:Player:2uvexgjeidkvy6qu4i2nf14a",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Adam",
+     "lastName": "Obert",
+     "shirtName": "Adam Obert",
+     "displayName": "Obert",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4348f99e8c948f083f28386a7c61908"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4a5bc90856df482c9a44a8a85ea7efb0",
+     "providerId": "opta:Player:8lxt5lqavooy0xo0pcinqluz8",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Marco",
+     "lastName": "Palestra",
+     "shirtName": "Marco Palestra",
+     "displayName": "Palestra",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2e9c48828f524b9fbb10b8ea2907bba6",
+     "providerId": "opta:Player:cnk07o3823zl5gd7qr2bdks7p",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Sebastiano",
+     "lastName": "Luperto",
+     "shirtName": "Sebastiano Luperto",
+     "displayName": "Luperto",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::40b758938b814411901795062d7464d6",
+     "providerId": "kama:Player:99562",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Juan Martin",
+     "lastName": "Rodríguez Camejo",
+     "shirtName": "Juan Rodríguez",
+     "displayName": "J. Rodríguez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59",
+     "providerId": "opta:Player:c7u5a6ngr4f839ibw3b0opsk5",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Luca",
+     "lastName": "Mazzitelli",
+     "shirtName": "Luca Mazzitelli",
+     "displayName": "Mazzitelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7ad851764d124ab193e66a115ed44cb4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9",
+     "providerId": "opta:Player:akvrot9hi5mylunfr07nytt04",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Matteo",
+     "lastName": "Prati",
+     "shirtName": "Matteo Prati",
+     "displayName": "Prati",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1048dd798cd64a7488fdbd7f37a43813"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0d0f43d9fa874b839d9be10ca8ed2501",
+     "providerId": "opta:Player:43rid94d7jz7u5ba4xzb8bbe2",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Ndary Michel",
+     "lastName": "Adopo",
+     "shirtName": "Michel Adopo",
+     "displayName": "Adopo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cdae414cf24d4ce384e8c8895da9463d",
+     "providerId": "kama:Player:99028",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Semih",
+     "lastName": "Kılıçsoy ",
+     "shirtName": "Semih Kılıçsoy ",
+     "displayName": "Kılıçsoy",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::75d38ff8f4d74bd59d79d6337cfbf0f0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba",
+     "providerId": "opta:Player:c4n7kjp8c47trslpssnyqjo16",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Sebastiano",
+     "lastName": "Esposito",
+     "shirtName": "Sebastiano Esposito",
+     "displayName": "S. Esposito",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::06c65f309d6740948f30ef3425da1e88"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::521d74f8dbe1415bb54378aabbf682c9",
+     "providerId": "opta:Player:apvsegsrcr043jtqe5mqxn88a",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Giuseppe",
+     "lastName": "Ciocci",
+     "shirtName": "Giuseppe Ciocci",
+     "displayName": "Ciocci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a188ec5a294848ff8a89d67015be2c84",
+     "providerId": "opta:Player:4y9swvi27eh7vyn48vbrdp9ed",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Boris",
+     "lastName": "Radunović",
+     "shirtName": "Boris Radunović",
+     "displayName": "Radunović",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4348f99e8c948f083f28386a7c61908",
+     "providerId": "opta:Player:cx7olq6m4no1tvyou3j58c2z8",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Riyad",
+     "lastName": "Idrissi",
+     "shirtName": "Riyad Idrissi",
+     "displayName": "Idrissi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::99890eab78bc4ef7b90a8afaff9ac22f"
+      },
+      {
+       "type": "yellow-card",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::06c65f309d6740948f30ef3425da1e88",
+     "providerId": "opta:Player:1ct0gujao4wvj1ff3aebqgqnd",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Gianluca",
+     "lastName": "Gaetano",
+     "shirtName": "G. Gaetano",
+     "displayName": "Gaetano",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 66,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6cd4530a22374a9e8b73d6614d93e5ee",
+     "providerId": "opta:Player:cmg6y5t0yuzeuzuxitelbvglx",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Alessandro",
+     "lastName": "Deiola",
+     "shirtName": "Alessandro Deiola",
+     "displayName": "Deiola",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::300d27fc3b0a4b2291eb725d71183844",
+     "providerId": "opta:Player:cgv93t4k8bzl9neswrjfcdbai",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Alessandro",
+     "lastName": "Di Pardo",
+     "shirtName": "A. Di Pardo",
+     "displayName": "Di Pardo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0a0dbd427fdb4e91ac9b401ed5150844",
+     "providerId": "opta:Player:8f4dnhlapwc3zd9sz7a6pb651",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Marko",
+     "lastName": "Rog",
+     "shirtName": "Marko Rog",
+     "displayName": "Rog",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7ad851764d124ab193e66a115ed44cb4",
+     "providerId": "opta:Player:921amcj5jv6wu2p1qbbo4g2s4",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Nicolò",
+     "lastName": "Cavuoti",
+     "shirtName": "Nicolò Cavuoti",
+     "displayName": "Cavuoti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f4f1a038fbc648fc86df04026bc773b2",
+     "providerId": "opta:Player:brfgmt7r59lah9iyqicc95v6c",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Nicola",
+     "lastName": "Pintus",
+     "shirtName": "Nicola Pintus",
+     "displayName": "Pintus",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7be97fe90708442e8e31a6a48e0f01e5",
+     "providerId": "opta:Player:d4vdrtte9kb9qmlkrx1rvgk45",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Yerry Fernando",
+     "lastName": "Mina Gonzalez",
+     "shirtName": "Yerry Mina",
+     "displayName": "Mina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f9a6d05e1a964cf7b35f625495f8ff0f",
+     "providerId": "kama:Player:1818",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Joseph",
+     "lastName": "Liteta",
+     "shirtName": "Joseph Liteta",
+     "displayName": "Liteta",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1048dd798cd64a7488fdbd7f37a43813",
+     "providerId": "opta:Player:8bjzw0pgu2gbwhyfm2k62hv8q",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Gennaro",
+     "lastName": "Borrelli",
+     "shirtName": "Gennaro Borrelli",
+     "displayName": "Borrelli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::75d38ff8f4d74bd59d79d6337cfbf0f0",
+     "providerId": "opta:Player:awkjevra745mh5j30bkjp70t1",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Leonardo",
+     "lastName": "Pavoletti",
+     "shirtName": "Leonardo Pavoletti",
+     "displayName": "Pavoletti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cdae414cf24d4ce384e8c8895da9463d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9a244f2454b24998a0da95318cb528f0",
+     "providerId": "kama:Player:1457",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Yael Fritz Junior",
+     "lastName": "Trepy",
+     "shirtName": "Yael Trepy",
+     "displayName": "Trepy",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bce17b00cb494129b8b8816fb595d74a",
+     "providerId": "opta:Player:e0gv5rugqtsipy89z4rk7hsoa",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Zito André Sebastião",
+     "lastName": "Luvumbo",
+     "shirtName": "Zito Luvumbo",
+     "displayName": "Luvumbo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f6b27c8e1cf04b3391184988ee7336f7",
+     "providerId": "opta:Player:3fpnfgoy4lbpapv2th6g60cet",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Mike Peterson",
+     "lastName": "Maignan",
+     "shirtName": "Mike Maignan",
+     "displayName": "Maignan",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::46c4483cd2954db7a7fbf5cfaec0bafe",
+     "providerId": "kama:Player:98780",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Pervis Josue",
+     "lastName": "Estupinan Tenorio",
+     "shirtName": "Pervis Estupiñán",
+     "displayName": "Estupiñán",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::37d0e89ba51343a8b24b768e4efa02d6"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5e795d74e1e04302b39b9815471ba3df",
+     "providerId": "opta:Player:7odl8qgd0qak6w4ox0t3kg3kk",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Davide",
+     "lastName": "Bartesaghi",
+     "shirtName": "Davide Bartesaghi",
+     "displayName": "Bartesaghi",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::179698d6a9a74bcb952b8e93453cf5b1",
+     "providerId": "opta:Player:95r0jtkw03vjohzwc8os8ielm",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Koni",
+     "lastName": "De Winter",
+     "shirtName": "Koni De Winter",
+     "displayName": "De Winter",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::abc2ec904fa5427c94d133d16f2551a4",
+     "providerId": "opta:Player:3sezchmdtivxl4kusvgc6j7x1",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Oluwafikayomi Oluwadamilola",
+     "lastName": "Tomori",
+     "shirtName": "Fikayo Tomori",
+     "displayName": "Tomori",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808",
+     "providerId": "opta:Player:e6jaaazxqeczj6ziaj0qnqpxx",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Ruben Ira",
+     "lastName": "Loftus-cheek",
+     "shirtName": "Ruben Loftus-Cheek",
+     "displayName": "Loftus-Cheek",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::afe60d6be6104d909dfe50221995523a",
+     "providerId": "opta:Player:2nddcty9qris2mmeldon0ogd1",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Adrien",
+     "lastName": "Rabiot",
+     "shirtName": "Adrien Rabiot",
+     "displayName": "Rabiot",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e76cb5d2e68843ed99459ed2f8237e2f",
+     "providerId": "kama:Player:98422",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Luka",
+     "lastName": "Modrić",
+     "shirtName": "Luka Modrić",
+     "displayName": "Modrić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1",
+     "providerId": "opta:Player:b0wb7gf04synxlkq7o8gvzkoa",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Youssouf",
+     "lastName": "Fofana",
+     "shirtName": "Youssouf Fofana",
+     "displayName": "Y. Fofana",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c",
+     "providerId": "opta:Player:11o903vztwpnmvgrinn208qnd",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Rafael Alexandre",
+     "lastName": "da Conceição Leão",
+     "shirtName": "Rafael Leão",
+     "displayName": "Rafael Leão",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 50,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::afe60d6be6104d909dfe50221995523a"
+      },
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f75f69d015184e6fa1f443c3442eb94d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::73edb678dfe94eb990fa6eeab62fdff7",
+     "providerId": "opta:Player:9vnr9uog5fmggich2i4vjxwbt",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Alexis Jesse",
+     "lastName": "Saelemaekers",
+     "shirtName": "Alexis Saelemaekers",
+     "displayName": "Saelemaekers",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 1,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::366978e66f2b41d291912b96fef017a5",
+     "providerId": "opta:Player:2udciji4n7tr07ft7twe2r9w5",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Pietro",
+     "lastName": "Terracciano",
+     "shirtName": "Pietro Terracciano",
+     "displayName": "P. Terracciano",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e5ab095b8ad24c42ab8bbf17164143bd",
+     "providerId": "opta:Player:d0ag3rk2mc50gwbo5famdzaqc",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Lorenzo",
+     "lastName": "Torriani",
+     "shirtName": "Lorenzo Torriani",
+     "displayName": "Torriani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d7797a2ef54040a2836229bdba98c6ba",
+     "providerId": "opta:Player:e2oeysariwd866ksilu3t4m7e",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Samuele",
+     "lastName": "Ricci",
+     "shirtName": "Samuele Ricci",
+     "displayName": "Ricci",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b7a1828f859f47158dd216a1073380d1"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f75f69d015184e6fa1f443c3442eb94d",
+     "providerId": "kama:Player:100418",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Niclas",
+     "lastName": "Füllkrug",
+     "shirtName": "Niclas Füllkrug",
+     "displayName": "Füllkrug",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::70d8e92a39974cc182f4d2669ecccc5c"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::10630f13a65e42e6893e1ece750fa2ad",
+     "providerId": "opta:Player:93soe2rjn0z874cc9ofcesgkp",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Christian Mate",
+     "lastName": "Pulisic",
+     "shirtName": "Christian Pulisic",
+     "displayName": "Pulisic",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::eb39f4d3f97f4f7aa2ac00c51d1da808"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::21e73d0e04a24bda9ecf492f8c88da07",
+     "providerId": "kama:Player:99087",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Zachary Christopher",
+     "lastName": "Athekame",
+     "shirtName": "Zachary Athekame",
+     "displayName": "Athekame",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::068f9e3dc64548ebb49468f1f103016e",
+     "providerId": "kama:Player:99396",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "David Uyoyo",
+     "lastName": "Odogu",
+     "shirtName": "David Uyoyo Odogu",
+     "displayName": "Odogu",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b616b0e6528b42459ac6410543f823ef",
+     "providerId": "kama:Player:98958",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Ardon",
+     "lastName": "Jashari",
+     "shirtName": "Ardon Jashari",
+     "displayName": "Jashari",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6075b492bae04b149467f30c9c6923be",
+     "providerId": "opta:Player:7wjdqyl3bkhsfca5cu4riwley",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Strahinja",
+     "lastName": "Pavlović",
+     "shirtName": "Strahinja Pavlović",
+     "displayName": "Pavlović",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c15f928740be4d13bdd934da068c6fca",
+     "providerId": "kama:Player:3894",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Alex",
+     "lastName": "Castiello",
+     "shirtName": "Alex Castiello",
+     "displayName": "Castiello",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37d0e89ba51343a8b24b768e4efa02d6",
+     "providerId": "opta:Player:enqcaecpt5hy0qv9x5pzmkjc9",
+     "side": "away",
+     "team": "Milan",
+     "firstName": "Matteo",
+     "lastName": "Gabbia",
+     "shirtName": "Matteo Gabbia",
+     "displayName": "Gabbia",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::46c4483cd2954db7a7fbf5cfaec0bafe"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:22:00.499Z",
+   "sha256": "eab7ea69717ffffcecde0a9cd160a8c95c6b67b24e3c80eec26a95e2338a1e22"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:44.136Z",
+   "sha256": "b1d2a48700fdc1c1053b50bf1c996bc601f3375e6f5cbcee9eb4eb8caa910ba2",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Caprile",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Luperto",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zappa",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Obert",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Palestra",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Idrissi R.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Rodriguez Ju.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mazzitelli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gaetano",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Adopo",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Prati",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cavuoti",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Pavoletti",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Esposito Se.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Borrelli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kilicsoy",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Maignan",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gabbia",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Tomori",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Estupinan",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "De Winter",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bartesaghi",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Rabiot",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 8,
+     "votoItalia": 7,
+     "fantavotoItalia": 8,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pulisic",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Modric",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Loftus-Cheek",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fofana Y.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Saelemaekers",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ricci S.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Fullkrug",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/18",
+      "estrattoIl": "2026-10-06T08:28:44.136Z"
+     },
+     "squadraRaw": "Milan",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Leao",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Cagliari 0 - 1 Milan 02/01/2026 - 20:45"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

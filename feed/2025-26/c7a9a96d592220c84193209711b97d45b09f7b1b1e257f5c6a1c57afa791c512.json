@@ -1,0 +1,1655 @@
+{
+ "label": "Verona-Fiorentina (g31)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-04-04T16:00:00Z",
+  "hoursAfterKickoff": 4432.283666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:29:04.865Z",
+  "sha256": "92a392a5bb71d62f3d408209a9f0b7345746ff723a0b5984414f5217ff0100b0"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::ba2cee235d314e6396848beea19927b8",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-04-04T16:00:00Z",
+   "matchday": 31,
+   "home": "Verona",
+   "away": "Fiorentina",
+   "homeTeamId": "serie-a::Football_Team::be24fc024dd946ebbeb957ee6e796a2a",
+   "awayTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "homeScore": 0,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 7
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::ba2cee235d314e6396848beea19927b8",
+   "homeTeam": "Verona",
+   "awayTeam": "Fiorentina",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::b28865a6d4814858be353447697de6d1",
+     "providerId": "opta:Player:c7fky0h6gi7wmibnv2tzf6mz9",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Lorenzo",
+     "lastName": "Montipò",
+     "shirtName": "Lorenzo Montipò",
+     "displayName": "Montipò",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b9807ae490644fd4b292cfc76d82b565",
+     "providerId": "opta:Player:am1da6dm0zympt2yt120h94yy",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniel Oladele",
+     "lastName": "Oyegoke",
+     "shirtName": "Daniel Oyegoke",
+     "displayName": "Oyegoke",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4a80a3286797490b977c0402c8f50947"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::816873bbd9fe4afab99cc390faab08f8",
+     "providerId": "kama:Player:99170",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Rafik",
+     "lastName": "Belghali",
+     "shirtName": "Rafik Belghali",
+     "displayName": "Belghali",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 88,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9a3f6a2b0be34fcb846af1ff94b8a2ce",
+     "providerId": "opta:Player:75n60pzg0y5agf5nzo3sd3cvd",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Martin Sonder",
+     "lastName": "Frese",
+     "shirtName": "Martin Frese",
+     "displayName": "Frese",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b3b7506979234ce0b7a20345a212766d",
+     "providerId": "kama:Player:100726",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Andrias",
+     "lastName": "Edmundsson",
+     "shirtName": "Andrias Edmundsson",
+     "displayName": "Edmundsson",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8aa1b72bb65b4e4a98e94394fb343e76",
+     "providerId": "opta:Player:d0smch1f18iz5bf8odi0ijnqh",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Victor Enok",
+     "lastName": "Nelsson",
+     "shirtName": "Victor Nelsson",
+     "displayName": "Nelsson",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::76a5eaa653204872a1dfe59a2d1f4cb0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::992d139825e741968ca1dd7a5ba4f116",
+     "providerId": "opta:Player:cxjuod6b1ro67656dxwhpqqc5",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Jean Daniel",
+     "lastName": "Akpa Akpro",
+     "shirtName": "Jean-Daniel Akpa Akpro",
+     "displayName": "Akpa Akpro",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::962fa7f9204c4e04b41883d4d3b5bb82",
+     "providerId": "opta:Player:ci37qg2uu0z3nppxvn0z9034l",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Roberto",
+     "lastName": "Gagliardini",
+     "shirtName": "Roberto Gagliardini",
+     "displayName": "Gagliardini",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 17,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::637e41e0aa734e6cbf084a9af6a658aa",
+     "providerId": "opta:Player:alrmqpg2y5f7xqqpgubwvx0q1",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Antoine Joseph",
+     "lastName": "Bernède",
+     "shirtName": "Antoine Bernède",
+     "displayName": "Bernède",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fc6a0de0a0e24a59912d61b75a21c665"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e14066c077d0427f83aabbd88197d419",
+     "providerId": "kama:Player:99273",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Gift Emmanuel",
+     "lastName": "Orban",
+     "shirtName": "Gift Emmanuel Orban",
+     "displayName": "Orban",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::55b939f2918f4e9699549922b9db610d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::00f2e8b677f54bf3899c241eeb88c918",
+     "providerId": "kama:Player:100725",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Kieron Tom",
+     "lastName": "Bowie",
+     "shirtName": "Kieron Tom Bowie",
+     "displayName": "Bowie",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aa2557307f604fde9512778cc9616b43",
+     "providerId": "opta:Player:c2ezyc2fftje7rcm5ybbuytp1",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Simone",
+     "lastName": "Perilli",
+     "shirtName": "Simone Perilli",
+     "displayName": "Perilli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5787ac194e6e4775a4530dcea4d5ad74",
+     "providerId": "opta:Player:d3fo9td8yl4w2m2yxplsy9ogk",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Giacomo",
+     "lastName": "Toniolo",
+     "shirtName": "Giacomo Toniolo",
+     "displayName": "Toniolo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::599d165fda154a628ccd935f803a24b5",
+     "providerId": "opta:Player:djepfduaa3j07utg0j259cowk",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Nicolas",
+     "lastName": "Valentini",
+     "shirtName": "Nicolás Valentini",
+     "displayName": "Valentini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::55b939f2918f4e9699549922b9db610d",
+     "providerId": "opta:Player:amvonu36at4dg7ksi1ioczi3u",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Amin",
+     "lastName": "Sarr",
+     "shirtName": "Amin Sarr",
+     "displayName": "A. Sarr",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 67,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e14066c077d0427f83aabbd88197d419"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fc6a0de0a0e24a59912d61b75a21c665",
+     "providerId": "opta:Player:4t85yj2ijymrz5vf457jcihre",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Tomas",
+     "lastName": "Suslov",
+     "shirtName": "Tomás Suslov",
+     "displayName": "Suslov",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::637e41e0aa734e6cbf084a9af6a658aa"
+      },
+      {
+       "type": "red-card",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4a80a3286797490b977c0402c8f50947",
+     "providerId": "opta:Player:b0e6d3zgwzbzysmt9b2ycvf56",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Domagoj",
+     "lastName": "Bradarić",
+     "shirtName": "Domagoj Bradarić",
+     "displayName": "Bradarić",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b9807ae490644fd4b292cfc76d82b565"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d639c24dd73a479b9f8cb10db193187e",
+     "providerId": "opta:Player:agmcwbzoertg4l8njpdai7kl",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Pol Mikel",
+     "lastName": "Lirola Kosok",
+     "shirtName": "Pol Lirola",
+     "displayName": "Lirola",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e860753479974863b13556096840d8d7",
+     "providerId": "opta:Player:wrckom9vy4352nos44600ydw",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Tobias Lahrmann",
+     "lastName": "Slotsager",
+     "shirtName": "Tobias Slotsager",
+     "displayName": "Slotsager",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::484c0436c6304bedb654ca67e73d5a84",
+     "providerId": "opta:Player:74o97lnqpku6m9svks66qbend",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Abderrahman",
+     "lastName": "Harroui",
+     "shirtName": "Abdou Harroui",
+     "displayName": "Harroui",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::76a5eaa653204872a1dfe59a2d1f4cb0",
+     "providerId": "opta:Player:8lg7bwc6k73s2x0zd236pbomi",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Daniel Fernando",
+     "lastName": "Mosquera Bonilla",
+     "shirtName": "Daniel Mosquera",
+     "displayName": "Mosquera",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 90,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8aa1b72bb65b4e4a98e94394fb343e76"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d3ead3460b6b485fbe9c9b053b4e08dd",
+     "providerId": "opta:Player:2r3mojnewwtd6bts6w931ho15",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Cheikh Ahmet Tidian",
+     "lastName": "Niasse",
+     "shirtName": "Cheikh Niasse",
+     "displayName": "Niasse",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::37f400a1f8394c79a1ef1ab7ff05f3c2",
+     "providerId": "kama:Player:100504",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Isaac",
+     "lastName": "Aguiar Tomich",
+     "shirtName": "Isaac Aguiar Tomich",
+     "displayName": "Isaac",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0270ed71147c4d4da3902f40f80aeb82",
+     "providerId": "kama:Player:93024",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Fallou",
+     "lastName": "Cham",
+     "shirtName": "Fallou Cham",
+     "displayName": "Cham",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::703aa908d6ea4adf918c5f06f1edaaa1",
+     "providerId": "kama:Player:99302",
+     "side": "home",
+     "team": "Verona",
+     "firstName": "Almoatasembellah",
+     "lastName": "Ali Mohamed Elmusrati",
+     "shirtName": "Ali Elmusrati",
+     "displayName": "Al Musrati",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7eea4a3905274129bc4fdfec8574cc43",
+     "providerId": "opta:Player:e00004wkpfc8jawioejmpu1n9",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "David",
+     "lastName": "De Gea Quintana",
+     "shirtName": "David de Gea",
+     "displayName": "de Gea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63",
+     "providerId": "opta:Player:9srjp22oprs2tkcutb2g4o2dw",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Comuzzo",
+     "shirtName": "Pietro Comuzzo",
+     "displayName": "Comuzzo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1f830d3aee9a4a21b6b95324c1f60452"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15",
+     "providerId": "opta:Player:4j3d7ujmhevsi0y3zvs34i13o",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Giovanni",
+     "lastName": "Fabbian",
+     "shirtName": "Giovanni Fabbian",
+     "displayName": "Fabbian",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ab56be09c4ce4c818b456701f7106643"
+      },
+      {
+       "type": "yellow-card",
+       "time": 84,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc",
+     "providerId": "opta:Player:kvbjuvcseqk4sbr04ctkqi38",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Cher",
+     "lastName": "Ndour",
+     "shirtName": "Cher Ndour",
+     "displayName": "Ndour",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::80838af7be514e3fa7e32f7fb54b4f02",
+     "providerId": "opta:Player:9qow77e16pvlb3860yjpydryt",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Robin Everardus",
+     "lastName": "Gosens",
+     "shirtName": "Robin Gosens",
+     "displayName": "Gosens",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::de4ba766d0fe4f37910f084f2e65d62b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac",
+     "providerId": "opta:Player:3zqpvn7r1c779l9vwwh7yukfd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Bioty Moise",
+     "lastName": "Kean",
+     "shirtName": "Moise Kean",
+     "displayName": "Kean",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4",
+     "providerId": "opta:Player:ejzxqtdo5xxvbg6gvtju3lk9h",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Albert",
+     "lastName": "Guðmundsson",
+     "shirtName": "Albert Gudmundsson",
+     "displayName": "Guðmundsson",
+     "starter": true,
+     "events": [
+      {
+       "type": "red-card",
+       "time": 86,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ab56be09c4ce4c818b456701f7106643",
+     "providerId": "kama:Player:100589",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Jack David",
+     "lastName": "Harrison",
+     "shirtName": "Jack Harrison",
+     "displayName": "Harrison",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d58bb19e4fac428c91c7d3d22c54aeb8",
+     "providerId": "opta:Player:bgwbowoiz7t2lvpit75zlqz11",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Lezzerini",
+     "shirtName": "Luca Lezzerini",
+     "displayName": "Lezzerini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6a32fc40b8644de68e49a77591741565",
+     "providerId": "opta:Player:1sjt0nj0232gu88x50c3d16nd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Oliver",
+     "lastName": "Christensen",
+     "shirtName": "Oliver Christensen",
+     "displayName": "Christensen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1f830d3aee9a4a21b6b95324c1f60452",
+     "providerId": "opta:Player:bh3b7e2qzh41dltd6h2obpln9",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Daniele",
+     "lastName": "Rugani",
+     "shirtName": "Daniele Rugani",
+     "displayName": "Rugani",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511",
+     "providerId": "opta:Player:1f37bo8dikes3350u2a0h9hm2",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marco",
+     "lastName": "Brescianini",
+     "shirtName": "Marco Brescianini",
+     "displayName": "Brescianini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 89,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5",
+     "providerId": "opta:Player:6e9fu9o226zn6jzx02jutvi3u",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Jacopo",
+     "lastName": "Fazzini",
+     "shirtName": "Jacopo Fazzini",
+     "displayName": "Fazzini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fe9b2f009a9d4f1faef51ea3b9754e8f",
+     "providerId": "kama:Player:98383",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Eman",
+     "lastName": "Košpo",
+     "shirtName": "Eman Kospo",
+     "displayName": "Košpo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf",
+     "providerId": "kama:Player:1479",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nda Konan Bienvenu Ange Eddy",
+     "lastName": "Kouadio",
+     "shirtName": "Eddy Kouadio",
+     "displayName": "Kouadio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::05d78c4a9e8243bc9408c728928b46a7",
+     "providerId": "kama:Player:5234",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Riccardo",
+     "lastName": "Braschi",
+     "shirtName": "Riccardo Braschi",
+     "displayName": "Braschi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::de4ba766d0fe4f37910f084f2e65d62b",
+     "providerId": "kama:Player:5332",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luís Francisco",
+     "lastName": "Balbo Vieira",
+     "shirtName": "Luís Balbo",
+     "displayName": "Luís Balbo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::80838af7be514e3fa7e32f7fb54b4f02"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::9f086f74d70748ef8e3479f94f42681c",
+     "providerId": "kama:Player:1522",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Piergiorgio",
+     "lastName": "Bonanno",
+     "shirtName": "Piergiorgio Bonanno",
+     "displayName": "Bonanno",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7c7d62144ef54918bc3b7ae5a18f3781",
+     "providerId": "kama:Player:1485",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Lapo",
+     "lastName": "Deli",
+     "shirtName": "Lapo Deli",
+     "displayName": "Deli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::05a1aac64cb841238c7cacc3747bb34c",
+     "providerId": "kama:Player:5231",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Edoardo",
+     "lastName": "Sadotti",
+     "shirtName": "Edoardo Sadotti",
+     "displayName": "Sadotti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 59,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e97579ecbe064f3c8bc25220036d4a15"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:25:57.286Z",
+   "sha256": "870c2cc5232e7e25b82d12ab52bd0bfddaed1cd4f3cc3c06829d234a8941bd7d"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:29:04.865Z",
+   "sha256": "92a392a5bb71d62f3d408209a9f0b7345746ff723a0b5984414f5217ff0100b0",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "De Gea",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 7,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Rugani",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gosens",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ranieri L.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Comuzzo",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Balbo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Brescianini",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Harrison",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 7,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gudmundsson A.",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fazzini",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fabbian",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndour",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kean",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Montipò",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bradaric",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Frese",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Oyegoke",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Nelsson",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Belghali",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Edmundsson",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gagliardini",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Akpa Akpro",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Suslov",
+     "votoRedazione": 4.5,
+     "fantavotoRedazione": 3.5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 3.5,
+     "votoItalia": 4.5,
+     "fantavotoItalia": 3.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernede",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Sarr A.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Orban G.",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Mosquera",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/31",
+      "estrattoIl": "2026-10-06T08:29:04.865Z"
+     },
+     "squadraRaw": "Verona",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bowie",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Verona 0 - 1 Fiorentina 04/04/2026 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}

@@ -1,0 +1,1679 @@
+{
+ "label": "Cagliari-Fiorentina (g1)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T08:17:01.200Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2025-08-24T16:30:00Z",
+  "hoursAfterKickoff": 9783.783666666666,
+  "observation": {
+   "retrievedAt": "2026-10-06T08:17:01.200Z",
+   "sha256": "95ffec4d5f7563518ddfedaa0ee372c274766fcc6d6d19eea6c7ef03cf1513f7"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T08:28:17.226Z",
+  "sha256": "60d606b1a7c8f23f361b7d31dd5f6021d7afcc268daed2ccc4a6518083c9ff91"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::1d9094bd9a79419ca80ac9af6f2046b5",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2025-08-24T16:30:00Z",
+   "matchday": 1,
+   "home": "Cagliari",
+   "away": "Fiorentina",
+   "homeTeamId": "serie-a::Football_Team::25aecd0eda3e4453aabd9a9d5e7fba0d",
+   "awayTeamId": "serie-a::Football_Team::5bce12d5bd864c2297695d970f92576d",
+   "homeScore": 1,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 8
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::1d9094bd9a79419ca80ac9af6f2046b5",
+   "homeTeam": "Cagliari",
+   "awayTeam": "Fiorentina",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::f67db0ff9c994cc2892588aa52ab1786",
+     "providerId": "opta:Player:ab420lzne042a3e3b2lfmy5ii",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Elia",
+     "lastName": "Caprile",
+     "shirtName": "E. Caprile",
+     "displayName": "Caprile",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7be97fe90708442e8e31a6a48e0f01e5",
+     "providerId": "opta:Player:d4vdrtte9kb9qmlkrx1rvgk45",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Yerry Fernando",
+     "lastName": "Mina Gonzalez",
+     "shirtName": "Yerry Mina",
+     "displayName": "Mina",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::99890eab78bc4ef7b90a8afaff9ac22f",
+     "providerId": "opta:Player:2uvexgjeidkvy6qu4i2nf14a",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Adam",
+     "lastName": "Obert",
+     "shirtName": "Adam Obert",
+     "displayName": "Obert",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 43,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4348f99e8c948f083f28386a7c61908"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::3b58041ca667411c8526f236ab74b4e9",
+     "providerId": "opta:Player:13ey9mb0ullya36lpv62pspre",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Gabriele",
+     "lastName": "Zappa",
+     "shirtName": "Gabriele Zappa",
+     "displayName": "Zappa",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::2e9c48828f524b9fbb10b8ea2907bba6",
+     "providerId": "opta:Player:cnk07o3823zl5gd7qr2bdks7p",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Sebastiano",
+     "lastName": "Luperto",
+     "shirtName": "Sebastiano Luperto",
+     "displayName": "Luperto",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 90,
+       "additionalTime": 4,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::06c65f309d6740948f30ef3425da1e88"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0d0f43d9fa874b839d9be10ca8ed2501",
+     "providerId": "opta:Player:43rid94d7jz7u5ba4xzb8bbe2",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Ndary Michel",
+     "lastName": "Adopo",
+     "shirtName": "Michel Adopo",
+     "displayName": "Adopo",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6cd4530a22374a9e8b73d6614d93e5ee",
+     "providerId": "opta:Player:cmg6y5t0yuzeuzuxitelbvglx",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Alessandro",
+     "lastName": "Deiola",
+     "shirtName": "Alessandro Deiola",
+     "displayName": "Deiola",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::06c65f309d6740948f30ef3425da1e88"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ea7e072211441fe9dccc9cfa52fb58e",
+     "providerId": "opta:Player:8ofihttdgz6nyxxon2zim7x0p",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Michael",
+     "lastName": "Folorunsho Ijiemuan",
+     "shirtName": "Michael Folorunsho",
+     "displayName": "Folorunsho",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9",
+     "providerId": "opta:Player:akvrot9hi5mylunfr07nytt04",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Matteo",
+     "lastName": "Prati",
+     "shirtName": "Matteo Prati",
+     "displayName": "Prati",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba",
+     "providerId": "opta:Player:c4n7kjp8c47trslpssnyqjo16",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Sebastiano",
+     "lastName": "Esposito",
+     "shirtName": "Sebastiano Esposito",
+     "displayName": "S. Esposito",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::bce17b00cb494129b8b8816fb595d74a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1048dd798cd64a7488fdbd7f37a43813",
+     "providerId": "opta:Player:8bjzw0pgu2gbwhyfm2k62hv8q",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Gennaro",
+     "lastName": "Borrelli",
+     "shirtName": "Gennaro Borrelli",
+     "displayName": "Borrelli",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 45,
+       "additionalTime": 1,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::cdae414cf24d4ce384e8c8895da9463d"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d8993e9a894a4106a56f766d381b6510",
+     "providerId": "opta:Player:af5i86ypzrbbykkyh5tabbs44",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Velizar-Iliya",
+     "lastName": "Iliev",
+     "shirtName": "Velizar-Iliya Iliev",
+     "displayName": "Iliev",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::521d74f8dbe1415bb54378aabbf682c9",
+     "providerId": "opta:Player:apvsegsrcr043jtqe5mqxn88a",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Giuseppe",
+     "lastName": "Ciocci",
+     "shirtName": "Giuseppe Ciocci",
+     "displayName": "Ciocci",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4348f99e8c948f083f28386a7c61908",
+     "providerId": "opta:Player:cx7olq6m4no1tvyou3j58c2z8",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Riyad",
+     "lastName": "Idrissi",
+     "shirtName": "Riyad Idrissi",
+     "displayName": "Idrissi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::99890eab78bc4ef7b90a8afaff9ac22f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59",
+     "providerId": "opta:Player:c7u5a6ngr4f839ibw3b0opsk5",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Luca",
+     "lastName": "Mazzitelli",
+     "shirtName": "Luca Mazzitelli",
+     "displayName": "Mazzitelli",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3e8cfa0aff7945629977b49afe02b1c9"
+      },
+      {
+       "type": "yellow-card",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::cdae414cf24d4ce384e8c8895da9463d",
+     "providerId": "kama:Player:99028",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Semih",
+     "lastName": "Kılıçsoy ",
+     "shirtName": "Semih Kılıçsoy ",
+     "displayName": "Kılıçsoy",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 81,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::1048dd798cd64a7488fdbd7f37a43813"
+      },
+      {
+       "type": "yellow-card",
+       "time": 90,
+       "additionalTime": 7,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::06c65f309d6740948f30ef3425da1e88",
+     "providerId": "opta:Player:1ct0gujao4wvj1ff3aebqgqnd",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Gianluca",
+     "lastName": "Gaetano",
+     "shirtName": "G. Gaetano",
+     "displayName": "Gaetano",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6cd4530a22374a9e8b73d6614d93e5ee"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::629f6681748f4e0ebd90f9e418949897",
+     "providerId": "opta:Player:ancokw84xekm3uve7tnoiiju",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Mattia",
+     "lastName": "Felici",
+     "shirtName": "M. Felici",
+     "displayName": "Felici",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::300d27fc3b0a4b2291eb725d71183844",
+     "providerId": "opta:Player:cgv93t4k8bzl9neswrjfcdbai",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Alessandro",
+     "lastName": "Di Pardo",
+     "shirtName": "A. Di Pardo",
+     "displayName": "Di Pardo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::7ad851764d124ab193e66a115ed44cb4",
+     "providerId": "opta:Player:921amcj5jv6wu2p1qbbo4g2s4",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Nicolò",
+     "lastName": "Cavuoti",
+     "shirtName": "Nicolò Cavuoti",
+     "displayName": "Cavuoti",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cd8bd13a720740bbafbbdac81185d213",
+     "providerId": "opta:Player:7bcvk3jsssr5wkj8vgkng3tw4",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Alessandro",
+     "lastName": "Vinciguerra",
+     "shirtName": "Alessandro Vinciguerra",
+     "displayName": "Vinciguerra",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::bce17b00cb494129b8b8816fb595d74a",
+     "providerId": "opta:Player:e0gv5rugqtsipy89z4rk7hsoa",
+     "side": "home",
+     "team": "Cagliari",
+     "firstName": "Zito André Sebastião",
+     "lastName": "Luvumbo",
+     "shirtName": "Zito Luvumbo",
+     "displayName": "Luvumbo",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::42404b26d7774c9db2ebfa99c1458fba"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7eea4a3905274129bc4fdfec8574cc43",
+     "providerId": "opta:Player:e00004wkpfc8jawioejmpu1n9",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "David",
+     "lastName": "De Gea Quintana",
+     "shirtName": "David de Gea",
+     "displayName": "de Gea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a",
+     "providerId": "opta:Player:476nfumr6aadvufrqk72tq5be",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Ranieri",
+     "shirtName": "Luca Ranieri",
+     "displayName": "Ranieri",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::c590f7d118754da79d5abc5618322b51",
+     "providerId": "opta:Player:9e3t2wyjqzxsn690aysao8cfd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Domilson",
+     "lastName": "Cordeiro Dos Santo",
+     "shirtName": "Dodô",
+     "displayName": "Dodô",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63",
+     "providerId": "opta:Player:9srjp22oprs2tkcutb2g4o2dw",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pietro",
+     "lastName": "Comuzzo",
+     "shirtName": "Pietro Comuzzo",
+     "displayName": "Comuzzo",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6b877858b0d14ac5bf60e2c21de3dd40"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e3b915a243b401f8778ac66fa9fc8fb",
+     "providerId": "opta:Player:8j498fkairlyk82v1qprc13op",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Marin",
+     "lastName": "Pongračić",
+     "shirtName": "Marin Pongračić",
+     "displayName": "Pongračić",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc",
+     "providerId": "opta:Player:kvbjuvcseqk4sbr04ctkqi38",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Cher",
+     "lastName": "Ndour",
+     "shirtName": "Cher Ndour",
+     "displayName": "Ndour",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::000931a496414061b3387beb069c8593"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::80838af7be514e3fa7e32f7fb54b4f02",
+     "providerId": "opta:Player:9qow77e16pvlb3860yjpydryt",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Robin Everardus",
+     "lastName": "Gosens",
+     "shirtName": "Robin Gosens",
+     "displayName": "Gosens",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bdd90c3ccdea4e53b197641341c4c474",
+     "providerId": "opta:Player:87kiw3scnrpt6t0hsaqkgvpey",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Simon Solomon Junior",
+     "lastName": "Sohm",
+     "shirtName": "Simon Sohm",
+     "displayName": "Sohm",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e7c5f1fc7dab402bbdfbc2d47096fb30",
+     "providerId": "opta:Player:418gw0hpjoy8dt0ywaxjgm5pm",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nicolò",
+     "lastName": "Fagioli",
+     "shirtName": "Nicolò Fagioli",
+     "displayName": "Fagioli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::aae1a652a340492ab5fad6bbe36a74ac",
+     "providerId": "opta:Player:3zqpvn7r1c779l9vwwh7yukfd",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Bioty Moise",
+     "lastName": "Kean",
+     "shirtName": "Moise Kean",
+     "displayName": "Kean",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4",
+     "providerId": "opta:Player:ejzxqtdo5xxvbg6gvtju3lk9h",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Albert",
+     "lastName": "Guðmundsson",
+     "shirtName": "Albert Gudmundsson",
+     "displayName": "Guðmundsson",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d58bb19e4fac428c91c7d3d22c54aeb8",
+     "providerId": "opta:Player:bgwbowoiz7t2lvpit75zlqz11",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Luca",
+     "lastName": "Lezzerini",
+     "shirtName": "Luca Lezzerini",
+     "displayName": "Lezzerini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7010f5d11294dae84684c62572d4d6b",
+     "providerId": "opta:Player:4jh6mywmhugi4ltyhq5vd5ij8",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Tommaso",
+     "lastName": "Martinelli",
+     "shirtName": "Tommaso Martinelli",
+     "displayName": "Martinelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::000931a496414061b3387beb069c8593",
+     "providerId": "opta:Player:dpnp9rguhhs04of6vmlw5spg5",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Rolando",
+     "lastName": "Mandragora",
+     "shirtName": "Rolando Mandragora",
+     "displayName": "Mandragora",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a80d83f54453474eb794c18abcf799fc"
+      },
+      {
+       "type": "goal",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b3e34cb840d443e48360b4af40f06917",
+     "providerId": "emg:Player:DZKDN|opta:Player:a5eki9p236y4zxmp9qz202pcl",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Edin",
+     "lastName": "Dzeko",
+     "shirtName": "Edin Dzeko",
+     "displayName": "Džeko",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::90eeecf121054f999d0e49a2b844ebba",
+     "providerId": "opta:Player:3yl0m3n14kek9pwkp7catyh9l",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Abdelhamid",
+     "lastName": "Sabiri",
+     "shirtName": "Abdelhamid Sabiri",
+     "displayName": "Sabiri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6b877858b0d14ac5bf60e2c21de3dd40",
+     "providerId": "opta:Player:erdqr6vrr5tlfypbks3og0dlh",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Pablo",
+     "lastName": "Mari Villar",
+     "shirtName": "Pablo Marí",
+     "displayName": "Pablo Marí",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 62,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::16987377226b4cef9380d1aaa92e9a63"
+      },
+      {
+       "type": "yellow-card",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d3722009dbea4b7eb0f2c6bd3f21f7f5",
+     "providerId": "opta:Player:6e9fu9o226zn6jzx02jutvi3u",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Jacopo",
+     "lastName": "Fazzini",
+     "shirtName": "Jacopo Fazzini",
+     "displayName": "Fazzini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 73,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::00b2476da2394a2dba30220e84d3d9c4"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::fe9b2f009a9d4f1faef51ea3b9754e8f",
+     "providerId": "kama:Player:98383",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Eman",
+     "lastName": "Košpo",
+     "shirtName": "Eman Kospo",
+     "displayName": "Košpo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0ddde8a585e94c82bc75bf08263ed5ea",
+     "providerId": "opta:Player:45lcfmo0varfc325n562ul2j8",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Michael Amir Junior",
+     "lastName": "Richardson",
+     "shirtName": "Amir Richardson",
+     "displayName": "Richardson",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::67f64ae25db34819b53d6b0fb1818cfe",
+     "providerId": "opta:Player:2e0ipswbkv4vf7lav6ee1j3oq",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Mattia",
+     "lastName": "Viti",
+     "shirtName": "Mattia Viti",
+     "displayName": "Viti",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 45,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::76016d7a744d4da29bc352ec23f9920a"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b88e7ccc10414466b077dd6f50362122",
+     "providerId": "opta:Player:c4bccspnyg73206u27nhiwu1g",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Niccolo’",
+     "lastName": "Fortini",
+     "shirtName": "Niccolò Fortini",
+     "displayName": "Fortini",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ffa46ce5caca41adaf669146dda8ebcf",
+     "providerId": "kama:Player:1479",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Nda Konan Bienvenu Ange Eddy",
+     "lastName": "Kouadio",
+     "shirtName": "Eddy Kouadio",
+     "displayName": "Kouadio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::05d78c4a9e8243bc9408c728928b46a7",
+     "providerId": "kama:Player:5234",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Riccardo",
+     "lastName": "Braschi",
+     "shirtName": "Riccardo Braschi",
+     "displayName": "Braschi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8eab53215cb4486499eb3f489e10c646",
+     "providerId": "opta:Player:8dgh4fzut8khpt32d6dsrljsa",
+     "side": "away",
+     "team": "Fiorentina",
+     "firstName": "Fabiano",
+     "lastName": "Parisi",
+     "shirtName": "F. Parisi",
+     "displayName": "Parisi",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 77,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::80838af7be514e3fa7e32f7fb54b4f02"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T08:17:10.954Z",
+   "sha256": "0ba60e97cccd88f2d627edbd7f20fbad9db299301841d4b44f3503108a11478a"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T08:28:17.226Z",
+   "sha256": "60d606b1a7c8f23f361b7d31dd5f6021d7afcc268daed2ccc4a6518083c9ff91",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Caprile",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Luperto",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Mina",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zappa",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Obert",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Idrissi R.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Deiola",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mazzitelli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gaetano",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Adopo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Folorunsho",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Prati",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Esposito Se.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Luvumbo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Borrelli",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Cagliari",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kilicsoy",
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "De Gea",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Gosens",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ranieri L.",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marì",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Parisi",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Pongracic",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Viti",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dodò",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Comuzzo",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mandragora",
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fagioli",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sohm",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gudmundsson A.",
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6,
+     "fantavotoItalia": 7,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Fazzini",
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ndour",
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2025-26/1",
+      "estrattoIl": "2026-10-06T08:28:17.226Z"
+     },
+     "squadraRaw": "Fiorentina",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Kean",
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Cagliari 1 - 1 Fiorentina 24/08/2025 - 18:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}
