@@ -1,0 +1,105 @@
+# Raccolta STORICA di una stagione passata (Coach Beard, CB-AI-024). Sta in
+# .github/workflows/raccolta-storico.yml di verocholo/coach-beard-feed (PUBBLICO).
+# Si avvia a mano (Actions -> "Raccolta storico stagione" -> Run workflow) e si
+# ferma da solo quando la stagione e' completa: nessuna pianificazione.
+#
+# Differenze dal flusso di tutti i giorni (raccolta-feed.yml):
+#  - stagione passata (di norma 2025-26, elencata in config/legaSerieAApi.ts
+#    `history.seasons`): `node raccolta.mjs --storico`, che NON scrive il timbro
+#    di freschezza ne' `feed/stato.json` (descrivono la stagione in corso);
+#  - pausa di 1,5 secondi fra le richieste e al massimo 150 richieste per ciclo:
+#    una stagione sono ~380 formazioni + 38 pagine voti, quindi servono ~3 cicli,
+#    ripetuti nello stesso flusso; dopo ogni ciclo si salva (non si perde nulla
+#    se il flusso si interrompe: gli archivi sono append-only e si riprende);
+#  - stessa regola di concorrenza del flusso quotidiano: mai due scritture
+#    insieme sul ramo `dati`.
+# Segreti: gli stessi del flusso quotidiano (RACCOLTA_TOKEN).
+name: Raccolta storico stagione
+
+on:
+  workflow_dispatch:
+    inputs:
+      stagione:
+        description: 'Stagione passata da raccogliere (deve essere in history.seasons)'
+        required: true
+        default: '2025-26'
+
+concurrency:
+  group: raccolta-dati
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  RACCOLTA_REPOSITORY: verocholo/coach-beard-raccolta
+  STAGIONE: ${{ inputs.stagione }}
+
+jobs:
+  storico:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - name: Segreto presente?
+        env:
+          RACCOLTA_TOKEN: ${{ secrets.RACCOLTA_TOKEN }}
+        run: |
+          if [ -z "$RACCOLTA_TOKEN" ]; then
+            echo "::error::Segreto RACCOLTA_TOKEN assente: vedi docs/AI-023-RACCOLTA-CLOUD.md (Settings > Secrets and variables > Actions di questo repository)."
+            exit 1
+          fi
+
+      - name: Raccoglitore (repository privato, ramo principale)
+        env:
+          RACCOLTA_TOKEN: ${{ secrets.RACCOLTA_TOKEN }}
+        run: |
+          set -e
+          git clone --quiet --depth 1 "https://x-access-token:${RACCOLTA_TOKEN}@github.com/${RACCOLTA_REPOSITORY}.git" codice
+
+      - name: Archivi grezzi (repository privato, ramo dati, creato al primo giro)
+        env:
+          RACCOLTA_TOKEN: ${{ secrets.RACCOLTA_TOKEN }}
+        run: |
+          set -e
+          git clone --quiet "https://x-access-token:${RACCOLTA_TOKEN}@github.com/${RACCOLTA_REPOSITORY}.git" dati
+          cd dati
+          if git ls-remote --exit-code --heads origin dati >/dev/null 2>&1; then
+            git fetch --quiet origin dati
+            git checkout --quiet -B dati origin/dati
+          else
+            git checkout --quiet --orphan dati
+            git rm -rf --quiet . || true
+          fi
+
+      - name: Feed pubblico (questo repository)
+        run: |
+          set -e
+          git clone --quiet "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" feed
+          cd feed
+          git checkout --quiet -B main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Cicli di raccolta storica (salvataggio dopo ciascuno)
+        shell: bash
+        run: |
+          set -e
+          gunzip -c codice/raccolta.mjs.gz > raccolta.mjs
+          git config --global user.name "raccolta-dati"
+          git config --global user.email "raccolta-dati@users.noreply.github.com"
+          for ciclo in 1 2 3 4 5 6; do
+            echo "::group::Ciclo $ciclo"
+            node raccolta.mjs --storico --stagione="$STAGIONE" --radice=dati --feed=feed | tee ciclo.log
+            echo "::endgroup::"
+
+            # Salva gli archivi grezzi (repository privato, ramo dati).
+            ( cd dati && git add -A data && if git diff --cached --quiet; then echo "Archivi invariati."; else git commit --quiet -m "Raccolta storico $STAGIONE $(date -u +%Y-%m-%dT%H:%M:%SZ)" && git push --quiet origin dati; fi )
+
+            # Pubblica i numeri (questo repository).
+            ( cd feed && git add -A && if git diff --cached --quiet; then echo "Feed invariato."; else git commit --quiet -m "Feed storico $STAGIONE $(date -u +%Y-%m-%dT%H:%M:%SZ)" && git push --quiet origin main; fi )
+
+            if grep -q '^STORICO_ESITO=completo' ciclo.log; then echo "Stagione $STAGIONE completa."; break; fi
+            if grep -q '^STORICO_ESITO=fermo' ciclo.log; then echo "::warning::Nessun progresso possibile (richieste fallite o dati non ancora pubblicati): vedi il registro del ciclo."; break; fi
+          done
