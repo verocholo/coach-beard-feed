@@ -1,0 +1,1618 @@
+{
+ "label": "Frosinone-Atalanta (g2)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-06T20:37:10.208Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2023-08-26T16:30:00Z",
+  "hoursAfterKickoff": 27292.119502222224,
+  "observation": {
+   "retrievedAt": "2026-10-06T20:37:10.208Z",
+   "sha256": "4c687c71b84bc1d375efcf371bd841ee4ad705de13efcb1bf72a311504f331cc"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-06T20:48:22.080Z",
+  "sha256": "648279200e7fa6ab1fe377e5f3724110125a4ed9b0ff0424e95991eb3af565e5"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::e69184a29ebc4ca08a8187fb83d856a7",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2023-08-26T16:30:00Z",
+   "matchday": 2,
+   "home": "Frosinone",
+   "away": "Atalanta",
+   "homeTeamId": "serie-a::Football_Team::b283fcc0aeda401bb081fcd764e290db",
+   "awayTeamId": "serie-a::Football_Team::b5846a2413804c2e8cab8b773b18370a",
+   "homeScore": 2,
+   "awayScore": 1,
+   "clockTime": 90,
+   "clockAdditionalTime": 13
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::e69184a29ebc4ca08a8187fb83d856a7",
+   "homeTeam": "Frosinone",
+   "awayTeam": "Atalanta",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::aa2352632f484ea6bdc9a6249d3e9b57",
+     "providerId": "opta:Player:f8kcf2l4h2qzdww1vof5x9t5",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Michele",
+     "lastName": "Cerofolini",
+     "shirtName": "Michele Cerofolini",
+     "displayName": "Cerofolini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::61288ed31f3349c6b8bd5c61f1298e34",
+     "providerId": "opta:Player:37kr5th62ugmy4j55i3n45k2d",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Riccardo",
+     "lastName": "Marchizza",
+     "shirtName": "Riccardo Marchizza",
+     "displayName": "Marchizza",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c72904d1afac49048a5a46e4d04092b3",
+     "providerId": "opta:Player:9h01w81t6g5f5owrtipn9ybpx",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Simone",
+     "lastName": "Romagnoli",
+     "shirtName": "Simone Romagnoli",
+     "displayName": "Romagnoli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a224e4c6a01b4cb6b35fe7de75631270",
+     "providerId": "opta:Player:cbzfr0b3pjiknahduv488ogoa",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Ilario",
+     "lastName": "Monterisi",
+     "shirtName": "Ilario Monterisi",
+     "displayName": "Monterisi",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 24,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c72904d1afac49048a5a46e4d04092b3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1faf1073ff624a9f8376452649104d60",
+     "providerId": "opta:Player:3j2yog3zyussh0aq1xgz3e2cq",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Anthony Henri",
+     "lastName": "Oyono Omva Torque",
+     "shirtName": "Anthony Oyono",
+     "displayName": "A. Oyono",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fdd0841bb9d74fa6bec86c4a3cc92991",
+     "providerId": "opta:Player:5f5e6wufz0x041bvqzor10k16",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Enzo",
+     "lastName": "Barrenechea",
+     "shirtName": "E. Barrenechea",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 28,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::35b0aa3ababb43dab49a68d3aaeded59",
+     "providerId": "opta:Player:c7u5a6ngr4f839ibw3b0opsk5",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Luca",
+     "lastName": "Mazzitelli",
+     "shirtName": "Luca Mazzitelli",
+     "displayName": "Mazzitelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::484c0436c6304bedb654ca67e73d5a84",
+     "providerId": "opta:Player:74o97lnqpku6m9svks66qbend",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Abderrahman",
+     "lastName": "Harroui",
+     "shirtName": "Abdou Harroui",
+     "displayName": "Harroui",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 5,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::61288ed31f3349c6b8bd5c61f1298e34"
+      },
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ce22adadde2e47a5b0045c79e6171e79"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6c432b4270fe48f1a2980e4b1929a3f9",
+     "providerId": "opta:Player:87mcqd2i04rgbe5w0khsakij9",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Francesco",
+     "lastName": "Gelli",
+     "shirtName": "Francesco Gelli",
+     "displayName": "F. Gelli",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e70353c739994bbfbe289f6a6eb0f93e",
+     "providerId": "opta:Player:6ldly9c02sbh2ray6u6j6jro5",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Jaime",
+     "lastName": "Báez",
+     "shirtName": "J. Baez",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6f7f214423df4ece8ba328a74de16eaa"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4421d3312d534346a1d4a852d63728a5",
+     "providerId": "opta:Player:c23q56z612clw2oxpordhrwiy",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Walid",
+     "lastName": "Cheddira",
+     "shirtName": "Walid Cheddira",
+     "displayName": "Cheddira",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::04c7b4a141f248e4bf6f5c734f623b54"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::43815bb11f2e40c2ba31811279a1aa4d",
+     "providerId": "opta:Player:cf6s9r48j9nm47c2o0tld0gt0",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Lorenzo",
+     "lastName": "Palmisani",
+     "shirtName": "Lorenzo Palmisani",
+     "displayName": "Palmisani",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9364ee1aa1774dc6979753183f520511",
+     "providerId": "opta:Player:1f37bo8dikes3350u2a0h9hm2",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Marco",
+     "lastName": "Brescianini",
+     "shirtName": "Marco Brescianini",
+     "displayName": "Brescianini",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 74,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fdd0841bb9d74fa6bec86c4a3cc92991"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1048dd798cd64a7488fdbd7f37a43813",
+     "providerId": "opta:Player:8bjzw0pgu2gbwhyfm2k62hv8q",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Gennaro",
+     "lastName": "Borrelli",
+     "shirtName": "Gennaro Borrelli",
+     "displayName": "Borrelli",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b479449eb2d447eb8a318e5ffed8ab22",
+     "providerId": "opta:Player:8s8bz5lrm8hxhklp5en4hptgq",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Giuseppe",
+     "lastName": "Caso",
+     "shirtName": "Giuseppe Caso",
+     "displayName": "Caso",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::04c7b4a141f248e4bf6f5c734f623b54",
+     "providerId": "opta:Player:74pc3b81ffiakci87rjwg9xm2",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Marvin",
+     "lastName": "Cuni",
+     "shirtName": "Marvin Çuni",
+     "displayName": "Çuni",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4421d3312d534346a1d4a852d63728a5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6f7f214423df4ece8ba328a74de16eaa",
+     "providerId": "opta:Player:aynx9h96efsfkd0l1h8r8dsd1",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Luca",
+     "lastName": "Garritano",
+     "shirtName": "L. Garritano",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 60,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e70353c739994bbfbe289f6a6eb0f93e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0b042de974074786b4f062b303d0ce58",
+     "providerId": "opta:Player:2lx4dy8gdeox803t8iwmy2ivo",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Giorgi",
+     "lastName": "Kvernadze",
+     "shirtName": "Giorgi Kvernadze",
+     "displayName": "Kvernadze",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e11f759db9e048188efbaf70277d6ac1",
+     "providerId": "opta:Player:eabz9w7hs8w0bd734f6d8k8np",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Luigi",
+     "lastName": "Canotto",
+     "shirtName": "L. Canotto",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ce22adadde2e47a5b0045c79e6171e79",
+     "providerId": "opta:Player:32qof54p490n1ycjruex1avv9",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Przemyslaw",
+     "lastName": "Szyminski",
+     "shirtName": "P. Szyminski",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 82,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::484c0436c6304bedb654ca67e73d5a84"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::bcdf6f1814244ba3a5c77e701d70e9d5",
+     "providerId": "opta:Player:ejhehc60u68doxi62o8qcnz84",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Daniel",
+     "lastName": "Macej",
+     "shirtName": "D. Macej",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0e0e83d4947c476eac041473aabf73ad",
+     "providerId": "opta:Player:bvnzh2sq474xl2wj7jser1uz8",
+     "side": "home",
+     "team": "Frosinone",
+     "firstName": "Mateus Henrique",
+     "lastName": "Vanzelli Lusuardi",
+     "shirtName": "Mateus Lusuardi",
+     "displayName": "Lusuardi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::56608945092042e9bc064378802bec44",
+     "providerId": "opta:Player:7drgir9lcwfst8vxz07jboe6t",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Juan",
+     "lastName": "Musso",
+     "shirtName": "J. Musso",
+     "displayName": "",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8ef81865fbc0442caa1894f9118f4ca6",
+     "providerId": "opta:Player:9j742o5vdc7d54x1xdz4t9ck5",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Sead",
+     "lastName": "Kolašinac",
+     "shirtName": "Sead Kolašinac",
+     "displayName": "Kolašinac",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::6f1f74d51f704ff991834370d8ed339e",
+     "providerId": "opta:Player:2idy9ngk2rojseoxxw9n98c7p",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Berat",
+     "lastName": "Djimsiti",
+     "shirtName": "Berat Djimsiti",
+     "displayName": "Djimsiti",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ef3e81ac42d44d15b4f214bab327c742"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::1b6d0e19d5a44981b9deaf7f66a97818",
+     "providerId": "opta:Player:4cejhrr3ji36591xf54jue3ca",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Giorgio",
+     "lastName": "Scalvini",
+     "shirtName": "Giorgio Scalvini",
+     "displayName": "Scalvini",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f343b63a6bff4f5380e6ae1a4e618324",
+     "providerId": "opta:Player:a69r2pf2w8da4dl0zl4k5vil1",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Davide",
+     "lastName": "Zappacosta",
+     "shirtName": "Davide Zappacosta",
+     "displayName": "Zappacosta",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5b699b132951464d89c7e153fa681d49",
+     "providerId": "opta:Player:7mvqysbmyf6uj3jny3qpqw2ga",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Matteo",
+     "lastName": "Ruggeri",
+     "shirtName": "M. Ruggeri",
+     "displayName": "",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::60e29b104c19497b9f879c84faed6728"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7cdf9a3c8b6a46e39554faa2a4a102d7",
+     "providerId": "opta:Player:4aqkgskbra4wsoo7a8uw7xl9l",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Éderson José",
+     "lastName": "dos Santos Lourenço da Silva",
+     "shirtName": "Éderson",
+     "displayName": "Éderson",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::430712e4c44c415398a71ae60698f5b2",
+     "providerId": "opta:Player:9q01y4w4dwpaqf8lmpv9wnmc5",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Marten Elco",
+     "lastName": "de Roon",
+     "shirtName": "Marten de Roon",
+     "displayName": "de Roon",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 45,
+       "additionalTime": 4,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::b07576d30f0548efa6003ec696a8e447",
+     "providerId": "opta:Player:2ugzqrpaooto1r24a6kvqf2ll",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Teun",
+     "lastName": "Koopmeiners",
+     "shirtName": "Teun Koopmeiners",
+     "displayName": "Koopmeiners",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fa8793423f574374b968c141faabf725",
+     "providerId": "opta:Player:30gsjr0xlmjulnz227zfxga8l",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Duvan Esteban",
+     "lastName": "Zapata Banguero",
+     "shirtName": "Duván Zapata",
+     "displayName": "Zapata",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 56,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::7cdf9a3c8b6a46e39554faa2a4a102d7"
+      },
+      {
+       "type": "substitution-out",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::3c80144dd7c641b982628157e52a8852"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::6d745922e74d49bd8260da4144042beb",
+     "providerId": "opta:Player:8d04q3yp2kouwog0lj0s7ew2x",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Ademola Olajide",
+     "lastName": "Lookman",
+     "shirtName": "Ademola Lookman",
+     "displayName": "Lookman",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 40,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::adfb707431614df5aeec9b486a888815",
+     "providerId": "opta:Player:eu9b86opw6n66vftu1r5alfqh",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Marco",
+     "lastName": "Carnesecchi",
+     "shirtName": "M. Carnesecchi",
+     "displayName": "Carnesecchi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e68cd3c0e4804bdebfdb42961ace2285",
+     "providerId": "opta:Player:9sdrd6flk2jene11v193nm1n9",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Francesco",
+     "lastName": "Rossi",
+     "shirtName": "Francesco Rossi",
+     "displayName": "Rossi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::18797ae6eb8c45e887c916ad44c968ac",
+     "providerId": "opta:Player:cm6iy4b06qv9y6ww0hthqlwb9",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Rafael",
+     "lastName": "Tolói",
+     "shirtName": "R. Toloi",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f4f678b744a5416ab959cd7667d0d9b8",
+     "providerId": "opta:Player:e5nv028chtw0955vhnh74ukbu",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Caleb",
+     "lastName": "Okoli",
+     "shirtName": "C. Okoli",
+     "displayName": "",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::8d75af40732a49c4a2b7aa44b07be610",
+     "providerId": "opta:Player:2fsgc0b4mvwpenawmit0q0bmd",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Mario",
+     "lastName": "Pašalić",
+     "shirtName": "Mario Pašalić",
+     "displayName": "Pašalić",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::ef3e81ac42d44d15b4f214bab327c742",
+     "providerId": "opta:Player:ds719g843vjs279iine5otgid",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Luis",
+     "lastName": "Muriel",
+     "shirtName": "L. Muriel",
+     "displayName": "",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 75,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6f1f74d51f704ff991834370d8ed339e"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8e7d5be26c3d42ff9e36fd4aacf9f7ae",
+     "providerId": "opta:Player:7ox43isyywsnrfcd56nm65be",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Charles",
+     "lastName": "De Ketelaere",
+     "shirtName": "Charles De Ketelaere",
+     "displayName": "De Ketelaere",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::6d745922e74d49bd8260da4144042beb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::60e29b104c19497b9f879c84faed6728",
+     "providerId": "opta:Player:a41r2ob5fhirgdwxwox6nr4yx",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Mitchel",
+     "lastName": "Bakker",
+     "shirtName": "Mitchel Bakker",
+     "displayName": "Bakker",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 80,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5b699b132951464d89c7e153fa681d49"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf",
+     "providerId": "opta:Player:42m78ny1ggvmzmjtka7exyzqi",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Nadir",
+     "lastName": "Zortea",
+     "shirtName": "Nadir Zortea",
+     "displayName": "Zortea",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 46,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f343b63a6bff4f5380e6ae1a4e618324"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0d0f43d9fa874b839d9be10ca8ed2501",
+     "providerId": "opta:Player:43rid94d7jz7u5ba4xzb8bbe2",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Ndary Michel",
+     "lastName": "Adopo",
+     "shirtName": "Michel Adopo",
+     "displayName": "Adopo",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::3c80144dd7c641b982628157e52a8852",
+     "providerId": "opta:Player:4ml8pyt3rxwxakjxslg0c8kb9",
+     "side": "away",
+     "team": "Atalanta",
+     "firstName": "Gianluca",
+     "lastName": "Scamacca",
+     "shirtName": "Gianluca Scamacca",
+     "displayName": "Scamacca",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 68,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::fa8793423f574374b968c141faabf725"
+      }
+     ]
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-06T20:37:31.739Z",
+   "sha256": "c06dc61b44ba7b1a928bfab8f316120f8ad034b2a316b40bfd800c1bd4c572d8"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-06T20:48:22.080Z",
+   "sha256": "648279200e7fa6ab1fe377e5f3724110125a4ed9b0ff0424e95991eb3af565e5",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Musso",
+     "giocatoreIdFantacalcio": 2792,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 4,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 4,
+     "votoItalia": 6,
+     "fantavotoItalia": 4,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 2,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zappacosta",
+     "giocatoreIdFantacalcio": 554,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 4.5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Djimsiti",
+     "giocatoreIdFantacalcio": 787,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Kolasinac",
+     "giocatoreIdFantacalcio": 2640,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zortea",
+     "giocatoreIdFantacalcio": 4433,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bakker",
+     "giocatoreIdFantacalcio": 5067,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Ruggeri",
+     "giocatoreIdFantacalcio": 5354,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Scalvini",
+     "giocatoreIdFantacalcio": 5526,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "De Roon",
+     "giocatoreIdFantacalcio": 22,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Koopmeiners",
+     "giocatoreIdFantacalcio": 5685,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 5.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ederson D.s.",
+     "giocatoreIdFantacalcio": 5792,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 7.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 7.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "De Ketelaere",
+     "giocatoreIdFantacalcio": 5995,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Muriel",
+     "giocatoreIdFantacalcio": 507,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 5.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Zapata D.",
+     "giocatoreIdFantacalcio": 608,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 9.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 9.5,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Scamacca",
+     "giocatoreIdFantacalcio": 2137,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Atalanta",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Lookman",
+     "giocatoreIdFantacalcio": 4730,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 4.5,
+     "votoStatistico": 5,
+     "fantavotoStatistico": 4.5,
+     "votoItalia": 5,
+     "fantavotoItalia": 4.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Cerofolini",
+     "giocatoreIdFantacalcio": 2294,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 5.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 5.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Romagnoli S.",
+     "giocatoreIdFantacalcio": 76,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Marchizza",
+     "giocatoreIdFantacalcio": 2252,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 7,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Monterisi",
+     "giocatoreIdFantacalcio": 4952,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7.5,
+     "fantavotoStatistico": 10.5,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Szyminski",
+     "giocatoreIdFantacalcio": 6237,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Oyono",
+     "giocatoreIdFantacalcio": 6238,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Baez",
+     "giocatoreIdFantacalcio": 694,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mazzitelli",
+     "giocatoreIdFantacalcio": 1976,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Garritano",
+     "giocatoreIdFantacalcio": 2183,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Brescianini",
+     "giocatoreIdFantacalcio": 4947,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Harroui",
+     "giocatoreIdFantacalcio": 5688,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": 7,
+     "fantavotoStatistico": 10,
+     "votoItalia": 7,
+     "fantavotoItalia": 10,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Barrenechea",
+     "giocatoreIdFantacalcio": 6175,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Gelli",
+     "giocatoreIdFantacalcio": 6241,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": 6.5,
+     "fantavotoStatistico": 6.5,
+     "votoItalia": 6.5,
+     "fantavotoItalia": 6.5,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cuni",
+     "giocatoreIdFantacalcio": 6214,
+     "votoRedazione": null,
+     "fantavotoRedazione": null,
+     "votoStatistico": null,
+     "fantavotoStatistico": null,
+     "votoItalia": null,
+     "fantavotoItalia": null,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2023-24/2",
+      "estrattoIl": "2026-10-06T20:48:22.080Z"
+     },
+     "squadraRaw": "Frosinone",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Cheddira",
+     "giocatoreIdFantacalcio": 6439,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": 6,
+     "fantavotoStatistico": 6,
+     "votoItalia": 6,
+     "fantavotoItalia": 6,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Frosinone 2 - 1 Atalanta 26/08/2023 - 18:30"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 0,
+  "detail": "Nessuna osservazione del calendario con partita non conclusa dopo il calcio d'inizio: il confronto non è informativo."
+ }
+}
