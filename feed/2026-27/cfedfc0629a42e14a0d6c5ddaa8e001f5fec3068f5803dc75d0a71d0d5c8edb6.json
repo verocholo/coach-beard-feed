@@ -1,0 +1,1701 @@
+{
+ "label": "Bologna-Inter (g7)",
+ "stoppage": {
+  "source": "none",
+  "minutes": null,
+  "detail": "Nessuna osservazione dal vivo in fase di intervallo con orologio a fine primo tempo."
+ },
+ "end": {
+  "status": "confirmed-upper-bound",
+  "endedAt": "2026-10-17T18:50:16.683Z",
+  "endedAtBasis": "first-legaseriea-calendar-observation-finished",
+  "kickoffUtc": "2026-10-17T16:00:00Z",
+  "hoursAfterKickoff": 2.8379675,
+  "observation": {
+   "retrievedAt": "2026-10-17T18:50:16.683Z",
+   "sha256": "68b649f6cf06d9873d5b42755ba8b63d3eed3a5de12f85246e2976d84451b00d"
+  },
+  "inconsistencies": []
+ },
+ "votiPage": {
+  "retrievedAt": "2026-10-17T18:50:19.798Z",
+  "sha256": "e76ccd1bc5664fbf70273b38717dc56b51ff824531e02f1f562a0fac121d2e6e"
+ },
+ "build": {
+  "competition": "Italian Serie A",
+  "match": {
+   "matchId": "serie-a::Football_Match::96f25bcc9f15484da0a9a5260f15ac6d",
+   "status": "FINISHED",
+   "phase": "FULL_TIME",
+   "matchDateUtc": "2026-10-17T16:00:00Z",
+   "matchday": 7,
+   "home": "Bologna",
+   "away": "Inter",
+   "homeTeamId": "serie-a::Football_Team::4af71b35aab34ad5a7d06148abe66ad6",
+   "awayTeamId": "serie-a::Football_Team::b7421caff23448c49134fa4f9095ee09",
+   "homeScore": 1,
+   "awayScore": 3,
+   "clockTime": 90,
+   "clockAdditionalTime": 5
+  },
+  "lineups": {
+   "matchId": "serie-a::Football_Match::96f25bcc9f15484da0a9a5260f15ac6d",
+   "homeTeam": "Bologna",
+   "awayTeam": "Inter",
+   "players": [
+    {
+     "id": "serie-a::Football_Player::47c6788b77eb47bf90274613223577a4",
+     "providerId": "opta:Player:4hrmzpx1nt5ze55fpby71mcb9",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Łukasz",
+     "lastName": "Skorupski",
+     "shirtName": "Łukasz Skorupski",
+     "displayName": "Skorupski",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::b88831fb38814f73b581c0a71ecae7eb",
+     "providerId": "opta:Player:8qlz4omhgfnzyb2cgeou7xn56",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Arthur Nicolas",
+     "lastName": "Theate",
+     "shirtName": "Arthur Theate",
+     "displayName": "Theate",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 34,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::c7340c690ce54b1b93423b7300249755"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4cd4bfae3a13463d882e18735047e596",
+     "providerId": "opta:Player:emvmn561wgd62zj0s3qi5j5rd",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Juan",
+     "lastName": "Miranda Gonzalez",
+     "shirtName": "Juan Miranda",
+     "displayName": "Miranda",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 71,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ba6a619720134eb5a7e63dfe9cbfcccf",
+     "providerId": "opta:Player:42m78ny1ggvmzmjtka7exyzqi",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nadir",
+     "lastName": "Zortea",
+     "shirtName": "Nadir Zortea",
+     "displayName": "Zortea",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cd904e1336274300b8c5502705831d4b",
+     "providerId": "opta:Player:asyzhp3qu95vmzdbau6nmoic5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Matteo",
+     "lastName": "Darmian",
+     "shirtName": "Matteo Darmian",
+     "displayName": "Darmian",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::313bd55b6a874a0c8657fc0d8b1d0f40",
+     "providerId": "opta:Player:1x10v3yh4e3f1p2ndhtxcck4p",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Casale",
+     "shirtName": "Nicolò Casale",
+     "displayName": "Casale",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d3dc2a33059d45cf93bf965b8610b46b",
+     "providerId": "emg:Player:BRNFD|opta:Player:6kms3ctf8joymna289onk9lg5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Federico",
+     "lastName": "Bernardeschi",
+     "shirtName": "Federico Bernardeschi",
+     "displayName": "Bernardeschi",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 72,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f378fcb31cec4ca380fe22dafb5469fc",
+     "providerId": "opta:Player:ch5rw8dgb6wh99wyhd8o3t1pl",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Tommaso",
+     "lastName": "Pobega",
+     "shirtName": "Tommaso Pobega",
+     "displayName": "Pobega",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 10,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::4cd4bfae3a13463d882e18735047e596"
+      },
+      {
+       "type": "yellow-card",
+       "time": 57,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8ec2f1b5be494ffc85f43b9534b9da18",
+     "providerId": "opta:Player:bdb6j168crcrwje9k0titxv55",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lewis",
+     "lastName": "Ferguson",
+     "shirtName": "Lewis Ferguson",
+     "displayName": "L. Ferguson",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66",
+     "providerId": "opta:Player:d5m5q6dlc7vnbs634dinbsuwa",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nicolò",
+     "lastName": "Cambiaghi",
+     "shirtName": "Nicolò Cambiaghi",
+     "displayName": "Cambiaghi",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a8d5e937e3da4cf8889676f7969eba2f"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff",
+     "providerId": "opta:Player:31b0dvddmki2b2zvumesyrx4a",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Roberto",
+     "lastName": "Piccoli",
+     "shirtName": "Roberto Piccoli",
+     "displayName": "Piccoli",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 30,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::01bd32cd4d524b558ffc5548be892a37"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::2709aca071e3476cb9411d5d4c9a0270",
+     "providerId": "opta:Player:1bz1zdxmtx5oxipvukpg7svmc",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Massimo",
+     "lastName": "Pessina",
+     "shirtName": "Massimo Pessina",
+     "displayName": "Pessina",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::fc8c96a3795c459b8a3d0fc55c732800",
+     "providerId": "kama:Player:4381",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Ukko Antti Einari",
+     "lastName": "Happonen",
+     "shirtName": "Ukko Happonen",
+     "displayName": "Happonen",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::c7340c690ce54b1b93423b7300249755",
+     "providerId": "kama:Player:100611",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Eivind Fauske",
+     "lastName": "Helland",
+     "shirtName": "Eivind Helland",
+     "displayName": "Helland",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 63,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::b88831fb38814f73b581c0a71ecae7eb"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::e8dd45261d4e430c86c142715bfd6187",
+     "providerId": "opta:Player:6eqqtmbg35rg2stk10ic7q8k5",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Nikola",
+     "lastName": "Moro",
+     "shirtName": "Nikola Moro",
+     "displayName": "N. Moro",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f378fcb31cec4ca380fe22dafb5469fc"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::0abd73e0624041059a94a01510a062f6",
+     "providerId": "kama:Player:101732",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Mikel Jesus",
+     "lastName": "Amondarain",
+     "shirtName": "Mikel Amondarain",
+     "displayName": "Amondarain",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a8d5e937e3da4cf8889676f7969eba2f",
+     "providerId": "opta:Player:192q3f2xwk9nc6juoa1bcm3th",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Artem",
+     "lastName": "Dovbyk",
+     "shirtName": "Artem Dovbyk",
+     "displayName": "Dovbyk",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 76,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::0dc0fee6598f41a5a6c04adf23ebca66"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::af17805688ad437cbfb68eb1a8f6a11f",
+     "providerId": "opta:Player:58d87tochcm6hk4n6l7ua7jvu",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Samuel Germain",
+     "lastName": "Mbangula Tshifunda",
+     "shirtName": "Samuel Mbangula",
+     "displayName": "Mbangula",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::266904423255478690c9b4351f05d4ff",
+     "providerId": "kama:Player:99145",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Torbjørn Lysaker",
+     "lastName": "Heggem",
+     "shirtName": "Torbjørn Heggem",
+     "displayName": "Heggem",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::131d2b80a4454da0964792393ecbd5cb",
+     "providerId": "opta:Player:7a6hqi5iy91onh9u7l7t88tbe",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Oussama",
+     "lastName": "El Azzouzi",
+     "shirtName": "Oussama El Azzouzi",
+     "displayName": "O. El Azzouzi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cffe277d1e3e4f61978ac4c8f15a8ed4",
+     "providerId": "kama:Player:4342",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Marco",
+     "lastName": "Libra Alvarado",
+     "shirtName": "Marco Libra",
+     "displayName": "Libra",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::514c86d91e5f4747b7f4d791e1779947",
+     "providerId": "opta:Player:1t7nph4960rjzu7rgi47sf8ix",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Jens",
+     "lastName": "Odgaard",
+     "shirtName": "Jens Odgaard",
+     "displayName": "Odgaard",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::01bd32cd4d524b558ffc5548be892a37",
+     "providerId": "opta:Player:96hvhj2ridutroyglbiwotxck",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Jay Ifeanyi-Junior",
+     "lastName": "Enem",
+     "shirtName": "Jay Enem",
+     "displayName": "Enem",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 30,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::d9a23c8a0b9c4865b2397dc66bca78ff"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4eeab58f21184cb39ce0c37b55fdebfb",
+     "providerId": "kama:Player:101573",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Abdel Rahim",
+     "lastName": "Alhassane Bonkano",
+     "shirtName": "Rahim Alhassane",
+     "displayName": "Alhassane",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::00cd48cb80e248218b454785178f6839",
+     "providerId": "opta:Player:3cbwh4pfwae5xw072cy14gb85",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Lorenzo",
+     "lastName": "De Silvestri",
+     "shirtName": "Lorenzo De Silvestri",
+     "displayName": "De Silvestri",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9efa092039cb45689a389ed539961558",
+     "providerId": "opta:Player:7m3wseg5lilrkzatyvc2yemay",
+     "side": "home",
+     "team": "Bologna",
+     "firstName": "Martin",
+     "lastName": "Vitik",
+     "shirtName": "Martin Vitík",
+     "displayName": "Vitík",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::5bc6e2f303c14386be2919d9d3c6c0a1",
+     "providerId": "opta:Player:3yqxkw0tqpoucur51ieh9xdrd",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Josep",
+     "lastName": "Martinez Riera",
+     "shirtName": "Josep Martínez",
+     "displayName": "J. Martínez",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::cd9e41c44ff14e98b2b9be8ad250dcd9",
+     "providerId": "kama:Player:99389",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Manuel",
+     "lastName": "Akanji",
+     "shirtName": "Manuel Akanji",
+     "displayName": "Akanji",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::77b61833f0db49729ebf0ad5342a5ba8",
+     "providerId": "opta:Player:q6ns1fyw7w10xkkubh8etfc9",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Alessandro",
+     "lastName": "Bastoni",
+     "shirtName": "Alessandro Bastoni",
+     "displayName": "Bastoni",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::4b050d8d189243d8acf6f32df3e5e74a",
+     "providerId": "opta:Player:280fh7f5q9lud8lk8reyu7fxm",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Yann Aurel",
+     "lastName": "Bisseck",
+     "shirtName": "Yann Bisseck",
+     "displayName": "Bisseck",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::a4da6f1068d1444eafe0a0d5e775aa42",
+     "providerId": "opta:Player:ahgd3on22t4h7gg9ipnj1itw5",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Nicolò",
+     "lastName": "Barella",
+     "shirtName": "Nicolò Barella",
+     "displayName": "Barella",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::d8f199c7790c48b79e1706b1535a0704",
+     "providerId": "opta:Player:6u7iuum6kqfwb4pbw5lsoff56",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Petar",
+     "lastName": "Sučić",
+     "shirtName": "Petar Sučić",
+     "displayName": "Sučić",
+     "starter": true,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3",
+     "providerId": "opta:Player:dpcws493fepch23sk26m1a8yd",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Piotr Sebastian",
+     "lastName": "Zielinski",
+     "shirtName": "Piotr Zieliński",
+     "displayName": "Zieliński",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f0a9b20016914b8691db2fc83568fe0b"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::07b9aa070bab4074bcd41776db3c7c8d",
+     "providerId": "opta:Player:19856wqwrmzmvfw9thf0tzrv9",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Federico",
+     "lastName": "Dimarco",
+     "shirtName": "Federico Dimarco",
+     "displayName": "Dimarco",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f7e0ecad1aa04f53959bd22f68cfbf70"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::5ae8256e5ca241d8989a52214266c640",
+     "providerId": "opta:Player:7rfw6pyjslb3p5q7gmoj1ysmi",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Luis Henrique",
+     "lastName": "Tomaz De Lima",
+     "shirtName": "Luis Henrique",
+     "displayName": "Luis Henrique",
+     "starter": true,
+     "events": [
+      {
+       "type": "substitution-out",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::131c52b96557488498ca630e1e1ecbb0"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::a98a0f54d53c4a4d9961f08b995147c5",
+     "providerId": "opta:Player:66nvc8a4kd3cyeyj3i474cudx",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Marcus Lilian",
+     "lastName": "Thuram Ulien",
+     "shirtName": "Marcus Thuram",
+     "displayName": "M. Thuram",
+     "starter": true,
+     "events": [
+      {
+       "type": "goal",
+       "time": 44,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a4da6f1068d1444eafe0a0d5e775aa42"
+      },
+      {
+       "type": "yellow-card",
+       "time": 61,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::ac04e2006b104030909b682c7db38853"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::8499dfc3c937488ebcd3b256ba01263f",
+     "providerId": "opta:Player:1v6nfd46wx11jbfertslccbo4",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Francesco Pio",
+     "lastName": "Esposito",
+     "shirtName": "Francesco Pio Esposito",
+     "displayName": "P. Esposito",
+     "starter": true,
+     "events": [
+      {
+       "type": "yellow-card",
+       "time": 35,
+       "additionalTime": 0,
+       "phase": "FIRST_HALF",
+       "relatedPlayerId": null
+      },
+      {
+       "type": "substitution-out",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::9037ff0e7e834729838dceb4b44250bf"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::7a09fe6eeeb141cab3226c7f028f8f10",
+     "providerId": "opta:Player:1e95np0v66lmp2qysqq8f33rp",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Raffaele",
+     "lastName": "Di Gennaro",
+     "shirtName": "Raffaele Di Gennaro",
+     "displayName": "Di Gennaro",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::e0e39e3ec3b643a1b0d325ae86516cf9",
+     "providerId": "opta:Player:8n4rruxbnzvjgdomxslnmcno5",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Ivan",
+     "lastName": "Provedel",
+     "shirtName": "Ivan Provedel",
+     "displayName": "Provedel",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::f35c56e1c8b144c89117342ff668e400",
+     "providerId": "opta:Player:10lpk2wft7zsd1fa38ulbakno",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Aleksandar",
+     "lastName": "Stanković",
+     "shirtName": "Aleksandar Stanković",
+     "displayName": "A. Stanković",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::9037ff0e7e834729838dceb4b44250bf",
+     "providerId": "opta:Player:ejbp3sxls7lgrg6y3a9q4u978",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Ange-Yoan Laure",
+     "lastName": "Bonny",
+     "shirtName": "Ange-Yoan Bonny",
+     "displayName": "Bonny",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 58,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::8499dfc3c937488ebcd3b256ba01263f"
+      },
+      {
+       "type": "goal",
+       "time": 83,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::f7e0ecad1aa04f53959bd22f68cfbf70"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::131c52b96557488498ca630e1e1ecbb0",
+     "providerId": "kama:Player:99199",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Andy",
+     "lastName": "Diouf",
+     "shirtName": "Andy Diouf",
+     "displayName": "Diouf",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::5ae8256e5ca241d8989a52214266c640"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f0a9b20016914b8691db2fc83568fe0b",
+     "providerId": "opta:Player:botfgp0oq4wqlwtcs9m90kded",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Hakan",
+     "lastName": "Calhanoglu",
+     "shirtName": "Hakan Çalhanoglu",
+     "displayName": "Çalhanoğlu",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::ac04e2006b104030909b682c7db38853",
+     "providerId": "opta:Player:1xscywgyfqisqexmpfvbf9g45",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Henrikh",
+     "lastName": "Mkhitaryan",
+     "shirtName": "Henrikh Mkhitaryan",
+     "displayName": "Mkhitaryan",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::a98a0f54d53c4a4d9961f08b995147c5"
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::f7e0ecad1aa04f53959bd22f68cfbf70",
+     "providerId": "opta:Player:4d17grk2qflzake218uz76uei",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Carlos Augusto",
+     "lastName": "Zopolato Neves",
+     "shirtName": "Carlos Augusto",
+     "displayName": "Carlos Augusto",
+     "starter": false,
+     "events": [
+      {
+       "type": "substitution-in",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::07b9aa070bab4074bcd41776db3c7c8d"
+      },
+      {
+       "type": "goal",
+       "time": 69,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": "serie-a::Football_Player::61f61cb0d0294be996186f3ff3dca8e3"
+      },
+      {
+       "type": "yellow-card",
+       "time": 79,
+       "additionalTime": 0,
+       "phase": "SECOND_HALF",
+       "relatedPlayerId": null
+      }
+     ]
+    },
+    {
+     "id": "serie-a::Football_Player::4ecf5e13a9d44866966c914613f3627f",
+     "providerId": "kama:Player:1473",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Leonardo Noah",
+     "lastName": "Bovio",
+     "shirtName": "Leonardo Bovio",
+     "displayName": "Bovio",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::805d257fbfa549b0a1aa967cbb2003fc",
+     "providerId": "kama:Player:4532",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Mattia",
+     "lastName": "Mosconi",
+     "shirtName": "Mattia Mosconi",
+     "displayName": "Mosconi",
+     "starter": false,
+     "events": []
+    },
+    {
+     "id": "serie-a::Football_Player::1876d2823c774c2aa0256c5865f60594",
+     "providerId": "opta:Player:9irgn82qm11logbhup51rg5wp",
+     "side": "away",
+     "team": "Inter",
+     "firstName": "Diop Tehuti Djed-Hotep",
+     "lastName": "Spence",
+     "shirtName": "Djed Spence",
+     "displayName": "Spence",
+     "starter": false,
+     "events": []
+    }
+   ],
+   "unknownEventTypes": []
+  },
+  "lineupsSource": {
+   "retrievedAt": "2026-10-17T18:50:17.402Z",
+   "sha256": "322933ce9fcbe3cd1bcedad178f44cd3bc83bf081568c408bd4280f972b34d36"
+  },
+  "fantacalcio": {
+   "retrievedAt": "2026-10-17T18:50:19.798Z",
+   "sha256": "e76ccd1bc5664fbf70273b38717dc56b51ff824531e02f1f562a0fac121d2e6e",
+   "rows": [
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Skorupski",
+     "giocatoreIdFantacalcio": 133,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 3,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 3,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Darmian",
+     "giocatoreIdFantacalcio": 2525,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Zortea",
+     "giocatoreIdFantacalcio": 4433,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Miranda J.",
+     "giocatoreIdFantacalcio": 4734,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Casale",
+     "giocatoreIdFantacalcio": 5498,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Theate",
+     "giocatoreIdFantacalcio": 5675,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Helland",
+     "giocatoreIdFantacalcio": 7326,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Bernardeschi",
+     "giocatoreIdFantacalcio": 184,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Cambiaghi",
+     "giocatoreIdFantacalcio": 4436,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Pobega",
+     "giocatoreIdFantacalcio": 5298,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Ferguson",
+     "giocatoreIdFantacalcio": 5858,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Moro N.",
+     "giocatoreIdFantacalcio": 6054,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Piccoli",
+     "giocatoreIdFantacalcio": 4359,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Dovbyk",
+     "giocatoreIdFantacalcio": 6675,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Bologna",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Enem",
+     "giocatoreIdFantacalcio": 7627,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "P",
+     "giocatoreRaw": "Martinez Jo.",
+     "giocatoreIdFantacalcio": 5116,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 1,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Dimarco",
+     "giocatoreIdFantacalcio": 254,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bastoni",
+     "giocatoreIdFantacalcio": 2120,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Akanji",
+     "giocatoreIdFantacalcio": 4159,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Carlos Augusto",
+     "giocatoreIdFantacalcio": 5877,
+     "votoRedazione": 7.5,
+     "fantavotoRedazione": 11,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": true
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "D",
+     "giocatoreRaw": "Bisseck",
+     "giocatoreIdFantacalcio": 6217,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Zielinski",
+     "giocatoreIdFantacalcio": 152,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Barella",
+     "giocatoreIdFantacalcio": 1870,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 7.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 1,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Calhanoglu",
+     "giocatoreIdFantacalcio": 2194,
+     "votoRedazione": 6,
+     "fantavotoRedazione": 6,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Mkhitaryan",
+     "giocatoreIdFantacalcio": 2529,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Luis Henrique",
+     "giocatoreIdFantacalcio": 5301,
+     "votoRedazione": 5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Diouf",
+     "giocatoreIdFantacalcio": 6274,
+     "votoRedazione": 6.5,
+     "fantavotoRedazione": 6.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "C",
+     "giocatoreRaw": "Sucic P.",
+     "giocatoreIdFantacalcio": 7070,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Thuram",
+     "giocatoreIdFantacalcio": 4871,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 9.5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Bonny",
+     "giocatoreIdFantacalcio": 6669,
+     "votoRedazione": 7,
+     "fantavotoRedazione": 10,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 1,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    },
+    {
+     "source": {
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/7",
+      "estrattoIl": "2026-10-17T18:50:19.798Z"
+     },
+     "squadraRaw": "Inter",
+     "ruoloRaw": "A",
+     "giocatoreRaw": "Esposito F.P.",
+     "giocatoreIdFantacalcio": 7071,
+     "votoRedazione": 5.5,
+     "fantavotoRedazione": 5,
+     "votoStatistico": null,
+     "fantavotoStatistico": 0,
+     "votoItalia": null,
+     "fantavotoItalia": 0,
+     "bonusMalus": {
+      "golSegnati": 0,
+      "golSubiti": 0,
+      "autoreti": 0,
+      "rigoriSegnati": 0,
+      "rigoriSbagliati": 0,
+      "rigoriParati": 0,
+      "assist": 0,
+      "playerOfTheMatch": false
+     },
+     "partitaTesto": "Bologna 1 - 3 Inter 17/10/2026 - 18:00"
+    }
+   ]
+  }
+ },
+ "votiAssumption": {
+  "verdict": "no-violation-observed",
+  "comparable": 1,
+  "detail": "1 osservazioni del calendario con partita non conclusa, tutte precedenti ai voti."
+ }
+}
